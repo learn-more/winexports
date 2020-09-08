@@ -1,0 +1,643 @@
+{
+  "Version": "5.2.3790.3959-I386",
+  "md5": "834981b4008b9fb027702281518fd6f0",
+  "imphash": "834981b4008b9fb027702281518fd6f0",
+  "InternalName": "iphlpapi.dll",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "IP Helper API",
+  "FileVersion": "5.2.3790.3959 (srv03_sp2_rtm.070216-1710)",
+  "ProductVersion": "5.2.3790.3959",
+  "PeChecksum": 160434,
+  "Size": 100864,
+  "Machine": "I386",
+  "exports": [
+    {
+      "ordinal": 1,
+      "name": "AddIPAddress"
+    },
+    {
+      "ordinal": 2,
+      "name": "AllocateAndGetArpEntTableFromStack"
+    },
+    {
+      "ordinal": 3,
+      "name": "AllocateAndGetIfTableFromStack"
+    },
+    {
+      "ordinal": 4,
+      "name": "AllocateAndGetIpAddrTableFromStack"
+    },
+    {
+      "ordinal": 5,
+      "name": "AllocateAndGetIpForwardTableFromStack"
+    },
+    {
+      "ordinal": 6,
+      "name": "AllocateAndGetIpNetTableFromStack"
+    },
+    {
+      "ordinal": 7,
+      "name": "AllocateAndGetTcpExTable2FromStack"
+    },
+    {
+      "ordinal": 8,
+      "name": "AllocateAndGetTcpExTableFromStack"
+    },
+    {
+      "ordinal": 9,
+      "name": "AllocateAndGetTcpTableFromStack"
+    },
+    {
+      "ordinal": 10,
+      "name": "AllocateAndGetUdpExTable2FromStack"
+    },
+    {
+      "ordinal": 11,
+      "name": "AllocateAndGetUdpExTableFromStack"
+    },
+    {
+      "ordinal": 12,
+      "name": "AllocateAndGetUdpTableFromStack"
+    },
+    {
+      "ordinal": 13,
+      "name": "CancelIPChangeNotify"
+    },
+    {
+      "ordinal": 14,
+      "name": "CancelSecurityHealthChangeNotify"
+    },
+    {
+      "ordinal": 15,
+      "name": "CreateIpForwardEntry"
+    },
+    {
+      "ordinal": 16,
+      "name": "CreateIpNetEntry"
+    },
+    {
+      "ordinal": 17,
+      "name": "CreateProxyArpEntry"
+    },
+    {
+      "ordinal": 18,
+      "name": "DeleteIPAddress"
+    },
+    {
+      "ordinal": 19,
+      "name": "DeleteIpForwardEntry"
+    },
+    {
+      "ordinal": 20,
+      "name": "DeleteIpNetEntry"
+    },
+    {
+      "ordinal": 21,
+      "name": "DeleteProxyArpEntry"
+    },
+    {
+      "ordinal": 22,
+      "name": "DisableMediaSense"
+    },
+    {
+      "ordinal": 23,
+      "name": "EnableRouter"
+    },
+    {
+      "ordinal": 24,
+      "name": "FlushIpNetTable"
+    },
+    {
+      "ordinal": 25,
+      "name": "FlushIpNetTableFromStack"
+    },
+    {
+      "ordinal": 26,
+      "name": "GetAdapterIndex"
+    },
+    {
+      "ordinal": 27,
+      "name": "GetAdapterOrderMap"
+    },
+    {
+      "ordinal": 28,
+      "name": "GetAdaptersAddresses"
+    },
+    {
+      "ordinal": 29,
+      "name": "GetAdaptersInfo"
+    },
+    {
+      "ordinal": 30,
+      "name": "GetBestInterface"
+    },
+    {
+      "ordinal": 31,
+      "name": "GetBestInterfaceEx"
+    },
+    {
+      "ordinal": 32,
+      "name": "GetBestInterfaceFromStack"
+    },
+    {
+      "ordinal": 33,
+      "name": "GetBestRoute"
+    },
+    {
+      "ordinal": 34,
+      "name": "GetBestRouteFromStack"
+    },
+    {
+      "ordinal": 35,
+      "name": "GetExtendedTcpTable"
+    },
+    {
+      "ordinal": 36,
+      "name": "GetExtendedUdpTable"
+    },
+    {
+      "ordinal": 37,
+      "name": "GetFriendlyIfIndex"
+    },
+    {
+      "ordinal": 38,
+      "name": "GetIcmpStatistics"
+    },
+    {
+      "ordinal": 39,
+      "name": "GetIcmpStatisticsEx"
+    },
+    {
+      "ordinal": 40,
+      "name": "GetIcmpStatsFromStack"
+    },
+    {
+      "ordinal": 41,
+      "name": "GetIcmpStatsFromStackEx"
+    },
+    {
+      "ordinal": 42,
+      "name": "GetIfEntry"
+    },
+    {
+      "ordinal": 43,
+      "name": "GetIfEntryFromStack"
+    },
+    {
+      "ordinal": 44,
+      "name": "GetIfTable"
+    },
+    {
+      "ordinal": 45,
+      "name": "GetIfTableFromStack"
+    },
+    {
+      "ordinal": 46,
+      "name": "GetIgmpList"
+    },
+    {
+      "ordinal": 47,
+      "name": "GetInterfaceInfo"
+    },
+    {
+      "ordinal": 48,
+      "name": "GetIpAddrTable"
+    },
+    {
+      "ordinal": 49,
+      "name": "GetIpAddrTableFromStack"
+    },
+    {
+      "ordinal": 50,
+      "name": "GetIpErrorString"
+    },
+    {
+      "ordinal": 51,
+      "name": "GetIpForwardTable"
+    },
+    {
+      "ordinal": 52,
+      "name": "GetIpForwardTableFromStack"
+    },
+    {
+      "ordinal": 53,
+      "name": "GetIpNetTable"
+    },
+    {
+      "ordinal": 54,
+      "name": "GetIpNetTableFromStack"
+    },
+    {
+      "ordinal": 55,
+      "name": "GetIpStatistics"
+    },
+    {
+      "ordinal": 56,
+      "name": "GetIpStatisticsEx"
+    },
+    {
+      "ordinal": 57,
+      "name": "GetIpStatsFromStack"
+    },
+    {
+      "ordinal": 58,
+      "name": "GetIpStatsFromStackEx"
+    },
+    {
+      "ordinal": 59,
+      "name": "GetNetworkParams"
+    },
+    {
+      "ordinal": 60,
+      "name": "GetNumberOfInterfaces"
+    },
+    {
+      "ordinal": 61,
+      "name": "GetOwnerModuleFromTcp6Entry"
+    },
+    {
+      "ordinal": 62,
+      "name": "GetOwnerModuleFromTcpEntry"
+    },
+    {
+      "ordinal": 63,
+      "name": "GetOwnerModuleFromUdp6Entry"
+    },
+    {
+      "ordinal": 64,
+      "name": "GetOwnerModuleFromUdpEntry"
+    },
+    {
+      "ordinal": 65,
+      "name": "GetPerAdapterInfo"
+    },
+    {
+      "ordinal": 66,
+      "name": "GetRTTAndHopCount"
+    },
+    {
+      "ordinal": 67,
+      "name": "GetTcpExTable2FromStack"
+    },
+    {
+      "ordinal": 68,
+      "name": "GetTcpStatistics"
+    },
+    {
+      "ordinal": 69,
+      "name": "GetTcpStatisticsEx"
+    },
+    {
+      "ordinal": 70,
+      "name": "GetTcpStatsFromStack"
+    },
+    {
+      "ordinal": 71,
+      "name": "GetTcpStatsFromStackEx"
+    },
+    {
+      "ordinal": 72,
+      "name": "GetTcpTable"
+    },
+    {
+      "ordinal": 73,
+      "name": "GetTcpTableFromStack"
+    },
+    {
+      "ordinal": 74,
+      "name": "GetUdpExTable2FromStack"
+    },
+    {
+      "ordinal": 75,
+      "name": "GetUdpStatistics"
+    },
+    {
+      "ordinal": 76,
+      "name": "GetUdpStatisticsEx"
+    },
+    {
+      "ordinal": 77,
+      "name": "GetUdpStatsFromStack"
+    },
+    {
+      "ordinal": 78,
+      "name": "GetUdpStatsFromStackEx"
+    },
+    {
+      "ordinal": 79,
+      "name": "GetUdpTable"
+    },
+    {
+      "ordinal": 80,
+      "name": "GetUdpTableFromStack"
+    },
+    {
+      "ordinal": 81,
+      "name": "GetUniDirectionalAdapterInfo"
+    },
+    {
+      "ordinal": 82,
+      "name": "Icmp6CreateFile"
+    },
+    {
+      "ordinal": 83,
+      "name": "Icmp6ParseReplies"
+    },
+    {
+      "ordinal": 84,
+      "name": "Icmp6SendEcho2"
+    },
+    {
+      "ordinal": 85,
+      "name": "IcmpCloseHandle"
+    },
+    {
+      "ordinal": 86,
+      "name": "IcmpCreateFile"
+    },
+    {
+      "ordinal": 87,
+      "name": "IcmpParseReplies"
+    },
+    {
+      "ordinal": 89,
+      "name": "IcmpSendEcho"
+    },
+    {
+      "ordinal": 88,
+      "name": "IcmpSendEcho2"
+    },
+    {
+      "ordinal": 90,
+      "name": "InternalCreateIpForwardEntry"
+    },
+    {
+      "ordinal": 91,
+      "name": "InternalCreateIpNetEntry"
+    },
+    {
+      "ordinal": 92,
+      "name": "InternalDeleteIpForwardEntry"
+    },
+    {
+      "ordinal": 93,
+      "name": "InternalDeleteIpNetEntry"
+    },
+    {
+      "ordinal": 94,
+      "name": "InternalGetIfTable"
+    },
+    {
+      "ordinal": 95,
+      "name": "InternalGetIpAddrTable"
+    },
+    {
+      "ordinal": 96,
+      "name": "InternalGetIpForwardTable"
+    },
+    {
+      "ordinal": 97,
+      "name": "InternalGetIpNetTable"
+    },
+    {
+      "ordinal": 98,
+      "name": "InternalGetTcpTable"
+    },
+    {
+      "ordinal": 99,
+      "name": "InternalGetUdpTable"
+    },
+    {
+      "ordinal": 100,
+      "name": "InternalSetIfEntry"
+    },
+    {
+      "ordinal": 101,
+      "name": "InternalSetIpForwardEntry"
+    },
+    {
+      "ordinal": 102,
+      "name": "InternalSetIpNetEntry"
+    },
+    {
+      "ordinal": 103,
+      "name": "InternalSetIpStats"
+    },
+    {
+      "ordinal": 104,
+      "name": "InternalSetTcpEntry"
+    },
+    {
+      "ordinal": 105,
+      "name": "IpReleaseAddress"
+    },
+    {
+      "ordinal": 106,
+      "name": "IpRenewAddress"
+    },
+    {
+      "ordinal": 107,
+      "name": "IsLocalAddress"
+    },
+    {
+      "ordinal": 108,
+      "name": "NTPTimeToNTFileTime"
+    },
+    {
+      "ordinal": 109,
+      "name": "NTTimeToNTPTime"
+    },
+    {
+      "ordinal": 110,
+      "name": "NhGetGuidFromInterfaceName"
+    },
+    {
+      "ordinal": 111,
+      "name": "NhGetInterfaceNameFromDeviceGuid"
+    },
+    {
+      "ordinal": 112,
+      "name": "NhGetInterfaceNameFromGuid"
+    },
+    {
+      "ordinal": 113,
+      "name": "NhpAllocateAndGetInterfaceInfoFromStack"
+    },
+    {
+      "ordinal": 114,
+      "name": "NhpGetInterfaceIndexFromStack"
+    },
+    {
+      "ordinal": 115,
+      "name": "NotifyAddrChange"
+    },
+    {
+      "ordinal": 116,
+      "name": "NotifyRouteChange"
+    },
+    {
+      "ordinal": 117,
+      "name": "NotifyRouteChangeEx"
+    },
+    {
+      "ordinal": 118,
+      "name": "NotifySecurityHealthChange"
+    },
+    {
+      "ordinal": 135,
+      "name": "RestoreMediaSense"
+    },
+    {
+      "ordinal": 136,
+      "name": "SendARP"
+    },
+    {
+      "ordinal": 137,
+      "name": "SetAdapterIpAddress"
+    },
+    {
+      "ordinal": 138,
+      "name": "SetBlockRoutes"
+    },
+    {
+      "ordinal": 139,
+      "name": "SetIfEntry"
+    },
+    {
+      "ordinal": 140,
+      "name": "SetIfEntryToStack"
+    },
+    {
+      "ordinal": 141,
+      "name": "SetIpForwardEntry"
+    },
+    {
+      "ordinal": 142,
+      "name": "SetIpForwardEntryToStack"
+    },
+    {
+      "ordinal": 143,
+      "name": "SetIpMultihopRouteEntryToStack"
+    },
+    {
+      "ordinal": 144,
+      "name": "SetIpNetEntry"
+    },
+    {
+      "ordinal": 145,
+      "name": "SetIpNetEntryToStack"
+    },
+    {
+      "ordinal": 146,
+      "name": "SetIpRouteEntryToStack"
+    },
+    {
+      "ordinal": 147,
+      "name": "SetIpStatistics"
+    },
+    {
+      "ordinal": 148,
+      "name": "SetIpStatsToStack"
+    },
+    {
+      "ordinal": 149,
+      "name": "SetIpTTL"
+    },
+    {
+      "ordinal": 150,
+      "name": "SetProxyArpEntryToStack"
+    },
+    {
+      "ordinal": 151,
+      "name": "SetRouteWithRef"
+    },
+    {
+      "ordinal": 152,
+      "name": "SetTcpEntry"
+    },
+    {
+      "ordinal": 153,
+      "name": "SetTcpEntryToStack"
+    },
+    {
+      "ordinal": 154,
+      "name": "UnenableRouter"
+    },
+    {
+      "ordinal": 119,
+      "name": "_PfAddFiltersToInterface@24"
+    },
+    {
+      "ordinal": 120,
+      "name": "_PfAddGlobalFilterToInterface@8"
+    },
+    {
+      "ordinal": 121,
+      "name": "_PfBindInterfaceToIPAddress@12"
+    },
+    {
+      "ordinal": 122,
+      "name": "_PfBindInterfaceToIndex@16"
+    },
+    {
+      "ordinal": 123,
+      "name": "_PfCreateInterface@24"
+    },
+    {
+      "ordinal": 124,
+      "name": "_PfDeleteInterface@4"
+    },
+    {
+      "ordinal": 125,
+      "name": "_PfDeleteLog@0"
+    },
+    {
+      "ordinal": 126,
+      "name": "_PfGetInterfaceStatistics@16"
+    },
+    {
+      "ordinal": 127,
+      "name": "_PfMakeLog@4"
+    },
+    {
+      "ordinal": 128,
+      "name": "_PfRebindFilters@8"
+    },
+    {
+      "ordinal": 129,
+      "name": "_PfRemoveFilterHandles@12"
+    },
+    {
+      "ordinal": 130,
+      "name": "_PfRemoveFiltersFromInterface@20"
+    },
+    {
+      "ordinal": 131,
+      "name": "_PfRemoveGlobalFilterFromInterface@8"
+    },
+    {
+      "ordinal": 132,
+      "name": "_PfSetLogBuffer@28"
+    },
+    {
+      "ordinal": 133,
+      "name": "_PfTestPacket@20"
+    },
+    {
+      "ordinal": 134,
+      "name": "_PfUnBindInterface@4"
+    },
+    {
+      "ordinal": 155,
+      "name": "do_echo_rep"
+    },
+    {
+      "ordinal": 156,
+      "name": "do_echo_req"
+    },
+    {
+      "ordinal": 157,
+      "name": "register_icmp"
+    }
+  ]
+}

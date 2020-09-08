@@ -1,0 +1,815 @@
+{
+  "Version": "5.2.3790.3959-I386",
+  "md5": "f4538127eed0412ef9c1d40b962a9f42",
+  "imphash": "f4538127eed0412ef9c1d40b962a9f42",
+  "InternalName": "winspool.drv",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "Windows Spooler Driver",
+  "FileVersion": "5.2.3790.3959 (srv03_sp2_rtm.070216-1710)",
+  "ProductVersion": "5.2.3790.3959",
+  "PeChecksum": 244875,
+  "Size": 181760,
+  "Machine": "I386",
+  "exports": [
+    {
+      "ordinal": 107,
+      "name": "ADVANCEDSETUPDIALOG"
+    },
+    {
+      "ordinal": 108,
+      "name": "AbortPrinter"
+    },
+    {
+      "ordinal": 109,
+      "name": "AddFormA"
+    },
+    {
+      "ordinal": 110,
+      "name": "AddFormW"
+    },
+    {
+      "ordinal": 111,
+      "name": "AddJobA"
+    },
+    {
+      "ordinal": 112,
+      "name": "AddJobW"
+    },
+    {
+      "ordinal": 113,
+      "name": "AddMonitorA"
+    },
+    {
+      "ordinal": 114,
+      "name": "AddMonitorW"
+    },
+    {
+      "ordinal": 115,
+      "name": "AddPortA"
+    },
+    {
+      "ordinal": 116,
+      "name": "AddPortExA"
+    },
+    {
+      "ordinal": 117,
+      "name": "AddPortExW"
+    },
+    {
+      "ordinal": 118,
+      "name": "AddPortW"
+    },
+    {
+      "ordinal": 119,
+      "name": "AddPrintProcessorA"
+    },
+    {
+      "ordinal": 120,
+      "name": "AddPrintProcessorW"
+    },
+    {
+      "ordinal": 121,
+      "name": "AddPrintProvidorA"
+    },
+    {
+      "ordinal": 122,
+      "name": "AddPrintProvidorW"
+    },
+    {
+      "ordinal": 123,
+      "name": "AddPrinterA"
+    },
+    {
+      "ordinal": 124,
+      "name": "AddPrinterConnectionA"
+    },
+    {
+      "ordinal": 125,
+      "name": "AddPrinterConnectionW"
+    },
+    {
+      "ordinal": 126,
+      "name": "AddPrinterDriverA"
+    },
+    {
+      "ordinal": 127,
+      "name": "AddPrinterDriverExA"
+    },
+    {
+      "ordinal": 128,
+      "name": "AddPrinterDriverExW"
+    },
+    {
+      "ordinal": 129,
+      "name": "AddPrinterDriverW"
+    },
+    {
+      "ordinal": 130,
+      "name": "AddPrinterW"
+    },
+    {
+      "ordinal": 131,
+      "name": "AdvancedDocumentPropertiesA"
+    },
+    {
+      "ordinal": 132,
+      "name": "AdvancedDocumentPropertiesW"
+    },
+    {
+      "ordinal": 133,
+      "name": "AdvancedSetupDialog"
+    },
+    {
+      "ordinal": 134,
+      "name": "ClosePrinter"
+    },
+    {
+      "ordinal": 135,
+      "name": "CloseSpoolFileHandle"
+    },
+    {
+      "ordinal": 136,
+      "name": "CommitSpoolData"
+    },
+    {
+      "ordinal": 137,
+      "name": "ConfigurePortA"
+    },
+    {
+      "ordinal": 138,
+      "name": "ConfigurePortW"
+    },
+    {
+      "ordinal": 139,
+      "name": "ConnectToPrinterDlg"
+    },
+    {
+      "ordinal": 140,
+      "name": "ConvertAnsiDevModeToUnicodeDevmode"
+    },
+    {
+      "ordinal": 141,
+      "name": "ConvertUnicodeDevModeToAnsiDevmode"
+    },
+    {
+      "ordinal": 142,
+      "name": "CreatePrinterIC"
+    },
+    {
+      "ordinal": 143,
+      "name": "DEVICECAPABILITIES"
+    },
+    {
+      "ordinal": 144,
+      "name": "DEVICEMODE"
+    },
+    {
+      "ordinal": 145,
+      "name": "DeleteFormA"
+    },
+    {
+      "ordinal": 146,
+      "name": "DeleteFormW"
+    },
+    {
+      "ordinal": 147,
+      "name": "DeleteMonitorA"
+    },
+    {
+      "ordinal": 148,
+      "name": "DeleteMonitorW"
+    },
+    {
+      "ordinal": 149,
+      "name": "DeletePortA"
+    },
+    {
+      "ordinal": 150,
+      "name": "DeletePortW"
+    },
+    {
+      "ordinal": 151,
+      "name": "DeletePrintProcessorA"
+    },
+    {
+      "ordinal": 152,
+      "name": "DeletePrintProcessorW"
+    },
+    {
+      "ordinal": 153,
+      "name": "DeletePrintProvidorA"
+    },
+    {
+      "ordinal": 154,
+      "name": "DeletePrintProvidorW"
+    },
+    {
+      "ordinal": 155,
+      "name": "DeletePrinter"
+    },
+    {
+      "ordinal": 156,
+      "name": "DeletePrinterConnectionA"
+    },
+    {
+      "ordinal": 157,
+      "name": "DeletePrinterConnectionW"
+    },
+    {
+      "ordinal": 158,
+      "name": "DeletePrinterDataA"
+    },
+    {
+      "ordinal": 159,
+      "name": "DeletePrinterDataExA"
+    },
+    {
+      "ordinal": 160,
+      "name": "DeletePrinterDataExW"
+    },
+    {
+      "ordinal": 161,
+      "name": "DeletePrinterDataW"
+    },
+    {
+      "ordinal": 162,
+      "name": "DeletePrinterDriverA"
+    },
+    {
+      "ordinal": 163,
+      "name": "DeletePrinterDriverExA"
+    },
+    {
+      "ordinal": 164,
+      "name": "DeletePrinterDriverExW"
+    },
+    {
+      "ordinal": 165,
+      "name": "DeletePrinterDriverW"
+    },
+    {
+      "ordinal": 166,
+      "name": "DeletePrinterIC"
+    },
+    {
+      "ordinal": 167,
+      "name": "DeletePrinterKeyA"
+    },
+    {
+      "ordinal": 168,
+      "name": "DeletePrinterKeyW"
+    },
+    {
+      "ordinal": 169,
+      "name": "DevQueryPrint"
+    },
+    {
+      "ordinal": 170,
+      "name": "DevQueryPrintEx"
+    },
+    {
+      "ordinal": 171,
+      "name": "DeviceCapabilities"
+    },
+    {
+      "ordinal": 172,
+      "name": "DeviceCapabilitiesA"
+    },
+    {
+      "ordinal": 173,
+      "name": "DeviceCapabilitiesW"
+    },
+    {
+      "ordinal": 174,
+      "name": "DeviceMode"
+    },
+    {
+      "ordinal": 175,
+      "name": "DevicePropertySheets"
+    },
+    {
+      "ordinal": 176,
+      "name": "DocumentEvent"
+    },
+    {
+      "ordinal": 177,
+      "name": "DocumentPropertiesA"
+    },
+    {
+      "ordinal": 178,
+      "name": "DocumentPropertiesW"
+    },
+    {
+      "ordinal": 179,
+      "name": "DocumentPropertySheets"
+    },
+    {
+      "ordinal": 180,
+      "name": "EXTDEVICEMODE"
+    },
+    {
+      "ordinal": 181,
+      "name": "EndDocPrinter"
+    },
+    {
+      "ordinal": 182,
+      "name": "EndPagePrinter"
+    },
+    {
+      "ordinal": 183,
+      "name": "EnumFormsA"
+    },
+    {
+      "ordinal": 184,
+      "name": "EnumFormsW"
+    },
+    {
+      "ordinal": 185,
+      "name": "EnumJobsA"
+    },
+    {
+      "ordinal": 186,
+      "name": "EnumJobsW"
+    },
+    {
+      "ordinal": 187,
+      "name": "EnumMonitorsA"
+    },
+    {
+      "ordinal": 188,
+      "name": "EnumMonitorsW"
+    },
+    {
+      "ordinal": 189,
+      "name": "EnumPortsA"
+    },
+    {
+      "ordinal": 190,
+      "name": "EnumPortsW"
+    },
+    {
+      "ordinal": 191,
+      "name": "EnumPrintProcessorDatatypesA"
+    },
+    {
+      "ordinal": 192,
+      "name": "EnumPrintProcessorDatatypesW"
+    },
+    {
+      "ordinal": 193,
+      "name": "EnumPrintProcessorsA"
+    },
+    {
+      "ordinal": 194,
+      "name": "EnumPrintProcessorsW"
+    },
+    {
+      "ordinal": 195,
+      "name": "EnumPrinterDataA"
+    },
+    {
+      "ordinal": 196,
+      "name": "EnumPrinterDataExA"
+    },
+    {
+      "ordinal": 197,
+      "name": "EnumPrinterDataExW"
+    },
+    {
+      "ordinal": 198,
+      "name": "EnumPrinterDataW"
+    },
+    {
+      "ordinal": 199,
+      "name": "EnumPrinterDriversA"
+    },
+    {
+      "ordinal": 200,
+      "name": "EnumPrinterDriversW"
+    },
+    {
+      "ordinal": 225,
+      "name": "EnumPrinterKeyA"
+    },
+    {
+      "ordinal": 233,
+      "name": "EnumPrinterKeyW"
+    },
+    {
+      "ordinal": 234,
+      "name": "EnumPrintersA"
+    },
+    {
+      "ordinal": 235,
+      "name": "EnumPrintersW"
+    },
+    {
+      "ordinal": 236,
+      "name": "ExtDeviceMode"
+    },
+    {
+      "ordinal": 237,
+      "name": "FindClosePrinterChangeNotification"
+    },
+    {
+      "ordinal": 238,
+      "name": "FindFirstPrinterChangeNotification"
+    },
+    {
+      "ordinal": 239,
+      "name": "FindNextPrinterChangeNotification"
+    },
+    {
+      "ordinal": 240,
+      "name": "FlushPrinter"
+    },
+    {
+      "ordinal": 241,
+      "name": "FreePrinterNotifyInfo"
+    },
+    {
+      "ordinal": 201,
+      "name": "GetDefaultPrinterA"
+    },
+    {
+      "ordinal": 203,
+      "name": "GetDefaultPrinterW"
+    },
+    {
+      "ordinal": 242,
+      "name": "GetFormA"
+    },
+    {
+      "ordinal": 243,
+      "name": "GetFormW"
+    },
+    {
+      "ordinal": 244,
+      "name": "GetJobA"
+    },
+    {
+      "ordinal": 245,
+      "name": "GetJobW"
+    },
+    {
+      "ordinal": 246,
+      "name": "GetPrintProcessorDirectoryA"
+    },
+    {
+      "ordinal": 247,
+      "name": "GetPrintProcessorDirectoryW"
+    },
+    {
+      "ordinal": 248,
+      "name": "GetPrinterA"
+    },
+    {
+      "ordinal": 249,
+      "name": "GetPrinterDataA"
+    },
+    {
+      "ordinal": 250,
+      "name": "GetPrinterDataExA"
+    },
+    {
+      "ordinal": 251,
+      "name": "GetPrinterDataExW"
+    },
+    {
+      "ordinal": 252,
+      "name": "GetPrinterDataW"
+    },
+    {
+      "ordinal": 253,
+      "name": "GetPrinterDriverA"
+    },
+    {
+      "ordinal": 254,
+      "name": "GetPrinterDriverDirectoryA"
+    },
+    {
+      "ordinal": 255,
+      "name": "GetPrinterDriverDirectoryW"
+    },
+    {
+      "ordinal": 256,
+      "name": "GetPrinterDriverW"
+    },
+    {
+      "ordinal": 257,
+      "name": "GetPrinterW"
+    },
+    {
+      "ordinal": 258,
+      "name": "GetSpoolFileHandle"
+    },
+    {
+      "ordinal": 259,
+      "name": "IsValidDevmodeA"
+    },
+    {
+      "ordinal": 260,
+      "name": "IsValidDevmodeW"
+    },
+    {
+      "ordinal": 261,
+      "name": "OpenPrinterA"
+    },
+    {
+      "ordinal": 262,
+      "name": "OpenPrinterW"
+    },
+    {
+      "ordinal": 104,
+      "name": "PerfClose"
+    },
+    {
+      "ordinal": 105,
+      "name": "PerfCollect"
+    },
+    {
+      "ordinal": 106,
+      "name": "PerfOpen"
+    },
+    {
+      "ordinal": 263,
+      "name": "PlayGdiScriptOnPrinterIC"
+    },
+    {
+      "ordinal": 264,
+      "name": "PrinterMessageBoxA"
+    },
+    {
+      "ordinal": 265,
+      "name": "PrinterMessageBoxW"
+    },
+    {
+      "ordinal": 266,
+      "name": "PrinterProperties"
+    },
+    {
+      "ordinal": 267,
+      "name": "QueryColorProfile"
+    },
+    {
+      "ordinal": 268,
+      "name": "QueryRemoteFonts"
+    },
+    {
+      "ordinal": 269,
+      "name": "QuerySpoolMode"
+    },
+    {
+      "ordinal": 270,
+      "name": "ReadPrinter"
+    },
+    {
+      "ordinal": 271,
+      "name": "ResetPrinterA"
+    },
+    {
+      "ordinal": 272,
+      "name": "ResetPrinterW"
+    },
+    {
+      "ordinal": 273,
+      "name": "ScheduleJob"
+    },
+    {
+      "ordinal": 274,
+      "name": "SeekPrinter"
+    },
+    {
+      "ordinal": 275,
+      "name": "SetAllocFailCount"
+    },
+    {
+      "ordinal": 202,
+      "name": "SetDefaultPrinterA"
+    },
+    {
+      "ordinal": 204,
+      "name": "SetDefaultPrinterW"
+    },
+    {
+      "ordinal": 276,
+      "name": "SetFormA"
+    },
+    {
+      "ordinal": 277,
+      "name": "SetFormW"
+    },
+    {
+      "ordinal": 278,
+      "name": "SetJobA"
+    },
+    {
+      "ordinal": 279,
+      "name": "SetJobW"
+    },
+    {
+      "ordinal": 280,
+      "name": "SetPortA"
+    },
+    {
+      "ordinal": 281,
+      "name": "SetPortW"
+    },
+    {
+      "ordinal": 282,
+      "name": "SetPrinterA"
+    },
+    {
+      "ordinal": 283,
+      "name": "SetPrinterDataA"
+    },
+    {
+      "ordinal": 284,
+      "name": "SetPrinterDataExA"
+    },
+    {
+      "ordinal": 285,
+      "name": "SetPrinterDataExW"
+    },
+    {
+      "ordinal": 286,
+      "name": "SetPrinterDataW"
+    },
+    {
+      "ordinal": 287,
+      "name": "SetPrinterW"
+    },
+    {
+      "ordinal": 288,
+      "name": "SplDriverUnloadComplete"
+    },
+    {
+      "ordinal": 289,
+      "name": "SpoolerDevQueryPrintW"
+    },
+    {
+      "ordinal": 290,
+      "name": "SpoolerInit"
+    },
+    {
+      "ordinal": 291,
+      "name": "SpoolerPrinterEvent"
+    },
+    {
+      "ordinal": 292,
+      "name": "StartDocDlgA"
+    },
+    {
+      "ordinal": 293,
+      "name": "StartDocDlgW"
+    },
+    {
+      "ordinal": 294,
+      "name": "StartDocPrinterA"
+    },
+    {
+      "ordinal": 295,
+      "name": "StartDocPrinterW"
+    },
+    {
+      "ordinal": 296,
+      "name": "StartPagePrinter"
+    },
+    {
+      "ordinal": 297,
+      "name": "WaitForPrinterChange"
+    },
+    {
+      "ordinal": 298,
+      "name": "WritePrinter"
+    },
+    {
+      "ordinal": 299,
+      "name": "XcvDataW"
+    },
+    {
+      "ordinal": 100,
+      "name": null
+    },
+    {
+      "ordinal": 101,
+      "name": null
+    },
+    {
+      "ordinal": 102,
+      "name": null
+    },
+    {
+      "ordinal": 103,
+      "name": null
+    },
+    {
+      "ordinal": 205,
+      "name": null
+    },
+    {
+      "ordinal": 206,
+      "name": null
+    },
+    {
+      "ordinal": 207,
+      "name": null
+    },
+    {
+      "ordinal": 208,
+      "name": null
+    },
+    {
+      "ordinal": 209,
+      "name": null
+    },
+    {
+      "ordinal": 210,
+      "name": null
+    },
+    {
+      "ordinal": 211,
+      "name": null
+    },
+    {
+      "ordinal": 212,
+      "name": null
+    },
+    {
+      "ordinal": 213,
+      "name": null
+    },
+    {
+      "ordinal": 214,
+      "name": null
+    },
+    {
+      "ordinal": 215,
+      "name": null
+    },
+    {
+      "ordinal": 216,
+      "name": null
+    },
+    {
+      "ordinal": 217,
+      "name": null
+    },
+    {
+      "ordinal": 218,
+      "name": null
+    },
+    {
+      "ordinal": 219,
+      "name": null
+    },
+    {
+      "ordinal": 220,
+      "name": null
+    },
+    {
+      "ordinal": 221,
+      "name": null
+    },
+    {
+      "ordinal": 222,
+      "name": null
+    },
+    {
+      "ordinal": 223,
+      "name": null
+    },
+    {
+      "ordinal": 224,
+      "name": null
+    },
+    {
+      "ordinal": 226,
+      "name": null
+    },
+    {
+      "ordinal": 227,
+      "name": null
+    },
+    {
+      "ordinal": 228,
+      "name": null
+    },
+    {
+      "ordinal": 229,
+      "name": null
+    },
+    {
+      "ordinal": 230,
+      "name": null
+    },
+    {
+      "ordinal": 231,
+      "name": null
+    },
+    {
+      "ordinal": 232,
+      "name": null
+    }
+  ]
+}

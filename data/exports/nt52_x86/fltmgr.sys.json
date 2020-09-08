@@ -1,0 +1,667 @@
+{
+  "Version": "5.2.3790.3959-I386",
+  "md5": "dd81697db45f6e214c1c0e8f526f7db2",
+  "imphash": "dd81697db45f6e214c1c0e8f526f7db2",
+  "InternalName": "fltMgr.sys",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "Microsoft Filesystem Filter Manager",
+  "FileVersion": "5.2.3790.3959 (srv03_sp2_rtm.070216-1710)",
+  "ProductVersion": "5.2.3790.3959",
+  "PeChecksum": 577397,
+  "Size": 512000,
+  "Machine": "I386",
+  "exports": [
+    {
+      "ordinal": 3,
+      "name": "FltAcquirePushLockExclusive"
+    },
+    {
+      "ordinal": 4,
+      "name": "FltAcquirePushLockShared"
+    },
+    {
+      "ordinal": 5,
+      "name": "FltAcquireResourceExclusive"
+    },
+    {
+      "ordinal": 6,
+      "name": "FltAcquireResourceShared"
+    },
+    {
+      "ordinal": 7,
+      "name": "FltAllocateCallbackData"
+    },
+    {
+      "ordinal": 8,
+      "name": "FltAllocateContext"
+    },
+    {
+      "ordinal": 9,
+      "name": "FltAllocateDeferredIoWorkItem"
+    },
+    {
+      "ordinal": 10,
+      "name": "FltAllocateFileLock"
+    },
+    {
+      "ordinal": 11,
+      "name": "FltAllocateGenericWorkItem"
+    },
+    {
+      "ordinal": 12,
+      "name": "FltAllocatePoolAlignedWithTag"
+    },
+    {
+      "ordinal": 13,
+      "name": "FltAttachVolume"
+    },
+    {
+      "ordinal": 14,
+      "name": "FltAttachVolumeAtAltitude"
+    },
+    {
+      "ordinal": 15,
+      "name": "FltBuildDefaultSecurityDescriptor"
+    },
+    {
+      "ordinal": 16,
+      "name": "FltCancelFileOpen"
+    },
+    {
+      "ordinal": 17,
+      "name": "FltCancelIo"
+    },
+    {
+      "ordinal": 18,
+      "name": "FltCbdqDisable"
+    },
+    {
+      "ordinal": 19,
+      "name": "FltCbdqEnable"
+    },
+    {
+      "ordinal": 20,
+      "name": "FltCbdqInitialize"
+    },
+    {
+      "ordinal": 21,
+      "name": "FltCbdqInsertIo"
+    },
+    {
+      "ordinal": 22,
+      "name": "FltCbdqRemoveIo"
+    },
+    {
+      "ordinal": 23,
+      "name": "FltCbdqRemoveNextIo"
+    },
+    {
+      "ordinal": 24,
+      "name": "FltCheckAndGrowNameControl"
+    },
+    {
+      "ordinal": 25,
+      "name": "FltCheckLockForReadAccess"
+    },
+    {
+      "ordinal": 26,
+      "name": "FltCheckLockForWriteAccess"
+    },
+    {
+      "ordinal": 27,
+      "name": "FltCheckOplock"
+    },
+    {
+      "ordinal": 28,
+      "name": "FltClearCallbackDataDirty"
+    },
+    {
+      "ordinal": 29,
+      "name": "FltClearCancelCompletion"
+    },
+    {
+      "ordinal": 30,
+      "name": "FltClose"
+    },
+    {
+      "ordinal": 31,
+      "name": "FltCloseClientPort"
+    },
+    {
+      "ordinal": 32,
+      "name": "FltCloseCommunicationPort"
+    },
+    {
+      "ordinal": 33,
+      "name": "FltCompareInstanceAltitudes"
+    },
+    {
+      "ordinal": 34,
+      "name": "FltCompletePendedPostOperation"
+    },
+    {
+      "ordinal": 35,
+      "name": "FltCompletePendedPreOperation"
+    },
+    {
+      "ordinal": 36,
+      "name": "FltCreateCommunicationPort"
+    },
+    {
+      "ordinal": 37,
+      "name": "FltCreateFile"
+    },
+    {
+      "ordinal": 38,
+      "name": "FltCreateFileEx"
+    },
+    {
+      "ordinal": 39,
+      "name": "FltCreateSystemVolumeInformationFolder"
+    },
+    {
+      "ordinal": 40,
+      "name": "FltCurrentBatchOplock"
+    },
+    {
+      "ordinal": 41,
+      "name": "FltDecodeParameters"
+    },
+    {
+      "ordinal": 42,
+      "name": "FltDeleteContext"
+    },
+    {
+      "ordinal": 43,
+      "name": "FltDeleteFileContext"
+    },
+    {
+      "ordinal": 44,
+      "name": "FltDeleteInstanceContext"
+    },
+    {
+      "ordinal": 45,
+      "name": "FltDeletePushLock"
+    },
+    {
+      "ordinal": 46,
+      "name": "FltDeleteStreamContext"
+    },
+    {
+      "ordinal": 47,
+      "name": "FltDeleteStreamHandleContext"
+    },
+    {
+      "ordinal": 48,
+      "name": "FltDeleteVolumeContext"
+    },
+    {
+      "ordinal": 49,
+      "name": "FltDetachVolume"
+    },
+    {
+      "ordinal": 50,
+      "name": "FltDeviceIoControlFile"
+    },
+    {
+      "ordinal": 51,
+      "name": "FltDoCompletionProcessingWhenSafe"
+    },
+    {
+      "ordinal": 52,
+      "name": "FltEnumerateFilterInformation"
+    },
+    {
+      "ordinal": 53,
+      "name": "FltEnumerateFilters"
+    },
+    {
+      "ordinal": 54,
+      "name": "FltEnumerateInstanceInformationByFilter"
+    },
+    {
+      "ordinal": 55,
+      "name": "FltEnumerateInstanceInformationByVolume"
+    },
+    {
+      "ordinal": 56,
+      "name": "FltEnumerateInstances"
+    },
+    {
+      "ordinal": 57,
+      "name": "FltEnumerateVolumeInformation"
+    },
+    {
+      "ordinal": 58,
+      "name": "FltEnumerateVolumes"
+    },
+    {
+      "ordinal": 59,
+      "name": "FltFlushBuffers"
+    },
+    {
+      "ordinal": 60,
+      "name": "FltFreeCallbackData"
+    },
+    {
+      "ordinal": 61,
+      "name": "FltFreeDeferredIoWorkItem"
+    },
+    {
+      "ordinal": 62,
+      "name": "FltFreeFileLock"
+    },
+    {
+      "ordinal": 63,
+      "name": "FltFreeGenericWorkItem"
+    },
+    {
+      "ordinal": 64,
+      "name": "FltFreePoolAlignedWithTag"
+    },
+    {
+      "ordinal": 65,
+      "name": "FltFreeSecurityDescriptor"
+    },
+    {
+      "ordinal": 66,
+      "name": "FltFsControlFile"
+    },
+    {
+      "ordinal": 67,
+      "name": "FltGetBottomInstance"
+    },
+    {
+      "ordinal": 68,
+      "name": "FltGetContexts"
+    },
+    {
+      "ordinal": 69,
+      "name": "FltGetDestinationFileNameInformation"
+    },
+    {
+      "ordinal": 70,
+      "name": "FltGetDeviceObject"
+    },
+    {
+      "ordinal": 71,
+      "name": "FltGetDiskDeviceObject"
+    },
+    {
+      "ordinal": 72,
+      "name": "FltGetFileContext"
+    },
+    {
+      "ordinal": 73,
+      "name": "FltGetFileNameInformation"
+    },
+    {
+      "ordinal": 74,
+      "name": "FltGetFileNameInformationUnsafe"
+    },
+    {
+      "ordinal": 75,
+      "name": "FltGetFilterFromInstance"
+    },
+    {
+      "ordinal": 76,
+      "name": "FltGetFilterFromName"
+    },
+    {
+      "ordinal": 77,
+      "name": "FltGetFilterInformation"
+    },
+    {
+      "ordinal": 78,
+      "name": "FltGetInstanceContext"
+    },
+    {
+      "ordinal": 79,
+      "name": "FltGetInstanceInformation"
+    },
+    {
+      "ordinal": 80,
+      "name": "FltGetIrpName"
+    },
+    {
+      "ordinal": 81,
+      "name": "FltGetLowerInstance"
+    },
+    {
+      "ordinal": 82,
+      "name": "FltGetRequestorProcess"
+    },
+    {
+      "ordinal": 83,
+      "name": "FltGetRequestorProcessId"
+    },
+    {
+      "ordinal": 84,
+      "name": "FltGetRoutineAddress"
+    },
+    {
+      "ordinal": 85,
+      "name": "FltGetStreamContext"
+    },
+    {
+      "ordinal": 86,
+      "name": "FltGetStreamHandleContext"
+    },
+    {
+      "ordinal": 1,
+      "name": "FltGetSwappedBufferMdlAddress"
+    },
+    {
+      "ordinal": 87,
+      "name": "FltGetTopInstance"
+    },
+    {
+      "ordinal": 88,
+      "name": "FltGetTunneledName"
+    },
+    {
+      "ordinal": 89,
+      "name": "FltGetUpperInstance"
+    },
+    {
+      "ordinal": 90,
+      "name": "FltGetVolumeContext"
+    },
+    {
+      "ordinal": 91,
+      "name": "FltGetVolumeFromDeviceObject"
+    },
+    {
+      "ordinal": 92,
+      "name": "FltGetVolumeFromFileObject"
+    },
+    {
+      "ordinal": 93,
+      "name": "FltGetVolumeFromInstance"
+    },
+    {
+      "ordinal": 94,
+      "name": "FltGetVolumeFromName"
+    },
+    {
+      "ordinal": 95,
+      "name": "FltGetVolumeGuidName"
+    },
+    {
+      "ordinal": 96,
+      "name": "FltGetVolumeInstanceFromName"
+    },
+    {
+      "ordinal": 97,
+      "name": "FltGetVolumeName"
+    },
+    {
+      "ordinal": 98,
+      "name": "FltGetVolumeProperties"
+    },
+    {
+      "ordinal": 99,
+      "name": "FltInitializeFileLock"
+    },
+    {
+      "ordinal": 100,
+      "name": "FltInitializeOplock"
+    },
+    {
+      "ordinal": 101,
+      "name": "FltInitializePushLock"
+    },
+    {
+      "ordinal": 102,
+      "name": "FltIs32bitProcess"
+    },
+    {
+      "ordinal": 103,
+      "name": "FltIsCallbackDataDirty"
+    },
+    {
+      "ordinal": 104,
+      "name": "FltIsDirectory"
+    },
+    {
+      "ordinal": 105,
+      "name": "FltIsIoCanceled"
+    },
+    {
+      "ordinal": 106,
+      "name": "FltIsOperationSynchronous"
+    },
+    {
+      "ordinal": 107,
+      "name": "FltIsVolumeWritable"
+    },
+    {
+      "ordinal": 108,
+      "name": "FltLoadFilter"
+    },
+    {
+      "ordinal": 109,
+      "name": "FltLockUserBuffer"
+    },
+    {
+      "ordinal": 110,
+      "name": "FltNotifyFilterChangeDirectory"
+    },
+    {
+      "ordinal": 111,
+      "name": "FltObjectDereference"
+    },
+    {
+      "ordinal": 112,
+      "name": "FltObjectReference"
+    },
+    {
+      "ordinal": 113,
+      "name": "FltOpenVolume"
+    },
+    {
+      "ordinal": 114,
+      "name": "FltOplockFsctrl"
+    },
+    {
+      "ordinal": 115,
+      "name": "FltOplockIsFastIoPossible"
+    },
+    {
+      "ordinal": 116,
+      "name": "FltParseFileName"
+    },
+    {
+      "ordinal": 117,
+      "name": "FltParseFileNameInformation"
+    },
+    {
+      "ordinal": 118,
+      "name": "FltPerformAsynchronousIo"
+    },
+    {
+      "ordinal": 119,
+      "name": "FltPerformSynchronousIo"
+    },
+    {
+      "ordinal": 120,
+      "name": "FltProcessFileLock"
+    },
+    {
+      "ordinal": 121,
+      "name": "FltPurgeFileNameInformationCache"
+    },
+    {
+      "ordinal": 122,
+      "name": "FltQueryEaFile"
+    },
+    {
+      "ordinal": 123,
+      "name": "FltQueryInformationFile"
+    },
+    {
+      "ordinal": 124,
+      "name": "FltQuerySecurityObject"
+    },
+    {
+      "ordinal": 125,
+      "name": "FltQueryVolumeInformation"
+    },
+    {
+      "ordinal": 126,
+      "name": "FltQueryVolumeInformationFile"
+    },
+    {
+      "ordinal": 127,
+      "name": "FltQueueDeferredIoWorkItem"
+    },
+    {
+      "ordinal": 128,
+      "name": "FltQueueGenericWorkItem"
+    },
+    {
+      "ordinal": 129,
+      "name": "FltReadFile"
+    },
+    {
+      "ordinal": 130,
+      "name": "FltReferenceContext"
+    },
+    {
+      "ordinal": 131,
+      "name": "FltReferenceFileNameInformation"
+    },
+    {
+      "ordinal": 132,
+      "name": "FltRegisterFilter"
+    },
+    {
+      "ordinal": 133,
+      "name": "FltReissueSynchronousIo"
+    },
+    {
+      "ordinal": 134,
+      "name": "FltReleaseContext"
+    },
+    {
+      "ordinal": 135,
+      "name": "FltReleaseContexts"
+    },
+    {
+      "ordinal": 136,
+      "name": "FltReleaseFileNameInformation"
+    },
+    {
+      "ordinal": 137,
+      "name": "FltReleasePushLock"
+    },
+    {
+      "ordinal": 138,
+      "name": "FltReleaseResource"
+    },
+    {
+      "ordinal": 139,
+      "name": "FltRequestOperationStatusCallback"
+    },
+    {
+      "ordinal": 2,
+      "name": "FltRetainSwappedBufferMdlAddress"
+    },
+    {
+      "ordinal": 140,
+      "name": "FltReuseCallbackData"
+    },
+    {
+      "ordinal": 141,
+      "name": "FltSendMessage"
+    },
+    {
+      "ordinal": 142,
+      "name": "FltSetCallbackDataDirty"
+    },
+    {
+      "ordinal": 143,
+      "name": "FltSetCancelCompletion"
+    },
+    {
+      "ordinal": 144,
+      "name": "FltSetEaFile"
+    },
+    {
+      "ordinal": 145,
+      "name": "FltSetFileContext"
+    },
+    {
+      "ordinal": 146,
+      "name": "FltSetInformationFile"
+    },
+    {
+      "ordinal": 147,
+      "name": "FltSetInstanceContext"
+    },
+    {
+      "ordinal": 148,
+      "name": "FltSetSecurityObject"
+    },
+    {
+      "ordinal": 149,
+      "name": "FltSetStreamContext"
+    },
+    {
+      "ordinal": 150,
+      "name": "FltSetStreamHandleContext"
+    },
+    {
+      "ordinal": 151,
+      "name": "FltSetVolumeContext"
+    },
+    {
+      "ordinal": 152,
+      "name": "FltSetVolumeInformation"
+    },
+    {
+      "ordinal": 153,
+      "name": "FltStartFiltering"
+    },
+    {
+      "ordinal": 154,
+      "name": "FltSupportsFileContexts"
+    },
+    {
+      "ordinal": 155,
+      "name": "FltSupportsStreamContexts"
+    },
+    {
+      "ordinal": 156,
+      "name": "FltSupportsStreamHandleContexts"
+    },
+    {
+      "ordinal": 157,
+      "name": "FltTagFile"
+    },
+    {
+      "ordinal": 158,
+      "name": "FltUninitializeFileLock"
+    },
+    {
+      "ordinal": 159,
+      "name": "FltUninitializeOplock"
+    },
+    {
+      "ordinal": 160,
+      "name": "FltUnloadFilter"
+    },
+    {
+      "ordinal": 161,
+      "name": "FltUnregisterFilter"
+    },
+    {
+      "ordinal": 162,
+      "name": "FltUntagFile"
+    },
+    {
+      "ordinal": 163,
+      "name": "FltWriteFile"
+    }
+  ]
+}

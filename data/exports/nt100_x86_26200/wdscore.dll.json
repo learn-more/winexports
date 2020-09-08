@@ -1,0 +1,411 @@
+{
+  "Version": "10.0.26100.1-I386",
+  "md5": "69b8308e82d84ff6711bdb422d42e406",
+  "imphash": "69b8308e82d84ff6711bdb422d42e406",
+  "InternalName": "wdscore.dll",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "Panther Engine Module",
+  "FileVersion": "10.0.26100.1 (WinBuild.160101.0800)",
+  "ProductVersion": "10.0.26100.1",
+  "PeChecksum": 277182,
+  "Size": 213296,
+  "Machine": "I386",
+  "exports": [
+    {
+      "ordinal": 4,
+      "name": "ConstructPartialMsgIfA"
+    },
+    {
+      "ordinal": 5,
+      "name": "ConstructPartialMsgIfW"
+    },
+    {
+      "ordinal": 6,
+      "name": "ConstructPartialMsgVA"
+    },
+    {
+      "ordinal": 7,
+      "name": "ConstructPartialMsgVW"
+    },
+    {
+      "ordinal": 8,
+      "name": "CurrentIP"
+    },
+    {
+      "ordinal": 9,
+      "name": "DecrementPartialMsgIndent"
+    },
+    {
+      "ordinal": 10,
+      "name": "DestructPartialMsg"
+    },
+    {
+      "ordinal": 11,
+      "name": "EndMajorTask"
+    },
+    {
+      "ordinal": 12,
+      "name": "EndMinorTask"
+    },
+    {
+      "ordinal": 13,
+      "name": "GetMajorTask"
+    },
+    {
+      "ordinal": 14,
+      "name": "GetMajorTaskA"
+    },
+    {
+      "ordinal": 15,
+      "name": "GetMinorTask"
+    },
+    {
+      "ordinal": 16,
+      "name": "GetMinorTaskA"
+    },
+    {
+      "ordinal": 17,
+      "name": "GetPartialMsgIndent"
+    },
+    {
+      "ordinal": 18,
+      "name": "IncrementPartialMsgIndent"
+    },
+    {
+      "ordinal": 19,
+      "name": "StartMajorTask"
+    },
+    {
+      "ordinal": 20,
+      "name": "StartMinorTask"
+    },
+    {
+      "ordinal": 21,
+      "name": "WdsAbortBlackboardItemEnum"
+    },
+    {
+      "ordinal": 22,
+      "name": "WdsAddModule"
+    },
+    {
+      "ordinal": 23,
+      "name": "WdsAddUsmtLogStack"
+    },
+    {
+      "ordinal": 24,
+      "name": "WdsAllocCollection"
+    },
+    {
+      "ordinal": 25,
+      "name": "WdsCollectionAddValue"
+    },
+    {
+      "ordinal": 26,
+      "name": "WdsCollectionGetValue"
+    },
+    {
+      "ordinal": 27,
+      "name": "WdsCopyBlackboardItems"
+    },
+    {
+      "ordinal": 28,
+      "name": "WdsCopyBlackboardItemsEx"
+    },
+    {
+      "ordinal": 29,
+      "name": "WdsCreateBlackboard"
+    },
+    {
+      "ordinal": 30,
+      "name": "WdsDeleteBlackboardValue"
+    },
+    {
+      "ordinal": 31,
+      "name": "WdsDeleteEvent"
+    },
+    {
+      "ordinal": 32,
+      "name": "WdsDestroyBlackboard"
+    },
+    {
+      "ordinal": 33,
+      "name": "WdsDuplicateData"
+    },
+    {
+      "ordinal": 34,
+      "name": "WdsEnableDiagnosticMode"
+    },
+    {
+      "ordinal": 35,
+      "name": "WdsEnableExit"
+    },
+    {
+      "ordinal": 36,
+      "name": "WdsEnableExitEx"
+    },
+    {
+      "ordinal": 37,
+      "name": "WdsEnumFirstBlackboardItem"
+    },
+    {
+      "ordinal": 38,
+      "name": "WdsEnumFirstCollectionValue"
+    },
+    {
+      "ordinal": 39,
+      "name": "WdsEnumNextBlackboardItem"
+    },
+    {
+      "ordinal": 40,
+      "name": "WdsEnumNextCollectionValue"
+    },
+    {
+      "ordinal": 42,
+      "name": "WdsExecuteWorkQueue"
+    },
+    {
+      "ordinal": 41,
+      "name": "WdsExecuteWorkQueue2"
+    },
+    {
+      "ordinal": 43,
+      "name": "WdsExecuteWorkQueueEx"
+    },
+    {
+      "ordinal": 44,
+      "name": "WdsExitImmediately"
+    },
+    {
+      "ordinal": 45,
+      "name": "WdsExitImmediatelyEx"
+    },
+    {
+      "ordinal": 46,
+      "name": "WdsFreeCollection"
+    },
+    {
+      "ordinal": 47,
+      "name": "WdsFreeData"
+    },
+    {
+      "ordinal": 48,
+      "name": "WdsGenericSetupLogInit"
+    },
+    {
+      "ordinal": 49,
+      "name": "WdsGetAssertFlags"
+    },
+    {
+      "ordinal": 50,
+      "name": "WdsGetBlackboardBinaryData"
+    },
+    {
+      "ordinal": 51,
+      "name": "WdsGetBlackboardStringA"
+    },
+    {
+      "ordinal": 52,
+      "name": "WdsGetBlackboardStringW"
+    },
+    {
+      "ordinal": 53,
+      "name": "WdsGetBlackboardUintPtr"
+    },
+    {
+      "ordinal": 54,
+      "name": "WdsGetBlackboardValue"
+    },
+    {
+      "ordinal": 55,
+      "name": "WdsGetCurrentExecutionGroup"
+    },
+    {
+      "ordinal": 1,
+      "name": "WdsGetPointer"
+    },
+    {
+      "ordinal": 56,
+      "name": "WdsGetSetupLog"
+    },
+    {
+      "ordinal": 57,
+      "name": "WdsGetTempDir"
+    },
+    {
+      "ordinal": 58,
+      "name": "WdsInitialize"
+    },
+    {
+      "ordinal": 59,
+      "name": "WdsInitializeCallbackArray"
+    },
+    {
+      "ordinal": 60,
+      "name": "WdsInitializeDataBinary"
+    },
+    {
+      "ordinal": 61,
+      "name": "WdsInitializeDataStringA"
+    },
+    {
+      "ordinal": 62,
+      "name": "WdsInitializeDataStringW"
+    },
+    {
+      "ordinal": 63,
+      "name": "WdsInitializeDataUInt32"
+    },
+    {
+      "ordinal": 64,
+      "name": "WdsInitializeDataUInt64"
+    },
+    {
+      "ordinal": 65,
+      "name": "WdsIsDiagnosticModeEnabled"
+    },
+    {
+      "ordinal": 66,
+      "name": "WdsIterateOfflineQueue"
+    },
+    {
+      "ordinal": 67,
+      "name": "WdsIterateQueue"
+    },
+    {
+      "ordinal": 68,
+      "name": "WdsLockBlackboardValue"
+    },
+    {
+      "ordinal": 69,
+      "name": "WdsLockExecutionGroup"
+    },
+    {
+      "ordinal": 70,
+      "name": "WdsLogCreate"
+    },
+    {
+      "ordinal": 71,
+      "name": "WdsLogDestroy"
+    },
+    {
+      "ordinal": 72,
+      "name": "WdsLogRegStockProviders"
+    },
+    {
+      "ordinal": 73,
+      "name": "WdsLogRegisterProvider"
+    },
+    {
+      "ordinal": 74,
+      "name": "WdsLogStructuredException"
+    },
+    {
+      "ordinal": 75,
+      "name": "WdsLogUnRegStockProviders"
+    },
+    {
+      "ordinal": 76,
+      "name": "WdsLogUnRegisterProvider"
+    },
+    {
+      "ordinal": 77,
+      "name": "WdsPackCollection"
+    },
+    {
+      "ordinal": 78,
+      "name": "WdsPublish"
+    },
+    {
+      "ordinal": 79,
+      "name": "WdsPublishEx"
+    },
+    {
+      "ordinal": 80,
+      "name": "WdsPublishImmediateAsync"
+    },
+    {
+      "ordinal": 81,
+      "name": "WdsPublishImmediateEx"
+    },
+    {
+      "ordinal": 82,
+      "name": "WdsPublishOffline"
+    },
+    {
+      "ordinal": 83,
+      "name": "WdsSeqAlloc"
+    },
+    {
+      "ordinal": 84,
+      "name": "WdsSeqFree"
+    },
+    {
+      "ordinal": 85,
+      "name": "WdsSetAssertFlags"
+    },
+    {
+      "ordinal": 86,
+      "name": "WdsSetBlackboardValue"
+    },
+    {
+      "ordinal": 87,
+      "name": "WdsSetNextExecutionGroup"
+    },
+    {
+      "ordinal": 88,
+      "name": "WdsSetUILanguage"
+    },
+    {
+      "ordinal": 89,
+      "name": "WdsSetupLogDestroy"
+    },
+    {
+      "ordinal": 90,
+      "name": "WdsSetupLogInit"
+    },
+    {
+      "ordinal": 91,
+      "name": "WdsSetupLogMessageA"
+    },
+    {
+      "ordinal": 92,
+      "name": "WdsSetupLogMessageW"
+    },
+    {
+      "ordinal": 93,
+      "name": "WdsSubscribeEx"
+    },
+    {
+      "ordinal": 94,
+      "name": "WdsTerminate"
+    },
+    {
+      "ordinal": 95,
+      "name": "WdsUnlockExecutionGroup"
+    },
+    {
+      "ordinal": 96,
+      "name": "WdsUnpackCollection"
+    },
+    {
+      "ordinal": 97,
+      "name": "WdsUnsubscribe"
+    },
+    {
+      "ordinal": 98,
+      "name": "WdsUnsubscribeEx"
+    },
+    {
+      "ordinal": 99,
+      "name": "WdsValidBlackboard"
+    },
+    {
+      "ordinal": 2,
+      "name": "g_Kernel32"
+    },
+    {
+      "ordinal": 3,
+      "name": "g_bEnableDiagnosticMode"
+    }
+  ]
+}

@@ -1,0 +1,795 @@
+{
+  "Version": "6.1.7601.19050-AMD64",
+  "md5": "07eaea9d3e09340e64918eed526a5ffe",
+  "imphash": "07eaea9d3e09340e64918eed526a5ffe",
+  "InternalName": "Apphelp",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "Application Compatibility Client Library",
+  "FileVersion": "6.1.7601.19050 (win7sp1_gdr.151029-0600)",
+  "ProductVersion": "6.1.7601.19050",
+  "PeChecksum": 361743,
+  "Size": 342016,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ordinal": 1,
+      "name": "AllowPermLayer"
+    },
+    {
+      "ordinal": 2,
+      "name": "ApphelpCheckExe"
+    },
+    {
+      "ordinal": 3,
+      "name": "ApphelpCheckIME"
+    },
+    {
+      "ordinal": 4,
+      "name": "ApphelpCheckInstallShieldPackage"
+    },
+    {
+      "ordinal": 5,
+      "name": "ApphelpCheckModule"
+    },
+    {
+      "ordinal": 6,
+      "name": "ApphelpCheckMsiPackage"
+    },
+    {
+      "ordinal": 7,
+      "name": "ApphelpCheckRunApp"
+    },
+    {
+      "ordinal": 8,
+      "name": "ApphelpCheckRunAppEx"
+    },
+    {
+      "ordinal": 9,
+      "name": "ApphelpCheckShellObject"
+    },
+    {
+      "ordinal": 10,
+      "name": "ApphelpCreateAppcompatData"
+    },
+    {
+      "ordinal": 11,
+      "name": "ApphelpFixMsiPackage"
+    },
+    {
+      "ordinal": 12,
+      "name": "ApphelpFixMsiPackageExe"
+    },
+    {
+      "ordinal": 13,
+      "name": "ApphelpFreeFileAttributes"
+    },
+    {
+      "ordinal": 14,
+      "name": "ApphelpGetFileAttributes"
+    },
+    {
+      "ordinal": 15,
+      "name": "ApphelpGetMsiProperties"
+    },
+    {
+      "ordinal": 16,
+      "name": "ApphelpGetNTVDMInfo"
+    },
+    {
+      "ordinal": 17,
+      "name": "ApphelpGetShimDebugLevel"
+    },
+    {
+      "ordinal": 18,
+      "name": "ApphelpParseModuleData"
+    },
+    {
+      "ordinal": 19,
+      "name": "ApphelpQueryModuleData"
+    },
+    {
+      "ordinal": 20,
+      "name": "ApphelpQueryModuleDataEx"
+    },
+    {
+      "ordinal": 21,
+      "name": "ApphelpShowDialog"
+    },
+    {
+      "ordinal": 22,
+      "name": "ApphelpUpdateCacheEntry"
+    },
+    {
+      "ordinal": 23,
+      "name": "GetPermLayers"
+    },
+    {
+      "ordinal": 24,
+      "name": "SE_DllLoaded"
+    },
+    {
+      "ordinal": 25,
+      "name": "SE_DllUnloaded"
+    },
+    {
+      "ordinal": 26,
+      "name": "SE_DynamicShim"
+    },
+    {
+      "ordinal": 27,
+      "name": "SE_GetHookAPIs"
+    },
+    {
+      "ordinal": 28,
+      "name": "SE_GetMaxShimCount"
+    },
+    {
+      "ordinal": 29,
+      "name": "SE_GetProcAddressIgnoreIncExc"
+    },
+    {
+      "ordinal": 30,
+      "name": "SE_GetProcAddressLoad"
+    },
+    {
+      "ordinal": 31,
+      "name": "SE_GetShimCount"
+    },
+    {
+      "ordinal": 32,
+      "name": "SE_InstallAfterInit"
+    },
+    {
+      "ordinal": 33,
+      "name": "SE_InstallBeforeInit"
+    },
+    {
+      "ordinal": 34,
+      "name": "SE_IsShimDll"
+    },
+    {
+      "ordinal": 35,
+      "name": "SE_LdrEntryRemoved"
+    },
+    {
+      "ordinal": 36,
+      "name": "SE_ProcessDying"
+    },
+    {
+      "ordinal": 37,
+      "name": "SdbAddLayerTagRefToQuery"
+    },
+    {
+      "ordinal": 38,
+      "name": "SdbApphelpNotify"
+    },
+    {
+      "ordinal": 39,
+      "name": "SdbApphelpNotifyEx"
+    },
+    {
+      "ordinal": 40,
+      "name": "SdbApphelpNotifyEx2"
+    },
+    {
+      "ordinal": 41,
+      "name": "SdbBeginWriteListTag"
+    },
+    {
+      "ordinal": 42,
+      "name": "SdbBuildCompatEnvVariables"
+    },
+    {
+      "ordinal": 43,
+      "name": "SdbCloseApphelpInformation"
+    },
+    {
+      "ordinal": 44,
+      "name": "SdbCloseDatabase"
+    },
+    {
+      "ordinal": 45,
+      "name": "SdbCloseDatabaseWrite"
+    },
+    {
+      "ordinal": 46,
+      "name": "SdbCloseLocalDatabase"
+    },
+    {
+      "ordinal": 47,
+      "name": "SdbCommitIndexes"
+    },
+    {
+      "ordinal": 48,
+      "name": "SdbCreateDatabase"
+    },
+    {
+      "ordinal": 49,
+      "name": "SdbCreateHelpCenterURL"
+    },
+    {
+      "ordinal": 50,
+      "name": "SdbCreateMsiTransformFile"
+    },
+    {
+      "ordinal": 51,
+      "name": "SdbDeclareIndex"
+    },
+    {
+      "ordinal": 52,
+      "name": "SdbDeletePermLayerKeys"
+    },
+    {
+      "ordinal": 53,
+      "name": "SdbDumpSearchPathPartCaches"
+    },
+    {
+      "ordinal": 54,
+      "name": "SdbEndWriteListTag"
+    },
+    {
+      "ordinal": 55,
+      "name": "SdbEnumMsiTransforms"
+    },
+    {
+      "ordinal": 56,
+      "name": "SdbEscapeApphelpURL"
+    },
+    {
+      "ordinal": 57,
+      "name": "SdbFindCustomActionForPackage"
+    },
+    {
+      "ordinal": 58,
+      "name": "SdbFindFirstDWORDIndexedTag"
+    },
+    {
+      "ordinal": 59,
+      "name": "SdbFindFirstGUIDIndexedTag"
+    },
+    {
+      "ordinal": 60,
+      "name": "SdbFindFirstMsiPackage"
+    },
+    {
+      "ordinal": 61,
+      "name": "SdbFindFirstMsiPackage_Str"
+    },
+    {
+      "ordinal": 62,
+      "name": "SdbFindFirstNamedTag"
+    },
+    {
+      "ordinal": 63,
+      "name": "SdbFindFirstStringIndexedTag"
+    },
+    {
+      "ordinal": 64,
+      "name": "SdbFindFirstTag"
+    },
+    {
+      "ordinal": 65,
+      "name": "SdbFindFirstTagRef"
+    },
+    {
+      "ordinal": 66,
+      "name": "SdbFindMsiPackageByID"
+    },
+    {
+      "ordinal": 67,
+      "name": "SdbFindNextDWORDIndexedTag"
+    },
+    {
+      "ordinal": 68,
+      "name": "SdbFindNextGUIDIndexedTag"
+    },
+    {
+      "ordinal": 69,
+      "name": "SdbFindNextMsiPackage"
+    },
+    {
+      "ordinal": 70,
+      "name": "SdbFindNextStringIndexedTag"
+    },
+    {
+      "ordinal": 71,
+      "name": "SdbFindNextTag"
+    },
+    {
+      "ordinal": 72,
+      "name": "SdbFindNextTagRef"
+    },
+    {
+      "ordinal": 73,
+      "name": "SdbFormatAttribute"
+    },
+    {
+      "ordinal": 74,
+      "name": "SdbFreeDatabaseInformation"
+    },
+    {
+      "ordinal": 75,
+      "name": "SdbFreeFileAttributes"
+    },
+    {
+      "ordinal": 76,
+      "name": "SdbFreeFileInfo"
+    },
+    {
+      "ordinal": 77,
+      "name": "SdbFreeFlagInfo"
+    },
+    {
+      "ordinal": 78,
+      "name": "SdbGUIDFromString"
+    },
+    {
+      "ordinal": 79,
+      "name": "SdbGUIDToString"
+    },
+    {
+      "ordinal": 80,
+      "name": "SdbGetAppCompatDataSize"
+    },
+    {
+      "ordinal": 81,
+      "name": "SdbGetAppPatchDir"
+    },
+    {
+      "ordinal": 82,
+      "name": "SdbGetBinaryTagData"
+    },
+    {
+      "ordinal": 83,
+      "name": "SdbGetDatabaseGUID"
+    },
+    {
+      "ordinal": 84,
+      "name": "SdbGetDatabaseID"
+    },
+    {
+      "ordinal": 85,
+      "name": "SdbGetDatabaseInformation"
+    },
+    {
+      "ordinal": 86,
+      "name": "SdbGetDatabaseInformationByName"
+    },
+    {
+      "ordinal": 87,
+      "name": "SdbGetDatabaseMatch"
+    },
+    {
+      "ordinal": 88,
+      "name": "SdbGetDatabaseVersion"
+    },
+    {
+      "ordinal": 89,
+      "name": "SdbGetDllPath"
+    },
+    {
+      "ordinal": 90,
+      "name": "SdbGetEntryFlags"
+    },
+    {
+      "ordinal": 91,
+      "name": "SdbGetFileAttributes"
+    },
+    {
+      "ordinal": 92,
+      "name": "SdbGetFileImageType"
+    },
+    {
+      "ordinal": 93,
+      "name": "SdbGetFileImageTypeEx"
+    },
+    {
+      "ordinal": 94,
+      "name": "SdbGetFileInfo"
+    },
+    {
+      "ordinal": 95,
+      "name": "SdbGetFirstChild"
+    },
+    {
+      "ordinal": 96,
+      "name": "SdbGetImageType"
+    },
+    {
+      "ordinal": 97,
+      "name": "SdbGetIndex"
+    },
+    {
+      "ordinal": 98,
+      "name": "SdbGetItemFromItemRef"
+    },
+    {
+      "ordinal": 99,
+      "name": "SdbGetLayerName"
+    },
+    {
+      "ordinal": 100,
+      "name": "SdbGetLayerTagRef"
+    },
+    {
+      "ordinal": 101,
+      "name": "SdbGetLocalPDB"
+    },
+    {
+      "ordinal": 102,
+      "name": "SdbGetMatchingExe"
+    },
+    {
+      "ordinal": 103,
+      "name": "SdbGetMsiPackageInformation"
+    },
+    {
+      "ordinal": 104,
+      "name": "SdbGetNamedLayer"
+    },
+    {
+      "ordinal": 105,
+      "name": "SdbGetNextChild"
+    },
+    {
+      "ordinal": 106,
+      "name": "SdbGetNthUserSdb"
+    },
+    {
+      "ordinal": 107,
+      "name": "SdbGetPDBFromGUID"
+    },
+    {
+      "ordinal": 108,
+      "name": "SdbGetPermLayerKeys"
+    },
+    {
+      "ordinal": 109,
+      "name": "SdbGetShowDebugInfoOption"
+    },
+    {
+      "ordinal": 110,
+      "name": "SdbGetShowDebugInfoOptionValue"
+    },
+    {
+      "ordinal": 111,
+      "name": "SdbGetStandardDatabaseGUID"
+    },
+    {
+      "ordinal": 112,
+      "name": "SdbGetStringTagPtr"
+    },
+    {
+      "ordinal": 113,
+      "name": "SdbGetTagDataSize"
+    },
+    {
+      "ordinal": 114,
+      "name": "SdbGetTagFromTagID"
+    },
+    {
+      "ordinal": 115,
+      "name": "SdbGrabMatchingInfo"
+    },
+    {
+      "ordinal": 116,
+      "name": "SdbGrabMatchingInfoEx"
+    },
+    {
+      "ordinal": 117,
+      "name": "SdbInitDatabase"
+    },
+    {
+      "ordinal": 118,
+      "name": "SdbInitDatabaseEx"
+    },
+    {
+      "ordinal": 119,
+      "name": "SdbIsNullGUID"
+    },
+    {
+      "ordinal": 120,
+      "name": "SdbIsStandardDatabase"
+    },
+    {
+      "ordinal": 121,
+      "name": "SdbIsTagrefFromLocalDB"
+    },
+    {
+      "ordinal": 122,
+      "name": "SdbIsTagrefFromMainDB"
+    },
+    {
+      "ordinal": 123,
+      "name": "SdbLoadString"
+    },
+    {
+      "ordinal": 124,
+      "name": "SdbMakeIndexKeyFromString"
+    },
+    {
+      "ordinal": 125,
+      "name": "SdbOpenApphelpDetailsDatabase"
+    },
+    {
+      "ordinal": 126,
+      "name": "SdbOpenApphelpDetailsDatabaseSP"
+    },
+    {
+      "ordinal": 127,
+      "name": "SdbOpenApphelpInformation"
+    },
+    {
+      "ordinal": 128,
+      "name": "SdbOpenApphelpInformationByID"
+    },
+    {
+      "ordinal": 129,
+      "name": "SdbOpenApphelpResourceFile"
+    },
+    {
+      "ordinal": 130,
+      "name": "SdbOpenDatabase"
+    },
+    {
+      "ordinal": 131,
+      "name": "SdbOpenDbFromGuid"
+    },
+    {
+      "ordinal": 132,
+      "name": "SdbOpenLocalDatabase"
+    },
+    {
+      "ordinal": 133,
+      "name": "SdbPackAppCompatData"
+    },
+    {
+      "ordinal": 134,
+      "name": "SdbQueryApphelpInformation"
+    },
+    {
+      "ordinal": 135,
+      "name": "SdbQueryBlockUpgrade"
+    },
+    {
+      "ordinal": 136,
+      "name": "SdbQueryContext"
+    },
+    {
+      "ordinal": 137,
+      "name": "SdbQueryData"
+    },
+    {
+      "ordinal": 138,
+      "name": "SdbQueryDataEx"
+    },
+    {
+      "ordinal": 139,
+      "name": "SdbQueryDataExTagID"
+    },
+    {
+      "ordinal": 140,
+      "name": "SdbQueryFlagInfo"
+    },
+    {
+      "ordinal": 141,
+      "name": "SdbQueryFlagMask"
+    },
+    {
+      "ordinal": 142,
+      "name": "SdbQueryName"
+    },
+    {
+      "ordinal": 143,
+      "name": "SdbQueryReinstallUpgrade"
+    },
+    {
+      "ordinal": 144,
+      "name": "SdbReadApphelpData"
+    },
+    {
+      "ordinal": 145,
+      "name": "SdbReadApphelpDetailsData"
+    },
+    {
+      "ordinal": 146,
+      "name": "SdbReadBYTETag"
+    },
+    {
+      "ordinal": 147,
+      "name": "SdbReadBYTETagRef"
+    },
+    {
+      "ordinal": 148,
+      "name": "SdbReadBinaryTag"
+    },
+    {
+      "ordinal": 149,
+      "name": "SdbReadDWORDTag"
+    },
+    {
+      "ordinal": 150,
+      "name": "SdbReadDWORDTagRef"
+    },
+    {
+      "ordinal": 151,
+      "name": "SdbReadEntryInformation"
+    },
+    {
+      "ordinal": 152,
+      "name": "SdbReadMsiTransformInfo"
+    },
+    {
+      "ordinal": 153,
+      "name": "SdbReadPatchBits"
+    },
+    {
+      "ordinal": 154,
+      "name": "SdbReadQWORDTag"
+    },
+    {
+      "ordinal": 155,
+      "name": "SdbReadQWORDTagRef"
+    },
+    {
+      "ordinal": 156,
+      "name": "SdbReadStringTag"
+    },
+    {
+      "ordinal": 157,
+      "name": "SdbReadStringTagRef"
+    },
+    {
+      "ordinal": 158,
+      "name": "SdbReadWORDTag"
+    },
+    {
+      "ordinal": 159,
+      "name": "SdbReadWORDTagRef"
+    },
+    {
+      "ordinal": 160,
+      "name": "SdbRegisterDatabase"
+    },
+    {
+      "ordinal": 161,
+      "name": "SdbRegisterDatabaseEx"
+    },
+    {
+      "ordinal": 162,
+      "name": "SdbReleaseDatabase"
+    },
+    {
+      "ordinal": 163,
+      "name": "SdbReleaseMatchingExe"
+    },
+    {
+      "ordinal": 164,
+      "name": "SdbResolveDatabase"
+    },
+    {
+      "ordinal": 165,
+      "name": "SdbSetApphelpDebugParameters"
+    },
+    {
+      "ordinal": 166,
+      "name": "SdbSetEntryFlags"
+    },
+    {
+      "ordinal": 167,
+      "name": "SdbSetImageType"
+    },
+    {
+      "ordinal": 168,
+      "name": "SdbSetPermLayerKeys"
+    },
+    {
+      "ordinal": 169,
+      "name": "SdbShowApphelpDialog"
+    },
+    {
+      "ordinal": 170,
+      "name": "SdbShowApphelpFromQuery"
+    },
+    {
+      "ordinal": 171,
+      "name": "SdbStartIndexing"
+    },
+    {
+      "ordinal": 172,
+      "name": "SdbStopIndexing"
+    },
+    {
+      "ordinal": 173,
+      "name": "SdbStringDuplicate"
+    },
+    {
+      "ordinal": 174,
+      "name": "SdbStringReplace"
+    },
+    {
+      "ordinal": 175,
+      "name": "SdbStringReplaceArray"
+    },
+    {
+      "ordinal": 176,
+      "name": "SdbTagIDToTagRef"
+    },
+    {
+      "ordinal": 177,
+      "name": "SdbTagRefToTagID"
+    },
+    {
+      "ordinal": 178,
+      "name": "SdbTagToString"
+    },
+    {
+      "ordinal": 179,
+      "name": "SdbUnpackAppCompatData"
+    },
+    {
+      "ordinal": 180,
+      "name": "SdbUnregisterDatabase"
+    },
+    {
+      "ordinal": 181,
+      "name": "SdbWriteBYTETag"
+    },
+    {
+      "ordinal": 182,
+      "name": "SdbWriteBinaryTag"
+    },
+    {
+      "ordinal": 183,
+      "name": "SdbWriteBinaryTagFromFile"
+    },
+    {
+      "ordinal": 184,
+      "name": "SdbWriteDWORDTag"
+    },
+    {
+      "ordinal": 185,
+      "name": "SdbWriteNULLTag"
+    },
+    {
+      "ordinal": 186,
+      "name": "SdbWriteQWORDTag"
+    },
+    {
+      "ordinal": 187,
+      "name": "SdbWriteStringRefTag"
+    },
+    {
+      "ordinal": 188,
+      "name": "SdbWriteStringTag"
+    },
+    {
+      "ordinal": 189,
+      "name": "SdbWriteStringTagDirect"
+    },
+    {
+      "ordinal": 190,
+      "name": "SdbWriteWORDTag"
+    },
+    {
+      "ordinal": 191,
+      "name": "SetPermLayerState"
+    },
+    {
+      "ordinal": 192,
+      "name": "SetPermLayers"
+    },
+    {
+      "ordinal": 193,
+      "name": "ShimDbgPrint"
+    },
+    {
+      "ordinal": 194,
+      "name": "ShimDumpCache"
+    },
+    {
+      "ordinal": 195,
+      "name": "ShimFlushCache"
+    }
+  ]
+}

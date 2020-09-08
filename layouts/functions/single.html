@@ -1,0 +1,112 @@
+{{ partial "head.html" . }}
+{{ partial "sidebar.html" . }}
+
+{{ $versions_meta    := hugo.Data.versions }}
+{{ $ordered_versions := slice "nt52_x86" "nt61_x86" "nt61_x64" "nt100_x86_26200" }}
+{{ $ncols            := add 1 (len $ordered_versions) }}
+
+<div class="content">
+  <section class="page">
+    <h1 id="fn-title">Function</h1>
+
+    <p>
+      Ordinals shown per Windows version.
+      &rarr; indicates a forwarder export (hover for target).
+      Click a DLL name to view its full export page.
+    </p>
+
+    <link rel="stylesheet" href="{{ "/css/datatables.min.css" | absURL }}">
+    <script src="{{ "/js/datatables.min.js" | absURL }}"></script>
+
+    <table id="functiondetail" class="display compact" style="width:100%">
+      <thead>
+        <tr>
+          <th>DLL</th>
+          {{ range $ordered_versions }}
+          {{ $vmeta := index $versions_meta . }}
+          <th title="{{ $vmeta.desc }}" class="version-col">{{ $vmeta.label }}</th>
+          {{ end }}
+        </tr>
+      </thead>
+      <tbody id="functiondetail-body">
+        <tr><td colspan="{{ $ncols }}">Loading&hellip;</td></tr>
+      </tbody>
+    </table>
+
+    <script>
+    (function () {
+      var COL_VERSIONS = {{ $ordered_versions | jsonify | safeJS }};
+
+      function escHtml(s) {
+        return String(s)
+          .replace(/&/g,'&amp;').replace(/</g,'&lt;')
+          .replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+      }
+
+      function dllUrl(n) {
+        return {{ "/dlls/" | absURL }} + n.toLowerCase().replace(/[^a-z0-9_]/g, '_') + '/';
+      }
+
+      /* Slug comes from the URL hash, e.g. /functions/fn/#createfilea */
+      var slug = window.location.hash.slice(1);
+      if (!slug) {
+        document.getElementById('functiondetail-body').innerHTML =
+          '<tr><td colspan="{{ $ncols }}">No function specified.</td></tr>';
+        return;
+      }
+
+      fetch({{ "/data/fn/" | absURL }} + slug + '.json')
+        .then(function(r){ return r.json(); })
+        .then(function(data) {
+          var versions = data.v;   // ["nt52_x86", ...]
+          var dlls     = data.d;   // [["kernel32.dll", [[vi,ord],...]], ...]
+
+          document.getElementById('fn-title').textContent = slug
+            .replace(/_[0-9a-f]{8}$/, '')   // strip hash suffix if present
+            .replace(/_/g, ' ');             // underscores back to spaces (approximate)
+
+          var rows = [];
+          dlls.forEach(function(entry) {
+            var dllName = entry[0];
+            var refs    = entry[1];
+
+            var byVer = {};
+            refs.forEach(function(r){ byVer[r[0]] = r; });
+
+            var cells = '<td><a href="' + dllUrl(dllName) + '">' + escHtml(dllName) + '</a></td>';
+            COL_VERSIONS.forEach(function(vKey) {
+              var vi = versions.indexOf(vKey);
+              if (vi === -1 || !byVer[vi]) {
+                cells += '<td></td>';
+              } else {
+                var r = byVer[vi];
+                if (r.length > 2) {
+                  cells += '<td class="fwd" title="' + escHtml(r[2]) + '">&rarr;&nbsp;' + r[1] + '</td>';
+                } else {
+                  cells += '<td>' + r[1] + '</td>';
+                }
+              }
+            });
+            rows.push('<tr>' + cells + '</tr>');
+          });
+
+          document.getElementById('functiondetail-body').innerHTML = rows.join('');
+
+          new DataTable('#functiondetail', {
+            paging:  false,
+            order:   [[0, 'asc']],
+            columnDefs: [
+              { targets: 0, searchable: true },
+              { targets: '_all', searchable: false }
+            ]
+          });
+        })
+        .catch(function(err) {
+          document.getElementById('functiondetail-body').innerHTML =
+            '<tr><td colspan="{{ $ncols }}">Failed to load: ' + escHtml(String(err)) + '</td></tr>';
+        });
+    })();
+    </script>
+  </section>
+</div>
+{{ partial "tail.html" . }}

@@ -1,0 +1,115 @@
+
+{{/* Renders the export table for a single DLL across all Windows versions.
+     Reads data from data/dlls/{datakey}.json, where datakey comes from the
+     page's front matter param "datakey". */}}
+
+{{ $datakey := .Page.Params.datakey }}
+{{ $data    := index hugo.Data.dlls $datakey }}
+
+{{ with $data }}
+
+{{ $ordered_versions := slice "nt52_x86" "nt61_x86" "nt61_x64" "nt100_x86_26200" }}
+
+{{/* Determine which versions actually have this DLL, in canonical order */}}
+{{ $present := slice }}
+{{ range $ordered_versions }}
+  {{ if isset $data.versions . }}
+    {{ $present = $present | append . }}
+  {{ end }}
+{{ end }}
+
+{{/* Build a lookup: "version|exportname" -> export object */}}
+{{ $lookup := newScratch }}
+{{ $all_names := slice }}
+
+{{ range $version, $vdata := .versions }}
+  {{ range $vdata.exports }}
+    {{ if .name }}
+      {{ $all_names = $all_names | append .name }}
+      {{ $lookup.Set (printf "%s|%s" $version .name) . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ $all_names = $all_names | uniq | sort }}
+
+{{/* PE metadata summary */}}
+<table class="noborder" style="margin-top:1em">
+  <tr><th colspan="{{ add (len $present) 1 }}" class="border-bottom">{{ .name }} &mdash; PE metadata by version</th></tr>
+  <tr>
+    <th></th>
+    {{ range $present }}
+    {{ $vmeta := index hugo.Data.versions . }}
+    <th title="{{ $vmeta.desc }}">{{ $vmeta.label }}</th>
+    {{ end }}
+  </tr>
+  <tr>
+    <td>FileVersion</td>
+    {{ range $present }}
+    {{ $vdata := index $data.versions . }}
+    <td>{{ $vdata.FileVersion }}</td>
+    {{ end }}
+  </tr>
+  <tr>
+    <td>FileDescription</td>
+    {{ range $present }}
+    {{ $vdata := index $data.versions . }}
+    <td>{{ $vdata.FileDescription }}</td>
+    {{ end }}
+  </tr>
+</table>
+
+<br>
+
+<link rel="stylesheet" href="{{ "/css/datatables.min.css" | absURL }}">
+<script src="{{ "/js/datatables.min.js" | absURL }}"></script>
+
+<table id="dllexports" class="display compact">
+  <thead>
+    <tr>
+      <th>Export name</th>
+      {{ range $present }}
+      {{ $vmeta := index hugo.Data.versions . }}
+      <th title="{{ $vmeta.desc }}" class="version-col">{{ $vmeta.label }}</th>
+      {{ end }}
+    </tr>
+  </thead>
+  <tbody>
+  {{ range $all_names }}
+  {{ $fname := . }}
+  <tr>
+    <td>{{ $fname }}</td>
+    {{ range $present }}
+    {{ $exp := $lookup.Get (printf "%s|%s" . $fname) }}
+    {{ if $exp }}
+      {{ if $exp.forwarder }}
+      <td class="fwd" title="{{ $exp.forwarder }}">&rarr;&nbsp;{{ $exp.ordinal }}</td>
+      {{ else }}
+      <td>{{ $exp.ordinal }}</td>
+      {{ end }}
+    {{ else }}
+      <td></td>
+    {{ end }}
+    {{ end }}
+  </tr>
+  {{ end }}
+  </tbody>
+</table>
+
+<p style="font-size:0.85em;margin-top:0.5em">
+  Ordinal numbers are shown per version. &rarr; indicates a forwarder export (hover for target).
+  Functions absent from a version are shown as blank.
+</p>
+
+<script>
+new DataTable('#dllexports', {
+  paging: false,
+  order: [[0, 'asc']],
+  columnDefs: [
+    { targets: 0, searchable: true },
+    { targets: '_all', searchable: false }
+  ]
+});
+</script>
+
+{{ end }}

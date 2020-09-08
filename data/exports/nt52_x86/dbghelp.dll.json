@@ -1,0 +1,451 @@
+{
+  "Version": "5.2.3790.3959-I386",
+  "md5": "317b4fa814121f1c79d1a977ebc6fd51",
+  "imphash": "317b4fa814121f1c79d1a977ebc6fd51",
+  "InternalName": "DBGHELP.DLL",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "Windows Image Helper",
+  "FileVersion": "5.2.3790.3959 (srv03_sp2_rtm.070216-1710)",
+  "ProductVersion": "5.2.3790.3959",
+  "PeChecksum": 679220,
+  "Size": 671744,
+  "Machine": "I386",
+  "exports": [
+    {
+      "ordinal": 1,
+      "name": "DbgHelpCreateUserDump"
+    },
+    {
+      "ordinal": 2,
+      "name": "DbgHelpCreateUserDumpW"
+    },
+    {
+      "ordinal": 3,
+      "name": "EnumDirTree"
+    },
+    {
+      "ordinal": 5,
+      "name": "EnumerateLoadedModules"
+    },
+    {
+      "ordinal": 4,
+      "name": "EnumerateLoadedModules64"
+    },
+    {
+      "ordinal": 6,
+      "name": "ExtensionApiVersion"
+    },
+    {
+      "ordinal": 7,
+      "name": "FindDebugInfoFile"
+    },
+    {
+      "ordinal": 8,
+      "name": "FindDebugInfoFileEx"
+    },
+    {
+      "ordinal": 9,
+      "name": "FindExecutableImage"
+    },
+    {
+      "ordinal": 10,
+      "name": "FindExecutableImageEx"
+    },
+    {
+      "ordinal": 11,
+      "name": "FindFileInPath"
+    },
+    {
+      "ordinal": 12,
+      "name": "FindFileInSearchPath"
+    },
+    {
+      "ordinal": 13,
+      "name": "GetTimestampForLoadedLibrary"
+    },
+    {
+      "ordinal": 14,
+      "name": "ImageDirectoryEntryToData"
+    },
+    {
+      "ordinal": 15,
+      "name": "ImageDirectoryEntryToDataEx"
+    },
+    {
+      "ordinal": 16,
+      "name": "ImageNtHeader"
+    },
+    {
+      "ordinal": 17,
+      "name": "ImageRvaToSection"
+    },
+    {
+      "ordinal": 18,
+      "name": "ImageRvaToVa"
+    },
+    {
+      "ordinal": 19,
+      "name": "ImagehlpApiVersion"
+    },
+    {
+      "ordinal": 20,
+      "name": "ImagehlpApiVersionEx"
+    },
+    {
+      "ordinal": 21,
+      "name": "MakeSureDirectoryPathExists"
+    },
+    {
+      "ordinal": 22,
+      "name": "MapDebugInformation"
+    },
+    {
+      "ordinal": 23,
+      "name": "MiniDumpReadDumpStream"
+    },
+    {
+      "ordinal": 24,
+      "name": "MiniDumpWriteDump"
+    },
+    {
+      "ordinal": 25,
+      "name": "SearchTreeForFile"
+    },
+    {
+      "ordinal": 27,
+      "name": "StackWalk"
+    },
+    {
+      "ordinal": 26,
+      "name": "StackWalk64"
+    },
+    {
+      "ordinal": 28,
+      "name": "SymAddSymbol"
+    },
+    {
+      "ordinal": 29,
+      "name": "SymCleanup"
+    },
+    {
+      "ordinal": 30,
+      "name": "SymDeleteSymbol"
+    },
+    {
+      "ordinal": 31,
+      "name": "SymEnumLines"
+    },
+    {
+      "ordinal": 32,
+      "name": "SymEnumSourceFiles"
+    },
+    {
+      "ordinal": 33,
+      "name": "SymEnumSym"
+    },
+    {
+      "ordinal": 34,
+      "name": "SymEnumSymbols"
+    },
+    {
+      "ordinal": 35,
+      "name": "SymEnumSymbolsForAddr"
+    },
+    {
+      "ordinal": 36,
+      "name": "SymEnumTypes"
+    },
+    {
+      "ordinal": 38,
+      "name": "SymEnumerateModules"
+    },
+    {
+      "ordinal": 37,
+      "name": "SymEnumerateModules64"
+    },
+    {
+      "ordinal": 40,
+      "name": "SymEnumerateSymbols"
+    },
+    {
+      "ordinal": 39,
+      "name": "SymEnumerateSymbols64"
+    },
+    {
+      "ordinal": 42,
+      "name": "SymEnumerateSymbolsW"
+    },
+    {
+      "ordinal": 41,
+      "name": "SymEnumerateSymbolsW64"
+    },
+    {
+      "ordinal": 43,
+      "name": "SymFindFileInPath"
+    },
+    {
+      "ordinal": 44,
+      "name": "SymFromAddr"
+    },
+    {
+      "ordinal": 45,
+      "name": "SymFromName"
+    },
+    {
+      "ordinal": 46,
+      "name": "SymFromToken"
+    },
+    {
+      "ordinal": 48,
+      "name": "SymFunctionTableAccess"
+    },
+    {
+      "ordinal": 47,
+      "name": "SymFunctionTableAccess64"
+    },
+    {
+      "ordinal": 49,
+      "name": "SymGetFileLineOffsets64"
+    },
+    {
+      "ordinal": 50,
+      "name": "SymGetHomeDirectory"
+    },
+    {
+      "ordinal": 52,
+      "name": "SymGetLineFromAddr"
+    },
+    {
+      "ordinal": 51,
+      "name": "SymGetLineFromAddr64"
+    },
+    {
+      "ordinal": 54,
+      "name": "SymGetLineFromName"
+    },
+    {
+      "ordinal": 53,
+      "name": "SymGetLineFromName64"
+    },
+    {
+      "ordinal": 56,
+      "name": "SymGetLineNext"
+    },
+    {
+      "ordinal": 55,
+      "name": "SymGetLineNext64"
+    },
+    {
+      "ordinal": 58,
+      "name": "SymGetLinePrev"
+    },
+    {
+      "ordinal": 57,
+      "name": "SymGetLinePrev64"
+    },
+    {
+      "ordinal": 60,
+      "name": "SymGetModuleBase"
+    },
+    {
+      "ordinal": 59,
+      "name": "SymGetModuleBase64"
+    },
+    {
+      "ordinal": 62,
+      "name": "SymGetModuleInfo"
+    },
+    {
+      "ordinal": 61,
+      "name": "SymGetModuleInfo64"
+    },
+    {
+      "ordinal": 64,
+      "name": "SymGetModuleInfoW"
+    },
+    {
+      "ordinal": 63,
+      "name": "SymGetModuleInfoW64"
+    },
+    {
+      "ordinal": 65,
+      "name": "SymGetOptions"
+    },
+    {
+      "ordinal": 66,
+      "name": "SymGetSearchPath"
+    },
+    {
+      "ordinal": 68,
+      "name": "SymGetSymFromAddr"
+    },
+    {
+      "ordinal": 67,
+      "name": "SymGetSymFromAddr64"
+    },
+    {
+      "ordinal": 70,
+      "name": "SymGetSymFromName"
+    },
+    {
+      "ordinal": 69,
+      "name": "SymGetSymFromName64"
+    },
+    {
+      "ordinal": 72,
+      "name": "SymGetSymNext"
+    },
+    {
+      "ordinal": 71,
+      "name": "SymGetSymNext64"
+    },
+    {
+      "ordinal": 74,
+      "name": "SymGetSymPrev"
+    },
+    {
+      "ordinal": 73,
+      "name": "SymGetSymPrev64"
+    },
+    {
+      "ordinal": 75,
+      "name": "SymGetTypeFromName"
+    },
+    {
+      "ordinal": 76,
+      "name": "SymGetTypeInfo"
+    },
+    {
+      "ordinal": 77,
+      "name": "SymInitialize"
+    },
+    {
+      "ordinal": 79,
+      "name": "SymLoadModule"
+    },
+    {
+      "ordinal": 78,
+      "name": "SymLoadModule64"
+    },
+    {
+      "ordinal": 80,
+      "name": "SymLoadModuleEx"
+    },
+    {
+      "ordinal": 81,
+      "name": "SymMatchFileName"
+    },
+    {
+      "ordinal": 82,
+      "name": "SymMatchString"
+    },
+    {
+      "ordinal": 84,
+      "name": "SymRegisterCallback"
+    },
+    {
+      "ordinal": 83,
+      "name": "SymRegisterCallback64"
+    },
+    {
+      "ordinal": 86,
+      "name": "SymRegisterFunctionEntryCallback"
+    },
+    {
+      "ordinal": 85,
+      "name": "SymRegisterFunctionEntryCallback64"
+    },
+    {
+      "ordinal": 87,
+      "name": "SymSetContext"
+    },
+    {
+      "ordinal": 88,
+      "name": "SymSetHomeDirectory"
+    },
+    {
+      "ordinal": 89,
+      "name": "SymSetOptions"
+    },
+    {
+      "ordinal": 90,
+      "name": "SymSetParentWindow"
+    },
+    {
+      "ordinal": 91,
+      "name": "SymSetSearchPath"
+    },
+    {
+      "ordinal": 93,
+      "name": "SymUnDName"
+    },
+    {
+      "ordinal": 92,
+      "name": "SymUnDName64"
+    },
+    {
+      "ordinal": 95,
+      "name": "SymUnloadModule"
+    },
+    {
+      "ordinal": 94,
+      "name": "SymUnloadModule64"
+    },
+    {
+      "ordinal": 96,
+      "name": "UnDecorateSymbolName"
+    },
+    {
+      "ordinal": 97,
+      "name": "UnmapDebugInformation"
+    },
+    {
+      "ordinal": 98,
+      "name": "WinDbgExtensionDllInit"
+    },
+    {
+      "ordinal": 99,
+      "name": "dbghelp"
+    },
+    {
+      "ordinal": 100,
+      "name": "dh"
+    },
+    {
+      "ordinal": 101,
+      "name": "fptr"
+    },
+    {
+      "ordinal": 102,
+      "name": "lm"
+    },
+    {
+      "ordinal": 103,
+      "name": "lmi"
+    },
+    {
+      "ordinal": 104,
+      "name": "omap"
+    },
+    {
+      "ordinal": 105,
+      "name": "srcfiles"
+    },
+    {
+      "ordinal": 106,
+      "name": "stackdbg"
+    },
+    {
+      "ordinal": 107,
+      "name": "sym"
+    },
+    {
+      "ordinal": 108,
+      "name": "symsrv"
+    },
+    {
+      "ordinal": 109,
+      "name": "vc7fpo"
+    }
+  ]
+}

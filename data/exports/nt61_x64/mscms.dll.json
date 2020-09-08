@@ -1,0 +1,435 @@
+{
+  "Version": "6.1.7601.17514-AMD64",
+  "md5": "1834b31c749b86dac233bbba1c03bc48",
+  "imphash": "1834b31c749b86dac233bbba1c03bc48",
+  "InternalName": "MSCMS.DLL",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "Microsoft Color Matching System DLL",
+  "FileVersion": "6.1.7601.17514 (win7sp1_rtm.101119-1850)",
+  "ProductVersion": "6.1.7601.17514",
+  "PeChecksum": 652933,
+  "Size": 625664,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ordinal": 1,
+      "name": "AssociateColorProfileWithDeviceA"
+    },
+    {
+      "ordinal": 2,
+      "name": "AssociateColorProfileWithDeviceW"
+    },
+    {
+      "ordinal": 3,
+      "name": "CheckBitmapBits"
+    },
+    {
+      "ordinal": 4,
+      "name": "CheckColors"
+    },
+    {
+      "ordinal": 5,
+      "name": "CloseColorProfile"
+    },
+    {
+      "ordinal": 6,
+      "name": "CloseDisplay"
+    },
+    {
+      "ordinal": 7,
+      "name": "ColorCplGetDefaultProfileScope"
+    },
+    {
+      "ordinal": 8,
+      "name": "ColorCplGetDefaultRenderingIntentScope"
+    },
+    {
+      "ordinal": 9,
+      "name": "ColorCplGetProfileProperties"
+    },
+    {
+      "ordinal": 10,
+      "name": "ColorCplHasSystemWideAssociationListChanged"
+    },
+    {
+      "ordinal": 11,
+      "name": "ColorCplInitialize"
+    },
+    {
+      "ordinal": 12,
+      "name": "ColorCplLoadAssociationList"
+    },
+    {
+      "ordinal": 13,
+      "name": "ColorCplMergeAssociationLists"
+    },
+    {
+      "ordinal": 14,
+      "name": "ColorCplOverwritePerUserAssociationList"
+    },
+    {
+      "ordinal": 15,
+      "name": "ColorCplReleaseProfileProperties"
+    },
+    {
+      "ordinal": 16,
+      "name": "ColorCplResetSystemWideAssociationListChangedWarning"
+    },
+    {
+      "ordinal": 17,
+      "name": "ColorCplSaveAssociationList"
+    },
+    {
+      "ordinal": 18,
+      "name": "ColorCplSetUsePerUserProfiles"
+    },
+    {
+      "ordinal": 19,
+      "name": "ColorCplUninitialize"
+    },
+    {
+      "ordinal": 20,
+      "name": "ConvertColorNameToIndex"
+    },
+    {
+      "ordinal": 21,
+      "name": "ConvertIndexToColorName"
+    },
+    {
+      "ordinal": 22,
+      "name": "CreateColorTransformA"
+    },
+    {
+      "ordinal": 23,
+      "name": "CreateColorTransformW"
+    },
+    {
+      "ordinal": 24,
+      "name": "CreateDeviceLinkProfile"
+    },
+    {
+      "ordinal": 25,
+      "name": "CreateMultiProfileTransform"
+    },
+    {
+      "ordinal": 26,
+      "name": "CreateProfileFromLogColorSpaceA"
+    },
+    {
+      "ordinal": 27,
+      "name": "CreateProfileFromLogColorSpaceW"
+    },
+    {
+      "ordinal": 28,
+      "name": "DccwCreateDisplayProfileAssociationList"
+    },
+    {
+      "ordinal": 29,
+      "name": "DccwGetDisplayProfileAssociationList"
+    },
+    {
+      "ordinal": 30,
+      "name": "DccwGetGamutSize"
+    },
+    {
+      "ordinal": 31,
+      "name": "DccwReleaseDisplayProfileAssociationList"
+    },
+    {
+      "ordinal": 32,
+      "name": "DccwSetDisplayProfileAssociationList"
+    },
+    {
+      "ordinal": 33,
+      "name": "DeleteColorTransform"
+    },
+    {
+      "ordinal": 34,
+      "name": "DeviceRenameEvent"
+    },
+    {
+      "ordinal": 35,
+      "name": "DisassociateColorProfileFromDeviceA"
+    },
+    {
+      "ordinal": 36,
+      "name": "DisassociateColorProfileFromDeviceW"
+    },
+    {
+      "ordinal": 37,
+      "name": "DllCanUnloadNow"
+    },
+    {
+      "ordinal": 38,
+      "name": "DllGetClassObject"
+    },
+    {
+      "ordinal": 39,
+      "name": "EnumColorProfilesA"
+    },
+    {
+      "ordinal": 40,
+      "name": "EnumColorProfilesW"
+    },
+    {
+      "ordinal": 41,
+      "name": "GenerateCopyFilePaths"
+    },
+    {
+      "ordinal": 42,
+      "name": "GetCMMInfo"
+    },
+    {
+      "ordinal": 43,
+      "name": "GetColorDirectoryA"
+    },
+    {
+      "ordinal": 44,
+      "name": "GetColorDirectoryW"
+    },
+    {
+      "ordinal": 45,
+      "name": "GetColorProfileElement"
+    },
+    {
+      "ordinal": 46,
+      "name": "GetColorProfileElementTag"
+    },
+    {
+      "ordinal": 47,
+      "name": "GetColorProfileFromHandle"
+    },
+    {
+      "ordinal": 48,
+      "name": "GetColorProfileHeader"
+    },
+    {
+      "ordinal": 49,
+      "name": "GetCountColorProfileElements"
+    },
+    {
+      "ordinal": 50,
+      "name": "GetNamedProfileInfo"
+    },
+    {
+      "ordinal": 51,
+      "name": "GetPS2ColorRenderingDictionary"
+    },
+    {
+      "ordinal": 52,
+      "name": "GetPS2ColorRenderingIntent"
+    },
+    {
+      "ordinal": 53,
+      "name": "GetPS2ColorSpaceArray"
+    },
+    {
+      "ordinal": 54,
+      "name": "GetStandardColorSpaceProfileA"
+    },
+    {
+      "ordinal": 55,
+      "name": "GetStandardColorSpaceProfileW"
+    },
+    {
+      "ordinal": 56,
+      "name": "InstallColorProfileA"
+    },
+    {
+      "ordinal": 57,
+      "name": "InstallColorProfileW"
+    },
+    {
+      "ordinal": 58,
+      "name": "InternalGetDeviceConfig"
+    },
+    {
+      "ordinal": 59,
+      "name": "InternalGetPS2CSAFromLCS"
+    },
+    {
+      "ordinal": 60,
+      "name": "InternalGetPS2ColorRenderingDictionary"
+    },
+    {
+      "ordinal": 61,
+      "name": "InternalGetPS2ColorSpaceArray"
+    },
+    {
+      "ordinal": 62,
+      "name": "InternalGetPS2PreviewCRD"
+    },
+    {
+      "ordinal": 63,
+      "name": "InternalRefreshCalibration"
+    },
+    {
+      "ordinal": 64,
+      "name": "InternalSetDeviceConfig"
+    },
+    {
+      "ordinal": 65,
+      "name": "InternalWcsAssociateColorProfileWithDevice"
+    },
+    {
+      "ordinal": 66,
+      "name": "IsColorProfileTagPresent"
+    },
+    {
+      "ordinal": 67,
+      "name": "IsColorProfileValid"
+    },
+    {
+      "ordinal": 68,
+      "name": "OpenColorProfileA"
+    },
+    {
+      "ordinal": 69,
+      "name": "OpenColorProfileW"
+    },
+    {
+      "ordinal": 70,
+      "name": "OpenDisplay"
+    },
+    {
+      "ordinal": 71,
+      "name": "RegisterCMMA"
+    },
+    {
+      "ordinal": 72,
+      "name": "RegisterCMMW"
+    },
+    {
+      "ordinal": 73,
+      "name": "SelectCMM"
+    },
+    {
+      "ordinal": 74,
+      "name": "SetColorProfileElement"
+    },
+    {
+      "ordinal": 75,
+      "name": "SetColorProfileElementReference"
+    },
+    {
+      "ordinal": 76,
+      "name": "SetColorProfileElementSize"
+    },
+    {
+      "ordinal": 77,
+      "name": "SetColorProfileHeader"
+    },
+    {
+      "ordinal": 78,
+      "name": "SetStandardColorSpaceProfileA"
+    },
+    {
+      "ordinal": 79,
+      "name": "SetStandardColorSpaceProfileW"
+    },
+    {
+      "ordinal": 80,
+      "name": "SpoolerCopyFileEvent"
+    },
+    {
+      "ordinal": 81,
+      "name": "TranslateBitmapBits"
+    },
+    {
+      "ordinal": 82,
+      "name": "TranslateColors"
+    },
+    {
+      "ordinal": 83,
+      "name": "UninstallColorProfileA"
+    },
+    {
+      "ordinal": 84,
+      "name": "UninstallColorProfileW"
+    },
+    {
+      "ordinal": 85,
+      "name": "UnregisterCMMA"
+    },
+    {
+      "ordinal": 86,
+      "name": "UnregisterCMMW"
+    },
+    {
+      "ordinal": 87,
+      "name": "WcsAssociateColorProfileWithDevice"
+    },
+    {
+      "ordinal": 88,
+      "name": "WcsCheckColors"
+    },
+    {
+      "ordinal": 89,
+      "name": "WcsCreateIccProfile"
+    },
+    {
+      "ordinal": 90,
+      "name": "WcsDisassociateColorProfileFromDevice"
+    },
+    {
+      "ordinal": 91,
+      "name": "WcsEnumColorProfiles"
+    },
+    {
+      "ordinal": 92,
+      "name": "WcsEnumColorProfilesSize"
+    },
+    {
+      "ordinal": 93,
+      "name": "WcsGetCalibrationManagementState"
+    },
+    {
+      "ordinal": 94,
+      "name": "WcsGetDefaultColorProfile"
+    },
+    {
+      "ordinal": 95,
+      "name": "WcsGetDefaultColorProfileSize"
+    },
+    {
+      "ordinal": 96,
+      "name": "WcsGetDefaultRenderingIntent"
+    },
+    {
+      "ordinal": 97,
+      "name": "WcsGetUsePerUserProfiles"
+    },
+    {
+      "ordinal": 98,
+      "name": "WcsGpCanInstallOrUninstallProfiles"
+    },
+    {
+      "ordinal": 99,
+      "name": "WcsOpenColorProfileA"
+    },
+    {
+      "ordinal": 100,
+      "name": "WcsOpenColorProfileW"
+    },
+    {
+      "ordinal": 101,
+      "name": "WcsSetCalibrationManagementState"
+    },
+    {
+      "ordinal": 102,
+      "name": "WcsSetDefaultColorProfile"
+    },
+    {
+      "ordinal": 103,
+      "name": "WcsSetDefaultRenderingIntent"
+    },
+    {
+      "ordinal": 104,
+      "name": "WcsSetUsePerUserProfiles"
+    },
+    {
+      "ordinal": 105,
+      "name": "WcsTranslateColors"
+    }
+  ]
+}

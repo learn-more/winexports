@@ -1,0 +1,80 @@
+
+{{/* Renders a client-side searchable list of all exported function names.
+     Loads static/data/function_names.json — an array of [fname, slug] pairs,
+     sorted case-insensitively — and links each match to its per-function page.
+*/}}
+
+<input type="text" id="fn-search" placeholder="Search function names&hellip;"
+       style="width:100%;padding:0.4em;font-size:1em;box-sizing:border-box">
+
+<p id="fn-count" style="font-size:0.85em;margin:0.4em 0"></p>
+
+<ul id="fn-results" style="list-style:none;padding:0;margin:0;
+    max-height:60vh;overflow-y:auto;border:1px solid #ccc;border-radius:3px">
+  <li style="padding:0.4em 0.6em;color:#888">Loading&hellip;</li>
+</ul>
+
+<script>
+(function () {
+  /* allPairs: array of [fname, slug] */
+  var allPairs  = null;
+  var MAX_SHOWN = 200;
+  var siteRoot  = {{ "/" | absURL }};
+
+  function escHtml(s) {
+    return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  }
+
+  function render(pairs) {
+    var list  = document.getElementById('fn-results');
+    var count = document.getElementById('fn-count');
+
+    if (!pairs || !pairs.length) {
+      list.innerHTML    = '<li style="padding:0.4em 0.6em;color:#888">No results.</li>';
+      count.textContent = '';
+      return;
+    }
+
+    var shown = pairs.slice(0, MAX_SHOWN);
+    var html  = shown.map(function(p) {
+      var url = siteRoot + p[1];
+      return '<li style="padding:0.2em 0.6em"><a href="' + url + '">' + escHtml(p[0]) + '</a></li>';
+    }).join('');
+
+    if (pairs.length > MAX_SHOWN) {
+      html += '<li style="padding:0.4em 0.6em;color:#888">&hellip;&nbsp;'
+           +  (pairs.length - MAX_SHOWN) + ' more &mdash; refine your search.</li>';
+    }
+
+    list.innerHTML    = html;
+    count.textContent = pairs.length.toLocaleString() + ' match' + (pairs.length === 1 ? '' : 'es');
+  }
+
+  function filter(query) {
+    if (!allPairs) return;
+    if (!query) {
+      render(allPairs.slice(0, MAX_SHOWN));
+      document.getElementById('fn-count').textContent =
+        allPairs.length.toLocaleString() + ' functions total';
+      return;
+    }
+    var q = query.toLowerCase();
+    render(allPairs.filter(function(p){ return p[0].toLowerCase().indexOf(q) !== -1; }));
+  }
+
+  document.getElementById('fn-search').addEventListener('input', function() {
+    filter(this.value.trim());
+  });
+
+  fetch({{ "/data/function_names.json" | absURL }})
+    .then(function(r){ return r.json(); })
+    .then(function(pairs) {
+      allPairs = pairs;
+      filter(document.getElementById('fn-search').value.trim());
+    })
+    .catch(function(err) {
+      document.getElementById('fn-results').innerHTML =
+        '<li style="padding:0.4em 0.6em;color:red">Failed to load: ' + err + '</li>';
+    });
+})();
+</script>

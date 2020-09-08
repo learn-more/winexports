@@ -1,0 +1,335 @@
+{
+  "Version": "5.2.3790.3959-I386",
+  "md5": "756e9bfbda9ccaf241b4b99a6aacad16",
+  "imphash": "756e9bfbda9ccaf241b4b99a6aacad16",
+  "InternalName": "security.dll",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "Security Support Provider Interface",
+  "FileVersion": "5.2.3790.3959 (srv03_sp2_rtm.070216-1710)",
+  "ProductVersion": "5.2.3790.3959",
+  "PeChecksum": 90837,
+  "Size": 80384,
+  "Machine": "I386",
+  "exports": [
+    {
+      "ordinal": 3,
+      "name": "AcceptSecurityContext"
+    },
+    {
+      "ordinal": 4,
+      "name": "AcquireCredentialsHandleA"
+    },
+    {
+      "ordinal": 5,
+      "name": "AcquireCredentialsHandleW"
+    },
+    {
+      "ordinal": 6,
+      "name": "AddCredentialsA"
+    },
+    {
+      "ordinal": 7,
+      "name": "AddCredentialsW"
+    },
+    {
+      "ordinal": 8,
+      "name": "AddSecurityPackageA"
+    },
+    {
+      "ordinal": 9,
+      "name": "AddSecurityPackageW"
+    },
+    {
+      "ordinal": 10,
+      "name": "ApplyControlToken"
+    },
+    {
+      "ordinal": 11,
+      "name": "CompleteAuthToken"
+    },
+    {
+      "ordinal": 12,
+      "name": "CredMarshalTargetInfo"
+    },
+    {
+      "ordinal": 13,
+      "name": "CredUnmarshalTargetInfo"
+    },
+    {
+      "ordinal": 14,
+      "name": "DecryptMessage"
+    },
+    {
+      "ordinal": 15,
+      "name": "DeleteSecurityContext"
+    },
+    {
+      "ordinal": 16,
+      "name": "DeleteSecurityPackageA"
+    },
+    {
+      "ordinal": 17,
+      "name": "DeleteSecurityPackageW"
+    },
+    {
+      "ordinal": 18,
+      "name": "EncryptMessage"
+    },
+    {
+      "ordinal": 19,
+      "name": "EnumerateSecurityPackagesA"
+    },
+    {
+      "ordinal": 20,
+      "name": "EnumerateSecurityPackagesW"
+    },
+    {
+      "ordinal": 21,
+      "name": "ExportSecurityContext"
+    },
+    {
+      "ordinal": 22,
+      "name": "FreeContextBuffer"
+    },
+    {
+      "ordinal": 23,
+      "name": "FreeCredentialsHandle"
+    },
+    {
+      "ordinal": 24,
+      "name": "GetComputerObjectNameA"
+    },
+    {
+      "ordinal": 25,
+      "name": "GetComputerObjectNameW"
+    },
+    {
+      "ordinal": 26,
+      "name": "GetSecurityUserInfo"
+    },
+    {
+      "ordinal": 27,
+      "name": "GetUserNameExA"
+    },
+    {
+      "ordinal": 28,
+      "name": "GetUserNameExW"
+    },
+    {
+      "ordinal": 29,
+      "name": "ImpersonateSecurityContext"
+    },
+    {
+      "ordinal": 30,
+      "name": "ImportSecurityContextA"
+    },
+    {
+      "ordinal": 31,
+      "name": "ImportSecurityContextW"
+    },
+    {
+      "ordinal": 32,
+      "name": "InitSecurityInterfaceA"
+    },
+    {
+      "ordinal": 33,
+      "name": "InitSecurityInterfaceW"
+    },
+    {
+      "ordinal": 34,
+      "name": "InitializeSecurityContextA"
+    },
+    {
+      "ordinal": 35,
+      "name": "InitializeSecurityContextW"
+    },
+    {
+      "ordinal": 36,
+      "name": "LsaCallAuthenticationPackage"
+    },
+    {
+      "ordinal": 37,
+      "name": "LsaConnectUntrusted"
+    },
+    {
+      "ordinal": 38,
+      "name": "LsaDeregisterLogonProcess"
+    },
+    {
+      "ordinal": 39,
+      "name": "LsaEnumerateLogonSessions"
+    },
+    {
+      "ordinal": 40,
+      "name": "LsaFreeReturnBuffer"
+    },
+    {
+      "ordinal": 41,
+      "name": "LsaGetLogonSessionData"
+    },
+    {
+      "ordinal": 42,
+      "name": "LsaLogonUser"
+    },
+    {
+      "ordinal": 43,
+      "name": "LsaLookupAuthenticationPackage"
+    },
+    {
+      "ordinal": 44,
+      "name": "LsaRegisterLogonProcess"
+    },
+    {
+      "ordinal": 45,
+      "name": "LsaRegisterPolicyChangeNotification"
+    },
+    {
+      "ordinal": 46,
+      "name": "LsaUnregisterPolicyChangeNotification"
+    },
+    {
+      "ordinal": 47,
+      "name": "MakeSignature"
+    },
+    {
+      "ordinal": 48,
+      "name": "QueryContextAttributesA"
+    },
+    {
+      "ordinal": 49,
+      "name": "QueryContextAttributesW"
+    },
+    {
+      "ordinal": 50,
+      "name": "QueryCredentialsAttributesA"
+    },
+    {
+      "ordinal": 51,
+      "name": "QueryCredentialsAttributesW"
+    },
+    {
+      "ordinal": 52,
+      "name": "QuerySecurityContextToken"
+    },
+    {
+      "ordinal": 53,
+      "name": "QuerySecurityPackageInfoA"
+    },
+    {
+      "ordinal": 54,
+      "name": "QuerySecurityPackageInfoW"
+    },
+    {
+      "ordinal": 55,
+      "name": "RevertSecurityContext"
+    },
+    {
+      "ordinal": 56,
+      "name": "SaslAcceptSecurityContext"
+    },
+    {
+      "ordinal": 57,
+      "name": "SaslEnumerateProfilesA"
+    },
+    {
+      "ordinal": 58,
+      "name": "SaslEnumerateProfilesW"
+    },
+    {
+      "ordinal": 59,
+      "name": "SaslGetContextOption"
+    },
+    {
+      "ordinal": 60,
+      "name": "SaslGetProfilePackageA"
+    },
+    {
+      "ordinal": 61,
+      "name": "SaslGetProfilePackageW"
+    },
+    {
+      "ordinal": 62,
+      "name": "SaslIdentifyPackageA"
+    },
+    {
+      "ordinal": 63,
+      "name": "SaslIdentifyPackageW"
+    },
+    {
+      "ordinal": 64,
+      "name": "SaslInitializeSecurityContextA"
+    },
+    {
+      "ordinal": 65,
+      "name": "SaslInitializeSecurityContextW"
+    },
+    {
+      "ordinal": 66,
+      "name": "SaslSetContextOption"
+    },
+    {
+      "ordinal": 67,
+      "name": "SealMessage"
+    },
+    {
+      "ordinal": 68,
+      "name": "SecCacheSspiPackages"
+    },
+    {
+      "ordinal": 1,
+      "name": "SecDeleteUserModeContext"
+    },
+    {
+      "ordinal": 2,
+      "name": "SecInitUserModeContext"
+    },
+    {
+      "ordinal": 69,
+      "name": "SecpFreeMemory"
+    },
+    {
+      "ordinal": 70,
+      "name": "SecpSetIPAddress"
+    },
+    {
+      "ordinal": 71,
+      "name": "SecpTranslateName"
+    },
+    {
+      "ordinal": 72,
+      "name": "SecpTranslateNameEx"
+    },
+    {
+      "ordinal": 73,
+      "name": "SetContextAttributesA"
+    },
+    {
+      "ordinal": 74,
+      "name": "SetContextAttributesW"
+    },
+    {
+      "ordinal": 75,
+      "name": "SetCredentialsAttributesA"
+    },
+    {
+      "ordinal": 76,
+      "name": "SetCredentialsAttributesW"
+    },
+    {
+      "ordinal": 77,
+      "name": "TranslateNameA"
+    },
+    {
+      "ordinal": 78,
+      "name": "TranslateNameW"
+    },
+    {
+      "ordinal": 79,
+      "name": "UnsealMessage"
+    },
+    {
+      "ordinal": 80,
+      "name": "VerifySignature"
+    }
+  ]
+}

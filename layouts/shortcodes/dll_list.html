@@ -1,0 +1,76 @@
+
+{{/* Renders a searchable list of all DLLs with the Windows versions they appear in. */}}
+
+{{ $ordered_versions := slice "nt52_x86" "nt61_x86" "nt61_x64" "nt100_x86_26200" }}
+
+<link rel="stylesheet" href="{{ "/css/datatables.min.css" | absURL }}">
+<script src="{{ "/js/datatables.min.js" | absURL }}"></script>
+
+<br>
+
+<table id="dlllist" class="display compact">
+  <thead>
+    <tr>
+      <th>DLL</th>
+      {{ range $ordered_versions }}
+      {{ $vmeta := index hugo.Data.versions . }}
+      <th title="{{ $vmeta.desc }}" class="version-col">{{ $vmeta.label }}</th>
+      {{ end }}
+    </tr>
+  </thead>
+  <tbody>
+  {{ range hugo.Data.dlls }}
+  {{ $dll := . }}
+  {{ $sname := $dll.name | lower | replaceRE "[^a-z0-9_]" "_" }}
+  <tr>
+    <td><a href="{{ "/dlls/" | absURL }}{{ $sname }}/">{{ $dll.name }}</a></td>
+    {{ range $ordered_versions }}
+    {{ if isset $dll.versions . }}
+      {{ $vdata := index $dll.versions . }}
+      <td title="{{ $vdata.FileVersion }}">&#10003;</td>
+    {{ else }}
+      <td></td>
+    {{ end }}
+    {{ end }}
+  </tr>
+  {{ end }}
+  </tbody>
+</table>
+
+<script>
+new DataTable('#dlllist', {
+  paging: false,
+  order: [[0, 'asc']],
+  columnDefs: [
+    { targets: 0, searchable: true },
+    {
+      targets: '.version-col',
+      searchable: true,
+      render: function(data, type) {
+        if (type === 'display') return data;
+        return data;
+      }
+    }
+  ],
+  initComplete: function () {
+    this.api()
+      .columns('.version-col')
+      .every(function () {
+        var column = this;
+        var select = document.createElement('select');
+        select.add(new Option(''));
+        select.add(new Option('present', '&#10003;'));
+        select.add(new Option('absent', ''));
+        var hdr = $(column.header());
+        $('<br>').appendTo(hdr);
+        $(select).appendTo(hdr).on('click', function(e){ e.stopPropagation(); });
+        select.addEventListener('change', function () {
+          var search = select.value === 'present' ? '.+'
+                     : select.value === 'absent'  ? '^$'
+                     : '';
+          column.search(search, true, false).draw();
+        });
+      });
+  }
+});
+</script>

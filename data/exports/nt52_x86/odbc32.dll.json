@@ -1,0 +1,743 @@
+{
+  "Version": "3.526.3959.0-I386",
+  "md5": "8329a8d08b655b21161caeeb8b1275d5",
+  "imphash": "8329a8d08b655b21161caeeb8b1275d5",
+  "InternalName": "ODBC32",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "Microsoft Data Access - ODBC Driver Manager",
+  "FileVersion": "3.526.3959.0 (srv03_sp2_rtm.070216-1710)",
+  "ProductVersion": "3.526.3959.0",
+  "PeChecksum": 280430,
+  "Size": 266240,
+  "Machine": "I386",
+  "exports": [
+    {
+      "ordinal": 79,
+      "name": "CloseODBCPerfData"
+    },
+    {
+      "ordinal": 80,
+      "name": "CollectODBCPerfData"
+    },
+    {
+      "ordinal": 81,
+      "name": "CursorLibLockDbc"
+    },
+    {
+      "ordinal": 82,
+      "name": "CursorLibLockDesc"
+    },
+    {
+      "ordinal": 83,
+      "name": "CursorLibLockStmt"
+    },
+    {
+      "ordinal": 85,
+      "name": "CursorLibTransact"
+    },
+    {
+      "ordinal": 87,
+      "name": "DllBidEntryPoint"
+    },
+    {
+      "ordinal": 88,
+      "name": "GetODBCSharedData"
+    },
+    {
+      "ordinal": 89,
+      "name": "LockHandle"
+    },
+    {
+      "ordinal": 90,
+      "name": "MpHeapAlloc"
+    },
+    {
+      "ordinal": 91,
+      "name": "MpHeapCompact"
+    },
+    {
+      "ordinal": 92,
+      "name": "MpHeapCreate"
+    },
+    {
+      "ordinal": 93,
+      "name": "MpHeapDestroy"
+    },
+    {
+      "ordinal": 94,
+      "name": "MpHeapFree"
+    },
+    {
+      "ordinal": 95,
+      "name": "MpHeapReAlloc"
+    },
+    {
+      "ordinal": 96,
+      "name": "MpHeapSize"
+    },
+    {
+      "ordinal": 97,
+      "name": "MpHeapValidate"
+    },
+    {
+      "ordinal": 84,
+      "name": "ODBCGetTryWaitValue"
+    },
+    {
+      "ordinal": 98,
+      "name": "ODBCInternalConnectW"
+    },
+    {
+      "ordinal": 301,
+      "name": "ODBCQualifyFileDSNW"
+    },
+    {
+      "ordinal": 86,
+      "name": "ODBCSetTryWaitValue"
+    },
+    {
+      "ordinal": 99,
+      "name": "OpenODBCPerfData"
+    },
+    {
+      "ordinal": 100,
+      "name": "PostComponentError"
+    },
+    {
+      "ordinal": 101,
+      "name": "PostODBCComponentError"
+    },
+    {
+      "ordinal": 102,
+      "name": "PostODBCError"
+    },
+    {
+      "ordinal": 1,
+      "name": "SQLAllocConnect"
+    },
+    {
+      "ordinal": 2,
+      "name": "SQLAllocEnv"
+    },
+    {
+      "ordinal": 24,
+      "name": "SQLAllocHandle"
+    },
+    {
+      "ordinal": 77,
+      "name": "SQLAllocHandleStd"
+    },
+    {
+      "ordinal": 3,
+      "name": "SQLAllocStmt"
+    },
+    {
+      "ordinal": 4,
+      "name": "SQLBindCol"
+    },
+    {
+      "ordinal": 25,
+      "name": "SQLBindParam"
+    },
+    {
+      "ordinal": 72,
+      "name": "SQLBindParameter"
+    },
+    {
+      "ordinal": 55,
+      "name": "SQLBrowseConnect"
+    },
+    {
+      "ordinal": 255,
+      "name": "SQLBrowseConnectA"
+    },
+    {
+      "ordinal": 155,
+      "name": "SQLBrowseConnectW"
+    },
+    {
+      "ordinal": 78,
+      "name": "SQLBulkOperations"
+    },
+    {
+      "ordinal": 5,
+      "name": "SQLCancel"
+    },
+    {
+      "ordinal": 26,
+      "name": "SQLCloseCursor"
+    },
+    {
+      "ordinal": 27,
+      "name": "SQLColAttribute"
+    },
+    {
+      "ordinal": 227,
+      "name": "SQLColAttributeA"
+    },
+    {
+      "ordinal": 127,
+      "name": "SQLColAttributeW"
+    },
+    {
+      "ordinal": 6,
+      "name": "SQLColAttributes"
+    },
+    {
+      "ordinal": 206,
+      "name": "SQLColAttributesA"
+    },
+    {
+      "ordinal": 106,
+      "name": "SQLColAttributesW"
+    },
+    {
+      "ordinal": 56,
+      "name": "SQLColumnPrivileges"
+    },
+    {
+      "ordinal": 256,
+      "name": "SQLColumnPrivilegesA"
+    },
+    {
+      "ordinal": 156,
+      "name": "SQLColumnPrivilegesW"
+    },
+    {
+      "ordinal": 40,
+      "name": "SQLColumns"
+    },
+    {
+      "ordinal": 240,
+      "name": "SQLColumnsA"
+    },
+    {
+      "ordinal": 140,
+      "name": "SQLColumnsW"
+    },
+    {
+      "ordinal": 7,
+      "name": "SQLConnect"
+    },
+    {
+      "ordinal": 207,
+      "name": "SQLConnectA"
+    },
+    {
+      "ordinal": 107,
+      "name": "SQLConnectW"
+    },
+    {
+      "ordinal": 28,
+      "name": "SQLCopyDesc"
+    },
+    {
+      "ordinal": 57,
+      "name": "SQLDataSources"
+    },
+    {
+      "ordinal": 257,
+      "name": "SQLDataSourcesA"
+    },
+    {
+      "ordinal": 157,
+      "name": "SQLDataSourcesW"
+    },
+    {
+      "ordinal": 8,
+      "name": "SQLDescribeCol"
+    },
+    {
+      "ordinal": 208,
+      "name": "SQLDescribeColA"
+    },
+    {
+      "ordinal": 108,
+      "name": "SQLDescribeColW"
+    },
+    {
+      "ordinal": 58,
+      "name": "SQLDescribeParam"
+    },
+    {
+      "ordinal": 9,
+      "name": "SQLDisconnect"
+    },
+    {
+      "ordinal": 41,
+      "name": "SQLDriverConnect"
+    },
+    {
+      "ordinal": 241,
+      "name": "SQLDriverConnectA"
+    },
+    {
+      "ordinal": 141,
+      "name": "SQLDriverConnectW"
+    },
+    {
+      "ordinal": 71,
+      "name": "SQLDrivers"
+    },
+    {
+      "ordinal": 271,
+      "name": "SQLDriversA"
+    },
+    {
+      "ordinal": 171,
+      "name": "SQLDriversW"
+    },
+    {
+      "ordinal": 29,
+      "name": "SQLEndTran"
+    },
+    {
+      "ordinal": 10,
+      "name": "SQLError"
+    },
+    {
+      "ordinal": 210,
+      "name": "SQLErrorA"
+    },
+    {
+      "ordinal": 110,
+      "name": "SQLErrorW"
+    },
+    {
+      "ordinal": 11,
+      "name": "SQLExecDirect"
+    },
+    {
+      "ordinal": 211,
+      "name": "SQLExecDirectA"
+    },
+    {
+      "ordinal": 111,
+      "name": "SQLExecDirectW"
+    },
+    {
+      "ordinal": 12,
+      "name": "SQLExecute"
+    },
+    {
+      "ordinal": 59,
+      "name": "SQLExtendedFetch"
+    },
+    {
+      "ordinal": 13,
+      "name": "SQLFetch"
+    },
+    {
+      "ordinal": 30,
+      "name": "SQLFetchScroll"
+    },
+    {
+      "ordinal": 60,
+      "name": "SQLForeignKeys"
+    },
+    {
+      "ordinal": 260,
+      "name": "SQLForeignKeysA"
+    },
+    {
+      "ordinal": 160,
+      "name": "SQLForeignKeysW"
+    },
+    {
+      "ordinal": 14,
+      "name": "SQLFreeConnect"
+    },
+    {
+      "ordinal": 15,
+      "name": "SQLFreeEnv"
+    },
+    {
+      "ordinal": 31,
+      "name": "SQLFreeHandle"
+    },
+    {
+      "ordinal": 16,
+      "name": "SQLFreeStmt"
+    },
+    {
+      "ordinal": 32,
+      "name": "SQLGetConnectAttr"
+    },
+    {
+      "ordinal": 232,
+      "name": "SQLGetConnectAttrA"
+    },
+    {
+      "ordinal": 132,
+      "name": "SQLGetConnectAttrW"
+    },
+    {
+      "ordinal": 42,
+      "name": "SQLGetConnectOption"
+    },
+    {
+      "ordinal": 242,
+      "name": "SQLGetConnectOptionA"
+    },
+    {
+      "ordinal": 142,
+      "name": "SQLGetConnectOptionW"
+    },
+    {
+      "ordinal": 17,
+      "name": "SQLGetCursorName"
+    },
+    {
+      "ordinal": 217,
+      "name": "SQLGetCursorNameA"
+    },
+    {
+      "ordinal": 117,
+      "name": "SQLGetCursorNameW"
+    },
+    {
+      "ordinal": 43,
+      "name": "SQLGetData"
+    },
+    {
+      "ordinal": 33,
+      "name": "SQLGetDescField"
+    },
+    {
+      "ordinal": 233,
+      "name": "SQLGetDescFieldA"
+    },
+    {
+      "ordinal": 133,
+      "name": "SQLGetDescFieldW"
+    },
+    {
+      "ordinal": 34,
+      "name": "SQLGetDescRec"
+    },
+    {
+      "ordinal": 234,
+      "name": "SQLGetDescRecA"
+    },
+    {
+      "ordinal": 134,
+      "name": "SQLGetDescRecW"
+    },
+    {
+      "ordinal": 35,
+      "name": "SQLGetDiagField"
+    },
+    {
+      "ordinal": 235,
+      "name": "SQLGetDiagFieldA"
+    },
+    {
+      "ordinal": 135,
+      "name": "SQLGetDiagFieldW"
+    },
+    {
+      "ordinal": 36,
+      "name": "SQLGetDiagRec"
+    },
+    {
+      "ordinal": 236,
+      "name": "SQLGetDiagRecA"
+    },
+    {
+      "ordinal": 136,
+      "name": "SQLGetDiagRecW"
+    },
+    {
+      "ordinal": 37,
+      "name": "SQLGetEnvAttr"
+    },
+    {
+      "ordinal": 44,
+      "name": "SQLGetFunctions"
+    },
+    {
+      "ordinal": 45,
+      "name": "SQLGetInfo"
+    },
+    {
+      "ordinal": 245,
+      "name": "SQLGetInfoA"
+    },
+    {
+      "ordinal": 145,
+      "name": "SQLGetInfoW"
+    },
+    {
+      "ordinal": 38,
+      "name": "SQLGetStmtAttr"
+    },
+    {
+      "ordinal": 238,
+      "name": "SQLGetStmtAttrA"
+    },
+    {
+      "ordinal": 138,
+      "name": "SQLGetStmtAttrW"
+    },
+    {
+      "ordinal": 46,
+      "name": "SQLGetStmtOption"
+    },
+    {
+      "ordinal": 47,
+      "name": "SQLGetTypeInfo"
+    },
+    {
+      "ordinal": 247,
+      "name": "SQLGetTypeInfoA"
+    },
+    {
+      "ordinal": 147,
+      "name": "SQLGetTypeInfoW"
+    },
+    {
+      "ordinal": 61,
+      "name": "SQLMoreResults"
+    },
+    {
+      "ordinal": 62,
+      "name": "SQLNativeSql"
+    },
+    {
+      "ordinal": 262,
+      "name": "SQLNativeSqlA"
+    },
+    {
+      "ordinal": 162,
+      "name": "SQLNativeSqlW"
+    },
+    {
+      "ordinal": 63,
+      "name": "SQLNumParams"
+    },
+    {
+      "ordinal": 18,
+      "name": "SQLNumResultCols"
+    },
+    {
+      "ordinal": 48,
+      "name": "SQLParamData"
+    },
+    {
+      "ordinal": 64,
+      "name": "SQLParamOptions"
+    },
+    {
+      "ordinal": 19,
+      "name": "SQLPrepare"
+    },
+    {
+      "ordinal": 219,
+      "name": "SQLPrepareA"
+    },
+    {
+      "ordinal": 119,
+      "name": "SQLPrepareW"
+    },
+    {
+      "ordinal": 65,
+      "name": "SQLPrimaryKeys"
+    },
+    {
+      "ordinal": 265,
+      "name": "SQLPrimaryKeysA"
+    },
+    {
+      "ordinal": 165,
+      "name": "SQLPrimaryKeysW"
+    },
+    {
+      "ordinal": 66,
+      "name": "SQLProcedureColumns"
+    },
+    {
+      "ordinal": 266,
+      "name": "SQLProcedureColumnsA"
+    },
+    {
+      "ordinal": 166,
+      "name": "SQLProcedureColumnsW"
+    },
+    {
+      "ordinal": 67,
+      "name": "SQLProcedures"
+    },
+    {
+      "ordinal": 267,
+      "name": "SQLProceduresA"
+    },
+    {
+      "ordinal": 167,
+      "name": "SQLProceduresW"
+    },
+    {
+      "ordinal": 49,
+      "name": "SQLPutData"
+    },
+    {
+      "ordinal": 20,
+      "name": "SQLRowCount"
+    },
+    {
+      "ordinal": 39,
+      "name": "SQLSetConnectAttr"
+    },
+    {
+      "ordinal": 239,
+      "name": "SQLSetConnectAttrA"
+    },
+    {
+      "ordinal": 139,
+      "name": "SQLSetConnectAttrW"
+    },
+    {
+      "ordinal": 50,
+      "name": "SQLSetConnectOption"
+    },
+    {
+      "ordinal": 250,
+      "name": "SQLSetConnectOptionA"
+    },
+    {
+      "ordinal": 150,
+      "name": "SQLSetConnectOptionW"
+    },
+    {
+      "ordinal": 21,
+      "name": "SQLSetCursorName"
+    },
+    {
+      "ordinal": 221,
+      "name": "SQLSetCursorNameA"
+    },
+    {
+      "ordinal": 121,
+      "name": "SQLSetCursorNameW"
+    },
+    {
+      "ordinal": 73,
+      "name": "SQLSetDescField"
+    },
+    {
+      "ordinal": 273,
+      "name": "SQLSetDescFieldA"
+    },
+    {
+      "ordinal": 173,
+      "name": "SQLSetDescFieldW"
+    },
+    {
+      "ordinal": 74,
+      "name": "SQLSetDescRec"
+    },
+    {
+      "ordinal": 75,
+      "name": "SQLSetEnvAttr"
+    },
+    {
+      "ordinal": 22,
+      "name": "SQLSetParam"
+    },
+    {
+      "ordinal": 68,
+      "name": "SQLSetPos"
+    },
+    {
+      "ordinal": 69,
+      "name": "SQLSetScrollOptions"
+    },
+    {
+      "ordinal": 76,
+      "name": "SQLSetStmtAttr"
+    },
+    {
+      "ordinal": 276,
+      "name": "SQLSetStmtAttrA"
+    },
+    {
+      "ordinal": 176,
+      "name": "SQLSetStmtAttrW"
+    },
+    {
+      "ordinal": 51,
+      "name": "SQLSetStmtOption"
+    },
+    {
+      "ordinal": 52,
+      "name": "SQLSpecialColumns"
+    },
+    {
+      "ordinal": 252,
+      "name": "SQLSpecialColumnsA"
+    },
+    {
+      "ordinal": 152,
+      "name": "SQLSpecialColumnsW"
+    },
+    {
+      "ordinal": 53,
+      "name": "SQLStatistics"
+    },
+    {
+      "ordinal": 253,
+      "name": "SQLStatisticsA"
+    },
+    {
+      "ordinal": 153,
+      "name": "SQLStatisticsW"
+    },
+    {
+      "ordinal": 70,
+      "name": "SQLTablePrivileges"
+    },
+    {
+      "ordinal": 270,
+      "name": "SQLTablePrivilegesA"
+    },
+    {
+      "ordinal": 170,
+      "name": "SQLTablePrivilegesW"
+    },
+    {
+      "ordinal": 54,
+      "name": "SQLTables"
+    },
+    {
+      "ordinal": 254,
+      "name": "SQLTablesA"
+    },
+    {
+      "ordinal": 154,
+      "name": "SQLTablesW"
+    },
+    {
+      "ordinal": 23,
+      "name": "SQLTransact"
+    },
+    {
+      "ordinal": 103,
+      "name": "SearchStatusCode"
+    },
+    {
+      "ordinal": 104,
+      "name": "VFreeErrors"
+    },
+    {
+      "ordinal": 105,
+      "name": "VRetrieveDriverErrorsRowCol"
+    },
+    {
+      "ordinal": 109,
+      "name": "ValidateErrorQueue"
+    },
+    {
+      "ordinal": 112,
+      "name": "g_hHeapMalloc"
+    }
+  ]
+}

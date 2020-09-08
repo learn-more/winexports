@@ -1,0 +1,845 @@
+{
+  "Version": "10.0.26100.7309-I386",
+  "md5": "efcd62e765d6ddcd74229ebe15b3c949",
+  "imphash": "efcd62e765d6ddcd74229ebe15b3c949",
+  "InternalName": "UxTheme.dll",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "Microsoft UxTheme Library",
+  "FileVersion": "10.0.26100.7309 (WinBuild.160101.0800)",
+  "ProductVersion": "10.0.26100.7309",
+  "PeChecksum": 570916,
+  "Size": 506880,
+  "Machine": "I386",
+  "exports": [
+    {
+      "ordinal": 5,
+      "name": "BeginBufferedAnimation"
+    },
+    {
+      "ordinal": 6,
+      "name": "BeginBufferedPaint"
+    },
+    {
+      "ordinal": 12,
+      "name": "BeginPanningFeedback"
+    },
+    {
+      "ordinal": 37,
+      "name": "BufferedPaintClear"
+    },
+    {
+      "ordinal": 38,
+      "name": "BufferedPaintInit"
+    },
+    {
+      "ordinal": 39,
+      "name": "BufferedPaintRenderAnimation"
+    },
+    {
+      "ordinal": 40,
+      "name": "BufferedPaintSetAlpha"
+    },
+    {
+      "ordinal": 41,
+      "name": "BufferedPaintStopAllAnimations"
+    },
+    {
+      "ordinal": 42,
+      "name": "BufferedPaintUnInit"
+    },
+    {
+      "ordinal": 51,
+      "name": "CloseThemeData"
+    },
+    {
+      "ordinal": 52,
+      "name": "DllCanUnloadNow"
+    },
+    {
+      "ordinal": 53,
+      "name": "DllGetActivationFactory"
+    },
+    {
+      "ordinal": 54,
+      "name": "DllGetClassObject"
+    },
+    {
+      "ordinal": 55,
+      "name": "DrawThemeBackground"
+    },
+    {
+      "ordinal": 47,
+      "name": "DrawThemeBackgroundEx"
+    },
+    {
+      "ordinal": 56,
+      "name": "DrawThemeEdge"
+    },
+    {
+      "ordinal": 57,
+      "name": "DrawThemeIcon"
+    },
+    {
+      "ordinal": 58,
+      "name": "DrawThemeParentBackground"
+    },
+    {
+      "ordinal": 59,
+      "name": "DrawThemeParentBackgroundEx"
+    },
+    {
+      "ordinal": 70,
+      "name": "DrawThemeText"
+    },
+    {
+      "ordinal": 71,
+      "name": "DrawThemeTextEx"
+    },
+    {
+      "ordinal": 89,
+      "name": "EnableThemeDialogTexture"
+    },
+    {
+      "ordinal": 103,
+      "name": "EnableTheming"
+    },
+    {
+      "ordinal": 114,
+      "name": "EndBufferedAnimation"
+    },
+    {
+      "ordinal": 129,
+      "name": "EndBufferedPaint"
+    },
+    {
+      "ordinal": 134,
+      "name": "EndPanningFeedback"
+    },
+    {
+      "ordinal": 146,
+      "name": "GetBufferedPaintBits"
+    },
+    {
+      "ordinal": 147,
+      "name": "GetBufferedPaintDC"
+    },
+    {
+      "ordinal": 148,
+      "name": "GetBufferedPaintTargetDC"
+    },
+    {
+      "ordinal": 149,
+      "name": "GetBufferedPaintTargetRect"
+    },
+    {
+      "ordinal": 121,
+      "name": "GetColorFromPreference"
+    },
+    {
+      "ordinal": 150,
+      "name": "GetCurrentThemeName"
+    },
+    {
+      "ordinal": 95,
+      "name": "GetImmersiveColorFromColorSetEx"
+    },
+    {
+      "ordinal": 98,
+      "name": "GetImmersiveUserColorSetPreference"
+    },
+    {
+      "ordinal": 151,
+      "name": "GetThemeAnimationProperty"
+    },
+    {
+      "ordinal": 152,
+      "name": "GetThemeAnimationTransform"
+    },
+    {
+      "ordinal": 153,
+      "name": "GetThemeAppProperties"
+    },
+    {
+      "ordinal": 154,
+      "name": "GetThemeBackgroundContentRect"
+    },
+    {
+      "ordinal": 155,
+      "name": "GetThemeBackgroundExtent"
+    },
+    {
+      "ordinal": 156,
+      "name": "GetThemeBackgroundRegion"
+    },
+    {
+      "ordinal": 157,
+      "name": "GetThemeBitmap"
+    },
+    {
+      "ordinal": 158,
+      "name": "GetThemeBool"
+    },
+    {
+      "ordinal": 159,
+      "name": "GetThemeColor"
+    },
+    {
+      "ordinal": 160,
+      "name": "GetThemeDocumentationProperty"
+    },
+    {
+      "ordinal": 161,
+      "name": "GetThemeEnumValue"
+    },
+    {
+      "ordinal": 162,
+      "name": "GetThemeFilename"
+    },
+    {
+      "ordinal": 163,
+      "name": "GetThemeFont"
+    },
+    {
+      "ordinal": 164,
+      "name": "GetThemeInt"
+    },
+    {
+      "ordinal": 165,
+      "name": "GetThemeIntList"
+    },
+    {
+      "ordinal": 166,
+      "name": "GetThemeMargins"
+    },
+    {
+      "ordinal": 167,
+      "name": "GetThemeMetric"
+    },
+    {
+      "ordinal": 168,
+      "name": "GetThemePartSize"
+    },
+    {
+      "ordinal": 169,
+      "name": "GetThemePosition"
+    },
+    {
+      "ordinal": 170,
+      "name": "GetThemePropertyOrigin"
+    },
+    {
+      "ordinal": 171,
+      "name": "GetThemeRect"
+    },
+    {
+      "ordinal": 172,
+      "name": "GetThemeStream"
+    },
+    {
+      "ordinal": 173,
+      "name": "GetThemeString"
+    },
+    {
+      "ordinal": 174,
+      "name": "GetThemeSysBool"
+    },
+    {
+      "ordinal": 175,
+      "name": "GetThemeSysColor"
+    },
+    {
+      "ordinal": 176,
+      "name": "GetThemeSysColorBrush"
+    },
+    {
+      "ordinal": 177,
+      "name": "GetThemeSysFont"
+    },
+    {
+      "ordinal": 178,
+      "name": "GetThemeSysInt"
+    },
+    {
+      "ordinal": 179,
+      "name": "GetThemeSysSize"
+    },
+    {
+      "ordinal": 180,
+      "name": "GetThemeSysString"
+    },
+    {
+      "ordinal": 181,
+      "name": "GetThemeTextExtent"
+    },
+    {
+      "ordinal": 182,
+      "name": "GetThemeTextMetrics"
+    },
+    {
+      "ordinal": 183,
+      "name": "GetThemeTimingFunction"
+    },
+    {
+      "ordinal": 184,
+      "name": "GetThemeTransitionDuration"
+    },
+    {
+      "ordinal": 120,
+      "name": "GetUserColorPreference"
+    },
+    {
+      "ordinal": 185,
+      "name": "GetWindowTheme"
+    },
+    {
+      "ordinal": 186,
+      "name": "HitTestThemeBackground"
+    },
+    {
+      "ordinal": 187,
+      "name": "IsAppThemed"
+    },
+    {
+      "ordinal": 188,
+      "name": "IsCompositionActive"
+    },
+    {
+      "ordinal": 189,
+      "name": "IsThemeActive"
+    },
+    {
+      "ordinal": 190,
+      "name": "IsThemeBackgroundPartiallyTransparent"
+    },
+    {
+      "ordinal": 191,
+      "name": "IsThemeDialogTextureEnabled"
+    },
+    {
+      "ordinal": 192,
+      "name": "IsThemePartDefined"
+    },
+    {
+      "ordinal": 193,
+      "name": "OpenThemeData"
+    },
+    {
+      "ordinal": 61,
+      "name": "OpenThemeDataEx"
+    },
+    {
+      "ordinal": 194,
+      "name": "OpenThemeDataForDpi"
+    },
+    {
+      "ordinal": 195,
+      "name": "SetThemeAppProperties"
+    },
+    {
+      "ordinal": 196,
+      "name": "SetWindowTheme"
+    },
+    {
+      "ordinal": 197,
+      "name": "SetWindowThemeAttribute"
+    },
+    {
+      "ordinal": 198,
+      "name": "ThemeInitApiHook"
+    },
+    {
+      "ordinal": 199,
+      "name": "UpdatePanningFeedback"
+    },
+    {
+      "ordinal": 1,
+      "name": null
+    },
+    {
+      "ordinal": 2,
+      "name": null,
+      "forwarder": "SHUNIMPL.#440"
+    },
+    {
+      "ordinal": 3,
+      "name": null,
+      "forwarder": "SHUNIMPL.#441"
+    },
+    {
+      "ordinal": 4,
+      "name": null,
+      "forwarder": "SHUNIMPL.#445"
+    },
+    {
+      "ordinal": 7,
+      "name": null
+    },
+    {
+      "ordinal": 8,
+      "name": null
+    },
+    {
+      "ordinal": 9,
+      "name": null
+    },
+    {
+      "ordinal": 10,
+      "name": null
+    },
+    {
+      "ordinal": 11,
+      "name": null,
+      "forwarder": "SHUNIMPL.#190"
+    },
+    {
+      "ordinal": 13,
+      "name": null,
+      "forwarder": "SHUNIMPL.#444"
+    },
+    {
+      "ordinal": 14,
+      "name": null
+    },
+    {
+      "ordinal": 15,
+      "name": null
+    },
+    {
+      "ordinal": 16,
+      "name": null
+    },
+    {
+      "ordinal": 17,
+      "name": null
+    },
+    {
+      "ordinal": 18,
+      "name": null,
+      "forwarder": "SHUNIMPL.#189"
+    },
+    {
+      "ordinal": 19,
+      "name": null,
+      "forwarder": "SHUNIMPL.#188"
+    },
+    {
+      "ordinal": 20,
+      "name": null,
+      "forwarder": "SHUNIMPL.#395"
+    },
+    {
+      "ordinal": 21,
+      "name": null,
+      "forwarder": "SHUNIMPL.#396"
+    },
+    {
+      "ordinal": 22,
+      "name": null,
+      "forwarder": "SHUNIMPL.#397"
+    },
+    {
+      "ordinal": 23,
+      "name": null,
+      "forwarder": "SHUNIMPL.#398"
+    },
+    {
+      "ordinal": 24,
+      "name": null,
+      "forwarder": "SHUNIMPL.#399"
+    },
+    {
+      "ordinal": 25,
+      "name": null,
+      "forwarder": "SHUNIMPL.#400"
+    },
+    {
+      "ordinal": 26,
+      "name": null,
+      "forwarder": "SHUNIMPL.#215"
+    },
+    {
+      "ordinal": 27,
+      "name": null,
+      "forwarder": "SHUNIMPL.#401"
+    },
+    {
+      "ordinal": 28,
+      "name": null,
+      "forwarder": "SHUNIMPL.#402"
+    },
+    {
+      "ordinal": 29,
+      "name": null,
+      "forwarder": "SHUNIMPL.#213"
+    },
+    {
+      "ordinal": 30,
+      "name": null,
+      "forwarder": "SHUNIMPL.#403"
+    },
+    {
+      "ordinal": 31,
+      "name": null,
+      "forwarder": "SHUNIMPL.#431"
+    },
+    {
+      "ordinal": 32,
+      "name": null,
+      "forwarder": "SHUNIMPL.#406"
+    },
+    {
+      "ordinal": 33,
+      "name": null
+    },
+    {
+      "ordinal": 34,
+      "name": null,
+      "forwarder": "SHUNIMPL.#407"
+    },
+    {
+      "ordinal": 35,
+      "name": null,
+      "forwarder": "SHUNIMPL.#408"
+    },
+    {
+      "ordinal": 36,
+      "name": null
+    },
+    {
+      "ordinal": 43,
+      "name": null
+    },
+    {
+      "ordinal": 44,
+      "name": null
+    },
+    {
+      "ordinal": 45,
+      "name": null
+    },
+    {
+      "ordinal": 46,
+      "name": null
+    },
+    {
+      "ordinal": 48,
+      "name": null
+    },
+    {
+      "ordinal": 49,
+      "name": null
+    },
+    {
+      "ordinal": 50,
+      "name": null
+    },
+    {
+      "ordinal": 60,
+      "name": null
+    },
+    {
+      "ordinal": 62,
+      "name": null,
+      "forwarder": "SHUNIMPL.#409"
+    },
+    {
+      "ordinal": 63,
+      "name": null,
+      "forwarder": "SHUNIMPL.#404"
+    },
+    {
+      "ordinal": 64,
+      "name": null
+    },
+    {
+      "ordinal": 65,
+      "name": null
+    },
+    {
+      "ordinal": 66,
+      "name": null,
+      "forwarder": "SHUNIMPL.#405"
+    },
+    {
+      "ordinal": 67,
+      "name": null
+    },
+    {
+      "ordinal": 68,
+      "name": null
+    },
+    {
+      "ordinal": 69,
+      "name": null
+    },
+    {
+      "ordinal": 72,
+      "name": null
+    },
+    {
+      "ordinal": 73,
+      "name": null
+    },
+    {
+      "ordinal": 74,
+      "name": null
+    },
+    {
+      "ordinal": 75,
+      "name": null
+    },
+    {
+      "ordinal": 76,
+      "name": null
+    },
+    {
+      "ordinal": 77,
+      "name": null,
+      "forwarder": "SHUNIMPL.#432"
+    },
+    {
+      "ordinal": 78,
+      "name": null,
+      "forwarder": "SHUNIMPL.#433"
+    },
+    {
+      "ordinal": 79,
+      "name": null,
+      "forwarder": "SHUNIMPL.#434"
+    },
+    {
+      "ordinal": 80,
+      "name": null,
+      "forwarder": "SHUNIMPL.#435"
+    },
+    {
+      "ordinal": 81,
+      "name": null,
+      "forwarder": "SHUNIMPL.#430"
+    },
+    {
+      "ordinal": 82,
+      "name": null,
+      "forwarder": "SHUNIMPL.#436"
+    },
+    {
+      "ordinal": 83,
+      "name": null,
+      "forwarder": "SHUNIMPL.#437"
+    },
+    {
+      "ordinal": 84,
+      "name": null
+    },
+    {
+      "ordinal": 85,
+      "name": null
+    },
+    {
+      "ordinal": 86,
+      "name": null
+    },
+    {
+      "ordinal": 87,
+      "name": null,
+      "forwarder": "SHUNIMPL.#438"
+    },
+    {
+      "ordinal": 88,
+      "name": null,
+      "forwarder": "SHUNIMPL.#439"
+    },
+    {
+      "ordinal": 90,
+      "name": null
+    },
+    {
+      "ordinal": 91,
+      "name": null
+    },
+    {
+      "ordinal": 92,
+      "name": null
+    },
+    {
+      "ordinal": 93,
+      "name": null
+    },
+    {
+      "ordinal": 94,
+      "name": null
+    },
+    {
+      "ordinal": 96,
+      "name": null
+    },
+    {
+      "ordinal": 97,
+      "name": null
+    },
+    {
+      "ordinal": 99,
+      "name": null
+    },
+    {
+      "ordinal": 100,
+      "name": null
+    },
+    {
+      "ordinal": 101,
+      "name": null
+    },
+    {
+      "ordinal": 102,
+      "name": null
+    },
+    {
+      "ordinal": 104,
+      "name": null
+    },
+    {
+      "ordinal": 105,
+      "name": null
+    },
+    {
+      "ordinal": 106,
+      "name": null
+    },
+    {
+      "ordinal": 107,
+      "name": null
+    },
+    {
+      "ordinal": 108,
+      "name": null
+    },
+    {
+      "ordinal": 109,
+      "name": null
+    },
+    {
+      "ordinal": 110,
+      "name": null
+    },
+    {
+      "ordinal": 111,
+      "name": null
+    },
+    {
+      "ordinal": 112,
+      "name": null
+    },
+    {
+      "ordinal": 113,
+      "name": null
+    },
+    {
+      "ordinal": 115,
+      "name": null
+    },
+    {
+      "ordinal": 116,
+      "name": null
+    },
+    {
+      "ordinal": 117,
+      "name": null
+    },
+    {
+      "ordinal": 118,
+      "name": null
+    },
+    {
+      "ordinal": 119,
+      "name": null
+    },
+    {
+      "ordinal": 122,
+      "name": null
+    },
+    {
+      "ordinal": 123,
+      "name": null
+    },
+    {
+      "ordinal": 124,
+      "name": null
+    },
+    {
+      "ordinal": 125,
+      "name": null
+    },
+    {
+      "ordinal": 126,
+      "name": null
+    },
+    {
+      "ordinal": 127,
+      "name": null
+    },
+    {
+      "ordinal": 128,
+      "name": null
+    },
+    {
+      "ordinal": 130,
+      "name": null
+    },
+    {
+      "ordinal": 131,
+      "name": null
+    },
+    {
+      "ordinal": 132,
+      "name": null
+    },
+    {
+      "ordinal": 133,
+      "name": null
+    },
+    {
+      "ordinal": 135,
+      "name": null
+    },
+    {
+      "ordinal": 136,
+      "name": null
+    },
+    {
+      "ordinal": 137,
+      "name": null
+    },
+    {
+      "ordinal": 138,
+      "name": null
+    },
+    {
+      "ordinal": 139,
+      "name": null
+    },
+    {
+      "ordinal": 140,
+      "name": null
+    },
+    {
+      "ordinal": 141,
+      "name": null
+    },
+    {
+      "ordinal": 142,
+      "name": null
+    },
+    {
+      "ordinal": 143,
+      "name": null
+    },
+    {
+      "ordinal": 144,
+      "name": null
+    },
+    {
+      "ordinal": 145,
+      "name": null
+    }
+  ]
+}

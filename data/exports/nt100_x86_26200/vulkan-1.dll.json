@@ -1,0 +1,643 @@
+{
+  "Version": "1.0.65.1-I386",
+  "md5": "ecad282d3035068cfb021d159c91b514",
+  "imphash": "ecad282d3035068cfb021d159c91b514",
+  "InternalName": null,
+  "CompanyName": null,
+  "FileDescription": "Vulkan Loader",
+  "FileVersion": "1.0.65.1",
+  "ProductVersion": "1.0.65.1",
+  "PeChecksum": 822055,
+  "Size": 798520,
+  "Machine": "I386",
+  "exports": [
+    {
+      "ordinal": 1,
+      "name": "vkAcquireNextImageKHR"
+    },
+    {
+      "ordinal": 2,
+      "name": "vkAllocateCommandBuffers"
+    },
+    {
+      "ordinal": 3,
+      "name": "vkAllocateDescriptorSets"
+    },
+    {
+      "ordinal": 4,
+      "name": "vkAllocateMemory"
+    },
+    {
+      "ordinal": 5,
+      "name": "vkBeginCommandBuffer"
+    },
+    {
+      "ordinal": 6,
+      "name": "vkBindBufferMemory"
+    },
+    {
+      "ordinal": 7,
+      "name": "vkBindImageMemory"
+    },
+    {
+      "ordinal": 8,
+      "name": "vkCmdBeginQuery"
+    },
+    {
+      "ordinal": 9,
+      "name": "vkCmdBeginRenderPass"
+    },
+    {
+      "ordinal": 10,
+      "name": "vkCmdBindDescriptorSets"
+    },
+    {
+      "ordinal": 11,
+      "name": "vkCmdBindIndexBuffer"
+    },
+    {
+      "ordinal": 12,
+      "name": "vkCmdBindPipeline"
+    },
+    {
+      "ordinal": 13,
+      "name": "vkCmdBindVertexBuffers"
+    },
+    {
+      "ordinal": 14,
+      "name": "vkCmdBlitImage"
+    },
+    {
+      "ordinal": 15,
+      "name": "vkCmdClearAttachments"
+    },
+    {
+      "ordinal": 16,
+      "name": "vkCmdClearColorImage"
+    },
+    {
+      "ordinal": 17,
+      "name": "vkCmdClearDepthStencilImage"
+    },
+    {
+      "ordinal": 18,
+      "name": "vkCmdCopyBuffer"
+    },
+    {
+      "ordinal": 19,
+      "name": "vkCmdCopyBufferToImage"
+    },
+    {
+      "ordinal": 20,
+      "name": "vkCmdCopyImage"
+    },
+    {
+      "ordinal": 21,
+      "name": "vkCmdCopyImageToBuffer"
+    },
+    {
+      "ordinal": 22,
+      "name": "vkCmdCopyQueryPoolResults"
+    },
+    {
+      "ordinal": 23,
+      "name": "vkCmdDispatch"
+    },
+    {
+      "ordinal": 24,
+      "name": "vkCmdDispatchIndirect"
+    },
+    {
+      "ordinal": 25,
+      "name": "vkCmdDraw"
+    },
+    {
+      "ordinal": 26,
+      "name": "vkCmdDrawIndexed"
+    },
+    {
+      "ordinal": 27,
+      "name": "vkCmdDrawIndexedIndirect"
+    },
+    {
+      "ordinal": 28,
+      "name": "vkCmdDrawIndirect"
+    },
+    {
+      "ordinal": 29,
+      "name": "vkCmdEndQuery"
+    },
+    {
+      "ordinal": 30,
+      "name": "vkCmdEndRenderPass"
+    },
+    {
+      "ordinal": 31,
+      "name": "vkCmdExecuteCommands"
+    },
+    {
+      "ordinal": 32,
+      "name": "vkCmdFillBuffer"
+    },
+    {
+      "ordinal": 33,
+      "name": "vkCmdNextSubpass"
+    },
+    {
+      "ordinal": 34,
+      "name": "vkCmdPipelineBarrier"
+    },
+    {
+      "ordinal": 35,
+      "name": "vkCmdPushConstants"
+    },
+    {
+      "ordinal": 36,
+      "name": "vkCmdResetEvent"
+    },
+    {
+      "ordinal": 37,
+      "name": "vkCmdResetQueryPool"
+    },
+    {
+      "ordinal": 38,
+      "name": "vkCmdResolveImage"
+    },
+    {
+      "ordinal": 39,
+      "name": "vkCmdSetBlendConstants"
+    },
+    {
+      "ordinal": 40,
+      "name": "vkCmdSetDepthBias"
+    },
+    {
+      "ordinal": 41,
+      "name": "vkCmdSetDepthBounds"
+    },
+    {
+      "ordinal": 42,
+      "name": "vkCmdSetEvent"
+    },
+    {
+      "ordinal": 43,
+      "name": "vkCmdSetLineWidth"
+    },
+    {
+      "ordinal": 44,
+      "name": "vkCmdSetScissor"
+    },
+    {
+      "ordinal": 45,
+      "name": "vkCmdSetStencilCompareMask"
+    },
+    {
+      "ordinal": 46,
+      "name": "vkCmdSetStencilReference"
+    },
+    {
+      "ordinal": 47,
+      "name": "vkCmdSetStencilWriteMask"
+    },
+    {
+      "ordinal": 48,
+      "name": "vkCmdSetViewport"
+    },
+    {
+      "ordinal": 49,
+      "name": "vkCmdUpdateBuffer"
+    },
+    {
+      "ordinal": 50,
+      "name": "vkCmdWaitEvents"
+    },
+    {
+      "ordinal": 51,
+      "name": "vkCmdWriteTimestamp"
+    },
+    {
+      "ordinal": 52,
+      "name": "vkCreateBuffer"
+    },
+    {
+      "ordinal": 53,
+      "name": "vkCreateBufferView"
+    },
+    {
+      "ordinal": 54,
+      "name": "vkCreateCommandPool"
+    },
+    {
+      "ordinal": 55,
+      "name": "vkCreateComputePipelines"
+    },
+    {
+      "ordinal": 56,
+      "name": "vkCreateDescriptorPool"
+    },
+    {
+      "ordinal": 57,
+      "name": "vkCreateDescriptorSetLayout"
+    },
+    {
+      "ordinal": 58,
+      "name": "vkCreateDevice"
+    },
+    {
+      "ordinal": 59,
+      "name": "vkCreateDisplayModeKHR"
+    },
+    {
+      "ordinal": 60,
+      "name": "vkCreateDisplayPlaneSurfaceKHR"
+    },
+    {
+      "ordinal": 61,
+      "name": "vkCreateEvent"
+    },
+    {
+      "ordinal": 62,
+      "name": "vkCreateFence"
+    },
+    {
+      "ordinal": 63,
+      "name": "vkCreateFramebuffer"
+    },
+    {
+      "ordinal": 64,
+      "name": "vkCreateGraphicsPipelines"
+    },
+    {
+      "ordinal": 65,
+      "name": "vkCreateImage"
+    },
+    {
+      "ordinal": 66,
+      "name": "vkCreateImageView"
+    },
+    {
+      "ordinal": 67,
+      "name": "vkCreateInstance"
+    },
+    {
+      "ordinal": 68,
+      "name": "vkCreatePipelineCache"
+    },
+    {
+      "ordinal": 69,
+      "name": "vkCreatePipelineLayout"
+    },
+    {
+      "ordinal": 70,
+      "name": "vkCreateQueryPool"
+    },
+    {
+      "ordinal": 71,
+      "name": "vkCreateRenderPass"
+    },
+    {
+      "ordinal": 72,
+      "name": "vkCreateSampler"
+    },
+    {
+      "ordinal": 73,
+      "name": "vkCreateSemaphore"
+    },
+    {
+      "ordinal": 74,
+      "name": "vkCreateShaderModule"
+    },
+    {
+      "ordinal": 75,
+      "name": "vkCreateSharedSwapchainsKHR"
+    },
+    {
+      "ordinal": 76,
+      "name": "vkCreateSwapchainKHR"
+    },
+    {
+      "ordinal": 77,
+      "name": "vkCreateWin32SurfaceKHR"
+    },
+    {
+      "ordinal": 78,
+      "name": "vkDestroyBuffer"
+    },
+    {
+      "ordinal": 79,
+      "name": "vkDestroyBufferView"
+    },
+    {
+      "ordinal": 80,
+      "name": "vkDestroyCommandPool"
+    },
+    {
+      "ordinal": 81,
+      "name": "vkDestroyDescriptorPool"
+    },
+    {
+      "ordinal": 82,
+      "name": "vkDestroyDescriptorSetLayout"
+    },
+    {
+      "ordinal": 83,
+      "name": "vkDestroyDevice"
+    },
+    {
+      "ordinal": 84,
+      "name": "vkDestroyEvent"
+    },
+    {
+      "ordinal": 85,
+      "name": "vkDestroyFence"
+    },
+    {
+      "ordinal": 86,
+      "name": "vkDestroyFramebuffer"
+    },
+    {
+      "ordinal": 87,
+      "name": "vkDestroyImage"
+    },
+    {
+      "ordinal": 88,
+      "name": "vkDestroyImageView"
+    },
+    {
+      "ordinal": 89,
+      "name": "vkDestroyInstance"
+    },
+    {
+      "ordinal": 90,
+      "name": "vkDestroyPipeline"
+    },
+    {
+      "ordinal": 91,
+      "name": "vkDestroyPipelineCache"
+    },
+    {
+      "ordinal": 92,
+      "name": "vkDestroyPipelineLayout"
+    },
+    {
+      "ordinal": 93,
+      "name": "vkDestroyQueryPool"
+    },
+    {
+      "ordinal": 94,
+      "name": "vkDestroyRenderPass"
+    },
+    {
+      "ordinal": 95,
+      "name": "vkDestroySampler"
+    },
+    {
+      "ordinal": 96,
+      "name": "vkDestroySemaphore"
+    },
+    {
+      "ordinal": 97,
+      "name": "vkDestroyShaderModule"
+    },
+    {
+      "ordinal": 98,
+      "name": "vkDestroySurfaceKHR"
+    },
+    {
+      "ordinal": 99,
+      "name": "vkDestroySwapchainKHR"
+    },
+    {
+      "ordinal": 100,
+      "name": "vkDeviceWaitIdle"
+    },
+    {
+      "ordinal": 101,
+      "name": "vkEndCommandBuffer"
+    },
+    {
+      "ordinal": 102,
+      "name": "vkEnumerateDeviceExtensionProperties"
+    },
+    {
+      "ordinal": 103,
+      "name": "vkEnumerateDeviceLayerProperties"
+    },
+    {
+      "ordinal": 104,
+      "name": "vkEnumerateInstanceExtensionProperties"
+    },
+    {
+      "ordinal": 105,
+      "name": "vkEnumerateInstanceLayerProperties"
+    },
+    {
+      "ordinal": 106,
+      "name": "vkEnumeratePhysicalDevices"
+    },
+    {
+      "ordinal": 107,
+      "name": "vkFlushMappedMemoryRanges"
+    },
+    {
+      "ordinal": 108,
+      "name": "vkFreeCommandBuffers"
+    },
+    {
+      "ordinal": 109,
+      "name": "vkFreeDescriptorSets"
+    },
+    {
+      "ordinal": 110,
+      "name": "vkFreeMemory"
+    },
+    {
+      "ordinal": 111,
+      "name": "vkGetBufferMemoryRequirements"
+    },
+    {
+      "ordinal": 112,
+      "name": "vkGetDeviceMemoryCommitment"
+    },
+    {
+      "ordinal": 113,
+      "name": "vkGetDeviceProcAddr"
+    },
+    {
+      "ordinal": 114,
+      "name": "vkGetDeviceQueue"
+    },
+    {
+      "ordinal": 115,
+      "name": "vkGetDisplayModePropertiesKHR"
+    },
+    {
+      "ordinal": 116,
+      "name": "vkGetDisplayPlaneCapabilitiesKHR"
+    },
+    {
+      "ordinal": 117,
+      "name": "vkGetDisplayPlaneSupportedDisplaysKHR"
+    },
+    {
+      "ordinal": 118,
+      "name": "vkGetEventStatus"
+    },
+    {
+      "ordinal": 119,
+      "name": "vkGetFenceStatus"
+    },
+    {
+      "ordinal": 120,
+      "name": "vkGetImageMemoryRequirements"
+    },
+    {
+      "ordinal": 121,
+      "name": "vkGetImageSparseMemoryRequirements"
+    },
+    {
+      "ordinal": 122,
+      "name": "vkGetImageSubresourceLayout"
+    },
+    {
+      "ordinal": 123,
+      "name": "vkGetInstanceProcAddr"
+    },
+    {
+      "ordinal": 124,
+      "name": "vkGetPhysicalDeviceDisplayPlanePropertiesKHR"
+    },
+    {
+      "ordinal": 125,
+      "name": "vkGetPhysicalDeviceDisplayPropertiesKHR"
+    },
+    {
+      "ordinal": 126,
+      "name": "vkGetPhysicalDeviceFeatures"
+    },
+    {
+      "ordinal": 127,
+      "name": "vkGetPhysicalDeviceFormatProperties"
+    },
+    {
+      "ordinal": 128,
+      "name": "vkGetPhysicalDeviceImageFormatProperties"
+    },
+    {
+      "ordinal": 129,
+      "name": "vkGetPhysicalDeviceMemoryProperties"
+    },
+    {
+      "ordinal": 130,
+      "name": "vkGetPhysicalDeviceProperties"
+    },
+    {
+      "ordinal": 131,
+      "name": "vkGetPhysicalDeviceQueueFamilyProperties"
+    },
+    {
+      "ordinal": 132,
+      "name": "vkGetPhysicalDeviceSparseImageFormatProperties"
+    },
+    {
+      "ordinal": 133,
+      "name": "vkGetPhysicalDeviceSurfaceCapabilitiesKHR"
+    },
+    {
+      "ordinal": 134,
+      "name": "vkGetPhysicalDeviceSurfaceFormatsKHR"
+    },
+    {
+      "ordinal": 135,
+      "name": "vkGetPhysicalDeviceSurfacePresentModesKHR"
+    },
+    {
+      "ordinal": 136,
+      "name": "vkGetPhysicalDeviceSurfaceSupportKHR"
+    },
+    {
+      "ordinal": 137,
+      "name": "vkGetPhysicalDeviceWin32PresentationSupportKHR"
+    },
+    {
+      "ordinal": 138,
+      "name": "vkGetPipelineCacheData"
+    },
+    {
+      "ordinal": 139,
+      "name": "vkGetQueryPoolResults"
+    },
+    {
+      "ordinal": 140,
+      "name": "vkGetRenderAreaGranularity"
+    },
+    {
+      "ordinal": 141,
+      "name": "vkGetSwapchainImagesKHR"
+    },
+    {
+      "ordinal": 142,
+      "name": "vkInvalidateMappedMemoryRanges"
+    },
+    {
+      "ordinal": 143,
+      "name": "vkMapMemory"
+    },
+    {
+      "ordinal": 144,
+      "name": "vkMergePipelineCaches"
+    },
+    {
+      "ordinal": 145,
+      "name": "vkQueueBindSparse"
+    },
+    {
+      "ordinal": 146,
+      "name": "vkQueuePresentKHR"
+    },
+    {
+      "ordinal": 147,
+      "name": "vkQueueSubmit"
+    },
+    {
+      "ordinal": 148,
+      "name": "vkQueueWaitIdle"
+    },
+    {
+      "ordinal": 149,
+      "name": "vkResetCommandBuffer"
+    },
+    {
+      "ordinal": 150,
+      "name": "vkResetCommandPool"
+    },
+    {
+      "ordinal": 151,
+      "name": "vkResetDescriptorPool"
+    },
+    {
+      "ordinal": 152,
+      "name": "vkResetEvent"
+    },
+    {
+      "ordinal": 153,
+      "name": "vkResetFences"
+    },
+    {
+      "ordinal": 154,
+      "name": "vkSetEvent"
+    },
+    {
+      "ordinal": 155,
+      "name": "vkUnmapMemory"
+    },
+    {
+      "ordinal": 156,
+      "name": "vkUpdateDescriptorSets"
+    },
+    {
+      "ordinal": 157,
+      "name": "vkWaitForFences"
+    }
+  ]
+}

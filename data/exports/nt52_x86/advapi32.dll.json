@@ -1,0 +1,2751 @@
+{
+  "Version": "5.2.3790.3959-I386",
+  "md5": "21779c75f4ac5fe21d26a002f1028b4f",
+  "imphash": "21779c75f4ac5fe21d26a002f1028b4f",
+  "InternalName": "advapi32.dll",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "Advanced Windows 32 Base API",
+  "FileVersion": "5.2.3790.3959 (srv03_sp2_rtm.070216-1710)",
+  "ProductVersion": "5.2.3790.3959",
+  "PeChecksum": 734725,
+  "Size": 700416,
+  "Machine": "I386",
+  "exports": [
+    {
+      "ordinal": 2,
+      "name": "A_SHAFinal"
+    },
+    {
+      "ordinal": 3,
+      "name": "A_SHAInit"
+    },
+    {
+      "ordinal": 4,
+      "name": "A_SHAUpdate"
+    },
+    {
+      "ordinal": 5,
+      "name": "AbortSystemShutdownA"
+    },
+    {
+      "ordinal": 6,
+      "name": "AbortSystemShutdownW"
+    },
+    {
+      "ordinal": 7,
+      "name": "AccessCheck"
+    },
+    {
+      "ordinal": 8,
+      "name": "AccessCheckAndAuditAlarmA"
+    },
+    {
+      "ordinal": 9,
+      "name": "AccessCheckAndAuditAlarmW"
+    },
+    {
+      "ordinal": 10,
+      "name": "AccessCheckByType"
+    },
+    {
+      "ordinal": 11,
+      "name": "AccessCheckByTypeAndAuditAlarmA"
+    },
+    {
+      "ordinal": 12,
+      "name": "AccessCheckByTypeAndAuditAlarmW"
+    },
+    {
+      "ordinal": 13,
+      "name": "AccessCheckByTypeResultList"
+    },
+    {
+      "ordinal": 14,
+      "name": "AccessCheckByTypeResultListAndAuditAlarmA"
+    },
+    {
+      "ordinal": 15,
+      "name": "AccessCheckByTypeResultListAndAuditAlarmByHandleA"
+    },
+    {
+      "ordinal": 16,
+      "name": "AccessCheckByTypeResultListAndAuditAlarmByHandleW"
+    },
+    {
+      "ordinal": 17,
+      "name": "AccessCheckByTypeResultListAndAuditAlarmW"
+    },
+    {
+      "ordinal": 18,
+      "name": "AddAccessAllowedAce"
+    },
+    {
+      "ordinal": 19,
+      "name": "AddAccessAllowedAceEx"
+    },
+    {
+      "ordinal": 20,
+      "name": "AddAccessAllowedObjectAce"
+    },
+    {
+      "ordinal": 21,
+      "name": "AddAccessDeniedAce"
+    },
+    {
+      "ordinal": 22,
+      "name": "AddAccessDeniedAceEx"
+    },
+    {
+      "ordinal": 23,
+      "name": "AddAccessDeniedObjectAce"
+    },
+    {
+      "ordinal": 24,
+      "name": "AddAce"
+    },
+    {
+      "ordinal": 25,
+      "name": "AddAuditAccessAce"
+    },
+    {
+      "ordinal": 26,
+      "name": "AddAuditAccessAceEx"
+    },
+    {
+      "ordinal": 27,
+      "name": "AddAuditAccessObjectAce"
+    },
+    {
+      "ordinal": 28,
+      "name": "AddUsersToEncryptedFile"
+    },
+    {
+      "ordinal": 29,
+      "name": "AdjustTokenGroups"
+    },
+    {
+      "ordinal": 30,
+      "name": "AdjustTokenPrivileges"
+    },
+    {
+      "ordinal": 31,
+      "name": "AllocateAndInitializeSid"
+    },
+    {
+      "ordinal": 32,
+      "name": "AllocateLocallyUniqueId"
+    },
+    {
+      "ordinal": 33,
+      "name": "AreAllAccessesGranted"
+    },
+    {
+      "ordinal": 34,
+      "name": "AreAnyAccessesGranted"
+    },
+    {
+      "ordinal": 35,
+      "name": "BackupEventLogA"
+    },
+    {
+      "ordinal": 36,
+      "name": "BackupEventLogW"
+    },
+    {
+      "ordinal": 37,
+      "name": "BuildExplicitAccessWithNameA"
+    },
+    {
+      "ordinal": 38,
+      "name": "BuildExplicitAccessWithNameW"
+    },
+    {
+      "ordinal": 39,
+      "name": "BuildImpersonateExplicitAccessWithNameA"
+    },
+    {
+      "ordinal": 40,
+      "name": "BuildImpersonateExplicitAccessWithNameW"
+    },
+    {
+      "ordinal": 41,
+      "name": "BuildImpersonateTrusteeA"
+    },
+    {
+      "ordinal": 42,
+      "name": "BuildImpersonateTrusteeW"
+    },
+    {
+      "ordinal": 43,
+      "name": "BuildSecurityDescriptorA"
+    },
+    {
+      "ordinal": 44,
+      "name": "BuildSecurityDescriptorW"
+    },
+    {
+      "ordinal": 45,
+      "name": "BuildTrusteeWithNameA"
+    },
+    {
+      "ordinal": 46,
+      "name": "BuildTrusteeWithNameW"
+    },
+    {
+      "ordinal": 47,
+      "name": "BuildTrusteeWithObjectsAndNameA"
+    },
+    {
+      "ordinal": 48,
+      "name": "BuildTrusteeWithObjectsAndNameW"
+    },
+    {
+      "ordinal": 49,
+      "name": "BuildTrusteeWithObjectsAndSidA"
+    },
+    {
+      "ordinal": 50,
+      "name": "BuildTrusteeWithObjectsAndSidW"
+    },
+    {
+      "ordinal": 51,
+      "name": "BuildTrusteeWithSidA"
+    },
+    {
+      "ordinal": 52,
+      "name": "BuildTrusteeWithSidW"
+    },
+    {
+      "ordinal": 53,
+      "name": "CancelOverlappedAccess"
+    },
+    {
+      "ordinal": 54,
+      "name": "ChangeServiceConfig2A"
+    },
+    {
+      "ordinal": 55,
+      "name": "ChangeServiceConfig2W"
+    },
+    {
+      "ordinal": 56,
+      "name": "ChangeServiceConfigA"
+    },
+    {
+      "ordinal": 57,
+      "name": "ChangeServiceConfigW"
+    },
+    {
+      "ordinal": 58,
+      "name": "CheckTokenMembership"
+    },
+    {
+      "ordinal": 59,
+      "name": "ClearEventLogA"
+    },
+    {
+      "ordinal": 60,
+      "name": "ClearEventLogW"
+    },
+    {
+      "ordinal": 61,
+      "name": "CloseCodeAuthzLevel"
+    },
+    {
+      "ordinal": 62,
+      "name": "CloseEncryptedFileRaw"
+    },
+    {
+      "ordinal": 63,
+      "name": "CloseEventLog"
+    },
+    {
+      "ordinal": 64,
+      "name": "CloseServiceHandle"
+    },
+    {
+      "ordinal": 65,
+      "name": "CloseTrace"
+    },
+    {
+      "ordinal": 66,
+      "name": "CommandLineFromMsiDescriptor"
+    },
+    {
+      "ordinal": 67,
+      "name": "ComputeAccessTokenFromCodeAuthzLevel"
+    },
+    {
+      "ordinal": 68,
+      "name": "ControlService"
+    },
+    {
+      "ordinal": 69,
+      "name": "ControlTraceA"
+    },
+    {
+      "ordinal": 70,
+      "name": "ControlTraceW"
+    },
+    {
+      "ordinal": 71,
+      "name": "ConvertAccessToSecurityDescriptorA"
+    },
+    {
+      "ordinal": 72,
+      "name": "ConvertAccessToSecurityDescriptorW"
+    },
+    {
+      "ordinal": 73,
+      "name": "ConvertSDToStringSDRootDomainA"
+    },
+    {
+      "ordinal": 74,
+      "name": "ConvertSDToStringSDRootDomainW"
+    },
+    {
+      "ordinal": 75,
+      "name": "ConvertSecurityDescriptorToAccessA"
+    },
+    {
+      "ordinal": 76,
+      "name": "ConvertSecurityDescriptorToAccessNamedA"
+    },
+    {
+      "ordinal": 77,
+      "name": "ConvertSecurityDescriptorToAccessNamedW"
+    },
+    {
+      "ordinal": 78,
+      "name": "ConvertSecurityDescriptorToAccessW"
+    },
+    {
+      "ordinal": 79,
+      "name": "ConvertSecurityDescriptorToStringSecurityDescriptorA"
+    },
+    {
+      "ordinal": 80,
+      "name": "ConvertSecurityDescriptorToStringSecurityDescriptorW"
+    },
+    {
+      "ordinal": 81,
+      "name": "ConvertSidToStringSidA"
+    },
+    {
+      "ordinal": 82,
+      "name": "ConvertSidToStringSidW"
+    },
+    {
+      "ordinal": 83,
+      "name": "ConvertStringSDToSDDomainA"
+    },
+    {
+      "ordinal": 84,
+      "name": "ConvertStringSDToSDDomainW"
+    },
+    {
+      "ordinal": 85,
+      "name": "ConvertStringSDToSDRootDomainA"
+    },
+    {
+      "ordinal": 86,
+      "name": "ConvertStringSDToSDRootDomainW"
+    },
+    {
+      "ordinal": 87,
+      "name": "ConvertStringSecurityDescriptorToSecurityDescriptorA"
+    },
+    {
+      "ordinal": 88,
+      "name": "ConvertStringSecurityDescriptorToSecurityDescriptorW"
+    },
+    {
+      "ordinal": 89,
+      "name": "ConvertStringSidToSidA"
+    },
+    {
+      "ordinal": 90,
+      "name": "ConvertStringSidToSidW"
+    },
+    {
+      "ordinal": 91,
+      "name": "ConvertToAutoInheritPrivateObjectSecurity"
+    },
+    {
+      "ordinal": 92,
+      "name": "CopySid"
+    },
+    {
+      "ordinal": 93,
+      "name": "CreateCodeAuthzLevel"
+    },
+    {
+      "ordinal": 94,
+      "name": "CreatePrivateObjectSecurity"
+    },
+    {
+      "ordinal": 95,
+      "name": "CreatePrivateObjectSecurityEx"
+    },
+    {
+      "ordinal": 96,
+      "name": "CreatePrivateObjectSecurityWithMultipleInheritance"
+    },
+    {
+      "ordinal": 97,
+      "name": "CreateProcessAsUserA"
+    },
+    {
+      "ordinal": 98,
+      "name": "CreateProcessAsUserW"
+    },
+    {
+      "ordinal": 99,
+      "name": "CreateProcessWithLogonW"
+    },
+    {
+      "ordinal": 100,
+      "name": "CreateProcessWithTokenW"
+    },
+    {
+      "ordinal": 101,
+      "name": "CreateRestrictedToken"
+    },
+    {
+      "ordinal": 102,
+      "name": "CreateServiceA"
+    },
+    {
+      "ordinal": 103,
+      "name": "CreateServiceW"
+    },
+    {
+      "ordinal": 104,
+      "name": "CreateTraceInstanceId"
+    },
+    {
+      "ordinal": 105,
+      "name": "CreateWellKnownSid"
+    },
+    {
+      "ordinal": 106,
+      "name": "CredDeleteA"
+    },
+    {
+      "ordinal": 107,
+      "name": "CredDeleteW"
+    },
+    {
+      "ordinal": 108,
+      "name": "CredEnumerateA"
+    },
+    {
+      "ordinal": 109,
+      "name": "CredEnumerateW"
+    },
+    {
+      "ordinal": 110,
+      "name": "CredFree"
+    },
+    {
+      "ordinal": 111,
+      "name": "CredGetSessionTypes"
+    },
+    {
+      "ordinal": 112,
+      "name": "CredGetTargetInfoA"
+    },
+    {
+      "ordinal": 113,
+      "name": "CredGetTargetInfoW"
+    },
+    {
+      "ordinal": 114,
+      "name": "CredIsMarshaledCredentialA"
+    },
+    {
+      "ordinal": 115,
+      "name": "CredIsMarshaledCredentialW"
+    },
+    {
+      "ordinal": 116,
+      "name": "CredMarshalCredentialA"
+    },
+    {
+      "ordinal": 117,
+      "name": "CredMarshalCredentialW"
+    },
+    {
+      "ordinal": 118,
+      "name": "CredProfileLoaded"
+    },
+    {
+      "ordinal": 119,
+      "name": "CredReadA"
+    },
+    {
+      "ordinal": 120,
+      "name": "CredReadDomainCredentialsA"
+    },
+    {
+      "ordinal": 121,
+      "name": "CredReadDomainCredentialsW"
+    },
+    {
+      "ordinal": 122,
+      "name": "CredReadW"
+    },
+    {
+      "ordinal": 123,
+      "name": "CredRenameA"
+    },
+    {
+      "ordinal": 124,
+      "name": "CredRenameW"
+    },
+    {
+      "ordinal": 125,
+      "name": "CredUnmarshalCredentialA"
+    },
+    {
+      "ordinal": 126,
+      "name": "CredUnmarshalCredentialW"
+    },
+    {
+      "ordinal": 127,
+      "name": "CredWriteA"
+    },
+    {
+      "ordinal": 128,
+      "name": "CredWriteDomainCredentialsA"
+    },
+    {
+      "ordinal": 129,
+      "name": "CredWriteDomainCredentialsW"
+    },
+    {
+      "ordinal": 130,
+      "name": "CredWriteW"
+    },
+    {
+      "ordinal": 131,
+      "name": "CredpConvertCredential"
+    },
+    {
+      "ordinal": 132,
+      "name": "CredpConvertTargetInfo"
+    },
+    {
+      "ordinal": 133,
+      "name": "CredpDecodeCredential"
+    },
+    {
+      "ordinal": 134,
+      "name": "CredpEncodeCredential"
+    },
+    {
+      "ordinal": 135,
+      "name": "CryptAcquireContextA"
+    },
+    {
+      "ordinal": 136,
+      "name": "CryptAcquireContextW"
+    },
+    {
+      "ordinal": 137,
+      "name": "CryptContextAddRef"
+    },
+    {
+      "ordinal": 138,
+      "name": "CryptCreateHash"
+    },
+    {
+      "ordinal": 139,
+      "name": "CryptDecrypt"
+    },
+    {
+      "ordinal": 140,
+      "name": "CryptDeriveKey"
+    },
+    {
+      "ordinal": 141,
+      "name": "CryptDestroyHash"
+    },
+    {
+      "ordinal": 142,
+      "name": "CryptDestroyKey"
+    },
+    {
+      "ordinal": 143,
+      "name": "CryptDuplicateHash"
+    },
+    {
+      "ordinal": 144,
+      "name": "CryptDuplicateKey"
+    },
+    {
+      "ordinal": 145,
+      "name": "CryptEncrypt"
+    },
+    {
+      "ordinal": 146,
+      "name": "CryptEnumProviderTypesA"
+    },
+    {
+      "ordinal": 147,
+      "name": "CryptEnumProviderTypesW"
+    },
+    {
+      "ordinal": 148,
+      "name": "CryptEnumProvidersA"
+    },
+    {
+      "ordinal": 149,
+      "name": "CryptEnumProvidersW"
+    },
+    {
+      "ordinal": 150,
+      "name": "CryptExportKey"
+    },
+    {
+      "ordinal": 151,
+      "name": "CryptGenKey"
+    },
+    {
+      "ordinal": 152,
+      "name": "CryptGenRandom"
+    },
+    {
+      "ordinal": 153,
+      "name": "CryptGetDefaultProviderA"
+    },
+    {
+      "ordinal": 154,
+      "name": "CryptGetDefaultProviderW"
+    },
+    {
+      "ordinal": 155,
+      "name": "CryptGetHashParam"
+    },
+    {
+      "ordinal": 156,
+      "name": "CryptGetKeyParam"
+    },
+    {
+      "ordinal": 157,
+      "name": "CryptGetProvParam"
+    },
+    {
+      "ordinal": 158,
+      "name": "CryptGetUserKey"
+    },
+    {
+      "ordinal": 159,
+      "name": "CryptHashData"
+    },
+    {
+      "ordinal": 160,
+      "name": "CryptHashSessionKey"
+    },
+    {
+      "ordinal": 161,
+      "name": "CryptImportKey"
+    },
+    {
+      "ordinal": 162,
+      "name": "CryptReleaseContext"
+    },
+    {
+      "ordinal": 163,
+      "name": "CryptSetHashParam"
+    },
+    {
+      "ordinal": 164,
+      "name": "CryptSetKeyParam"
+    },
+    {
+      "ordinal": 165,
+      "name": "CryptSetProvParam"
+    },
+    {
+      "ordinal": 166,
+      "name": "CryptSetProviderA"
+    },
+    {
+      "ordinal": 167,
+      "name": "CryptSetProviderExA"
+    },
+    {
+      "ordinal": 168,
+      "name": "CryptSetProviderExW"
+    },
+    {
+      "ordinal": 169,
+      "name": "CryptSetProviderW"
+    },
+    {
+      "ordinal": 170,
+      "name": "CryptSignHashA"
+    },
+    {
+      "ordinal": 171,
+      "name": "CryptSignHashW"
+    },
+    {
+      "ordinal": 172,
+      "name": "CryptVerifySignatureA"
+    },
+    {
+      "ordinal": 173,
+      "name": "CryptVerifySignatureW"
+    },
+    {
+      "ordinal": 174,
+      "name": "DecryptFileA"
+    },
+    {
+      "ordinal": 175,
+      "name": "DecryptFileW"
+    },
+    {
+      "ordinal": 176,
+      "name": "DeleteAce"
+    },
+    {
+      "ordinal": 177,
+      "name": "DeleteService"
+    },
+    {
+      "ordinal": 178,
+      "name": "DeregisterEventSource"
+    },
+    {
+      "ordinal": 179,
+      "name": "DestroyPrivateObjectSecurity"
+    },
+    {
+      "ordinal": 180,
+      "name": "DuplicateEncryptionInfoFile"
+    },
+    {
+      "ordinal": 181,
+      "name": "DuplicateToken"
+    },
+    {
+      "ordinal": 182,
+      "name": "DuplicateTokenEx"
+    },
+    {
+      "ordinal": 183,
+      "name": "ElfBackupEventLogFileA"
+    },
+    {
+      "ordinal": 184,
+      "name": "ElfBackupEventLogFileW"
+    },
+    {
+      "ordinal": 185,
+      "name": "ElfChangeNotify"
+    },
+    {
+      "ordinal": 186,
+      "name": "ElfClearEventLogFileA"
+    },
+    {
+      "ordinal": 187,
+      "name": "ElfClearEventLogFileW"
+    },
+    {
+      "ordinal": 188,
+      "name": "ElfCloseEventLog"
+    },
+    {
+      "ordinal": 189,
+      "name": "ElfDeregisterEventSource"
+    },
+    {
+      "ordinal": 190,
+      "name": "ElfFlushEventLog"
+    },
+    {
+      "ordinal": 191,
+      "name": "ElfNumberOfRecords"
+    },
+    {
+      "ordinal": 192,
+      "name": "ElfOldestRecord"
+    },
+    {
+      "ordinal": 193,
+      "name": "ElfOpenBackupEventLogA"
+    },
+    {
+      "ordinal": 194,
+      "name": "ElfOpenBackupEventLogW"
+    },
+    {
+      "ordinal": 195,
+      "name": "ElfOpenEventLogA"
+    },
+    {
+      "ordinal": 196,
+      "name": "ElfOpenEventLogW"
+    },
+    {
+      "ordinal": 197,
+      "name": "ElfReadEventLogA"
+    },
+    {
+      "ordinal": 198,
+      "name": "ElfReadEventLogW"
+    },
+    {
+      "ordinal": 199,
+      "name": "ElfRegisterEventSourceA"
+    },
+    {
+      "ordinal": 200,
+      "name": "ElfRegisterEventSourceW"
+    },
+    {
+      "ordinal": 201,
+      "name": "ElfReportEventA"
+    },
+    {
+      "ordinal": 202,
+      "name": "ElfReportEventAndSourceW"
+    },
+    {
+      "ordinal": 203,
+      "name": "ElfReportEventW"
+    },
+    {
+      "ordinal": 204,
+      "name": "EnableTrace"
+    },
+    {
+      "ordinal": 205,
+      "name": "EncryptFileA"
+    },
+    {
+      "ordinal": 206,
+      "name": "EncryptFileW"
+    },
+    {
+      "ordinal": 207,
+      "name": "EncryptedFileKeyInfo"
+    },
+    {
+      "ordinal": 208,
+      "name": "EncryptionDisable"
+    },
+    {
+      "ordinal": 209,
+      "name": "EnumDependentServicesA"
+    },
+    {
+      "ordinal": 210,
+      "name": "EnumDependentServicesW"
+    },
+    {
+      "ordinal": 211,
+      "name": "EnumServiceGroupW"
+    },
+    {
+      "ordinal": 212,
+      "name": "EnumServicesStatusA"
+    },
+    {
+      "ordinal": 213,
+      "name": "EnumServicesStatusExA"
+    },
+    {
+      "ordinal": 214,
+      "name": "EnumServicesStatusExW"
+    },
+    {
+      "ordinal": 215,
+      "name": "EnumServicesStatusW"
+    },
+    {
+      "ordinal": 216,
+      "name": "EnumerateTraceGuids"
+    },
+    {
+      "ordinal": 217,
+      "name": "EqualDomainSid"
+    },
+    {
+      "ordinal": 218,
+      "name": "EqualPrefixSid"
+    },
+    {
+      "ordinal": 219,
+      "name": "EqualSid"
+    },
+    {
+      "ordinal": 220,
+      "name": "FileEncryptionStatusA"
+    },
+    {
+      "ordinal": 221,
+      "name": "FileEncryptionStatusW"
+    },
+    {
+      "ordinal": 222,
+      "name": "FindFirstFreeAce"
+    },
+    {
+      "ordinal": 223,
+      "name": "FlushTraceA"
+    },
+    {
+      "ordinal": 224,
+      "name": "FlushTraceW"
+    },
+    {
+      "ordinal": 225,
+      "name": "FreeEncryptedFileKeyInfo"
+    },
+    {
+      "ordinal": 226,
+      "name": "FreeEncryptionCertificateHashList"
+    },
+    {
+      "ordinal": 227,
+      "name": "FreeInheritedFromArray"
+    },
+    {
+      "ordinal": 228,
+      "name": "FreeSid"
+    },
+    {
+      "ordinal": 229,
+      "name": "GetAccessPermissionsForObjectA"
+    },
+    {
+      "ordinal": 230,
+      "name": "GetAccessPermissionsForObjectW"
+    },
+    {
+      "ordinal": 231,
+      "name": "GetAce"
+    },
+    {
+      "ordinal": 232,
+      "name": "GetAclInformation"
+    },
+    {
+      "ordinal": 233,
+      "name": "GetAuditedPermissionsFromAclA"
+    },
+    {
+      "ordinal": 234,
+      "name": "GetAuditedPermissionsFromAclW"
+    },
+    {
+      "ordinal": 235,
+      "name": "GetCurrentHwProfileA"
+    },
+    {
+      "ordinal": 236,
+      "name": "GetCurrentHwProfileW"
+    },
+    {
+      "ordinal": 237,
+      "name": "GetEffectiveRightsFromAclA"
+    },
+    {
+      "ordinal": 238,
+      "name": "GetEffectiveRightsFromAclW"
+    },
+    {
+      "ordinal": 239,
+      "name": "GetEventLogInformation"
+    },
+    {
+      "ordinal": 240,
+      "name": "GetExplicitEntriesFromAclA"
+    },
+    {
+      "ordinal": 241,
+      "name": "GetExplicitEntriesFromAclW"
+    },
+    {
+      "ordinal": 242,
+      "name": "GetFileSecurityA"
+    },
+    {
+      "ordinal": 243,
+      "name": "GetFileSecurityW"
+    },
+    {
+      "ordinal": 244,
+      "name": "GetInformationCodeAuthzLevelW"
+    },
+    {
+      "ordinal": 245,
+      "name": "GetInformationCodeAuthzPolicyW"
+    },
+    {
+      "ordinal": 246,
+      "name": "GetInheritanceSourceA"
+    },
+    {
+      "ordinal": 247,
+      "name": "GetInheritanceSourceW"
+    },
+    {
+      "ordinal": 248,
+      "name": "GetKernelObjectSecurity"
+    },
+    {
+      "ordinal": 249,
+      "name": "GetLengthSid"
+    },
+    {
+      "ordinal": 250,
+      "name": "GetLocalManagedApplicationData"
+    },
+    {
+      "ordinal": 251,
+      "name": "GetLocalManagedApplications"
+    },
+    {
+      "ordinal": 252,
+      "name": "GetManagedApplicationCategories"
+    },
+    {
+      "ordinal": 253,
+      "name": "GetManagedApplications"
+    },
+    {
+      "ordinal": 254,
+      "name": "GetMultipleTrusteeA"
+    },
+    {
+      "ordinal": 255,
+      "name": "GetMultipleTrusteeOperationA"
+    },
+    {
+      "ordinal": 256,
+      "name": "GetMultipleTrusteeOperationW"
+    },
+    {
+      "ordinal": 257,
+      "name": "GetMultipleTrusteeW"
+    },
+    {
+      "ordinal": 258,
+      "name": "GetNamedSecurityInfoA"
+    },
+    {
+      "ordinal": 259,
+      "name": "GetNamedSecurityInfoExA"
+    },
+    {
+      "ordinal": 260,
+      "name": "GetNamedSecurityInfoExW"
+    },
+    {
+      "ordinal": 261,
+      "name": "GetNamedSecurityInfoW"
+    },
+    {
+      "ordinal": 262,
+      "name": "GetNumberOfEventLogRecords"
+    },
+    {
+      "ordinal": 263,
+      "name": "GetOldestEventLogRecord"
+    },
+    {
+      "ordinal": 264,
+      "name": "GetOverlappedAccessResults"
+    },
+    {
+      "ordinal": 265,
+      "name": "GetPrivateObjectSecurity"
+    },
+    {
+      "ordinal": 266,
+      "name": "GetSecurityDescriptorControl"
+    },
+    {
+      "ordinal": 267,
+      "name": "GetSecurityDescriptorDacl"
+    },
+    {
+      "ordinal": 268,
+      "name": "GetSecurityDescriptorGroup"
+    },
+    {
+      "ordinal": 269,
+      "name": "GetSecurityDescriptorLength"
+    },
+    {
+      "ordinal": 270,
+      "name": "GetSecurityDescriptorOwner"
+    },
+    {
+      "ordinal": 271,
+      "name": "GetSecurityDescriptorRMControl"
+    },
+    {
+      "ordinal": 272,
+      "name": "GetSecurityDescriptorSacl"
+    },
+    {
+      "ordinal": 273,
+      "name": "GetSecurityInfo"
+    },
+    {
+      "ordinal": 274,
+      "name": "GetSecurityInfoExA"
+    },
+    {
+      "ordinal": 275,
+      "name": "GetSecurityInfoExW"
+    },
+    {
+      "ordinal": 276,
+      "name": "GetServiceDisplayNameA"
+    },
+    {
+      "ordinal": 277,
+      "name": "GetServiceDisplayNameW"
+    },
+    {
+      "ordinal": 278,
+      "name": "GetServiceKeyNameA"
+    },
+    {
+      "ordinal": 279,
+      "name": "GetServiceKeyNameW"
+    },
+    {
+      "ordinal": 280,
+      "name": "GetSidIdentifierAuthority"
+    },
+    {
+      "ordinal": 281,
+      "name": "GetSidLengthRequired"
+    },
+    {
+      "ordinal": 282,
+      "name": "GetSidSubAuthority"
+    },
+    {
+      "ordinal": 283,
+      "name": "GetSidSubAuthorityCount"
+    },
+    {
+      "ordinal": 284,
+      "name": "GetTokenInformation"
+    },
+    {
+      "ordinal": 285,
+      "name": "GetTraceEnableFlags"
+    },
+    {
+      "ordinal": 286,
+      "name": "GetTraceEnableLevel"
+    },
+    {
+      "ordinal": 287,
+      "name": "GetTraceLoggerHandle"
+    },
+    {
+      "ordinal": 288,
+      "name": "GetTrusteeFormA"
+    },
+    {
+      "ordinal": 289,
+      "name": "GetTrusteeFormW"
+    },
+    {
+      "ordinal": 290,
+      "name": "GetTrusteeNameA"
+    },
+    {
+      "ordinal": 291,
+      "name": "GetTrusteeNameW"
+    },
+    {
+      "ordinal": 292,
+      "name": "GetTrusteeTypeA"
+    },
+    {
+      "ordinal": 293,
+      "name": "GetTrusteeTypeW"
+    },
+    {
+      "ordinal": 294,
+      "name": "GetUserNameA"
+    },
+    {
+      "ordinal": 295,
+      "name": "GetUserNameW"
+    },
+    {
+      "ordinal": 296,
+      "name": "GetWindowsAccountDomainSid"
+    },
+    {
+      "ordinal": 297,
+      "name": "I_QueryTagInformation"
+    },
+    {
+      "ordinal": 1,
+      "name": "I_ScGetCurrentGroupStateW"
+    },
+    {
+      "ordinal": 298,
+      "name": "I_ScIsSecurityProcess"
+    },
+    {
+      "ordinal": 299,
+      "name": "I_ScPnPGetServiceName"
+    },
+    {
+      "ordinal": 300,
+      "name": "I_ScSendTSMessage"
+    },
+    {
+      "ordinal": 301,
+      "name": "I_ScSetServiceBitsA"
+    },
+    {
+      "ordinal": 302,
+      "name": "I_ScSetServiceBitsW"
+    },
+    {
+      "ordinal": 303,
+      "name": "IdentifyCodeAuthzLevelW"
+    },
+    {
+      "ordinal": 304,
+      "name": "ImpersonateAnonymousToken"
+    },
+    {
+      "ordinal": 305,
+      "name": "ImpersonateLoggedOnUser"
+    },
+    {
+      "ordinal": 306,
+      "name": "ImpersonateNamedPipeClient"
+    },
+    {
+      "ordinal": 307,
+      "name": "ImpersonateSelf"
+    },
+    {
+      "ordinal": 308,
+      "name": "InitializeAcl"
+    },
+    {
+      "ordinal": 309,
+      "name": "InitializeSecurityDescriptor"
+    },
+    {
+      "ordinal": 310,
+      "name": "InitializeSid"
+    },
+    {
+      "ordinal": 311,
+      "name": "InitiateSystemShutdownA"
+    },
+    {
+      "ordinal": 312,
+      "name": "InitiateSystemShutdownExA"
+    },
+    {
+      "ordinal": 313,
+      "name": "InitiateSystemShutdownExW"
+    },
+    {
+      "ordinal": 314,
+      "name": "InitiateSystemShutdownW"
+    },
+    {
+      "ordinal": 315,
+      "name": "InstallApplication"
+    },
+    {
+      "ordinal": 316,
+      "name": "IsTextUnicode"
+    },
+    {
+      "ordinal": 317,
+      "name": "IsTokenRestricted"
+    },
+    {
+      "ordinal": 318,
+      "name": "IsTokenUntrusted"
+    },
+    {
+      "ordinal": 319,
+      "name": "IsValidAcl"
+    },
+    {
+      "ordinal": 320,
+      "name": "IsValidSecurityDescriptor"
+    },
+    {
+      "ordinal": 321,
+      "name": "IsValidSid"
+    },
+    {
+      "ordinal": 322,
+      "name": "IsWellKnownSid"
+    },
+    {
+      "ordinal": 323,
+      "name": "LockServiceDatabase"
+    },
+    {
+      "ordinal": 324,
+      "name": "LogonUserA"
+    },
+    {
+      "ordinal": 325,
+      "name": "LogonUserExA"
+    },
+    {
+      "ordinal": 326,
+      "name": "LogonUserExW"
+    },
+    {
+      "ordinal": 327,
+      "name": "LogonUserW"
+    },
+    {
+      "ordinal": 328,
+      "name": "LookupAccountNameA"
+    },
+    {
+      "ordinal": 329,
+      "name": "LookupAccountNameW"
+    },
+    {
+      "ordinal": 330,
+      "name": "LookupAccountSidA"
+    },
+    {
+      "ordinal": 331,
+      "name": "LookupAccountSidW"
+    },
+    {
+      "ordinal": 332,
+      "name": "LookupPrivilegeDisplayNameA"
+    },
+    {
+      "ordinal": 333,
+      "name": "LookupPrivilegeDisplayNameW"
+    },
+    {
+      "ordinal": 334,
+      "name": "LookupPrivilegeNameA"
+    },
+    {
+      "ordinal": 335,
+      "name": "LookupPrivilegeNameW"
+    },
+    {
+      "ordinal": 336,
+      "name": "LookupPrivilegeValueA"
+    },
+    {
+      "ordinal": 337,
+      "name": "LookupPrivilegeValueW"
+    },
+    {
+      "ordinal": 338,
+      "name": "LookupSecurityDescriptorPartsA"
+    },
+    {
+      "ordinal": 339,
+      "name": "LookupSecurityDescriptorPartsW"
+    },
+    {
+      "ordinal": 340,
+      "name": "LsaAddAccountRights"
+    },
+    {
+      "ordinal": 341,
+      "name": "LsaAddPrivilegesToAccount"
+    },
+    {
+      "ordinal": 342,
+      "name": "LsaClearAuditLog"
+    },
+    {
+      "ordinal": 343,
+      "name": "LsaClose"
+    },
+    {
+      "ordinal": 344,
+      "name": "LsaCreateAccount"
+    },
+    {
+      "ordinal": 345,
+      "name": "LsaCreateSecret"
+    },
+    {
+      "ordinal": 346,
+      "name": "LsaCreateTrustedDomain"
+    },
+    {
+      "ordinal": 347,
+      "name": "LsaCreateTrustedDomainEx"
+    },
+    {
+      "ordinal": 348,
+      "name": "LsaDelete"
+    },
+    {
+      "ordinal": 349,
+      "name": "LsaDeleteTrustedDomain"
+    },
+    {
+      "ordinal": 350,
+      "name": "LsaEnumerateAccountRights"
+    },
+    {
+      "ordinal": 351,
+      "name": "LsaEnumerateAccounts"
+    },
+    {
+      "ordinal": 352,
+      "name": "LsaEnumerateAccountsWithUserRight"
+    },
+    {
+      "ordinal": 353,
+      "name": "LsaEnumeratePrivileges"
+    },
+    {
+      "ordinal": 354,
+      "name": "LsaEnumeratePrivilegesOfAccount"
+    },
+    {
+      "ordinal": 355,
+      "name": "LsaEnumerateTrustedDomains"
+    },
+    {
+      "ordinal": 356,
+      "name": "LsaEnumerateTrustedDomainsEx"
+    },
+    {
+      "ordinal": 357,
+      "name": "LsaFreeMemory"
+    },
+    {
+      "ordinal": 358,
+      "name": "LsaGetQuotasForAccount"
+    },
+    {
+      "ordinal": 359,
+      "name": "LsaGetRemoteUserName"
+    },
+    {
+      "ordinal": 360,
+      "name": "LsaGetSystemAccessAccount"
+    },
+    {
+      "ordinal": 361,
+      "name": "LsaGetUserName"
+    },
+    {
+      "ordinal": 362,
+      "name": "LsaICLookupNames"
+    },
+    {
+      "ordinal": 363,
+      "name": "LsaICLookupNamesWithCreds"
+    },
+    {
+      "ordinal": 364,
+      "name": "LsaICLookupSids"
+    },
+    {
+      "ordinal": 365,
+      "name": "LsaICLookupSidsWithCreds"
+    },
+    {
+      "ordinal": 367,
+      "name": "LsaLookupNames"
+    },
+    {
+      "ordinal": 366,
+      "name": "LsaLookupNames2"
+    },
+    {
+      "ordinal": 368,
+      "name": "LsaLookupPrivilegeDisplayName"
+    },
+    {
+      "ordinal": 369,
+      "name": "LsaLookupPrivilegeName"
+    },
+    {
+      "ordinal": 370,
+      "name": "LsaLookupPrivilegeValue"
+    },
+    {
+      "ordinal": 371,
+      "name": "LsaLookupSids"
+    },
+    {
+      "ordinal": 372,
+      "name": "LsaNtStatusToWinError"
+    },
+    {
+      "ordinal": 373,
+      "name": "LsaOpenAccount"
+    },
+    {
+      "ordinal": 374,
+      "name": "LsaOpenPolicy"
+    },
+    {
+      "ordinal": 375,
+      "name": "LsaOpenPolicySce"
+    },
+    {
+      "ordinal": 376,
+      "name": "LsaOpenSecret"
+    },
+    {
+      "ordinal": 377,
+      "name": "LsaOpenTrustedDomain"
+    },
+    {
+      "ordinal": 378,
+      "name": "LsaOpenTrustedDomainByName"
+    },
+    {
+      "ordinal": 379,
+      "name": "LsaQueryDomainInformationPolicy"
+    },
+    {
+      "ordinal": 380,
+      "name": "LsaQueryForestTrustInformation"
+    },
+    {
+      "ordinal": 381,
+      "name": "LsaQueryInfoTrustedDomain"
+    },
+    {
+      "ordinal": 382,
+      "name": "LsaQueryInformationPolicy"
+    },
+    {
+      "ordinal": 383,
+      "name": "LsaQuerySecret"
+    },
+    {
+      "ordinal": 384,
+      "name": "LsaQuerySecurityObject"
+    },
+    {
+      "ordinal": 385,
+      "name": "LsaQueryTrustedDomainInfo"
+    },
+    {
+      "ordinal": 386,
+      "name": "LsaQueryTrustedDomainInfoByName"
+    },
+    {
+      "ordinal": 387,
+      "name": "LsaRemoveAccountRights"
+    },
+    {
+      "ordinal": 388,
+      "name": "LsaRemovePrivilegesFromAccount"
+    },
+    {
+      "ordinal": 389,
+      "name": "LsaRetrievePrivateData"
+    },
+    {
+      "ordinal": 390,
+      "name": "LsaSetDomainInformationPolicy"
+    },
+    {
+      "ordinal": 391,
+      "name": "LsaSetForestTrustInformation"
+    },
+    {
+      "ordinal": 392,
+      "name": "LsaSetInformationPolicy"
+    },
+    {
+      "ordinal": 393,
+      "name": "LsaSetInformationTrustedDomain"
+    },
+    {
+      "ordinal": 394,
+      "name": "LsaSetQuotasForAccount"
+    },
+    {
+      "ordinal": 395,
+      "name": "LsaSetSecret"
+    },
+    {
+      "ordinal": 396,
+      "name": "LsaSetSecurityObject"
+    },
+    {
+      "ordinal": 397,
+      "name": "LsaSetSystemAccessAccount"
+    },
+    {
+      "ordinal": 398,
+      "name": "LsaSetTrustedDomainInfoByName"
+    },
+    {
+      "ordinal": 399,
+      "name": "LsaSetTrustedDomainInformation"
+    },
+    {
+      "ordinal": 400,
+      "name": "LsaStorePrivateData"
+    },
+    {
+      "ordinal": 401,
+      "name": "MD4Final"
+    },
+    {
+      "ordinal": 402,
+      "name": "MD4Init"
+    },
+    {
+      "ordinal": 403,
+      "name": "MD4Update"
+    },
+    {
+      "ordinal": 404,
+      "name": "MD5Final"
+    },
+    {
+      "ordinal": 405,
+      "name": "MD5Init"
+    },
+    {
+      "ordinal": 406,
+      "name": "MD5Update"
+    },
+    {
+      "ordinal": 408,
+      "name": "MSChapSrvChangePassword"
+    },
+    {
+      "ordinal": 407,
+      "name": "MSChapSrvChangePassword2"
+    },
+    {
+      "ordinal": 410,
+      "name": "MakeAbsoluteSD"
+    },
+    {
+      "ordinal": 409,
+      "name": "MakeAbsoluteSD2"
+    },
+    {
+      "ordinal": 411,
+      "name": "MakeSelfRelativeSD"
+    },
+    {
+      "ordinal": 412,
+      "name": "MapGenericMask"
+    },
+    {
+      "ordinal": 413,
+      "name": "NotifyBootConfigStatus"
+    },
+    {
+      "ordinal": 414,
+      "name": "NotifyChangeEventLog"
+    },
+    {
+      "ordinal": 415,
+      "name": "ObjectCloseAuditAlarmA"
+    },
+    {
+      "ordinal": 416,
+      "name": "ObjectCloseAuditAlarmW"
+    },
+    {
+      "ordinal": 417,
+      "name": "ObjectDeleteAuditAlarmA"
+    },
+    {
+      "ordinal": 418,
+      "name": "ObjectDeleteAuditAlarmW"
+    },
+    {
+      "ordinal": 419,
+      "name": "ObjectOpenAuditAlarmA"
+    },
+    {
+      "ordinal": 420,
+      "name": "ObjectOpenAuditAlarmW"
+    },
+    {
+      "ordinal": 421,
+      "name": "ObjectPrivilegeAuditAlarmA"
+    },
+    {
+      "ordinal": 422,
+      "name": "ObjectPrivilegeAuditAlarmW"
+    },
+    {
+      "ordinal": 423,
+      "name": "OpenBackupEventLogA"
+    },
+    {
+      "ordinal": 424,
+      "name": "OpenBackupEventLogW"
+    },
+    {
+      "ordinal": 425,
+      "name": "OpenEncryptedFileRawA"
+    },
+    {
+      "ordinal": 426,
+      "name": "OpenEncryptedFileRawW"
+    },
+    {
+      "ordinal": 427,
+      "name": "OpenEventLogA"
+    },
+    {
+      "ordinal": 428,
+      "name": "OpenEventLogW"
+    },
+    {
+      "ordinal": 429,
+      "name": "OpenProcessToken"
+    },
+    {
+      "ordinal": 430,
+      "name": "OpenSCManagerA"
+    },
+    {
+      "ordinal": 431,
+      "name": "OpenSCManagerW"
+    },
+    {
+      "ordinal": 432,
+      "name": "OpenServiceA"
+    },
+    {
+      "ordinal": 433,
+      "name": "OpenServiceW"
+    },
+    {
+      "ordinal": 434,
+      "name": "OpenThreadToken"
+    },
+    {
+      "ordinal": 435,
+      "name": "OpenTraceA"
+    },
+    {
+      "ordinal": 436,
+      "name": "OpenTraceW"
+    },
+    {
+      "ordinal": 437,
+      "name": "PrivilegeCheck"
+    },
+    {
+      "ordinal": 438,
+      "name": "PrivilegedServiceAuditAlarmA"
+    },
+    {
+      "ordinal": 439,
+      "name": "PrivilegedServiceAuditAlarmW"
+    },
+    {
+      "ordinal": 440,
+      "name": "ProcessIdleTasks"
+    },
+    {
+      "ordinal": 441,
+      "name": "ProcessTrace"
+    },
+    {
+      "ordinal": 442,
+      "name": "QueryAllTracesA"
+    },
+    {
+      "ordinal": 443,
+      "name": "QueryAllTracesW"
+    },
+    {
+      "ordinal": 444,
+      "name": "QueryRecoveryAgentsOnEncryptedFile"
+    },
+    {
+      "ordinal": 445,
+      "name": "QueryServiceConfig2A"
+    },
+    {
+      "ordinal": 446,
+      "name": "QueryServiceConfig2W"
+    },
+    {
+      "ordinal": 447,
+      "name": "QueryServiceConfigA"
+    },
+    {
+      "ordinal": 448,
+      "name": "QueryServiceConfigW"
+    },
+    {
+      "ordinal": 449,
+      "name": "QueryServiceLockStatusA"
+    },
+    {
+      "ordinal": 450,
+      "name": "QueryServiceLockStatusW"
+    },
+    {
+      "ordinal": 451,
+      "name": "QueryServiceObjectSecurity"
+    },
+    {
+      "ordinal": 452,
+      "name": "QueryServiceStatus"
+    },
+    {
+      "ordinal": 453,
+      "name": "QueryServiceStatusEx"
+    },
+    {
+      "ordinal": 454,
+      "name": "QueryTraceA"
+    },
+    {
+      "ordinal": 455,
+      "name": "QueryTraceW"
+    },
+    {
+      "ordinal": 456,
+      "name": "QueryUsersOnEncryptedFile"
+    },
+    {
+      "ordinal": 457,
+      "name": "ReadEncryptedFileRaw"
+    },
+    {
+      "ordinal": 458,
+      "name": "ReadEventLogA"
+    },
+    {
+      "ordinal": 459,
+      "name": "ReadEventLogW"
+    },
+    {
+      "ordinal": 460,
+      "name": "RegCloseKey"
+    },
+    {
+      "ordinal": 461,
+      "name": "RegConnectRegistryA"
+    },
+    {
+      "ordinal": 462,
+      "name": "RegConnectRegistryExA"
+    },
+    {
+      "ordinal": 463,
+      "name": "RegConnectRegistryExW"
+    },
+    {
+      "ordinal": 464,
+      "name": "RegConnectRegistryW"
+    },
+    {
+      "ordinal": 465,
+      "name": "RegCreateKeyA"
+    },
+    {
+      "ordinal": 466,
+      "name": "RegCreateKeyExA"
+    },
+    {
+      "ordinal": 467,
+      "name": "RegCreateKeyExW"
+    },
+    {
+      "ordinal": 468,
+      "name": "RegCreateKeyW"
+    },
+    {
+      "ordinal": 469,
+      "name": "RegDeleteKeyA"
+    },
+    {
+      "ordinal": 470,
+      "name": "RegDeleteKeyExA"
+    },
+    {
+      "ordinal": 471,
+      "name": "RegDeleteKeyExW"
+    },
+    {
+      "ordinal": 472,
+      "name": "RegDeleteKeyW"
+    },
+    {
+      "ordinal": 473,
+      "name": "RegDeleteValueA"
+    },
+    {
+      "ordinal": 474,
+      "name": "RegDeleteValueW"
+    },
+    {
+      "ordinal": 475,
+      "name": "RegDisablePredefinedCache"
+    },
+    {
+      "ordinal": 476,
+      "name": "RegDisableReflectionKey"
+    },
+    {
+      "ordinal": 477,
+      "name": "RegEnableReflectionKey"
+    },
+    {
+      "ordinal": 478,
+      "name": "RegEnumKeyA"
+    },
+    {
+      "ordinal": 479,
+      "name": "RegEnumKeyExA"
+    },
+    {
+      "ordinal": 480,
+      "name": "RegEnumKeyExW"
+    },
+    {
+      "ordinal": 481,
+      "name": "RegEnumKeyW"
+    },
+    {
+      "ordinal": 482,
+      "name": "RegEnumValueA"
+    },
+    {
+      "ordinal": 483,
+      "name": "RegEnumValueW"
+    },
+    {
+      "ordinal": 484,
+      "name": "RegFlushKey"
+    },
+    {
+      "ordinal": 485,
+      "name": "RegGetKeySecurity"
+    },
+    {
+      "ordinal": 486,
+      "name": "RegGetValueA"
+    },
+    {
+      "ordinal": 487,
+      "name": "RegGetValueW"
+    },
+    {
+      "ordinal": 488,
+      "name": "RegLoadKeyA"
+    },
+    {
+      "ordinal": 489,
+      "name": "RegLoadKeyW"
+    },
+    {
+      "ordinal": 490,
+      "name": "RegNotifyChangeKeyValue"
+    },
+    {
+      "ordinal": 491,
+      "name": "RegOpenCurrentUser"
+    },
+    {
+      "ordinal": 492,
+      "name": "RegOpenKeyA"
+    },
+    {
+      "ordinal": 493,
+      "name": "RegOpenKeyExA"
+    },
+    {
+      "ordinal": 494,
+      "name": "RegOpenKeyExW"
+    },
+    {
+      "ordinal": 495,
+      "name": "RegOpenKeyW"
+    },
+    {
+      "ordinal": 496,
+      "name": "RegOpenUserClassesRoot"
+    },
+    {
+      "ordinal": 497,
+      "name": "RegOverridePredefKey"
+    },
+    {
+      "ordinal": 498,
+      "name": "RegQueryInfoKeyA"
+    },
+    {
+      "ordinal": 499,
+      "name": "RegQueryInfoKeyW"
+    },
+    {
+      "ordinal": 500,
+      "name": "RegQueryMultipleValuesA"
+    },
+    {
+      "ordinal": 501,
+      "name": "RegQueryMultipleValuesW"
+    },
+    {
+      "ordinal": 502,
+      "name": "RegQueryReflectionKey"
+    },
+    {
+      "ordinal": 503,
+      "name": "RegQueryValueA"
+    },
+    {
+      "ordinal": 504,
+      "name": "RegQueryValueExA"
+    },
+    {
+      "ordinal": 505,
+      "name": "RegQueryValueExW"
+    },
+    {
+      "ordinal": 506,
+      "name": "RegQueryValueW"
+    },
+    {
+      "ordinal": 507,
+      "name": "RegReplaceKeyA"
+    },
+    {
+      "ordinal": 508,
+      "name": "RegReplaceKeyW"
+    },
+    {
+      "ordinal": 509,
+      "name": "RegRestoreKeyA"
+    },
+    {
+      "ordinal": 510,
+      "name": "RegRestoreKeyW"
+    },
+    {
+      "ordinal": 511,
+      "name": "RegSaveKeyA"
+    },
+    {
+      "ordinal": 512,
+      "name": "RegSaveKeyExA"
+    },
+    {
+      "ordinal": 513,
+      "name": "RegSaveKeyExW"
+    },
+    {
+      "ordinal": 514,
+      "name": "RegSaveKeyW"
+    },
+    {
+      "ordinal": 515,
+      "name": "RegSetKeySecurity"
+    },
+    {
+      "ordinal": 516,
+      "name": "RegSetValueA"
+    },
+    {
+      "ordinal": 517,
+      "name": "RegSetValueExA"
+    },
+    {
+      "ordinal": 518,
+      "name": "RegSetValueExW"
+    },
+    {
+      "ordinal": 519,
+      "name": "RegSetValueW"
+    },
+    {
+      "ordinal": 520,
+      "name": "RegUnLoadKeyA"
+    },
+    {
+      "ordinal": 521,
+      "name": "RegUnLoadKeyW"
+    },
+    {
+      "ordinal": 522,
+      "name": "RegisterEventSourceA"
+    },
+    {
+      "ordinal": 523,
+      "name": "RegisterEventSourceW"
+    },
+    {
+      "ordinal": 524,
+      "name": "RegisterIdleTask"
+    },
+    {
+      "ordinal": 525,
+      "name": "RegisterServiceCtrlHandlerA"
+    },
+    {
+      "ordinal": 526,
+      "name": "RegisterServiceCtrlHandlerExA"
+    },
+    {
+      "ordinal": 527,
+      "name": "RegisterServiceCtrlHandlerExW"
+    },
+    {
+      "ordinal": 528,
+      "name": "RegisterServiceCtrlHandlerW"
+    },
+    {
+      "ordinal": 529,
+      "name": "RegisterTraceGuidsA"
+    },
+    {
+      "ordinal": 530,
+      "name": "RegisterTraceGuidsW"
+    },
+    {
+      "ordinal": 531,
+      "name": "RemoveTraceCallback"
+    },
+    {
+      "ordinal": 532,
+      "name": "RemoveUsersFromEncryptedFile"
+    },
+    {
+      "ordinal": 533,
+      "name": "ReportEventA"
+    },
+    {
+      "ordinal": 534,
+      "name": "ReportEventW"
+    },
+    {
+      "ordinal": 535,
+      "name": "RevertToSelf"
+    },
+    {
+      "ordinal": 536,
+      "name": "SaferCloseLevel"
+    },
+    {
+      "ordinal": 537,
+      "name": "SaferComputeTokenFromLevel"
+    },
+    {
+      "ordinal": 538,
+      "name": "SaferCreateLevel"
+    },
+    {
+      "ordinal": 539,
+      "name": "SaferGetLevelInformation"
+    },
+    {
+      "ordinal": 540,
+      "name": "SaferGetPolicyInformation"
+    },
+    {
+      "ordinal": 541,
+      "name": "SaferIdentifyLevel"
+    },
+    {
+      "ordinal": 542,
+      "name": "SaferRecordEventLogEntry"
+    },
+    {
+      "ordinal": 543,
+      "name": "SaferSetLevelInformation"
+    },
+    {
+      "ordinal": 544,
+      "name": "SaferSetPolicyInformation"
+    },
+    {
+      "ordinal": 545,
+      "name": "SaferiChangeRegistryScope"
+    },
+    {
+      "ordinal": 546,
+      "name": "SaferiCompareTokenLevels"
+    },
+    {
+      "ordinal": 547,
+      "name": "SaferiIsExecutableFileType"
+    },
+    {
+      "ordinal": 548,
+      "name": "SaferiPopulateDefaultsInRegistry"
+    },
+    {
+      "ordinal": 549,
+      "name": "SaferiRecordEventLogEntry"
+    },
+    {
+      "ordinal": 550,
+      "name": "SaferiReplaceProcessThreadTokens"
+    },
+    {
+      "ordinal": 551,
+      "name": "SaferiSearchMatchingHashRules"
+    },
+    {
+      "ordinal": 552,
+      "name": "SetAclInformation"
+    },
+    {
+      "ordinal": 553,
+      "name": "SetEntriesInAccessListA"
+    },
+    {
+      "ordinal": 554,
+      "name": "SetEntriesInAccessListW"
+    },
+    {
+      "ordinal": 555,
+      "name": "SetEntriesInAclA"
+    },
+    {
+      "ordinal": 556,
+      "name": "SetEntriesInAclW"
+    },
+    {
+      "ordinal": 557,
+      "name": "SetEntriesInAuditListA"
+    },
+    {
+      "ordinal": 558,
+      "name": "SetEntriesInAuditListW"
+    },
+    {
+      "ordinal": 559,
+      "name": "SetFileSecurityA"
+    },
+    {
+      "ordinal": 560,
+      "name": "SetFileSecurityW"
+    },
+    {
+      "ordinal": 561,
+      "name": "SetInformationCodeAuthzLevelW"
+    },
+    {
+      "ordinal": 562,
+      "name": "SetInformationCodeAuthzPolicyW"
+    },
+    {
+      "ordinal": 563,
+      "name": "SetKernelObjectSecurity"
+    },
+    {
+      "ordinal": 564,
+      "name": "SetNamedSecurityInfoA"
+    },
+    {
+      "ordinal": 565,
+      "name": "SetNamedSecurityInfoExA"
+    },
+    {
+      "ordinal": 566,
+      "name": "SetNamedSecurityInfoExW"
+    },
+    {
+      "ordinal": 567,
+      "name": "SetNamedSecurityInfoW"
+    },
+    {
+      "ordinal": 568,
+      "name": "SetPrivateObjectSecurity"
+    },
+    {
+      "ordinal": 569,
+      "name": "SetPrivateObjectSecurityEx"
+    },
+    {
+      "ordinal": 570,
+      "name": "SetSecurityDescriptorControl"
+    },
+    {
+      "ordinal": 571,
+      "name": "SetSecurityDescriptorDacl"
+    },
+    {
+      "ordinal": 572,
+      "name": "SetSecurityDescriptorGroup"
+    },
+    {
+      "ordinal": 573,
+      "name": "SetSecurityDescriptorOwner"
+    },
+    {
+      "ordinal": 574,
+      "name": "SetSecurityDescriptorRMControl"
+    },
+    {
+      "ordinal": 575,
+      "name": "SetSecurityDescriptorSacl"
+    },
+    {
+      "ordinal": 576,
+      "name": "SetSecurityInfo"
+    },
+    {
+      "ordinal": 577,
+      "name": "SetSecurityInfoExA"
+    },
+    {
+      "ordinal": 578,
+      "name": "SetSecurityInfoExW"
+    },
+    {
+      "ordinal": 579,
+      "name": "SetServiceBits"
+    },
+    {
+      "ordinal": 580,
+      "name": "SetServiceObjectSecurity"
+    },
+    {
+      "ordinal": 581,
+      "name": "SetServiceStatus"
+    },
+    {
+      "ordinal": 582,
+      "name": "SetThreadToken"
+    },
+    {
+      "ordinal": 583,
+      "name": "SetTokenInformation"
+    },
+    {
+      "ordinal": 584,
+      "name": "SetTraceCallback"
+    },
+    {
+      "ordinal": 585,
+      "name": "SetUserFileEncryptionKey"
+    },
+    {
+      "ordinal": 586,
+      "name": "StartServiceA"
+    },
+    {
+      "ordinal": 587,
+      "name": "StartServiceCtrlDispatcherA"
+    },
+    {
+      "ordinal": 588,
+      "name": "StartServiceCtrlDispatcherW"
+    },
+    {
+      "ordinal": 589,
+      "name": "StartServiceW"
+    },
+    {
+      "ordinal": 590,
+      "name": "StartTraceA"
+    },
+    {
+      "ordinal": 591,
+      "name": "StartTraceW"
+    },
+    {
+      "ordinal": 592,
+      "name": "StopTraceA"
+    },
+    {
+      "ordinal": 593,
+      "name": "StopTraceW"
+    },
+    {
+      "ordinal": 594,
+      "name": "SystemFunction001"
+    },
+    {
+      "ordinal": 595,
+      "name": "SystemFunction002"
+    },
+    {
+      "ordinal": 596,
+      "name": "SystemFunction003"
+    },
+    {
+      "ordinal": 597,
+      "name": "SystemFunction004"
+    },
+    {
+      "ordinal": 598,
+      "name": "SystemFunction005"
+    },
+    {
+      "ordinal": 599,
+      "name": "SystemFunction006"
+    },
+    {
+      "ordinal": 600,
+      "name": "SystemFunction007"
+    },
+    {
+      "ordinal": 601,
+      "name": "SystemFunction008"
+    },
+    {
+      "ordinal": 602,
+      "name": "SystemFunction009"
+    },
+    {
+      "ordinal": 603,
+      "name": "SystemFunction010"
+    },
+    {
+      "ordinal": 604,
+      "name": "SystemFunction011"
+    },
+    {
+      "ordinal": 605,
+      "name": "SystemFunction012"
+    },
+    {
+      "ordinal": 606,
+      "name": "SystemFunction013"
+    },
+    {
+      "ordinal": 607,
+      "name": "SystemFunction014"
+    },
+    {
+      "ordinal": 608,
+      "name": "SystemFunction015"
+    },
+    {
+      "ordinal": 609,
+      "name": "SystemFunction016"
+    },
+    {
+      "ordinal": 610,
+      "name": "SystemFunction017"
+    },
+    {
+      "ordinal": 611,
+      "name": "SystemFunction018"
+    },
+    {
+      "ordinal": 612,
+      "name": "SystemFunction019"
+    },
+    {
+      "ordinal": 613,
+      "name": "SystemFunction020"
+    },
+    {
+      "ordinal": 614,
+      "name": "SystemFunction021"
+    },
+    {
+      "ordinal": 615,
+      "name": "SystemFunction022"
+    },
+    {
+      "ordinal": 616,
+      "name": "SystemFunction023"
+    },
+    {
+      "ordinal": 617,
+      "name": "SystemFunction024"
+    },
+    {
+      "ordinal": 618,
+      "name": "SystemFunction025"
+    },
+    {
+      "ordinal": 619,
+      "name": "SystemFunction026"
+    },
+    {
+      "ordinal": 620,
+      "name": "SystemFunction027"
+    },
+    {
+      "ordinal": 621,
+      "name": "SystemFunction028"
+    },
+    {
+      "ordinal": 622,
+      "name": "SystemFunction029"
+    },
+    {
+      "ordinal": 623,
+      "name": "SystemFunction030"
+    },
+    {
+      "ordinal": 624,
+      "name": "SystemFunction031"
+    },
+    {
+      "ordinal": 625,
+      "name": "SystemFunction032"
+    },
+    {
+      "ordinal": 626,
+      "name": "SystemFunction033"
+    },
+    {
+      "ordinal": 627,
+      "name": "SystemFunction034"
+    },
+    {
+      "ordinal": 628,
+      "name": "SystemFunction035"
+    },
+    {
+      "ordinal": 629,
+      "name": "SystemFunction036"
+    },
+    {
+      "ordinal": 630,
+      "name": "SystemFunction040"
+    },
+    {
+      "ordinal": 631,
+      "name": "SystemFunction041"
+    },
+    {
+      "ordinal": 632,
+      "name": "TraceEvent"
+    },
+    {
+      "ordinal": 633,
+      "name": "TraceEventInstance"
+    },
+    {
+      "ordinal": 634,
+      "name": "TraceMessage"
+    },
+    {
+      "ordinal": 635,
+      "name": "TraceMessageVa"
+    },
+    {
+      "ordinal": 636,
+      "name": "TreeResetNamedSecurityInfoA"
+    },
+    {
+      "ordinal": 637,
+      "name": "TreeResetNamedSecurityInfoW"
+    },
+    {
+      "ordinal": 638,
+      "name": "TrusteeAccessToObjectA"
+    },
+    {
+      "ordinal": 639,
+      "name": "TrusteeAccessToObjectW"
+    },
+    {
+      "ordinal": 640,
+      "name": "UninstallApplication"
+    },
+    {
+      "ordinal": 641,
+      "name": "UnlockServiceDatabase"
+    },
+    {
+      "ordinal": 642,
+      "name": "UnregisterIdleTask"
+    },
+    {
+      "ordinal": 643,
+      "name": "UnregisterTraceGuids"
+    },
+    {
+      "ordinal": 644,
+      "name": "UpdateTraceA"
+    },
+    {
+      "ordinal": 645,
+      "name": "UpdateTraceW"
+    },
+    {
+      "ordinal": 646,
+      "name": "WdmWmiServiceMain"
+    },
+    {
+      "ordinal": 647,
+      "name": "WmiCloseBlock"
+    },
+    {
+      "ordinal": 648,
+      "name": "WmiCloseTraceWithCursor"
+    },
+    {
+      "ordinal": 649,
+      "name": "WmiConvertTimestamp"
+    },
+    {
+      "ordinal": 650,
+      "name": "WmiDevInstToInstanceNameA"
+    },
+    {
+      "ordinal": 651,
+      "name": "WmiDevInstToInstanceNameW"
+    },
+    {
+      "ordinal": 652,
+      "name": "WmiEnumerateGuids"
+    },
+    {
+      "ordinal": 653,
+      "name": "WmiExecuteMethodA"
+    },
+    {
+      "ordinal": 654,
+      "name": "WmiExecuteMethodW"
+    },
+    {
+      "ordinal": 655,
+      "name": "WmiFileHandleToInstanceNameA"
+    },
+    {
+      "ordinal": 656,
+      "name": "WmiFileHandleToInstanceNameW"
+    },
+    {
+      "ordinal": 657,
+      "name": "WmiFreeBuffer"
+    },
+    {
+      "ordinal": 658,
+      "name": "WmiGetFirstTraceOffset"
+    },
+    {
+      "ordinal": 659,
+      "name": "WmiGetNextEvent"
+    },
+    {
+      "ordinal": 660,
+      "name": "WmiGetTraceHeader"
+    },
+    {
+      "ordinal": 661,
+      "name": "WmiMofEnumerateResourcesA"
+    },
+    {
+      "ordinal": 662,
+      "name": "WmiMofEnumerateResourcesW"
+    },
+    {
+      "ordinal": 663,
+      "name": "WmiNotificationRegistrationA"
+    },
+    {
+      "ordinal": 664,
+      "name": "WmiNotificationRegistrationW"
+    },
+    {
+      "ordinal": 665,
+      "name": "WmiOpenBlock"
+    },
+    {
+      "ordinal": 666,
+      "name": "WmiOpenTraceWithCursor"
+    },
+    {
+      "ordinal": 667,
+      "name": "WmiParseTraceEvent"
+    },
+    {
+      "ordinal": 668,
+      "name": "WmiQueryAllDataA"
+    },
+    {
+      "ordinal": 669,
+      "name": "WmiQueryAllDataMultipleA"
+    },
+    {
+      "ordinal": 670,
+      "name": "WmiQueryAllDataMultipleW"
+    },
+    {
+      "ordinal": 671,
+      "name": "WmiQueryAllDataW"
+    },
+    {
+      "ordinal": 672,
+      "name": "WmiQueryGuidInformation"
+    },
+    {
+      "ordinal": 673,
+      "name": "WmiQuerySingleInstanceA"
+    },
+    {
+      "ordinal": 674,
+      "name": "WmiQuerySingleInstanceMultipleA"
+    },
+    {
+      "ordinal": 675,
+      "name": "WmiQuerySingleInstanceMultipleW"
+    },
+    {
+      "ordinal": 676,
+      "name": "WmiQuerySingleInstanceW"
+    },
+    {
+      "ordinal": 677,
+      "name": "WmiReceiveNotificationsA"
+    },
+    {
+      "ordinal": 678,
+      "name": "WmiReceiveNotificationsW"
+    },
+    {
+      "ordinal": 679,
+      "name": "WmiSetSingleInstanceA"
+    },
+    {
+      "ordinal": 680,
+      "name": "WmiSetSingleInstanceW"
+    },
+    {
+      "ordinal": 681,
+      "name": "WmiSetSingleItemA"
+    },
+    {
+      "ordinal": 682,
+      "name": "WmiSetSingleItemW"
+    },
+    {
+      "ordinal": 683,
+      "name": "Wow64Win32ApiEntry"
+    },
+    {
+      "ordinal": 684,
+      "name": "WriteEncryptedFileRaw"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+
+@media (min-width: 48em) {
+  .sidebar {
+    width: 16rem;
+  }
+}
+
+th.border-bottom {
+  border-bottom: 1px solid black !important;
+}
+
+/* Forwarder export cells */
+td.fwd {
+  color: #666;
+  font-style: italic;
+  cursor: help;
+}
+
+/* Keep DLL export tables readable */
+#dllexports td, #dllexports th,
+#dlllist    td, #dlllist    th {
+  white-space: nowrap;
+}
+
+#functionindex td, #functionindex th {
+  white-space: nowrap;
+}

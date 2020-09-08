@@ -1,0 +1,307 @@
+{
+  "Version": "10.0.26100.7309-I386",
+  "md5": "d39314e61be08f2a8605206a557da021",
+  "imphash": "d39314e61be08f2a8605206a557da021",
+  "InternalName": "Bluetooth Control Panel",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "Bluetooth Control Panel Applet",
+  "FileVersion": "10.0.26100.7309 (WinBuild.160101.0800)",
+  "ProductVersion": "10.0.26100.7309",
+  "PeChecksum": 245866,
+  "Size": 213504,
+  "Machine": "I386",
+  "exports": [
+    {
+      "ordinal": 104,
+      "name": "BluetoothAuthenticateDevice"
+    },
+    {
+      "ordinal": 105,
+      "name": "BluetoothAuthenticateDeviceEx"
+    },
+    {
+      "ordinal": 106,
+      "name": "BluetoothAuthenticateMultipleDevices"
+    },
+    {
+      "ordinal": 107,
+      "name": "BluetoothAuthenticationAgent"
+    },
+    {
+      "ordinal": 108,
+      "name": "BluetoothDisconnectDevice",
+      "forwarder": "ext-ms-win-bluetooth-apis-internal-l1-1-0.BluetoothDisconnectDevice"
+    },
+    {
+      "ordinal": 109,
+      "name": "BluetoothDisplayDeviceProperties"
+    },
+    {
+      "ordinal": 110,
+      "name": "BluetoothEnableDiscovery",
+      "forwarder": "ext-ms-win-bluetooth-apis-l1-1-0.BluetoothEnableDiscovery.BluetoothEnableDiscovery"
+    },
+    {
+      "ordinal": 111,
+      "name": "BluetoothEnableIncomingConnections",
+      "forwarder": "ext-ms-win-bluetooth-apis-l1-1-0.BluetoothEnableIncomingConnections"
+    },
+    {
+      "ordinal": 112,
+      "name": "BluetoothEnumerateInstalledServices",
+      "forwarder": "ext-ms-win-bluetooth-apis-l1-1-0.BluetoothEnumerateInstalledServices"
+    },
+    {
+      "ordinal": 113,
+      "name": "BluetoothFindBrowseGroupClose",
+      "forwarder": "ext-ms-win-bluetooth-apis-internal-l1-1-0.BluetoothFindBrowseGroupClose"
+    },
+    {
+      "ordinal": 114,
+      "name": "BluetoothFindClassIdClose",
+      "forwarder": "ext-ms-win-bluetooth-apis-internal-l1-1-0.BluetoothFindClassIdClose"
+    },
+    {
+      "ordinal": 115,
+      "name": "BluetoothFindDeviceClose",
+      "forwarder": "ext-ms-win-bluetooth-apis-l1-1-0.BluetoothFindDeviceClose"
+    },
+    {
+      "ordinal": 116,
+      "name": "BluetoothFindFirstBrowseGroup",
+      "forwarder": "ext-ms-win-bluetooth-apis-internal-l1-1-0.BluetoothFindFirstBrowseGroup"
+    },
+    {
+      "ordinal": 117,
+      "name": "BluetoothFindFirstClassId",
+      "forwarder": "ext-ms-win-bluetooth-apis-internal-l1-1-0.BluetoothFindFirstClassId"
+    },
+    {
+      "ordinal": 118,
+      "name": "BluetoothFindFirstDevice",
+      "forwarder": "ext-ms-win-bluetooth-apis-l1-1-0.BluetoothFindFirstDevice"
+    },
+    {
+      "ordinal": 119,
+      "name": "BluetoothFindFirstProfileDescriptor",
+      "forwarder": "ext-ms-win-bluetooth-apis-internal-l1-1-0.BluetoothFindFirstProfileDescriptor"
+    },
+    {
+      "ordinal": 120,
+      "name": "BluetoothFindFirstProtocolDescriptorStack",
+      "forwarder": "ext-ms-win-bluetooth-apis-internal-l1-1-0.BluetoothFindFirstProtocolDescriptorStack"
+    },
+    {
+      "ordinal": 121,
+      "name": "BluetoothFindFirstProtocolEntry",
+      "forwarder": "ext-ms-win-bluetooth-apis-internal-l1-1-0.BluetoothFindFirstProtocolEntry"
+    },
+    {
+      "ordinal": 122,
+      "name": "BluetoothFindFirstRadio",
+      "forwarder": "ext-ms-win-bluetooth-apis-l1-1-0.BluetoothFindFirstRadio"
+    },
+    {
+      "ordinal": 123,
+      "name": "BluetoothFindFirstService",
+      "forwarder": "ext-ms-win-bluetooth-apis-internal-l1-1-0.BluetoothFindFirstService"
+    },
+    {
+      "ordinal": 124,
+      "name": "BluetoothFindFirstServiceEx",
+      "forwarder": "ext-ms-win-bluetooth-apis-internal-l1-1-0.BluetoothFindFirstServiceEx"
+    },
+    {
+      "ordinal": 125,
+      "name": "BluetoothFindNextBrowseGroup",
+      "forwarder": "ext-ms-win-bluetooth-apis-internal-l1-1-0.BluetoothFindNextBrowseGroup"
+    },
+    {
+      "ordinal": 126,
+      "name": "BluetoothFindNextClassId",
+      "forwarder": "ext-ms-win-bluetooth-apis-internal-l1-1-0.BluetoothFindNextClassId"
+    },
+    {
+      "ordinal": 127,
+      "name": "BluetoothFindNextDevice",
+      "forwarder": "ext-ms-win-bluetooth-apis-l1-1-0.BluetoothFindNextDevice"
+    },
+    {
+      "ordinal": 128,
+      "name": "BluetoothFindNextProfileDescriptor",
+      "forwarder": "ext-ms-win-bluetooth-apis-internal-l1-1-0.BluetoothFindNextProfileDescriptor"
+    },
+    {
+      "ordinal": 129,
+      "name": "BluetoothFindNextProtocolDescriptorStack",
+      "forwarder": "ext-ms-win-bluetooth-apis-internal-l1-1-0.BluetoothFindNextProtocolDescriptorStack"
+    },
+    {
+      "ordinal": 130,
+      "name": "BluetoothFindNextProtocolEntry",
+      "forwarder": "ext-ms-win-bluetooth-apis-internal-l1-1-0.BluetoothFindNextProtocolEntry"
+    },
+    {
+      "ordinal": 131,
+      "name": "BluetoothFindNextRadio",
+      "forwarder": "ext-ms-win-bluetooth-apis-l1-1-0.BluetoothFindNextRadio"
+    },
+    {
+      "ordinal": 132,
+      "name": "BluetoothFindNextService",
+      "forwarder": "ext-ms-win-bluetooth-apis-internal-l1-1-0.BluetoothFindNextService"
+    },
+    {
+      "ordinal": 133,
+      "name": "BluetoothFindProfileDescriptorClose",
+      "forwarder": "ext-ms-win-bluetooth-apis-internal-l1-1-0.BluetoothFindProfileDescriptorClose"
+    },
+    {
+      "ordinal": 134,
+      "name": "BluetoothFindProtocolDescriptorStackClose",
+      "forwarder": "ext-ms-win-bluetooth-apis-internal-l1-1-0.BluetoothFindProtocolDescriptorStackClose"
+    },
+    {
+      "ordinal": 135,
+      "name": "BluetoothFindProtocolEntryClose",
+      "forwarder": "ext-ms-win-bluetooth-apis-internal-l1-1-0.BluetoothFindProtocolEntryClose"
+    },
+    {
+      "ordinal": 136,
+      "name": "BluetoothFindRadioClose",
+      "forwarder": "ext-ms-win-bluetooth-apis-l1-1-0.BluetoothFindRadioClose"
+    },
+    {
+      "ordinal": 137,
+      "name": "BluetoothFindServiceClose",
+      "forwarder": "ext-ms-win-bluetooth-apis-internal-l1-1-0.BluetoothFindServiceClose"
+    },
+    {
+      "ordinal": 138,
+      "name": "BluetoothGetDeviceInfo",
+      "forwarder": "ext-ms-win-bluetooth-apis-l1-1-0.BluetoothGetDeviceInfo"
+    },
+    {
+      "ordinal": 139,
+      "name": "BluetoothGetRadioInfo",
+      "forwarder": "ext-ms-win-bluetooth-apis-l1-1-0.BluetoothGetRadioInfo"
+    },
+    {
+      "ordinal": 140,
+      "name": "BluetoothIsConnectable",
+      "forwarder": "ext-ms-win-bluetooth-apis-l1-1-0.BluetoothIsConnectable"
+    },
+    {
+      "ordinal": 141,
+      "name": "BluetoothIsDiscoverable",
+      "forwarder": "ext-ms-win-bluetooth-apis-l1-1-0.BluetoothIsDiscoverable"
+    },
+    {
+      "ordinal": 142,
+      "name": "BluetoothIsVersionAvailable",
+      "forwarder": "ext-ms-win-bluetooth-apis-l1-1-0.BluetoothIsVersionAvailable"
+    },
+    {
+      "ordinal": 143,
+      "name": "BluetoothMapClassOfDeviceToIconPath"
+    },
+    {
+      "ordinal": 144,
+      "name": "BluetoothMapClassOfDeviceToString"
+    },
+    {
+      "ordinal": 145,
+      "name": "BluetoothRegisterForAuthentication",
+      "forwarder": "ext-ms-win-bluetooth-apis-l1-1-0.BluetoothRegisterForAuthentication"
+    },
+    {
+      "ordinal": 146,
+      "name": "BluetoothRegisterForAuthenticationEx",
+      "forwarder": "ext-ms-win-bluetooth-apis-l1-1-0.BluetoothRegisterForAuthenticationEx"
+    },
+    {
+      "ordinal": 147,
+      "name": "BluetoothRemoveDevice",
+      "forwarder": "ext-ms-win-bluetooth-apis-l1-1-0.BluetoothRemoveDevice"
+    },
+    {
+      "ordinal": 148,
+      "name": "BluetoothSdpEnumAttributes",
+      "forwarder": "ext-ms-win-bluetooth-apis-l1-1-0.BluetoothSdpEnumAttributes"
+    },
+    {
+      "ordinal": 149,
+      "name": "BluetoothSdpGetAttributeValue",
+      "forwarder": "ext-ms-win-bluetooth-apis-l1-1-0.BluetoothSdpGetAttributeValue"
+    },
+    {
+      "ordinal": 150,
+      "name": "BluetoothSdpGetContainerElementData",
+      "forwarder": "ext-ms-win-bluetooth-apis-l1-1-0.BluetoothSdpGetContainerElementData"
+    },
+    {
+      "ordinal": 151,
+      "name": "BluetoothSdpGetElementData",
+      "forwarder": "ext-ms-win-bluetooth-apis-l1-1-0.BluetoothSdpGetElementData"
+    },
+    {
+      "ordinal": 152,
+      "name": "BluetoothSdpGetString",
+      "forwarder": "ext-ms-win-bluetooth-apis-l1-1-0.BluetoothSdpGetString"
+    },
+    {
+      "ordinal": 153,
+      "name": "BluetoothSelectDevices"
+    },
+    {
+      "ordinal": 154,
+      "name": "BluetoothSelectDevicesFree"
+    },
+    {
+      "ordinal": 155,
+      "name": "BluetoothSendAuthenticationResponse",
+      "forwarder": "ext-ms-win-bluetooth-apis-l1-1-0.BluetoothSendAuthenticationResponse"
+    },
+    {
+      "ordinal": 156,
+      "name": "BluetoothSendAuthenticationResponseEx",
+      "forwarder": "ext-ms-win-bluetooth-apis-l1-1-0.BluetoothSendAuthenticationResponseEx"
+    },
+    {
+      "ordinal": 157,
+      "name": "BluetoothSetLocalServiceInfo",
+      "forwarder": "ext-ms-win-bluetooth-apis-l1-1-0.BluetoothSetLocalServiceInfo"
+    },
+    {
+      "ordinal": 158,
+      "name": "BluetoothSetServiceState",
+      "forwarder": "ext-ms-win-bluetooth-apis-l1-1-0.BluetoothSetServiceState"
+    },
+    {
+      "ordinal": 159,
+      "name": "BluetoothUnregisterAuthentication",
+      "forwarder": "ext-ms-win-bluetooth-apis-l1-1-0.BluetoothUnregisterAuthentication"
+    },
+    {
+      "ordinal": 160,
+      "name": "BluetoothUpdateDeviceRecord",
+      "forwarder": "ext-ms-win-bluetooth-apis-l1-1-0.BluetoothUpdateDeviceRecord"
+    },
+    {
+      "ordinal": 161,
+      "name": "CPlApplet"
+    },
+    {
+      "ordinal": 162,
+      "name": "DllCanUnloadNow"
+    },
+    {
+      "ordinal": 163,
+      "name": "DllGetClassObject"
+    },
+    {
+      "ordinal": 103,
+      "name": null
+    }
+  ]
+}

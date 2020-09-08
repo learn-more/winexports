@@ -1,0 +1,891 @@
+{
+  "Version": "6.1.7601.17570-AMD64",
+  "md5": "492d07d79e7024ca310867b526d9636d",
+  "imphash": "492d07d79e7024ca310867b526d9636d",
+  "InternalName": "dnsapi",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "DNS Client API DLL",
+  "FileVersion": "6.1.7601.17570 (win7sp1_gdr.110302-1503)",
+  "ProductVersion": "6.1.7601.17570",
+  "PeChecksum": 364026,
+  "Size": 357888,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ordinal": 1,
+      "name": "BreakRecordsIntoBlob"
+    },
+    {
+      "ordinal": 2,
+      "name": "CombineRecordsInBlob"
+    },
+    {
+      "ordinal": 3,
+      "name": "DnsAcquireContextHandle_A"
+    },
+    {
+      "ordinal": 4,
+      "name": "DnsAcquireContextHandle_W"
+    },
+    {
+      "ordinal": 5,
+      "name": "DnsAllocateRecord"
+    },
+    {
+      "ordinal": 6,
+      "name": "DnsApiAlloc"
+    },
+    {
+      "ordinal": 7,
+      "name": "DnsApiAllocZero"
+    },
+    {
+      "ordinal": 8,
+      "name": "DnsApiFree"
+    },
+    {
+      "ordinal": 9,
+      "name": "DnsApiHeapReset"
+    },
+    {
+      "ordinal": 10,
+      "name": "DnsApiRealloc"
+    },
+    {
+      "ordinal": 11,
+      "name": "DnsApiSetDebugGlobals"
+    },
+    {
+      "ordinal": 12,
+      "name": "DnsAsyncRegisterHostAddrs"
+    },
+    {
+      "ordinal": 13,
+      "name": "DnsAsyncRegisterInit"
+    },
+    {
+      "ordinal": 14,
+      "name": "DnsAsyncRegisterTerm"
+    },
+    {
+      "ordinal": 15,
+      "name": "DnsCopyStringEx"
+    },
+    {
+      "ordinal": 16,
+      "name": "DnsCreateReverseNameStringForIpAddress"
+    },
+    {
+      "ordinal": 17,
+      "name": "DnsCreateStandardDnsNameCopy"
+    },
+    {
+      "ordinal": 18,
+      "name": "DnsCreateStringCopy"
+    },
+    {
+      "ordinal": 19,
+      "name": "DnsDhcpRegisterAddrs"
+    },
+    {
+      "ordinal": 20,
+      "name": "DnsDhcpRegisterHostAddrs"
+    },
+    {
+      "ordinal": 21,
+      "name": "DnsDhcpRegisterInit"
+    },
+    {
+      "ordinal": 22,
+      "name": "DnsDhcpRegisterTerm"
+    },
+    {
+      "ordinal": 23,
+      "name": "DnsDhcpRemoveRegistrations"
+    },
+    {
+      "ordinal": 24,
+      "name": "DnsDhcpSrvRegisterHostAddr"
+    },
+    {
+      "ordinal": 25,
+      "name": "DnsDhcpSrvRegisterHostAddrEx"
+    },
+    {
+      "ordinal": 26,
+      "name": "DnsDhcpSrvRegisterHostName"
+    },
+    {
+      "ordinal": 27,
+      "name": "DnsDhcpSrvRegisterHostNameEx"
+    },
+    {
+      "ordinal": 28,
+      "name": "DnsDhcpSrvRegisterInit"
+    },
+    {
+      "ordinal": 29,
+      "name": "DnsDhcpSrvRegisterInitialize"
+    },
+    {
+      "ordinal": 30,
+      "name": "DnsDhcpSrvRegisterTerm"
+    },
+    {
+      "ordinal": 31,
+      "name": "DnsDowncaseDnsNameLabel"
+    },
+    {
+      "ordinal": 32,
+      "name": "DnsExtractRecordsFromMessage_UTF8"
+    },
+    {
+      "ordinal": 33,
+      "name": "DnsExtractRecordsFromMessage_W"
+    },
+    {
+      "ordinal": 34,
+      "name": "DnsFindAuthoritativeZone"
+    },
+    {
+      "ordinal": 35,
+      "name": "DnsFlushResolverCache"
+    },
+    {
+      "ordinal": 36,
+      "name": "DnsFlushResolverCacheEntry_A"
+    },
+    {
+      "ordinal": 37,
+      "name": "DnsFlushResolverCacheEntry_UTF8"
+    },
+    {
+      "ordinal": 38,
+      "name": "DnsFlushResolverCacheEntry_W"
+    },
+    {
+      "ordinal": 39,
+      "name": "DnsFree"
+    },
+    {
+      "ordinal": 40,
+      "name": "DnsFreeConfigStructure"
+    },
+    {
+      "ordinal": 41,
+      "name": "DnsFreePolicyConfig"
+    },
+    {
+      "ordinal": 42,
+      "name": "DnsFreeProxyName"
+    },
+    {
+      "ordinal": 43,
+      "name": "DnsGetBufferLengthForStringCopy"
+    },
+    {
+      "ordinal": 44,
+      "name": "DnsGetCacheDataTable"
+    },
+    {
+      "ordinal": 45,
+      "name": "DnsGetDnsServerList"
+    },
+    {
+      "ordinal": 46,
+      "name": "DnsGetDomainName"
+    },
+    {
+      "ordinal": 47,
+      "name": "DnsGetLastFailedUpdateInfo"
+    },
+    {
+      "ordinal": 48,
+      "name": "DnsGetPolicyTableInfo"
+    },
+    {
+      "ordinal": 49,
+      "name": "DnsGetPolicyTableInfoPrivate"
+    },
+    {
+      "ordinal": 50,
+      "name": "DnsGetPrimaryDomainName_A"
+    },
+    {
+      "ordinal": 51,
+      "name": "DnsGetProxyInfoPrivate"
+    },
+    {
+      "ordinal": 52,
+      "name": "DnsGetProxyInformation"
+    },
+    {
+      "ordinal": 53,
+      "name": "DnsGlobals"
+    },
+    {
+      "ordinal": 54,
+      "name": "DnsIpv6AddressToString"
+    },
+    {
+      "ordinal": 55,
+      "name": "DnsIpv6StringToAddress"
+    },
+    {
+      "ordinal": 56,
+      "name": "DnsIsAMailboxType"
+    },
+    {
+      "ordinal": 57,
+      "name": "DnsIsStatusRcode"
+    },
+    {
+      "ordinal": 58,
+      "name": "DnsIsStringCountValidForTextType"
+    },
+    {
+      "ordinal": 59,
+      "name": "DnsLogEvent"
+    },
+    {
+      "ordinal": 60,
+      "name": "DnsLogIn"
+    },
+    {
+      "ordinal": 61,
+      "name": "DnsLogInit"
+    },
+    {
+      "ordinal": 62,
+      "name": "DnsLogIt"
+    },
+    {
+      "ordinal": 63,
+      "name": "DnsLogOut"
+    },
+    {
+      "ordinal": 64,
+      "name": "DnsLogTime"
+    },
+    {
+      "ordinal": 65,
+      "name": "DnsMapRcodeToStatus"
+    },
+    {
+      "ordinal": 66,
+      "name": "DnsModifyRecordsInSet_A"
+    },
+    {
+      "ordinal": 67,
+      "name": "DnsModifyRecordsInSet_UTF8"
+    },
+    {
+      "ordinal": 68,
+      "name": "DnsModifyRecordsInSet_W"
+    },
+    {
+      "ordinal": 69,
+      "name": "DnsNameCompareEx_A"
+    },
+    {
+      "ordinal": 70,
+      "name": "DnsNameCompareEx_UTF8"
+    },
+    {
+      "ordinal": 71,
+      "name": "DnsNameCompareEx_W"
+    },
+    {
+      "ordinal": 72,
+      "name": "DnsNameCompare_A"
+    },
+    {
+      "ordinal": 73,
+      "name": "DnsNameCompare_UTF8"
+    },
+    {
+      "ordinal": 74,
+      "name": "DnsNameCompare_W"
+    },
+    {
+      "ordinal": 75,
+      "name": "DnsNameCopy"
+    },
+    {
+      "ordinal": 76,
+      "name": "DnsNameCopyAllocate"
+    },
+    {
+      "ordinal": 77,
+      "name": "DnsNetworkInfo_CreateFromFAZ"
+    },
+    {
+      "ordinal": 78,
+      "name": "DnsNetworkInformation_CreateFromFAZ"
+    },
+    {
+      "ordinal": 79,
+      "name": "DnsNotifyResolver"
+    },
+    {
+      "ordinal": 80,
+      "name": "DnsNotifyResolverClusterIp"
+    },
+    {
+      "ordinal": 81,
+      "name": "DnsNotifyResolverEx"
+    },
+    {
+      "ordinal": 82,
+      "name": "DnsQueryConfig"
+    },
+    {
+      "ordinal": 83,
+      "name": "DnsQueryConfigAllocEx"
+    },
+    {
+      "ordinal": 84,
+      "name": "DnsQueryConfigDword"
+    },
+    {
+      "ordinal": 85,
+      "name": "DnsQueryExA"
+    },
+    {
+      "ordinal": 86,
+      "name": "DnsQueryExUTF8"
+    },
+    {
+      "ordinal": 87,
+      "name": "DnsQueryExW"
+    },
+    {
+      "ordinal": 88,
+      "name": "DnsQuery_A"
+    },
+    {
+      "ordinal": 89,
+      "name": "DnsQuery_UTF8"
+    },
+    {
+      "ordinal": 90,
+      "name": "DnsQuery_W"
+    },
+    {
+      "ordinal": 91,
+      "name": "DnsRecordBuild_UTF8"
+    },
+    {
+      "ordinal": 92,
+      "name": "DnsRecordBuild_W"
+    },
+    {
+      "ordinal": 93,
+      "name": "DnsRecordCompare"
+    },
+    {
+      "ordinal": 94,
+      "name": "DnsRecordCopyEx"
+    },
+    {
+      "ordinal": 95,
+      "name": "DnsRecordListFree"
+    },
+    {
+      "ordinal": 96,
+      "name": "DnsRecordSetCompare"
+    },
+    {
+      "ordinal": 97,
+      "name": "DnsRecordSetCopyEx"
+    },
+    {
+      "ordinal": 98,
+      "name": "DnsRecordSetDetach"
+    },
+    {
+      "ordinal": 99,
+      "name": "DnsRecordStringForType"
+    },
+    {
+      "ordinal": 100,
+      "name": "DnsRecordStringForWritableType"
+    },
+    {
+      "ordinal": 101,
+      "name": "DnsRecordTypeForName"
+    },
+    {
+      "ordinal": 102,
+      "name": "DnsRegisterClusterAddress"
+    },
+    {
+      "ordinal": 103,
+      "name": "DnsReleaseContextHandle"
+    },
+    {
+      "ordinal": 104,
+      "name": "DnsRemoveRegistrations"
+    },
+    {
+      "ordinal": 105,
+      "name": "DnsReplaceRecordSetA"
+    },
+    {
+      "ordinal": 106,
+      "name": "DnsReplaceRecordSetUTF8"
+    },
+    {
+      "ordinal": 107,
+      "name": "DnsReplaceRecordSetW"
+    },
+    {
+      "ordinal": 108,
+      "name": "DnsResolverOp"
+    },
+    {
+      "ordinal": 109,
+      "name": "DnsScreenLocalAddrsForRegistration"
+    },
+    {
+      "ordinal": 110,
+      "name": "DnsSetConfigDword"
+    },
+    {
+      "ordinal": 111,
+      "name": "DnsStatusString"
+    },
+    {
+      "ordinal": 112,
+      "name": "DnsStringCopyAllocateEx"
+    },
+    {
+      "ordinal": 113,
+      "name": "DnsTraceServerConfig"
+    },
+    {
+      "ordinal": 114,
+      "name": "DnsUnicodeToUtf8"
+    },
+    {
+      "ordinal": 115,
+      "name": "DnsUpdate"
+    },
+    {
+      "ordinal": 116,
+      "name": "DnsUpdateMachinePresence"
+    },
+    {
+      "ordinal": 117,
+      "name": "DnsUpdateTest_A"
+    },
+    {
+      "ordinal": 118,
+      "name": "DnsUpdateTest_UTF8"
+    },
+    {
+      "ordinal": 119,
+      "name": "DnsUpdateTest_W"
+    },
+    {
+      "ordinal": 120,
+      "name": "DnsUtf8ToUnicode"
+    },
+    {
+      "ordinal": 121,
+      "name": "DnsValidateNameOrIp_TempW"
+    },
+    {
+      "ordinal": 122,
+      "name": "DnsValidateName_A"
+    },
+    {
+      "ordinal": 123,
+      "name": "DnsValidateName_UTF8"
+    },
+    {
+      "ordinal": 124,
+      "name": "DnsValidateName_W"
+    },
+    {
+      "ordinal": 125,
+      "name": "DnsValidateServerArray_A"
+    },
+    {
+      "ordinal": 126,
+      "name": "DnsValidateServerArray_W"
+    },
+    {
+      "ordinal": 127,
+      "name": "DnsValidateServerStatus"
+    },
+    {
+      "ordinal": 128,
+      "name": "DnsValidateServer_A"
+    },
+    {
+      "ordinal": 129,
+      "name": "DnsValidateServer_W"
+    },
+    {
+      "ordinal": 130,
+      "name": "DnsValidateUtf8Byte"
+    },
+    {
+      "ordinal": 131,
+      "name": "DnsWriteQuestionToBuffer_UTF8"
+    },
+    {
+      "ordinal": 132,
+      "name": "DnsWriteQuestionToBuffer_W"
+    },
+    {
+      "ordinal": 133,
+      "name": "DnsWriteReverseNameStringForIpAddress"
+    },
+    {
+      "ordinal": 134,
+      "name": "Dns_AddRecordsToMessage"
+    },
+    {
+      "ordinal": 135,
+      "name": "Dns_AllocateMsgBuf"
+    },
+    {
+      "ordinal": 136,
+      "name": "Dns_BuildPacket"
+    },
+    {
+      "ordinal": 137,
+      "name": "Dns_CleanupWinsock"
+    },
+    {
+      "ordinal": 138,
+      "name": "Dns_CloseConnection"
+    },
+    {
+      "ordinal": 139,
+      "name": "Dns_CloseSocket"
+    },
+    {
+      "ordinal": 140,
+      "name": "Dns_CreateMulticastSocket"
+    },
+    {
+      "ordinal": 141,
+      "name": "Dns_CreateSocket"
+    },
+    {
+      "ordinal": 142,
+      "name": "Dns_CreateSocketEx"
+    },
+    {
+      "ordinal": 143,
+      "name": "Dns_ExtractRecordsFromMessage"
+    },
+    {
+      "ordinal": 144,
+      "name": "Dns_FindAuthoritativeZoneLib"
+    },
+    {
+      "ordinal": 145,
+      "name": "Dns_FreeMsgBuf"
+    },
+    {
+      "ordinal": 146,
+      "name": "Dns_GetRandomXid"
+    },
+    {
+      "ordinal": 147,
+      "name": "Dns_InitializeMsgBuf"
+    },
+    {
+      "ordinal": 148,
+      "name": "Dns_InitializeMsgRemoteSockaddr"
+    },
+    {
+      "ordinal": 149,
+      "name": "Dns_InitializeWinsock"
+    },
+    {
+      "ordinal": 150,
+      "name": "Dns_OpenTcpConnectionAndSend"
+    },
+    {
+      "ordinal": 151,
+      "name": "Dns_ParseMessage"
+    },
+    {
+      "ordinal": 152,
+      "name": "Dns_ParsePacketRecord"
+    },
+    {
+      "ordinal": 153,
+      "name": "Dns_PingAdapterServers"
+    },
+    {
+      "ordinal": 154,
+      "name": "Dns_ReadPacketName"
+    },
+    {
+      "ordinal": 155,
+      "name": "Dns_ReadPacketNameAllocate"
+    },
+    {
+      "ordinal": 156,
+      "name": "Dns_ReadRecordStructureFromPacket"
+    },
+    {
+      "ordinal": 157,
+      "name": "Dns_RecvTcp"
+    },
+    {
+      "ordinal": 158,
+      "name": "Dns_ResetNetworkInfo"
+    },
+    {
+      "ordinal": 159,
+      "name": "Dns_SendAndRecvUdp"
+    },
+    {
+      "ordinal": 160,
+      "name": "Dns_SendEx"
+    },
+    {
+      "ordinal": 161,
+      "name": "Dns_SetRecordDatalength"
+    },
+    {
+      "ordinal": 162,
+      "name": "Dns_SetRecordsSection"
+    },
+    {
+      "ordinal": 163,
+      "name": "Dns_SetRecordsTtl"
+    },
+    {
+      "ordinal": 164,
+      "name": "Dns_SkipPacketName"
+    },
+    {
+      "ordinal": 165,
+      "name": "Dns_SkipToRecord"
+    },
+    {
+      "ordinal": 166,
+      "name": "Dns_UpdateLib"
+    },
+    {
+      "ordinal": 167,
+      "name": "Dns_UpdateLibEx"
+    },
+    {
+      "ordinal": 168,
+      "name": "Dns_WriteDottedNameToPacket"
+    },
+    {
+      "ordinal": 169,
+      "name": "Dns_WriteQuestionToMessage"
+    },
+    {
+      "ordinal": 170,
+      "name": "Dns_WriteRecordStructureToPacketEx"
+    },
+    {
+      "ordinal": 171,
+      "name": "ExtraInfo_Init"
+    },
+    {
+      "ordinal": 172,
+      "name": "Faz_AreServerListsInSameNameSpace"
+    },
+    {
+      "ordinal": 173,
+      "name": "FlushDnsPolicyUnreachableStatus"
+    },
+    {
+      "ordinal": 174,
+      "name": "GetCurrentTimeInSeconds"
+    },
+    {
+      "ordinal": 175,
+      "name": "HostsFile_Close"
+    },
+    {
+      "ordinal": 176,
+      "name": "HostsFile_Open"
+    },
+    {
+      "ordinal": 177,
+      "name": "HostsFile_ReadLine"
+    },
+    {
+      "ordinal": 178,
+      "name": "IpHelp_IsAddrOnLink"
+    },
+    {
+      "ordinal": 179,
+      "name": "Local_GetRecordsForLocalName"
+    },
+    {
+      "ordinal": 180,
+      "name": "Local_GetRecordsForLocalNameEx"
+    },
+    {
+      "ordinal": 181,
+      "name": "NetInfo_Build"
+    },
+    {
+      "ordinal": 182,
+      "name": "NetInfo_Clean"
+    },
+    {
+      "ordinal": 183,
+      "name": "NetInfo_Copy"
+    },
+    {
+      "ordinal": 184,
+      "name": "NetInfo_Free"
+    },
+    {
+      "ordinal": 185,
+      "name": "NetInfo_GetAdapterByAddress"
+    },
+    {
+      "ordinal": 186,
+      "name": "NetInfo_GetAdapterByInterfaceIndex"
+    },
+    {
+      "ordinal": 187,
+      "name": "NetInfo_GetAdapterByName"
+    },
+    {
+      "ordinal": 188,
+      "name": "NetInfo_IsAddrConfig"
+    },
+    {
+      "ordinal": 189,
+      "name": "NetInfo_IsForUpdate"
+    },
+    {
+      "ordinal": 190,
+      "name": "NetInfo_ResetServerPriorities"
+    },
+    {
+      "ordinal": 191,
+      "name": "NetInfo_UpdateServerReachability"
+    },
+    {
+      "ordinal": 192,
+      "name": "QueryDirectEx"
+    },
+    {
+      "ordinal": 193,
+      "name": "Query_Main"
+    },
+    {
+      "ordinal": 194,
+      "name": "Reg_FreeUpdateInfo"
+    },
+    {
+      "ordinal": 195,
+      "name": "Reg_GetValueEx"
+    },
+    {
+      "ordinal": 196,
+      "name": "Reg_ReadGlobalsEx"
+    },
+    {
+      "ordinal": 197,
+      "name": "Reg_ReadUpdateInfo"
+    },
+    {
+      "ordinal": 198,
+      "name": "Security_ContextListTimeout"
+    },
+    {
+      "ordinal": 199,
+      "name": "Send_AndRecvUdpWithParam"
+    },
+    {
+      "ordinal": 200,
+      "name": "Send_MessagePrivate"
+    },
+    {
+      "ordinal": 201,
+      "name": "Send_OpenTcpConnectionAndSend"
+    },
+    {
+      "ordinal": 202,
+      "name": "Socket_CacheCleanup"
+    },
+    {
+      "ordinal": 203,
+      "name": "Socket_CacheInit"
+    },
+    {
+      "ordinal": 204,
+      "name": "Socket_CleanupWinsock"
+    },
+    {
+      "ordinal": 205,
+      "name": "Socket_ClearMessageSockets"
+    },
+    {
+      "ordinal": 206,
+      "name": "Socket_CloseEx"
+    },
+    {
+      "ordinal": 207,
+      "name": "Socket_CloseMessageSockets"
+    },
+    {
+      "ordinal": 208,
+      "name": "Socket_Create"
+    },
+    {
+      "ordinal": 209,
+      "name": "Socket_CreateMulticast"
+    },
+    {
+      "ordinal": 210,
+      "name": "Socket_InitWinsock"
+    },
+    {
+      "ordinal": 211,
+      "name": "Socket_JoinMulticast"
+    },
+    {
+      "ordinal": 212,
+      "name": "Socket_RecvFrom"
+    },
+    {
+      "ordinal": 213,
+      "name": "Socket_SetMulticastInterface"
+    },
+    {
+      "ordinal": 214,
+      "name": "Socket_SetMulticastLoopBack"
+    },
+    {
+      "ordinal": 215,
+      "name": "Socket_SetTtl"
+    },
+    {
+      "ordinal": 216,
+      "name": "Socket_TcpListen"
+    },
+    {
+      "ordinal": 217,
+      "name": "Trace_Reset"
+    },
+    {
+      "ordinal": 218,
+      "name": "Update_ReplaceAddressRecordsW"
+    },
+    {
+      "ordinal": 219,
+      "name": "Util_IsIp6Running"
+    }
+  ]
+}

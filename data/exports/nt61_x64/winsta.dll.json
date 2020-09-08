@@ -1,0 +1,575 @@
+{
+  "Version": "6.1.7601.18540-AMD64",
+  "md5": "c23b6d9d16fd86f446be607ca18389d9",
+  "imphash": "c23b6d9d16fd86f446be607ca18389d9",
+  "InternalName": "winsta",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "Winstation Library",
+  "FileVersion": "6.1.7601.18540 (win7sp1_gdr.140716-1508)",
+  "ProductVersion": "6.1.7601.18540",
+  "PeChecksum": 290972,
+  "Size": 235520,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ordinal": 1,
+      "name": "LogonIdFromWinStationNameA"
+    },
+    {
+      "ordinal": 2,
+      "name": "LogonIdFromWinStationNameW"
+    },
+    {
+      "ordinal": 3,
+      "name": "RemoteAssistancePrepareSystemRestore"
+    },
+    {
+      "ordinal": 4,
+      "name": "ServerGetInternetConnectorStatus"
+    },
+    {
+      "ordinal": 5,
+      "name": "ServerLicensingClose"
+    },
+    {
+      "ordinal": 6,
+      "name": "ServerLicensingDeactivateCurrentPolicy"
+    },
+    {
+      "ordinal": 7,
+      "name": "ServerLicensingFreePolicyInformation"
+    },
+    {
+      "ordinal": 8,
+      "name": "ServerLicensingGetAvailablePolicyIds"
+    },
+    {
+      "ordinal": 9,
+      "name": "ServerLicensingGetPolicy"
+    },
+    {
+      "ordinal": 10,
+      "name": "ServerLicensingGetPolicyInformationA"
+    },
+    {
+      "ordinal": 11,
+      "name": "ServerLicensingGetPolicyInformationW"
+    },
+    {
+      "ordinal": 12,
+      "name": "ServerLicensingLoadPolicy"
+    },
+    {
+      "ordinal": 13,
+      "name": "ServerLicensingOpenA"
+    },
+    {
+      "ordinal": 14,
+      "name": "ServerLicensingOpenW"
+    },
+    {
+      "ordinal": 15,
+      "name": "ServerLicensingSetPolicy"
+    },
+    {
+      "ordinal": 16,
+      "name": "ServerLicensingUnloadPolicy"
+    },
+    {
+      "ordinal": 17,
+      "name": "ServerQueryInetConnectorInformationA"
+    },
+    {
+      "ordinal": 18,
+      "name": "ServerQueryInetConnectorInformationW"
+    },
+    {
+      "ordinal": 19,
+      "name": "ServerSetInternetConnectorStatus"
+    },
+    {
+      "ordinal": 20,
+      "name": "WinStationActivateLicense"
+    },
+    {
+      "ordinal": 21,
+      "name": "WinStationAutoReconnect"
+    },
+    {
+      "ordinal": 22,
+      "name": "WinStationBroadcastSystemMessage"
+    },
+    {
+      "ordinal": 23,
+      "name": "WinStationCheckAccess"
+    },
+    {
+      "ordinal": 24,
+      "name": "WinStationCheckLoopBack"
+    },
+    {
+      "ordinal": 25,
+      "name": "WinStationCloseServer"
+    },
+    {
+      "ordinal": 26,
+      "name": "WinStationConnectA"
+    },
+    {
+      "ordinal": 27,
+      "name": "WinStationConnectCallback"
+    },
+    {
+      "ordinal": 28,
+      "name": "WinStationConnectEx"
+    },
+    {
+      "ordinal": 29,
+      "name": "WinStationConnectW"
+    },
+    {
+      "ordinal": 30,
+      "name": "WinStationDisconnect"
+    },
+    {
+      "ordinal": 31,
+      "name": "WinStationEnumerateA"
+    },
+    {
+      "ordinal": 32,
+      "name": "WinStationEnumerateExW"
+    },
+    {
+      "ordinal": 33,
+      "name": "WinStationEnumerateLicenses"
+    },
+    {
+      "ordinal": 34,
+      "name": "WinStationEnumerateProcesses"
+    },
+    {
+      "ordinal": 35,
+      "name": "WinStationEnumerateW"
+    },
+    {
+      "ordinal": 36,
+      "name": "WinStationEnumerate_IndexedA"
+    },
+    {
+      "ordinal": 37,
+      "name": "WinStationEnumerate_IndexedW"
+    },
+    {
+      "ordinal": 38,
+      "name": "WinStationFreeConsoleNotification"
+    },
+    {
+      "ordinal": 39,
+      "name": "WinStationFreeGAPMemory"
+    },
+    {
+      "ordinal": 40,
+      "name": "WinStationFreeMemory"
+    },
+    {
+      "ordinal": 41,
+      "name": "WinStationFreePropertyValue"
+    },
+    {
+      "ordinal": 42,
+      "name": "WinStationFreeUserCertificates"
+    },
+    {
+      "ordinal": 43,
+      "name": "WinStationFreeUserCredentials"
+    },
+    {
+      "ordinal": 44,
+      "name": "WinStationGenerateLicense"
+    },
+    {
+      "ordinal": 45,
+      "name": "WinStationGetAllProcesses"
+    },
+    {
+      "ordinal": 46,
+      "name": "WinStationGetAllSessionsW"
+    },
+    {
+      "ordinal": 47,
+      "name": "WinStationGetConnectionProperty"
+    },
+    {
+      "ordinal": 48,
+      "name": "WinStationGetDeviceId"
+    },
+    {
+      "ordinal": 49,
+      "name": "WinStationGetInitialApplication"
+    },
+    {
+      "ordinal": 50,
+      "name": "WinStationGetLanAdapterNameA"
+    },
+    {
+      "ordinal": 51,
+      "name": "WinStationGetLanAdapterNameW"
+    },
+    {
+      "ordinal": 52,
+      "name": "WinStationGetLoggedOnCount"
+    },
+    {
+      "ordinal": 53,
+      "name": "WinStationGetMachinePolicy"
+    },
+    {
+      "ordinal": 54,
+      "name": "WinStationGetProcessSid"
+    },
+    {
+      "ordinal": 55,
+      "name": "WinStationGetRestrictedLogonInfo"
+    },
+    {
+      "ordinal": 56,
+      "name": "WinStationGetSessionIds"
+    },
+    {
+      "ordinal": 57,
+      "name": "WinStationGetTermSrvCountersValue"
+    },
+    {
+      "ordinal": 58,
+      "name": "WinStationGetUserCertificates"
+    },
+    {
+      "ordinal": 59,
+      "name": "WinStationGetUserCredentials"
+    },
+    {
+      "ordinal": 60,
+      "name": "WinStationGetUserProfile"
+    },
+    {
+      "ordinal": 61,
+      "name": "WinStationInstallLicense"
+    },
+    {
+      "ordinal": 62,
+      "name": "WinStationIsHelpAssistantSession"
+    },
+    {
+      "ordinal": 63,
+      "name": "WinStationIsSessionPermitted"
+    },
+    {
+      "ordinal": 64,
+      "name": "WinStationIsSessionRemoteable"
+    },
+    {
+      "ordinal": 65,
+      "name": "WinStationNameFromLogonIdA"
+    },
+    {
+      "ordinal": 66,
+      "name": "WinStationNameFromLogonIdW"
+    },
+    {
+      "ordinal": 67,
+      "name": "WinStationNegotiateSession"
+    },
+    {
+      "ordinal": 68,
+      "name": "WinStationNtsdDebug"
+    },
+    {
+      "ordinal": 69,
+      "name": "WinStationOpenServerA"
+    },
+    {
+      "ordinal": 70,
+      "name": "WinStationOpenServerExA"
+    },
+    {
+      "ordinal": 71,
+      "name": "WinStationOpenServerExW"
+    },
+    {
+      "ordinal": 72,
+      "name": "WinStationOpenServerW"
+    },
+    {
+      "ordinal": 73,
+      "name": "WinStationQueryAllowConcurrentConnections"
+    },
+    {
+      "ordinal": 74,
+      "name": "WinStationQueryEnforcementCore"
+    },
+    {
+      "ordinal": 75,
+      "name": "WinStationQueryInformationA"
+    },
+    {
+      "ordinal": 76,
+      "name": "WinStationQueryInformationW"
+    },
+    {
+      "ordinal": 77,
+      "name": "WinStationQueryLicense"
+    },
+    {
+      "ordinal": 78,
+      "name": "WinStationQueryLogonCredentialsW"
+    },
+    {
+      "ordinal": 79,
+      "name": "WinStationQuerySessionVirtualIP"
+    },
+    {
+      "ordinal": 80,
+      "name": "WinStationQueryUpdateRequired"
+    },
+    {
+      "ordinal": 81,
+      "name": "WinStationRedirectErrorMessage"
+    },
+    {
+      "ordinal": 82,
+      "name": "WinStationRedirectLogonBeginPainting"
+    },
+    {
+      "ordinal": 83,
+      "name": "WinStationRedirectLogonError"
+    },
+    {
+      "ordinal": 84,
+      "name": "WinStationRedirectLogonMessage"
+    },
+    {
+      "ordinal": 85,
+      "name": "WinStationRedirectLogonStatus"
+    },
+    {
+      "ordinal": 86,
+      "name": "WinStationRegisterConsoleNotification"
+    },
+    {
+      "ordinal": 87,
+      "name": "WinStationRegisterConsoleNotificationEx"
+    },
+    {
+      "ordinal": 88,
+      "name": "WinStationRegisterNotificationEvent"
+    },
+    {
+      "ordinal": 89,
+      "name": "WinStationRemoveLicense"
+    },
+    {
+      "ordinal": 90,
+      "name": "WinStationRenameA"
+    },
+    {
+      "ordinal": 91,
+      "name": "WinStationRenameW"
+    },
+    {
+      "ordinal": 92,
+      "name": "WinStationReportUIResult"
+    },
+    {
+      "ordinal": 93,
+      "name": "WinStationReset"
+    },
+    {
+      "ordinal": 94,
+      "name": "WinStationRevertFromServicesSession"
+    },
+    {
+      "ordinal": 95,
+      "name": "WinStationSendMessageA"
+    },
+    {
+      "ordinal": 96,
+      "name": "WinStationSendMessageW"
+    },
+    {
+      "ordinal": 97,
+      "name": "WinStationSendWindowMessage"
+    },
+    {
+      "ordinal": 98,
+      "name": "WinStationServerPing"
+    },
+    {
+      "ordinal": 99,
+      "name": "WinStationSetAutologonPassword"
+    },
+    {
+      "ordinal": 100,
+      "name": "WinStationSetInformationA"
+    },
+    {
+      "ordinal": 101,
+      "name": "WinStationSetInformationW"
+    },
+    {
+      "ordinal": 102,
+      "name": "WinStationSetPoolCount"
+    },
+    {
+      "ordinal": 103,
+      "name": "WinStationShadow"
+    },
+    {
+      "ordinal": 104,
+      "name": "WinStationShadowStop"
+    },
+    {
+      "ordinal": 105,
+      "name": "WinStationShutdownSystem"
+    },
+    {
+      "ordinal": 106,
+      "name": "WinStationSwitchToServicesSession"
+    },
+    {
+      "ordinal": 107,
+      "name": "WinStationSystemShutdownStarted"
+    },
+    {
+      "ordinal": 108,
+      "name": "WinStationSystemShutdownWait"
+    },
+    {
+      "ordinal": 109,
+      "name": "WinStationTerminateProcess"
+    },
+    {
+      "ordinal": 110,
+      "name": "WinStationUnRegisterConsoleNotification"
+    },
+    {
+      "ordinal": 111,
+      "name": "WinStationUnRegisterNotificationEvent"
+    },
+    {
+      "ordinal": 112,
+      "name": "WinStationUserLoginAccessCheck"
+    },
+    {
+      "ordinal": 113,
+      "name": "WinStationVerify"
+    },
+    {
+      "ordinal": 114,
+      "name": "WinStationVirtualOpen"
+    },
+    {
+      "ordinal": 115,
+      "name": "WinStationVirtualOpenEx"
+    },
+    {
+      "ordinal": 116,
+      "name": "WinStationWaitSystemEvent"
+    },
+    {
+      "ordinal": 117,
+      "name": "_NWLogonQueryAdmin"
+    },
+    {
+      "ordinal": 118,
+      "name": "_NWLogonSetAdmin"
+    },
+    {
+      "ordinal": 119,
+      "name": "_WinStationAnnoyancePopup"
+    },
+    {
+      "ordinal": 120,
+      "name": "_WinStationBeepOpen"
+    },
+    {
+      "ordinal": 121,
+      "name": "_WinStationBreakPoint"
+    },
+    {
+      "ordinal": 122,
+      "name": "_WinStationCallback"
+    },
+    {
+      "ordinal": 123,
+      "name": "_WinStationCheckForApplicationName"
+    },
+    {
+      "ordinal": 124,
+      "name": "_WinStationFUSCanRemoteUserDisconnect"
+    },
+    {
+      "ordinal": 125,
+      "name": "_WinStationGetApplicationInfo"
+    },
+    {
+      "ordinal": 126,
+      "name": "_WinStationNotifyDisconnectPipe"
+    },
+    {
+      "ordinal": 127,
+      "name": "_WinStationNotifyLogoff"
+    },
+    {
+      "ordinal": 128,
+      "name": "_WinStationNotifyLogon"
+    },
+    {
+      "ordinal": 129,
+      "name": "_WinStationNotifyNewSession"
+    },
+    {
+      "ordinal": 130,
+      "name": "_WinStationOpenSessionDirectory"
+    },
+    {
+      "ordinal": 131,
+      "name": "_WinStationReInitializeSecurity"
+    },
+    {
+      "ordinal": 132,
+      "name": "_WinStationReadRegistry"
+    },
+    {
+      "ordinal": 133,
+      "name": "_WinStationSessionInitialized"
+    },
+    {
+      "ordinal": 134,
+      "name": "_WinStationShadowTarget"
+    },
+    {
+      "ordinal": 135,
+      "name": "_WinStationShadowTarget2"
+    },
+    {
+      "ordinal": 136,
+      "name": "_WinStationShadowTargetSetup"
+    },
+    {
+      "ordinal": 137,
+      "name": "_WinStationUpdateClientCachedCredentials"
+    },
+    {
+      "ordinal": 138,
+      "name": "_WinStationUpdateSettings"
+    },
+    {
+      "ordinal": 139,
+      "name": "_WinStationUpdateUserConfig"
+    },
+    {
+      "ordinal": 140,
+      "name": "_WinStationWaitForConnect"
+    }
+  ]
+}

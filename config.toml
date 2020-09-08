@@ -1,0 +1,25 @@
+baseURL = "https://winexports.info/"
+languageCode = "en-us"
+
+title = "winexports"
+theme = "kraiklyn-multipage"
+
+pygmentsCodeFences = true
+pygmentsStyle = "monokailight"
+
+disableKinds = ["taxonomy"]
+
+[params]
+  sidebarColor = "default"
+  externalTitle = "links"
+  customCss = ["css/kraiklyn-override.css"]
+
+[[menu.shortcuts]]
+  name = "winexports on Github"
+  url = "https://github.com/learn-more/winexports"
+  weight = 10
+
+[[menu.shortcuts]]
+  name = "data files (json)"
+  url = "https://github.com/learn-more/winexports/tree/master/data/exports"
+  weight = 11
