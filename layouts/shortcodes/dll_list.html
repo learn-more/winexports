@@ -1,7 +1,10 @@
 
 {{/* Renders a searchable list of all DLLs with the Windows versions they appear in. */}}
 
-{{ $ordered_versions := slice "nt52_x86" "nt61_x86" "nt61_x64" "nt100_x86_26200" }}
+{{ $ordered_versions := slice }}
+{{ range sort hugo.Data.versions "order" }}
+  {{ $ordered_versions = $ordered_versions | append .key }}
+{{ end }}
 
 <link rel="stylesheet" href="{{ "/css/datatables.min.css" | absURL }}">
 <script src="{{ "/js/datatables.min.js" | absURL }}"></script>
@@ -59,8 +62,8 @@ new DataTable('#dlllist', {
         var column = this;
         var select = document.createElement('select');
         select.add(new Option(''));
-        select.add(new Option('present', '&#10003;'));
-        select.add(new Option('absent', ''));
+        select.add(new Option('present', 'present'));
+        select.add(new Option('absent', 'absent'));
         var hdr = $(column.header());
         $('<br>').appendTo(hdr);
         $(select).appendTo(hdr).on('click', function(e){ e.stopPropagation(); });
