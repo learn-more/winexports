@@ -1,0 +1,884 @@
+{
+  "Version": "10.0.19041.3636-AMD64",
+  "md5": "7176f21457a21baeae4fff448ab0c776",
+  "imphash": "7176f21457a21baeae4fff448ab0c776",
+  "InternalName": "sechost.dll",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "Host for SCM/SDDL/LSA Lookup APIs",
+  "FileVersion": "10.0.19041.3636 (WinBuild.160101.0800)",
+  "ProductVersion": "10.0.19041.3636",
+  "PeChecksum": 647360,
+  "Size": 631344,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ordinal": 3,
+      "name": "AuditComputeEffectivePolicyBySid"
+    },
+    {
+      "ordinal": 4,
+      "name": "AuditEnumerateCategories"
+    },
+    {
+      "ordinal": 5,
+      "name": "AuditEnumeratePerUserPolicy"
+    },
+    {
+      "ordinal": 6,
+      "name": "AuditEnumerateSubCategories"
+    },
+    {
+      "ordinal": 7,
+      "name": "AuditFree"
+    },
+    {
+      "ordinal": 8,
+      "name": "AuditLookupCategoryNameW"
+    },
+    {
+      "ordinal": 9,
+      "name": "AuditLookupSubCategoryNameW"
+    },
+    {
+      "ordinal": 10,
+      "name": "AuditQueryGlobalSaclW"
+    },
+    {
+      "ordinal": 11,
+      "name": "AuditQueryPerUserPolicy"
+    },
+    {
+      "ordinal": 12,
+      "name": "AuditQuerySecurity"
+    },
+    {
+      "ordinal": 13,
+      "name": "AuditQuerySystemPolicy"
+    },
+    {
+      "ordinal": 14,
+      "name": "AuditSetGlobalSaclW"
+    },
+    {
+      "ordinal": 15,
+      "name": "AuditSetPerUserPolicy"
+    },
+    {
+      "ordinal": 16,
+      "name": "AuditSetSecurity"
+    },
+    {
+      "ordinal": 17,
+      "name": "AuditSetSystemPolicy"
+    },
+    {
+      "ordinal": 18,
+      "name": "BuildSecurityDescriptorForSharingAccess"
+    },
+    {
+      "ordinal": 19,
+      "name": "BuildSecurityDescriptorForSharingAccessEx"
+    },
+    {
+      "ordinal": 20,
+      "name": "CapabilityCheck"
+    },
+    {
+      "ordinal": 21,
+      "name": "CapabilityCheckForSingleSessionSku"
+    },
+    {
+      "ordinal": 22,
+      "name": "ChangeServiceConfig2A"
+    },
+    {
+      "ordinal": 23,
+      "name": "ChangeServiceConfig2W"
+    },
+    {
+      "ordinal": 24,
+      "name": "ChangeServiceConfigA"
+    },
+    {
+      "ordinal": 25,
+      "name": "ChangeServiceConfigW"
+    },
+    {
+      "ordinal": 26,
+      "name": "CloseServiceHandle"
+    },
+    {
+      "ordinal": 27,
+      "name": "CloseTrace"
+    },
+    {
+      "ordinal": 28,
+      "name": "ControlService"
+    },
+    {
+      "ordinal": 29,
+      "name": "ControlServiceExA"
+    },
+    {
+      "ordinal": 30,
+      "name": "ControlServiceExW"
+    },
+    {
+      "ordinal": 31,
+      "name": "ControlTraceA"
+    },
+    {
+      "ordinal": 32,
+      "name": "ControlTraceW"
+    },
+    {
+      "ordinal": 33,
+      "name": "ConvertSDToStringSDRootDomainW"
+    },
+    {
+      "ordinal": 34,
+      "name": "ConvertSecurityDescriptorToStringSecurityDescriptorW"
+    },
+    {
+      "ordinal": 35,
+      "name": "ConvertSidToStringSidW"
+    },
+    {
+      "ordinal": 36,
+      "name": "ConvertStringSDToSDDomainA"
+    },
+    {
+      "ordinal": 37,
+      "name": "ConvertStringSDToSDDomainW"
+    },
+    {
+      "ordinal": 38,
+      "name": "ConvertStringSDToSDRootDomainW"
+    },
+    {
+      "ordinal": 39,
+      "name": "ConvertStringSecurityDescriptorToSecurityDescriptorW"
+    },
+    {
+      "ordinal": 40,
+      "name": "ConvertStringSidToSidW"
+    },
+    {
+      "ordinal": 41,
+      "name": "CreateIsolatedProcess"
+    },
+    {
+      "ordinal": 42,
+      "name": "CreateIsolationContainer"
+    },
+    {
+      "ordinal": 43,
+      "name": "CreateServiceA"
+    },
+    {
+      "ordinal": 44,
+      "name": "CreateServiceEx"
+    },
+    {
+      "ordinal": 45,
+      "name": "CreateServiceW"
+    },
+    {
+      "ordinal": 46,
+      "name": "CredBackupCredentials"
+    },
+    {
+      "ordinal": 47,
+      "name": "CredDeleteA"
+    },
+    {
+      "ordinal": 48,
+      "name": "CredDeleteW"
+    },
+    {
+      "ordinal": 49,
+      "name": "CredEncryptAndMarshalBinaryBlob"
+    },
+    {
+      "ordinal": 50,
+      "name": "CredEnumerateA"
+    },
+    {
+      "ordinal": 51,
+      "name": "CredEnumerateW"
+    },
+    {
+      "ordinal": 52,
+      "name": "CredFindBestCredentialA"
+    },
+    {
+      "ordinal": 53,
+      "name": "CredFindBestCredentialW"
+    },
+    {
+      "ordinal": 54,
+      "name": "CredFree"
+    },
+    {
+      "ordinal": 55,
+      "name": "CredGetSessionTypes"
+    },
+    {
+      "ordinal": 56,
+      "name": "CredGetTargetInfoA"
+    },
+    {
+      "ordinal": 57,
+      "name": "CredGetTargetInfoW"
+    },
+    {
+      "ordinal": 58,
+      "name": "CredIsMarshaledCredentialW"
+    },
+    {
+      "ordinal": 59,
+      "name": "CredIsProtectedA"
+    },
+    {
+      "ordinal": 60,
+      "name": "CredIsProtectedW"
+    },
+    {
+      "ordinal": 61,
+      "name": "CredMarshalCredentialA"
+    },
+    {
+      "ordinal": 62,
+      "name": "CredMarshalCredentialW"
+    },
+    {
+      "ordinal": 63,
+      "name": "CredParseUserNameWithType"
+    },
+    {
+      "ordinal": 64,
+      "name": "CredProfileLoaded"
+    },
+    {
+      "ordinal": 65,
+      "name": "CredProfileLoadedEx"
+    },
+    {
+      "ordinal": 66,
+      "name": "CredProfileUnloaded"
+    },
+    {
+      "ordinal": 67,
+      "name": "CredProtectA"
+    },
+    {
+      "ordinal": 68,
+      "name": "CredProtectEx"
+    },
+    {
+      "ordinal": 69,
+      "name": "CredProtectW"
+    },
+    {
+      "ordinal": 70,
+      "name": "CredReadA"
+    },
+    {
+      "ordinal": 71,
+      "name": "CredReadByTokenHandle"
+    },
+    {
+      "ordinal": 72,
+      "name": "CredReadDomainCredentialsA"
+    },
+    {
+      "ordinal": 73,
+      "name": "CredReadDomainCredentialsW"
+    },
+    {
+      "ordinal": 74,
+      "name": "CredReadW"
+    },
+    {
+      "ordinal": 75,
+      "name": "CredRestoreCredentials"
+    },
+    {
+      "ordinal": 76,
+      "name": "CredUnmarshalCredentialA"
+    },
+    {
+      "ordinal": 77,
+      "name": "CredUnmarshalCredentialW"
+    },
+    {
+      "ordinal": 78,
+      "name": "CredUnprotectA"
+    },
+    {
+      "ordinal": 79,
+      "name": "CredUnprotectEx"
+    },
+    {
+      "ordinal": 80,
+      "name": "CredUnprotectW"
+    },
+    {
+      "ordinal": 81,
+      "name": "CredWriteA"
+    },
+    {
+      "ordinal": 82,
+      "name": "CredWriteDomainCredentialsA"
+    },
+    {
+      "ordinal": 83,
+      "name": "CredWriteDomainCredentialsW"
+    },
+    {
+      "ordinal": 84,
+      "name": "CredWriteW"
+    },
+    {
+      "ordinal": 85,
+      "name": "CredpConvertCredential"
+    },
+    {
+      "ordinal": 86,
+      "name": "CredpConvertOneCredentialSize"
+    },
+    {
+      "ordinal": 87,
+      "name": "CredpConvertTargetInfo"
+    },
+    {
+      "ordinal": 88,
+      "name": "CredpDecodeCredential"
+    },
+    {
+      "ordinal": 89,
+      "name": "CredpEncodeCredential"
+    },
+    {
+      "ordinal": 90,
+      "name": "CredpEncodeSecret"
+    },
+    {
+      "ordinal": 91,
+      "name": "DeleteIsolationContainer"
+    },
+    {
+      "ordinal": 92,
+      "name": "DeleteService"
+    },
+    {
+      "ordinal": 93,
+      "name": "EnableTraceEx2"
+    },
+    {
+      "ordinal": 94,
+      "name": "EnumDependentServicesW"
+    },
+    {
+      "ordinal": 95,
+      "name": "EnumServicesStatusExW"
+    },
+    {
+      "ordinal": 96,
+      "name": "EnumerateIdentityProviders"
+    },
+    {
+      "ordinal": 97,
+      "name": "EnumerateTraceGuidsEx"
+    },
+    {
+      "ordinal": 98,
+      "name": "EtwQueryRealtimeConsumer"
+    },
+    {
+      "ordinal": 99,
+      "name": "EventAccessControl"
+    },
+    {
+      "ordinal": 100,
+      "name": "EventAccessQuery"
+    },
+    {
+      "ordinal": 101,
+      "name": "EventAccessRemove"
+    },
+    {
+      "ordinal": 102,
+      "name": "FreeContainer"
+    },
+    {
+      "ordinal": 103,
+      "name": "FreeTransientObjectSecurityDescriptor"
+    },
+    {
+      "ordinal": 104,
+      "name": "GetDefaultIdentityProvider"
+    },
+    {
+      "ordinal": 105,
+      "name": "GetEmbeddedContainerIsolationPolicy"
+    },
+    {
+      "ordinal": 106,
+      "name": "GetEmbeddedImageMitigationPolicy"
+    },
+    {
+      "ordinal": 107,
+      "name": "GetIdentityProviderInfoByGUID"
+    },
+    {
+      "ordinal": 108,
+      "name": "GetIdentityProviderInfoByName"
+    },
+    {
+      "ordinal": 109,
+      "name": "GetServiceDirectory"
+    },
+    {
+      "ordinal": 110,
+      "name": "GetServiceDisplayNameW"
+    },
+    {
+      "ordinal": 111,
+      "name": "GetServiceKeyNameW"
+    },
+    {
+      "ordinal": 112,
+      "name": "GetServiceProcessToken"
+    },
+    {
+      "ordinal": 113,
+      "name": "GetServiceRegistryStateKey"
+    },
+    {
+      "ordinal": 114,
+      "name": "I_QueryTagInformation"
+    },
+    {
+      "ordinal": 115,
+      "name": "I_RegisterSvchostNotificationCallback"
+    },
+    {
+      "ordinal": 116,
+      "name": "I_ScBroadcastServiceControlMessage"
+    },
+    {
+      "ordinal": 117,
+      "name": "I_ScIsSecurityProcess"
+    },
+    {
+      "ordinal": 118,
+      "name": "I_ScPnPGetServiceName"
+    },
+    {
+      "ordinal": 119,
+      "name": "I_ScQueryServiceConfig"
+    },
+    {
+      "ordinal": 120,
+      "name": "I_ScRegisterDeviceNotification"
+    },
+    {
+      "ordinal": 121,
+      "name": "I_ScRegisterPreshutdownRestart"
+    },
+    {
+      "ordinal": 122,
+      "name": "I_ScReparseServiceDatabase"
+    },
+    {
+      "ordinal": 123,
+      "name": "I_ScRpcBindA"
+    },
+    {
+      "ordinal": 124,
+      "name": "I_ScRpcBindW"
+    },
+    {
+      "ordinal": 125,
+      "name": "I_ScSendPnPMessage"
+    },
+    {
+      "ordinal": 126,
+      "name": "I_ScSendTSMessage"
+    },
+    {
+      "ordinal": 1,
+      "name": "I_ScSetServiceBitsA"
+    },
+    {
+      "ordinal": 2,
+      "name": "I_ScSetServiceBitsW"
+    },
+    {
+      "ordinal": 127,
+      "name": "I_ScUnregisterDeviceNotification"
+    },
+    {
+      "ordinal": 128,
+      "name": "I_ScValidatePnPService"
+    },
+    {
+      "ordinal": 129,
+      "name": "LocalGetConditionForString"
+    },
+    {
+      "ordinal": 130,
+      "name": "LocalGetReferencedTokenTypesForCondition"
+    },
+    {
+      "ordinal": 131,
+      "name": "LocalGetStringForCondition"
+    },
+    {
+      "ordinal": 132,
+      "name": "LocalRpcBindingCreateWithSecurity"
+    },
+    {
+      "ordinal": 133,
+      "name": "LocalRpcBindingSetAuthInfoEx"
+    },
+    {
+      "ordinal": 134,
+      "name": "LookupAccountNameLocalA"
+    },
+    {
+      "ordinal": 135,
+      "name": "LookupAccountNameLocalW"
+    },
+    {
+      "ordinal": 136,
+      "name": "LookupAccountSidLocalA"
+    },
+    {
+      "ordinal": 137,
+      "name": "LookupAccountSidLocalW"
+    },
+    {
+      "ordinal": 138,
+      "name": "LsaAddAccountRights"
+    },
+    {
+      "ordinal": 139,
+      "name": "LsaClose"
+    },
+    {
+      "ordinal": 140,
+      "name": "LsaCreateSecret"
+    },
+    {
+      "ordinal": 141,
+      "name": "LsaDelete"
+    },
+    {
+      "ordinal": 142,
+      "name": "LsaEnumerateAccountRights"
+    },
+    {
+      "ordinal": 143,
+      "name": "LsaEnumerateAccountsWithUserRight"
+    },
+    {
+      "ordinal": 144,
+      "name": "LsaFreeMemory"
+    },
+    {
+      "ordinal": 145,
+      "name": "LsaICLookupNames"
+    },
+    {
+      "ordinal": 146,
+      "name": "LsaICLookupNamesWithCreds"
+    },
+    {
+      "ordinal": 147,
+      "name": "LsaICLookupSids"
+    },
+    {
+      "ordinal": 148,
+      "name": "LsaICLookupSidsWithCreds"
+    },
+    {
+      "ordinal": 149,
+      "name": "LsaLookupClose"
+    },
+    {
+      "ordinal": 150,
+      "name": "LsaLookupFreeMemory"
+    },
+    {
+      "ordinal": 151,
+      "name": "LsaLookupGetDomainInfo"
+    },
+    {
+      "ordinal": 152,
+      "name": "LsaLookupManageSidNameMapping"
+    },
+    {
+      "ordinal": 153,
+      "name": "LsaLookupNames2"
+    },
+    {
+      "ordinal": 154,
+      "name": "LsaLookupOpenLocalPolicy"
+    },
+    {
+      "ordinal": 155,
+      "name": "LsaLookupSids"
+    },
+    {
+      "ordinal": 156,
+      "name": "LsaLookupSids2"
+    },
+    {
+      "ordinal": 157,
+      "name": "LsaLookupTranslateNames"
+    },
+    {
+      "ordinal": 158,
+      "name": "LsaLookupTranslateSids"
+    },
+    {
+      "ordinal": 159,
+      "name": "LsaLookupUserAccountType"
+    },
+    {
+      "ordinal": 160,
+      "name": "LsaOpenPolicy"
+    },
+    {
+      "ordinal": 161,
+      "name": "LsaOpenSecret"
+    },
+    {
+      "ordinal": 162,
+      "name": "LsaQueryInformationPolicy"
+    },
+    {
+      "ordinal": 163,
+      "name": "LsaQuerySecret"
+    },
+    {
+      "ordinal": 164,
+      "name": "LsaRemoveAccountRights"
+    },
+    {
+      "ordinal": 165,
+      "name": "LsaRetrievePrivateData"
+    },
+    {
+      "ordinal": 166,
+      "name": "LsaSetInformationPolicy"
+    },
+    {
+      "ordinal": 167,
+      "name": "LsaSetSecret"
+    },
+    {
+      "ordinal": 168,
+      "name": "LsaStorePrivateData"
+    },
+    {
+      "ordinal": 169,
+      "name": "NotifyServiceStatusChange"
+    },
+    {
+      "ordinal": 170,
+      "name": "NotifyServiceStatusChangeA"
+    },
+    {
+      "ordinal": 171,
+      "name": "NotifyServiceStatusChangeW"
+    },
+    {
+      "ordinal": 172,
+      "name": "OpenSCManagerA"
+    },
+    {
+      "ordinal": 173,
+      "name": "OpenSCManagerW"
+    },
+    {
+      "ordinal": 174,
+      "name": "OpenServiceA"
+    },
+    {
+      "ordinal": 175,
+      "name": "OpenServiceW"
+    },
+    {
+      "ordinal": 176,
+      "name": "OpenTraceW"
+    },
+    {
+      "ordinal": 177,
+      "name": "ProcessTrace"
+    },
+    {
+      "ordinal": 178,
+      "name": "QueryAllTracesA"
+    },
+    {
+      "ordinal": 179,
+      "name": "QueryAllTracesW"
+    },
+    {
+      "ordinal": 180,
+      "name": "QueryLocalUserServiceName"
+    },
+    {
+      "ordinal": 181,
+      "name": "QueryServiceConfig2A"
+    },
+    {
+      "ordinal": 182,
+      "name": "QueryServiceConfig2W"
+    },
+    {
+      "ordinal": 183,
+      "name": "QueryServiceConfigA"
+    },
+    {
+      "ordinal": 184,
+      "name": "QueryServiceConfigW"
+    },
+    {
+      "ordinal": 185,
+      "name": "QueryServiceDynamicInformation"
+    },
+    {
+      "ordinal": 186,
+      "name": "QueryServiceObjectSecurity"
+    },
+    {
+      "ordinal": 187,
+      "name": "QueryServiceStatus"
+    },
+    {
+      "ordinal": 188,
+      "name": "QueryServiceStatusEx"
+    },
+    {
+      "ordinal": 189,
+      "name": "QueryTraceProcessingHandle"
+    },
+    {
+      "ordinal": 190,
+      "name": "QueryTransientObjectSecurityDescriptor"
+    },
+    {
+      "ordinal": 191,
+      "name": "QueryUserServiceName"
+    },
+    {
+      "ordinal": 192,
+      "name": "QueryUserServiceNameForContext"
+    },
+    {
+      "ordinal": 193,
+      "name": "RegisterServiceCtrlHandlerA"
+    },
+    {
+      "ordinal": 194,
+      "name": "RegisterServiceCtrlHandlerExA"
+    },
+    {
+      "ordinal": 195,
+      "name": "RegisterServiceCtrlHandlerExW"
+    },
+    {
+      "ordinal": 196,
+      "name": "RegisterServiceCtrlHandlerW"
+    },
+    {
+      "ordinal": 197,
+      "name": "RegisterTraceGuidsA",
+      "forwarder": "NTDLL.EtwRegisterTraceGuidsA"
+    },
+    {
+      "ordinal": 198,
+      "name": "ReleaseIdentityProviderEnumContext"
+    },
+    {
+      "ordinal": 199,
+      "name": "RemoveTraceCallback"
+    },
+    {
+      "ordinal": 200,
+      "name": "RpcClientCapabilityCheck"
+    },
+    {
+      "ordinal": 201,
+      "name": "SetLocalRpcServerInterfaceSecurity"
+    },
+    {
+      "ordinal": 202,
+      "name": "SetLocalRpcServerProtseqSecurity"
+    },
+    {
+      "ordinal": 203,
+      "name": "SetServiceObjectSecurity"
+    },
+    {
+      "ordinal": 204,
+      "name": "SetServiceStatus"
+    },
+    {
+      "ordinal": 205,
+      "name": "SetTraceCallback"
+    },
+    {
+      "ordinal": 206,
+      "name": "StartServiceA"
+    },
+    {
+      "ordinal": 207,
+      "name": "StartServiceCtrlDispatcherA"
+    },
+    {
+      "ordinal": 208,
+      "name": "StartServiceCtrlDispatcherW"
+    },
+    {
+      "ordinal": 209,
+      "name": "StartServiceW"
+    },
+    {
+      "ordinal": 210,
+      "name": "StartTraceA"
+    },
+    {
+      "ordinal": 211,
+      "name": "StartTraceW"
+    },
+    {
+      "ordinal": 212,
+      "name": "StopTraceW"
+    },
+    {
+      "ordinal": 213,
+      "name": "SubscribeServiceChangeNotifications"
+    },
+    {
+      "ordinal": 214,
+      "name": "TraceQueryInformation"
+    },
+    {
+      "ordinal": 215,
+      "name": "TraceSetInformation"
+    },
+    {
+      "ordinal": 216,
+      "name": "UnsubscribeServiceChangeNotifications"
+    },
+    {
+      "ordinal": 217,
+      "name": "WaitServiceState"
+    }
+  ]
+}

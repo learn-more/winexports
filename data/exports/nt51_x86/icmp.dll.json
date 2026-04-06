@@ -1,0 +1,55 @@
+{
+  "Version": "5.1.2600.2180-I386",
+  "md5": "65b38310da58ec084b5d9778243698c3",
+  "imphash": "65b38310da58ec084b5d9778243698c3",
+  "InternalName": "icmp.dll",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ICMP DLL",
+  "FileVersion": "5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)",
+  "ProductVersion": "5.1.2600.2180",
+  "PeChecksum": 55819,
+  "Size": 3584,
+  "Machine": "I386",
+  "exports": [
+    {
+      "ordinal": 1,
+      "name": "IcmpCloseHandle",
+      "forwarder": "iphlpapi.IcmpCloseHandle"
+    },
+    {
+      "ordinal": 2,
+      "name": "IcmpCreateFile",
+      "forwarder": "iphlpapi.IcmpCreateFile"
+    },
+    {
+      "ordinal": 3,
+      "name": "IcmpParseReplies",
+      "forwarder": "iphlpapi.IcmpParseReplies"
+    },
+    {
+      "ordinal": 5,
+      "name": "IcmpSendEcho",
+      "forwarder": "iphlpapi.IcmpSendEcho"
+    },
+    {
+      "ordinal": 4,
+      "name": "IcmpSendEcho2",
+      "forwarder": "iphlpapi.IcmpSendEcho2"
+    },
+    {
+      "ordinal": 6,
+      "name": "do_echo_rep",
+      "forwarder": "iphlpapi.do_echo_rep"
+    },
+    {
+      "ordinal": 7,
+      "name": "do_echo_req",
+      "forwarder": "iphlpapi.do_echo_req"
+    },
+    {
+      "ordinal": 8,
+      "name": "register_icmp",
+      "forwarder": "iphlpapi.register_icmp"
+    }
+  ]
+}

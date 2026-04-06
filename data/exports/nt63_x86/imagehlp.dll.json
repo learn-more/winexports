@@ -1,0 +1,607 @@
+{
+  "Version": "6.3.9600.16384-I386",
+  "md5": "be76aa4db4650f727adbd7c9e3148fce",
+  "imphash": "be76aa4db4650f727adbd7c9e3148fce",
+  "InternalName": "IMAGEHLP.DLL",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "Windows NT Image Helper",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 112540,
+  "Size": 70176,
+  "Machine": "I386",
+  "exports": [
+    {
+      "ordinal": 2,
+      "name": "BindImage"
+    },
+    {
+      "ordinal": 3,
+      "name": "BindImageEx"
+    },
+    {
+      "ordinal": 4,
+      "name": "CheckSumMappedFile"
+    },
+    {
+      "ordinal": 6,
+      "name": "EnumerateLoadedModules"
+    },
+    {
+      "ordinal": 5,
+      "name": "EnumerateLoadedModules64"
+    },
+    {
+      "ordinal": 7,
+      "name": "EnumerateLoadedModulesEx"
+    },
+    {
+      "ordinal": 8,
+      "name": "EnumerateLoadedModulesExW"
+    },
+    {
+      "ordinal": 9,
+      "name": "EnumerateLoadedModulesW64"
+    },
+    {
+      "ordinal": 10,
+      "name": "FindDebugInfoFile"
+    },
+    {
+      "ordinal": 11,
+      "name": "FindDebugInfoFileEx"
+    },
+    {
+      "ordinal": 12,
+      "name": "FindExecutableImage"
+    },
+    {
+      "ordinal": 13,
+      "name": "FindExecutableImageEx"
+    },
+    {
+      "ordinal": 14,
+      "name": "FindFileInPath"
+    },
+    {
+      "ordinal": 15,
+      "name": "FindFileInSearchPath"
+    },
+    {
+      "ordinal": 16,
+      "name": "GetImageConfigInformation"
+    },
+    {
+      "ordinal": 17,
+      "name": "GetImageUnusedHeaderBytes"
+    },
+    {
+      "ordinal": 18,
+      "name": "GetSymLoadError"
+    },
+    {
+      "ordinal": 19,
+      "name": "GetTimestampForLoadedLibrary"
+    },
+    {
+      "ordinal": 20,
+      "name": "ImageAddCertificate"
+    },
+    {
+      "ordinal": 21,
+      "name": "ImageDirectoryEntryToData"
+    },
+    {
+      "ordinal": 22,
+      "name": "ImageDirectoryEntryToDataEx"
+    },
+    {
+      "ordinal": 23,
+      "name": "ImageEnumerateCertificates"
+    },
+    {
+      "ordinal": 24,
+      "name": "ImageGetCertificateData"
+    },
+    {
+      "ordinal": 25,
+      "name": "ImageGetCertificateHeader"
+    },
+    {
+      "ordinal": 26,
+      "name": "ImageGetDigestStream"
+    },
+    {
+      "ordinal": 27,
+      "name": "ImageLoad"
+    },
+    {
+      "ordinal": 28,
+      "name": "ImageNtHeader"
+    },
+    {
+      "ordinal": 29,
+      "name": "ImageRemoveCertificate"
+    },
+    {
+      "ordinal": 30,
+      "name": "ImageRvaToSection"
+    },
+    {
+      "ordinal": 31,
+      "name": "ImageRvaToVa"
+    },
+    {
+      "ordinal": 32,
+      "name": "ImageUnload"
+    },
+    {
+      "ordinal": 33,
+      "name": "ImagehlpApiVersion"
+    },
+    {
+      "ordinal": 34,
+      "name": "ImagehlpApiVersionEx"
+    },
+    {
+      "ordinal": 35,
+      "name": "MakeSureDirectoryPathExists"
+    },
+    {
+      "ordinal": 36,
+      "name": "MapAndLoad"
+    },
+    {
+      "ordinal": 37,
+      "name": "MapDebugInformation"
+    },
+    {
+      "ordinal": 38,
+      "name": "MapFileAndCheckSumA"
+    },
+    {
+      "ordinal": 39,
+      "name": "MapFileAndCheckSumW"
+    },
+    {
+      "ordinal": 41,
+      "name": "ReBaseImage"
+    },
+    {
+      "ordinal": 40,
+      "name": "ReBaseImage64"
+    },
+    {
+      "ordinal": 42,
+      "name": "RemoveInvalidModuleList"
+    },
+    {
+      "ordinal": 43,
+      "name": "RemovePrivateCvSymbolic"
+    },
+    {
+      "ordinal": 44,
+      "name": "RemovePrivateCvSymbolicEx"
+    },
+    {
+      "ordinal": 1,
+      "name": "RemoveRelocations"
+    },
+    {
+      "ordinal": 45,
+      "name": "ReportSymbolLoadSummary"
+    },
+    {
+      "ordinal": 46,
+      "name": "SearchTreeForFile"
+    },
+    {
+      "ordinal": 47,
+      "name": "SetCheckUserInterruptShared"
+    },
+    {
+      "ordinal": 48,
+      "name": "SetImageConfigInformation"
+    },
+    {
+      "ordinal": 49,
+      "name": "SetSymLoadError"
+    },
+    {
+      "ordinal": 50,
+      "name": "SplitSymbols"
+    },
+    {
+      "ordinal": 52,
+      "name": "StackWalk"
+    },
+    {
+      "ordinal": 51,
+      "name": "StackWalk64"
+    },
+    {
+      "ordinal": 53,
+      "name": "StackWalkEx"
+    },
+    {
+      "ordinal": 54,
+      "name": "SymAddrIncludeInlineTrace"
+    },
+    {
+      "ordinal": 55,
+      "name": "SymCleanup"
+    },
+    {
+      "ordinal": 56,
+      "name": "SymCompareInlineTrace"
+    },
+    {
+      "ordinal": 57,
+      "name": "SymEnumSym"
+    },
+    {
+      "ordinal": 58,
+      "name": "SymEnumSymbols"
+    },
+    {
+      "ordinal": 59,
+      "name": "SymEnumSymbolsEx"
+    },
+    {
+      "ordinal": 60,
+      "name": "SymEnumSymbolsExW"
+    },
+    {
+      "ordinal": 61,
+      "name": "SymEnumSymbolsForAddr"
+    },
+    {
+      "ordinal": 62,
+      "name": "SymEnumTypes"
+    },
+    {
+      "ordinal": 63,
+      "name": "SymEnumTypesByName"
+    },
+    {
+      "ordinal": 64,
+      "name": "SymEnumTypesByNameW"
+    },
+    {
+      "ordinal": 65,
+      "name": "SymEnumTypesW"
+    },
+    {
+      "ordinal": 67,
+      "name": "SymEnumerateModules"
+    },
+    {
+      "ordinal": 66,
+      "name": "SymEnumerateModules64"
+    },
+    {
+      "ordinal": 69,
+      "name": "SymEnumerateSymbols"
+    },
+    {
+      "ordinal": 68,
+      "name": "SymEnumerateSymbols64"
+    },
+    {
+      "ordinal": 71,
+      "name": "SymEnumerateSymbolsW"
+    },
+    {
+      "ordinal": 70,
+      "name": "SymEnumerateSymbolsW64"
+    },
+    {
+      "ordinal": 72,
+      "name": "SymFindFileInPath"
+    },
+    {
+      "ordinal": 73,
+      "name": "SymFindFileInPathW"
+    },
+    {
+      "ordinal": 74,
+      "name": "SymFromAddr"
+    },
+    {
+      "ordinal": 75,
+      "name": "SymFromInlineContext"
+    },
+    {
+      "ordinal": 76,
+      "name": "SymFromInlineContextW"
+    },
+    {
+      "ordinal": 77,
+      "name": "SymFromName"
+    },
+    {
+      "ordinal": 80,
+      "name": "SymFunctionTableAccess"
+    },
+    {
+      "ordinal": 78,
+      "name": "SymFunctionTableAccess64"
+    },
+    {
+      "ordinal": 79,
+      "name": "SymFunctionTableAccess64AccessRoutines"
+    },
+    {
+      "ordinal": 82,
+      "name": "SymGetLineFromAddr"
+    },
+    {
+      "ordinal": 81,
+      "name": "SymGetLineFromAddr64"
+    },
+    {
+      "ordinal": 83,
+      "name": "SymGetLineFromInlineContext"
+    },
+    {
+      "ordinal": 84,
+      "name": "SymGetLineFromInlineContextW"
+    },
+    {
+      "ordinal": 86,
+      "name": "SymGetLineFromName"
+    },
+    {
+      "ordinal": 85,
+      "name": "SymGetLineFromName64"
+    },
+    {
+      "ordinal": 88,
+      "name": "SymGetLineNext"
+    },
+    {
+      "ordinal": 87,
+      "name": "SymGetLineNext64"
+    },
+    {
+      "ordinal": 90,
+      "name": "SymGetLinePrev"
+    },
+    {
+      "ordinal": 89,
+      "name": "SymGetLinePrev64"
+    },
+    {
+      "ordinal": 92,
+      "name": "SymGetModuleBase"
+    },
+    {
+      "ordinal": 91,
+      "name": "SymGetModuleBase64"
+    },
+    {
+      "ordinal": 94,
+      "name": "SymGetModuleInfo"
+    },
+    {
+      "ordinal": 93,
+      "name": "SymGetModuleInfo64"
+    },
+    {
+      "ordinal": 96,
+      "name": "SymGetModuleInfoW"
+    },
+    {
+      "ordinal": 95,
+      "name": "SymGetModuleInfoW64"
+    },
+    {
+      "ordinal": 97,
+      "name": "SymGetOptions"
+    },
+    {
+      "ordinal": 98,
+      "name": "SymGetSearchPath"
+    },
+    {
+      "ordinal": 99,
+      "name": "SymGetSourceFileFromTokenW"
+    },
+    {
+      "ordinal": 100,
+      "name": "SymGetSourceFileTokenW"
+    },
+    {
+      "ordinal": 101,
+      "name": "SymGetSourceVarFromTokenW"
+    },
+    {
+      "ordinal": 103,
+      "name": "SymGetSymFromAddr"
+    },
+    {
+      "ordinal": 102,
+      "name": "SymGetSymFromAddr64"
+    },
+    {
+      "ordinal": 105,
+      "name": "SymGetSymFromName"
+    },
+    {
+      "ordinal": 104,
+      "name": "SymGetSymFromName64"
+    },
+    {
+      "ordinal": 107,
+      "name": "SymGetSymNext"
+    },
+    {
+      "ordinal": 106,
+      "name": "SymGetSymNext64"
+    },
+    {
+      "ordinal": 109,
+      "name": "SymGetSymPrev"
+    },
+    {
+      "ordinal": 108,
+      "name": "SymGetSymPrev64"
+    },
+    {
+      "ordinal": 110,
+      "name": "SymGetSymbolFile"
+    },
+    {
+      "ordinal": 111,
+      "name": "SymGetSymbolFileW"
+    },
+    {
+      "ordinal": 112,
+      "name": "SymGetTypeFromName"
+    },
+    {
+      "ordinal": 113,
+      "name": "SymGetTypeFromNameW"
+    },
+    {
+      "ordinal": 114,
+      "name": "SymGetTypeInfo"
+    },
+    {
+      "ordinal": 115,
+      "name": "SymGetTypeInfoEx"
+    },
+    {
+      "ordinal": 116,
+      "name": "SymInitialize"
+    },
+    {
+      "ordinal": 118,
+      "name": "SymLoadModule"
+    },
+    {
+      "ordinal": 117,
+      "name": "SymLoadModule64"
+    },
+    {
+      "ordinal": 119,
+      "name": "SymMatchFileName"
+    },
+    {
+      "ordinal": 120,
+      "name": "SymMatchFileNameW"
+    },
+    {
+      "ordinal": 121,
+      "name": "SymMatchString"
+    },
+    {
+      "ordinal": 122,
+      "name": "SymMatchStringA"
+    },
+    {
+      "ordinal": 123,
+      "name": "SymMatchStringW"
+    },
+    {
+      "ordinal": 124,
+      "name": "SymQueryInlineTrace"
+    },
+    {
+      "ordinal": 126,
+      "name": "SymRegisterCallback"
+    },
+    {
+      "ordinal": 125,
+      "name": "SymRegisterCallback64"
+    },
+    {
+      "ordinal": 128,
+      "name": "SymRegisterFunctionEntryCallback"
+    },
+    {
+      "ordinal": 127,
+      "name": "SymRegisterFunctionEntryCallback64"
+    },
+    {
+      "ordinal": 129,
+      "name": "SymSetContext"
+    },
+    {
+      "ordinal": 130,
+      "name": "SymSetOptions"
+    },
+    {
+      "ordinal": 131,
+      "name": "SymSetScopeFromAddr"
+    },
+    {
+      "ordinal": 132,
+      "name": "SymSetScopeFromIndex"
+    },
+    {
+      "ordinal": 133,
+      "name": "SymSetScopeFromInlineContext"
+    },
+    {
+      "ordinal": 134,
+      "name": "SymSetSearchPath"
+    },
+    {
+      "ordinal": 135,
+      "name": "SymSrvGetFileIndexString"
+    },
+    {
+      "ordinal": 136,
+      "name": "SymSrvGetFileIndexStringW"
+    },
+    {
+      "ordinal": 137,
+      "name": "SymSrvGetFileIndexes"
+    },
+    {
+      "ordinal": 138,
+      "name": "SymSrvGetFileIndexesW"
+    },
+    {
+      "ordinal": 140,
+      "name": "SymUnDName"
+    },
+    {
+      "ordinal": 139,
+      "name": "SymUnDName64"
+    },
+    {
+      "ordinal": 142,
+      "name": "SymUnloadModule"
+    },
+    {
+      "ordinal": 141,
+      "name": "SymUnloadModule64"
+    },
+    {
+      "ordinal": 143,
+      "name": "TouchFileTimes"
+    },
+    {
+      "ordinal": 144,
+      "name": "UnDecorateSymbolName"
+    },
+    {
+      "ordinal": 145,
+      "name": "UnMapAndLoad"
+    },
+    {
+      "ordinal": 146,
+      "name": "UnmapDebugInformation"
+    },
+    {
+      "ordinal": 147,
+      "name": "UpdateDebugInfoFile"
+    },
+    {
+      "ordinal": 148,
+      "name": "UpdateDebugInfoFileEx"
+    }
+  ]
+}

@@ -1,19 +1,20 @@
 {
   "Version": "5.3.3790.3959-I386",
-  "md5": "4321285ce30aef05e204f4006edf2fab",
-  "imphash": "4321285ce30aef05e204f4006edf2fab",
+  "md5": "c9e1f191eb412fa661b3f5a63d24c958",
+  "imphash": "c9e1f191eb412fa661b3f5a63d24c958",
   "InternalName": "dpnaddr.dll",
   "CompanyName": "Microsoft Corporation",
   "FileDescription": "Microsoft DirectPlay8 Address",
   "FileVersion": "5.3.3790.3959 (srv03_sp2_rtm.070216-1710)",
   "ProductVersion": "5.3.3790.3959",
-  "PeChecksum": 44286,
+  "PeChecksum": 52259,
   "Size": 3584,
   "Machine": "I386",
   "exports": [
     {
       "ordinal": 1,
-      "name": "DirectPlay8AddressCreate"
+      "name": "DirectPlay8AddressCreate",
+      "forwarder": "dpnet.DirectPlay8Create"
     }
   ]
 }

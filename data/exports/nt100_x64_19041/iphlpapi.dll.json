@@ -1,0 +1,1203 @@
+{
+  "Version": "10.0.19041.3636-AMD64",
+  "md5": "41160571d2dca49d050362f782bdb60a",
+  "imphash": "41160571d2dca49d050362f782bdb60a",
+  "InternalName": "iphlpapi.dll",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "IP Helper API",
+  "FileVersion": "10.0.19041.3636 (WinBuild.160101.0800)",
+  "ProductVersion": "10.0.19041.3636",
+  "PeChecksum": 283481,
+  "Size": 231560,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ordinal": 1,
+      "name": "AddIPAddress"
+    },
+    {
+      "ordinal": 2,
+      "name": "AllocateAndGetInterfaceInfoFromStack"
+    },
+    {
+      "ordinal": 3,
+      "name": "AllocateAndGetIpAddrTableFromStack"
+    },
+    {
+      "ordinal": 4,
+      "name": "CancelIPChangeNotify"
+    },
+    {
+      "ordinal": 5,
+      "name": "CancelIfTimestampConfigChange"
+    },
+    {
+      "ordinal": 6,
+      "name": "CancelMibChangeNotify2"
+    },
+    {
+      "ordinal": 7,
+      "name": "CaptureInterfaceHardwareCrossTimestamp"
+    },
+    {
+      "ordinal": 8,
+      "name": "CloseCompartment"
+    },
+    {
+      "ordinal": 9,
+      "name": "CloseGetIPPhysicalInterfaceForDestination"
+    },
+    {
+      "ordinal": 10,
+      "name": "ConvertCompartmentGuidToId"
+    },
+    {
+      "ordinal": 11,
+      "name": "ConvertCompartmentIdToGuid"
+    },
+    {
+      "ordinal": 12,
+      "name": "ConvertGuidToStringA"
+    },
+    {
+      "ordinal": 13,
+      "name": "ConvertGuidToStringW"
+    },
+    {
+      "ordinal": 14,
+      "name": "ConvertInterfaceAliasToLuid"
+    },
+    {
+      "ordinal": 15,
+      "name": "ConvertInterfaceGuidToLuid"
+    },
+    {
+      "ordinal": 16,
+      "name": "ConvertInterfaceIndexToLuid"
+    },
+    {
+      "ordinal": 17,
+      "name": "ConvertInterfaceLuidToAlias"
+    },
+    {
+      "ordinal": 18,
+      "name": "ConvertInterfaceLuidToGuid"
+    },
+    {
+      "ordinal": 19,
+      "name": "ConvertInterfaceLuidToIndex"
+    },
+    {
+      "ordinal": 20,
+      "name": "ConvertInterfaceLuidToNameA"
+    },
+    {
+      "ordinal": 21,
+      "name": "ConvertInterfaceLuidToNameW"
+    },
+    {
+      "ordinal": 22,
+      "name": "ConvertInterfaceNameToLuidA"
+    },
+    {
+      "ordinal": 23,
+      "name": "ConvertInterfaceNameToLuidW"
+    },
+    {
+      "ordinal": 24,
+      "name": "ConvertInterfacePhysicalAddressToLuid"
+    },
+    {
+      "ordinal": 25,
+      "name": "ConvertIpv4MaskToLength"
+    },
+    {
+      "ordinal": 26,
+      "name": "ConvertLengthToIpv4Mask"
+    },
+    {
+      "ordinal": 27,
+      "name": "ConvertRemoteInterfaceAliasToLuid"
+    },
+    {
+      "ordinal": 28,
+      "name": "ConvertRemoteInterfaceGuidToLuid"
+    },
+    {
+      "ordinal": 29,
+      "name": "ConvertRemoteInterfaceIndexToLuid"
+    },
+    {
+      "ordinal": 30,
+      "name": "ConvertRemoteInterfaceLuidToAlias"
+    },
+    {
+      "ordinal": 31,
+      "name": "ConvertRemoteInterfaceLuidToGuid"
+    },
+    {
+      "ordinal": 32,
+      "name": "ConvertRemoteInterfaceLuidToIndex"
+    },
+    {
+      "ordinal": 33,
+      "name": "ConvertStringToGuidA"
+    },
+    {
+      "ordinal": 34,
+      "name": "ConvertStringToGuidW"
+    },
+    {
+      "ordinal": 35,
+      "name": "ConvertStringToInterfacePhysicalAddress"
+    },
+    {
+      "ordinal": 36,
+      "name": "CreateAnycastIpAddressEntry"
+    },
+    {
+      "ordinal": 37,
+      "name": "CreateCompartment"
+    },
+    {
+      "ordinal": 38,
+      "name": "CreateIpForwardEntry"
+    },
+    {
+      "ordinal": 39,
+      "name": "CreateIpForwardEntry2"
+    },
+    {
+      "ordinal": 40,
+      "name": "CreateIpNetEntry"
+    },
+    {
+      "ordinal": 41,
+      "name": "CreateIpNetEntry2"
+    },
+    {
+      "ordinal": 42,
+      "name": "CreatePersistentTcpPortReservation"
+    },
+    {
+      "ordinal": 43,
+      "name": "CreatePersistentUdpPortReservation"
+    },
+    {
+      "ordinal": 44,
+      "name": "CreateProxyArpEntry"
+    },
+    {
+      "ordinal": 45,
+      "name": "CreateSortedAddressPairs"
+    },
+    {
+      "ordinal": 46,
+      "name": "CreateUnicastIpAddressEntry"
+    },
+    {
+      "ordinal": 47,
+      "name": "DeleteAnycastIpAddressEntry"
+    },
+    {
+      "ordinal": 48,
+      "name": "DeleteCompartment"
+    },
+    {
+      "ordinal": 49,
+      "name": "DeleteIPAddress"
+    },
+    {
+      "ordinal": 50,
+      "name": "DeleteIpForwardEntry"
+    },
+    {
+      "ordinal": 51,
+      "name": "DeleteIpForwardEntry2"
+    },
+    {
+      "ordinal": 52,
+      "name": "DeleteIpNetEntry"
+    },
+    {
+      "ordinal": 53,
+      "name": "DeleteIpNetEntry2"
+    },
+    {
+      "ordinal": 54,
+      "name": "DeletePersistentTcpPortReservation"
+    },
+    {
+      "ordinal": 55,
+      "name": "DeletePersistentUdpPortReservation"
+    },
+    {
+      "ordinal": 56,
+      "name": "DeleteProxyArpEntry"
+    },
+    {
+      "ordinal": 57,
+      "name": "DeleteUnicastIpAddressEntry"
+    },
+    {
+      "ordinal": 58,
+      "name": "DisableMediaSense"
+    },
+    {
+      "ordinal": 59,
+      "name": "EnableRouter"
+    },
+    {
+      "ordinal": 60,
+      "name": "FlushIpNetTable"
+    },
+    {
+      "ordinal": 61,
+      "name": "FlushIpNetTable2"
+    },
+    {
+      "ordinal": 62,
+      "name": "FlushIpPathTable"
+    },
+    {
+      "ordinal": 63,
+      "name": "FreeDnsSettings"
+    },
+    {
+      "ordinal": 64,
+      "name": "FreeInterfaceDnsSettings"
+    },
+    {
+      "ordinal": 65,
+      "name": "FreeMibTable"
+    },
+    {
+      "ordinal": 66,
+      "name": "GetAdapterIndex"
+    },
+    {
+      "ordinal": 67,
+      "name": "GetAdapterOrderMap"
+    },
+    {
+      "ordinal": 68,
+      "name": "GetAdaptersAddresses"
+    },
+    {
+      "ordinal": 69,
+      "name": "GetAdaptersInfo"
+    },
+    {
+      "ordinal": 70,
+      "name": "GetAnycastIpAddressEntry"
+    },
+    {
+      "ordinal": 71,
+      "name": "GetAnycastIpAddressTable"
+    },
+    {
+      "ordinal": 72,
+      "name": "GetBestInterface"
+    },
+    {
+      "ordinal": 73,
+      "name": "GetBestInterfaceEx"
+    },
+    {
+      "ordinal": 74,
+      "name": "GetBestRoute"
+    },
+    {
+      "ordinal": 75,
+      "name": "GetBestRoute2"
+    },
+    {
+      "ordinal": 76,
+      "name": "GetCurrentThreadCompartmentId"
+    },
+    {
+      "ordinal": 77,
+      "name": "GetCurrentThreadCompartmentScope"
+    },
+    {
+      "ordinal": 78,
+      "name": "GetDefaultCompartmentId"
+    },
+    {
+      "ordinal": 79,
+      "name": "GetDnsSettings"
+    },
+    {
+      "ordinal": 80,
+      "name": "GetExtendedTcpTable"
+    },
+    {
+      "ordinal": 81,
+      "name": "GetExtendedUdpTable"
+    },
+    {
+      "ordinal": 82,
+      "name": "GetFriendlyIfIndex"
+    },
+    {
+      "ordinal": 83,
+      "name": "GetIcmpStatistics"
+    },
+    {
+      "ordinal": 84,
+      "name": "GetIcmpStatisticsEx"
+    },
+    {
+      "ordinal": 85,
+      "name": "GetIfEntry"
+    },
+    {
+      "ordinal": 86,
+      "name": "GetIfEntry2"
+    },
+    {
+      "ordinal": 87,
+      "name": "GetIfEntry2Ex"
+    },
+    {
+      "ordinal": 88,
+      "name": "GetIfStackTable"
+    },
+    {
+      "ordinal": 89,
+      "name": "GetIfTable"
+    },
+    {
+      "ordinal": 90,
+      "name": "GetIfTable2"
+    },
+    {
+      "ordinal": 91,
+      "name": "GetIfTable2Ex"
+    },
+    {
+      "ordinal": 92,
+      "name": "GetInterfaceCompartmentId"
+    },
+    {
+      "ordinal": 93,
+      "name": "GetInterfaceCurrentTimestampCapabilities"
+    },
+    {
+      "ordinal": 94,
+      "name": "GetInterfaceDnsSettings"
+    },
+    {
+      "ordinal": 95,
+      "name": "GetInterfaceHardwareTimestampCapabilities"
+    },
+    {
+      "ordinal": 96,
+      "name": "GetInterfaceInfo"
+    },
+    {
+      "ordinal": 97,
+      "name": "GetInvertedIfStackTable"
+    },
+    {
+      "ordinal": 98,
+      "name": "GetIpAddrTable"
+    },
+    {
+      "ordinal": 99,
+      "name": "GetIpErrorString"
+    },
+    {
+      "ordinal": 100,
+      "name": "GetIpForwardEntry2"
+    },
+    {
+      "ordinal": 101,
+      "name": "GetIpForwardTable"
+    },
+    {
+      "ordinal": 102,
+      "name": "GetIpForwardTable2"
+    },
+    {
+      "ordinal": 103,
+      "name": "GetIpInterfaceEntry"
+    },
+    {
+      "ordinal": 104,
+      "name": "GetIpInterfaceTable"
+    },
+    {
+      "ordinal": 105,
+      "name": "GetIpNetEntry2"
+    },
+    {
+      "ordinal": 106,
+      "name": "GetIpNetTable"
+    },
+    {
+      "ordinal": 107,
+      "name": "GetIpNetTable2"
+    },
+    {
+      "ordinal": 108,
+      "name": "GetIpNetworkConnectionBandwidthEstimates"
+    },
+    {
+      "ordinal": 109,
+      "name": "GetIpPathEntry"
+    },
+    {
+      "ordinal": 110,
+      "name": "GetIpPathTable"
+    },
+    {
+      "ordinal": 111,
+      "name": "GetIpStatistics"
+    },
+    {
+      "ordinal": 112,
+      "name": "GetIpStatisticsEx"
+    },
+    {
+      "ordinal": 113,
+      "name": "GetJobCompartmentId"
+    },
+    {
+      "ordinal": 114,
+      "name": "GetMulticastIpAddressEntry"
+    },
+    {
+      "ordinal": 115,
+      "name": "GetMulticastIpAddressTable"
+    },
+    {
+      "ordinal": 116,
+      "name": "GetNetworkConnectivityHint"
+    },
+    {
+      "ordinal": 117,
+      "name": "GetNetworkConnectivityHintForInterface"
+    },
+    {
+      "ordinal": 118,
+      "name": "GetNetworkInformation"
+    },
+    {
+      "ordinal": 119,
+      "name": "GetNetworkParams"
+    },
+    {
+      "ordinal": 120,
+      "name": "GetNumberOfInterfaces"
+    },
+    {
+      "ordinal": 121,
+      "name": "GetOwnerModuleFromPidAndInfo"
+    },
+    {
+      "ordinal": 122,
+      "name": "GetOwnerModuleFromTcp6Entry"
+    },
+    {
+      "ordinal": 123,
+      "name": "GetOwnerModuleFromTcpEntry"
+    },
+    {
+      "ordinal": 124,
+      "name": "GetOwnerModuleFromUdp6Entry"
+    },
+    {
+      "ordinal": 125,
+      "name": "GetOwnerModuleFromUdpEntry"
+    },
+    {
+      "ordinal": 126,
+      "name": "GetPerAdapterInfo"
+    },
+    {
+      "ordinal": 127,
+      "name": "GetPerTcp6ConnectionEStats"
+    },
+    {
+      "ordinal": 128,
+      "name": "GetPerTcp6ConnectionStats"
+    },
+    {
+      "ordinal": 129,
+      "name": "GetPerTcpConnectionEStats"
+    },
+    {
+      "ordinal": 130,
+      "name": "GetPerTcpConnectionStats"
+    },
+    {
+      "ordinal": 131,
+      "name": "GetRTTAndHopCount"
+    },
+    {
+      "ordinal": 132,
+      "name": "GetSessionCompartmentId"
+    },
+    {
+      "ordinal": 133,
+      "name": "GetTcp6Table"
+    },
+    {
+      "ordinal": 134,
+      "name": "GetTcp6Table2"
+    },
+    {
+      "ordinal": 135,
+      "name": "GetTcpStatistics"
+    },
+    {
+      "ordinal": 136,
+      "name": "GetTcpStatisticsEx"
+    },
+    {
+      "ordinal": 137,
+      "name": "GetTcpStatisticsEx2"
+    },
+    {
+      "ordinal": 138,
+      "name": "GetTcpTable"
+    },
+    {
+      "ordinal": 139,
+      "name": "GetTcpTable2"
+    },
+    {
+      "ordinal": 140,
+      "name": "GetTeredoPort"
+    },
+    {
+      "ordinal": 141,
+      "name": "GetUdp6Table"
+    },
+    {
+      "ordinal": 142,
+      "name": "GetUdpStatistics"
+    },
+    {
+      "ordinal": 143,
+      "name": "GetUdpStatisticsEx"
+    },
+    {
+      "ordinal": 144,
+      "name": "GetUdpStatisticsEx2"
+    },
+    {
+      "ordinal": 145,
+      "name": "GetUdpTable"
+    },
+    {
+      "ordinal": 146,
+      "name": "GetUniDirectionalAdapterInfo"
+    },
+    {
+      "ordinal": 147,
+      "name": "GetUnicastIpAddressEntry"
+    },
+    {
+      "ordinal": 148,
+      "name": "GetUnicastIpAddressTable"
+    },
+    {
+      "ordinal": 149,
+      "name": "GetWPAOACSupportLevel"
+    },
+    {
+      "ordinal": 150,
+      "name": "Icmp6CreateFile"
+    },
+    {
+      "ordinal": 151,
+      "name": "Icmp6ParseReplies"
+    },
+    {
+      "ordinal": 152,
+      "name": "Icmp6SendEcho2"
+    },
+    {
+      "ordinal": 153,
+      "name": "IcmpCloseHandle"
+    },
+    {
+      "ordinal": 154,
+      "name": "IcmpCreateFile"
+    },
+    {
+      "ordinal": 155,
+      "name": "IcmpParseReplies"
+    },
+    {
+      "ordinal": 156,
+      "name": "IcmpSendEcho"
+    },
+    {
+      "ordinal": 157,
+      "name": "IcmpSendEcho2"
+    },
+    {
+      "ordinal": 158,
+      "name": "IcmpSendEcho2Ex"
+    },
+    {
+      "ordinal": 159,
+      "name": "InitializeCompartmentEntry"
+    },
+    {
+      "ordinal": 160,
+      "name": "InitializeIpForwardEntry"
+    },
+    {
+      "ordinal": 161,
+      "name": "InitializeIpInterfaceEntry"
+    },
+    {
+      "ordinal": 162,
+      "name": "InitializeUnicastIpAddressEntry"
+    },
+    {
+      "ordinal": 163,
+      "name": "InternalCleanupPersistentStore"
+    },
+    {
+      "ordinal": 164,
+      "name": "InternalCreateAnycastIpAddressEntry"
+    },
+    {
+      "ordinal": 165,
+      "name": "InternalCreateIpForwardEntry"
+    },
+    {
+      "ordinal": 166,
+      "name": "InternalCreateIpForwardEntry2"
+    },
+    {
+      "ordinal": 167,
+      "name": "InternalCreateIpNetEntry"
+    },
+    {
+      "ordinal": 168,
+      "name": "InternalCreateIpNetEntry2"
+    },
+    {
+      "ordinal": 169,
+      "name": "InternalCreateOrRefIpForwardEntry2"
+    },
+    {
+      "ordinal": 170,
+      "name": "InternalCreateUnicastIpAddressEntry"
+    },
+    {
+      "ordinal": 171,
+      "name": "InternalDeleteAnycastIpAddressEntry"
+    },
+    {
+      "ordinal": 172,
+      "name": "InternalDeleteIpForwardEntry"
+    },
+    {
+      "ordinal": 173,
+      "name": "InternalDeleteIpForwardEntry2"
+    },
+    {
+      "ordinal": 174,
+      "name": "InternalDeleteIpNetEntry"
+    },
+    {
+      "ordinal": 175,
+      "name": "InternalDeleteIpNetEntry2"
+    },
+    {
+      "ordinal": 176,
+      "name": "InternalDeleteUnicastIpAddressEntry"
+    },
+    {
+      "ordinal": 177,
+      "name": "InternalFindInterfaceByAddress"
+    },
+    {
+      "ordinal": 178,
+      "name": "InternalGetAnycastIpAddressEntry"
+    },
+    {
+      "ordinal": 179,
+      "name": "InternalGetAnycastIpAddressTable"
+    },
+    {
+      "ordinal": 180,
+      "name": "InternalGetBoundTcp6EndpointTable"
+    },
+    {
+      "ordinal": 181,
+      "name": "InternalGetBoundTcpEndpointTable"
+    },
+    {
+      "ordinal": 182,
+      "name": "InternalGetForwardIpTable2"
+    },
+    {
+      "ordinal": 183,
+      "name": "InternalGetIPPhysicalInterfaceForDestination"
+    },
+    {
+      "ordinal": 184,
+      "name": "InternalGetIfEntry2"
+    },
+    {
+      "ordinal": 185,
+      "name": "InternalGetIfTable"
+    },
+    {
+      "ordinal": 186,
+      "name": "InternalGetIfTable2"
+    },
+    {
+      "ordinal": 187,
+      "name": "InternalGetIpAddrTable"
+    },
+    {
+      "ordinal": 188,
+      "name": "InternalGetIpForwardEntry2"
+    },
+    {
+      "ordinal": 189,
+      "name": "InternalGetIpForwardTable"
+    },
+    {
+      "ordinal": 190,
+      "name": "InternalGetIpInterfaceEntry"
+    },
+    {
+      "ordinal": 191,
+      "name": "InternalGetIpInterfaceTable"
+    },
+    {
+      "ordinal": 192,
+      "name": "InternalGetIpNetEntry2"
+    },
+    {
+      "ordinal": 193,
+      "name": "InternalGetIpNetTable"
+    },
+    {
+      "ordinal": 194,
+      "name": "InternalGetIpNetTable2"
+    },
+    {
+      "ordinal": 195,
+      "name": "InternalGetMulticastIpAddressEntry"
+    },
+    {
+      "ordinal": 196,
+      "name": "InternalGetMulticastIpAddressTable"
+    },
+    {
+      "ordinal": 197,
+      "name": "InternalGetRtcSlotInformation"
+    },
+    {
+      "ordinal": 198,
+      "name": "InternalGetTcp6Table2"
+    },
+    {
+      "ordinal": 199,
+      "name": "InternalGetTcp6TableWithOwnerModule"
+    },
+    {
+      "ordinal": 200,
+      "name": "InternalGetTcp6TableWithOwnerPid"
+    },
+    {
+      "ordinal": 201,
+      "name": "InternalGetTcpTable"
+    },
+    {
+      "ordinal": 202,
+      "name": "InternalGetTcpTable2"
+    },
+    {
+      "ordinal": 203,
+      "name": "InternalGetTcpTableEx"
+    },
+    {
+      "ordinal": 204,
+      "name": "InternalGetTcpTableWithOwnerModule"
+    },
+    {
+      "ordinal": 205,
+      "name": "InternalGetTcpTableWithOwnerPid"
+    },
+    {
+      "ordinal": 206,
+      "name": "InternalGetTunnelPhysicalAdapter"
+    },
+    {
+      "ordinal": 207,
+      "name": "InternalGetUdp6TableWithOwnerModule"
+    },
+    {
+      "ordinal": 208,
+      "name": "InternalGetUdp6TableWithOwnerPid"
+    },
+    {
+      "ordinal": 209,
+      "name": "InternalGetUdpTable"
+    },
+    {
+      "ordinal": 210,
+      "name": "InternalGetUdpTableEx"
+    },
+    {
+      "ordinal": 211,
+      "name": "InternalGetUdpTableWithOwnerModule"
+    },
+    {
+      "ordinal": 212,
+      "name": "InternalGetUdpTableWithOwnerPid"
+    },
+    {
+      "ordinal": 213,
+      "name": "InternalGetUnicastIpAddressEntry"
+    },
+    {
+      "ordinal": 214,
+      "name": "InternalGetUnicastIpAddressTable"
+    },
+    {
+      "ordinal": 215,
+      "name": "InternalIcmpCreateFileEx"
+    },
+    {
+      "ordinal": 216,
+      "name": "InternalSetIfEntry"
+    },
+    {
+      "ordinal": 217,
+      "name": "InternalSetIpForwardEntry"
+    },
+    {
+      "ordinal": 218,
+      "name": "InternalSetIpForwardEntry2"
+    },
+    {
+      "ordinal": 219,
+      "name": "InternalSetIpInterfaceEntry"
+    },
+    {
+      "ordinal": 220,
+      "name": "InternalSetIpNetEntry"
+    },
+    {
+      "ordinal": 221,
+      "name": "InternalSetIpNetEntry2"
+    },
+    {
+      "ordinal": 222,
+      "name": "InternalSetIpStats"
+    },
+    {
+      "ordinal": 223,
+      "name": "InternalSetTcpEntry"
+    },
+    {
+      "ordinal": 224,
+      "name": "InternalSetTeredoPort"
+    },
+    {
+      "ordinal": 225,
+      "name": "InternalSetUnicastIpAddressEntry"
+    },
+    {
+      "ordinal": 226,
+      "name": "IpReleaseAddress"
+    },
+    {
+      "ordinal": 227,
+      "name": "IpRenewAddress"
+    },
+    {
+      "ordinal": 228,
+      "name": "LookupPersistentTcpPortReservation"
+    },
+    {
+      "ordinal": 229,
+      "name": "LookupPersistentUdpPortReservation"
+    },
+    {
+      "ordinal": 230,
+      "name": "NTPTimeToNTFileTime"
+    },
+    {
+      "ordinal": 231,
+      "name": "NTTimeToNTPTime"
+    },
+    {
+      "ordinal": 232,
+      "name": "NhGetGuidFromInterfaceName"
+    },
+    {
+      "ordinal": 233,
+      "name": "NhGetInterfaceDescriptionFromGuid"
+    },
+    {
+      "ordinal": 234,
+      "name": "NhGetInterfaceNameFromDeviceGuid"
+    },
+    {
+      "ordinal": 235,
+      "name": "NhGetInterfaceNameFromGuid"
+    },
+    {
+      "ordinal": 236,
+      "name": "NhpAllocateAndGetInterfaceInfoFromStack"
+    },
+    {
+      "ordinal": 237,
+      "name": "NotifyAddrChange"
+    },
+    {
+      "ordinal": 238,
+      "name": "NotifyCompartmentChange"
+    },
+    {
+      "ordinal": 239,
+      "name": "NotifyIfTimestampConfigChange"
+    },
+    {
+      "ordinal": 240,
+      "name": "NotifyIpInterfaceChange"
+    },
+    {
+      "ordinal": 241,
+      "name": "NotifyNetworkConnectivityHintChange"
+    },
+    {
+      "ordinal": 242,
+      "name": "NotifyRouteChange"
+    },
+    {
+      "ordinal": 243,
+      "name": "NotifyRouteChange2"
+    },
+    {
+      "ordinal": 244,
+      "name": "NotifyStableUnicastIpAddressTable"
+    },
+    {
+      "ordinal": 245,
+      "name": "NotifyTeredoPortChange"
+    },
+    {
+      "ordinal": 246,
+      "name": "NotifyUnicastIpAddressChange"
+    },
+    {
+      "ordinal": 247,
+      "name": "OpenCompartment"
+    },
+    {
+      "ordinal": 248,
+      "name": "ParseNetworkString"
+    },
+    {
+      "ordinal": 249,
+      "name": "PfAddFiltersToInterface"
+    },
+    {
+      "ordinal": 250,
+      "name": "PfAddGlobalFilterToInterface"
+    },
+    {
+      "ordinal": 251,
+      "name": "PfBindInterfaceToIPAddress"
+    },
+    {
+      "ordinal": 252,
+      "name": "PfBindInterfaceToIndex"
+    },
+    {
+      "ordinal": 253,
+      "name": "PfCreateInterface"
+    },
+    {
+      "ordinal": 254,
+      "name": "PfDeleteInterface"
+    },
+    {
+      "ordinal": 255,
+      "name": "PfDeleteLog"
+    },
+    {
+      "ordinal": 256,
+      "name": "PfGetInterfaceStatistics"
+    },
+    {
+      "ordinal": 257,
+      "name": "PfMakeLog"
+    },
+    {
+      "ordinal": 258,
+      "name": "PfRebindFilters"
+    },
+    {
+      "ordinal": 259,
+      "name": "PfRemoveFilterHandles"
+    },
+    {
+      "ordinal": 260,
+      "name": "PfRemoveFiltersFromInterface"
+    },
+    {
+      "ordinal": 261,
+      "name": "PfRemoveGlobalFilterFromInterface"
+    },
+    {
+      "ordinal": 262,
+      "name": "PfSetLogBuffer"
+    },
+    {
+      "ordinal": 263,
+      "name": "PfTestPacket"
+    },
+    {
+      "ordinal": 264,
+      "name": "PfUnBindInterface"
+    },
+    {
+      "ordinal": 265,
+      "name": "ResolveIpNetEntry2"
+    },
+    {
+      "ordinal": 266,
+      "name": "ResolveNeighbor"
+    },
+    {
+      "ordinal": 267,
+      "name": "RestoreMediaSense"
+    },
+    {
+      "ordinal": 268,
+      "name": "SendARP"
+    },
+    {
+      "ordinal": 269,
+      "name": "SetAdapterIpAddress"
+    },
+    {
+      "ordinal": 270,
+      "name": "SetCurrentThreadCompartmentId"
+    },
+    {
+      "ordinal": 271,
+      "name": "SetCurrentThreadCompartmentScope"
+    },
+    {
+      "ordinal": 272,
+      "name": "SetDnsSettings"
+    },
+    {
+      "ordinal": 273,
+      "name": "SetIfEntry"
+    },
+    {
+      "ordinal": 274,
+      "name": "SetInterfaceDnsSettings"
+    },
+    {
+      "ordinal": 275,
+      "name": "SetIpForwardEntry"
+    },
+    {
+      "ordinal": 276,
+      "name": "SetIpForwardEntry2"
+    },
+    {
+      "ordinal": 277,
+      "name": "SetIpInterfaceEntry"
+    },
+    {
+      "ordinal": 278,
+      "name": "SetIpNetEntry"
+    },
+    {
+      "ordinal": 279,
+      "name": "SetIpNetEntry2"
+    },
+    {
+      "ordinal": 280,
+      "name": "SetIpStatistics"
+    },
+    {
+      "ordinal": 281,
+      "name": "SetIpStatisticsEx"
+    },
+    {
+      "ordinal": 282,
+      "name": "SetIpTTL"
+    },
+    {
+      "ordinal": 283,
+      "name": "SetJobCompartmentId"
+    },
+    {
+      "ordinal": 284,
+      "name": "SetNetworkInformation"
+    },
+    {
+      "ordinal": 285,
+      "name": "SetPerTcp6ConnectionEStats"
+    },
+    {
+      "ordinal": 286,
+      "name": "SetPerTcp6ConnectionStats"
+    },
+    {
+      "ordinal": 287,
+      "name": "SetPerTcpConnectionEStats"
+    },
+    {
+      "ordinal": 288,
+      "name": "SetPerTcpConnectionStats"
+    },
+    {
+      "ordinal": 289,
+      "name": "SetSessionCompartmentId"
+    },
+    {
+      "ordinal": 290,
+      "name": "SetTcpEntry"
+    },
+    {
+      "ordinal": 291,
+      "name": "SetUnicastIpAddressEntry"
+    },
+    {
+      "ordinal": 292,
+      "name": "UnenableRouter"
+    },
+    {
+      "ordinal": 293,
+      "name": "do_echo_rep"
+    },
+    {
+      "ordinal": 294,
+      "name": "do_echo_req"
+    },
+    {
+      "ordinal": 295,
+      "name": "if_indextoname"
+    },
+    {
+      "ordinal": 296,
+      "name": "if_nametoindex"
+    },
+    {
+      "ordinal": 297,
+      "name": "register_icmp"
+    }
+  ]
+}

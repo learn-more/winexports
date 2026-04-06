@@ -1,0 +1,403 @@
+{
+  "Version": "6.3.9600.16384-I386",
+  "md5": "72ff1f84076c0178e4f7b33afb91bffc",
+  "imphash": "72ff1f84076c0178e4f7b33afb91bffc",
+  "InternalName": "BluetoothApis",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "Bluetooth Usermode Api host",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 121506,
+  "Size": 79872,
+  "Machine": "I386",
+  "exports": [
+    {
+      "ordinal": 104,
+      "name": "BluetoothAddressToString"
+    },
+    {
+      "ordinal": 105,
+      "name": "BluetoothDisconnectDevice"
+    },
+    {
+      "ordinal": 106,
+      "name": "BluetoothEnableDiscovery"
+    },
+    {
+      "ordinal": 107,
+      "name": "BluetoothEnableIncomingConnections"
+    },
+    {
+      "ordinal": 108,
+      "name": "BluetoothEnumerateInstalledServices"
+    },
+    {
+      "ordinal": 109,
+      "name": "BluetoothEnumerateInstalledServicesEx"
+    },
+    {
+      "ordinal": 110,
+      "name": "BluetoothEnumerateLocalServices"
+    },
+    {
+      "ordinal": 111,
+      "name": "BluetoothFindBrowseGroupClose"
+    },
+    {
+      "ordinal": 112,
+      "name": "BluetoothFindClassIdClose"
+    },
+    {
+      "ordinal": 113,
+      "name": "BluetoothFindDeviceClose"
+    },
+    {
+      "ordinal": 114,
+      "name": "BluetoothFindFirstBrowseGroup"
+    },
+    {
+      "ordinal": 115,
+      "name": "BluetoothFindFirstClassId"
+    },
+    {
+      "ordinal": 116,
+      "name": "BluetoothFindFirstDevice"
+    },
+    {
+      "ordinal": 117,
+      "name": "BluetoothFindFirstProfileDescriptor"
+    },
+    {
+      "ordinal": 118,
+      "name": "BluetoothFindFirstProtocolDescriptorStack"
+    },
+    {
+      "ordinal": 119,
+      "name": "BluetoothFindFirstProtocolEntry"
+    },
+    {
+      "ordinal": 120,
+      "name": "BluetoothFindFirstRadio"
+    },
+    {
+      "ordinal": 121,
+      "name": "BluetoothFindFirstService"
+    },
+    {
+      "ordinal": 122,
+      "name": "BluetoothFindFirstServiceEx"
+    },
+    {
+      "ordinal": 123,
+      "name": "BluetoothFindNextBrowseGroup"
+    },
+    {
+      "ordinal": 124,
+      "name": "BluetoothFindNextClassId"
+    },
+    {
+      "ordinal": 125,
+      "name": "BluetoothFindNextDevice"
+    },
+    {
+      "ordinal": 126,
+      "name": "BluetoothFindNextProfileDescriptor"
+    },
+    {
+      "ordinal": 127,
+      "name": "BluetoothFindNextProtocolDescriptorStack"
+    },
+    {
+      "ordinal": 128,
+      "name": "BluetoothFindNextProtocolEntry"
+    },
+    {
+      "ordinal": 129,
+      "name": "BluetoothFindNextRadio"
+    },
+    {
+      "ordinal": 130,
+      "name": "BluetoothFindNextService"
+    },
+    {
+      "ordinal": 131,
+      "name": "BluetoothFindProfileDescriptorClose"
+    },
+    {
+      "ordinal": 132,
+      "name": "BluetoothFindProtocolDescriptorStackClose"
+    },
+    {
+      "ordinal": 133,
+      "name": "BluetoothFindProtocolEntryClose"
+    },
+    {
+      "ordinal": 134,
+      "name": "BluetoothFindRadioClose"
+    },
+    {
+      "ordinal": 135,
+      "name": "BluetoothFindServiceClose"
+    },
+    {
+      "ordinal": 136,
+      "name": "BluetoothGATTAbortReliableWrite"
+    },
+    {
+      "ordinal": 137,
+      "name": "BluetoothGATTBeginReliableWrite"
+    },
+    {
+      "ordinal": 138,
+      "name": "BluetoothGATTEndReliableWrite"
+    },
+    {
+      "ordinal": 139,
+      "name": "BluetoothGATTGetCharacteristicValue"
+    },
+    {
+      "ordinal": 140,
+      "name": "BluetoothGATTGetCharacteristics"
+    },
+    {
+      "ordinal": 141,
+      "name": "BluetoothGATTGetDescriptorValue"
+    },
+    {
+      "ordinal": 142,
+      "name": "BluetoothGATTGetDescriptors"
+    },
+    {
+      "ordinal": 143,
+      "name": "BluetoothGATTGetIncludedServices"
+    },
+    {
+      "ordinal": 144,
+      "name": "BluetoothGATTGetServices"
+    },
+    {
+      "ordinal": 145,
+      "name": "BluetoothGATTRegisterEvent"
+    },
+    {
+      "ordinal": 146,
+      "name": "BluetoothGATTSetCharacteristicValue"
+    },
+    {
+      "ordinal": 147,
+      "name": "BluetoothGATTSetDescriptorValue"
+    },
+    {
+      "ordinal": 148,
+      "name": "BluetoothGATTUnregisterEvent"
+    },
+    {
+      "ordinal": 149,
+      "name": "BluetoothGetDeviceInfo"
+    },
+    {
+      "ordinal": 150,
+      "name": "BluetoothGetLocalServiceInfo"
+    },
+    {
+      "ordinal": 151,
+      "name": "BluetoothGetRadioInfo"
+    },
+    {
+      "ordinal": 152,
+      "name": "BluetoothGetServicePnpInstance"
+    },
+    {
+      "ordinal": 153,
+      "name": "BluetoothIsConnectable"
+    },
+    {
+      "ordinal": 154,
+      "name": "BluetoothIsDiscoverable"
+    },
+    {
+      "ordinal": 155,
+      "name": "BluetoothIsVersionAvailable"
+    },
+    {
+      "ordinal": 156,
+      "name": "BluetoothRegisterForAuthentication"
+    },
+    {
+      "ordinal": 157,
+      "name": "BluetoothRegisterForAuthenticationEx"
+    },
+    {
+      "ordinal": 158,
+      "name": "BluetoothRemoveDevice"
+    },
+    {
+      "ordinal": 159,
+      "name": "BluetoothSdpEnumAttributes"
+    },
+    {
+      "ordinal": 160,
+      "name": "BluetoothSdpGetAttributeValue"
+    },
+    {
+      "ordinal": 161,
+      "name": "BluetoothSdpGetContainerElementData"
+    },
+    {
+      "ordinal": 162,
+      "name": "BluetoothSdpGetElementData"
+    },
+    {
+      "ordinal": 163,
+      "name": "BluetoothSdpGetString"
+    },
+    {
+      "ordinal": 164,
+      "name": "BluetoothSendAuthenticationResponse"
+    },
+    {
+      "ordinal": 165,
+      "name": "BluetoothSendAuthenticationResponseEx"
+    },
+    {
+      "ordinal": 166,
+      "name": "BluetoothSetLocalServiceInfo"
+    },
+    {
+      "ordinal": 167,
+      "name": "BluetoothSetServiceState"
+    },
+    {
+      "ordinal": 168,
+      "name": "BluetoothSetServiceStateEx"
+    },
+    {
+      "ordinal": 169,
+      "name": "BluetoothUnregisterAuthentication"
+    },
+    {
+      "ordinal": 170,
+      "name": "BluetoothUpdateDeviceRecord"
+    },
+    {
+      "ordinal": 171,
+      "name": "BthpCheckForUnsupportedGuid"
+    },
+    {
+      "ordinal": 172,
+      "name": "BthpCleanupBRDeviceNode"
+    },
+    {
+      "ordinal": 173,
+      "name": "BthpCleanupDeviceLocalServices"
+    },
+    {
+      "ordinal": 174,
+      "name": "BthpCleanupDeviceRemoteServices"
+    },
+    {
+      "ordinal": 175,
+      "name": "BthpCleanupLEDeviceNodes"
+    },
+    {
+      "ordinal": 176,
+      "name": "BthpEnableAllServices"
+    },
+    {
+      "ordinal": 177,
+      "name": "BthpEnableConnectableAndDiscoverable"
+    },
+    {
+      "ordinal": 178,
+      "name": "BthpEnableRadioSoftware"
+    },
+    {
+      "ordinal": 179,
+      "name": "BthpFindPnpInfo"
+    },
+    {
+      "ordinal": 180,
+      "name": "BthpGATTCloseSession"
+    },
+    {
+      "ordinal": 181,
+      "name": "BthpInnerRecord"
+    },
+    {
+      "ordinal": 182,
+      "name": "BthpIsBluetoothServiceRunning"
+    },
+    {
+      "ordinal": 183,
+      "name": "BthpIsConnectableByDefault"
+    },
+    {
+      "ordinal": 184,
+      "name": "BthpIsDiscoverable"
+    },
+    {
+      "ordinal": 185,
+      "name": "BthpIsDiscoverableByDefault"
+    },
+    {
+      "ordinal": 186,
+      "name": "BthpIsRadioSoftwareEnabled"
+    },
+    {
+      "ordinal": 187,
+      "name": "BthpIsTopOfServiceGroup"
+    },
+    {
+      "ordinal": 188,
+      "name": "BthpMapStatusToErr"
+    },
+    {
+      "ordinal": 189,
+      "name": "BthpNextRecord"
+    },
+    {
+      "ordinal": 190,
+      "name": "BthpRegisterForAuthentication"
+    },
+    {
+      "ordinal": 191,
+      "name": "BthpSetServiceState"
+    },
+    {
+      "ordinal": 192,
+      "name": "BthpSetServiceStateEx"
+    },
+    {
+      "ordinal": 193,
+      "name": "BthpTranspose16Bits"
+    },
+    {
+      "ordinal": 194,
+      "name": "BthpTranspose32Bits"
+    },
+    {
+      "ordinal": 195,
+      "name": "BthpTransposeAndExtendBytes"
+    },
+    {
+      "ordinal": 196,
+      "name": "DllCanUnloadNow"
+    },
+    {
+      "ordinal": 197,
+      "name": "FindNextOpenVCOMPort"
+    },
+    {
+      "ordinal": 198,
+      "name": "InstallIncomingComPort"
+    },
+    {
+      "ordinal": 199,
+      "name": "ShouldForceAuthentication"
+    },
+    {
+      "ordinal": 103,
+      "name": null
+    }
+  ]
+}

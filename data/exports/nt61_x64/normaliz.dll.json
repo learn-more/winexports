@@ -13,23 +13,28 @@
   "exports": [
     {
       "ordinal": 1,
-      "name": "IdnToAscii"
+      "name": "IdnToAscii",
+      "forwarder": "kernel32.IdnToAscii"
     },
     {
       "ordinal": 2,
-      "name": "IdnToNameprepUnicode"
+      "name": "IdnToNameprepUnicode",
+      "forwarder": "kernel32.IdnToNameprepUnicode"
     },
     {
       "ordinal": 3,
-      "name": "IdnToUnicode"
+      "name": "IdnToUnicode",
+      "forwarder": "kernel32.IdnToUnicode"
     },
     {
       "ordinal": 4,
-      "name": "IsNormalizedString"
+      "name": "IsNormalizedString",
+      "forwarder": "kernel32.IsNormalizedString"
     },
     {
       "ordinal": 5,
-      "name": "NormalizeString"
+      "name": "NormalizeString",
+      "forwarder": "kernel32.NormalizeString"
     }
   ]
 }

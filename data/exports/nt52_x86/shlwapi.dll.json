@@ -1,14 +1,14 @@
 {
   "Version": "6.00.3790.3959-I386",
-  "md5": "e7170d42271b62ba6a83b4781a15af6a",
-  "imphash": "e7170d42271b62ba6a83b4781a15af6a",
+  "md5": "c018a76bc2e494a3a603f6a5de3ce3e5",
+  "imphash": "c018a76bc2e494a3a603f6a5de3ce3e5",
   "InternalName": "SHLWAPI",
   "CompanyName": "Microsoft Corporation",
   "FileDescription": "Shell Light-weight Utility Library",
   "FileVersion": "6.00.3790.3959 (srv03_sp2_rtm.070216-1710)",
   "ProductVersion": "6.00.3790.3959",
-  "PeChecksum": 513514,
-  "Size": 488960,
+  "PeChecksum": 384251,
+  "Size": 320000,
   "Machine": "I386",
   "exports": [
     {
@@ -1381,463 +1381,578 @@
     },
     {
       "ordinal": 36,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.AppendMenuW"
     },
     {
       "ordinal": 37,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.CallWindowProcW"
     },
     {
       "ordinal": 38,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.CharLowerW"
     },
     {
       "ordinal": 39,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.CharLowerBuffW"
     },
     {
       "ordinal": 40,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.CharNextW"
     },
     {
       "ordinal": 41,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.CharPrevW"
     },
     {
       "ordinal": 42,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.CharToOemW"
     },
     {
       "ordinal": 43,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.CharUpperW"
     },
     {
       "ordinal": 44,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.CharUpperBuffW"
     },
     {
       "ordinal": 45,
-      "name": null
+      "name": null,
+      "forwarder": "KERNEL32.CompareStringW"
     },
     {
       "ordinal": 46,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.CopyAcceleratorTableW"
     },
     {
       "ordinal": 47,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.CreateAcceleratorTableW"
     },
     {
       "ordinal": 48,
-      "name": null
+      "name": null,
+      "forwarder": "GDI32.CreateDCW"
     },
     {
       "ordinal": 49,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.CreateDialogParamW"
     },
     {
       "ordinal": 50,
-      "name": null
+      "name": null,
+      "forwarder": "KERNEL32.CreateDirectoryW"
     },
     {
       "ordinal": 51,
-      "name": null
+      "name": null,
+      "forwarder": "KERNEL32.CreateEventW"
     },
     {
       "ordinal": 52,
-      "name": null
+      "name": null,
+      "forwarder": "KERNEL32.CreateFileW"
     },
     {
       "ordinal": 53,
-      "name": null
+      "name": null,
+      "forwarder": "GDI32.CreateFontIndirectW"
     },
     {
       "ordinal": 54,
-      "name": null
+      "name": null,
+      "forwarder": "GDI32.CreateICW"
     },
     {
       "ordinal": 55,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.CreateWindowExW"
     },
     {
       "ordinal": 56,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.DefWindowProcW"
     },
     {
       "ordinal": 57,
-      "name": null
+      "name": null,
+      "forwarder": "KERNEL32.DeleteFileW"
     },
     {
       "ordinal": 58,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.DialogBoxIndirectParamW"
     },
     {
       "ordinal": 59,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.DialogBoxParamW"
     },
     {
       "ordinal": 60,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.DispatchMessageW"
     },
     {
       "ordinal": 61,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.DrawTextW"
     },
     {
       "ordinal": 62,
-      "name": null
+      "name": null,
+      "forwarder": "GDI32.EnumFontFamiliesW"
     },
     {
       "ordinal": 63,
-      "name": null
+      "name": null,
+      "forwarder": "GDI32.EnumFontFamiliesExW"
     },
     {
       "ordinal": 64,
-      "name": null
+      "name": null,
+      "forwarder": "KERNEL32.EnumResourceNamesW"
     },
     {
       "ordinal": 65,
-      "name": null
+      "name": null,
+      "forwarder": "KERNEL32.FindFirstFileW"
     },
     {
       "ordinal": 66,
-      "name": null
+      "name": null,
+      "forwarder": "KERNEL32.FindResourceW"
     },
     {
       "ordinal": 67,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.FindWindowW"
     },
     {
       "ordinal": 68,
-      "name": null
+      "name": null,
+      "forwarder": "KERNEL32.FormatMessageW"
     },
     {
       "ordinal": 69,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.GetClassInfoW"
     },
     {
       "ordinal": 70,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.GetClassLongW"
     },
     {
       "ordinal": 71,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.GetClassNameW"
     },
     {
       "ordinal": 72,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.GetClipboardFormatNameW"
     },
     {
       "ordinal": 73,
-      "name": null
+      "name": null,
+      "forwarder": "KERNEL32.GetCurrentDirectoryW"
     },
     {
       "ordinal": 74,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.GetDlgItemTextW"
     },
     {
       "ordinal": 75,
-      "name": null
+      "name": null,
+      "forwarder": "KERNEL32.GetFileAttributesW"
     },
     {
       "ordinal": 76,
-      "name": null
+      "name": null,
+      "forwarder": "KERNEL32.GetFullPathNameW"
     },
     {
       "ordinal": 77,
-      "name": null
+      "name": null,
+      "forwarder": "KERNEL32.GetLocaleInfoW"
     },
     {
       "ordinal": 78,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.GetMenuStringW"
     },
     {
       "ordinal": 79,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.GetMessageW"
     },
     {
       "ordinal": 80,
-      "name": null
+      "name": null,
+      "forwarder": "KERNEL32.GetModuleFileNameW"
     },
     {
       "ordinal": 81,
-      "name": null
+      "name": null,
+      "forwarder": "KERNEL32.GetSystemDirectoryW"
     },
     {
       "ordinal": 82,
-      "name": null
+      "name": null,
+      "forwarder": "KERNEL32.SearchPathW"
     },
     {
       "ordinal": 83,
-      "name": null
+      "name": null,
+      "forwarder": "KERNEL32.GetModuleHandleW"
     },
     {
       "ordinal": 84,
-      "name": null
+      "name": null,
+      "forwarder": "GDI32.GetObjectW"
     },
     {
       "ordinal": 85,
-      "name": null
+      "name": null,
+      "forwarder": "KERNEL32.GetPrivateProfileIntW"
     },
     {
       "ordinal": 86,
-      "name": null
+      "name": null,
+      "forwarder": "KERNEL32.GetProfileStringW"
     },
     {
       "ordinal": 87,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.GetPropW"
     },
     {
       "ordinal": 88,
-      "name": null
+      "name": null,
+      "forwarder": "KERNEL32.GetStringTypeExW"
     },
     {
       "ordinal": 89,
-      "name": null
+      "name": null,
+      "forwarder": "KERNEL32.GetTempFileNameW"
     },
     {
       "ordinal": 90,
-      "name": null
+      "name": null,
+      "forwarder": "KERNEL32.GetTempPathW"
     },
     {
       "ordinal": 91,
-      "name": null
+      "name": null,
+      "forwarder": "GDI32.GetTextExtentPoint32W"
     },
     {
       "ordinal": 92,
-      "name": null
+      "name": null,
+      "forwarder": "GDI32.GetTextFaceW"
     },
     {
       "ordinal": 93,
-      "name": null
+      "name": null,
+      "forwarder": "GDI32.GetTextMetricsW"
     },
     {
       "ordinal": 94,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.GetWindowLongW"
     },
     {
       "ordinal": 95,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.GetWindowTextW"
     },
     {
       "ordinal": 96,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.GetWindowTextLengthW"
     },
     {
       "ordinal": 97,
-      "name": null
+      "name": null,
+      "forwarder": "KERNEL32.GetWindowsDirectoryW"
     },
     {
       "ordinal": 98,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.InsertMenuW"
     },
     {
       "ordinal": 99,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.IsDialogMessageW"
     },
     {
       "ordinal": 100,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.LoadAcceleratorsW"
     },
     {
       "ordinal": 101,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.LoadBitmapW"
     },
     {
       "ordinal": 102,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.LoadCursorW"
     },
     {
       "ordinal": 103,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.LoadIconW"
     },
     {
       "ordinal": 104,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.LoadImageW"
     },
     {
       "ordinal": 105,
-      "name": null
+      "name": null,
+      "forwarder": "KERNEL32.LoadLibraryExW"
     },
     {
       "ordinal": 106,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.LoadMenuW"
     },
     {
       "ordinal": 107,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.LoadStringW"
     },
     {
       "ordinal": 108,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.MessageBoxIndirectW"
     },
     {
       "ordinal": 109,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.ModifyMenuW"
     },
     {
       "ordinal": 110,
-      "name": null
+      "name": null,
+      "forwarder": "GDI32.GetCharWidth32W"
     },
     {
       "ordinal": 111,
-      "name": null
+      "name": null,
+      "forwarder": "GDI32.GetCharacterPlacementW"
     },
     {
       "ordinal": 112,
-      "name": null
+      "name": null,
+      "forwarder": "KERNEL32.CopyFileW"
     },
     {
       "ordinal": 113,
-      "name": null
+      "name": null,
+      "forwarder": "KERNEL32.MoveFileW"
     },
     {
       "ordinal": 114,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.OemToCharW"
     },
     {
       "ordinal": 115,
-      "name": null
+      "name": null,
+      "forwarder": "KERNEL32.OutputDebugStringW"
     },
     {
       "ordinal": 116,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.PeekMessageW"
     },
     {
       "ordinal": 117,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.PostMessageW"
     },
     {
       "ordinal": 118,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.PostThreadMessageW"
     },
     {
       "ordinal": 119,
-      "name": null
+      "name": null,
+      "forwarder": "ADVAPI32.RegCreateKeyW"
     },
     {
       "ordinal": 120,
-      "name": null
+      "name": null,
+      "forwarder": "ADVAPI32.RegCreateKeyExW"
     },
     {
       "ordinal": 121,
-      "name": null
+      "name": null,
+      "forwarder": "ADVAPI32.RegDeleteKeyW"
     },
     {
       "ordinal": 122,
-      "name": null
+      "name": null,
+      "forwarder": "ADVAPI32.RegEnumKeyW"
     },
     {
       "ordinal": 123,
-      "name": null
+      "name": null,
+      "forwarder": "ADVAPI32.RegEnumKeyExW"
     },
     {
       "ordinal": 124,
-      "name": null
+      "name": null,
+      "forwarder": "ADVAPI32.RegOpenKeyW"
     },
     {
       "ordinal": 125,
-      "name": null
+      "name": null,
+      "forwarder": "ADVAPI32.RegOpenKeyExW"
     },
     {
       "ordinal": 126,
-      "name": null
+      "name": null,
+      "forwarder": "ADVAPI32.RegQueryInfoKeyW"
     },
     {
       "ordinal": 127,
-      "name": null
+      "name": null,
+      "forwarder": "ADVAPI32.RegQueryValueW"
     },
     {
       "ordinal": 128,
-      "name": null
+      "name": null,
+      "forwarder": "ADVAPI32.RegQueryValueExW"
     },
     {
       "ordinal": 129,
-      "name": null
+      "name": null,
+      "forwarder": "ADVAPI32.RegSetValueW"
     },
     {
       "ordinal": 130,
-      "name": null
+      "name": null,
+      "forwarder": "ADVAPI32.RegSetValueExW"
     },
     {
       "ordinal": 131,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.RegisterClassW"
     },
     {
       "ordinal": 132,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.RegisterClipboardFormatW"
     },
     {
       "ordinal": 133,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.RegisterWindowMessageW"
     },
     {
       "ordinal": 134,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.RemovePropW"
     },
     {
       "ordinal": 135,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.SendDlgItemMessageW"
     },
     {
       "ordinal": 136,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.SendMessageW"
     },
     {
       "ordinal": 137,
-      "name": null
+      "name": null,
+      "forwarder": "KERNEL32.SetCurrentDirectoryW"
     },
     {
       "ordinal": 138,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.SetDlgItemTextW"
     },
     {
       "ordinal": 139,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.SetMenuItemInfoW"
     },
     {
       "ordinal": 140,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.SetPropW"
     },
     {
       "ordinal": 141,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.SetWindowLongW"
     },
     {
       "ordinal": 142,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.SetWindowsHookExW"
     },
     {
       "ordinal": 143,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.SetWindowTextW"
     },
     {
       "ordinal": 144,
-      "name": null
+      "name": null,
+      "forwarder": "GDI32.StartDocW"
     },
     {
       "ordinal": 145,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.SystemParametersInfoW"
     },
     {
       "ordinal": 146,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.TranslateAcceleratorW"
     },
     {
       "ordinal": 147,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.UnregisterClassW"
     },
     {
       "ordinal": 148,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.VkKeyScanW"
     },
     {
       "ordinal": 149,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.WinHelpW"
     },
     {
       "ordinal": 150,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.wvsprintfW"
     },
     {
       "ordinal": 151,
@@ -1857,7 +1972,8 @@
     },
     {
       "ordinal": 159,
-      "name": null
+      "name": null,
+      "forwarder": "KERNEL32.CompareStringW"
     },
     {
       "ordinal": 160,
@@ -2413,63 +2529,78 @@
     },
     {
       "ordinal": 298,
-      "name": null
+      "name": null,
+      "forwarder": "KERNEL32.WritePrivateProfileStringW"
     },
     {
       "ordinal": 299,
-      "name": null
+      "name": null,
+      "forwarder": "GDI32.ExtTextOutW"
     },
     {
       "ordinal": 300,
-      "name": null
+      "name": null,
+      "forwarder": "GDI32.CreateFontW"
     },
     {
       "ordinal": 301,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.DrawTextExW"
     },
     {
       "ordinal": 302,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.GetMenuItemInfoW"
     },
     {
       "ordinal": 303,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.InsertMenuItemW"
     },
     {
       "ordinal": 304,
-      "name": null
+      "name": null,
+      "forwarder": "GDI32.CreateMetaFileW"
     },
     {
       "ordinal": 305,
-      "name": null
+      "name": null,
+      "forwarder": "KERNEL32.CreateMutexW"
     },
     {
       "ordinal": 306,
-      "name": null
+      "name": null,
+      "forwarder": "KERNEL32.ExpandEnvironmentStringsW"
     },
     {
       "ordinal": 307,
-      "name": null
+      "name": null,
+      "forwarder": "KERNEL32.CreateSemaphoreW"
     },
     {
       "ordinal": 308,
-      "name": null
+      "name": null,
+      "forwarder": "KERNEL32.IsBadStringPtrW"
     },
     {
       "ordinal": 309,
-      "name": null
+      "name": null,
+      "forwarder": "KERNEL32.LoadLibraryW"
     },
     {
       "ordinal": 310,
-      "name": null
+      "name": null,
+      "forwarder": "KERNEL32.GetTimeFormatW"
     },
     {
       "ordinal": 311,
-      "name": null
+      "name": null,
+      "forwarder": "KERNEL32.GetDateFormatW"
     },
     {
       "ordinal": 312,
-      "name": null
+      "name": null,
+      "forwarder": "KERNEL32.GetPrivateProfileStringW"
     },
     {
       "ordinal": 313,
@@ -2477,11 +2608,13 @@
     },
     {
       "ordinal": 314,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.RegisterClassExW"
     },
     {
       "ordinal": 315,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.GetClassInfoExW"
     },
     {
       "ordinal": 316,
@@ -2497,7 +2630,8 @@
     },
     {
       "ordinal": 319,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.FindWindowExW"
     },
     {
       "ordinal": 320,
@@ -2549,7 +2683,8 @@
     },
     {
       "ordinal": 332,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.CallMsgFilterW"
     },
     {
       "ordinal": 333,
@@ -2573,23 +2708,28 @@
     },
     {
       "ordinal": 338,
-      "name": null
+      "name": null,
+      "forwarder": "KERNEL32.SetFileAttributesW"
     },
     {
       "ordinal": 339,
-      "name": null
+      "name": null,
+      "forwarder": "KERNEL32.GetNumberFormatW"
     },
     {
       "ordinal": 340,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.MessageBoxW"
     },
     {
       "ordinal": 341,
-      "name": null
+      "name": null,
+      "forwarder": "KERNEL32.FindNextFileW"
     },
     {
       "ordinal": 342,
-      "name": null
+      "name": null,
+      "forwarder": "KERNEL32.InterlockedCompareExchange"
     },
     {
       "ordinal": 343,
@@ -2609,7 +2749,8 @@
     },
     {
       "ordinal": 347,
-      "name": null
+      "name": null,
+      "forwarder": "ADVAPI32.RegDeleteValueW"
     },
     {
       "ordinal": 348,
@@ -2653,19 +2794,23 @@
     },
     {
       "ordinal": 359,
-      "name": null
+      "name": null,
+      "forwarder": "KERNEL32.OpenEventW"
     },
     {
       "ordinal": 360,
-      "name": null
+      "name": null,
+      "forwarder": "KERNEL32.RemoveDirectoryW"
     },
     {
       "ordinal": 361,
-      "name": null
+      "name": null,
+      "forwarder": "KERNEL32.GetShortPathNameW"
     },
     {
       "ordinal": 362,
-      "name": null
+      "name": null,
+      "forwarder": "ADVAPI32.GetUserNameW"
     },
     {
       "ordinal": 363,
@@ -2681,19 +2826,23 @@
     },
     {
       "ordinal": 366,
-      "name": null
+      "name": null,
+      "forwarder": "ADVAPI32.RegEnumValueW"
     },
     {
       "ordinal": 367,
-      "name": null
+      "name": null,
+      "forwarder": "KERNEL32.WritePrivateProfileStructW"
     },
     {
       "ordinal": 368,
-      "name": null
+      "name": null,
+      "forwarder": "KERNEL32.GetPrivateProfileStructW"
     },
     {
       "ordinal": 369,
-      "name": null
+      "name": null,
+      "forwarder": "KERNEL32.CreateProcessW"
     },
     {
       "ordinal": 370,
@@ -2701,15 +2850,18 @@
     },
     {
       "ordinal": 371,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.DdeInitializeW"
     },
     {
       "ordinal": 372,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.DdeCreateStringHandleW"
     },
     {
       "ordinal": 373,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.DdeQueryStringW"
     },
     {
       "ordinal": 374,
@@ -2785,11 +2937,13 @@
     },
     {
       "ordinal": 392,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.EndDialog"
     },
     {
       "ordinal": 393,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.CreateDialogIndirectParamW"
     },
     {
       "ordinal": 394,
@@ -2917,19 +3071,23 @@
     },
     {
       "ordinal": 425,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.DeleteMenu"
     },
     {
       "ordinal": 426,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.DestroyMenu"
     },
     {
       "ordinal": 427,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.TrackPopupMenu"
     },
     {
       "ordinal": 428,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.TrackPopupMenuEx"
     },
     {
       "ordinal": 429,
@@ -2953,7 +3111,8 @@
     },
     {
       "ordinal": 434,
-      "name": null
+      "name": null,
+      "forwarder": "USER32.SendMessageTimeoutW"
     },
     {
       "ordinal": 435,
@@ -2985,15 +3144,18 @@
     },
     {
       "ordinal": 442,
-      "name": null
+      "name": null,
+      "forwarder": "KERNEL32.GetEnvironmentVariableW"
     },
     {
       "ordinal": 443,
-      "name": null
+      "name": null,
+      "forwarder": "KERNEL32.GetSystemWindowsDirectoryA"
     },
     {
       "ordinal": 444,
-      "name": null
+      "name": null,
+      "forwarder": "KERNEL32.GetSystemWindowsDirectoryW"
     },
     {
       "ordinal": 445,
@@ -3045,11 +3207,13 @@
     },
     {
       "ordinal": 457,
-      "name": null
+      "name": null,
+      "forwarder": "KERNEL32.GetLongPathNameW"
     },
     {
       "ordinal": 458,
-      "name": null
+      "name": null,
+      "forwarder": "KERNEL32.GetLongPathNameA"
     },
     {
       "ordinal": 459,
@@ -3169,11 +3333,13 @@
     },
     {
       "ordinal": 489,
-      "name": null
+      "name": null,
+      "forwarder": "KERNEL32.GlobalAddAtomW"
     },
     {
       "ordinal": 490,
-      "name": null
+      "name": null,
+      "forwarder": "KERNEL32.GlobalFindAtomW"
     },
     {
       "ordinal": 491,
@@ -3361,7 +3527,8 @@
     },
     {
       "ordinal": 543,
-      "name": null
+      "name": null,
+      "forwarder": "GDI32.CreateColorSpaceW"
     },
     {
       "ordinal": 544,

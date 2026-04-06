@@ -1,0 +1,399 @@
+{
+  "Version": "6.0.6002.18005-I386",
+  "md5": "9a7f4b2edacd11444d048aa19cbb26af",
+  "imphash": "9a7f4b2edacd11444d048aa19cbb26af",
+  "InternalName": "POWRPROF",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "Power Profile Helper DLL",
+  "FileVersion": "6.0.6002.18005 (lh_sp2rtm.090410-1830)",
+  "ProductVersion": "6.0.6002.18005",
+  "PeChecksum": 133083,
+  "Size": 98816,
+  "Machine": "I386",
+  "exports": [
+    {
+      "ordinal": 1,
+      "name": "CallNtPowerInformation"
+    },
+    {
+      "ordinal": 2,
+      "name": "CanUserWritePwrScheme"
+    },
+    {
+      "ordinal": 3,
+      "name": "DeletePwrScheme"
+    },
+    {
+      "ordinal": 4,
+      "name": "DevicePowerClose"
+    },
+    {
+      "ordinal": 5,
+      "name": "DevicePowerEnumDevices"
+    },
+    {
+      "ordinal": 6,
+      "name": "DevicePowerOpen"
+    },
+    {
+      "ordinal": 7,
+      "name": "DevicePowerSetDeviceState"
+    },
+    {
+      "ordinal": 8,
+      "name": "EnumPwrSchemes"
+    },
+    {
+      "ordinal": 9,
+      "name": "GUIDFormatToGlobalPowerPolicy"
+    },
+    {
+      "ordinal": 10,
+      "name": "GUIDFormatToPowerPolicy"
+    },
+    {
+      "ordinal": 11,
+      "name": "GetActivePwrScheme"
+    },
+    {
+      "ordinal": 12,
+      "name": "GetCurrentPowerPolicies"
+    },
+    {
+      "ordinal": 13,
+      "name": "GetPwrCapabilities"
+    },
+    {
+      "ordinal": 14,
+      "name": "GetPwrDiskSpindownRange"
+    },
+    {
+      "ordinal": 15,
+      "name": "IsAdminOverrideActive"
+    },
+    {
+      "ordinal": 16,
+      "name": "IsPwrHibernateAllowed"
+    },
+    {
+      "ordinal": 17,
+      "name": "IsPwrShutdownAllowed"
+    },
+    {
+      "ordinal": 18,
+      "name": "IsPwrSuspendAllowed"
+    },
+    {
+      "ordinal": 19,
+      "name": "LoadCurrentPwrScheme"
+    },
+    {
+      "ordinal": 20,
+      "name": "MergeLegacyPwrScheme"
+    },
+    {
+      "ordinal": 21,
+      "name": "PowerCanRestoreIndividualDefaultPowerScheme"
+    },
+    {
+      "ordinal": 22,
+      "name": "PowerCreatePossibleSetting"
+    },
+    {
+      "ordinal": 23,
+      "name": "PowerCreateSetting"
+    },
+    {
+      "ordinal": 24,
+      "name": "PowerCustomizePlatformPowerSettings"
+    },
+    {
+      "ordinal": 25,
+      "name": "PowerDebugDifPowerPolicies"
+    },
+    {
+      "ordinal": 26,
+      "name": "PowerDebugDifSystemPowerPolicies"
+    },
+    {
+      "ordinal": 27,
+      "name": "PowerDebugDumpPowerPolicy"
+    },
+    {
+      "ordinal": 28,
+      "name": "PowerDebugDumpPowerScheme"
+    },
+    {
+      "ordinal": 29,
+      "name": "PowerDebugDumpSystemPowerCapabilities"
+    },
+    {
+      "ordinal": 30,
+      "name": "PowerDebugDumpSystemPowerPolicy"
+    },
+    {
+      "ordinal": 31,
+      "name": "PowerDeleteScheme"
+    },
+    {
+      "ordinal": 32,
+      "name": "PowerDeterminePlatformRole"
+    },
+    {
+      "ordinal": 33,
+      "name": "PowerDuplicateScheme"
+    },
+    {
+      "ordinal": 34,
+      "name": "PowerEnumerate"
+    },
+    {
+      "ordinal": 35,
+      "name": "PowerGetActiveScheme"
+    },
+    {
+      "ordinal": 36,
+      "name": "PowerImportPowerScheme"
+    },
+    {
+      "ordinal": 37,
+      "name": "PowerInternalDeleteScheme"
+    },
+    {
+      "ordinal": 38,
+      "name": "PowerInternalDuplicateScheme"
+    },
+    {
+      "ordinal": 39,
+      "name": "PowerInternalImportPowerScheme"
+    },
+    {
+      "ordinal": 40,
+      "name": "PowerInternalRestoreDefaultPowerSchemes"
+    },
+    {
+      "ordinal": 41,
+      "name": "PowerInternalRestoreIndividualDefaultPowerScheme"
+    },
+    {
+      "ordinal": 42,
+      "name": "PowerInternalSetActiveScheme"
+    },
+    {
+      "ordinal": 43,
+      "name": "PowerInternalWriteToUserPowerKey"
+    },
+    {
+      "ordinal": 44,
+      "name": "PowerOpenSystemPowerKey"
+    },
+    {
+      "ordinal": 45,
+      "name": "PowerOpenUserPowerKey"
+    },
+    {
+      "ordinal": 46,
+      "name": "PowerPolicyToGUIDFormat"
+    },
+    {
+      "ordinal": 47,
+      "name": "PowerReadACDefaultIndex"
+    },
+    {
+      "ordinal": 48,
+      "name": "PowerReadACValue"
+    },
+    {
+      "ordinal": 49,
+      "name": "PowerReadACValueIndex"
+    },
+    {
+      "ordinal": 50,
+      "name": "PowerReadDCDefaultIndex"
+    },
+    {
+      "ordinal": 51,
+      "name": "PowerReadDCValue"
+    },
+    {
+      "ordinal": 52,
+      "name": "PowerReadDCValueIndex"
+    },
+    {
+      "ordinal": 53,
+      "name": "PowerReadDescription"
+    },
+    {
+      "ordinal": 54,
+      "name": "PowerReadFriendlyName"
+    },
+    {
+      "ordinal": 55,
+      "name": "PowerReadIconResourceSpecifier"
+    },
+    {
+      "ordinal": 56,
+      "name": "PowerReadPossibleDescription"
+    },
+    {
+      "ordinal": 57,
+      "name": "PowerReadPossibleFriendlyName"
+    },
+    {
+      "ordinal": 58,
+      "name": "PowerReadPossibleValue"
+    },
+    {
+      "ordinal": 59,
+      "name": "PowerReadSecurityDescriptor"
+    },
+    {
+      "ordinal": 60,
+      "name": "PowerReadSettingAttributes"
+    },
+    {
+      "ordinal": 61,
+      "name": "PowerReadValueIncrement"
+    },
+    {
+      "ordinal": 62,
+      "name": "PowerReadValueMax"
+    },
+    {
+      "ordinal": 63,
+      "name": "PowerReadValueMin"
+    },
+    {
+      "ordinal": 64,
+      "name": "PowerReadValueUnitsSpecifier"
+    },
+    {
+      "ordinal": 65,
+      "name": "PowerRemovePowerSetting"
+    },
+    {
+      "ordinal": 66,
+      "name": "PowerReplaceDefaultPowerSchemes"
+    },
+    {
+      "ordinal": 67,
+      "name": "PowerRestoreDefaultPowerSchemes"
+    },
+    {
+      "ordinal": 68,
+      "name": "PowerRestoreIndividualDefaultPowerScheme"
+    },
+    {
+      "ordinal": 69,
+      "name": "PowerSetActiveScheme"
+    },
+    {
+      "ordinal": 70,
+      "name": "PowerSettingAccessCheck"
+    },
+    {
+      "ordinal": 71,
+      "name": "PowerWriteACDefaultIndex"
+    },
+    {
+      "ordinal": 72,
+      "name": "PowerWriteACValueIndex"
+    },
+    {
+      "ordinal": 73,
+      "name": "PowerWriteDCDefaultIndex"
+    },
+    {
+      "ordinal": 74,
+      "name": "PowerWriteDCValueIndex"
+    },
+    {
+      "ordinal": 75,
+      "name": "PowerWriteDescription"
+    },
+    {
+      "ordinal": 76,
+      "name": "PowerWriteFriendlyName"
+    },
+    {
+      "ordinal": 77,
+      "name": "PowerWriteIconResourceSpecifier"
+    },
+    {
+      "ordinal": 78,
+      "name": "PowerWritePossibleDescription"
+    },
+    {
+      "ordinal": 79,
+      "name": "PowerWritePossibleFriendlyName"
+    },
+    {
+      "ordinal": 80,
+      "name": "PowerWritePossibleValue"
+    },
+    {
+      "ordinal": 81,
+      "name": "PowerWriteSecurityDescriptor"
+    },
+    {
+      "ordinal": 82,
+      "name": "PowerWriteSettingAttributes"
+    },
+    {
+      "ordinal": 83,
+      "name": "PowerWriteValueIncrement"
+    },
+    {
+      "ordinal": 84,
+      "name": "PowerWriteValueMax"
+    },
+    {
+      "ordinal": 85,
+      "name": "PowerWriteValueMin"
+    },
+    {
+      "ordinal": 86,
+      "name": "PowerWriteValueUnitsSpecifier"
+    },
+    {
+      "ordinal": 87,
+      "name": "ReadGlobalPwrPolicy"
+    },
+    {
+      "ordinal": 88,
+      "name": "ReadProcessorPwrScheme"
+    },
+    {
+      "ordinal": 89,
+      "name": "ReadPwrScheme"
+    },
+    {
+      "ordinal": 90,
+      "name": "SetActivePwrScheme"
+    },
+    {
+      "ordinal": 91,
+      "name": "SetSuspendState"
+    },
+    {
+      "ordinal": 92,
+      "name": "Sysprep_Generalize_Power"
+    },
+    {
+      "ordinal": 93,
+      "name": "ValidatePowerPolicies"
+    },
+    {
+      "ordinal": 94,
+      "name": "WriteGlobalPwrPolicy"
+    },
+    {
+      "ordinal": 95,
+      "name": "WriteProcessorPwrScheme"
+    },
+    {
+      "ordinal": 96,
+      "name": "WritePwrScheme"
+    }
+  ]
+}

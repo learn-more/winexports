@@ -1,0 +1,40 @@
+{
+  "Version": "6.0.6000.16386-I386",
+  "md5": "6f29236ab5926100972924bd29d9d225",
+  "imphash": "6f29236ab5926100972924bd29d9d225",
+  "InternalName": "normaliz",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "Unicode Normalization DLL",
+  "FileVersion": "6.0.6000.16386 (vista_rtm.061101-2205)",
+  "ProductVersion": "6.0.6000.16386",
+  "PeChecksum": 51117,
+  "Size": 2560,
+  "Machine": "I386",
+  "exports": [
+    {
+      "ordinal": 1,
+      "name": "IdnToAscii",
+      "forwarder": "kernel32.IdnToAscii"
+    },
+    {
+      "ordinal": 2,
+      "name": "IdnToNameprepUnicode",
+      "forwarder": "kernel32.IdnToNameprepUnicode"
+    },
+    {
+      "ordinal": 3,
+      "name": "IdnToUnicode",
+      "forwarder": "kernel32.IdnToUnicode"
+    },
+    {
+      "ordinal": 4,
+      "name": "IsNormalizedString",
+      "forwarder": "kernel32.IsNormalizedString"
+    },
+    {
+      "ordinal": 5,
+      "name": "NormalizeString",
+      "forwarder": "kernel32.NormalizeString"
+    }
+  ]
+}

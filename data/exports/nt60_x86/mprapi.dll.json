@@ -1,0 +1,483 @@
+{
+  "Version": "6.0.6002.18005-I386",
+  "md5": "56e315acfb08a177b4d01e42b9044db5",
+  "imphash": "56e315acfb08a177b4d01e42b9044db5",
+  "InternalName": "mprapi.dll",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "Windows NT MP Router Administration DLL",
+  "FileVersion": "6.0.6002.18005 (lh_sp2rtm.090410-1830)",
+  "ProductVersion": "6.0.6002.18005",
+  "PeChecksum": 139929,
+  "Size": 97792,
+  "Machine": "I386",
+  "exports": [
+    {
+      "ordinal": 1,
+      "name": "CompressPhoneNumber"
+    },
+    {
+      "ordinal": 2,
+      "name": "MprAdminBufferFree"
+    },
+    {
+      "ordinal": 3,
+      "name": "MprAdminConnectionClearStats"
+    },
+    {
+      "ordinal": 4,
+      "name": "MprAdminConnectionEnum"
+    },
+    {
+      "ordinal": 5,
+      "name": "MprAdminConnectionGetInfo"
+    },
+    {
+      "ordinal": 6,
+      "name": "MprAdminConnectionRemoveQuarantine"
+    },
+    {
+      "ordinal": 7,
+      "name": "MprAdminDeregisterConnectionNotification"
+    },
+    {
+      "ordinal": 8,
+      "name": "MprAdminDeviceEnum"
+    },
+    {
+      "ordinal": 9,
+      "name": "MprAdminEstablishDomainRasServer"
+    },
+    {
+      "ordinal": 10,
+      "name": "MprAdminGetErrorString"
+    },
+    {
+      "ordinal": 11,
+      "name": "MprAdminGetPDCServer"
+    },
+    {
+      "ordinal": 12,
+      "name": "MprAdminInterfaceConnect"
+    },
+    {
+      "ordinal": 13,
+      "name": "MprAdminInterfaceCreate"
+    },
+    {
+      "ordinal": 14,
+      "name": "MprAdminInterfaceDelete"
+    },
+    {
+      "ordinal": 15,
+      "name": "MprAdminInterfaceDeviceGetInfo"
+    },
+    {
+      "ordinal": 16,
+      "name": "MprAdminInterfaceDeviceSetInfo"
+    },
+    {
+      "ordinal": 17,
+      "name": "MprAdminInterfaceDisconnect"
+    },
+    {
+      "ordinal": 18,
+      "name": "MprAdminInterfaceEnum"
+    },
+    {
+      "ordinal": 19,
+      "name": "MprAdminInterfaceGetCredentials"
+    },
+    {
+      "ordinal": 20,
+      "name": "MprAdminInterfaceGetCredentialsEx"
+    },
+    {
+      "ordinal": 21,
+      "name": "MprAdminInterfaceGetHandle"
+    },
+    {
+      "ordinal": 22,
+      "name": "MprAdminInterfaceGetInfo"
+    },
+    {
+      "ordinal": 23,
+      "name": "MprAdminInterfaceQueryUpdateResult"
+    },
+    {
+      "ordinal": 24,
+      "name": "MprAdminInterfaceSetCredentials"
+    },
+    {
+      "ordinal": 25,
+      "name": "MprAdminInterfaceSetCredentialsEx"
+    },
+    {
+      "ordinal": 26,
+      "name": "MprAdminInterfaceSetInfo"
+    },
+    {
+      "ordinal": 27,
+      "name": "MprAdminInterfaceTransportAdd"
+    },
+    {
+      "ordinal": 28,
+      "name": "MprAdminInterfaceTransportGetInfo"
+    },
+    {
+      "ordinal": 29,
+      "name": "MprAdminInterfaceTransportRemove"
+    },
+    {
+      "ordinal": 30,
+      "name": "MprAdminInterfaceTransportSetInfo"
+    },
+    {
+      "ordinal": 31,
+      "name": "MprAdminInterfaceUpdatePhonebookInfo"
+    },
+    {
+      "ordinal": 32,
+      "name": "MprAdminInterfaceUpdateRoutes"
+    },
+    {
+      "ordinal": 33,
+      "name": "MprAdminIsDomainRasServer"
+    },
+    {
+      "ordinal": 34,
+      "name": "MprAdminIsServiceRunning"
+    },
+    {
+      "ordinal": 35,
+      "name": "MprAdminMIBBufferFree"
+    },
+    {
+      "ordinal": 36,
+      "name": "MprAdminMIBEntryCreate"
+    },
+    {
+      "ordinal": 37,
+      "name": "MprAdminMIBEntryDelete"
+    },
+    {
+      "ordinal": 38,
+      "name": "MprAdminMIBEntryGet"
+    },
+    {
+      "ordinal": 39,
+      "name": "MprAdminMIBEntryGetFirst"
+    },
+    {
+      "ordinal": 40,
+      "name": "MprAdminMIBEntryGetNext"
+    },
+    {
+      "ordinal": 41,
+      "name": "MprAdminMIBEntrySet"
+    },
+    {
+      "ordinal": 42,
+      "name": "MprAdminMIBServerConnect"
+    },
+    {
+      "ordinal": 43,
+      "name": "MprAdminMIBServerDisconnect"
+    },
+    {
+      "ordinal": 44,
+      "name": "MprAdminPortClearStats"
+    },
+    {
+      "ordinal": 45,
+      "name": "MprAdminPortDisconnect"
+    },
+    {
+      "ordinal": 46,
+      "name": "MprAdminPortEnum"
+    },
+    {
+      "ordinal": 47,
+      "name": "MprAdminPortGetInfo"
+    },
+    {
+      "ordinal": 48,
+      "name": "MprAdminPortReset"
+    },
+    {
+      "ordinal": 49,
+      "name": "MprAdminRegisterConnectionNotification"
+    },
+    {
+      "ordinal": 50,
+      "name": "MprAdminSendUserMessage"
+    },
+    {
+      "ordinal": 51,
+      "name": "MprAdminServerConnect"
+    },
+    {
+      "ordinal": 52,
+      "name": "MprAdminServerDisconnect"
+    },
+    {
+      "ordinal": 53,
+      "name": "MprAdminServerGetCredentials"
+    },
+    {
+      "ordinal": 54,
+      "name": "MprAdminServerGetInfo"
+    },
+    {
+      "ordinal": 55,
+      "name": "MprAdminServerSetCredentials"
+    },
+    {
+      "ordinal": 56,
+      "name": "MprAdminServerSetInfo"
+    },
+    {
+      "ordinal": 57,
+      "name": "MprAdminTransportCreate"
+    },
+    {
+      "ordinal": 58,
+      "name": "MprAdminTransportGetInfo"
+    },
+    {
+      "ordinal": 59,
+      "name": "MprAdminTransportSetInfo"
+    },
+    {
+      "ordinal": 60,
+      "name": "MprAdminUpgradeUsers"
+    },
+    {
+      "ordinal": 61,
+      "name": "MprAdminUserClose"
+    },
+    {
+      "ordinal": 62,
+      "name": "MprAdminUserGetInfo"
+    },
+    {
+      "ordinal": 63,
+      "name": "MprAdminUserOpen"
+    },
+    {
+      "ordinal": 64,
+      "name": "MprAdminUserRead"
+    },
+    {
+      "ordinal": 65,
+      "name": "MprAdminUserReadProfFlags"
+    },
+    {
+      "ordinal": 66,
+      "name": "MprAdminUserServerConnect"
+    },
+    {
+      "ordinal": 67,
+      "name": "MprAdminUserServerDisconnect"
+    },
+    {
+      "ordinal": 68,
+      "name": "MprAdminUserSetInfo"
+    },
+    {
+      "ordinal": 69,
+      "name": "MprAdminUserWrite"
+    },
+    {
+      "ordinal": 70,
+      "name": "MprAdminUserWriteProfFlags"
+    },
+    {
+      "ordinal": 71,
+      "name": "MprConfigBufferFree"
+    },
+    {
+      "ordinal": 72,
+      "name": "MprConfigFilterGetInfo"
+    },
+    {
+      "ordinal": 73,
+      "name": "MprConfigFilterSetInfo"
+    },
+    {
+      "ordinal": 74,
+      "name": "MprConfigGetFriendlyName"
+    },
+    {
+      "ordinal": 75,
+      "name": "MprConfigGetGuidName"
+    },
+    {
+      "ordinal": 76,
+      "name": "MprConfigInterfaceCreate"
+    },
+    {
+      "ordinal": 77,
+      "name": "MprConfigInterfaceDelete"
+    },
+    {
+      "ordinal": 78,
+      "name": "MprConfigInterfaceEnum"
+    },
+    {
+      "ordinal": 79,
+      "name": "MprConfigInterfaceGetHandle"
+    },
+    {
+      "ordinal": 80,
+      "name": "MprConfigInterfaceGetInfo"
+    },
+    {
+      "ordinal": 81,
+      "name": "MprConfigInterfaceSetInfo"
+    },
+    {
+      "ordinal": 82,
+      "name": "MprConfigInterfaceTransportAdd"
+    },
+    {
+      "ordinal": 83,
+      "name": "MprConfigInterfaceTransportEnum"
+    },
+    {
+      "ordinal": 84,
+      "name": "MprConfigInterfaceTransportGetHandle"
+    },
+    {
+      "ordinal": 85,
+      "name": "MprConfigInterfaceTransportGetInfo"
+    },
+    {
+      "ordinal": 86,
+      "name": "MprConfigInterfaceTransportRemove"
+    },
+    {
+      "ordinal": 87,
+      "name": "MprConfigInterfaceTransportSetInfo"
+    },
+    {
+      "ordinal": 88,
+      "name": "MprConfigServerBackup"
+    },
+    {
+      "ordinal": 89,
+      "name": "MprConfigServerConnect"
+    },
+    {
+      "ordinal": 90,
+      "name": "MprConfigServerDisconnect"
+    },
+    {
+      "ordinal": 91,
+      "name": "MprConfigServerGetInfo"
+    },
+    {
+      "ordinal": 92,
+      "name": "MprConfigServerInstall"
+    },
+    {
+      "ordinal": 93,
+      "name": "MprConfigServerRefresh"
+    },
+    {
+      "ordinal": 94,
+      "name": "MprConfigServerRestore"
+    },
+    {
+      "ordinal": 95,
+      "name": "MprConfigServerSetInfo"
+    },
+    {
+      "ordinal": 96,
+      "name": "MprConfigTransportCreate"
+    },
+    {
+      "ordinal": 97,
+      "name": "MprConfigTransportDelete"
+    },
+    {
+      "ordinal": 98,
+      "name": "MprConfigTransportEnum"
+    },
+    {
+      "ordinal": 99,
+      "name": "MprConfigTransportGetHandle"
+    },
+    {
+      "ordinal": 100,
+      "name": "MprConfigTransportGetInfo"
+    },
+    {
+      "ordinal": 101,
+      "name": "MprConfigTransportSetInfo"
+    },
+    {
+      "ordinal": 102,
+      "name": "MprDomainQueryAccess"
+    },
+    {
+      "ordinal": 103,
+      "name": "MprDomainQueryRasServer"
+    },
+    {
+      "ordinal": 104,
+      "name": "MprDomainRegisterRasServer"
+    },
+    {
+      "ordinal": 105,
+      "name": "MprDomainSetAccess"
+    },
+    {
+      "ordinal": 106,
+      "name": "MprGetUsrParams"
+    },
+    {
+      "ordinal": 107,
+      "name": "MprInfoBlockAdd"
+    },
+    {
+      "ordinal": 108,
+      "name": "MprInfoBlockFind"
+    },
+    {
+      "ordinal": 109,
+      "name": "MprInfoBlockQuerySize"
+    },
+    {
+      "ordinal": 110,
+      "name": "MprInfoBlockRemove"
+    },
+    {
+      "ordinal": 111,
+      "name": "MprInfoBlockSet"
+    },
+    {
+      "ordinal": 112,
+      "name": "MprInfoCreate"
+    },
+    {
+      "ordinal": 113,
+      "name": "MprInfoDelete"
+    },
+    {
+      "ordinal": 114,
+      "name": "MprInfoDuplicate"
+    },
+    {
+      "ordinal": 115,
+      "name": "MprInfoRemoveAll"
+    },
+    {
+      "ordinal": 116,
+      "name": "MprPortSetUsage"
+    },
+    {
+      "ordinal": 117,
+      "name": "RasPrivilegeAndCallBackNumber"
+    }
+  ]
+}

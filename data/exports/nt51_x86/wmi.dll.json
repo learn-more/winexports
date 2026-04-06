@@ -1,0 +1,240 @@
+{
+  "Version": "5.1.2600.2180-I386",
+  "md5": "e682696d7f982494a8cfc80c5b59d422",
+  "imphash": "e682696d7f982494a8cfc80c5b59d422",
+  "InternalName": "wmi",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "WMI DC and DP functionality",
+  "FileVersion": "5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)",
+  "ProductVersion": "5.1.2600.2180",
+  "PeChecksum": 60069,
+  "Size": 5632,
+  "Machine": "I386",
+  "exports": [
+    {
+      "ordinal": 1,
+      "name": "CloseTrace",
+      "forwarder": "AdvApi32.CloseTrace"
+    },
+    {
+      "ordinal": 2,
+      "name": "ControlTraceA",
+      "forwarder": "AdvApi32.ControlTraceA"
+    },
+    {
+      "ordinal": 3,
+      "name": "ControlTraceW",
+      "forwarder": "AdvApi32.ControlTraceW"
+    },
+    {
+      "ordinal": 4,
+      "name": "CreateTraceInstanceId",
+      "forwarder": "AdvApi32.CreateTraceInstanceId"
+    },
+    {
+      "ordinal": 5,
+      "name": "EnableTrace",
+      "forwarder": "AdvApi32.EnableTrace"
+    },
+    {
+      "ordinal": 6,
+      "name": "GetTraceEnableFlags",
+      "forwarder": "AdvApi32.GetTraceEnableFlags"
+    },
+    {
+      "ordinal": 7,
+      "name": "GetTraceEnableLevel",
+      "forwarder": "AdvApi32.GetTraceEnableLevel"
+    },
+    {
+      "ordinal": 8,
+      "name": "GetTraceLoggerHandle",
+      "forwarder": "AdvApi32.GetTraceLoggerHandle"
+    },
+    {
+      "ordinal": 9,
+      "name": "OpenTraceA",
+      "forwarder": "AdvApi32.OpenTraceA"
+    },
+    {
+      "ordinal": 10,
+      "name": "OpenTraceW",
+      "forwarder": "AdvApi32.OpenTraceW"
+    },
+    {
+      "ordinal": 11,
+      "name": "ProcessTrace",
+      "forwarder": "AdvApi32.ProcessTrace"
+    },
+    {
+      "ordinal": 12,
+      "name": "QueryAllTracesA",
+      "forwarder": "AdvApi32.QueryAllTracesA"
+    },
+    {
+      "ordinal": 13,
+      "name": "QueryAllTracesW",
+      "forwarder": "AdvApi32.QueryAllTracesW"
+    },
+    {
+      "ordinal": 14,
+      "name": "RegisterTraceGuidsA",
+      "forwarder": "AdvApi32.RegisterTraceGuidsA"
+    },
+    {
+      "ordinal": 15,
+      "name": "RegisterTraceGuidsW",
+      "forwarder": "AdvApi32.RegisterTraceGuidsW"
+    },
+    {
+      "ordinal": 16,
+      "name": "RemoveTraceCallback",
+      "forwarder": "AdvApi32.RemoveTraceCallback"
+    },
+    {
+      "ordinal": 17,
+      "name": "SetTraceCallback",
+      "forwarder": "AdvApi32.SetTraceCallback"
+    },
+    {
+      "ordinal": 18,
+      "name": "StartTraceA",
+      "forwarder": "AdvApi32.StartTraceA"
+    },
+    {
+      "ordinal": 19,
+      "name": "StartTraceW",
+      "forwarder": "AdvApi32.StartTraceW"
+    },
+    {
+      "ordinal": 20,
+      "name": "TraceEvent",
+      "forwarder": "AdvApi32.TraceEvent"
+    },
+    {
+      "ordinal": 21,
+      "name": "TraceEventInstance",
+      "forwarder": "AdvApi32.TraceEventInstance"
+    },
+    {
+      "ordinal": 22,
+      "name": "UnregisterTraceGuids",
+      "forwarder": "AdvApi32.UnregisterTraceGuids"
+    },
+    {
+      "ordinal": 23,
+      "name": "WmiCloseBlock",
+      "forwarder": "AdvApi32.WmiCloseBlock"
+    },
+    {
+      "ordinal": 24,
+      "name": "WmiDevInstToInstanceNameA",
+      "forwarder": "AdvApi32.WmiDevInstToInstanceNameA"
+    },
+    {
+      "ordinal": 25,
+      "name": "WmiDevInstToInstanceNameW",
+      "forwarder": "AdvApi32.WmiDevInstToInstanceNameW"
+    },
+    {
+      "ordinal": 26,
+      "name": "WmiEnumerateGuids",
+      "forwarder": "AdvApi32.WmiEnumerateGuids"
+    },
+    {
+      "ordinal": 27,
+      "name": "WmiExecuteMethodA",
+      "forwarder": "AdvApi32.WmiExecuteMethodA"
+    },
+    {
+      "ordinal": 28,
+      "name": "WmiExecuteMethodW",
+      "forwarder": "AdvApi32.WmiExecuteMethodW"
+    },
+    {
+      "ordinal": 29,
+      "name": "WmiFileHandleToInstanceNameA",
+      "forwarder": "AdvApi32.WmiFileHandleToInstanceNameA"
+    },
+    {
+      "ordinal": 30,
+      "name": "WmiFileHandleToInstanceNameW",
+      "forwarder": "AdvApi32.WmiFileHandleToInstanceNameW"
+    },
+    {
+      "ordinal": 31,
+      "name": "WmiFreeBuffer",
+      "forwarder": "AdvApi32.WmiFreeBuffer"
+    },
+    {
+      "ordinal": 32,
+      "name": "WmiMofEnumerateResourcesA",
+      "forwarder": "AdvApi32.WmiMofEnumerateResourcesA"
+    },
+    {
+      "ordinal": 33,
+      "name": "WmiMofEnumerateResourcesW",
+      "forwarder": "AdvApi32.WmiMofEnumerateResourcesW"
+    },
+    {
+      "ordinal": 34,
+      "name": "WmiNotificationRegistrationA",
+      "forwarder": "AdvApi32.WmiNotificationRegistrationA"
+    },
+    {
+      "ordinal": 35,
+      "name": "WmiNotificationRegistrationW",
+      "forwarder": "AdvApi32.WmiNotificationRegistrationW"
+    },
+    {
+      "ordinal": 36,
+      "name": "WmiOpenBlock",
+      "forwarder": "AdvApi32.WmiOpenBlock"
+    },
+    {
+      "ordinal": 37,
+      "name": "WmiQueryAllDataA",
+      "forwarder": "AdvApi32.WmiQueryAllDataA"
+    },
+    {
+      "ordinal": 38,
+      "name": "WmiQueryAllDataW",
+      "forwarder": "AdvApi32.WmiQueryAllDataW"
+    },
+    {
+      "ordinal": 39,
+      "name": "WmiQueryGuidInformation",
+      "forwarder": "AdvApi32.WmiQueryGuidInformation"
+    },
+    {
+      "ordinal": 40,
+      "name": "WmiQuerySingleInstanceA",
+      "forwarder": "AdvApi32.WmiQuerySingleInstanceA"
+    },
+    {
+      "ordinal": 41,
+      "name": "WmiQuerySingleInstanceW",
+      "forwarder": "AdvApi32.WmiQuerySingleInstanceW"
+    },
+    {
+      "ordinal": 42,
+      "name": "WmiSetSingleInstanceA",
+      "forwarder": "AdvApi32.WmiSetSingleInstanceA"
+    },
+    {
+      "ordinal": 43,
+      "name": "WmiSetSingleInstanceW",
+      "forwarder": "AdvApi32.WmiSetSingleInstanceW"
+    },
+    {
+      "ordinal": 44,
+      "name": "WmiSetSingleItemA",
+      "forwarder": "AdvApi32.WmiSetSingleItemA"
+    },
+    {
+      "ordinal": 45,
+      "name": "WmiSetSingleItemW",
+      "forwarder": "AdvApi32.WmiSetSingleItemW"
+    }
+  ]
+}

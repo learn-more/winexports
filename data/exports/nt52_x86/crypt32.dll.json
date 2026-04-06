@@ -1,14 +1,14 @@
 {
   "Version": "5.131.3790.3959-I386",
-  "md5": "8e38e69765c8980cc01dabc85f1e72f1",
-  "imphash": "8e38e69765c8980cc01dabc85f1e72f1",
+  "md5": "067579392241e24810284e9a44601baf",
+  "imphash": "067579392241e24810284e9a44601baf",
   "InternalName": "CRYPT32.DLL",
   "CompanyName": "Microsoft Corporation",
   "FileDescription": "Crypto API32",
   "FileVersion": "5.131.3790.3959 (srv03_sp2_rtm.070216-1710)",
   "ProductVersion": "5.131.3790.3959",
-  "PeChecksum": 718707,
-  "Size": 705536,
+  "PeChecksum": 621481,
+  "Size": 595456,
   "Machine": "I386",
   "exports": [
     {
@@ -1133,39 +1133,48 @@
     },
     {
       "ordinal": 1003,
-      "name": null
+      "name": null,
+      "forwarder": "advapi32.RegCreateKeyW"
     },
     {
       "ordinal": 1004,
-      "name": null
+      "name": null,
+      "forwarder": "advapi32.RegCreateKeyExW"
     },
     {
       "ordinal": 1005,
-      "name": null
+      "name": null,
+      "forwarder": "advapi32.RegOpenKeyW"
     },
     {
       "ordinal": 1006,
-      "name": null
+      "name": null,
+      "forwarder": "advapi32.RegOpenKeyExW"
     },
     {
       "ordinal": 1007,
-      "name": null
+      "name": null,
+      "forwarder": "advapi32.RegCreateKeyA"
     },
     {
       "ordinal": 1008,
-      "name": null
+      "name": null,
+      "forwarder": "advapi32.RegCreateKeyExA"
     },
     {
       "ordinal": 1009,
-      "name": null
+      "name": null,
+      "forwarder": "advapi32.RegOpenKeyA"
     },
     {
       "ordinal": 1010,
-      "name": null
+      "name": null,
+      "forwarder": "advapi32.RegOpenKeyExA"
     },
     {
       "ordinal": 1011,
-      "name": null
+      "name": null,
+      "forwarder": "advapi32.RegCloseKey"
     }
   ]
 }

@@ -1,0 +1,319 @@
+{
+  "Version": "6.3.9600.16384-I386",
+  "md5": "dfd3f397be9b1ee411a25de34b6d58ce",
+  "imphash": "dfd3f397be9b1ee411a25de34b6d58ce",
+  "InternalName": "userenv",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "Userenv",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 147597,
+  "Size": 94016,
+  "Machine": "I386",
+  "exports": [
+    {
+      "ordinal": 106,
+      "name": "AreThereVisibleLogoffScripts"
+    },
+    {
+      "ordinal": 107,
+      "name": "AreThereVisibleShutdownScripts"
+    },
+    {
+      "ordinal": 108,
+      "name": "CreateAppContainerProfile"
+    },
+    {
+      "ordinal": 109,
+      "name": "CreateEnvironmentBlock"
+    },
+    {
+      "ordinal": 110,
+      "name": "CreateProfile"
+    },
+    {
+      "ordinal": 111,
+      "name": "DeleteAppContainerProfile"
+    },
+    {
+      "ordinal": 112,
+      "name": "DeleteProfileA"
+    },
+    {
+      "ordinal": 113,
+      "name": "DeleteProfileW"
+    },
+    {
+      "ordinal": 114,
+      "name": "DeriveAppContainerSidFromAppContainerName"
+    },
+    {
+      "ordinal": 115,
+      "name": "DestroyEnvironmentBlock"
+    },
+    {
+      "ordinal": 116,
+      "name": "DllCanUnloadNow"
+    },
+    {
+      "ordinal": 117,
+      "name": "DllGetClassObject"
+    },
+    {
+      "ordinal": 118,
+      "name": "DllGetContractDescription"
+    },
+    {
+      "ordinal": 119,
+      "name": "DllRegisterServer"
+    },
+    {
+      "ordinal": 120,
+      "name": "DllUnregisterServer"
+    },
+    {
+      "ordinal": 121,
+      "name": "EnterCriticalPolicySection"
+    },
+    {
+      "ordinal": 123,
+      "name": "ExpandEnvironmentStringsForUserA"
+    },
+    {
+      "ordinal": 124,
+      "name": "ExpandEnvironmentStringsForUserW"
+    },
+    {
+      "ordinal": 125,
+      "name": "ForceSyncFgPolicy"
+    },
+    {
+      "ordinal": 126,
+      "name": "FreeGPOListA"
+    },
+    {
+      "ordinal": 127,
+      "name": "FreeGPOListW"
+    },
+    {
+      "ordinal": 128,
+      "name": "GenerateGPNotification"
+    },
+    {
+      "ordinal": 129,
+      "name": "GetAllUsersProfileDirectoryA"
+    },
+    {
+      "ordinal": 130,
+      "name": "GetAllUsersProfileDirectoryW"
+    },
+    {
+      "ordinal": 131,
+      "name": "GetAppContainerFolderPath"
+    },
+    {
+      "ordinal": 132,
+      "name": "GetAppContainerRegistryLocation"
+    },
+    {
+      "ordinal": 133,
+      "name": "GetAppliedGPOListA"
+    },
+    {
+      "ordinal": 134,
+      "name": "GetAppliedGPOListW"
+    },
+    {
+      "ordinal": 136,
+      "name": "GetDefaultUserProfileDirectoryA"
+    },
+    {
+      "ordinal": 138,
+      "name": "GetDefaultUserProfileDirectoryW"
+    },
+    {
+      "ordinal": 140,
+      "name": "GetGPOListA"
+    },
+    {
+      "ordinal": 141,
+      "name": "GetGPOListW"
+    },
+    {
+      "ordinal": 142,
+      "name": "GetNextFgPolicyRefreshInfo"
+    },
+    {
+      "ordinal": 143,
+      "name": "GetPreviousFgPolicyRefreshInfo"
+    },
+    {
+      "ordinal": 144,
+      "name": "GetProfileType"
+    },
+    {
+      "ordinal": 145,
+      "name": "GetProfilesDirectoryA"
+    },
+    {
+      "ordinal": 146,
+      "name": "GetProfilesDirectoryW"
+    },
+    {
+      "ordinal": 147,
+      "name": "GetUserProfileDirectoryA"
+    },
+    {
+      "ordinal": 148,
+      "name": "GetUserProfileDirectoryW"
+    },
+    {
+      "ordinal": 149,
+      "name": "HasPolicyForegroundProcessingCompleted"
+    },
+    {
+      "ordinal": 150,
+      "name": "LeaveCriticalPolicySection"
+    },
+    {
+      "ordinal": 151,
+      "name": "LoadUserProfileA"
+    },
+    {
+      "ordinal": 152,
+      "name": "LoadUserProfileW"
+    },
+    {
+      "ordinal": 153,
+      "name": "ProcessGroupPolicyCompleted"
+    },
+    {
+      "ordinal": 154,
+      "name": "ProcessGroupPolicyCompletedEx"
+    },
+    {
+      "ordinal": 155,
+      "name": "RefreshPolicy"
+    },
+    {
+      "ordinal": 156,
+      "name": "RefreshPolicyEx"
+    },
+    {
+      "ordinal": 157,
+      "name": "RegisterGPNotification"
+    },
+    {
+      "ordinal": 158,
+      "name": "RsopAccessCheckByType"
+    },
+    {
+      "ordinal": 159,
+      "name": "RsopFileAccessCheck"
+    },
+    {
+      "ordinal": 105,
+      "name": "RsopLoggingEnabled"
+    },
+    {
+      "ordinal": 160,
+      "name": "RsopResetPolicySettingStatus"
+    },
+    {
+      "ordinal": 161,
+      "name": "RsopSetPolicySettingStatus"
+    },
+    {
+      "ordinal": 162,
+      "name": "UnloadUserProfile"
+    },
+    {
+      "ordinal": 163,
+      "name": "UnregisterGPNotification"
+    },
+    {
+      "ordinal": 164,
+      "name": "WaitForMachinePolicyForegroundProcessing"
+    },
+    {
+      "ordinal": 165,
+      "name": "WaitForUserPolicyForegroundProcessing"
+    },
+    {
+      "ordinal": 104,
+      "name": null
+    },
+    {
+      "ordinal": 122,
+      "name": null
+    },
+    {
+      "ordinal": 135,
+      "name": null
+    },
+    {
+      "ordinal": 137,
+      "name": null
+    },
+    {
+      "ordinal": 139,
+      "name": null
+    },
+    {
+      "ordinal": 175,
+      "name": null
+    },
+    {
+      "ordinal": 202,
+      "name": null
+    },
+    {
+      "ordinal": 203,
+      "name": null
+    },
+    {
+      "ordinal": 206,
+      "name": null
+    },
+    {
+      "ordinal": 207,
+      "name": null
+    },
+    {
+      "ordinal": 208,
+      "name": null
+    },
+    {
+      "ordinal": 209,
+      "name": null
+    },
+    {
+      "ordinal": 210,
+      "name": null
+    },
+    {
+      "ordinal": 211,
+      "name": null
+    },
+    {
+      "ordinal": 212,
+      "name": null
+    },
+    {
+      "ordinal": 213,
+      "name": null
+    },
+    {
+      "ordinal": 214,
+      "name": null
+    },
+    {
+      "ordinal": 215,
+      "name": null
+    },
+    {
+      "ordinal": 216,
+      "name": null
+    }
+  ]
+}

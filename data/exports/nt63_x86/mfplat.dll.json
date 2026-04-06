@@ -1,0 +1,801 @@
+{
+  "Version": "12.0.9600.16384-I386",
+  "md5": "521f596fd8256c6a2b09405d65268c52",
+  "imphash": "521f596fd8256c6a2b09405d65268c52",
+  "InternalName": "Media Foundation Platform DLL",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "Media Foundation Platform DLL",
+  "FileVersion": "12.0.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "12.0.9600.16384",
+  "PeChecksum": 756267,
+  "Size": 691512,
+  "Machine": "I386",
+  "exports": [
+    {
+      "ordinal": 10,
+      "name": "CopyPropVariant"
+    },
+    {
+      "ordinal": 11,
+      "name": "CreatePropVariant"
+    },
+    {
+      "ordinal": 12,
+      "name": "CreatePropertyStore"
+    },
+    {
+      "ordinal": 13,
+      "name": "DestroyPropVariant"
+    },
+    {
+      "ordinal": 1,
+      "name": "FormatTagFromWfx"
+    },
+    {
+      "ordinal": 14,
+      "name": "GetAMSubtypeFromD3DFormat"
+    },
+    {
+      "ordinal": 15,
+      "name": "GetD3DFormatFromMFSubtype"
+    },
+    {
+      "ordinal": 16,
+      "name": "MFAddPeriodicCallback",
+      "forwarder": "RTWorkQ.RtwqAddPeriodicCallback"
+    },
+    {
+      "ordinal": 17,
+      "name": "MFAllocateSerialWorkQueue",
+      "forwarder": "RTWorkQ.RtwqAllocateSerialWorkQueue"
+    },
+    {
+      "ordinal": 18,
+      "name": "MFAllocateWorkQueue"
+    },
+    {
+      "ordinal": 19,
+      "name": "MFAllocateWorkQueueEx",
+      "forwarder": "RTWorkQ.RtwqAllocateWorkQueue"
+    },
+    {
+      "ordinal": 20,
+      "name": "MFAppendCollection"
+    },
+    {
+      "ordinal": 21,
+      "name": "MFAverageTimePerFrameToFrameRate"
+    },
+    {
+      "ordinal": 22,
+      "name": "MFBeginCreateFile"
+    },
+    {
+      "ordinal": 23,
+      "name": "MFBeginGetHostByName"
+    },
+    {
+      "ordinal": 24,
+      "name": "MFBeginRegisterWorkQueueWithMMCSS"
+    },
+    {
+      "ordinal": 25,
+      "name": "MFBeginRegisterWorkQueueWithMMCSSEx",
+      "forwarder": "RTWorkQ.RtwqBeginRegisterWorkQueueWithMMCSS"
+    },
+    {
+      "ordinal": 26,
+      "name": "MFBeginUnregisterWorkQueueWithMMCSS",
+      "forwarder": "RTWorkQ.RtwqBeginUnregisterWorkQueueWithMMCSS"
+    },
+    {
+      "ordinal": 27,
+      "name": "MFCalculateBitmapImageSize"
+    },
+    {
+      "ordinal": 28,
+      "name": "MFCalculateImageSize"
+    },
+    {
+      "ordinal": 29,
+      "name": "MFCancelCreateFile"
+    },
+    {
+      "ordinal": 30,
+      "name": "MFCancelWorkItem",
+      "forwarder": "RTWorkQ.RtwqCancelWorkItem"
+    },
+    {
+      "ordinal": 31,
+      "name": "MFClearLocalMFTs"
+    },
+    {
+      "ordinal": 32,
+      "name": "MFCompareFullToPartialMediaType"
+    },
+    {
+      "ordinal": 33,
+      "name": "MFCompareSockaddrAddresses"
+    },
+    {
+      "ordinal": 34,
+      "name": "MFConvertColorInfoFromDXVA"
+    },
+    {
+      "ordinal": 35,
+      "name": "MFConvertColorInfoToDXVA"
+    },
+    {
+      "ordinal": 36,
+      "name": "MFConvertFromFP16Array"
+    },
+    {
+      "ordinal": 37,
+      "name": "MFConvertToFP16Array"
+    },
+    {
+      "ordinal": 38,
+      "name": "MFCopyImage"
+    },
+    {
+      "ordinal": 39,
+      "name": "MFCreate2DMediaBuffer"
+    },
+    {
+      "ordinal": 40,
+      "name": "MFCreateAMMediaTypeFromMFMediaType"
+    },
+    {
+      "ordinal": 41,
+      "name": "MFCreateAlignedMemoryBuffer"
+    },
+    {
+      "ordinal": 42,
+      "name": "MFCreateAsyncResult",
+      "forwarder": "RTWorkQ.RtwqCreateAsyncResult"
+    },
+    {
+      "ordinal": 43,
+      "name": "MFCreateAttributes"
+    },
+    {
+      "ordinal": 44,
+      "name": "MFCreateAudioMediaType"
+    },
+    {
+      "ordinal": 45,
+      "name": "MFCreateCollection"
+    },
+    {
+      "ordinal": 46,
+      "name": "MFCreateDXGIDeviceManager"
+    },
+    {
+      "ordinal": 47,
+      "name": "MFCreateDXGISurfaceBuffer"
+    },
+    {
+      "ordinal": 48,
+      "name": "MFCreateDXSurfaceBuffer"
+    },
+    {
+      "ordinal": 49,
+      "name": "MFCreateEventQueue"
+    },
+    {
+      "ordinal": 50,
+      "name": "MFCreateFile"
+    },
+    {
+      "ordinal": 51,
+      "name": "MFCreateFileFromHandle"
+    },
+    {
+      "ordinal": 52,
+      "name": "MFCreateLegacyMediaBufferOnMFMediaBuffer"
+    },
+    {
+      "ordinal": 53,
+      "name": "MFCreateMFByteStreamOnStream"
+    },
+    {
+      "ordinal": 54,
+      "name": "MFCreateMFByteStreamOnStreamEx"
+    },
+    {
+      "ordinal": 55,
+      "name": "MFCreateMFByteStreamWrapper"
+    },
+    {
+      "ordinal": 56,
+      "name": "MFCreateMFVideoFormatFromMFMediaType"
+    },
+    {
+      "ordinal": 57,
+      "name": "MFCreateMediaBufferFromMediaType"
+    },
+    {
+      "ordinal": 58,
+      "name": "MFCreateMediaBufferWrapper"
+    },
+    {
+      "ordinal": 59,
+      "name": "MFCreateMediaEvent"
+    },
+    {
+      "ordinal": 60,
+      "name": "MFCreateMediaEventResult"
+    },
+    {
+      "ordinal": 61,
+      "name": "MFCreateMediaExtensionActivate"
+    },
+    {
+      "ordinal": 62,
+      "name": "MFCreateMediaExtensionActivateNoInit"
+    },
+    {
+      "ordinal": 63,
+      "name": "MFCreateMediaType"
+    },
+    {
+      "ordinal": 64,
+      "name": "MFCreateMediaTypeFromProperties"
+    },
+    {
+      "ordinal": 65,
+      "name": "MFCreateMediaTypeFromRepresentation"
+    },
+    {
+      "ordinal": 66,
+      "name": "MFCreateMemoryBuffer"
+    },
+    {
+      "ordinal": 67,
+      "name": "MFCreateMemoryStream"
+    },
+    {
+      "ordinal": 68,
+      "name": "MFCreatePathFromURL"
+    },
+    {
+      "ordinal": 69,
+      "name": "MFCreatePresentationDescriptor"
+    },
+    {
+      "ordinal": 70,
+      "name": "MFCreatePropertiesFromMediaType"
+    },
+    {
+      "ordinal": 71,
+      "name": "MFCreateReusableByteStream"
+    },
+    {
+      "ordinal": 72,
+      "name": "MFCreateSample"
+    },
+    {
+      "ordinal": 73,
+      "name": "MFCreateSocket"
+    },
+    {
+      "ordinal": 74,
+      "name": "MFCreateSocketListener"
+    },
+    {
+      "ordinal": 75,
+      "name": "MFCreateSourceResolver"
+    },
+    {
+      "ordinal": 76,
+      "name": "MFCreateSourceResolverInternal"
+    },
+    {
+      "ordinal": 77,
+      "name": "MFCreateStreamDescriptor"
+    },
+    {
+      "ordinal": 78,
+      "name": "MFCreateStreamOnMFByteStream"
+    },
+    {
+      "ordinal": 79,
+      "name": "MFCreateStreamOnMFByteStreamEx"
+    },
+    {
+      "ordinal": 80,
+      "name": "MFCreateSystemTimeSource"
+    },
+    {
+      "ordinal": 81,
+      "name": "MFCreateTempFile"
+    },
+    {
+      "ordinal": 82,
+      "name": "MFCreateTrackedSample"
+    },
+    {
+      "ordinal": 83,
+      "name": "MFCreateTransformActivate"
+    },
+    {
+      "ordinal": 84,
+      "name": "MFCreateURLFromPath"
+    },
+    {
+      "ordinal": 85,
+      "name": "MFCreateUdpSockets"
+    },
+    {
+      "ordinal": 86,
+      "name": "MFCreateVideoMediaType"
+    },
+    {
+      "ordinal": 87,
+      "name": "MFCreateVideoMediaTypeFromBitMapInfoHeader"
+    },
+    {
+      "ordinal": 88,
+      "name": "MFCreateVideoMediaTypeFromBitMapInfoHeaderEx"
+    },
+    {
+      "ordinal": 89,
+      "name": "MFCreateVideoMediaTypeFromSubtype"
+    },
+    {
+      "ordinal": 91,
+      "name": "MFCreateVideoMediaTypeFromVideoInfoHeader"
+    },
+    {
+      "ordinal": 90,
+      "name": "MFCreateVideoMediaTypeFromVideoInfoHeader2"
+    },
+    {
+      "ordinal": 92,
+      "name": "MFCreateVideoSampleAllocatorEx"
+    },
+    {
+      "ordinal": 93,
+      "name": "MFCreateWICBitmapBuffer"
+    },
+    {
+      "ordinal": 94,
+      "name": "MFCreateWaveFormatExFromMFMediaType"
+    },
+    {
+      "ordinal": 95,
+      "name": "MFDeserializeAttributesFromStream"
+    },
+    {
+      "ordinal": 96,
+      "name": "MFDeserializeEvent"
+    },
+    {
+      "ordinal": 97,
+      "name": "MFDeserializeMediaTypeFromStream"
+    },
+    {
+      "ordinal": 98,
+      "name": "MFDeserializePresentationDescriptor"
+    },
+    {
+      "ordinal": 99,
+      "name": "MFEndCreateFile"
+    },
+    {
+      "ordinal": 100,
+      "name": "MFEndGetHostByName"
+    },
+    {
+      "ordinal": 101,
+      "name": "MFEndRegisterWorkQueueWithMMCSS",
+      "forwarder": "RTWorkQ.RtwqEndRegisterWorkQueueWithMMCSS"
+    },
+    {
+      "ordinal": 102,
+      "name": "MFEndUnregisterWorkQueueWithMMCSS",
+      "forwarder": "RTWorkQ.RtwqEndUnregisterWorkQueueWithMMCSS"
+    },
+    {
+      "ordinal": 2,
+      "name": "MFEnumLocalMFTRegistrations"
+    },
+    {
+      "ordinal": 103,
+      "name": "MFFrameRateToAverageTimePerFrame"
+    },
+    {
+      "ordinal": 104,
+      "name": "MFFreeAdaptersAddresses"
+    },
+    {
+      "ordinal": 105,
+      "name": "MFGetAdaptersAddresses"
+    },
+    {
+      "ordinal": 106,
+      "name": "MFGetAttributesAsBlob"
+    },
+    {
+      "ordinal": 107,
+      "name": "MFGetAttributesAsBlobSize"
+    },
+    {
+      "ordinal": 108,
+      "name": "MFGetConfigurationDWORD"
+    },
+    {
+      "ordinal": 109,
+      "name": "MFGetConfigurationPolicy"
+    },
+    {
+      "ordinal": 110,
+      "name": "MFGetConfigurationStore"
+    },
+    {
+      "ordinal": 111,
+      "name": "MFGetConfigurationString"
+    },
+    {
+      "ordinal": 112,
+      "name": "MFGetContentProtectionSystemCLSID"
+    },
+    {
+      "ordinal": 113,
+      "name": "MFGetMFTMerit"
+    },
+    {
+      "ordinal": 114,
+      "name": "MFGetNumericNameFromSockaddr"
+    },
+    {
+      "ordinal": 115,
+      "name": "MFGetPlaneSize"
+    },
+    {
+      "ordinal": 3,
+      "name": "MFGetPlatformFlags"
+    },
+    {
+      "ordinal": 4,
+      "name": "MFGetPlatformVersion"
+    },
+    {
+      "ordinal": 116,
+      "name": "MFGetPluginControl"
+    },
+    {
+      "ordinal": 5,
+      "name": "MFGetRandomNumber"
+    },
+    {
+      "ordinal": 117,
+      "name": "MFGetSockaddrFromNumericName"
+    },
+    {
+      "ordinal": 118,
+      "name": "MFGetStrideForBitmapInfoHeader"
+    },
+    {
+      "ordinal": 119,
+      "name": "MFGetSupportedMimeTypes"
+    },
+    {
+      "ordinal": 120,
+      "name": "MFGetSupportedSchemes"
+    },
+    {
+      "ordinal": 121,
+      "name": "MFGetSystemTime"
+    },
+    {
+      "ordinal": 122,
+      "name": "MFGetTimerPeriodicity"
+    },
+    {
+      "ordinal": 123,
+      "name": "MFGetUncompressedVideoFormat"
+    },
+    {
+      "ordinal": 124,
+      "name": "MFGetWorkQueueMMCSSClass",
+      "forwarder": "RTWorkQ.RtwqGetWorkQueueMMCSSClass"
+    },
+    {
+      "ordinal": 125,
+      "name": "MFGetWorkQueueMMCSSPriority",
+      "forwarder": "RTWorkQ.RtwqGetWorkQueueMMCSSPriority"
+    },
+    {
+      "ordinal": 126,
+      "name": "MFGetWorkQueueMMCSSTaskId",
+      "forwarder": "RTWorkQ.RtwqGetWorkQueueMMCSSTaskId"
+    },
+    {
+      "ordinal": 127,
+      "name": "MFHeapAlloc"
+    },
+    {
+      "ordinal": 128,
+      "name": "MFHeapFree"
+    },
+    {
+      "ordinal": 129,
+      "name": "MFInitAMMediaTypeFromMFMediaType"
+    },
+    {
+      "ordinal": 130,
+      "name": "MFInitAttributesFromBlob"
+    },
+    {
+      "ordinal": 131,
+      "name": "MFInitMediaTypeFromAMMediaType"
+    },
+    {
+      "ordinal": 132,
+      "name": "MFInitMediaTypeFromMFVideoFormat"
+    },
+    {
+      "ordinal": 133,
+      "name": "MFInitMediaTypeFromMPEG1VideoInfo"
+    },
+    {
+      "ordinal": 134,
+      "name": "MFInitMediaTypeFromMPEG2VideoInfo"
+    },
+    {
+      "ordinal": 136,
+      "name": "MFInitMediaTypeFromVideoInfoHeader"
+    },
+    {
+      "ordinal": 135,
+      "name": "MFInitMediaTypeFromVideoInfoHeader2"
+    },
+    {
+      "ordinal": 137,
+      "name": "MFInitMediaTypeFromWaveFormatEx"
+    },
+    {
+      "ordinal": 138,
+      "name": "MFInitVideoFormat"
+    },
+    {
+      "ordinal": 139,
+      "name": "MFInitVideoFormat_RGB"
+    },
+    {
+      "ordinal": 140,
+      "name": "MFInvokeCallback",
+      "forwarder": "RTWorkQ.RtwqInvokeCallback"
+    },
+    {
+      "ordinal": 141,
+      "name": "MFIsBottomUpFormat"
+    },
+    {
+      "ordinal": 6,
+      "name": "MFIsFeatureEnabled"
+    },
+    {
+      "ordinal": 142,
+      "name": "MFIsLocallyRegisteredMimeType"
+    },
+    {
+      "ordinal": 143,
+      "name": "MFJoinWorkQueue",
+      "forwarder": "RTWorkQ.RtwqJoinWorkQueue"
+    },
+    {
+      "ordinal": 144,
+      "name": "MFLockDXGIDeviceManager"
+    },
+    {
+      "ordinal": 145,
+      "name": "MFLockPlatform",
+      "forwarder": "RTWorkQ.RtwqLockPlatform"
+    },
+    {
+      "ordinal": 146,
+      "name": "MFLockSharedWorkQueue",
+      "forwarder": "RTWorkQ.RtwqLockSharedWorkQueue"
+    },
+    {
+      "ordinal": 147,
+      "name": "MFLockWorkQueue",
+      "forwarder": "RTWorkQ.RtwqLockWorkQueue"
+    },
+    {
+      "ordinal": 148,
+      "name": "MFMapDX9FormatToDXGIFormat"
+    },
+    {
+      "ordinal": 149,
+      "name": "MFMapDXGIFormatToDX9Format"
+    },
+    {
+      "ordinal": 7,
+      "name": "MFPlatformBigEndian"
+    },
+    {
+      "ordinal": 8,
+      "name": "MFPlatformLittleEndian"
+    },
+    {
+      "ordinal": 150,
+      "name": "MFPutWaitingWorkItem",
+      "forwarder": "RTWorkQ.RtwqPutWaitingWorkItem"
+    },
+    {
+      "ordinal": 152,
+      "name": "MFPutWorkItem"
+    },
+    {
+      "ordinal": 151,
+      "name": "MFPutWorkItem2"
+    },
+    {
+      "ordinal": 154,
+      "name": "MFPutWorkItemEx"
+    },
+    {
+      "ordinal": 153,
+      "name": "MFPutWorkItemEx2",
+      "forwarder": "RTWorkQ.RtwqPutWorkItem"
+    },
+    {
+      "ordinal": 155,
+      "name": "MFRegisterLocalByteStreamHandler"
+    },
+    {
+      "ordinal": 156,
+      "name": "MFRegisterLocalSchemeHandler"
+    },
+    {
+      "ordinal": 157,
+      "name": "MFRegisterPlatformWithMMCSS",
+      "forwarder": "RTWorkQ.RtwqRegisterPlatformWithMMCSS"
+    },
+    {
+      "ordinal": 158,
+      "name": "MFRemovePeriodicCallback",
+      "forwarder": "RTWorkQ.RtwqRemovePeriodicCallback"
+    },
+    {
+      "ordinal": 159,
+      "name": "MFScheduleWorkItem"
+    },
+    {
+      "ordinal": 160,
+      "name": "MFScheduleWorkItemEx",
+      "forwarder": "RTWorkQ.RtwqScheduleWorkItem"
+    },
+    {
+      "ordinal": 161,
+      "name": "MFSerializeAttributesToStream"
+    },
+    {
+      "ordinal": 162,
+      "name": "MFSerializeEvent"
+    },
+    {
+      "ordinal": 163,
+      "name": "MFSerializeMediaTypeToStream"
+    },
+    {
+      "ordinal": 164,
+      "name": "MFSerializePresentationDescriptor"
+    },
+    {
+      "ordinal": 165,
+      "name": "MFSetSockaddrAny"
+    },
+    {
+      "ordinal": 166,
+      "name": "MFShutdown"
+    },
+    {
+      "ordinal": 167,
+      "name": "MFStartup"
+    },
+    {
+      "ordinal": 168,
+      "name": "MFStreamDescriptorProtectMediaType"
+    },
+    {
+      "ordinal": 169,
+      "name": "MFTEnum"
+    },
+    {
+      "ordinal": 170,
+      "name": "MFTEnumEx"
+    },
+    {
+      "ordinal": 171,
+      "name": "MFTGetInfo"
+    },
+    {
+      "ordinal": 172,
+      "name": "MFTRegister"
+    },
+    {
+      "ordinal": 173,
+      "name": "MFTRegisterLocal"
+    },
+    {
+      "ordinal": 174,
+      "name": "MFTRegisterLocalByCLSID"
+    },
+    {
+      "ordinal": 175,
+      "name": "MFTUnregister"
+    },
+    {
+      "ordinal": 176,
+      "name": "MFTUnregisterLocal"
+    },
+    {
+      "ordinal": 177,
+      "name": "MFTUnregisterLocalByCLSID"
+    },
+    {
+      "ordinal": 178,
+      "name": "MFTraceError"
+    },
+    {
+      "ordinal": 179,
+      "name": "MFTraceFuncEnter"
+    },
+    {
+      "ordinal": 180,
+      "name": "MFUnjoinWorkQueue",
+      "forwarder": "RTWorkQ.RtwqUnjoinWorkQueue"
+    },
+    {
+      "ordinal": 181,
+      "name": "MFUnlockDXGIDeviceManager"
+    },
+    {
+      "ordinal": 182,
+      "name": "MFUnlockPlatform",
+      "forwarder": "RTWorkQ.RtwqUnlockPlatform"
+    },
+    {
+      "ordinal": 183,
+      "name": "MFUnlockWorkQueue",
+      "forwarder": "RTWorkQ.RtwqUnlockWorkQueue"
+    },
+    {
+      "ordinal": 184,
+      "name": "MFUnregisterPlatformFromMMCSS",
+      "forwarder": "RTWorkQ.RtwqUnregisterPlatformFromMMCSS"
+    },
+    {
+      "ordinal": 185,
+      "name": "MFUnwrapMediaType"
+    },
+    {
+      "ordinal": 186,
+      "name": "MFValidateMediaTypeSize"
+    },
+    {
+      "ordinal": 187,
+      "name": "MFWrapMediaType"
+    },
+    {
+      "ordinal": 188,
+      "name": "MFllMulDiv"
+    },
+    {
+      "ordinal": 189,
+      "name": "PropVariantFromStream"
+    },
+    {
+      "ordinal": 190,
+      "name": "PropVariantToStream"
+    },
+    {
+      "ordinal": 9,
+      "name": "ValidateWaveFormat"
+    }
+  ]
+}

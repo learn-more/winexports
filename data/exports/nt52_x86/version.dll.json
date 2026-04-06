@@ -1,13 +1,13 @@
 {
   "Version": "5.2.3790.3959-I386",
-  "md5": "b1d6ce63c6a22544d9c68a60e5642099",
-  "imphash": "b1d6ce63c6a22544d9c68a60e5642099",
+  "md5": "2aaaa7e2a78e49ef17f09012df440a6b",
+  "imphash": "2aaaa7e2a78e49ef17f09012df440a6b",
   "InternalName": "version",
   "CompanyName": "Microsoft Corporation",
   "FileDescription": "Version Checking and File Installation Libraries",
   "FileVersion": "5.2.3790.3959 (srv03_sp2_rtm.070216-1710)",
   "ProductVersion": "5.2.3790.3959",
-  "PeChecksum": 75460,
+  "PeChecksum": 49999,
   "Size": 18432,
   "Machine": "I386",
   "exports": [
@@ -45,11 +45,13 @@
     },
     {
       "ordinal": 9,
-      "name": "VerLanguageNameA"
+      "name": "VerLanguageNameA",
+      "forwarder": "KERNEL32.VerLanguageNameA"
     },
     {
       "ordinal": 10,
-      "name": "VerLanguageNameW"
+      "name": "VerLanguageNameW",
+      "forwarder": "KERNEL32.VerLanguageNameW"
     },
     {
       "ordinal": 11,

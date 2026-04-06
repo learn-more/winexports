@@ -1,0 +1,851 @@
+{
+  "Version": "7.00.6002.18005-I386",
+  "md5": "7dacd94118e2d8b6d72f47adeb0367bf",
+  "imphash": "7dacd94118e2d8b6d72f47adeb0367bf",
+  "InternalName": "propsys.dll",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "Microsoft Property System",
+  "FileVersion": "7.00.6002.18005 (lh_sp2rtm.090410-1830)",
+  "ProductVersion": "7.00.6002.18005",
+  "PeChecksum": 794778,
+  "Size": 754688,
+  "Machine": "I386",
+  "exports": [
+    {
+      "ordinal": 4,
+      "name": "ClearPropVariantArray"
+    },
+    {
+      "ordinal": 5,
+      "name": "ClearVariantArray"
+    },
+    {
+      "ordinal": 6,
+      "name": "DllCanUnloadNow"
+    },
+    {
+      "ordinal": 7,
+      "name": "DllGetClassObject"
+    },
+    {
+      "ordinal": 8,
+      "name": "DllRegisterServer"
+    },
+    {
+      "ordinal": 9,
+      "name": "DllUnregisterServer"
+    },
+    {
+      "ordinal": 3,
+      "name": "GetProxyDllInfo"
+    },
+    {
+      "ordinal": 10,
+      "name": "InitPropVariantFromBooleanVector"
+    },
+    {
+      "ordinal": 11,
+      "name": "InitPropVariantFromBuffer"
+    },
+    {
+      "ordinal": 12,
+      "name": "InitPropVariantFromCLSID"
+    },
+    {
+      "ordinal": 13,
+      "name": "InitPropVariantFromDoubleVector"
+    },
+    {
+      "ordinal": 14,
+      "name": "InitPropVariantFromFileTime"
+    },
+    {
+      "ordinal": 15,
+      "name": "InitPropVariantFromFileTimeVector"
+    },
+    {
+      "ordinal": 16,
+      "name": "InitPropVariantFromGUIDAsString"
+    },
+    {
+      "ordinal": 17,
+      "name": "InitPropVariantFromInt16Vector"
+    },
+    {
+      "ordinal": 18,
+      "name": "InitPropVariantFromInt32Vector"
+    },
+    {
+      "ordinal": 19,
+      "name": "InitPropVariantFromInt64Vector"
+    },
+    {
+      "ordinal": 20,
+      "name": "InitPropVariantFromPropVariantVectorElem"
+    },
+    {
+      "ordinal": 21,
+      "name": "InitPropVariantFromResource"
+    },
+    {
+      "ordinal": 22,
+      "name": "InitPropVariantFromStrRet"
+    },
+    {
+      "ordinal": 23,
+      "name": "InitPropVariantFromStringAsVector"
+    },
+    {
+      "ordinal": 24,
+      "name": "InitPropVariantFromStringVector"
+    },
+    {
+      "ordinal": 25,
+      "name": "InitPropVariantFromUInt16Vector"
+    },
+    {
+      "ordinal": 26,
+      "name": "InitPropVariantFromUInt32Vector"
+    },
+    {
+      "ordinal": 27,
+      "name": "InitPropVariantFromUInt64Vector"
+    },
+    {
+      "ordinal": 28,
+      "name": "InitPropVariantVectorFromPropVariant"
+    },
+    {
+      "ordinal": 29,
+      "name": "InitVariantFromBooleanArray"
+    },
+    {
+      "ordinal": 30,
+      "name": "InitVariantFromBuffer"
+    },
+    {
+      "ordinal": 31,
+      "name": "InitVariantFromDoubleArray"
+    },
+    {
+      "ordinal": 32,
+      "name": "InitVariantFromFileTime"
+    },
+    {
+      "ordinal": 33,
+      "name": "InitVariantFromFileTimeArray"
+    },
+    {
+      "ordinal": 34,
+      "name": "InitVariantFromGUIDAsString"
+    },
+    {
+      "ordinal": 35,
+      "name": "InitVariantFromInt16Array"
+    },
+    {
+      "ordinal": 36,
+      "name": "InitVariantFromInt32Array"
+    },
+    {
+      "ordinal": 37,
+      "name": "InitVariantFromInt64Array"
+    },
+    {
+      "ordinal": 38,
+      "name": "InitVariantFromResource"
+    },
+    {
+      "ordinal": 39,
+      "name": "InitVariantFromStrRet"
+    },
+    {
+      "ordinal": 40,
+      "name": "InitVariantFromStringArray"
+    },
+    {
+      "ordinal": 41,
+      "name": "InitVariantFromUInt16Array"
+    },
+    {
+      "ordinal": 42,
+      "name": "InitVariantFromUInt32Array"
+    },
+    {
+      "ordinal": 43,
+      "name": "InitVariantFromUInt64Array"
+    },
+    {
+      "ordinal": 44,
+      "name": "InitVariantFromVariantArrayElem"
+    },
+    {
+      "ordinal": 45,
+      "name": "PSCoerceToCanonicalValue"
+    },
+    {
+      "ordinal": 46,
+      "name": "PSCreateAdapterFromPropertyStore"
+    },
+    {
+      "ordinal": 47,
+      "name": "PSCreateDelayedMultiplexPropertyStore"
+    },
+    {
+      "ordinal": 48,
+      "name": "PSCreateMemoryPropertyStore"
+    },
+    {
+      "ordinal": 49,
+      "name": "PSCreateMultiplexPropertyStore"
+    },
+    {
+      "ordinal": 50,
+      "name": "PSCreatePropertyChangeArray"
+    },
+    {
+      "ordinal": 51,
+      "name": "PSCreatePropertyStoreFromObject"
+    },
+    {
+      "ordinal": 52,
+      "name": "PSCreatePropertyStoreFromPropertySetStorage"
+    },
+    {
+      "ordinal": 53,
+      "name": "PSCreateSimplePropertyChange"
+    },
+    {
+      "ordinal": 54,
+      "name": "PSEnumeratePropertyDescriptions"
+    },
+    {
+      "ordinal": 55,
+      "name": "PSFormatForDisplay"
+    },
+    {
+      "ordinal": 56,
+      "name": "PSFormatForDisplayAlloc"
+    },
+    {
+      "ordinal": 57,
+      "name": "PSFormatPropertyValue"
+    },
+    {
+      "ordinal": 58,
+      "name": "PSGetItemPropertyHandler"
+    },
+    {
+      "ordinal": 59,
+      "name": "PSGetItemPropertyHandlerWithCreateObject"
+    },
+    {
+      "ordinal": 60,
+      "name": "PSGetNameFromPropertyKey"
+    },
+    {
+      "ordinal": 61,
+      "name": "PSGetNamedPropertyFromPropertyStorage"
+    },
+    {
+      "ordinal": 62,
+      "name": "PSGetPropertyDescription"
+    },
+    {
+      "ordinal": 63,
+      "name": "PSGetPropertyDescriptionByName"
+    },
+    {
+      "ordinal": 64,
+      "name": "PSGetPropertyDescriptionListFromString"
+    },
+    {
+      "ordinal": 65,
+      "name": "PSGetPropertyFromPropertyStorage"
+    },
+    {
+      "ordinal": 66,
+      "name": "PSGetPropertyKeyFromName"
+    },
+    {
+      "ordinal": 67,
+      "name": "PSGetPropertySystem"
+    },
+    {
+      "ordinal": 68,
+      "name": "PSGetPropertyValue"
+    },
+    {
+      "ordinal": 69,
+      "name": "PSLookupPropertyHandlerCLSID"
+    },
+    {
+      "ordinal": 70,
+      "name": "PSPropertyKeyFromString"
+    },
+    {
+      "ordinal": 71,
+      "name": "PSRefreshPropertySchema"
+    },
+    {
+      "ordinal": 72,
+      "name": "PSRegisterPropertySchema"
+    },
+    {
+      "ordinal": 73,
+      "name": "PSSetPropertyValue"
+    },
+    {
+      "ordinal": 74,
+      "name": "PSStringFromPropertyKey"
+    },
+    {
+      "ordinal": 75,
+      "name": "PSUnregisterPropertySchema"
+    },
+    {
+      "ordinal": 76,
+      "name": "PropVariantChangeType"
+    },
+    {
+      "ordinal": 77,
+      "name": "PropVariantCompareEx"
+    },
+    {
+      "ordinal": 78,
+      "name": "PropVariantGetBooleanElem"
+    },
+    {
+      "ordinal": 79,
+      "name": "PropVariantGetDoubleElem"
+    },
+    {
+      "ordinal": 80,
+      "name": "PropVariantGetElementCount"
+    },
+    {
+      "ordinal": 81,
+      "name": "PropVariantGetFileTimeElem"
+    },
+    {
+      "ordinal": 82,
+      "name": "PropVariantGetInt16Elem"
+    },
+    {
+      "ordinal": 83,
+      "name": "PropVariantGetInt32Elem"
+    },
+    {
+      "ordinal": 84,
+      "name": "PropVariantGetInt64Elem"
+    },
+    {
+      "ordinal": 85,
+      "name": "PropVariantGetStringElem"
+    },
+    {
+      "ordinal": 86,
+      "name": "PropVariantGetUInt16Elem"
+    },
+    {
+      "ordinal": 87,
+      "name": "PropVariantGetUInt32Elem"
+    },
+    {
+      "ordinal": 88,
+      "name": "PropVariantGetUInt64Elem"
+    },
+    {
+      "ordinal": 89,
+      "name": "PropVariantToBSTR"
+    },
+    {
+      "ordinal": 90,
+      "name": "PropVariantToBoolean"
+    },
+    {
+      "ordinal": 91,
+      "name": "PropVariantToBooleanVector"
+    },
+    {
+      "ordinal": 92,
+      "name": "PropVariantToBooleanVectorAlloc"
+    },
+    {
+      "ordinal": 93,
+      "name": "PropVariantToBooleanWithDefault"
+    },
+    {
+      "ordinal": 94,
+      "name": "PropVariantToBuffer"
+    },
+    {
+      "ordinal": 95,
+      "name": "PropVariantToDouble"
+    },
+    {
+      "ordinal": 96,
+      "name": "PropVariantToDoubleVector"
+    },
+    {
+      "ordinal": 97,
+      "name": "PropVariantToDoubleVectorAlloc"
+    },
+    {
+      "ordinal": 98,
+      "name": "PropVariantToDoubleWithDefault"
+    },
+    {
+      "ordinal": 99,
+      "name": "PropVariantToFileTime"
+    },
+    {
+      "ordinal": 100,
+      "name": "PropVariantToFileTimeVector"
+    },
+    {
+      "ordinal": 101,
+      "name": "PropVariantToFileTimeVectorAlloc"
+    },
+    {
+      "ordinal": 102,
+      "name": "PropVariantToGUID"
+    },
+    {
+      "ordinal": 103,
+      "name": "PropVariantToInt16"
+    },
+    {
+      "ordinal": 104,
+      "name": "PropVariantToInt16Vector"
+    },
+    {
+      "ordinal": 105,
+      "name": "PropVariantToInt16VectorAlloc"
+    },
+    {
+      "ordinal": 106,
+      "name": "PropVariantToInt16WithDefault"
+    },
+    {
+      "ordinal": 107,
+      "name": "PropVariantToInt32"
+    },
+    {
+      "ordinal": 108,
+      "name": "PropVariantToInt32Vector"
+    },
+    {
+      "ordinal": 109,
+      "name": "PropVariantToInt32VectorAlloc"
+    },
+    {
+      "ordinal": 110,
+      "name": "PropVariantToInt32WithDefault"
+    },
+    {
+      "ordinal": 111,
+      "name": "PropVariantToInt64"
+    },
+    {
+      "ordinal": 112,
+      "name": "PropVariantToInt64Vector"
+    },
+    {
+      "ordinal": 113,
+      "name": "PropVariantToInt64VectorAlloc"
+    },
+    {
+      "ordinal": 114,
+      "name": "PropVariantToInt64WithDefault"
+    },
+    {
+      "ordinal": 115,
+      "name": "PropVariantToStrRet"
+    },
+    {
+      "ordinal": 116,
+      "name": "PropVariantToString"
+    },
+    {
+      "ordinal": 117,
+      "name": "PropVariantToStringAlloc"
+    },
+    {
+      "ordinal": 118,
+      "name": "PropVariantToStringVector"
+    },
+    {
+      "ordinal": 119,
+      "name": "PropVariantToStringVectorAlloc"
+    },
+    {
+      "ordinal": 120,
+      "name": "PropVariantToStringWithDefault"
+    },
+    {
+      "ordinal": 121,
+      "name": "PropVariantToUInt16"
+    },
+    {
+      "ordinal": 122,
+      "name": "PropVariantToUInt16Vector"
+    },
+    {
+      "ordinal": 123,
+      "name": "PropVariantToUInt16VectorAlloc"
+    },
+    {
+      "ordinal": 124,
+      "name": "PropVariantToUInt16WithDefault"
+    },
+    {
+      "ordinal": 125,
+      "name": "PropVariantToUInt32"
+    },
+    {
+      "ordinal": 126,
+      "name": "PropVariantToUInt32Vector"
+    },
+    {
+      "ordinal": 127,
+      "name": "PropVariantToUInt32VectorAlloc"
+    },
+    {
+      "ordinal": 128,
+      "name": "PropVariantToUInt32WithDefault"
+    },
+    {
+      "ordinal": 129,
+      "name": "PropVariantToUInt64"
+    },
+    {
+      "ordinal": 130,
+      "name": "PropVariantToUInt64Vector"
+    },
+    {
+      "ordinal": 131,
+      "name": "PropVariantToUInt64VectorAlloc"
+    },
+    {
+      "ordinal": 132,
+      "name": "PropVariantToUInt64WithDefault"
+    },
+    {
+      "ordinal": 133,
+      "name": "PropVariantToVariant"
+    },
+    {
+      "ordinal": 134,
+      "name": "StgDeserializePropVariant"
+    },
+    {
+      "ordinal": 135,
+      "name": "StgSerializePropVariant"
+    },
+    {
+      "ordinal": 136,
+      "name": "VariantCompare"
+    },
+    {
+      "ordinal": 137,
+      "name": "VariantGetBooleanElem"
+    },
+    {
+      "ordinal": 138,
+      "name": "VariantGetDoubleElem"
+    },
+    {
+      "ordinal": 139,
+      "name": "VariantGetElementCount"
+    },
+    {
+      "ordinal": 140,
+      "name": "VariantGetInt16Elem"
+    },
+    {
+      "ordinal": 141,
+      "name": "VariantGetInt32Elem"
+    },
+    {
+      "ordinal": 142,
+      "name": "VariantGetInt64Elem"
+    },
+    {
+      "ordinal": 143,
+      "name": "VariantGetStringElem"
+    },
+    {
+      "ordinal": 144,
+      "name": "VariantGetUInt16Elem"
+    },
+    {
+      "ordinal": 145,
+      "name": "VariantGetUInt32Elem"
+    },
+    {
+      "ordinal": 146,
+      "name": "VariantGetUInt64Elem"
+    },
+    {
+      "ordinal": 147,
+      "name": "VariantToBoolean"
+    },
+    {
+      "ordinal": 148,
+      "name": "VariantToBooleanArray"
+    },
+    {
+      "ordinal": 149,
+      "name": "VariantToBooleanArrayAlloc"
+    },
+    {
+      "ordinal": 150,
+      "name": "VariantToBooleanWithDefault"
+    },
+    {
+      "ordinal": 151,
+      "name": "VariantToBuffer"
+    },
+    {
+      "ordinal": 152,
+      "name": "VariantToDosDateTime"
+    },
+    {
+      "ordinal": 153,
+      "name": "VariantToDouble"
+    },
+    {
+      "ordinal": 154,
+      "name": "VariantToDoubleArray"
+    },
+    {
+      "ordinal": 155,
+      "name": "VariantToDoubleArrayAlloc"
+    },
+    {
+      "ordinal": 156,
+      "name": "VariantToDoubleWithDefault"
+    },
+    {
+      "ordinal": 157,
+      "name": "VariantToFileTime"
+    },
+    {
+      "ordinal": 158,
+      "name": "VariantToGUID"
+    },
+    {
+      "ordinal": 159,
+      "name": "VariantToInt16"
+    },
+    {
+      "ordinal": 160,
+      "name": "VariantToInt16Array"
+    },
+    {
+      "ordinal": 161,
+      "name": "VariantToInt16ArrayAlloc"
+    },
+    {
+      "ordinal": 162,
+      "name": "VariantToInt16WithDefault"
+    },
+    {
+      "ordinal": 163,
+      "name": "VariantToInt32"
+    },
+    {
+      "ordinal": 164,
+      "name": "VariantToInt32Array"
+    },
+    {
+      "ordinal": 165,
+      "name": "VariantToInt32ArrayAlloc"
+    },
+    {
+      "ordinal": 166,
+      "name": "VariantToInt32WithDefault"
+    },
+    {
+      "ordinal": 167,
+      "name": "VariantToInt64"
+    },
+    {
+      "ordinal": 168,
+      "name": "VariantToInt64Array"
+    },
+    {
+      "ordinal": 169,
+      "name": "VariantToInt64ArrayAlloc"
+    },
+    {
+      "ordinal": 170,
+      "name": "VariantToInt64WithDefault"
+    },
+    {
+      "ordinal": 171,
+      "name": "VariantToPropVariant"
+    },
+    {
+      "ordinal": 172,
+      "name": "VariantToStrRet"
+    },
+    {
+      "ordinal": 173,
+      "name": "VariantToString"
+    },
+    {
+      "ordinal": 174,
+      "name": "VariantToStringAlloc"
+    },
+    {
+      "ordinal": 175,
+      "name": "VariantToStringArray"
+    },
+    {
+      "ordinal": 176,
+      "name": "VariantToStringArrayAlloc"
+    },
+    {
+      "ordinal": 177,
+      "name": "VariantToStringWithDefault"
+    },
+    {
+      "ordinal": 178,
+      "name": "VariantToUInt16"
+    },
+    {
+      "ordinal": 179,
+      "name": "VariantToUInt16Array"
+    },
+    {
+      "ordinal": 180,
+      "name": "VariantToUInt16ArrayAlloc"
+    },
+    {
+      "ordinal": 181,
+      "name": "VariantToUInt16WithDefault"
+    },
+    {
+      "ordinal": 182,
+      "name": "VariantToUInt32"
+    },
+    {
+      "ordinal": 183,
+      "name": "VariantToUInt32Array"
+    },
+    {
+      "ordinal": 184,
+      "name": "VariantToUInt32ArrayAlloc"
+    },
+    {
+      "ordinal": 185,
+      "name": "VariantToUInt32WithDefault"
+    },
+    {
+      "ordinal": 186,
+      "name": "VariantToUInt64"
+    },
+    {
+      "ordinal": 187,
+      "name": "VariantToUInt64Array"
+    },
+    {
+      "ordinal": 188,
+      "name": "VariantToUInt64ArrayAlloc"
+    },
+    {
+      "ordinal": 189,
+      "name": "VariantToUInt64WithDefault"
+    },
+    {
+      "ordinal": 400,
+      "name": null
+    },
+    {
+      "ordinal": 402,
+      "name": null
+    },
+    {
+      "ordinal": 403,
+      "name": null
+    },
+    {
+      "ordinal": 404,
+      "name": null
+    },
+    {
+      "ordinal": 405,
+      "name": null
+    },
+    {
+      "ordinal": 406,
+      "name": null
+    },
+    {
+      "ordinal": 407,
+      "name": null
+    },
+    {
+      "ordinal": 408,
+      "name": null
+    },
+    {
+      "ordinal": 409,
+      "name": null
+    },
+    {
+      "ordinal": 410,
+      "name": null
+    },
+    {
+      "ordinal": 411,
+      "name": null
+    },
+    {
+      "ordinal": 412,
+      "name": null
+    },
+    {
+      "ordinal": 413,
+      "name": null
+    },
+    {
+      "ordinal": 414,
+      "name": null
+    },
+    {
+      "ordinal": 415,
+      "name": null
+    },
+    {
+      "ordinal": 416,
+      "name": null
+    },
+    {
+      "ordinal": 417,
+      "name": null
+    },
+    {
+      "ordinal": 418,
+      "name": null
+    },
+    {
+      "ordinal": 420,
+      "name": null
+    },
+    {
+      "ordinal": 421,
+      "name": null
+    },
+    {
+      "ordinal": 422,
+      "name": null
+    },
+    {
+      "ordinal": 423,
+      "name": null
+    }
+  ]
+}

@@ -1,3 +1,9 @@
+# /// script
+# requires-python = ">=3.13"
+# dependencies = [
+#     "pefile>=2024.8.26",
+# ]
+# ///
 import sys
 import os
 from pathlib import Path
@@ -13,6 +19,10 @@ except ImportError:
 ALL_EXTENSIONS = (
     '.dll', '.acm', '.ax', '.cpl', '.drv', '.ocx'
 )
+
+REPO_ROOT = Path(__file__).parents[1]
+INPUT_FILTER_FILE = REPO_ROOT / 'scripts' / 'include_files.txt'
+DATA_OUT_DIR = REPO_ROOT / 'data' / 'exports'
 
 def value_or_none(table, name):
     value = table.entries.get(name, None)
@@ -44,6 +54,8 @@ class PeInfo:
         self.Size = len(pe.__data__)
 
     def _get_version(self, pe):
+        if not hasattr(pe, 'FileInfo'):
+            return
         for root in pe.FileInfo:
             for stringtables in [fileinfo.StringTable for fileinfo in root if fileinfo.Key == b'StringFileInfo']:
                 for table in stringtables:
@@ -100,9 +112,6 @@ def dump_dlls(input_dir, output_dir, dll_list):
             filename = '{}.json'.format(dll)
             with open(output_dir / filename, 'w') as json_file:
                 dump(json, json_file, indent='  ')
-            #imports = []
-
-
 
 
 def find_files(input_dir):
@@ -111,22 +120,22 @@ def find_files(input_dir):
             yield filename
 
 def main(args):
-    if len(args) < 3 or '-?' in args or '/?' in args or '-h' in args or '/h' in args:
-        print('Usage: dump_dll.py <input_directory> <output_directory> [filter]')
-        print('      input_directory: Where to read dlls from')
-        print('      output_directory: Where to write .json files to')
-        print('      filter: Optional file with dlls to include (one per line)')
+    if len(args) != 2 or '-?' in args or '/?' in args or '-h' in args or '/h' in args:
+        print('Usage: dump_dll.py <input_directory>')
+        print('      input_directory: Base directory that contains a number of ntNN_ARCH directories')
+        print('                       These ntNN_ARCH directories should contain dlls')
         return
 
     input_dir = args[1]
-    output_dir = args[2]
-    if len(args) > 3:
-        with open(args[3], 'r') as input_filter:
-            dll_list = [line.strip() for line in input_filter if line]
-    else:
-        dll_list = find_files(input_dir)
-    dump_dlls(Path(input_dir), Path(output_dir), dll_list)
+    input_filter = [line.strip() for line in INPUT_FILTER_FILE.read_text().splitlines() if line]
 
+    for input_nt in Path(input_dir).iterdir():
+        if input_nt.is_file():
+            continue
+        print(f'Processing {input_nt.name}')
+        out_dir = DATA_OUT_DIR / input_nt.name
+        out_dir.mkdir(exist_ok=True, parents=True)
+        dump_dlls(input_nt, out_dir, input_filter)
 
 if __name__ == '__main__':
     main(sys.argv)

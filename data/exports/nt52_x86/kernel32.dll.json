@@ -1,14 +1,14 @@
 {
   "Version": "5.2.3790.3959-I386",
-  "md5": "b3d3d38df214df290b934d030f329530",
-  "imphash": "b3d3d38df214df290b934d030f329530",
+  "md5": "bdc8872b7f13f9955218d488d92cdf7b",
+  "imphash": "bdc8872b7f13f9955218d488d92cdf7b",
   "InternalName": "kernel32",
   "CompanyName": "Microsoft Corporation",
   "FileDescription": "Windows NT BASE API Client DLL",
   "FileVersion": "5.2.3790.3959 (srv03_sp2_rtm.070216-1710)",
   "ProductVersion": "5.2.3790.3959",
-  "PeChecksum": 1091358,
-  "Size": 1048064,
+  "PeChecksum": 1055862,
+  "Size": 1037312,
   "Machine": "I386",
   "exports": [
     {
@@ -45,11 +45,13 @@
     },
     {
       "ordinal": 9,
-      "name": "AddVectoredContinueHandler"
+      "name": "AddVectoredContinueHandler",
+      "forwarder": "NTDLL.RtlAddVectoredContinueHandler"
     },
     {
       "ordinal": 10,
-      "name": "AddVectoredExceptionHandler"
+      "name": "AddVectoredExceptionHandler",
+      "forwarder": "NTDLL.RtlAddVectoredExceptionHandler"
     },
     {
       "ordinal": 11,
@@ -505,11 +507,13 @@
     },
     {
       "ordinal": 124,
-      "name": "DecodePointer"
+      "name": "DecodePointer",
+      "forwarder": "NTDLL.RtlDecodePointer"
     },
     {
       "ordinal": 125,
-      "name": "DecodeSystemPointer"
+      "name": "DecodeSystemPointer",
+      "forwarder": "NTDLL.RtlDecodeSystemPointer"
     },
     {
       "ordinal": 126,
@@ -529,7 +533,8 @@
     },
     {
       "ordinal": 130,
-      "name": "DeleteCriticalSection"
+      "name": "DeleteCriticalSection",
+      "forwarder": "NTDLL.RtlDeleteCriticalSection"
     },
     {
       "ordinal": 131,
@@ -605,11 +610,13 @@
     },
     {
       "ordinal": 149,
-      "name": "EncodePointer"
+      "name": "EncodePointer",
+      "forwarder": "NTDLL.RtlEncodePointer"
     },
     {
       "ordinal": 150,
-      "name": "EncodeSystemPointer"
+      "name": "EncodeSystemPointer",
+      "forwarder": "NTDLL.RtlEncodeSystemPointer"
     },
     {
       "ordinal": 151,
@@ -621,7 +628,8 @@
     },
     {
       "ordinal": 153,
-      "name": "EnterCriticalSection"
+      "name": "EnterCriticalSection",
+      "forwarder": "NTDLL.RtlEnterCriticalSection"
     },
     {
       "ordinal": 154,
@@ -1309,7 +1317,8 @@
     },
     {
       "ordinal": 325,
-      "name": "GetCurrentProcessorNumber"
+      "name": "GetCurrentProcessorNumber",
+      "forwarder": "NTDLL.RtlGetCurrentProcessorNumber"
     },
     {
       "ordinal": 326,
@@ -1489,7 +1498,8 @@
     },
     {
       "ordinal": 370,
-      "name": "GetLastError"
+      "name": "GetLastError",
+      "forwarder": "NTDLL.RtlGetLastWin32Error"
     },
     {
       "ordinal": 371,
@@ -2125,7 +2135,8 @@
     },
     {
       "ordinal": 529,
-      "name": "HeapAlloc"
+      "name": "HeapAlloc",
+      "forwarder": "NTDLL.RtlAllocateHeap"
     },
     {
       "ordinal": 530,
@@ -2149,7 +2160,8 @@
     },
     {
       "ordinal": 535,
-      "name": "HeapFree"
+      "name": "HeapFree",
+      "forwarder": "NTDLL.RtlFreeHeap"
     },
     {
       "ordinal": 536,
@@ -2165,7 +2177,8 @@
     },
     {
       "ordinal": 539,
-      "name": "HeapReAlloc"
+      "name": "HeapReAlloc",
+      "forwarder": "NTDLL.RtlReAllocateHeap"
     },
     {
       "ordinal": 540,
@@ -2173,7 +2186,8 @@
     },
     {
       "ordinal": 541,
-      "name": "HeapSize"
+      "name": "HeapSize",
+      "forwarder": "NTDLL.RtlSizeHeap"
     },
     {
       "ordinal": 542,
@@ -2209,7 +2223,8 @@
     },
     {
       "ordinal": 550,
-      "name": "InitializeSListHead"
+      "name": "InitializeSListHead",
+      "forwarder": "NTDLL.RtlInitializeSListHead"
     },
     {
       "ordinal": 552,
@@ -2217,7 +2232,8 @@
     },
     {
       "ordinal": 551,
-      "name": "InterlockedCompareExchange64"
+      "name": "InterlockedCompareExchange64",
+      "forwarder": "NTDLL.RtlInterlockedCompareExchange64"
     },
     {
       "ordinal": 553,
@@ -2233,7 +2249,8 @@
     },
     {
       "ordinal": 556,
-      "name": "InterlockedFlushSList"
+      "name": "InterlockedFlushSList",
+      "forwarder": "NTDLL.RtlInterlockedFlushSList"
     },
     {
       "ordinal": 557,
@@ -2241,11 +2258,13 @@
     },
     {
       "ordinal": 558,
-      "name": "InterlockedPopEntrySList"
+      "name": "InterlockedPopEntrySList",
+      "forwarder": "NTDLL.RtlInterlockedPopEntrySList"
     },
     {
       "ordinal": 559,
-      "name": "InterlockedPushEntrySList"
+      "name": "InterlockedPushEntrySList",
+      "forwarder": "NTDLL.RtlInterlockedPushEntrySList"
     },
     {
       "ordinal": 560,
@@ -2385,7 +2404,8 @@
     },
     {
       "ordinal": 594,
-      "name": "LeaveCriticalSection"
+      "name": "LeaveCriticalSection",
+      "forwarder": "NTDLL.RtlLeaveCriticalSection"
     },
     {
       "ordinal": 595,
@@ -2693,7 +2713,8 @@
     },
     {
       "ordinal": 671,
-      "name": "QueryDepthSList"
+      "name": "QueryDepthSList",
+      "forwarder": "NTDLL.RtlQueryDepthSList"
     },
     {
       "ordinal": 672,
@@ -2861,11 +2882,13 @@
     },
     {
       "ordinal": 713,
-      "name": "RemoveVectoredContinueHandler"
+      "name": "RemoveVectoredContinueHandler",
+      "forwarder": "NTDLL.RtlRemoveVectoredContinueHandler"
     },
     {
       "ordinal": 714,
-      "name": "RemoveVectoredExceptionHandler"
+      "name": "RemoveVectoredExceptionHandler",
+      "forwarder": "NTDLL.RtlRemoveVectoredExceptionHandler"
     },
     {
       "ordinal": 715,
@@ -2897,7 +2920,8 @@
     },
     {
       "ordinal": 722,
-      "name": "RestoreLastError"
+      "name": "RestoreLastError",
+      "forwarder": "NTDLL.RtlRestoreLastWin32Error"
     },
     {
       "ordinal": 723,
@@ -2905,27 +2929,33 @@
     },
     {
       "ordinal": 724,
-      "name": "RtlCaptureContext"
+      "name": "RtlCaptureContext",
+      "forwarder": "NTDLL.RtlCaptureContext"
     },
     {
       "ordinal": 725,
-      "name": "RtlCaptureStackBackTrace"
+      "name": "RtlCaptureStackBackTrace",
+      "forwarder": "NTDLL.RtlCaptureStackBackTrace"
     },
     {
       "ordinal": 726,
-      "name": "RtlFillMemory"
+      "name": "RtlFillMemory",
+      "forwarder": "NTDLL.RtlFillMemory"
     },
     {
       "ordinal": 727,
-      "name": "RtlMoveMemory"
+      "name": "RtlMoveMemory",
+      "forwarder": "NTDLL.RtlMoveMemory"
     },
     {
       "ordinal": 728,
-      "name": "RtlUnwind"
+      "name": "RtlUnwind",
+      "forwarder": "NTDLL.RtlUnwind"
     },
     {
       "ordinal": 729,
-      "name": "RtlZeroMemory"
+      "name": "RtlZeroMemory",
+      "forwarder": "NTDLL.RtlZeroMemory"
     },
     {
       "ordinal": 730,
@@ -3121,7 +3151,8 @@
     },
     {
       "ordinal": 778,
-      "name": "SetCriticalSectionSpinCount"
+      "name": "SetCriticalSectionSpinCount",
+      "forwarder": "NTDLL.RtlSetCriticalSectionSpinCount"
     },
     {
       "ordinal": 779,
@@ -3249,7 +3280,8 @@
     },
     {
       "ordinal": 810,
-      "name": "SetLastError"
+      "name": "SetLastError",
+      "forwarder": "NTDLL.RtlSetLastWin32Error"
     },
     {
       "ordinal": 811,
@@ -3513,7 +3545,8 @@
     },
     {
       "ordinal": 876,
-      "name": "TryEnterCriticalSection"
+      "name": "TryEnterCriticalSection",
+      "forwarder": "NTDLL.RtlTryEnterCriticalSection"
     },
     {
       "ordinal": 877,
@@ -3589,7 +3622,8 @@
     },
     {
       "ordinal": 895,
-      "name": "VerSetConditionMask"
+      "name": "VerSetConditionMask",
+      "forwarder": "NTDLL.VerSetConditionMask"
     },
     {
       "ordinal": 896,

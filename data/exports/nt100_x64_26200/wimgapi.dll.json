@@ -1,0 +1,315 @@
+{
+  "Version": "10.0.26100.7920-AMD64",
+  "md5": "f4ed1615c037848e621c603fab9b669c",
+  "imphash": "f4ed1615c037848e621c603fab9b669c",
+  "InternalName": "wimgapi.dll",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "Windows Imaging Library",
+  "FileVersion": "10.0.26100.7920 (WinBuild.160101.0800)",
+  "ProductVersion": "10.0.26100.7920",
+  "PeChecksum": 919503,
+  "Size": 898464,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ordinal": 1,
+      "name": "DllCanUnloadNow"
+    },
+    {
+      "ordinal": 2,
+      "name": "DllMain"
+    },
+    {
+      "ordinal": 3,
+      "name": "WIMAddImagePath"
+    },
+    {
+      "ordinal": 4,
+      "name": "WIMAddImagePaths"
+    },
+    {
+      "ordinal": 5,
+      "name": "WIMAddWimbootEntry"
+    },
+    {
+      "ordinal": 6,
+      "name": "WIMApplyImage"
+    },
+    {
+      "ordinal": 7,
+      "name": "WIMApplyInstance"
+    },
+    {
+      "ordinal": 8,
+      "name": "WIMCaptureImage"
+    },
+    {
+      "ordinal": 9,
+      "name": "WIMCaptureInstance"
+    },
+    {
+      "ordinal": 10,
+      "name": "WIMCloseHandle"
+    },
+    {
+      "ordinal": 11,
+      "name": "WIMCommitImageHandle"
+    },
+    {
+      "ordinal": 12,
+      "name": "WIMCopyFile"
+    },
+    {
+      "ordinal": 13,
+      "name": "WIMCreateFile"
+    },
+    {
+      "ordinal": 14,
+      "name": "WIMCreateFileEx"
+    },
+    {
+      "ordinal": 15,
+      "name": "WIMCreateImageFile"
+    },
+    {
+      "ordinal": 16,
+      "name": "WIMCreateWofCompressedFile"
+    },
+    {
+      "ordinal": 17,
+      "name": "WIMDeleteImage"
+    },
+    {
+      "ordinal": 18,
+      "name": "WIMDeleteImageMounts"
+    },
+    {
+      "ordinal": 19,
+      "name": "WIMEnumImageFiles"
+    },
+    {
+      "ordinal": 20,
+      "name": "WIMExportImage"
+    },
+    {
+      "ordinal": 21,
+      "name": "WIMExtractImageDirectory"
+    },
+    {
+      "ordinal": 22,
+      "name": "WIMExtractImagePath"
+    },
+    {
+      "ordinal": 23,
+      "name": "WIMExtractImagePathByWimHandle"
+    },
+    {
+      "ordinal": 24,
+      "name": "WIMExtractInstancePath"
+    },
+    {
+      "ordinal": 25,
+      "name": "WIMFindFirstImageFile"
+    },
+    {
+      "ordinal": 26,
+      "name": "WIMFindFirstInstanceFile"
+    },
+    {
+      "ordinal": 27,
+      "name": "WIMFindNextImageFile"
+    },
+    {
+      "ordinal": 28,
+      "name": "WIMFindNextInstanceFile"
+    },
+    {
+      "ordinal": 29,
+      "name": "WIMGetAttributes"
+    },
+    {
+      "ordinal": 30,
+      "name": "WIMGetImageCount"
+    },
+    {
+      "ordinal": 31,
+      "name": "WIMGetImageInformation"
+    },
+    {
+      "ordinal": 32,
+      "name": "WIMGetInstanceCount"
+    },
+    {
+      "ordinal": 33,
+      "name": "WIMGetInstanceInformation"
+    },
+    {
+      "ordinal": 34,
+      "name": "WIMGetMessageCallbackCount"
+    },
+    {
+      "ordinal": 35,
+      "name": "WIMGetMountedImageHandle"
+    },
+    {
+      "ordinal": 36,
+      "name": "WIMGetMountedImageInfo"
+    },
+    {
+      "ordinal": 37,
+      "name": "WIMGetMountedImageInfoFromHandle"
+    },
+    {
+      "ordinal": 38,
+      "name": "WIMGetMountedImages"
+    },
+    {
+      "ordinal": 39,
+      "name": "WIMGetWIMBootEntries"
+    },
+    {
+      "ordinal": 40,
+      "name": "WIMGetWIMBootWIMPath"
+    },
+    {
+      "ordinal": 41,
+      "name": "WIMGetWimFileSize"
+    },
+    {
+      "ordinal": 42,
+      "name": "WIMInitFileIOCallbacks"
+    },
+    {
+      "ordinal": 43,
+      "name": "WIMInitializeWofDriver"
+    },
+    {
+      "ordinal": 44,
+      "name": "WIMIsCurrentSystemWimboot"
+    },
+    {
+      "ordinal": 45,
+      "name": "WIMIsReferenceWim"
+    },
+    {
+      "ordinal": 46,
+      "name": "WIMLoadImage"
+    },
+    {
+      "ordinal": 47,
+      "name": "WIMLoadInstance"
+    },
+    {
+      "ordinal": 48,
+      "name": "WIMLoadOSInformation"
+    },
+    {
+      "ordinal": 49,
+      "name": "WIMMountImage"
+    },
+    {
+      "ordinal": 50,
+      "name": "WIMMountImageHandle"
+    },
+    {
+      "ordinal": 51,
+      "name": "WIMProcessCustomImage"
+    },
+    {
+      "ordinal": 52,
+      "name": "WIMReadFileEx"
+    },
+    {
+      "ordinal": 53,
+      "name": "WIMReadImageFile"
+    },
+    {
+      "ordinal": 54,
+      "name": "WIMReadInstanceFile"
+    },
+    {
+      "ordinal": 55,
+      "name": "WIMRedirectFolderBeforeApply"
+    },
+    {
+      "ordinal": 56,
+      "name": "WIMRegisterLogFile"
+    },
+    {
+      "ordinal": 57,
+      "name": "WIMRegisterMessageCallback"
+    },
+    {
+      "ordinal": 58,
+      "name": "WIMRemountImage"
+    },
+    {
+      "ordinal": 59,
+      "name": "WIMSetBootImage"
+    },
+    {
+      "ordinal": 60,
+      "name": "WIMSetCachedSigningLevel"
+    },
+    {
+      "ordinal": 61,
+      "name": "WIMSetFileIOCallbackTemporaryPath"
+    },
+    {
+      "ordinal": 62,
+      "name": "WIMSetImageInformation"
+    },
+    {
+      "ordinal": 63,
+      "name": "WIMSetImageUserSpecifiedCreationTime"
+    },
+    {
+      "ordinal": 64,
+      "name": "WIMSetInstanceInformation"
+    },
+    {
+      "ordinal": 65,
+      "name": "WIMSetReferenceFile"
+    },
+    {
+      "ordinal": 66,
+      "name": "WIMSetTemporaryPath"
+    },
+    {
+      "ordinal": 67,
+      "name": "WIMSetWimGuid"
+    },
+    {
+      "ordinal": 68,
+      "name": "WIMSingleInstanceFile"
+    },
+    {
+      "ordinal": 69,
+      "name": "WIMSplitFile"
+    },
+    {
+      "ordinal": 70,
+      "name": "WIMUnmountImage"
+    },
+    {
+      "ordinal": 71,
+      "name": "WIMUnmountImageHandle"
+    },
+    {
+      "ordinal": 72,
+      "name": "WIMUnregisterLogFile"
+    },
+    {
+      "ordinal": 73,
+      "name": "WIMUnregisterMessageCallback"
+    },
+    {
+      "ordinal": 74,
+      "name": "WIMUpdateWIMBootEntry"
+    },
+    {
+      "ordinal": 75,
+      "name": "WIMWriteFileWithIntegrity"
+    }
+  ]
+}

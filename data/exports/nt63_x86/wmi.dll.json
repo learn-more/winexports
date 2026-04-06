@@ -1,0 +1,240 @@
+{
+  "Version": "6.3.9600.16384-I386",
+  "md5": "b268ad2c3ecdbe9fcb217ac8c57ab966",
+  "imphash": "b268ad2c3ecdbe9fcb217ac8c57ab966",
+  "InternalName": "wmi",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "WMI DC and DP functionality",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 51105,
+  "Size": 5632,
+  "Machine": "I386",
+  "exports": [
+    {
+      "ordinal": 1,
+      "name": "CloseTrace",
+      "forwarder": "api-ms-win-eventing-consumer-l1-1-0.CloseTrace"
+    },
+    {
+      "ordinal": 2,
+      "name": "ControlTraceA",
+      "forwarder": "api-ms-win-eventing-legacy-l1-1-0.ControlTraceA"
+    },
+    {
+      "ordinal": 3,
+      "name": "ControlTraceW",
+      "forwarder": "api-ms-win-eventing-controller-l1-1-0.ControlTraceW"
+    },
+    {
+      "ordinal": 4,
+      "name": "CreateTraceInstanceId",
+      "forwarder": "ntdll.EtwCreateTraceInstanceId"
+    },
+    {
+      "ordinal": 5,
+      "name": "EnableTrace",
+      "forwarder": "api-ms-win-eventing-legacy-l1-1-0.EnableTrace"
+    },
+    {
+      "ordinal": 6,
+      "name": "GetTraceEnableFlags",
+      "forwarder": "api-ms-win-eventing-classicprovider-l1-1-0.GetTraceEnableFlags"
+    },
+    {
+      "ordinal": 7,
+      "name": "GetTraceEnableLevel",
+      "forwarder": "api-ms-win-eventing-classicprovider-l1-1-0.GetTraceEnableLevel"
+    },
+    {
+      "ordinal": 8,
+      "name": "GetTraceLoggerHandle",
+      "forwarder": "api-ms-win-eventing-classicprovider-l1-1-0.GetTraceLoggerHandle"
+    },
+    {
+      "ordinal": 9,
+      "name": "OpenTraceA",
+      "forwarder": "api-ms-win-eventing-legacy-l1-1-0.OpenTraceA"
+    },
+    {
+      "ordinal": 10,
+      "name": "OpenTraceW",
+      "forwarder": "api-ms-win-eventing-consumer-l1-1-0.OpenTraceW"
+    },
+    {
+      "ordinal": 11,
+      "name": "ProcessTrace",
+      "forwarder": "api-ms-win-eventing-consumer-l1-1-0.ProcessTrace"
+    },
+    {
+      "ordinal": 12,
+      "name": "QueryAllTracesA",
+      "forwarder": "api-ms-win-eventing-legacy-l1-1-0.QueryAllTracesA"
+    },
+    {
+      "ordinal": 13,
+      "name": "QueryAllTracesW",
+      "forwarder": "api-ms-win-eventing-controller-l1-1-0.QueryAllTracesW"
+    },
+    {
+      "ordinal": 14,
+      "name": "RegisterTraceGuidsA",
+      "forwarder": "api-ms-win-eventing-obsolete-l1-1-0.RegisterTraceGuidsA"
+    },
+    {
+      "ordinal": 15,
+      "name": "RegisterTraceGuidsW",
+      "forwarder": "api-ms-win-eventing-classicprovider-l1-1-0.RegisterTraceGuidsW"
+    },
+    {
+      "ordinal": 16,
+      "name": "RemoveTraceCallback",
+      "forwarder": "api-ms-win-eventing-obsolete-l1-1-0.RemoveTraceCallback"
+    },
+    {
+      "ordinal": 17,
+      "name": "SetTraceCallback",
+      "forwarder": "api-ms-win-eventing-obsolete-l1-1-0.SetTraceCallback"
+    },
+    {
+      "ordinal": 18,
+      "name": "StartTraceA",
+      "forwarder": "api-ms-win-eventing-legacy-l1-1-0.StartTraceA"
+    },
+    {
+      "ordinal": 19,
+      "name": "StartTraceW",
+      "forwarder": "api-ms-win-eventing-controller-l1-1-0.StartTraceW"
+    },
+    {
+      "ordinal": 20,
+      "name": "TraceEvent",
+      "forwarder": "ntdll.EtwLogTraceEvent"
+    },
+    {
+      "ordinal": 21,
+      "name": "TraceEventInstance",
+      "forwarder": "ntdll.EtwTraceEventInstance"
+    },
+    {
+      "ordinal": 22,
+      "name": "UnregisterTraceGuids",
+      "forwarder": "api-ms-win-eventing-classicprovider-l1-1-0.UnregisterTraceGuids"
+    },
+    {
+      "ordinal": 23,
+      "name": "WmiCloseBlock",
+      "forwarder": "wmiclnt.WmiCloseBlock"
+    },
+    {
+      "ordinal": 24,
+      "name": "WmiDevInstToInstanceNameA",
+      "forwarder": "wmiclnt.WmiDevInstToInstanceNameA"
+    },
+    {
+      "ordinal": 25,
+      "name": "WmiDevInstToInstanceNameW",
+      "forwarder": "wmiclnt.WmiDevInstToInstanceNameW"
+    },
+    {
+      "ordinal": 26,
+      "name": "WmiEnumerateGuids",
+      "forwarder": "wmiclnt.WmiEnumerateGuids"
+    },
+    {
+      "ordinal": 27,
+      "name": "WmiExecuteMethodA",
+      "forwarder": "wmiclnt.WmiExecuteMethodA"
+    },
+    {
+      "ordinal": 28,
+      "name": "WmiExecuteMethodW",
+      "forwarder": "wmiclnt.WmiExecuteMethodW"
+    },
+    {
+      "ordinal": 29,
+      "name": "WmiFileHandleToInstanceNameA",
+      "forwarder": "wmiclnt.WmiFileHandleToInstanceNameA"
+    },
+    {
+      "ordinal": 30,
+      "name": "WmiFileHandleToInstanceNameW",
+      "forwarder": "wmiclnt.WmiFileHandleToInstanceNameW"
+    },
+    {
+      "ordinal": 31,
+      "name": "WmiFreeBuffer",
+      "forwarder": "wmiclnt.WmiFreeBuffer"
+    },
+    {
+      "ordinal": 32,
+      "name": "WmiMofEnumerateResourcesA",
+      "forwarder": "wmiclnt.WmiMofEnumerateResourcesA"
+    },
+    {
+      "ordinal": 33,
+      "name": "WmiMofEnumerateResourcesW",
+      "forwarder": "wmiclnt.WmiMofEnumerateResourcesW"
+    },
+    {
+      "ordinal": 34,
+      "name": "WmiNotificationRegistrationA",
+      "forwarder": "wmiclnt.WmiNotificationRegistrationA"
+    },
+    {
+      "ordinal": 35,
+      "name": "WmiNotificationRegistrationW",
+      "forwarder": "wmiclnt.WmiNotificationRegistrationW"
+    },
+    {
+      "ordinal": 36,
+      "name": "WmiOpenBlock",
+      "forwarder": "wmiclnt.WmiOpenBlock"
+    },
+    {
+      "ordinal": 37,
+      "name": "WmiQueryAllDataA",
+      "forwarder": "wmiclnt.WmiQueryAllDataA"
+    },
+    {
+      "ordinal": 38,
+      "name": "WmiQueryAllDataW",
+      "forwarder": "wmiclnt.WmiQueryAllDataW"
+    },
+    {
+      "ordinal": 39,
+      "name": "WmiQueryGuidInformation",
+      "forwarder": "wmiclnt.WmiQueryGuidInformation"
+    },
+    {
+      "ordinal": 40,
+      "name": "WmiQuerySingleInstanceA",
+      "forwarder": "wmiclnt.WmiQuerySingleInstanceA"
+    },
+    {
+      "ordinal": 41,
+      "name": "WmiQuerySingleInstanceW",
+      "forwarder": "wmiclnt.WmiQuerySingleInstanceW"
+    },
+    {
+      "ordinal": 42,
+      "name": "WmiSetSingleInstanceA",
+      "forwarder": "wmiclnt.WmiSetSingleInstanceA"
+    },
+    {
+      "ordinal": 43,
+      "name": "WmiSetSingleInstanceW",
+      "forwarder": "wmiclnt.WmiSetSingleInstanceW"
+    },
+    {
+      "ordinal": 44,
+      "name": "WmiSetSingleItemA",
+      "forwarder": "wmiclnt.WmiSetSingleItemA"
+    },
+    {
+      "ordinal": 45,
+      "name": "WmiSetSingleItemW",
+      "forwarder": "wmiclnt.WmiSetSingleItemW"
+    }
+  ]
+}

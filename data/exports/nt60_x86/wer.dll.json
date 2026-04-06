@@ -1,0 +1,323 @@
+{
+  "Version": "6.0.6002.18005-I386",
+  "md5": "8be000f9a0b0ff7194aaefb02c9bde99",
+  "imphash": "8be000f9a0b0ff7194aaefb02c9bde99",
+  "InternalName": "wer.dll",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "Windows Error Reporting DLL",
+  "FileVersion": "6.0.6002.18005 (lh_sp2rtm.090410-1830)",
+  "ProductVersion": "6.0.6002.18005",
+  "PeChecksum": 909226,
+  "Size": 876032,
+  "Machine": "I386",
+  "exports": [
+    {
+      "ordinal": 64,
+      "name": "WerAddExcludedApplication"
+    },
+    {
+      "ordinal": 65,
+      "name": "WerRemoveExcludedApplication"
+    },
+    {
+      "ordinal": 66,
+      "name": "WerReportAddDump"
+    },
+    {
+      "ordinal": 67,
+      "name": "WerReportAddFile"
+    },
+    {
+      "ordinal": 68,
+      "name": "WerReportCloseHandle"
+    },
+    {
+      "ordinal": 69,
+      "name": "WerReportCreate"
+    },
+    {
+      "ordinal": 70,
+      "name": "WerReportSetParameter"
+    },
+    {
+      "ordinal": 71,
+      "name": "WerReportSetUIOption"
+    },
+    {
+      "ordinal": 72,
+      "name": "WerReportSubmit"
+    },
+    {
+      "ordinal": 1,
+      "name": "WerSysprepCleanup"
+    },
+    {
+      "ordinal": 2,
+      "name": "WerSysprepGeneralize"
+    },
+    {
+      "ordinal": 3,
+      "name": "WerSysprepSpecialize"
+    },
+    {
+      "ordinal": 4,
+      "name": "WerUnattendedSetup"
+    },
+    {
+      "ordinal": 5,
+      "name": "WerpAddAppCompatData"
+    },
+    {
+      "ordinal": 6,
+      "name": "WerpAddFile"
+    },
+    {
+      "ordinal": 7,
+      "name": "WerpAddMemoryBlock"
+    },
+    {
+      "ordinal": 8,
+      "name": "WerpAddRegisteredDataToReport"
+    },
+    {
+      "ordinal": 9,
+      "name": "WerpAddSecondaryParameter"
+    },
+    {
+      "ordinal": 10,
+      "name": "WerpAddTextToReport"
+    },
+    {
+      "ordinal": 11,
+      "name": "WerpArchiveReport"
+    },
+    {
+      "ordinal": 12,
+      "name": "WerpCancelResponseDownload"
+    },
+    {
+      "ordinal": 13,
+      "name": "WerpCancelUpload"
+    },
+    {
+      "ordinal": 14,
+      "name": "WerpCloseStore"
+    },
+    {
+      "ordinal": 15,
+      "name": "WerpCreateMachineStore"
+    },
+    {
+      "ordinal": 16,
+      "name": "WerpDeleteReport"
+    },
+    {
+      "ordinal": 17,
+      "name": "WerpDestroyWerString"
+    },
+    {
+      "ordinal": 18,
+      "name": "WerpDownloadResponse"
+    },
+    {
+      "ordinal": 19,
+      "name": "WerpDownloadResponseTemplate"
+    },
+    {
+      "ordinal": 20,
+      "name": "WerpEnumerateStoreNext"
+    },
+    {
+      "ordinal": 21,
+      "name": "WerpEnumerateStoreStart"
+    },
+    {
+      "ordinal": 22,
+      "name": "WerpExtractReportFiles"
+    },
+    {
+      "ordinal": 23,
+      "name": "WerpGetBucketId"
+    },
+    {
+      "ordinal": 24,
+      "name": "WerpGetDynamicParameter"
+    },
+    {
+      "ordinal": 25,
+      "name": "WerpGetEventType"
+    },
+    {
+      "ordinal": 26,
+      "name": "WerpGetFileByIndex"
+    },
+    {
+      "ordinal": 27,
+      "name": "WerpGetFilePathByIndex"
+    },
+    {
+      "ordinal": 28,
+      "name": "WerpGetNumFiles"
+    },
+    {
+      "ordinal": 29,
+      "name": "WerpGetNumSecParams"
+    },
+    {
+      "ordinal": 30,
+      "name": "WerpGetNumSigParams"
+    },
+    {
+      "ordinal": 73,
+      "name": "WerpGetReportConsent"
+    },
+    {
+      "ordinal": 31,
+      "name": "WerpGetReportFinalConsent"
+    },
+    {
+      "ordinal": 32,
+      "name": "WerpGetReportFlags"
+    },
+    {
+      "ordinal": 33,
+      "name": "WerpGetReportInformation"
+    },
+    {
+      "ordinal": 34,
+      "name": "WerpGetReportTime"
+    },
+    {
+      "ordinal": 35,
+      "name": "WerpGetReportType"
+    },
+    {
+      "ordinal": 36,
+      "name": "WerpGetResponseId"
+    },
+    {
+      "ordinal": 37,
+      "name": "WerpGetResponseUrl"
+    },
+    {
+      "ordinal": 38,
+      "name": "WerpGetSecParamByIndex"
+    },
+    {
+      "ordinal": 39,
+      "name": "WerpGetSigParamByIndex"
+    },
+    {
+      "ordinal": 40,
+      "name": "WerpGetStoreLocation"
+    },
+    {
+      "ordinal": 41,
+      "name": "WerpGetStoreType"
+    },
+    {
+      "ordinal": 42,
+      "name": "WerpGetTextFromReport"
+    },
+    {
+      "ordinal": 43,
+      "name": "WerpGetUIParamByIndex"
+    },
+    {
+      "ordinal": 44,
+      "name": "WerpGetUploadTime"
+    },
+    {
+      "ordinal": 45,
+      "name": "WerpGetWerStringData"
+    },
+    {
+      "ordinal": 74,
+      "name": "WerpIsDisabled"
+    },
+    {
+      "ordinal": 46,
+      "name": "WerpIsTransportAvailable"
+    },
+    {
+      "ordinal": 47,
+      "name": "WerpLoadReport"
+    },
+    {
+      "ordinal": 48,
+      "name": "WerpOpenMachineArchive"
+    },
+    {
+      "ordinal": 49,
+      "name": "WerpOpenMachineQueue"
+    },
+    {
+      "ordinal": 50,
+      "name": "WerpOpenUserArchive"
+    },
+    {
+      "ordinal": 75,
+      "name": "WerpOpenUserQueue"
+    },
+    {
+      "ordinal": 76,
+      "name": "WerpPromtUser"
+    },
+    {
+      "ordinal": 51,
+      "name": "WerpReportCancel"
+    },
+    {
+      "ordinal": 52,
+      "name": "WerpRestartApplication"
+    },
+    {
+      "ordinal": 77,
+      "name": "WerpSetCallBack"
+    },
+    {
+      "ordinal": 53,
+      "name": "WerpSetDynamicParameter"
+    },
+    {
+      "ordinal": 54,
+      "name": "WerpSetEventName"
+    },
+    {
+      "ordinal": 55,
+      "name": "WerpSetReportFlags"
+    },
+    {
+      "ordinal": 56,
+      "name": "WerpSetReportInformation"
+    },
+    {
+      "ordinal": 57,
+      "name": "WerpSetReportTime"
+    },
+    {
+      "ordinal": 58,
+      "name": "WerpSetReportUploadContextToken"
+    },
+    {
+      "ordinal": 59,
+      "name": "WerpShowNXNotification"
+    },
+    {
+      "ordinal": 60,
+      "name": "WerpShowSecondLevelConsent"
+    },
+    {
+      "ordinal": 61,
+      "name": "WerpShowUpsellUI"
+    },
+    {
+      "ordinal": 62,
+      "name": "WerpSubmitReportFromStore"
+    },
+    {
+      "ordinal": 63,
+      "name": "WerpSvcReportFromMachineQueue"
+    }
+  ]
+}

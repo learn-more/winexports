@@ -1,0 +1,60 @@
+{
+  "Version": "10.0.19041.1-AMD64",
+  "md5": "627b37e85aacf23d6302b81cf976e185",
+  "imphash": "627b37e85aacf23d6302b81cf976e185",
+  "InternalName": "MSSIP32 Forwarder DLL",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "MSSIP32 Forwarder DLL",
+  "FileVersion": "10.0.19041.1 (WinBuild.160101.0800)",
+  "ProductVersion": "10.0.19041.1",
+  "PeChecksum": 21558,
+  "Size": 10240,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ordinal": 3,
+      "name": "CryptSIPCreateIndirectData",
+      "forwarder": "Wintrust.CryptSIPCreateIndirectData"
+    },
+    {
+      "ordinal": 1,
+      "name": "CryptSIPGetInfo",
+      "forwarder": "Wintrust.CryptSIPGetInfo"
+    },
+    {
+      "ordinal": 2,
+      "name": "CryptSIPGetRegWorkingFlags",
+      "forwarder": "Wintrust.CryptSIPGetRegWorkingFlags"
+    },
+    {
+      "ordinal": 4,
+      "name": "CryptSIPGetSignedDataMsg",
+      "forwarder": "Wintrust.CryptSIPGetSignedDataMsg"
+    },
+    {
+      "ordinal": 5,
+      "name": "CryptSIPPutSignedDataMsg",
+      "forwarder": "Wintrust.CryptSIPPutSignedDataMsg"
+    },
+    {
+      "ordinal": 6,
+      "name": "CryptSIPRemoveSignedDataMsg",
+      "forwarder": "Wintrust.CryptSIPRemoveSignedDataMsg"
+    },
+    {
+      "ordinal": 7,
+      "name": "CryptSIPVerifyIndirectData",
+      "forwarder": "Wintrust.CryptSIPVerifyIndirectData"
+    },
+    {
+      "ordinal": 8,
+      "name": "DllRegisterServer",
+      "forwarder": "Wintrust.mssip32DllRegisterServer"
+    },
+    {
+      "ordinal": 9,
+      "name": "DllUnregisterServer",
+      "forwarder": "Wintrust.mssip32DllUnregisterServer"
+    }
+  ]
+}

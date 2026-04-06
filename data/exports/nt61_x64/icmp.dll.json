@@ -13,35 +13,43 @@
   "exports": [
     {
       "ordinal": 1,
-      "name": "IcmpCloseHandle"
+      "name": "IcmpCloseHandle",
+      "forwarder": "iphlpapi.IcmpCloseHandle"
     },
     {
       "ordinal": 2,
-      "name": "IcmpCreateFile"
+      "name": "IcmpCreateFile",
+      "forwarder": "iphlpapi.IcmpCreateFile"
     },
     {
       "ordinal": 3,
-      "name": "IcmpParseReplies"
+      "name": "IcmpParseReplies",
+      "forwarder": "iphlpapi.IcmpParseReplies"
     },
     {
       "ordinal": 4,
-      "name": "IcmpSendEcho"
+      "name": "IcmpSendEcho",
+      "forwarder": "iphlpapi.IcmpSendEcho"
     },
     {
       "ordinal": 5,
-      "name": "IcmpSendEcho2"
+      "name": "IcmpSendEcho2",
+      "forwarder": "iphlpapi.IcmpSendEcho2"
     },
     {
       "ordinal": 6,
-      "name": "do_echo_rep"
+      "name": "do_echo_rep",
+      "forwarder": "iphlpapi.do_echo_rep"
     },
     {
       "ordinal": 7,
-      "name": "do_echo_req"
+      "name": "do_echo_req",
+      "forwarder": "iphlpapi.do_echo_req"
     },
     {
       "ordinal": 8,
-      "name": "register_icmp"
+      "name": "register_icmp",
+      "forwarder": "iphlpapi.register_icmp"
     }
   ]
 }

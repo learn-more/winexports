@@ -13,39 +13,48 @@
   "exports": [
     {
       "ordinal": 3,
-      "name": "CryptSIPCreateIndirectData"
+      "name": "CryptSIPCreateIndirectData",
+      "forwarder": "Wintrust.CryptSIPCreateIndirectData"
     },
     {
       "ordinal": 1,
-      "name": "CryptSIPGetInfo"
+      "name": "CryptSIPGetInfo",
+      "forwarder": "Wintrust.CryptSIPGetInfo"
     },
     {
       "ordinal": 2,
-      "name": "CryptSIPGetRegWorkingFlags"
+      "name": "CryptSIPGetRegWorkingFlags",
+      "forwarder": "Wintrust.CryptSIPGetRegWorkingFlags"
     },
     {
       "ordinal": 4,
-      "name": "CryptSIPGetSignedDataMsg"
+      "name": "CryptSIPGetSignedDataMsg",
+      "forwarder": "Wintrust.CryptSIPGetSignedDataMsg"
     },
     {
       "ordinal": 5,
-      "name": "CryptSIPPutSignedDataMsg"
+      "name": "CryptSIPPutSignedDataMsg",
+      "forwarder": "Wintrust.CryptSIPPutSignedDataMsg"
     },
     {
       "ordinal": 6,
-      "name": "CryptSIPRemoveSignedDataMsg"
+      "name": "CryptSIPRemoveSignedDataMsg",
+      "forwarder": "Wintrust.CryptSIPRemoveSignedDataMsg"
     },
     {
       "ordinal": 7,
-      "name": "CryptSIPVerifyIndirectData"
+      "name": "CryptSIPVerifyIndirectData",
+      "forwarder": "Wintrust.CryptSIPVerifyIndirectData"
     },
     {
       "ordinal": 8,
-      "name": "DllRegisterServer"
+      "name": "DllRegisterServer",
+      "forwarder": "Wintrust.mssip32DllRegisterServer"
     },
     {
       "ordinal": 9,
-      "name": "DllUnregisterServer"
+      "name": "DllUnregisterServer",
+      "forwarder": "Wintrust.mssip32DllUnregisterServer"
     }
   ]
 }

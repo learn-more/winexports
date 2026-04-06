@@ -1,0 +1,1175 @@
+{
+  "Version": "10.0.19041.3636-AMD64",
+  "md5": "64b93bb324f4bc2dae8d751a1fd81e33",
+  "imphash": "64b93bb324f4bc2dae8d751a1fd81e33",
+  "InternalName": "clusapi",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "Cluster API Library",
+  "FileVersion": "10.0.19041.3636 (WinBuild.160101.0800)",
+  "ProductVersion": "10.0.19041.3636",
+  "PeChecksum": 1103750,
+  "Size": 1061376,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ordinal": 8,
+      "name": "AddClusterGroupDependency"
+    },
+    {
+      "ordinal": 9,
+      "name": "AddClusterGroupSetDependency"
+    },
+    {
+      "ordinal": 10,
+      "name": "AddClusterGroupToGroupSetDependency"
+    },
+    {
+      "ordinal": 11,
+      "name": "AddClusterNode"
+    },
+    {
+      "ordinal": 12,
+      "name": "AddClusterResourceDependency"
+    },
+    {
+      "ordinal": 13,
+      "name": "AddClusterResourceNode"
+    },
+    {
+      "ordinal": 14,
+      "name": "AddClusterStorageNode"
+    },
+    {
+      "ordinal": 15,
+      "name": "AddCrossClusterGroupSetDependency"
+    },
+    {
+      "ordinal": 16,
+      "name": "AddResourceToClusterSharedVolumes"
+    },
+    {
+      "ordinal": 17,
+      "name": "AddResourceToClusterSharedVolumesEx"
+    },
+    {
+      "ordinal": 18,
+      "name": "BackupClusterDatabase"
+    },
+    {
+      "ordinal": 1,
+      "name": "CCHlpAddNodeUpdateCluster"
+    },
+    {
+      "ordinal": 2,
+      "name": "CCHlpConfigureNode"
+    },
+    {
+      "ordinal": 3,
+      "name": "CCHlpCreateClusterNameCOIfNotExists"
+    },
+    {
+      "ordinal": 4,
+      "name": "CCHlpCreateClusterNameInAD"
+    },
+    {
+      "ordinal": 5,
+      "name": "CCHlpGetClusterServiceSecret"
+    },
+    {
+      "ordinal": 6,
+      "name": "CCHlpGetDNSHostLabel"
+    },
+    {
+      "ordinal": 7,
+      "name": "CCHlpRestoreClusterVirtualObjectToInitialState"
+    },
+    {
+      "ordinal": 19,
+      "name": "CanResourceBeDependent"
+    },
+    {
+      "ordinal": 20,
+      "name": "CancelClusterGroupOperation"
+    },
+    {
+      "ordinal": 21,
+      "name": "ChangeClusterResourceGroup"
+    },
+    {
+      "ordinal": 22,
+      "name": "ChangeClusterResourceGroupEx"
+    },
+    {
+      "ordinal": 23,
+      "name": "CloseCluster"
+    },
+    {
+      "ordinal": 24,
+      "name": "CloseClusterGroup"
+    },
+    {
+      "ordinal": 25,
+      "name": "CloseClusterGroupSet"
+    },
+    {
+      "ordinal": 26,
+      "name": "CloseClusterNetInterface"
+    },
+    {
+      "ordinal": 27,
+      "name": "CloseClusterNetwork"
+    },
+    {
+      "ordinal": 28,
+      "name": "CloseClusterNode"
+    },
+    {
+      "ordinal": 29,
+      "name": "CloseClusterNotifyPort"
+    },
+    {
+      "ordinal": 30,
+      "name": "CloseClusterResource"
+    },
+    {
+      "ordinal": 31,
+      "name": "CluFreeFaultDomainInfo"
+    },
+    {
+      "ordinal": 32,
+      "name": "CluFreeGuidArrayPtr"
+    },
+    {
+      "ordinal": 33,
+      "name": "CluFreeStr"
+    },
+    {
+      "ordinal": 34,
+      "name": "CluGetDriveInfo"
+    },
+    {
+      "ordinal": 35,
+      "name": "CluGetFaultDomainObject"
+    },
+    {
+      "ordinal": 36,
+      "name": "CluGetFaultDomainObjects"
+    },
+    {
+      "ordinal": 37,
+      "name": "CluRemoveFaultDomainObject"
+    },
+    {
+      "ordinal": 38,
+      "name": "ClusterAddGroupToAffinityRule"
+    },
+    {
+      "ordinal": 39,
+      "name": "ClusterAddGroupToGroupSet"
+    },
+    {
+      "ordinal": 40,
+      "name": "ClusterAddGroupToGroupSetWithDomains"
+    },
+    {
+      "ordinal": 41,
+      "name": "ClusterAffinityRuleControl"
+    },
+    {
+      "ordinal": 42,
+      "name": "ClusterCaptureLiveDump"
+    },
+    {
+      "ordinal": 43,
+      "name": "ClusterChangeVMSettings"
+    },
+    {
+      "ordinal": 44,
+      "name": "ClusterCloseEnum"
+    },
+    {
+      "ordinal": 45,
+      "name": "ClusterCloseEnumEx"
+    },
+    {
+      "ordinal": 46,
+      "name": "ClusterControl"
+    },
+    {
+      "ordinal": 47,
+      "name": "ClusterCreateAffinityRule"
+    },
+    {
+      "ordinal": 48,
+      "name": "ClusterCreateClusterStorageEnclosure"
+    },
+    {
+      "ordinal": 49,
+      "name": "ClusterCreateFaultDomain"
+    },
+    {
+      "ordinal": 50,
+      "name": "ClusterCreateFaultDomainFromXML"
+    },
+    {
+      "ordinal": 51,
+      "name": "ClusterCreateVMReservation"
+    },
+    {
+      "ordinal": 52,
+      "name": "ClusterCreateVMReservationWithDomains"
+    },
+    {
+      "ordinal": 53,
+      "name": "ClusterEnum"
+    },
+    {
+      "ordinal": 54,
+      "name": "ClusterEnumEx"
+    },
+    {
+      "ordinal": 55,
+      "name": "ClusterFreeMemory"
+    },
+    {
+      "ordinal": 56,
+      "name": "ClusterFreeMrrResponse"
+    },
+    {
+      "ordinal": 57,
+      "name": "ClusterFreeVMReservation"
+    },
+    {
+      "ordinal": 58,
+      "name": "ClusterGetClusterStorageEnclosureObject"
+    },
+    {
+      "ordinal": 59,
+      "name": "ClusterGetClusterStorageEnclosureObjects"
+    },
+    {
+      "ordinal": 60,
+      "name": "ClusterGetDriveInfo"
+    },
+    {
+      "ordinal": 61,
+      "name": "ClusterGetEnumCount"
+    },
+    {
+      "ordinal": 62,
+      "name": "ClusterGetEnumCountEx"
+    },
+    {
+      "ordinal": 63,
+      "name": "ClusterGetFaultDomainObject"
+    },
+    {
+      "ordinal": 64,
+      "name": "ClusterGetFaultDomainObjects"
+    },
+    {
+      "ordinal": 65,
+      "name": "ClusterGetFaultDomainState"
+    },
+    {
+      "ordinal": 66,
+      "name": "ClusterGetFaultDomainXML"
+    },
+    {
+      "ordinal": 67,
+      "name": "ClusterGetPlacementScore"
+    },
+    {
+      "ordinal": 68,
+      "name": "ClusterGroupCloseEnum"
+    },
+    {
+      "ordinal": 69,
+      "name": "ClusterGroupCloseEnumEx"
+    },
+    {
+      "ordinal": 70,
+      "name": "ClusterGroupControl"
+    },
+    {
+      "ordinal": 71,
+      "name": "ClusterGroupEnum"
+    },
+    {
+      "ordinal": 72,
+      "name": "ClusterGroupEnumEx"
+    },
+    {
+      "ordinal": 73,
+      "name": "ClusterGroupGetEnumCount"
+    },
+    {
+      "ordinal": 74,
+      "name": "ClusterGroupGetEnumCountEx"
+    },
+    {
+      "ordinal": 75,
+      "name": "ClusterGroupOpenEnum"
+    },
+    {
+      "ordinal": 76,
+      "name": "ClusterGroupOpenEnumEx"
+    },
+    {
+      "ordinal": 77,
+      "name": "ClusterGroupSetCloseEnum"
+    },
+    {
+      "ordinal": 78,
+      "name": "ClusterGroupSetControl"
+    },
+    {
+      "ordinal": 79,
+      "name": "ClusterGroupSetEnum"
+    },
+    {
+      "ordinal": 80,
+      "name": "ClusterGroupSetGetEnumCount"
+    },
+    {
+      "ordinal": 81,
+      "name": "ClusterGroupSetOpenEnum"
+    },
+    {
+      "ordinal": 82,
+      "name": "ClusterNetInterfaceCloseEnum"
+    },
+    {
+      "ordinal": 83,
+      "name": "ClusterNetInterfaceControl"
+    },
+    {
+      "ordinal": 84,
+      "name": "ClusterNetInterfaceEnum"
+    },
+    {
+      "ordinal": 85,
+      "name": "ClusterNetInterfaceOpenEnum"
+    },
+    {
+      "ordinal": 86,
+      "name": "ClusterNetworkCloseEnum"
+    },
+    {
+      "ordinal": 87,
+      "name": "ClusterNetworkControl"
+    },
+    {
+      "ordinal": 88,
+      "name": "ClusterNetworkEnum"
+    },
+    {
+      "ordinal": 89,
+      "name": "ClusterNetworkGetEnumCount"
+    },
+    {
+      "ordinal": 90,
+      "name": "ClusterNetworkHealthFreeInterfaceConnections"
+    },
+    {
+      "ordinal": 91,
+      "name": "ClusterNetworkHealthFreeNodeConnections"
+    },
+    {
+      "ordinal": 92,
+      "name": "ClusterNetworkHealthGetInterfaceConnections"
+    },
+    {
+      "ordinal": 93,
+      "name": "ClusterNetworkHealthGetNodeConnections"
+    },
+    {
+      "ordinal": 94,
+      "name": "ClusterNetworkOpenEnum"
+    },
+    {
+      "ordinal": 95,
+      "name": "ClusterNodeCloseEnum"
+    },
+    {
+      "ordinal": 96,
+      "name": "ClusterNodeCloseEnumEx"
+    },
+    {
+      "ordinal": 97,
+      "name": "ClusterNodeControl"
+    },
+    {
+      "ordinal": 98,
+      "name": "ClusterNodeEnum"
+    },
+    {
+      "ordinal": 99,
+      "name": "ClusterNodeEnumEx"
+    },
+    {
+      "ordinal": 100,
+      "name": "ClusterNodeGetEnumCount"
+    },
+    {
+      "ordinal": 101,
+      "name": "ClusterNodeGetEnumCountEx"
+    },
+    {
+      "ordinal": 102,
+      "name": "ClusterNodeOpenEnum"
+    },
+    {
+      "ordinal": 103,
+      "name": "ClusterNodeOpenEnumEx"
+    },
+    {
+      "ordinal": 104,
+      "name": "ClusterNodeReplacement"
+    },
+    {
+      "ordinal": 105,
+      "name": "ClusterOpenEnum"
+    },
+    {
+      "ordinal": 106,
+      "name": "ClusterOpenEnumEx"
+    },
+    {
+      "ordinal": 107,
+      "name": "ClusterRegBatchAddCommand"
+    },
+    {
+      "ordinal": 108,
+      "name": "ClusterRegBatchCloseNotification"
+    },
+    {
+      "ordinal": 109,
+      "name": "ClusterRegBatchReadCommand"
+    },
+    {
+      "ordinal": 110,
+      "name": "ClusterRegCloseBatch"
+    },
+    {
+      "ordinal": 111,
+      "name": "ClusterRegCloseBatchEx"
+    },
+    {
+      "ordinal": 112,
+      "name": "ClusterRegCloseBatchNotifyPort"
+    },
+    {
+      "ordinal": 113,
+      "name": "ClusterRegCloseKey"
+    },
+    {
+      "ordinal": 114,
+      "name": "ClusterRegCloseReadBatch"
+    },
+    {
+      "ordinal": 115,
+      "name": "ClusterRegCloseReadBatchEx"
+    },
+    {
+      "ordinal": 116,
+      "name": "ClusterRegCloseReadBatchReply"
+    },
+    {
+      "ordinal": 117,
+      "name": "ClusterRegCreateBatch"
+    },
+    {
+      "ordinal": 118,
+      "name": "ClusterRegCreateBatchNotifyPort"
+    },
+    {
+      "ordinal": 119,
+      "name": "ClusterRegCreateKey"
+    },
+    {
+      "ordinal": 120,
+      "name": "ClusterRegCreateKeyForceSync"
+    },
+    {
+      "ordinal": 121,
+      "name": "ClusterRegCreateReadBatch"
+    },
+    {
+      "ordinal": 122,
+      "name": "ClusterRegDeleteKey"
+    },
+    {
+      "ordinal": 123,
+      "name": "ClusterRegDeleteKeyForceSync"
+    },
+    {
+      "ordinal": 124,
+      "name": "ClusterRegDeleteValue"
+    },
+    {
+      "ordinal": 125,
+      "name": "ClusterRegDeleteValueForceSync"
+    },
+    {
+      "ordinal": 126,
+      "name": "ClusterRegEnumKey"
+    },
+    {
+      "ordinal": 127,
+      "name": "ClusterRegEnumValue"
+    },
+    {
+      "ordinal": 128,
+      "name": "ClusterRegGetBatchNotification"
+    },
+    {
+      "ordinal": 129,
+      "name": "ClusterRegGetKeySecurity"
+    },
+    {
+      "ordinal": 130,
+      "name": "ClusterRegOpenKey"
+    },
+    {
+      "ordinal": 131,
+      "name": "ClusterRegQueryAllValues"
+    },
+    {
+      "ordinal": 132,
+      "name": "ClusterRegQueryInfoKey"
+    },
+    {
+      "ordinal": 133,
+      "name": "ClusterRegQueryValue"
+    },
+    {
+      "ordinal": 134,
+      "name": "ClusterRegReadBatchAddCommand"
+    },
+    {
+      "ordinal": 135,
+      "name": "ClusterRegReadBatchReplyNextCommand"
+    },
+    {
+      "ordinal": 136,
+      "name": "ClusterRegSetKeySecurity"
+    },
+    {
+      "ordinal": 137,
+      "name": "ClusterRegSetValue"
+    },
+    {
+      "ordinal": 138,
+      "name": "ClusterRegSetValueForceSync"
+    },
+    {
+      "ordinal": 139,
+      "name": "ClusterRegSyncDatabase"
+    },
+    {
+      "ordinal": 140,
+      "name": "ClusterRemoveAffinityRule"
+    },
+    {
+      "ordinal": 141,
+      "name": "ClusterRemoveClusterStorageEnclosure"
+    },
+    {
+      "ordinal": 142,
+      "name": "ClusterRemoveFaultDomain"
+    },
+    {
+      "ordinal": 143,
+      "name": "ClusterRemoveGroupFromAffinityRule"
+    },
+    {
+      "ordinal": 144,
+      "name": "ClusterRemoveGroupFromGroupSet"
+    },
+    {
+      "ordinal": 145,
+      "name": "ClusterResourceCloseEnum"
+    },
+    {
+      "ordinal": 146,
+      "name": "ClusterResourceCloseEnumEx"
+    },
+    {
+      "ordinal": 147,
+      "name": "ClusterResourceControl"
+    },
+    {
+      "ordinal": 148,
+      "name": "ClusterResourceControlAsUser"
+    },
+    {
+      "ordinal": 149,
+      "name": "ClusterResourceEnum"
+    },
+    {
+      "ordinal": 150,
+      "name": "ClusterResourceEnumEx"
+    },
+    {
+      "ordinal": 151,
+      "name": "ClusterResourceGetEnumCount"
+    },
+    {
+      "ordinal": 152,
+      "name": "ClusterResourceGetEnumCountEx"
+    },
+    {
+      "ordinal": 153,
+      "name": "ClusterResourceOpenEnum"
+    },
+    {
+      "ordinal": 154,
+      "name": "ClusterResourceOpenEnumEx"
+    },
+    {
+      "ordinal": 155,
+      "name": "ClusterResourceTypeCloseEnum"
+    },
+    {
+      "ordinal": 156,
+      "name": "ClusterResourceTypeControl"
+    },
+    {
+      "ordinal": 157,
+      "name": "ClusterResourceTypeControlAsUser"
+    },
+    {
+      "ordinal": 158,
+      "name": "ClusterResourceTypeEnum"
+    },
+    {
+      "ordinal": 159,
+      "name": "ClusterResourceTypeGetEnumCount"
+    },
+    {
+      "ordinal": 160,
+      "name": "ClusterResourceTypeOpenEnum"
+    },
+    {
+      "ordinal": 161,
+      "name": "ClusterSendReceiveMrr"
+    },
+    {
+      "ordinal": 162,
+      "name": "ClusterSendReceiveMrrAsUser"
+    },
+    {
+      "ordinal": 163,
+      "name": "ClusterSetAccountAccess"
+    },
+    {
+      "ordinal": 164,
+      "name": "ClusterSetClusterStorageEnclosure"
+    },
+    {
+      "ordinal": 165,
+      "name": "ClusterSetFaultDomain"
+    },
+    {
+      "ordinal": 166,
+      "name": "ClusterSetNodeFaultDomain"
+    },
+    {
+      "ordinal": 167,
+      "name": "ClusterSharedVolumeClearBackupState"
+    },
+    {
+      "ordinal": 168,
+      "name": "ClusterSharedVolumeSetSnapshotState"
+    },
+    {
+      "ordinal": 169,
+      "name": "ClusterStmFindDisk"
+    },
+    {
+      "ordinal": 170,
+      "name": "ClusterUpgradeFunctionalLevel"
+    },
+    {
+      "ordinal": 171,
+      "name": "ClusterUpgradeFunctionalLevelEx"
+    },
+    {
+      "ordinal": 172,
+      "name": "CreateCluster"
+    },
+    {
+      "ordinal": 173,
+      "name": "CreateClusterAvailabilitySet"
+    },
+    {
+      "ordinal": 174,
+      "name": "CreateClusterGroup"
+    },
+    {
+      "ordinal": 175,
+      "name": "CreateClusterGroupEx"
+    },
+    {
+      "ordinal": 176,
+      "name": "CreateClusterGroupSet"
+    },
+    {
+      "ordinal": 177,
+      "name": "CreateClusterManagementPoint"
+    },
+    {
+      "ordinal": 178,
+      "name": "CreateClusterNameAccount"
+    },
+    {
+      "ordinal": 179,
+      "name": "CreateClusterNotifyPort"
+    },
+    {
+      "ordinal": 180,
+      "name": "CreateClusterNotifyPortV2"
+    },
+    {
+      "ordinal": 181,
+      "name": "CreateClusterResource"
+    },
+    {
+      "ordinal": 182,
+      "name": "CreateClusterResourceType"
+    },
+    {
+      "ordinal": 183,
+      "name": "CreateClusterResourceWithId"
+    },
+    {
+      "ordinal": 184,
+      "name": "DeleteClusterGroup"
+    },
+    {
+      "ordinal": 185,
+      "name": "DeleteClusterGroupSet"
+    },
+    {
+      "ordinal": 186,
+      "name": "DeleteClusterResource"
+    },
+    {
+      "ordinal": 187,
+      "name": "DeleteClusterResourceType"
+    },
+    {
+      "ordinal": 188,
+      "name": "DestroyCluster"
+    },
+    {
+      "ordinal": 189,
+      "name": "DestroyClusterGroup"
+    },
+    {
+      "ordinal": 190,
+      "name": "DetermineCNOResTypeFromCluster"
+    },
+    {
+      "ordinal": 191,
+      "name": "DetermineCNOResTypeFromNodelist"
+    },
+    {
+      "ordinal": 192,
+      "name": "DetermineClusterCloudTypeFromCluster"
+    },
+    {
+      "ordinal": 193,
+      "name": "DetermineClusterCloudTypeFromNodelist"
+    },
+    {
+      "ordinal": 194,
+      "name": "EvictClusterNode"
+    },
+    {
+      "ordinal": 195,
+      "name": "EvictClusterNodeEx"
+    },
+    {
+      "ordinal": 196,
+      "name": "FailClusterResource"
+    },
+    {
+      "ordinal": 197,
+      "name": "FreeClusFaultDomainInfo"
+    },
+    {
+      "ordinal": 198,
+      "name": "FreeClusFaultDomainInfoArray"
+    },
+    {
+      "ordinal": 199,
+      "name": "FreeClusFaultDomainXML"
+    },
+    {
+      "ordinal": 200,
+      "name": "FreeClusStorageEnclosureInfo"
+    },
+    {
+      "ordinal": 201,
+      "name": "FreeClusStorageEnclosureInfoArray"
+    },
+    {
+      "ordinal": 202,
+      "name": "GetClusterFromGroup"
+    },
+    {
+      "ordinal": 203,
+      "name": "GetClusterFromNetInterface"
+    },
+    {
+      "ordinal": 204,
+      "name": "GetClusterFromNetwork"
+    },
+    {
+      "ordinal": 205,
+      "name": "GetClusterFromNode"
+    },
+    {
+      "ordinal": 206,
+      "name": "GetClusterFromResource"
+    },
+    {
+      "ordinal": 207,
+      "name": "GetClusterGroupKey"
+    },
+    {
+      "ordinal": 208,
+      "name": "GetClusterGroupState"
+    },
+    {
+      "ordinal": 209,
+      "name": "GetClusterInformation"
+    },
+    {
+      "ordinal": 210,
+      "name": "GetClusterKey"
+    },
+    {
+      "ordinal": 211,
+      "name": "GetClusterNetInterface"
+    },
+    {
+      "ordinal": 212,
+      "name": "GetClusterNetInterfaceKey"
+    },
+    {
+      "ordinal": 213,
+      "name": "GetClusterNetInterfaceState"
+    },
+    {
+      "ordinal": 214,
+      "name": "GetClusterNetworkId"
+    },
+    {
+      "ordinal": 215,
+      "name": "GetClusterNetworkKey"
+    },
+    {
+      "ordinal": 216,
+      "name": "GetClusterNetworkState"
+    },
+    {
+      "ordinal": 217,
+      "name": "GetClusterNodeId"
+    },
+    {
+      "ordinal": 218,
+      "name": "GetClusterNodeKey"
+    },
+    {
+      "ordinal": 219,
+      "name": "GetClusterNodeState"
+    },
+    {
+      "ordinal": 220,
+      "name": "GetClusterNotify"
+    },
+    {
+      "ordinal": 221,
+      "name": "GetClusterNotifyV2"
+    },
+    {
+      "ordinal": 222,
+      "name": "GetClusterQuorumResource"
+    },
+    {
+      "ordinal": 223,
+      "name": "GetClusterResourceDependencyExpression"
+    },
+    {
+      "ordinal": 224,
+      "name": "GetClusterResourceKey"
+    },
+    {
+      "ordinal": 225,
+      "name": "GetClusterResourceNetworkName"
+    },
+    {
+      "ordinal": 226,
+      "name": "GetClusterResourceState"
+    },
+    {
+      "ordinal": 227,
+      "name": "GetClusterResourceTypeKey"
+    },
+    {
+      "ordinal": 228,
+      "name": "GetClusterSharedVolumeNameForFile"
+    },
+    {
+      "ordinal": 229,
+      "name": "GetNodeCloudTypeDW"
+    },
+    {
+      "ordinal": 230,
+      "name": "GetNodeClusterState"
+    },
+    {
+      "ordinal": 231,
+      "name": "GetNotifyEventHandle"
+    },
+    {
+      "ordinal": 232,
+      "name": "InitializeClusFaultDomainInfo"
+    },
+    {
+      "ordinal": 233,
+      "name": "InitializeClusFaultDomainInfoArray"
+    },
+    {
+      "ordinal": 234,
+      "name": "InitializeClusStorageEnclosureInfo"
+    },
+    {
+      "ordinal": 235,
+      "name": "InitializeClusStorageEnclosureInfoArray"
+    },
+    {
+      "ordinal": 236,
+      "name": "IsFileOnClusterSharedVolume"
+    },
+    {
+      "ordinal": 237,
+      "name": "MoveClusterGroup"
+    },
+    {
+      "ordinal": 238,
+      "name": "MoveClusterGroupEx"
+    },
+    {
+      "ordinal": 239,
+      "name": "OfflineClusterGroup"
+    },
+    {
+      "ordinal": 240,
+      "name": "OfflineClusterGroupEx"
+    },
+    {
+      "ordinal": 241,
+      "name": "OfflineClusterResource"
+    },
+    {
+      "ordinal": 242,
+      "name": "OfflineClusterResourceEx"
+    },
+    {
+      "ordinal": 243,
+      "name": "OnlineClusterGroup"
+    },
+    {
+      "ordinal": 244,
+      "name": "OnlineClusterGroupEx"
+    },
+    {
+      "ordinal": 245,
+      "name": "OnlineClusterResource"
+    },
+    {
+      "ordinal": 246,
+      "name": "OnlineClusterResourceEx"
+    },
+    {
+      "ordinal": 247,
+      "name": "OpenCluster"
+    },
+    {
+      "ordinal": 248,
+      "name": "OpenClusterEx"
+    },
+    {
+      "ordinal": 249,
+      "name": "OpenClusterEx2"
+    },
+    {
+      "ordinal": 250,
+      "name": "OpenClusterGroup"
+    },
+    {
+      "ordinal": 251,
+      "name": "OpenClusterGroupEx"
+    },
+    {
+      "ordinal": 252,
+      "name": "OpenClusterGroupSet"
+    },
+    {
+      "ordinal": 253,
+      "name": "OpenClusterNetInterface"
+    },
+    {
+      "ordinal": 254,
+      "name": "OpenClusterNetInterfaceEx"
+    },
+    {
+      "ordinal": 255,
+      "name": "OpenClusterNetwork"
+    },
+    {
+      "ordinal": 256,
+      "name": "OpenClusterNetworkEx"
+    },
+    {
+      "ordinal": 257,
+      "name": "OpenClusterNode"
+    },
+    {
+      "ordinal": 258,
+      "name": "OpenClusterNodeById"
+    },
+    {
+      "ordinal": 259,
+      "name": "OpenClusterNodeEx"
+    },
+    {
+      "ordinal": 260,
+      "name": "OpenClusterResource"
+    },
+    {
+      "ordinal": 261,
+      "name": "OpenClusterResourceEx"
+    },
+    {
+      "ordinal": 262,
+      "name": "PauseClusterNode"
+    },
+    {
+      "ordinal": 263,
+      "name": "PauseClusterNodeEx"
+    },
+    {
+      "ordinal": 264,
+      "name": "RegisterClusterNotify"
+    },
+    {
+      "ordinal": 265,
+      "name": "RegisterClusterNotifyV2"
+    },
+    {
+      "ordinal": 266,
+      "name": "RegisterClusterResourceTypeNotifyV2"
+    },
+    {
+      "ordinal": 267,
+      "name": "RemoveClusterGroupDependency"
+    },
+    {
+      "ordinal": 268,
+      "name": "RemoveClusterGroupSetDependency"
+    },
+    {
+      "ordinal": 269,
+      "name": "RemoveClusterGroupToGroupSetDependency"
+    },
+    {
+      "ordinal": 270,
+      "name": "RemoveClusterNameAccount"
+    },
+    {
+      "ordinal": 271,
+      "name": "RemoveClusterResourceDependency"
+    },
+    {
+      "ordinal": 272,
+      "name": "RemoveClusterResourceNode"
+    },
+    {
+      "ordinal": 273,
+      "name": "RemoveClusterStorageNode"
+    },
+    {
+      "ordinal": 274,
+      "name": "RemoveCrossClusterGroupSetDependency"
+    },
+    {
+      "ordinal": 275,
+      "name": "RemoveResourceFromClusterSharedVolumes"
+    },
+    {
+      "ordinal": 276,
+      "name": "RestartClusterResource"
+    },
+    {
+      "ordinal": 277,
+      "name": "RestoreClusterDatabase"
+    },
+    {
+      "ordinal": 278,
+      "name": "ResumeClusterNode"
+    },
+    {
+      "ordinal": 279,
+      "name": "ResumeClusterNodeEx"
+    },
+    {
+      "ordinal": 280,
+      "name": "SetClusterGroupName"
+    },
+    {
+      "ordinal": 281,
+      "name": "SetClusterGroupNodeList"
+    },
+    {
+      "ordinal": 282,
+      "name": "SetClusterGroupSetDependencyExpression"
+    },
+    {
+      "ordinal": 283,
+      "name": "SetClusterName"
+    },
+    {
+      "ordinal": 284,
+      "name": "SetClusterNetworkName"
+    },
+    {
+      "ordinal": 285,
+      "name": "SetClusterNetworkPriorityOrder"
+    },
+    {
+      "ordinal": 286,
+      "name": "SetClusterQuorumResource"
+    },
+    {
+      "ordinal": 287,
+      "name": "SetClusterResourceDependencyExpression"
+    },
+    {
+      "ordinal": 288,
+      "name": "SetClusterResourceName"
+    },
+    {
+      "ordinal": 289,
+      "name": "SetClusterServiceAccountPassword"
+    },
+    {
+      "ordinal": 290,
+      "name": "SetGroupDependencyExpression"
+    }
+  ]
+}

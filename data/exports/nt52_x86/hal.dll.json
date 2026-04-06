@@ -1,27 +1,30 @@
 {
   "Version": "5.2.3790.3959-I386",
-  "md5": "217eaafdc35914045df31e20f8494904",
-  "imphash": "217eaafdc35914045df31e20f8494904",
+  "md5": "aaeb2584e1c36f2b23523fd3bbe86009",
+  "imphash": "aaeb2584e1c36f2b23523fd3bbe86009",
   "InternalName": "hal.dll",
   "CompanyName": "Microsoft Corporation",
   "FileDescription": "Hardware Abstraction Layer DLL",
   "FileVersion": "5.2.3790.3959 (srv03_sp2_rtm.070216-1710)",
   "ProductVersion": "5.2.3790.3959",
-  "PeChecksum": 180676,
-  "Size": 173568,
+  "PeChecksum": 131919,
+  "Size": 109568,
   "Machine": "I386",
   "exports": [
     {
       "ordinal": 1,
-      "name": "ExAcquireFastMutex"
+      "name": "ExAcquireFastMutex",
+      "forwarder": "ntoskrnl.ExiAcquireFastMutex"
     },
     {
       "ordinal": 2,
-      "name": "ExReleaseFastMutex"
+      "name": "ExReleaseFastMutex",
+      "forwarder": "ntoskrnl.ExiReleaseFastMutex"
     },
     {
       "ordinal": 3,
-      "name": "ExTryToAcquireFastMutex"
+      "name": "ExTryToAcquireFastMutex",
+      "forwarder": "ntoskrnl.ExiTryToAcquireFastMutex"
     },
     {
       "ordinal": 20,

@@ -1,0 +1,236 @@
+{
+  "Version": "5.1.2600.2180-I386",
+  "md5": "6891b74ab9a016064e82a419388d0601",
+  "imphash": "6891b74ab9a016064e82a419388d0601",
+  "InternalName": "tdi.sys",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "TDI Wrapper",
+  "FileVersion": "5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)",
+  "ProductVersion": "5.1.2600.2180",
+  "PeChecksum": 77242,
+  "Size": 18560,
+  "Machine": "I386",
+  "exports": [
+    {
+      "ordinal": 1,
+      "name": "CTEAllocateString"
+    },
+    {
+      "ordinal": 2,
+      "name": "CTEBlock"
+    },
+    {
+      "ordinal": 3,
+      "name": "CTEBlockWithTracker"
+    },
+    {
+      "ordinal": 4,
+      "name": "CTEInitEvent"
+    },
+    {
+      "ordinal": 5,
+      "name": "CTEInitString"
+    },
+    {
+      "ordinal": 6,
+      "name": "CTEInitTimer"
+    },
+    {
+      "ordinal": 7,
+      "name": "CTEInitialize"
+    },
+    {
+      "ordinal": 8,
+      "name": "CTEInsertBlockTracker"
+    },
+    {
+      "ordinal": 9,
+      "name": "CTELogEvent"
+    },
+    {
+      "ordinal": 10,
+      "name": "CTERemoveBlockTracker"
+    },
+    {
+      "ordinal": 11,
+      "name": "CTEScheduleCriticalEvent"
+    },
+    {
+      "ordinal": 12,
+      "name": "CTEScheduleDelayedEvent"
+    },
+    {
+      "ordinal": 13,
+      "name": "CTEScheduleEvent"
+    },
+    {
+      "ordinal": 14,
+      "name": "CTESignal"
+    },
+    {
+      "ordinal": 15,
+      "name": "CTEStartTimer"
+    },
+    {
+      "ordinal": 16,
+      "name": "CTESystemUpTime"
+    },
+    {
+      "ordinal": 17,
+      "name": "DllInitialize"
+    },
+    {
+      "ordinal": 18,
+      "name": "DllUnload"
+    },
+    {
+      "ordinal": 19,
+      "name": "TdiBuildNetbiosAddress"
+    },
+    {
+      "ordinal": 20,
+      "name": "TdiBuildNetbiosAddressEa"
+    },
+    {
+      "ordinal": 21,
+      "name": "TdiCopyBufferToMdl"
+    },
+    {
+      "ordinal": 22,
+      "name": "TdiCopyBufferToMdlWithReservedMappingAtDpcLevel"
+    },
+    {
+      "ordinal": 23,
+      "name": "TdiCopyMdlChainToMdlChain"
+    },
+    {
+      "ordinal": 24,
+      "name": "TdiCopyMdlToBuffer"
+    },
+    {
+      "ordinal": 25,
+      "name": "TdiDefaultChainedRcvDatagramHandler"
+    },
+    {
+      "ordinal": 26,
+      "name": "TdiDefaultChainedRcvExpeditedHandler"
+    },
+    {
+      "ordinal": 27,
+      "name": "TdiDefaultChainedReceiveHandler"
+    },
+    {
+      "ordinal": 28,
+      "name": "TdiDefaultConnectHandler"
+    },
+    {
+      "ordinal": 29,
+      "name": "TdiDefaultDisconnectHandler"
+    },
+    {
+      "ordinal": 30,
+      "name": "TdiDefaultErrorHandler"
+    },
+    {
+      "ordinal": 31,
+      "name": "TdiDefaultRcvDatagramHandler"
+    },
+    {
+      "ordinal": 32,
+      "name": "TdiDefaultRcvExpeditedHandler"
+    },
+    {
+      "ordinal": 33,
+      "name": "TdiDefaultReceiveHandler"
+    },
+    {
+      "ordinal": 34,
+      "name": "TdiDefaultSendPossibleHandler"
+    },
+    {
+      "ordinal": 35,
+      "name": "TdiDeregisterAddressChangeHandler"
+    },
+    {
+      "ordinal": 36,
+      "name": "TdiDeregisterDeviceObject"
+    },
+    {
+      "ordinal": 37,
+      "name": "TdiDeregisterNetAddress"
+    },
+    {
+      "ordinal": 38,
+      "name": "TdiDeregisterNotificationHandler"
+    },
+    {
+      "ordinal": 39,
+      "name": "TdiDeregisterPnPHandlers"
+    },
+    {
+      "ordinal": 40,
+      "name": "TdiDeregisterProvider"
+    },
+    {
+      "ordinal": 41,
+      "name": "TdiEnumerateAddresses"
+    },
+    {
+      "ordinal": 42,
+      "name": "TdiInitialize"
+    },
+    {
+      "ordinal": 43,
+      "name": "TdiMapUserRequest"
+    },
+    {
+      "ordinal": 44,
+      "name": "TdiMatchPdoWithChainedReceiveContext",
+      "forwarder": "NDIS.NdisMatchPdoWithPacket"
+    },
+    {
+      "ordinal": 45,
+      "name": "TdiOpenNetbiosAddress"
+    },
+    {
+      "ordinal": 46,
+      "name": "TdiPnPPowerComplete"
+    },
+    {
+      "ordinal": 47,
+      "name": "TdiPnPPowerRequest"
+    },
+    {
+      "ordinal": 48,
+      "name": "TdiProviderReady"
+    },
+    {
+      "ordinal": 49,
+      "name": "TdiRegisterAddressChangeHandler"
+    },
+    {
+      "ordinal": 50,
+      "name": "TdiRegisterDeviceObject"
+    },
+    {
+      "ordinal": 51,
+      "name": "TdiRegisterNetAddress"
+    },
+    {
+      "ordinal": 52,
+      "name": "TdiRegisterNotificationHandler"
+    },
+    {
+      "ordinal": 53,
+      "name": "TdiRegisterPnPHandlers"
+    },
+    {
+      "ordinal": 54,
+      "name": "TdiRegisterProvider"
+    },
+    {
+      "ordinal": 55,
+      "name": "TdiReturnChainedReceives"
+    }
+  ]
+}

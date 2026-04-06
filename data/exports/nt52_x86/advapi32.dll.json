@@ -1,14 +1,14 @@
 {
   "Version": "5.2.3790.3959-I386",
-  "md5": "21779c75f4ac5fe21d26a002f1028b4f",
-  "imphash": "21779c75f4ac5fe21d26a002f1028b4f",
+  "md5": "fdac8b8f5b7ffbd7e8b70ec9e1a52cda",
+  "imphash": "fdac8b8f5b7ffbd7e8b70ec9e1a52cda",
   "InternalName": "advapi32.dll",
   "CompanyName": "Microsoft Corporation",
   "FileDescription": "Advanced Windows 32 Base API",
   "FileVersion": "5.2.3790.3959 (srv03_sp2_rtm.070216-1710)",
   "ProductVersion": "5.2.3790.3959",
-  "PeChecksum": 734725,
-  "Size": 700416,
+  "PeChecksum": 621046,
+  "Size": 618496,
   "Machine": "I386",
   "exports": [
     {
@@ -281,11 +281,13 @@
     },
     {
       "ordinal": 69,
-      "name": "ControlTraceA"
+      "name": "ControlTraceA",
+      "forwarder": "ntdll.EtwControlTraceA"
     },
     {
       "ordinal": 70,
-      "name": "ControlTraceW"
+      "name": "ControlTraceW",
+      "forwarder": "ntdll.EtwControlTraceW"
     },
     {
       "ordinal": 71,
@@ -421,7 +423,8 @@
     },
     {
       "ordinal": 104,
-      "name": "CreateTraceInstanceId"
+      "name": "CreateTraceInstanceId",
+      "forwarder": "ntdll.EtwCreateTraceInstanceId"
     },
     {
       "ordinal": 105,
@@ -821,7 +824,8 @@
     },
     {
       "ordinal": 204,
-      "name": "EnableTrace"
+      "name": "EnableTrace",
+      "forwarder": "ntdll.EtwEnableTrace"
     },
     {
       "ordinal": 205,
@@ -869,7 +873,8 @@
     },
     {
       "ordinal": 216,
-      "name": "EnumerateTraceGuids"
+      "name": "EnumerateTraceGuids",
+      "forwarder": "ntdll.EtwEnumerateTraceGuids"
     },
     {
       "ordinal": 217,
@@ -897,11 +902,13 @@
     },
     {
       "ordinal": 223,
-      "name": "FlushTraceA"
+      "name": "FlushTraceA",
+      "forwarder": "ntdll.EtwFlushTraceA"
     },
     {
       "ordinal": 224,
-      "name": "FlushTraceW"
+      "name": "FlushTraceW",
+      "forwarder": "ntdll.EtwFlushTraceW"
     },
     {
       "ordinal": 225,
@@ -1145,15 +1152,18 @@
     },
     {
       "ordinal": 285,
-      "name": "GetTraceEnableFlags"
+      "name": "GetTraceEnableFlags",
+      "forwarder": "ntdll.EtwGetTraceEnableFlags"
     },
     {
       "ordinal": 286,
-      "name": "GetTraceEnableLevel"
+      "name": "GetTraceEnableLevel",
+      "forwarder": "ntdll.EtwGetTraceEnableLevel"
     },
     {
       "ordinal": 287,
-      "name": "GetTraceLoggerHandle"
+      "name": "GetTraceLoggerHandle",
+      "forwarder": "ntdll.EtwGetTraceLoggerHandle"
     },
     {
       "ordinal": 288,
@@ -1777,11 +1787,13 @@
     },
     {
       "ordinal": 442,
-      "name": "QueryAllTracesA"
+      "name": "QueryAllTracesA",
+      "forwarder": "ntdll.EtwQueryAllTracesA"
     },
     {
       "ordinal": 443,
-      "name": "QueryAllTracesW"
+      "name": "QueryAllTracesW",
+      "forwarder": "ntdll.EtwQueryAllTracesW"
     },
     {
       "ordinal": 444,
@@ -1825,11 +1837,13 @@
     },
     {
       "ordinal": 454,
-      "name": "QueryTraceA"
+      "name": "QueryTraceA",
+      "forwarder": "ntdll.EtwQueryTraceA"
     },
     {
       "ordinal": 455,
-      "name": "QueryTraceW"
+      "name": "QueryTraceW",
+      "forwarder": "ntdll.EtwQueryTraceW"
     },
     {
       "ordinal": 456,
@@ -2125,11 +2139,13 @@
     },
     {
       "ordinal": 529,
-      "name": "RegisterTraceGuidsA"
+      "name": "RegisterTraceGuidsA",
+      "forwarder": "ntdll.EtwRegisterTraceGuidsA"
     },
     {
       "ordinal": 530,
-      "name": "RegisterTraceGuidsW"
+      "name": "RegisterTraceGuidsW",
+      "forwarder": "ntdll.EtwRegisterTraceGuidsW"
     },
     {
       "ordinal": 531,
@@ -2369,19 +2385,23 @@
     },
     {
       "ordinal": 590,
-      "name": "StartTraceA"
+      "name": "StartTraceA",
+      "forwarder": "ntdll.EtwStartTraceA"
     },
     {
       "ordinal": 591,
-      "name": "StartTraceW"
+      "name": "StartTraceW",
+      "forwarder": "ntdll.EtwStartTraceW"
     },
     {
       "ordinal": 592,
-      "name": "StopTraceA"
+      "name": "StopTraceA",
+      "forwarder": "ntdll.EtwStopTraceA"
     },
     {
       "ordinal": 593,
-      "name": "StopTraceW"
+      "name": "StopTraceW",
+      "forwarder": "ntdll.EtwStopTraceW"
     },
     {
       "ordinal": 594,
@@ -2537,19 +2557,23 @@
     },
     {
       "ordinal": 632,
-      "name": "TraceEvent"
+      "name": "TraceEvent",
+      "forwarder": "ntdll.EtwTraceEvent"
     },
     {
       "ordinal": 633,
-      "name": "TraceEventInstance"
+      "name": "TraceEventInstance",
+      "forwarder": "ntdll.EtwTraceEventInstance"
     },
     {
       "ordinal": 634,
-      "name": "TraceMessage"
+      "name": "TraceMessage",
+      "forwarder": "ntdll.EtwTraceMessage"
     },
     {
       "ordinal": 635,
-      "name": "TraceMessageVa"
+      "name": "TraceMessageVa",
+      "forwarder": "ntdll.EtwTraceMessageVa"
     },
     {
       "ordinal": 636,
@@ -2581,15 +2605,18 @@
     },
     {
       "ordinal": 643,
-      "name": "UnregisterTraceGuids"
+      "name": "UnregisterTraceGuids",
+      "forwarder": "ntdll.EtwUnregisterTraceGuids"
     },
     {
       "ordinal": 644,
-      "name": "UpdateTraceA"
+      "name": "UpdateTraceA",
+      "forwarder": "ntdll.EtwUpdateTraceA"
     },
     {
       "ordinal": 645,
-      "name": "UpdateTraceW"
+      "name": "UpdateTraceW",
+      "forwarder": "ntdll.EtwUpdateTraceW"
     },
     {
       "ordinal": 646,
@@ -2661,11 +2688,13 @@
     },
     {
       "ordinal": 663,
-      "name": "WmiNotificationRegistrationA"
+      "name": "WmiNotificationRegistrationA",
+      "forwarder": "ntdll.EtwNotificationRegistrationA"
     },
     {
       "ordinal": 664,
-      "name": "WmiNotificationRegistrationW"
+      "name": "WmiNotificationRegistrationW",
+      "forwarder": "ntdll.EtwNotificationRegistrationW"
     },
     {
       "ordinal": 665,
@@ -2717,11 +2746,13 @@
     },
     {
       "ordinal": 677,
-      "name": "WmiReceiveNotificationsA"
+      "name": "WmiReceiveNotificationsA",
+      "forwarder": "ntdll.EtwReceiveNotificationsA"
     },
     {
       "ordinal": 678,
-      "name": "WmiReceiveNotificationsW"
+      "name": "WmiReceiveNotificationsW",
+      "forwarder": "ntdll.EtwReceiveNotificationsW"
     },
     {
       "ordinal": 679,

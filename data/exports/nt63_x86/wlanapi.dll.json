@@ -1,0 +1,703 @@
+{
+  "Version": "6.3.9600.16384-I386",
+  "md5": "740bd903f77da36ef89ec3c472bdeba8",
+  "imphash": "740bd903f77da36ef89ec3c472bdeba8",
+  "InternalName": "wlanapi.dll",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "Windows WLAN AutoConfig Client Side API DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 265662,
+  "Size": 229888,
+  "Machine": "I386",
+  "exports": [
+    {
+      "ordinal": 2,
+      "name": "DllCanUnloadNow"
+    },
+    {
+      "ordinal": 3,
+      "name": "DllGetClassObject"
+    },
+    {
+      "ordinal": 4,
+      "name": "QueryNetconStatus"
+    },
+    {
+      "ordinal": 5,
+      "name": "QueryNetconVirtualCharacteristic"
+    },
+    {
+      "ordinal": 6,
+      "name": "WFDAcceptConnectRequestAndOpenSessionInt"
+    },
+    {
+      "ordinal": 7,
+      "name": "WFDAcceptGroupRequestAndOpenSessionInt"
+    },
+    {
+      "ordinal": 8,
+      "name": "WFDCancelConnectorPairWithOOB"
+    },
+    {
+      "ordinal": 9,
+      "name": "WFDCancelListenerPairWithOOB"
+    },
+    {
+      "ordinal": 10,
+      "name": "WFDCancelOpenSession"
+    },
+    {
+      "ordinal": 11,
+      "name": "WFDCancelOpenSessionInt"
+    },
+    {
+      "ordinal": 12,
+      "name": "WFDCloseHandle"
+    },
+    {
+      "ordinal": 13,
+      "name": "WFDCloseHandleInt"
+    },
+    {
+      "ordinal": 14,
+      "name": "WFDCloseLegacySessionInt"
+    },
+    {
+      "ordinal": 15,
+      "name": "WFDCloseOOBPairingSession"
+    },
+    {
+      "ordinal": 16,
+      "name": "WFDCloseSession"
+    },
+    {
+      "ordinal": 17,
+      "name": "WFDCloseSessionInt"
+    },
+    {
+      "ordinal": 18,
+      "name": "WFDConfigureFirewallForSessionInt"
+    },
+    {
+      "ordinal": 19,
+      "name": "WFDDeclineConnectRequestInt"
+    },
+    {
+      "ordinal": 20,
+      "name": "WFDDeclineGroupRequestInt"
+    },
+    {
+      "ordinal": 21,
+      "name": "WFDDiscoverDevicesInt"
+    },
+    {
+      "ordinal": 22,
+      "name": "WFDFlushVisibleDeviceListInt"
+    },
+    {
+      "ordinal": 23,
+      "name": "WFDForceDisconnectInt"
+    },
+    {
+      "ordinal": 24,
+      "name": "WFDForceDisconnectLegacyPeerInt"
+    },
+    {
+      "ordinal": 25,
+      "name": "WFDFreeMemoryInt"
+    },
+    {
+      "ordinal": 26,
+      "name": "WFDGetDefaultGroupProfileInt"
+    },
+    {
+      "ordinal": 27,
+      "name": "WFDGetOOBBlob"
+    },
+    {
+      "ordinal": 28,
+      "name": "WFDGetProfileKeyInfoInt"
+    },
+    {
+      "ordinal": 1,
+      "name": "WFDGetSessionEndpointPairsInt"
+    },
+    {
+      "ordinal": 29,
+      "name": "WFDGetVisibleDevicesInt"
+    },
+    {
+      "ordinal": 30,
+      "name": "WFDIsInterfaceWiFiDirect"
+    },
+    {
+      "ordinal": 31,
+      "name": "WFDIsWiFiDirectRunningOnWiFiAdapter"
+    },
+    {
+      "ordinal": 32,
+      "name": "WFDLowPrivCancelOpenSessionInt"
+    },
+    {
+      "ordinal": 33,
+      "name": "WFDLowPrivCloseHandleInt"
+    },
+    {
+      "ordinal": 34,
+      "name": "WFDLowPrivCloseSessionInt"
+    },
+    {
+      "ordinal": 35,
+      "name": "WFDLowPrivConfigureFirewallForSessionInt"
+    },
+    {
+      "ordinal": 36,
+      "name": "WFDLowPrivGetSessionEndpointPairsInt"
+    },
+    {
+      "ordinal": 37,
+      "name": "WFDLowPrivIsWfdSupportedInt"
+    },
+    {
+      "ordinal": 38,
+      "name": "WFDLowPrivOpenHandleInt"
+    },
+    {
+      "ordinal": 39,
+      "name": "WFDLowPrivRegisterNotificationInt"
+    },
+    {
+      "ordinal": 40,
+      "name": "WFDLowPrivStartOpenSessionByInterfaceIdInt"
+    },
+    {
+      "ordinal": 41,
+      "name": "WFDOpenHandle"
+    },
+    {
+      "ordinal": 42,
+      "name": "WFDOpenHandleInt"
+    },
+    {
+      "ordinal": 43,
+      "name": "WFDOpenLegacySession"
+    },
+    {
+      "ordinal": 44,
+      "name": "WFDOpenLegacySessionInt"
+    },
+    {
+      "ordinal": 45,
+      "name": "WFDPairCancelByDeviceAddressInt"
+    },
+    {
+      "ordinal": 46,
+      "name": "WFDPairCancelInt"
+    },
+    {
+      "ordinal": 47,
+      "name": "WFDPairEnumerateCeremoniesInt"
+    },
+    {
+      "ordinal": 48,
+      "name": "WFDPairSelectCeremonyInt"
+    },
+    {
+      "ordinal": 49,
+      "name": "WFDPairWithDeviceAndOpenSessionInt"
+    },
+    {
+      "ordinal": 50,
+      "name": "WFDParseOOBBlob"
+    },
+    {
+      "ordinal": 51,
+      "name": "WFDParseProfileXmlInt"
+    },
+    {
+      "ordinal": 52,
+      "name": "WFDQueryPropertyInt"
+    },
+    {
+      "ordinal": 53,
+      "name": "WFDRegisterNotificationInt"
+    },
+    {
+      "ordinal": 54,
+      "name": "WFDSetAdditionalIEsInt"
+    },
+    {
+      "ordinal": 55,
+      "name": "WFDSetPropertyInt"
+    },
+    {
+      "ordinal": 56,
+      "name": "WFDSetSecondaryDeviceTypeListInt"
+    },
+    {
+      "ordinal": 57,
+      "name": "WFDStartConnectorPairWithOOB"
+    },
+    {
+      "ordinal": 58,
+      "name": "WFDStartListenerPairWithOOB"
+    },
+    {
+      "ordinal": 59,
+      "name": "WFDStartOpenSession"
+    },
+    {
+      "ordinal": 60,
+      "name": "WFDStartOpenSessionInt"
+    },
+    {
+      "ordinal": 61,
+      "name": "WFDStartUsingGroupInt"
+    },
+    {
+      "ordinal": 62,
+      "name": "WFDStopDiscoverDevicesInt"
+    },
+    {
+      "ordinal": 63,
+      "name": "WFDStopUsingGroupInt"
+    },
+    {
+      "ordinal": 64,
+      "name": "WFDUpdateDeviceVisibility"
+    },
+    {
+      "ordinal": 65,
+      "name": "WlanAllocateMemory"
+    },
+    {
+      "ordinal": 66,
+      "name": "WlanCancelPlap"
+    },
+    {
+      "ordinal": 67,
+      "name": "WlanCloseHandle"
+    },
+    {
+      "ordinal": 68,
+      "name": "WlanConnect"
+    },
+    {
+      "ordinal": 69,
+      "name": "WlanConnectEx"
+    },
+    {
+      "ordinal": 70,
+      "name": "WlanConnectWithInput"
+    },
+    {
+      "ordinal": 71,
+      "name": "WlanDeinitPlapParams"
+    },
+    {
+      "ordinal": 72,
+      "name": "WlanDeleteProfile"
+    },
+    {
+      "ordinal": 73,
+      "name": "WlanDisconnect"
+    },
+    {
+      "ordinal": 74,
+      "name": "WlanDoPlap"
+    },
+    {
+      "ordinal": 75,
+      "name": "WlanDoesBssMatchSecurity"
+    },
+    {
+      "ordinal": 76,
+      "name": "WlanEnumAllInterfaces"
+    },
+    {
+      "ordinal": 77,
+      "name": "WlanEnumInterfaces"
+    },
+    {
+      "ordinal": 78,
+      "name": "WlanExtractPsdIEDataList"
+    },
+    {
+      "ordinal": 79,
+      "name": "WlanFreeMemory"
+    },
+    {
+      "ordinal": 80,
+      "name": "WlanGenerateProfileXmlBasicSettings"
+    },
+    {
+      "ordinal": 81,
+      "name": "WlanGetAvailableNetworkList"
+    },
+    {
+      "ordinal": 82,
+      "name": "WlanGetFilterList"
+    },
+    {
+      "ordinal": 83,
+      "name": "WlanGetInterfaceCapability"
+    },
+    {
+      "ordinal": 84,
+      "name": "WlanGetMFPNegotiated"
+    },
+    {
+      "ordinal": 85,
+      "name": "WlanGetNetworkBssList"
+    },
+    {
+      "ordinal": 86,
+      "name": "WlanGetProfile"
+    },
+    {
+      "ordinal": 87,
+      "name": "WlanGetProfileCustomUserData"
+    },
+    {
+      "ordinal": 88,
+      "name": "WlanGetProfileEapUserDataInfo"
+    },
+    {
+      "ordinal": 89,
+      "name": "WlanGetProfileIndex"
+    },
+    {
+      "ordinal": 90,
+      "name": "WlanGetProfileKeyInfo"
+    },
+    {
+      "ordinal": 91,
+      "name": "WlanGetProfileList"
+    },
+    {
+      "ordinal": 92,
+      "name": "WlanGetProfileMetadata"
+    },
+    {
+      "ordinal": 93,
+      "name": "WlanGetProfileSsidList"
+    },
+    {
+      "ordinal": 94,
+      "name": "WlanGetRadioInformation"
+    },
+    {
+      "ordinal": 95,
+      "name": "WlanGetSecuritySettings"
+    },
+    {
+      "ordinal": 96,
+      "name": "WlanGetStoredRadioState"
+    },
+    {
+      "ordinal": 97,
+      "name": "WlanHostedNetworkForceStart"
+    },
+    {
+      "ordinal": 98,
+      "name": "WlanHostedNetworkForceStop"
+    },
+    {
+      "ordinal": 99,
+      "name": "WlanHostedNetworkFreeWCNSettings"
+    },
+    {
+      "ordinal": 100,
+      "name": "WlanHostedNetworkHlpQueryEverUsed"
+    },
+    {
+      "ordinal": 101,
+      "name": "WlanHostedNetworkInitSettings"
+    },
+    {
+      "ordinal": 102,
+      "name": "WlanHostedNetworkQueryProperty"
+    },
+    {
+      "ordinal": 103,
+      "name": "WlanHostedNetworkQuerySecondaryKey"
+    },
+    {
+      "ordinal": 104,
+      "name": "WlanHostedNetworkQueryStatus"
+    },
+    {
+      "ordinal": 105,
+      "name": "WlanHostedNetworkQueryWCNSettings"
+    },
+    {
+      "ordinal": 106,
+      "name": "WlanHostedNetworkRefreshSecuritySettings"
+    },
+    {
+      "ordinal": 107,
+      "name": "WlanHostedNetworkSetProperty"
+    },
+    {
+      "ordinal": 108,
+      "name": "WlanHostedNetworkSetSecondaryKey"
+    },
+    {
+      "ordinal": 109,
+      "name": "WlanHostedNetworkSetWCNSettings"
+    },
+    {
+      "ordinal": 110,
+      "name": "WlanHostedNetworkStartUsing"
+    },
+    {
+      "ordinal": 111,
+      "name": "WlanHostedNetworkStopUsing"
+    },
+    {
+      "ordinal": 112,
+      "name": "WlanIhvControl"
+    },
+    {
+      "ordinal": 113,
+      "name": "WlanInitPlapParams"
+    },
+    {
+      "ordinal": 114,
+      "name": "WlanInternalScan"
+    },
+    {
+      "ordinal": 115,
+      "name": "WlanIsActiveConsoleUser"
+    },
+    {
+      "ordinal": 116,
+      "name": "WlanIsNetworkSuppressed"
+    },
+    {
+      "ordinal": 117,
+      "name": "WlanIsUIRequestPending"
+    },
+    {
+      "ordinal": 118,
+      "name": "WlanLowPrivCloseHandle"
+    },
+    {
+      "ordinal": 119,
+      "name": "WlanLowPrivEnumInterfaces"
+    },
+    {
+      "ordinal": 120,
+      "name": "WlanLowPrivFreeMemory"
+    },
+    {
+      "ordinal": 121,
+      "name": "WlanLowPrivOpenHandle"
+    },
+    {
+      "ordinal": 122,
+      "name": "WlanLowPrivQueryInterface"
+    },
+    {
+      "ordinal": 123,
+      "name": "WlanLowPrivSetInterface"
+    },
+    {
+      "ordinal": 124,
+      "name": "WlanNotifyVsIeProviderInt"
+    },
+    {
+      "ordinal": 125,
+      "name": "WlanOpenHandle"
+    },
+    {
+      "ordinal": 126,
+      "name": "WlanParseProfileXmlBasicSettings"
+    },
+    {
+      "ordinal": 127,
+      "name": "WlanPrivateGetAvailableNetworkList"
+    },
+    {
+      "ordinal": 128,
+      "name": "WlanQueryAutoConfigParameter"
+    },
+    {
+      "ordinal": 129,
+      "name": "WlanQueryCreateAllUserProfileRestricted"
+    },
+    {
+      "ordinal": 130,
+      "name": "WlanQueryInterface"
+    },
+    {
+      "ordinal": 131,
+      "name": "WlanQueryPlapCredentials"
+    },
+    {
+      "ordinal": 132,
+      "name": "WlanQueryPreConnectInput"
+    },
+    {
+      "ordinal": 133,
+      "name": "WlanQueryVirtualInterfaceType"
+    },
+    {
+      "ordinal": 134,
+      "name": "WlanReasonCodeToString"
+    },
+    {
+      "ordinal": 135,
+      "name": "WlanRefreshConnections"
+    },
+    {
+      "ordinal": 136,
+      "name": "WlanRegisterNotification"
+    },
+    {
+      "ordinal": 137,
+      "name": "WlanRegisterVirtualStationNotification"
+    },
+    {
+      "ordinal": 138,
+      "name": "WlanRemoveUIForwardingNetworkList"
+    },
+    {
+      "ordinal": 139,
+      "name": "WlanRenameProfile"
+    },
+    {
+      "ordinal": 140,
+      "name": "WlanSaveTemporaryProfile"
+    },
+    {
+      "ordinal": 141,
+      "name": "WlanScan"
+    },
+    {
+      "ordinal": 142,
+      "name": "WlanSendUIResponse"
+    },
+    {
+      "ordinal": 143,
+      "name": "WlanSetAllUserProfileRestricted"
+    },
+    {
+      "ordinal": 144,
+      "name": "WlanSetAutoConfigParameter"
+    },
+    {
+      "ordinal": 145,
+      "name": "WlanSetFilterList"
+    },
+    {
+      "ordinal": 146,
+      "name": "WlanSetInterface"
+    },
+    {
+      "ordinal": 147,
+      "name": "WlanSetProfile"
+    },
+    {
+      "ordinal": 148,
+      "name": "WlanSetProfileCustomUserData"
+    },
+    {
+      "ordinal": 149,
+      "name": "WlanSetProfileEapUserData"
+    },
+    {
+      "ordinal": 150,
+      "name": "WlanSetProfileEapXmlUserData"
+    },
+    {
+      "ordinal": 151,
+      "name": "WlanSetProfileList"
+    },
+    {
+      "ordinal": 152,
+      "name": "WlanSetProfileMetadata"
+    },
+    {
+      "ordinal": 153,
+      "name": "WlanSetProfilePosition"
+    },
+    {
+      "ordinal": 154,
+      "name": "WlanSetPsdIEDataList"
+    },
+    {
+      "ordinal": 155,
+      "name": "WlanSetSecuritySettings"
+    },
+    {
+      "ordinal": 156,
+      "name": "WlanSetUIForwardingNetworkList"
+    },
+    {
+      "ordinal": 157,
+      "name": "WlanSignalValueToBar"
+    },
+    {
+      "ordinal": 158,
+      "name": "WlanSsidToDisplayName"
+    },
+    {
+      "ordinal": 159,
+      "name": "WlanStartAP"
+    },
+    {
+      "ordinal": 160,
+      "name": "WlanStopAP"
+    },
+    {
+      "ordinal": 161,
+      "name": "WlanStoreRadioStateOnEnteringAirPlaneMode"
+    },
+    {
+      "ordinal": 162,
+      "name": "WlanStringToSsid"
+    },
+    {
+      "ordinal": 163,
+      "name": "WlanTryUpgradeCurrentConnectionAuthCipher"
+    },
+    {
+      "ordinal": 164,
+      "name": "WlanUpdateProfileWithAuthCipher"
+    },
+    {
+      "ordinal": 165,
+      "name": "WlanUtf8SsidToDisplayName"
+    },
+    {
+      "ordinal": 166,
+      "name": "WlanWcmGetInterface"
+    },
+    {
+      "ordinal": 167,
+      "name": "WlanWcmGetProfileList"
+    },
+    {
+      "ordinal": 168,
+      "name": "WlanWcmSetInterface"
+    },
+    {
+      "ordinal": 169,
+      "name": "WlanWfdGOSetWCNSettings"
+    },
+    {
+      "ordinal": 170,
+      "name": "WlanWfdGetPeerInfo"
+    },
+    {
+      "ordinal": 171,
+      "name": "WlanWfdStartGO"
+    },
+    {
+      "ordinal": 172,
+      "name": "WlanWfdStopGO"
+    }
+  ]
+}

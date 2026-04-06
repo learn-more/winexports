@@ -1,0 +1,1125 @@
+{
+  "Version": "5.1.2600.2180-I386",
+  "md5": "558635d3af1c7546d26067d5d9b6959e",
+  "imphash": "558635d3af1c7546d26067d5d9b6959e",
+  "InternalName": "NDIS.SYS",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "NDIS 5.1 wrapper driver",
+  "FileVersion": "5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)",
+  "ProductVersion": "5.1.2600.2180",
+  "PeChecksum": 235886,
+  "Size": 182912,
+  "Machine": "I386",
+  "exports": [
+    {
+      "ordinal": 1,
+      "name": "ArcFilterDprIndicateReceive"
+    },
+    {
+      "ordinal": 2,
+      "name": "ArcFilterDprIndicateReceiveComplete"
+    },
+    {
+      "ordinal": 3,
+      "name": "EthFilterDprIndicateReceive"
+    },
+    {
+      "ordinal": 4,
+      "name": "EthFilterDprIndicateReceiveComplete"
+    },
+    {
+      "ordinal": 5,
+      "name": "FddiFilterDprIndicateReceive"
+    },
+    {
+      "ordinal": 6,
+      "name": "FddiFilterDprIndicateReceiveComplete"
+    },
+    {
+      "ordinal": 7,
+      "name": "NDIS_BUFFER_TO_SPAN_PAGES"
+    },
+    {
+      "ordinal": 8,
+      "name": "NdisAcquireReadWriteLock"
+    },
+    {
+      "ordinal": 9,
+      "name": "NdisAcquireSpinLock"
+    },
+    {
+      "ordinal": 10,
+      "name": "NdisAdjustBufferLength"
+    },
+    {
+      "ordinal": 11,
+      "name": "NdisAllocateBuffer"
+    },
+    {
+      "ordinal": 12,
+      "name": "NdisAllocateBufferPool"
+    },
+    {
+      "ordinal": 13,
+      "name": "NdisAllocateFromBlockPool"
+    },
+    {
+      "ordinal": 14,
+      "name": "NdisAllocateMemory"
+    },
+    {
+      "ordinal": 15,
+      "name": "NdisAllocateMemoryWithTag"
+    },
+    {
+      "ordinal": 16,
+      "name": "NdisAllocatePacket"
+    },
+    {
+      "ordinal": 17,
+      "name": "NdisAllocatePacketPool"
+    },
+    {
+      "ordinal": 18,
+      "name": "NdisAllocatePacketPoolEx"
+    },
+    {
+      "ordinal": 19,
+      "name": "NdisAllocateSpinLock"
+    },
+    {
+      "ordinal": 20,
+      "name": "NdisAnsiStringToUnicodeString"
+    },
+    {
+      "ordinal": 21,
+      "name": "NdisBufferLength"
+    },
+    {
+      "ordinal": 22,
+      "name": "NdisBufferVirtualAddress"
+    },
+    {
+      "ordinal": 23,
+      "name": "NdisCancelSendPackets"
+    },
+    {
+      "ordinal": 24,
+      "name": "NdisCancelTimer"
+    },
+    {
+      "ordinal": 25,
+      "name": "NdisClAddParty"
+    },
+    {
+      "ordinal": 26,
+      "name": "NdisClCloseAddressFamily"
+    },
+    {
+      "ordinal": 27,
+      "name": "NdisClCloseCall"
+    },
+    {
+      "ordinal": 28,
+      "name": "NdisClDeregisterSap"
+    },
+    {
+      "ordinal": 29,
+      "name": "NdisClDropParty"
+    },
+    {
+      "ordinal": 30,
+      "name": "NdisClGetProtocolVcContextFromTapiCallId"
+    },
+    {
+      "ordinal": 31,
+      "name": "NdisClIncomingCallComplete"
+    },
+    {
+      "ordinal": 32,
+      "name": "NdisClMakeCall"
+    },
+    {
+      "ordinal": 33,
+      "name": "NdisClModifyCallQoS"
+    },
+    {
+      "ordinal": 34,
+      "name": "NdisClOpenAddressFamily"
+    },
+    {
+      "ordinal": 35,
+      "name": "NdisClRegisterSap"
+    },
+    {
+      "ordinal": 36,
+      "name": "NdisCloseAdapter"
+    },
+    {
+      "ordinal": 37,
+      "name": "NdisCloseConfiguration"
+    },
+    {
+      "ordinal": 38,
+      "name": "NdisCloseFile"
+    },
+    {
+      "ordinal": 39,
+      "name": "NdisCmActivateVc"
+    },
+    {
+      "ordinal": 40,
+      "name": "NdisCmAddPartyComplete"
+    },
+    {
+      "ordinal": 41,
+      "name": "NdisCmCloseAddressFamilyComplete"
+    },
+    {
+      "ordinal": 42,
+      "name": "NdisCmCloseCallComplete"
+    },
+    {
+      "ordinal": 43,
+      "name": "NdisCmDeactivateVc"
+    },
+    {
+      "ordinal": 44,
+      "name": "NdisCmDeregisterSapComplete"
+    },
+    {
+      "ordinal": 45,
+      "name": "NdisCmDispatchCallConnected"
+    },
+    {
+      "ordinal": 46,
+      "name": "NdisCmDispatchIncomingCall"
+    },
+    {
+      "ordinal": 47,
+      "name": "NdisCmDispatchIncomingCallQoSChange"
+    },
+    {
+      "ordinal": 48,
+      "name": "NdisCmDispatchIncomingCloseCall"
+    },
+    {
+      "ordinal": 49,
+      "name": "NdisCmDispatchIncomingDropParty"
+    },
+    {
+      "ordinal": 50,
+      "name": "NdisCmDropPartyComplete"
+    },
+    {
+      "ordinal": 51,
+      "name": "NdisCmMakeCallComplete"
+    },
+    {
+      "ordinal": 52,
+      "name": "NdisCmModifyCallQoSComplete"
+    },
+    {
+      "ordinal": 53,
+      "name": "NdisCmOpenAddressFamilyComplete"
+    },
+    {
+      "ordinal": 54,
+      "name": "NdisCmRegisterAddressFamily"
+    },
+    {
+      "ordinal": 55,
+      "name": "NdisCmRegisterSapComplete"
+    },
+    {
+      "ordinal": 56,
+      "name": "NdisCoAssignInstanceName"
+    },
+    {
+      "ordinal": 57,
+      "name": "NdisCoCreateVc"
+    },
+    {
+      "ordinal": 58,
+      "name": "NdisCoDeleteVc"
+    },
+    {
+      "ordinal": 59,
+      "name": "NdisCoGetTapiCallId"
+    },
+    {
+      "ordinal": 60,
+      "name": "NdisCoRequest"
+    },
+    {
+      "ordinal": 61,
+      "name": "NdisCoRequestComplete"
+    },
+    {
+      "ordinal": 62,
+      "name": "NdisCoSendPackets"
+    },
+    {
+      "ordinal": 63,
+      "name": "NdisCompareAnsiString",
+      "forwarder": "NTOSKRNL.RtlCompareString"
+    },
+    {
+      "ordinal": 64,
+      "name": "NdisCompareUnicodeString",
+      "forwarder": "NTOSKRNL.RtlCompareUnicodeString"
+    },
+    {
+      "ordinal": 65,
+      "name": "NdisCompleteBindAdapter"
+    },
+    {
+      "ordinal": 66,
+      "name": "NdisCompleteDmaTransfer"
+    },
+    {
+      "ordinal": 67,
+      "name": "NdisCompletePnPEvent"
+    },
+    {
+      "ordinal": 68,
+      "name": "NdisCompleteUnbindAdapter"
+    },
+    {
+      "ordinal": 69,
+      "name": "NdisConvertStringToAtmAddress"
+    },
+    {
+      "ordinal": 70,
+      "name": "NdisCopyBuffer"
+    },
+    {
+      "ordinal": 71,
+      "name": "NdisCopyFromPacketToPacket"
+    },
+    {
+      "ordinal": 72,
+      "name": "NdisCopyFromPacketToPacketSafe"
+    },
+    {
+      "ordinal": 73,
+      "name": "NdisCreateBlockPool"
+    },
+    {
+      "ordinal": 74,
+      "name": "NdisDeregisterProtocol"
+    },
+    {
+      "ordinal": 75,
+      "name": "NdisDeregisterTdiCallBack"
+    },
+    {
+      "ordinal": 76,
+      "name": "NdisDestroyBlockPool"
+    },
+    {
+      "ordinal": 77,
+      "name": "NdisDprAcquireSpinLock"
+    },
+    {
+      "ordinal": 78,
+      "name": "NdisDprAllocatePacket"
+    },
+    {
+      "ordinal": 79,
+      "name": "NdisDprAllocatePacketNonInterlocked"
+    },
+    {
+      "ordinal": 80,
+      "name": "NdisDprFreePacket"
+    },
+    {
+      "ordinal": 81,
+      "name": "NdisDprFreePacketNonInterlocked"
+    },
+    {
+      "ordinal": 82,
+      "name": "NdisDprReleaseSpinLock"
+    },
+    {
+      "ordinal": 83,
+      "name": "NdisEqualString",
+      "forwarder": "NTOSKRNL.RtlEqualUnicodeString"
+    },
+    {
+      "ordinal": 84,
+      "name": "NdisFreeBuffer"
+    },
+    {
+      "ordinal": 85,
+      "name": "NdisFreeBufferPool"
+    },
+    {
+      "ordinal": 86,
+      "name": "NdisFreeMemory"
+    },
+    {
+      "ordinal": 87,
+      "name": "NdisFreePacket"
+    },
+    {
+      "ordinal": 88,
+      "name": "NdisFreePacketPool"
+    },
+    {
+      "ordinal": 89,
+      "name": "NdisFreeSpinLock"
+    },
+    {
+      "ordinal": 90,
+      "name": "NdisFreeToBlockPool"
+    },
+    {
+      "ordinal": 91,
+      "name": "NdisGeneratePartialCancelId"
+    },
+    {
+      "ordinal": 92,
+      "name": "NdisGetBufferPhysicalArraySize"
+    },
+    {
+      "ordinal": 93,
+      "name": "NdisGetCurrentProcessorCounts"
+    },
+    {
+      "ordinal": 94,
+      "name": "NdisGetCurrentProcessorCpuUsage"
+    },
+    {
+      "ordinal": 95,
+      "name": "NdisGetCurrentSystemTime"
+    },
+    {
+      "ordinal": 96,
+      "name": "NdisGetDriverHandle"
+    },
+    {
+      "ordinal": 97,
+      "name": "NdisGetFirstBufferFromPacket"
+    },
+    {
+      "ordinal": 98,
+      "name": "NdisGetFirstBufferFromPacketSafe"
+    },
+    {
+      "ordinal": 99,
+      "name": "NdisGetPacketCancelId"
+    },
+    {
+      "ordinal": 100,
+      "name": "NdisGetPoolFromPacket"
+    },
+    {
+      "ordinal": 101,
+      "name": "NdisGetReceivedPacket"
+    },
+    {
+      "ordinal": 102,
+      "name": "NdisGetRoutineAddress"
+    },
+    {
+      "ordinal": 103,
+      "name": "NdisGetSharedDataAlignment"
+    },
+    {
+      "ordinal": 104,
+      "name": "NdisGetSystemUpTime"
+    },
+    {
+      "ordinal": 105,
+      "name": "NdisGetVersion"
+    },
+    {
+      "ordinal": 106,
+      "name": "NdisIMAssociateMiniport"
+    },
+    {
+      "ordinal": 107,
+      "name": "NdisIMCancelInitializeDeviceInstance"
+    },
+    {
+      "ordinal": 108,
+      "name": "NdisIMCopySendCompletePerPacketInfo"
+    },
+    {
+      "ordinal": 109,
+      "name": "NdisIMCopySendPerPacketInfo"
+    },
+    {
+      "ordinal": 110,
+      "name": "NdisIMDeInitializeDeviceInstance"
+    },
+    {
+      "ordinal": 111,
+      "name": "NdisIMDeregisterLayeredMiniport"
+    },
+    {
+      "ordinal": 112,
+      "name": "NdisIMGetBindingContext"
+    },
+    {
+      "ordinal": 113,
+      "name": "NdisIMGetCurrentPacketStack"
+    },
+    {
+      "ordinal": 114,
+      "name": "NdisIMGetDeviceContext"
+    },
+    {
+      "ordinal": 115,
+      "name": "NdisIMInitializeDeviceInstance"
+    },
+    {
+      "ordinal": 116,
+      "name": "NdisIMInitializeDeviceInstanceEx"
+    },
+    {
+      "ordinal": 117,
+      "name": "NdisIMNotifyPnPEvent"
+    },
+    {
+      "ordinal": 118,
+      "name": "NdisIMQueueMiniportCallback"
+    },
+    {
+      "ordinal": 119,
+      "name": "NdisIMRegisterLayeredMiniport"
+    },
+    {
+      "ordinal": 120,
+      "name": "NdisIMRevertBack"
+    },
+    {
+      "ordinal": 121,
+      "name": "NdisIMSwitchToMiniport"
+    },
+    {
+      "ordinal": 122,
+      "name": "NdisImmediateReadPciSlotInformation"
+    },
+    {
+      "ordinal": 123,
+      "name": "NdisImmediateReadPortUchar"
+    },
+    {
+      "ordinal": 124,
+      "name": "NdisImmediateReadPortUlong"
+    },
+    {
+      "ordinal": 125,
+      "name": "NdisImmediateReadPortUshort"
+    },
+    {
+      "ordinal": 126,
+      "name": "NdisImmediateReadSharedMemory"
+    },
+    {
+      "ordinal": 127,
+      "name": "NdisImmediateWritePciSlotInformation"
+    },
+    {
+      "ordinal": 128,
+      "name": "NdisImmediateWritePortUchar"
+    },
+    {
+      "ordinal": 129,
+      "name": "NdisImmediateWritePortUlong"
+    },
+    {
+      "ordinal": 130,
+      "name": "NdisImmediateWritePortUshort"
+    },
+    {
+      "ordinal": 131,
+      "name": "NdisImmediateWriteSharedMemory"
+    },
+    {
+      "ordinal": 132,
+      "name": "NdisInitAnsiString",
+      "forwarder": "NTOSKRNL.RtlInitAnsiString"
+    },
+    {
+      "ordinal": 133,
+      "name": "NdisInitUnicodeString",
+      "forwarder": "NTOSKRNL.RtlInitUnicodeString"
+    },
+    {
+      "ordinal": 134,
+      "name": "NdisInitializeEvent"
+    },
+    {
+      "ordinal": 135,
+      "name": "NdisInitializeReadWriteLock"
+    },
+    {
+      "ordinal": 136,
+      "name": "NdisInitializeString"
+    },
+    {
+      "ordinal": 137,
+      "name": "NdisInitializeTimer"
+    },
+    {
+      "ordinal": 138,
+      "name": "NdisInitializeWrapper"
+    },
+    {
+      "ordinal": 139,
+      "name": "NdisInterlockedAddLargeInterger",
+      "forwarder": "NTOSKRNL.ExInterlockedAddLargeInteger"
+    },
+    {
+      "ordinal": 140,
+      "name": "NdisInterlockedAddUlong"
+    },
+    {
+      "ordinal": 141,
+      "name": "NdisInterlockedDecrement"
+    },
+    {
+      "ordinal": 142,
+      "name": "NdisInterlockedIncrement"
+    },
+    {
+      "ordinal": 143,
+      "name": "NdisInterlockedInsertHeadList"
+    },
+    {
+      "ordinal": 144,
+      "name": "NdisInterlockedInsertTailList"
+    },
+    {
+      "ordinal": 145,
+      "name": "NdisInterlockedPopEntryList"
+    },
+    {
+      "ordinal": 146,
+      "name": "NdisInterlockedPushEntryList"
+    },
+    {
+      "ordinal": 147,
+      "name": "NdisInterlockedRemoveHeadList"
+    },
+    {
+      "ordinal": 148,
+      "name": "NdisMAllocateMapRegisters"
+    },
+    {
+      "ordinal": 149,
+      "name": "NdisMAllocateSharedMemory"
+    },
+    {
+      "ordinal": 150,
+      "name": "NdisMAllocateSharedMemoryAsync"
+    },
+    {
+      "ordinal": 151,
+      "name": "NdisMCancelTimer"
+    },
+    {
+      "ordinal": 152,
+      "name": "NdisMCloseLog"
+    },
+    {
+      "ordinal": 153,
+      "name": "NdisMCmActivateVc"
+    },
+    {
+      "ordinal": 154,
+      "name": "NdisMCmCreateVc"
+    },
+    {
+      "ordinal": 155,
+      "name": "NdisMCmDeactivateVc"
+    },
+    {
+      "ordinal": 156,
+      "name": "NdisMCmDeleteVc"
+    },
+    {
+      "ordinal": 157,
+      "name": "NdisMCmRegisterAddressFamily"
+    },
+    {
+      "ordinal": 158,
+      "name": "NdisMCmRequest"
+    },
+    {
+      "ordinal": 159,
+      "name": "NdisMCoActivateVcComplete"
+    },
+    {
+      "ordinal": 160,
+      "name": "NdisMCoDeactivateVcComplete"
+    },
+    {
+      "ordinal": 161,
+      "name": "NdisMCoIndicateReceivePacket"
+    },
+    {
+      "ordinal": 162,
+      "name": "NdisMCoIndicateStatus"
+    },
+    {
+      "ordinal": 163,
+      "name": "NdisMCoReceiveComplete"
+    },
+    {
+      "ordinal": 164,
+      "name": "NdisMCoRequestComplete"
+    },
+    {
+      "ordinal": 165,
+      "name": "NdisMCoSendComplete"
+    },
+    {
+      "ordinal": 166,
+      "name": "NdisMCompleteBufferPhysicalMapping"
+    },
+    {
+      "ordinal": 167,
+      "name": "NdisMCreateLog"
+    },
+    {
+      "ordinal": 168,
+      "name": "NdisMDeregisterAdapterShutdownHandler"
+    },
+    {
+      "ordinal": 169,
+      "name": "NdisMDeregisterDevice"
+    },
+    {
+      "ordinal": 170,
+      "name": "NdisMDeregisterDmaChannel"
+    },
+    {
+      "ordinal": 171,
+      "name": "NdisMDeregisterInterrupt"
+    },
+    {
+      "ordinal": 172,
+      "name": "NdisMDeregisterIoPortRange"
+    },
+    {
+      "ordinal": 173,
+      "name": "NdisMFlushLog"
+    },
+    {
+      "ordinal": 174,
+      "name": "NdisMFreeMapRegisters"
+    },
+    {
+      "ordinal": 175,
+      "name": "NdisMFreeSharedMemory"
+    },
+    {
+      "ordinal": 176,
+      "name": "NdisMGetDeviceProperty"
+    },
+    {
+      "ordinal": 177,
+      "name": "NdisMGetDmaAlignment"
+    },
+    {
+      "ordinal": 178,
+      "name": "NdisMIndicateStatus"
+    },
+    {
+      "ordinal": 179,
+      "name": "NdisMIndicateStatusComplete"
+    },
+    {
+      "ordinal": 180,
+      "name": "NdisMInitializeScatterGatherDma"
+    },
+    {
+      "ordinal": 181,
+      "name": "NdisMInitializeTimer"
+    },
+    {
+      "ordinal": 182,
+      "name": "NdisMMapIoSpace"
+    },
+    {
+      "ordinal": 183,
+      "name": "NdisMPciAssignResources"
+    },
+    {
+      "ordinal": 184,
+      "name": "NdisMPromoteMiniport"
+    },
+    {
+      "ordinal": 185,
+      "name": "NdisMQueryAdapterInstanceName"
+    },
+    {
+      "ordinal": 186,
+      "name": "NdisMQueryAdapterResources"
+    },
+    {
+      "ordinal": 187,
+      "name": "NdisMQueryInformationComplete"
+    },
+    {
+      "ordinal": 188,
+      "name": "NdisMReadDmaCounter"
+    },
+    {
+      "ordinal": 189,
+      "name": "NdisMRegisterAdapterShutdownHandler"
+    },
+    {
+      "ordinal": 190,
+      "name": "NdisMRegisterDevice"
+    },
+    {
+      "ordinal": 191,
+      "name": "NdisMRegisterDmaChannel"
+    },
+    {
+      "ordinal": 192,
+      "name": "NdisMRegisterInterrupt"
+    },
+    {
+      "ordinal": 193,
+      "name": "NdisMRegisterIoPortRange"
+    },
+    {
+      "ordinal": 194,
+      "name": "NdisMRegisterMiniport"
+    },
+    {
+      "ordinal": 195,
+      "name": "NdisMRegisterUnloadHandler"
+    },
+    {
+      "ordinal": 196,
+      "name": "NdisMRemoveMiniport"
+    },
+    {
+      "ordinal": 197,
+      "name": "NdisMResetComplete"
+    },
+    {
+      "ordinal": 198,
+      "name": "NdisMSendComplete"
+    },
+    {
+      "ordinal": 199,
+      "name": "NdisMSendResourcesAvailable"
+    },
+    {
+      "ordinal": 200,
+      "name": "NdisMSetAttributes"
+    },
+    {
+      "ordinal": 201,
+      "name": "NdisMSetAttributesEx"
+    },
+    {
+      "ordinal": 202,
+      "name": "NdisMSetInformationComplete"
+    },
+    {
+      "ordinal": 203,
+      "name": "NdisMSetMiniportSecondary"
+    },
+    {
+      "ordinal": 204,
+      "name": "NdisMSetPeriodicTimer"
+    },
+    {
+      "ordinal": 205,
+      "name": "NdisMSetTimer"
+    },
+    {
+      "ordinal": 206,
+      "name": "NdisMSleep"
+    },
+    {
+      "ordinal": 207,
+      "name": "NdisMStartBufferPhysicalMapping"
+    },
+    {
+      "ordinal": 208,
+      "name": "NdisMSynchronizeWithInterrupt"
+    },
+    {
+      "ordinal": 209,
+      "name": "NdisMTransferDataComplete"
+    },
+    {
+      "ordinal": 210,
+      "name": "NdisMUnmapIoSpace"
+    },
+    {
+      "ordinal": 211,
+      "name": "NdisMWanIndicateReceive"
+    },
+    {
+      "ordinal": 212,
+      "name": "NdisMWanIndicateReceiveComplete"
+    },
+    {
+      "ordinal": 213,
+      "name": "NdisMWanSendComplete"
+    },
+    {
+      "ordinal": 214,
+      "name": "NdisMWriteLogData"
+    },
+    {
+      "ordinal": 215,
+      "name": "NdisMapFile"
+    },
+    {
+      "ordinal": 216,
+      "name": "NdisMatchPdoWithPacket"
+    },
+    {
+      "ordinal": 217,
+      "name": "NdisOpenAdapter"
+    },
+    {
+      "ordinal": 218,
+      "name": "NdisOpenConfiguration"
+    },
+    {
+      "ordinal": 219,
+      "name": "NdisOpenConfigurationKeyByIndex"
+    },
+    {
+      "ordinal": 220,
+      "name": "NdisOpenConfigurationKeyByName"
+    },
+    {
+      "ordinal": 221,
+      "name": "NdisOpenFile"
+    },
+    {
+      "ordinal": 222,
+      "name": "NdisOpenProtocolConfiguration"
+    },
+    {
+      "ordinal": 223,
+      "name": "NdisOverrideBusNumber"
+    },
+    {
+      "ordinal": 224,
+      "name": "NdisPacketPoolUsage"
+    },
+    {
+      "ordinal": 225,
+      "name": "NdisPacketSize"
+    },
+    {
+      "ordinal": 226,
+      "name": "NdisQueryAdapterInstanceName"
+    },
+    {
+      "ordinal": 227,
+      "name": "NdisQueryBindInstanceName"
+    },
+    {
+      "ordinal": 228,
+      "name": "NdisQueryBuffer"
+    },
+    {
+      "ordinal": 229,
+      "name": "NdisQueryBufferOffset"
+    },
+    {
+      "ordinal": 230,
+      "name": "NdisQueryBufferSafe"
+    },
+    {
+      "ordinal": 231,
+      "name": "NdisQueryMapRegisterCount"
+    },
+    {
+      "ordinal": 232,
+      "name": "NdisQueryPendingIOCount"
+    },
+    {
+      "ordinal": 233,
+      "name": "NdisReEnumerateProtocolBindings"
+    },
+    {
+      "ordinal": 234,
+      "name": "NdisReadConfiguration"
+    },
+    {
+      "ordinal": 235,
+      "name": "NdisReadEisaSlotInformation"
+    },
+    {
+      "ordinal": 236,
+      "name": "NdisReadEisaSlotInformationEx"
+    },
+    {
+      "ordinal": 237,
+      "name": "NdisReadMcaPosInformation"
+    },
+    {
+      "ordinal": 238,
+      "name": "NdisReadNetworkAddress"
+    },
+    {
+      "ordinal": 239,
+      "name": "NdisReadPciSlotInformation"
+    },
+    {
+      "ordinal": 240,
+      "name": "NdisReadPcmciaAttributeMemory"
+    },
+    {
+      "ordinal": 241,
+      "name": "NdisRegisterProtocol"
+    },
+    {
+      "ordinal": 242,
+      "name": "NdisRegisterTdiCallBack"
+    },
+    {
+      "ordinal": 243,
+      "name": "NdisReleaseReadWriteLock"
+    },
+    {
+      "ordinal": 244,
+      "name": "NdisReleaseSpinLock"
+    },
+    {
+      "ordinal": 245,
+      "name": "NdisRequest"
+    },
+    {
+      "ordinal": 246,
+      "name": "NdisReset"
+    },
+    {
+      "ordinal": 247,
+      "name": "NdisResetEvent"
+    },
+    {
+      "ordinal": 248,
+      "name": "NdisReturnPackets"
+    },
+    {
+      "ordinal": 249,
+      "name": "NdisScheduleWorkItem"
+    },
+    {
+      "ordinal": 250,
+      "name": "NdisSend"
+    },
+    {
+      "ordinal": 251,
+      "name": "NdisSendPackets"
+    },
+    {
+      "ordinal": 252,
+      "name": "NdisSetEvent"
+    },
+    {
+      "ordinal": 253,
+      "name": "NdisSetPacketCancelId"
+    },
+    {
+      "ordinal": 254,
+      "name": "NdisSetPacketPoolProtocolId"
+    },
+    {
+      "ordinal": 255,
+      "name": "NdisSetPacketStatus"
+    },
+    {
+      "ordinal": 256,
+      "name": "NdisSetProtocolFilter"
+    },
+    {
+      "ordinal": 257,
+      "name": "NdisSetTimer"
+    },
+    {
+      "ordinal": 258,
+      "name": "NdisSetTimerEx"
+    },
+    {
+      "ordinal": 259,
+      "name": "NdisSetupDmaTransfer"
+    },
+    {
+      "ordinal": 260,
+      "name": "NdisSystemProcessorCount"
+    },
+    {
+      "ordinal": 261,
+      "name": "NdisTerminateWrapper"
+    },
+    {
+      "ordinal": 262,
+      "name": "NdisTransferData"
+    },
+    {
+      "ordinal": 263,
+      "name": "NdisUnchainBufferAtBack"
+    },
+    {
+      "ordinal": 264,
+      "name": "NdisUnchainBufferAtFront"
+    },
+    {
+      "ordinal": 265,
+      "name": "NdisUnicodeStringToAnsiString"
+    },
+    {
+      "ordinal": 266,
+      "name": "NdisUnmapFile"
+    },
+    {
+      "ordinal": 267,
+      "name": "NdisUpcaseUnicodeString"
+    },
+    {
+      "ordinal": 268,
+      "name": "NdisUpdateSharedMemory"
+    },
+    {
+      "ordinal": 269,
+      "name": "NdisWaitEvent"
+    },
+    {
+      "ordinal": 270,
+      "name": "NdisWriteConfiguration"
+    },
+    {
+      "ordinal": 271,
+      "name": "NdisWriteErrorLogEntry"
+    },
+    {
+      "ordinal": 272,
+      "name": "NdisWriteEventLogEntry"
+    },
+    {
+      "ordinal": 273,
+      "name": "NdisWritePciSlotInformation"
+    },
+    {
+      "ordinal": 274,
+      "name": "NdisWritePcmciaAttributeMemory"
+    },
+    {
+      "ordinal": 275,
+      "name": "TrFilterDprIndicateReceive"
+    },
+    {
+      "ordinal": 276,
+      "name": "TrFilterDprIndicateReceiveComplete"
+    }
+  ]
+}

@@ -1,0 +1,531 @@
+{
+  "Version": "6.3.9600.16384-I386",
+  "md5": "6f7d6dd46e4e243e7254ec20f680e244",
+  "imphash": "6f7d6dd46e4e243e7254ec20f680e244",
+  "InternalName": "PDH.DLL",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "Windows Performance Data Helper DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 292001,
+  "Size": 254976,
+  "Machine": "I386",
+  "exports": [
+    {
+      "ordinal": 1,
+      "name": "PdhAdd009CounterA"
+    },
+    {
+      "ordinal": 2,
+      "name": "PdhAdd009CounterW"
+    },
+    {
+      "ordinal": 3,
+      "name": "PdhAddCounterA"
+    },
+    {
+      "ordinal": 4,
+      "name": "PdhAddCounterW"
+    },
+    {
+      "ordinal": 5,
+      "name": "PdhAddEnglishCounterA"
+    },
+    {
+      "ordinal": 6,
+      "name": "PdhAddEnglishCounterW"
+    },
+    {
+      "ordinal": 7,
+      "name": "PdhAddRelogCounter"
+    },
+    {
+      "ordinal": 8,
+      "name": "PdhAddV1Counter"
+    },
+    {
+      "ordinal": 9,
+      "name": "PdhAddV2Counter"
+    },
+    {
+      "ordinal": 10,
+      "name": "PdhBindInputDataSourceA"
+    },
+    {
+      "ordinal": 11,
+      "name": "PdhBindInputDataSourceW"
+    },
+    {
+      "ordinal": 12,
+      "name": "PdhBrowseCountersA"
+    },
+    {
+      "ordinal": 13,
+      "name": "PdhBrowseCountersHA"
+    },
+    {
+      "ordinal": 14,
+      "name": "PdhBrowseCountersHW"
+    },
+    {
+      "ordinal": 15,
+      "name": "PdhBrowseCountersW"
+    },
+    {
+      "ordinal": 16,
+      "name": "PdhCalculateCounterFromRawValue"
+    },
+    {
+      "ordinal": 17,
+      "name": "PdhCloseLog"
+    },
+    {
+      "ordinal": 18,
+      "name": "PdhCloseQuery"
+    },
+    {
+      "ordinal": 19,
+      "name": "PdhCollectQueryData"
+    },
+    {
+      "ordinal": 20,
+      "name": "PdhCollectQueryDataEx"
+    },
+    {
+      "ordinal": 21,
+      "name": "PdhCollectQueryDataWithTime"
+    },
+    {
+      "ordinal": 22,
+      "name": "PdhComputeCounterStatistics"
+    },
+    {
+      "ordinal": 23,
+      "name": "PdhConnectMachineA"
+    },
+    {
+      "ordinal": 24,
+      "name": "PdhConnectMachineW"
+    },
+    {
+      "ordinal": 25,
+      "name": "PdhCreateSQLTablesA"
+    },
+    {
+      "ordinal": 26,
+      "name": "PdhCreateSQLTablesW"
+    },
+    {
+      "ordinal": 27,
+      "name": "PdhEnumLogSetNamesA"
+    },
+    {
+      "ordinal": 28,
+      "name": "PdhEnumLogSetNamesW"
+    },
+    {
+      "ordinal": 29,
+      "name": "PdhEnumMachinesA"
+    },
+    {
+      "ordinal": 30,
+      "name": "PdhEnumMachinesHA"
+    },
+    {
+      "ordinal": 31,
+      "name": "PdhEnumMachinesHW"
+    },
+    {
+      "ordinal": 32,
+      "name": "PdhEnumMachinesW"
+    },
+    {
+      "ordinal": 33,
+      "name": "PdhEnumObjectItemsA"
+    },
+    {
+      "ordinal": 34,
+      "name": "PdhEnumObjectItemsHA"
+    },
+    {
+      "ordinal": 35,
+      "name": "PdhEnumObjectItemsHW"
+    },
+    {
+      "ordinal": 36,
+      "name": "PdhEnumObjectItemsW"
+    },
+    {
+      "ordinal": 37,
+      "name": "PdhEnumObjectsA"
+    },
+    {
+      "ordinal": 38,
+      "name": "PdhEnumObjectsHA"
+    },
+    {
+      "ordinal": 39,
+      "name": "PdhEnumObjectsHW"
+    },
+    {
+      "ordinal": 40,
+      "name": "PdhEnumObjectsW"
+    },
+    {
+      "ordinal": 41,
+      "name": "PdhExpandCounterPathA"
+    },
+    {
+      "ordinal": 42,
+      "name": "PdhExpandCounterPathW"
+    },
+    {
+      "ordinal": 43,
+      "name": "PdhExpandWildCardPathA"
+    },
+    {
+      "ordinal": 44,
+      "name": "PdhExpandWildCardPathHA"
+    },
+    {
+      "ordinal": 45,
+      "name": "PdhExpandWildCardPathHW"
+    },
+    {
+      "ordinal": 46,
+      "name": "PdhExpandWildCardPathW"
+    },
+    {
+      "ordinal": 47,
+      "name": "PdhFormatFromRawValue"
+    },
+    {
+      "ordinal": 48,
+      "name": "PdhGetCounterInfoA"
+    },
+    {
+      "ordinal": 49,
+      "name": "PdhGetCounterInfoW"
+    },
+    {
+      "ordinal": 50,
+      "name": "PdhGetCounterTimeBase"
+    },
+    {
+      "ordinal": 51,
+      "name": "PdhGetDataSourceTimeRangeA"
+    },
+    {
+      "ordinal": 52,
+      "name": "PdhGetDataSourceTimeRangeH"
+    },
+    {
+      "ordinal": 53,
+      "name": "PdhGetDataSourceTimeRangeW"
+    },
+    {
+      "ordinal": 54,
+      "name": "PdhGetDefaultPerfCounterA"
+    },
+    {
+      "ordinal": 55,
+      "name": "PdhGetDefaultPerfCounterHA"
+    },
+    {
+      "ordinal": 56,
+      "name": "PdhGetDefaultPerfCounterHW"
+    },
+    {
+      "ordinal": 57,
+      "name": "PdhGetDefaultPerfCounterW"
+    },
+    {
+      "ordinal": 58,
+      "name": "PdhGetDefaultPerfObjectA"
+    },
+    {
+      "ordinal": 59,
+      "name": "PdhGetDefaultPerfObjectHA"
+    },
+    {
+      "ordinal": 60,
+      "name": "PdhGetDefaultPerfObjectHW"
+    },
+    {
+      "ordinal": 61,
+      "name": "PdhGetDefaultPerfObjectW"
+    },
+    {
+      "ordinal": 62,
+      "name": "PdhGetDllVersion"
+    },
+    {
+      "ordinal": 63,
+      "name": "PdhGetExplainText"
+    },
+    {
+      "ordinal": 64,
+      "name": "PdhGetFormattedCounterArrayA"
+    },
+    {
+      "ordinal": 65,
+      "name": "PdhGetFormattedCounterArrayW"
+    },
+    {
+      "ordinal": 66,
+      "name": "PdhGetFormattedCounterValue"
+    },
+    {
+      "ordinal": 67,
+      "name": "PdhGetLogFileSize"
+    },
+    {
+      "ordinal": 68,
+      "name": "PdhGetLogFileTypeA"
+    },
+    {
+      "ordinal": 69,
+      "name": "PdhGetLogFileTypeW"
+    },
+    {
+      "ordinal": 70,
+      "name": "PdhGetLogSetGUID"
+    },
+    {
+      "ordinal": 71,
+      "name": "PdhGetRawCounterArrayA"
+    },
+    {
+      "ordinal": 72,
+      "name": "PdhGetRawCounterArrayW"
+    },
+    {
+      "ordinal": 73,
+      "name": "PdhGetRawCounterValue"
+    },
+    {
+      "ordinal": 74,
+      "name": "PdhIsRealTimeQuery"
+    },
+    {
+      "ordinal": 75,
+      "name": "PdhListLogFileHeaderA"
+    },
+    {
+      "ordinal": 76,
+      "name": "PdhListLogFileHeaderW"
+    },
+    {
+      "ordinal": 77,
+      "name": "PdhLookupPerfIndexByNameA"
+    },
+    {
+      "ordinal": 78,
+      "name": "PdhLookupPerfIndexByNameW"
+    },
+    {
+      "ordinal": 79,
+      "name": "PdhLookupPerfNameByIndexA"
+    },
+    {
+      "ordinal": 80,
+      "name": "PdhLookupPerfNameByIndexW"
+    },
+    {
+      "ordinal": 81,
+      "name": "PdhMakeCounterPathA"
+    },
+    {
+      "ordinal": 82,
+      "name": "PdhMakeCounterPathW"
+    },
+    {
+      "ordinal": 83,
+      "name": "PdhOpenLogA"
+    },
+    {
+      "ordinal": 84,
+      "name": "PdhOpenLogW"
+    },
+    {
+      "ordinal": 85,
+      "name": "PdhOpenQuery"
+    },
+    {
+      "ordinal": 86,
+      "name": "PdhOpenQueryA"
+    },
+    {
+      "ordinal": 87,
+      "name": "PdhOpenQueryH"
+    },
+    {
+      "ordinal": 88,
+      "name": "PdhOpenQueryW"
+    },
+    {
+      "ordinal": 89,
+      "name": "PdhParseCounterPathA"
+    },
+    {
+      "ordinal": 90,
+      "name": "PdhParseCounterPathW"
+    },
+    {
+      "ordinal": 91,
+      "name": "PdhParseInstanceNameA"
+    },
+    {
+      "ordinal": 92,
+      "name": "PdhParseInstanceNameW"
+    },
+    {
+      "ordinal": 93,
+      "name": "PdhReadRawLogRecord"
+    },
+    {
+      "ordinal": 94,
+      "name": "PdhRelogA"
+    },
+    {
+      "ordinal": 95,
+      "name": "PdhRelogW"
+    },
+    {
+      "ordinal": 96,
+      "name": "PdhRemoveCounter"
+    },
+    {
+      "ordinal": 97,
+      "name": "PdhResetRelogCounterValues"
+    },
+    {
+      "ordinal": 98,
+      "name": "PdhSelectDataSourceA"
+    },
+    {
+      "ordinal": 99,
+      "name": "PdhSelectDataSourceW"
+    },
+    {
+      "ordinal": 100,
+      "name": "PdhSetCounterScaleFactor"
+    },
+    {
+      "ordinal": 101,
+      "name": "PdhSetCounterValue"
+    },
+    {
+      "ordinal": 102,
+      "name": "PdhSetDefaultRealTimeDataSource"
+    },
+    {
+      "ordinal": 103,
+      "name": "PdhSetLogSetRunID"
+    },
+    {
+      "ordinal": 104,
+      "name": "PdhSetQueryTimeRange"
+    },
+    {
+      "ordinal": 105,
+      "name": "PdhTranslate009CounterA"
+    },
+    {
+      "ordinal": 106,
+      "name": "PdhTranslate009CounterW"
+    },
+    {
+      "ordinal": 107,
+      "name": "PdhTranslateLocaleCounterA"
+    },
+    {
+      "ordinal": 108,
+      "name": "PdhTranslateLocaleCounterW"
+    },
+    {
+      "ordinal": 109,
+      "name": "PdhUpdateLogA"
+    },
+    {
+      "ordinal": 110,
+      "name": "PdhUpdateLogFileCatalog"
+    },
+    {
+      "ordinal": 111,
+      "name": "PdhUpdateLogW"
+    },
+    {
+      "ordinal": 112,
+      "name": "PdhValidatePathA"
+    },
+    {
+      "ordinal": 113,
+      "name": "PdhValidatePathExA"
+    },
+    {
+      "ordinal": 114,
+      "name": "PdhValidatePathExW"
+    },
+    {
+      "ordinal": 115,
+      "name": "PdhValidatePathW"
+    },
+    {
+      "ordinal": 116,
+      "name": "PdhVbAddCounter"
+    },
+    {
+      "ordinal": 117,
+      "name": "PdhVbCreateCounterPathList"
+    },
+    {
+      "ordinal": 118,
+      "name": "PdhVbGetCounterPathElements"
+    },
+    {
+      "ordinal": 119,
+      "name": "PdhVbGetCounterPathFromList"
+    },
+    {
+      "ordinal": 120,
+      "name": "PdhVbGetDoubleCounterValue"
+    },
+    {
+      "ordinal": 121,
+      "name": "PdhVbGetLogFileSize"
+    },
+    {
+      "ordinal": 122,
+      "name": "PdhVbGetOneCounterPath"
+    },
+    {
+      "ordinal": 123,
+      "name": "PdhVbIsGoodStatus"
+    },
+    {
+      "ordinal": 124,
+      "name": "PdhVbOpenLog"
+    },
+    {
+      "ordinal": 125,
+      "name": "PdhVbOpenQuery"
+    },
+    {
+      "ordinal": 126,
+      "name": "PdhVbUpdateLog"
+    },
+    {
+      "ordinal": 127,
+      "name": "PdhVerifySQLDBA"
+    },
+    {
+      "ordinal": 128,
+      "name": "PdhVerifySQLDBW"
+    },
+    {
+      "ordinal": 129,
+      "name": "PdhWriteRelogSample"
+    }
+  ]
+}

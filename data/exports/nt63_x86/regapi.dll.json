@@ -1,0 +1,415 @@
+{
+  "Version": "6.3.9600.16384-I386",
+  "md5": "70caad712c7826d2a96fe1969359fdff",
+  "imphash": "70caad712c7826d2a96fe1969359fdff",
+  "InternalName": "regapi",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "Registry Configuration APIs",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 138381,
+  "Size": 75264,
+  "Machine": "I386",
+  "exports": [
+    {
+      "ordinal": 1,
+      "name": "CheckStringForAsciiConversion"
+    },
+    {
+      "ordinal": 2,
+      "name": "GetDomainName"
+    },
+    {
+      "ordinal": 3,
+      "name": "QueryUserConfig"
+    },
+    {
+      "ordinal": 4,
+      "name": "QueryUserProperty"
+    },
+    {
+      "ordinal": 5,
+      "name": "RegBuildNumberQuery"
+    },
+    {
+      "ordinal": 6,
+      "name": "RegCdCreateA"
+    },
+    {
+      "ordinal": 7,
+      "name": "RegCdCreateW"
+    },
+    {
+      "ordinal": 8,
+      "name": "RegCdDeleteA"
+    },
+    {
+      "ordinal": 9,
+      "name": "RegCdDeleteW"
+    },
+    {
+      "ordinal": 10,
+      "name": "RegCdEnumerateA"
+    },
+    {
+      "ordinal": 11,
+      "name": "RegCdEnumerateW"
+    },
+    {
+      "ordinal": 12,
+      "name": "RegCdQueryA"
+    },
+    {
+      "ordinal": 13,
+      "name": "RegCdQueryW"
+    },
+    {
+      "ordinal": 14,
+      "name": "RegCloseServer"
+    },
+    {
+      "ordinal": 15,
+      "name": "RegConsoleShadowQueryA"
+    },
+    {
+      "ordinal": 16,
+      "name": "RegConsoleShadowQueryW"
+    },
+    {
+      "ordinal": 17,
+      "name": "RegCreateMonitorConfigW"
+    },
+    {
+      "ordinal": 18,
+      "name": "RegCreateUserConfigW"
+    },
+    {
+      "ordinal": 19,
+      "name": "RegDefaultUserConfigQueryA"
+    },
+    {
+      "ordinal": 20,
+      "name": "RegDefaultUserConfigQueryW"
+    },
+    {
+      "ordinal": 21,
+      "name": "RegDenyTSConnectionsPolicy"
+    },
+    {
+      "ordinal": 22,
+      "name": "RegFreeUtilityCommandList"
+    },
+    {
+      "ordinal": 23,
+      "name": "RegGetLicensePolicyID"
+    },
+    {
+      "ordinal": 24,
+      "name": "RegGetLicensingModePolicy"
+    },
+    {
+      "ordinal": 25,
+      "name": "RegGetMachinePolicy"
+    },
+    {
+      "ordinal": 26,
+      "name": "RegGetMachinePolicyEx"
+    },
+    {
+      "ordinal": 27,
+      "name": "RegGetMachinePolicyNew"
+    },
+    {
+      "ordinal": 28,
+      "name": "RegGetTServerVersion"
+    },
+    {
+      "ordinal": 29,
+      "name": "RegGetUserConfigFromUserParameters"
+    },
+    {
+      "ordinal": 30,
+      "name": "RegGetUserPolicy"
+    },
+    {
+      "ordinal": 31,
+      "name": "RegIsMachineInHelpMode"
+    },
+    {
+      "ordinal": 32,
+      "name": "RegIsMachinePolicyAllowHelp"
+    },
+    {
+      "ordinal": 33,
+      "name": "RegIsSrcAcceptingConnections"
+    },
+    {
+      "ordinal": 34,
+      "name": "RegIsTServer"
+    },
+    {
+      "ordinal": 35,
+      "name": "RegIsTimeZoneRedirectionEnabled"
+    },
+    {
+      "ordinal": 36,
+      "name": "RegMergeMachinePolicy"
+    },
+    {
+      "ordinal": 37,
+      "name": "RegMergeUserConfigWithUserParameters"
+    },
+    {
+      "ordinal": 38,
+      "name": "RegOpenServerA"
+    },
+    {
+      "ordinal": 39,
+      "name": "RegOpenServerW"
+    },
+    {
+      "ordinal": 40,
+      "name": "RegPdCreateA"
+    },
+    {
+      "ordinal": 41,
+      "name": "RegPdCreateW"
+    },
+    {
+      "ordinal": 42,
+      "name": "RegPdDeleteA"
+    },
+    {
+      "ordinal": 43,
+      "name": "RegPdDeleteW"
+    },
+    {
+      "ordinal": 44,
+      "name": "RegPdEnumerateA"
+    },
+    {
+      "ordinal": 45,
+      "name": "RegPdEnumerateW"
+    },
+    {
+      "ordinal": 46,
+      "name": "RegPdQueryA"
+    },
+    {
+      "ordinal": 47,
+      "name": "RegPdQueryW"
+    },
+    {
+      "ordinal": 48,
+      "name": "RegQueryConnectionSettings"
+    },
+    {
+      "ordinal": 49,
+      "name": "RegQueryListenerStart"
+    },
+    {
+      "ordinal": 50,
+      "name": "RegQueryMonitorSettings"
+    },
+    {
+      "ordinal": 51,
+      "name": "RegQueryOEMId"
+    },
+    {
+      "ordinal": 52,
+      "name": "RegQuerySessionSettings"
+    },
+    {
+      "ordinal": 53,
+      "name": "RegQueryUtilityCommandList"
+    },
+    {
+      "ordinal": 54,
+      "name": "RegSAMUserConfig"
+    },
+    {
+      "ordinal": 55,
+      "name": "RegSetLicensePolicyID"
+    },
+    {
+      "ordinal": 56,
+      "name": "RegSetSrcAcceptConnections"
+    },
+    {
+      "ordinal": 57,
+      "name": "RegUserConfigDelete"
+    },
+    {
+      "ordinal": 58,
+      "name": "RegUserConfigQuery"
+    },
+    {
+      "ordinal": 59,
+      "name": "RegUserConfigRename"
+    },
+    {
+      "ordinal": 60,
+      "name": "RegUserConfigSet"
+    },
+    {
+      "ordinal": 61,
+      "name": "RegWdCreateA"
+    },
+    {
+      "ordinal": 62,
+      "name": "RegWdCreateW"
+    },
+    {
+      "ordinal": 63,
+      "name": "RegWdDeleteA"
+    },
+    {
+      "ordinal": 64,
+      "name": "RegWdDeleteW"
+    },
+    {
+      "ordinal": 65,
+      "name": "RegWdEnumerateA"
+    },
+    {
+      "ordinal": 66,
+      "name": "RegWdEnumerateW"
+    },
+    {
+      "ordinal": 67,
+      "name": "RegWdQueryA"
+    },
+    {
+      "ordinal": 68,
+      "name": "RegWdQueryW"
+    },
+    {
+      "ordinal": 69,
+      "name": "RegWinStationAccessCheck"
+    },
+    {
+      "ordinal": 70,
+      "name": "RegWinStationCreateA"
+    },
+    {
+      "ordinal": 71,
+      "name": "RegWinStationCreateW"
+    },
+    {
+      "ordinal": 72,
+      "name": "RegWinStationDeleteA"
+    },
+    {
+      "ordinal": 73,
+      "name": "RegWinStationDeleteW"
+    },
+    {
+      "ordinal": 74,
+      "name": "RegWinStationEnumerateA"
+    },
+    {
+      "ordinal": 75,
+      "name": "RegWinStationEnumerateW"
+    },
+    {
+      "ordinal": 76,
+      "name": "RegWinStationQueryA"
+    },
+    {
+      "ordinal": 77,
+      "name": "RegWinStationQueryDefaultSecurity"
+    },
+    {
+      "ordinal": 78,
+      "name": "RegWinStationQueryEx"
+    },
+    {
+      "ordinal": 79,
+      "name": "RegWinStationQueryExNew"
+    },
+    {
+      "ordinal": 80,
+      "name": "RegWinStationQueryExW"
+    },
+    {
+      "ordinal": 81,
+      "name": "RegWinStationQueryExtendedSettingsW"
+    },
+    {
+      "ordinal": 82,
+      "name": "RegWinStationQueryNumValueW"
+    },
+    {
+      "ordinal": 83,
+      "name": "RegWinStationQuerySecurityA"
+    },
+    {
+      "ordinal": 84,
+      "name": "RegWinStationQuerySecurityW"
+    },
+    {
+      "ordinal": 85,
+      "name": "RegWinStationQueryValueW"
+    },
+    {
+      "ordinal": 86,
+      "name": "RegWinStationQueryW"
+    },
+    {
+      "ordinal": 87,
+      "name": "RegWinStationSetDefaultSecurity"
+    },
+    {
+      "ordinal": 88,
+      "name": "RegWinStationSetExtendedSettingsW"
+    },
+    {
+      "ordinal": 89,
+      "name": "RegWinStationSetNumValueW"
+    },
+    {
+      "ordinal": 90,
+      "name": "RegWinStationSetSecurityA"
+    },
+    {
+      "ordinal": 91,
+      "name": "RegWinStationSetSecurityW"
+    },
+    {
+      "ordinal": 92,
+      "name": "RegWinstationQuerySecurityConfig_Machine"
+    },
+    {
+      "ordinal": 93,
+      "name": "RegWinstationQuerySecurityConfig_Merged"
+    },
+    {
+      "ordinal": 94,
+      "name": "RegWinstationSetSecurityConfig"
+    },
+    {
+      "ordinal": 95,
+      "name": "SetUserProperty"
+    },
+    {
+      "ordinal": 96,
+      "name": "UsrPropGetString"
+    },
+    {
+      "ordinal": 97,
+      "name": "UsrPropGetValue"
+    },
+    {
+      "ordinal": 98,
+      "name": "UsrPropSetString"
+    },
+    {
+      "ordinal": 99,
+      "name": "UsrPropSetValue"
+    },
+    {
+      "ordinal": 100,
+      "name": "WaitForTSConnectionsPolicyChanges"
+    }
+  ]
+}

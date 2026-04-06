@@ -1,14 +1,14 @@
 {
   "Version": "5.2.3790.3959-I386",
-  "md5": "bf13d20f1e0ccdd71a03a9a51eb5d269",
-  "imphash": "bf13d20f1e0ccdd71a03a9a51eb5d269",
+  "md5": "c9caa4cd76f86d12a994ead4883be276",
+  "imphash": "c9caa4cd76f86d12a994ead4883be276",
   "InternalName": "tdi.sys",
   "CompanyName": "Microsoft Corporation",
   "FileDescription": "TDI Wrapper",
   "FileVersion": "5.2.3790.3959 (srv03_sp2_rtm.070216-1710)",
   "ProductVersion": "5.2.3790.3959",
-  "PeChecksum": 105338,
-  "Size": 43520,
+  "PeChecksum": 50720,
+  "Size": 20992,
   "Machine": "I386",
   "exports": [
     {
@@ -185,7 +185,8 @@
     },
     {
       "ordinal": 44,
-      "name": "TdiMatchPdoWithChainedReceiveContext"
+      "name": "TdiMatchPdoWithChainedReceiveContext",
+      "forwarder": "NDIS.NdisMatchPdoWithPacket"
     },
     {
       "ordinal": 45,

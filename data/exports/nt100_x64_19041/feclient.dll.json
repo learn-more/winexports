@@ -1,0 +1,232 @@
+{
+  "Version": "10.0.19041.3636-AMD64",
+  "md5": "0ad98bc67b49329678a03c378f0d3ef0",
+  "imphash": "0ad98bc67b49329678a03c378f0d3ef0",
+  "InternalName": "FECLIENT.DLL",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "Windows NT File Encryption Client Interfaces",
+  "FileVersion": "10.0.19041.3636 (WinBuild.160101.0800)",
+  "ProductVersion": "10.0.19041.3636",
+  "PeChecksum": 308461,
+  "Size": 252928,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ordinal": 1,
+      "name": "DpQueryUserProtectorDescriptor"
+    },
+    {
+      "ordinal": 2,
+      "name": "DpQueryUserProtectorDescriptorInfo"
+    },
+    {
+      "ordinal": 3,
+      "name": "EdpAllowFileAccessForProcess"
+    },
+    {
+      "ordinal": 4,
+      "name": "EdpContainerizeFile"
+    },
+    {
+      "ordinal": 5,
+      "name": "EdpCredentialCreate"
+    },
+    {
+      "ordinal": 6,
+      "name": "EdpCredentialDelete"
+    },
+    {
+      "ordinal": 7,
+      "name": "EdpCredentialExists"
+    },
+    {
+      "ordinal": 8,
+      "name": "EdpCredentialQuery"
+    },
+    {
+      "ordinal": 9,
+      "name": "EdpDecontainerizeFile"
+    },
+    {
+      "ordinal": 10,
+      "name": "EdpDplPolicyEnabledForUser"
+    },
+    {
+      "ordinal": 11,
+      "name": "EdpDplStartCredServiceIfDplEnabledForUser"
+    },
+    {
+      "ordinal": 12,
+      "name": "EdpDplUpgradePinInfo"
+    },
+    {
+      "ordinal": 13,
+      "name": "EdpDplUpgradeVerifyUser"
+    },
+    {
+      "ordinal": 14,
+      "name": "EdpDplUserCredentialsSet"
+    },
+    {
+      "ordinal": 15,
+      "name": "EdpDplUserUnlockComplete"
+    },
+    {
+      "ordinal": 16,
+      "name": "EdpDplUserUnlockStart"
+    },
+    {
+      "ordinal": 17,
+      "name": "EdpFree"
+    },
+    {
+      "ordinal": 18,
+      "name": "EdpGetContainerIdentity"
+    },
+    {
+      "ordinal": 19,
+      "name": "EdpGetCredServiceState"
+    },
+    {
+      "ordinal": 20,
+      "name": "EdpIsConsumerDataProtectionEnforced"
+    },
+    {
+      "ordinal": 21,
+      "name": "EdpIsConsumerDataProtectionSupported"
+    },
+    {
+      "ordinal": 22,
+      "name": "EdpPurgeAppLearningEvents"
+    },
+    {
+      "ordinal": 23,
+      "name": "EdpQueryCredServiceInfo"
+    },
+    {
+      "ordinal": 24,
+      "name": "EdpQueryDplEnforcedPolicyOwnerIds"
+    },
+    {
+      "ordinal": 25,
+      "name": "EdpQueryRevokedPolicyOwnerIds"
+    },
+    {
+      "ordinal": 26,
+      "name": "EdpRmsClearKeys"
+    },
+    {
+      "ordinal": 27,
+      "name": "EdpSetCredServiceInfo"
+    },
+    {
+      "ordinal": 28,
+      "name": "EdpUnprotectFile"
+    },
+    {
+      "ordinal": 29,
+      "name": "EdpWriteLogSiteLearningEvents"
+    },
+    {
+      "ordinal": 30,
+      "name": "EfsClientCloseFileRaw"
+    },
+    {
+      "ordinal": 31,
+      "name": "EfsClientCopyFileRaw"
+    },
+    {
+      "ordinal": 32,
+      "name": "EfsClientDecryptFile"
+    },
+    {
+      "ordinal": 33,
+      "name": "EfsClientDuplicateEncryptionInfo"
+    },
+    {
+      "ordinal": 34,
+      "name": "EfsClientEncryptFileEx"
+    },
+    {
+      "ordinal": 35,
+      "name": "EfsClientFileEncryptionStatus"
+    },
+    {
+      "ordinal": 36,
+      "name": "EfsClientFreeKeyInfo"
+    },
+    {
+      "ordinal": 37,
+      "name": "EfsClientFreeProtectorList"
+    },
+    {
+      "ordinal": 38,
+      "name": "EfsClientGetEncryptedFileVersion"
+    },
+    {
+      "ordinal": 39,
+      "name": "EfsClientGetKeyInfo"
+    },
+    {
+      "ordinal": 40,
+      "name": "EfsClientOpenFileRaw"
+    },
+    {
+      "ordinal": 41,
+      "name": "EfsClientQueryProtectors"
+    },
+    {
+      "ordinal": 42,
+      "name": "EfsClientReadFileRaw"
+    },
+    {
+      "ordinal": 43,
+      "name": "EfsClientWriteFileRaw"
+    },
+    {
+      "ordinal": 44,
+      "name": "EfsClientWriteFileWithHeaderRaw"
+    },
+    {
+      "ordinal": 45,
+      "name": "EfsReprotectFile"
+    },
+    {
+      "ordinal": 46,
+      "name": "EfsUtilGetCurrentKey",
+      "forwarder": "efsutil._EfsUtilGetCurrentKey_Deprecated@16"
+    },
+    {
+      "ordinal": 47,
+      "name": "EfsValidateTokenForConsumer"
+    },
+    {
+      "ordinal": 48,
+      "name": "EfsValidateUserForConsumer"
+    },
+    {
+      "ordinal": 49,
+      "name": "FeClClearCaches"
+    },
+    {
+      "ordinal": 50,
+      "name": "FeClQueryInfo"
+    },
+    {
+      "ordinal": 51,
+      "name": "FeClientInitialize"
+    },
+    {
+      "ordinal": 52,
+      "name": "GetLockSessionUnwrappedKey"
+    },
+    {
+      "ordinal": 53,
+      "name": "GetLockSessionWrappedKey"
+    },
+    {
+      "ordinal": 54,
+      "name": "OefsCheckSupport"
+    }
+  ]
+}

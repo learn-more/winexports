@@ -9,6 +9,8 @@ Usage:
     python scripts/generate_hugo_content.py --clean   # clean only
 
 Generates:
+    content/_index.md                   - site home page with version table
+    data/versions.json                  - version metadata (label, desc, order) for Hugo templates
     data/dlls/{safe_name}.json          - per-DLL aggregated data across all Windows versions
     content/dlls/{safe_name}.md         - Hugo content page per DLL
     content/functions/{slug}.md         - Hugo page per multi-DLL function (hidden from nav)
@@ -31,13 +33,56 @@ SCRIPTDIR = Path(__file__).parent
 ROOT = SCRIPTDIR.parent
 EXPORTS_DIR = ROOT / 'data' / 'exports'
 DLLS_DATA_DIR = ROOT / 'data' / 'dlls'
+VERSIONS_DATA_FILE = ROOT / 'data' / 'versions.json'
+CONTENT_HOME = ROOT / 'content' / '_index.md'
 CONTENT_DLLS_DIR = ROOT / 'content' / 'dlls'
 CONTENT_FUNCTIONS_DIR = ROOT / 'content' / 'functions'
 STATIC_DATA_DIR = ROOT / 'static' / 'data'
-VERSIONS_FILE = ROOT / 'data' / 'versions.json'
 
-# Canonical version order (oldest first)
-VERSION_ORDER = ['nt52_x86', 'nt61_x86', 'nt61_x64', 'nt100_x86_26200']
+# Human-readable metadata for each known version key.
+# label: short form used as column header in tables.
+# desc:  longer form used as tooltip / home page description.
+_KNOWN_VERSIONS = {
+    'nt51_x86':        ('NT 5.1 x86',  'Windows XP x86 (build 2600)'),
+    'nt52_x86':        ('NT 5.2 x86',  'Windows Server 2003 x86 (build 3790)'),
+    'nt60_x86':        ('NT 6.0 x86',  'Windows Vista x86 (build 6002)'),
+    'nt61_x86':        ('NT 6.1 x86',  'Windows 7 x86 (build 7601)'),
+    'nt61_x64':        ('NT 6.1 x64',  'Windows 7 x64 (build 7601)'),
+    'nt63_x86':        ('NT 6.3 x86',  'Windows 8.1 x86 (build 9600)'),
+    'nt63_x64':        ('NT 6.3 x64',  'Windows 8.1 x64 (build 9600)'),
+    'nt100_x64_19041': ('NT 10.0 x64', 'Windows 10 x64 (build 19041)'),
+    'nt100_x64_26200': ('NT 10.0 x64', 'Windows 11 x64 (build 26200)'),
+}
+
+
+def _version_meta(ver):
+    """Return (label, desc) for a version key, falling back to a derived value."""
+    if ver in _KNOWN_VERSIONS:
+        return _KNOWN_VERSIONS[ver]
+    m = re.fullmatch(r'nt(\d+)_(x86|x64)(?:_(\d+))?', ver)
+    if m:
+        nt = m.group(1)
+        arch = m.group(2)
+        build = m.group(3)
+        label = f'NT {nt} {arch}' + (f' b{build}' if build else '')
+        desc = f'NT {nt} {arch}' + (f' (build {build})' if build else '')
+        return label, desc
+    return ver, ver
+
+
+def _version_sort_key(name):
+    """Sort key for nt{ver}_{arch}[_{build}] directory names (oldest first)."""
+    m = re.fullmatch(r'nt(\d+)_(x86|x64)(?:_(\d+))?', name)
+    if not m:
+        return (float('inf'), 0, 0)
+    arch_rank = {'x86': 0, 'x64': 1}.get(m.group(2), 99)
+    return (int(m.group(1)), arch_rank, int(m.group(3) or 0))
+
+
+def get_version_order():
+    """Return sorted list of version directory names found in data/exports/."""
+    dirs = [d.name for d in EXPORTS_DIR.iterdir() if d.is_dir()]
+    return sorted(dirs, key=_version_sort_key)
 
 # Max characters in a slug before a hash suffix is added.
 # Keeps filenames well within git/filesystem path limits.
@@ -117,32 +162,34 @@ def clean_output_dirs():
     """
     Remove all previously generated files before regeneration.
 
+    content/_index.md and data/versions.json are fully generated.
     content/dlls/ is fully generated (including its _index.md).
     content/functions/ is fully maintained; only its generated *.md files
     from previous runs are cleaned up (fn.md and _index.md are preserved).
     """
+    def _on_error(func, path, _exc):
+        # Clear read-only flag and retry; warns if still locked.
+        try:
+            Path(path).chmod(stat.S_IWRITE)
+            func(path)
+        except PermissionError:
+            print(f'  Warning: could not delete {path} (file in use — stop Hugo server first)')
+
     # Directories that can be wiped entirely
     for d in [DLLS_DATA_DIR, CONTENT_DLLS_DIR, STATIC_DATA_DIR / 'fn']:
         if d.exists():
-            shutil.rmtree(d)
+            shutil.rmtree(d, onerror=_on_error)
         d.mkdir(parents=True)
 
     # content/functions/ keeps its hand-maintained files
     _clear_generated_md(CONTENT_FUNCTIONS_DIR, keep={'_index.md', 'fn.md'})
 
-    fn_names = STATIC_DATA_DIR / 'function_names.json'
-    if fn_names.exists():
-        fn_names.unlink()
+    for f in [CONTENT_HOME, VERSIONS_DATA_FILE, STATIC_DATA_DIR / 'function_names.json']:
+        if f.exists():
+            f.unlink()
 
     public = ROOT / 'public'
     if public.exists():
-        def _on_error(func, path, _exc):
-            # Clear read-only flag and retry; warns if still locked.
-            try:
-                Path(path).chmod(stat.S_IWRITE)
-                func(path)
-            except PermissionError:
-                print(f'  Warning: could not delete {path} (file in use — stop Hugo server first)')
         shutil.rmtree(public, onerror=_on_error)
 
     print('  Cleaned output directories')
@@ -150,10 +197,8 @@ def clean_output_dirs():
 
 def load_all_exports():
     """Read every JSON file from data/exports/{version}/ and return aggregated dict."""
-    with open(VERSIONS_FILE) as f:
-        versions_meta = json.load(f)
 
-    available = [v for v in VERSION_ORDER if (EXPORTS_DIR / v).exists()]
+    available = get_version_order()
 
     # all_dlls[dll_name][version] = {FileVersion, FileDescription, exports:[...]}
     all_dlls = {}
@@ -297,6 +342,58 @@ def generate_function_name_list(func_index, slug_map):
     print(f'  Written {len(pairs)} entries to {out_path} ({size_kb} KB)')
 
 
+def generate_versions_data(available_versions):
+    """
+    Write data/versions.json — a dict keyed by version name with label, desc, and order.
+
+    Used by Hugo templates (dllexports.html) to render column headers and tooltips
+    without hardcoding the version list.
+    """
+    out = {}
+    for order, ver in enumerate(available_versions):
+        label, desc = _version_meta(ver)
+        out[ver] = {'key': ver, 'label': label, 'desc': desc, 'order': order}
+    with open(VERSIONS_DATA_FILE, 'w', encoding='utf-8') as f:
+        json.dump(out, f, indent=2)
+    print(f'  Written {len(out)} version entries to {VERSIONS_DATA_FILE}')
+
+
+def generate_home_content(available_versions):
+    """Write content/_index.md — the site home page with an auto-generated version table."""
+    rows = []
+    for ver in available_versions:
+        label, desc = _version_meta(ver)
+        rows.append(f'| {label} | {desc} |')
+    table = '\n'.join(rows)
+
+    content = (
+        '---\n'
+        '# This file is auto-generated by scripts/generate_hugo_content.py\n'
+        'title: "winexports"\n'
+        'weight: 1\n'
+        '---\n'
+        '\n'
+        'This site documents the exported functions of Windows DLLs across multiple\n'
+        'Windows versions, making it easy to:\n'
+        '\n'
+        '- **Find all exports** of a DLL, with their ordinal numbers, for each Windows version\n'
+        '- **Track forwarder exports** — functions that redirect to another DLL\n'
+        '- **Search by function name** to see which DLLs export it and in which versions\n'
+        '\n'
+        '## Windows versions covered\n'
+        '\n'
+        '| Key | Description |\n'
+        '|-----|-------------|\n'
+        f'{table}\n'
+        '\n'
+        'Use the sidebar to browse **[DLLs](dlls/)** or search the\n'
+        '**[function index](functions/)**.\n'
+    )
+    with open(CONTENT_HOME, 'w', encoding='utf-8') as f:
+        f.write(content)
+    print(f'  Written {CONTENT_HOME}')
+
+
 def main():
     parser = argparse.ArgumentParser(
         description='Generate Hugo content for winexports.')
@@ -313,6 +410,12 @@ def main():
     print('Loading export data...')
     all_dlls, available_versions = load_all_exports()
     print(f'  Found {len(all_dlls)} unique DLLs across versions: {available_versions}')
+
+    print('Generating version metadata...')
+    generate_versions_data(available_versions)
+
+    print('Generating home page...')
+    generate_home_content(available_versions)
 
     print('Generating DLL data files...')
     generate_dll_data(all_dlls)

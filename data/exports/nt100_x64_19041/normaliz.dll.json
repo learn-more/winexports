@@ -1,0 +1,40 @@
+{
+  "Version": "10.0.19041.3636-AMD64",
+  "md5": "ead79299a6d80ca0f91bf425017fd324",
+  "imphash": "ead79299a6d80ca0f91bf425017fd324",
+  "InternalName": "normaliz",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "Unicode Normalization DLL",
+  "FileVersion": "10.0.19041.3636 (WinBuild.160101.0800)",
+  "ProductVersion": "10.0.19041.3636",
+  "PeChecksum": 9665,
+  "Size": 6144,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ordinal": 1,
+      "name": "IdnToAscii",
+      "forwarder": "kernelbase.IdnToAscii"
+    },
+    {
+      "ordinal": 2,
+      "name": "IdnToNameprepUnicode",
+      "forwarder": "kernelbase.IdnToNameprepUnicode"
+    },
+    {
+      "ordinal": 3,
+      "name": "IdnToUnicode",
+      "forwarder": "kernelbase.IdnToUnicode"
+    },
+    {
+      "ordinal": 4,
+      "name": "IsNormalizedString",
+      "forwarder": "kernelbase.IsNormalizedString"
+    },
+    {
+      "ordinal": 5,
+      "name": "NormalizeString",
+      "forwarder": "kernelbase.NormalizeString"
+    }
+  ]
+}

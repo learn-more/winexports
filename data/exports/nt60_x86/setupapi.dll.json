@@ -1,0 +1,2735 @@
+{
+  "Version": "6.0.6002.18005-I386",
+  "md5": "551f51b66e5ea87a38d8197eb3bdb57a",
+  "imphash": "551f51b66e5ea87a38d8197eb3bdb57a",
+  "InternalName": "SETUPAPI.DLL",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "Windows Setup API",
+  "FileVersion": "6.0.6002.18005 (lh_sp2rtm.090410-1830)",
+  "ProductVersion": "6.0.6002.18005",
+  "PeChecksum": 1651982,
+  "Size": 1591296,
+  "Machine": "I386",
+  "exports": [
+    {
+      "ordinal": 1,
+      "name": "CMP_GetBlockedDriverInfo"
+    },
+    {
+      "ordinal": 2,
+      "name": "CMP_GetServerSideDeviceInstallFlags"
+    },
+    {
+      "ordinal": 3,
+      "name": "CMP_Init_Detection"
+    },
+    {
+      "ordinal": 4,
+      "name": "CMP_RegisterNotification"
+    },
+    {
+      "ordinal": 5,
+      "name": "CMP_Report_LogOn"
+    },
+    {
+      "ordinal": 6,
+      "name": "CMP_UnregisterNotification"
+    },
+    {
+      "ordinal": 7,
+      "name": "CMP_WaitNoPendingInstallEvents"
+    },
+    {
+      "ordinal": 8,
+      "name": "CMP_WaitServicesAvailable"
+    },
+    {
+      "ordinal": 9,
+      "name": "CM_Add_Empty_Log_Conf"
+    },
+    {
+      "ordinal": 10,
+      "name": "CM_Add_Empty_Log_Conf_Ex"
+    },
+    {
+      "ordinal": 11,
+      "name": "CM_Add_IDA"
+    },
+    {
+      "ordinal": 12,
+      "name": "CM_Add_IDW"
+    },
+    {
+      "ordinal": 13,
+      "name": "CM_Add_ID_ExA"
+    },
+    {
+      "ordinal": 14,
+      "name": "CM_Add_ID_ExW"
+    },
+    {
+      "ordinal": 15,
+      "name": "CM_Add_Range"
+    },
+    {
+      "ordinal": 16,
+      "name": "CM_Add_Res_Des"
+    },
+    {
+      "ordinal": 17,
+      "name": "CM_Add_Res_Des_Ex"
+    },
+    {
+      "ordinal": 18,
+      "name": "CM_Apply_PowerScheme"
+    },
+    {
+      "ordinal": 19,
+      "name": "CM_Connect_MachineA"
+    },
+    {
+      "ordinal": 20,
+      "name": "CM_Connect_MachineW"
+    },
+    {
+      "ordinal": 21,
+      "name": "CM_Create_DevNodeA"
+    },
+    {
+      "ordinal": 22,
+      "name": "CM_Create_DevNodeW"
+    },
+    {
+      "ordinal": 23,
+      "name": "CM_Create_DevNode_ExA"
+    },
+    {
+      "ordinal": 24,
+      "name": "CM_Create_DevNode_ExW"
+    },
+    {
+      "ordinal": 25,
+      "name": "CM_Create_Range_List"
+    },
+    {
+      "ordinal": 26,
+      "name": "CM_Delete_Class_Key"
+    },
+    {
+      "ordinal": 27,
+      "name": "CM_Delete_Class_Key_Ex"
+    },
+    {
+      "ordinal": 28,
+      "name": "CM_Delete_DevNode_Key"
+    },
+    {
+      "ordinal": 29,
+      "name": "CM_Delete_DevNode_Key_Ex"
+    },
+    {
+      "ordinal": 30,
+      "name": "CM_Delete_Device_Interface_KeyA"
+    },
+    {
+      "ordinal": 31,
+      "name": "CM_Delete_Device_Interface_KeyW"
+    },
+    {
+      "ordinal": 32,
+      "name": "CM_Delete_Device_Interface_Key_ExA"
+    },
+    {
+      "ordinal": 33,
+      "name": "CM_Delete_Device_Interface_Key_ExW"
+    },
+    {
+      "ordinal": 34,
+      "name": "CM_Delete_PowerScheme"
+    },
+    {
+      "ordinal": 35,
+      "name": "CM_Delete_Range"
+    },
+    {
+      "ordinal": 36,
+      "name": "CM_Detect_Resource_Conflict"
+    },
+    {
+      "ordinal": 37,
+      "name": "CM_Detect_Resource_Conflict_Ex"
+    },
+    {
+      "ordinal": 38,
+      "name": "CM_Disable_DevNode"
+    },
+    {
+      "ordinal": 39,
+      "name": "CM_Disable_DevNode_Ex"
+    },
+    {
+      "ordinal": 40,
+      "name": "CM_Disconnect_Machine"
+    },
+    {
+      "ordinal": 41,
+      "name": "CM_Dup_Range_List"
+    },
+    {
+      "ordinal": 42,
+      "name": "CM_Duplicate_PowerScheme"
+    },
+    {
+      "ordinal": 43,
+      "name": "CM_Enable_DevNode"
+    },
+    {
+      "ordinal": 44,
+      "name": "CM_Enable_DevNode_Ex"
+    },
+    {
+      "ordinal": 45,
+      "name": "CM_Enumerate_Classes"
+    },
+    {
+      "ordinal": 46,
+      "name": "CM_Enumerate_Classes_Ex"
+    },
+    {
+      "ordinal": 47,
+      "name": "CM_Enumerate_EnumeratorsA"
+    },
+    {
+      "ordinal": 48,
+      "name": "CM_Enumerate_EnumeratorsW"
+    },
+    {
+      "ordinal": 49,
+      "name": "CM_Enumerate_Enumerators_ExA"
+    },
+    {
+      "ordinal": 50,
+      "name": "CM_Enumerate_Enumerators_ExW"
+    },
+    {
+      "ordinal": 51,
+      "name": "CM_Find_Range"
+    },
+    {
+      "ordinal": 52,
+      "name": "CM_First_Range"
+    },
+    {
+      "ordinal": 53,
+      "name": "CM_Free_Log_Conf"
+    },
+    {
+      "ordinal": 54,
+      "name": "CM_Free_Log_Conf_Ex"
+    },
+    {
+      "ordinal": 55,
+      "name": "CM_Free_Log_Conf_Handle"
+    },
+    {
+      "ordinal": 56,
+      "name": "CM_Free_Range_List"
+    },
+    {
+      "ordinal": 57,
+      "name": "CM_Free_Res_Des"
+    },
+    {
+      "ordinal": 58,
+      "name": "CM_Free_Res_Des_Ex"
+    },
+    {
+      "ordinal": 59,
+      "name": "CM_Free_Res_Des_Handle"
+    },
+    {
+      "ordinal": 60,
+      "name": "CM_Free_Resource_Conflict_Handle"
+    },
+    {
+      "ordinal": 61,
+      "name": "CM_Get_Child"
+    },
+    {
+      "ordinal": 62,
+      "name": "CM_Get_Child_Ex"
+    },
+    {
+      "ordinal": 63,
+      "name": "CM_Get_Class_Key_NameA"
+    },
+    {
+      "ordinal": 64,
+      "name": "CM_Get_Class_Key_NameW"
+    },
+    {
+      "ordinal": 65,
+      "name": "CM_Get_Class_Key_Name_ExA"
+    },
+    {
+      "ordinal": 66,
+      "name": "CM_Get_Class_Key_Name_ExW"
+    },
+    {
+      "ordinal": 67,
+      "name": "CM_Get_Class_NameA"
+    },
+    {
+      "ordinal": 68,
+      "name": "CM_Get_Class_NameW"
+    },
+    {
+      "ordinal": 69,
+      "name": "CM_Get_Class_Name_ExA"
+    },
+    {
+      "ordinal": 70,
+      "name": "CM_Get_Class_Name_ExW"
+    },
+    {
+      "ordinal": 71,
+      "name": "CM_Get_Class_Registry_PropertyA"
+    },
+    {
+      "ordinal": 72,
+      "name": "CM_Get_Class_Registry_PropertyW"
+    },
+    {
+      "ordinal": 73,
+      "name": "CM_Get_Depth"
+    },
+    {
+      "ordinal": 74,
+      "name": "CM_Get_Depth_Ex"
+    },
+    {
+      "ordinal": 75,
+      "name": "CM_Get_DevNode_Custom_PropertyA"
+    },
+    {
+      "ordinal": 76,
+      "name": "CM_Get_DevNode_Custom_PropertyW"
+    },
+    {
+      "ordinal": 77,
+      "name": "CM_Get_DevNode_Custom_Property_ExA"
+    },
+    {
+      "ordinal": 78,
+      "name": "CM_Get_DevNode_Custom_Property_ExW"
+    },
+    {
+      "ordinal": 79,
+      "name": "CM_Get_DevNode_Registry_PropertyA"
+    },
+    {
+      "ordinal": 80,
+      "name": "CM_Get_DevNode_Registry_PropertyW"
+    },
+    {
+      "ordinal": 81,
+      "name": "CM_Get_DevNode_Registry_Property_ExA"
+    },
+    {
+      "ordinal": 82,
+      "name": "CM_Get_DevNode_Registry_Property_ExW"
+    },
+    {
+      "ordinal": 83,
+      "name": "CM_Get_DevNode_Status"
+    },
+    {
+      "ordinal": 84,
+      "name": "CM_Get_DevNode_Status_Ex"
+    },
+    {
+      "ordinal": 85,
+      "name": "CM_Get_Device_IDA"
+    },
+    {
+      "ordinal": 86,
+      "name": "CM_Get_Device_IDW"
+    },
+    {
+      "ordinal": 87,
+      "name": "CM_Get_Device_ID_ExA"
+    },
+    {
+      "ordinal": 88,
+      "name": "CM_Get_Device_ID_ExW"
+    },
+    {
+      "ordinal": 89,
+      "name": "CM_Get_Device_ID_ListA"
+    },
+    {
+      "ordinal": 90,
+      "name": "CM_Get_Device_ID_ListW"
+    },
+    {
+      "ordinal": 91,
+      "name": "CM_Get_Device_ID_List_ExA"
+    },
+    {
+      "ordinal": 92,
+      "name": "CM_Get_Device_ID_List_ExW"
+    },
+    {
+      "ordinal": 93,
+      "name": "CM_Get_Device_ID_List_SizeA"
+    },
+    {
+      "ordinal": 94,
+      "name": "CM_Get_Device_ID_List_SizeW"
+    },
+    {
+      "ordinal": 95,
+      "name": "CM_Get_Device_ID_List_Size_ExA"
+    },
+    {
+      "ordinal": 96,
+      "name": "CM_Get_Device_ID_List_Size_ExW"
+    },
+    {
+      "ordinal": 97,
+      "name": "CM_Get_Device_ID_Size"
+    },
+    {
+      "ordinal": 98,
+      "name": "CM_Get_Device_ID_Size_Ex"
+    },
+    {
+      "ordinal": 99,
+      "name": "CM_Get_Device_Interface_AliasA"
+    },
+    {
+      "ordinal": 100,
+      "name": "CM_Get_Device_Interface_AliasW"
+    },
+    {
+      "ordinal": 101,
+      "name": "CM_Get_Device_Interface_Alias_ExA"
+    },
+    {
+      "ordinal": 102,
+      "name": "CM_Get_Device_Interface_Alias_ExW"
+    },
+    {
+      "ordinal": 103,
+      "name": "CM_Get_Device_Interface_ListA"
+    },
+    {
+      "ordinal": 104,
+      "name": "CM_Get_Device_Interface_ListW"
+    },
+    {
+      "ordinal": 105,
+      "name": "CM_Get_Device_Interface_List_ExA"
+    },
+    {
+      "ordinal": 106,
+      "name": "CM_Get_Device_Interface_List_ExW"
+    },
+    {
+      "ordinal": 107,
+      "name": "CM_Get_Device_Interface_List_SizeA"
+    },
+    {
+      "ordinal": 108,
+      "name": "CM_Get_Device_Interface_List_SizeW"
+    },
+    {
+      "ordinal": 109,
+      "name": "CM_Get_Device_Interface_List_Size_ExA"
+    },
+    {
+      "ordinal": 110,
+      "name": "CM_Get_Device_Interface_List_Size_ExW"
+    },
+    {
+      "ordinal": 111,
+      "name": "CM_Get_First_Log_Conf"
+    },
+    {
+      "ordinal": 112,
+      "name": "CM_Get_First_Log_Conf_Ex"
+    },
+    {
+      "ordinal": 113,
+      "name": "CM_Get_Global_State"
+    },
+    {
+      "ordinal": 114,
+      "name": "CM_Get_Global_State_Ex"
+    },
+    {
+      "ordinal": 115,
+      "name": "CM_Get_HW_Prof_FlagsA"
+    },
+    {
+      "ordinal": 116,
+      "name": "CM_Get_HW_Prof_FlagsW"
+    },
+    {
+      "ordinal": 117,
+      "name": "CM_Get_HW_Prof_Flags_ExA"
+    },
+    {
+      "ordinal": 118,
+      "name": "CM_Get_HW_Prof_Flags_ExW"
+    },
+    {
+      "ordinal": 119,
+      "name": "CM_Get_Hardware_Profile_InfoA"
+    },
+    {
+      "ordinal": 120,
+      "name": "CM_Get_Hardware_Profile_InfoW"
+    },
+    {
+      "ordinal": 121,
+      "name": "CM_Get_Hardware_Profile_Info_ExA"
+    },
+    {
+      "ordinal": 122,
+      "name": "CM_Get_Hardware_Profile_Info_ExW"
+    },
+    {
+      "ordinal": 123,
+      "name": "CM_Get_Log_Conf_Priority"
+    },
+    {
+      "ordinal": 124,
+      "name": "CM_Get_Log_Conf_Priority_Ex"
+    },
+    {
+      "ordinal": 125,
+      "name": "CM_Get_Next_Log_Conf"
+    },
+    {
+      "ordinal": 126,
+      "name": "CM_Get_Next_Log_Conf_Ex"
+    },
+    {
+      "ordinal": 127,
+      "name": "CM_Get_Next_Res_Des"
+    },
+    {
+      "ordinal": 128,
+      "name": "CM_Get_Next_Res_Des_Ex"
+    },
+    {
+      "ordinal": 129,
+      "name": "CM_Get_Parent"
+    },
+    {
+      "ordinal": 130,
+      "name": "CM_Get_Parent_Ex"
+    },
+    {
+      "ordinal": 131,
+      "name": "CM_Get_Res_Des_Data"
+    },
+    {
+      "ordinal": 132,
+      "name": "CM_Get_Res_Des_Data_Ex"
+    },
+    {
+      "ordinal": 133,
+      "name": "CM_Get_Res_Des_Data_Size"
+    },
+    {
+      "ordinal": 134,
+      "name": "CM_Get_Res_Des_Data_Size_Ex"
+    },
+    {
+      "ordinal": 135,
+      "name": "CM_Get_Resource_Conflict_Count"
+    },
+    {
+      "ordinal": 136,
+      "name": "CM_Get_Resource_Conflict_DetailsA"
+    },
+    {
+      "ordinal": 137,
+      "name": "CM_Get_Resource_Conflict_DetailsW"
+    },
+    {
+      "ordinal": 138,
+      "name": "CM_Get_Sibling"
+    },
+    {
+      "ordinal": 139,
+      "name": "CM_Get_Sibling_Ex"
+    },
+    {
+      "ordinal": 140,
+      "name": "CM_Get_Version"
+    },
+    {
+      "ordinal": 141,
+      "name": "CM_Get_Version_Ex"
+    },
+    {
+      "ordinal": 142,
+      "name": "CM_Import_PowerScheme"
+    },
+    {
+      "ordinal": 143,
+      "name": "CM_Install_DevNodeW"
+    },
+    {
+      "ordinal": 144,
+      "name": "CM_Install_DevNode_ExW"
+    },
+    {
+      "ordinal": 145,
+      "name": "CM_Intersect_Range_List"
+    },
+    {
+      "ordinal": 146,
+      "name": "CM_Invert_Range_List"
+    },
+    {
+      "ordinal": 147,
+      "name": "CM_Is_Dock_Station_Present"
+    },
+    {
+      "ordinal": 148,
+      "name": "CM_Is_Dock_Station_Present_Ex"
+    },
+    {
+      "ordinal": 149,
+      "name": "CM_Is_Version_Available"
+    },
+    {
+      "ordinal": 150,
+      "name": "CM_Is_Version_Available_Ex"
+    },
+    {
+      "ordinal": 151,
+      "name": "CM_Locate_DevNodeA"
+    },
+    {
+      "ordinal": 152,
+      "name": "CM_Locate_DevNodeW"
+    },
+    {
+      "ordinal": 153,
+      "name": "CM_Locate_DevNode_ExA"
+    },
+    {
+      "ordinal": 154,
+      "name": "CM_Locate_DevNode_ExW"
+    },
+    {
+      "ordinal": 155,
+      "name": "CM_Merge_Range_List"
+    },
+    {
+      "ordinal": 156,
+      "name": "CM_Modify_Res_Des"
+    },
+    {
+      "ordinal": 157,
+      "name": "CM_Modify_Res_Des_Ex"
+    },
+    {
+      "ordinal": 158,
+      "name": "CM_Move_DevNode"
+    },
+    {
+      "ordinal": 159,
+      "name": "CM_Move_DevNode_Ex"
+    },
+    {
+      "ordinal": 160,
+      "name": "CM_Next_Range"
+    },
+    {
+      "ordinal": 161,
+      "name": "CM_Open_Class_KeyA"
+    },
+    {
+      "ordinal": 162,
+      "name": "CM_Open_Class_KeyW"
+    },
+    {
+      "ordinal": 163,
+      "name": "CM_Open_Class_Key_ExA"
+    },
+    {
+      "ordinal": 164,
+      "name": "CM_Open_Class_Key_ExW"
+    },
+    {
+      "ordinal": 165,
+      "name": "CM_Open_DevNode_Key"
+    },
+    {
+      "ordinal": 166,
+      "name": "CM_Open_DevNode_Key_Ex"
+    },
+    {
+      "ordinal": 167,
+      "name": "CM_Open_Device_Interface_KeyA"
+    },
+    {
+      "ordinal": 168,
+      "name": "CM_Open_Device_Interface_KeyW"
+    },
+    {
+      "ordinal": 169,
+      "name": "CM_Open_Device_Interface_Key_ExA"
+    },
+    {
+      "ordinal": 170,
+      "name": "CM_Open_Device_Interface_Key_ExW"
+    },
+    {
+      "ordinal": 171,
+      "name": "CM_Query_And_Remove_SubTreeA"
+    },
+    {
+      "ordinal": 172,
+      "name": "CM_Query_And_Remove_SubTreeW"
+    },
+    {
+      "ordinal": 173,
+      "name": "CM_Query_And_Remove_SubTree_ExA"
+    },
+    {
+      "ordinal": 174,
+      "name": "CM_Query_And_Remove_SubTree_ExW"
+    },
+    {
+      "ordinal": 175,
+      "name": "CM_Query_Arbitrator_Free_Data"
+    },
+    {
+      "ordinal": 176,
+      "name": "CM_Query_Arbitrator_Free_Data_Ex"
+    },
+    {
+      "ordinal": 177,
+      "name": "CM_Query_Arbitrator_Free_Size"
+    },
+    {
+      "ordinal": 178,
+      "name": "CM_Query_Arbitrator_Free_Size_Ex"
+    },
+    {
+      "ordinal": 179,
+      "name": "CM_Query_Remove_SubTree"
+    },
+    {
+      "ordinal": 180,
+      "name": "CM_Query_Remove_SubTree_Ex"
+    },
+    {
+      "ordinal": 181,
+      "name": "CM_Query_Resource_Conflict_List"
+    },
+    {
+      "ordinal": 182,
+      "name": "CM_Reenumerate_DevNode"
+    },
+    {
+      "ordinal": 183,
+      "name": "CM_Reenumerate_DevNode_Ex"
+    },
+    {
+      "ordinal": 184,
+      "name": "CM_Register_Device_Driver"
+    },
+    {
+      "ordinal": 185,
+      "name": "CM_Register_Device_Driver_Ex"
+    },
+    {
+      "ordinal": 186,
+      "name": "CM_Register_Device_InterfaceA"
+    },
+    {
+      "ordinal": 187,
+      "name": "CM_Register_Device_InterfaceW"
+    },
+    {
+      "ordinal": 188,
+      "name": "CM_Register_Device_Interface_ExA"
+    },
+    {
+      "ordinal": 189,
+      "name": "CM_Register_Device_Interface_ExW"
+    },
+    {
+      "ordinal": 190,
+      "name": "CM_Remove_SubTree"
+    },
+    {
+      "ordinal": 191,
+      "name": "CM_Remove_SubTree_Ex"
+    },
+    {
+      "ordinal": 192,
+      "name": "CM_Request_Device_EjectA"
+    },
+    {
+      "ordinal": 193,
+      "name": "CM_Request_Device_EjectW"
+    },
+    {
+      "ordinal": 194,
+      "name": "CM_Request_Device_Eject_ExA"
+    },
+    {
+      "ordinal": 195,
+      "name": "CM_Request_Device_Eject_ExW"
+    },
+    {
+      "ordinal": 196,
+      "name": "CM_Request_Eject_PC"
+    },
+    {
+      "ordinal": 197,
+      "name": "CM_Request_Eject_PC_Ex"
+    },
+    {
+      "ordinal": 198,
+      "name": "CM_RestoreAll_DefaultPowerSchemes"
+    },
+    {
+      "ordinal": 199,
+      "name": "CM_Restore_DefaultPowerScheme"
+    },
+    {
+      "ordinal": 200,
+      "name": "CM_Run_Detection"
+    },
+    {
+      "ordinal": 201,
+      "name": "CM_Run_Detection_Ex"
+    },
+    {
+      "ordinal": 202,
+      "name": "CM_Set_ActiveScheme"
+    },
+    {
+      "ordinal": 203,
+      "name": "CM_Set_Class_Registry_PropertyA"
+    },
+    {
+      "ordinal": 204,
+      "name": "CM_Set_Class_Registry_PropertyW"
+    },
+    {
+      "ordinal": 205,
+      "name": "CM_Set_DevNode_Problem"
+    },
+    {
+      "ordinal": 206,
+      "name": "CM_Set_DevNode_Problem_Ex"
+    },
+    {
+      "ordinal": 207,
+      "name": "CM_Set_DevNode_Registry_PropertyA"
+    },
+    {
+      "ordinal": 208,
+      "name": "CM_Set_DevNode_Registry_PropertyW"
+    },
+    {
+      "ordinal": 209,
+      "name": "CM_Set_DevNode_Registry_Property_ExA"
+    },
+    {
+      "ordinal": 210,
+      "name": "CM_Set_DevNode_Registry_Property_ExW"
+    },
+    {
+      "ordinal": 211,
+      "name": "CM_Set_HW_Prof"
+    },
+    {
+      "ordinal": 212,
+      "name": "CM_Set_HW_Prof_Ex"
+    },
+    {
+      "ordinal": 213,
+      "name": "CM_Set_HW_Prof_FlagsA"
+    },
+    {
+      "ordinal": 214,
+      "name": "CM_Set_HW_Prof_FlagsW"
+    },
+    {
+      "ordinal": 215,
+      "name": "CM_Set_HW_Prof_Flags_ExA"
+    },
+    {
+      "ordinal": 216,
+      "name": "CM_Set_HW_Prof_Flags_ExW"
+    },
+    {
+      "ordinal": 217,
+      "name": "CM_Setup_DevNode"
+    },
+    {
+      "ordinal": 218,
+      "name": "CM_Setup_DevNode_Ex"
+    },
+    {
+      "ordinal": 219,
+      "name": "CM_Test_Range_Available"
+    },
+    {
+      "ordinal": 220,
+      "name": "CM_Uninstall_DevNode"
+    },
+    {
+      "ordinal": 221,
+      "name": "CM_Uninstall_DevNode_Ex"
+    },
+    {
+      "ordinal": 222,
+      "name": "CM_Unregister_Device_InterfaceA"
+    },
+    {
+      "ordinal": 223,
+      "name": "CM_Unregister_Device_InterfaceW"
+    },
+    {
+      "ordinal": 224,
+      "name": "CM_Unregister_Device_Interface_ExA"
+    },
+    {
+      "ordinal": 225,
+      "name": "CM_Unregister_Device_Interface_ExW"
+    },
+    {
+      "ordinal": 226,
+      "name": "CM_Write_UserPowerKey"
+    },
+    {
+      "ordinal": 227,
+      "name": "DoesUserHavePrivilege"
+    },
+    {
+      "ordinal": 228,
+      "name": "DriverStoreAddDriverPackageA"
+    },
+    {
+      "ordinal": 229,
+      "name": "DriverStoreAddDriverPackageW"
+    },
+    {
+      "ordinal": 230,
+      "name": "DriverStoreDeleteDriverPackageA"
+    },
+    {
+      "ordinal": 231,
+      "name": "DriverStoreDeleteDriverPackageW"
+    },
+    {
+      "ordinal": 232,
+      "name": "DriverStoreEnumDriverPackageA"
+    },
+    {
+      "ordinal": 233,
+      "name": "DriverStoreEnumDriverPackageW"
+    },
+    {
+      "ordinal": 234,
+      "name": "DriverStoreFindDriverPackageA"
+    },
+    {
+      "ordinal": 235,
+      "name": "DriverStoreFindDriverPackageW"
+    },
+    {
+      "ordinal": 236,
+      "name": "ExtensionPropSheetPageProc"
+    },
+    {
+      "ordinal": 237,
+      "name": "InstallCatalog"
+    },
+    {
+      "ordinal": 238,
+      "name": "InstallHinfSection"
+    },
+    {
+      "ordinal": 239,
+      "name": "InstallHinfSectionA"
+    },
+    {
+      "ordinal": 240,
+      "name": "InstallHinfSectionW"
+    },
+    {
+      "ordinal": 241,
+      "name": "IsUserAdmin"
+    },
+    {
+      "ordinal": 242,
+      "name": "MyFree"
+    },
+    {
+      "ordinal": 243,
+      "name": "MyMalloc"
+    },
+    {
+      "ordinal": 244,
+      "name": "MyRealloc"
+    },
+    {
+      "ordinal": 245,
+      "name": "PnpEnumDrpFile"
+    },
+    {
+      "ordinal": 246,
+      "name": "PnpIsFileAclIntact"
+    },
+    {
+      "ordinal": 247,
+      "name": "PnpIsFileContentIntact"
+    },
+    {
+      "ordinal": 248,
+      "name": "PnpIsFilePnpDriver"
+    },
+    {
+      "ordinal": 249,
+      "name": "PnpRepairWindowsProtectedDriver"
+    },
+    {
+      "ordinal": 250,
+      "name": "SetupAddInstallSectionToDiskSpaceListA"
+    },
+    {
+      "ordinal": 251,
+      "name": "SetupAddInstallSectionToDiskSpaceListW"
+    },
+    {
+      "ordinal": 252,
+      "name": "SetupAddSectionToDiskSpaceListA"
+    },
+    {
+      "ordinal": 253,
+      "name": "SetupAddSectionToDiskSpaceListW"
+    },
+    {
+      "ordinal": 254,
+      "name": "SetupAddToDiskSpaceListA"
+    },
+    {
+      "ordinal": 255,
+      "name": "SetupAddToDiskSpaceListW"
+    },
+    {
+      "ordinal": 256,
+      "name": "SetupAddToSourceListA"
+    },
+    {
+      "ordinal": 257,
+      "name": "SetupAddToSourceListW"
+    },
+    {
+      "ordinal": 258,
+      "name": "SetupAdjustDiskSpaceListA"
+    },
+    {
+      "ordinal": 259,
+      "name": "SetupAdjustDiskSpaceListW"
+    },
+    {
+      "ordinal": 260,
+      "name": "SetupBackupErrorA"
+    },
+    {
+      "ordinal": 261,
+      "name": "SetupBackupErrorW"
+    },
+    {
+      "ordinal": 262,
+      "name": "SetupCancelTemporarySourceList"
+    },
+    {
+      "ordinal": 263,
+      "name": "SetupCloseFileQueue"
+    },
+    {
+      "ordinal": 264,
+      "name": "SetupCloseInfFile"
+    },
+    {
+      "ordinal": 265,
+      "name": "SetupCloseLog"
+    },
+    {
+      "ordinal": 266,
+      "name": "SetupCommitFileQueue"
+    },
+    {
+      "ordinal": 267,
+      "name": "SetupCommitFileQueueA"
+    },
+    {
+      "ordinal": 268,
+      "name": "SetupCommitFileQueueW"
+    },
+    {
+      "ordinal": 269,
+      "name": "SetupConfigureWmiFromInfSectionA"
+    },
+    {
+      "ordinal": 270,
+      "name": "SetupConfigureWmiFromInfSectionW"
+    },
+    {
+      "ordinal": 271,
+      "name": "SetupCopyErrorA"
+    },
+    {
+      "ordinal": 272,
+      "name": "SetupCopyErrorW"
+    },
+    {
+      "ordinal": 273,
+      "name": "SetupCopyOEMInfA"
+    },
+    {
+      "ordinal": 274,
+      "name": "SetupCopyOEMInfW"
+    },
+    {
+      "ordinal": 275,
+      "name": "SetupCreateDiskSpaceListA"
+    },
+    {
+      "ordinal": 276,
+      "name": "SetupCreateDiskSpaceListW"
+    },
+    {
+      "ordinal": 277,
+      "name": "SetupDecompressOrCopyFileA"
+    },
+    {
+      "ordinal": 278,
+      "name": "SetupDecompressOrCopyFileW"
+    },
+    {
+      "ordinal": 279,
+      "name": "SetupDefaultQueueCallback"
+    },
+    {
+      "ordinal": 280,
+      "name": "SetupDefaultQueueCallbackA"
+    },
+    {
+      "ordinal": 281,
+      "name": "SetupDefaultQueueCallbackW"
+    },
+    {
+      "ordinal": 282,
+      "name": "SetupDeleteErrorA"
+    },
+    {
+      "ordinal": 283,
+      "name": "SetupDeleteErrorW"
+    },
+    {
+      "ordinal": 284,
+      "name": "SetupDestroyDiskSpaceList"
+    },
+    {
+      "ordinal": 285,
+      "name": "SetupDiApplyPowerScheme"
+    },
+    {
+      "ordinal": 286,
+      "name": "SetupDiAskForOEMDisk"
+    },
+    {
+      "ordinal": 287,
+      "name": "SetupDiBuildClassInfoList"
+    },
+    {
+      "ordinal": 288,
+      "name": "SetupDiBuildClassInfoListExA"
+    },
+    {
+      "ordinal": 289,
+      "name": "SetupDiBuildClassInfoListExW"
+    },
+    {
+      "ordinal": 290,
+      "name": "SetupDiBuildDriverInfoList"
+    },
+    {
+      "ordinal": 291,
+      "name": "SetupDiCallClassInstaller"
+    },
+    {
+      "ordinal": 292,
+      "name": "SetupDiCancelDriverInfoSearch"
+    },
+    {
+      "ordinal": 293,
+      "name": "SetupDiChangeState"
+    },
+    {
+      "ordinal": 294,
+      "name": "SetupDiClassGuidsFromNameA"
+    },
+    {
+      "ordinal": 295,
+      "name": "SetupDiClassGuidsFromNameExA"
+    },
+    {
+      "ordinal": 296,
+      "name": "SetupDiClassGuidsFromNameExW"
+    },
+    {
+      "ordinal": 297,
+      "name": "SetupDiClassGuidsFromNameW"
+    },
+    {
+      "ordinal": 298,
+      "name": "SetupDiClassNameFromGuidA"
+    },
+    {
+      "ordinal": 299,
+      "name": "SetupDiClassNameFromGuidExA"
+    },
+    {
+      "ordinal": 300,
+      "name": "SetupDiClassNameFromGuidExW"
+    },
+    {
+      "ordinal": 301,
+      "name": "SetupDiClassNameFromGuidW"
+    },
+    {
+      "ordinal": 302,
+      "name": "SetupDiCreateDevRegKeyA"
+    },
+    {
+      "ordinal": 303,
+      "name": "SetupDiCreateDevRegKeyW"
+    },
+    {
+      "ordinal": 304,
+      "name": "SetupDiCreateDeviceInfoA"
+    },
+    {
+      "ordinal": 305,
+      "name": "SetupDiCreateDeviceInfoList"
+    },
+    {
+      "ordinal": 306,
+      "name": "SetupDiCreateDeviceInfoListExA"
+    },
+    {
+      "ordinal": 307,
+      "name": "SetupDiCreateDeviceInfoListExW"
+    },
+    {
+      "ordinal": 308,
+      "name": "SetupDiCreateDeviceInfoW"
+    },
+    {
+      "ordinal": 309,
+      "name": "SetupDiCreateDeviceInterfaceA"
+    },
+    {
+      "ordinal": 310,
+      "name": "SetupDiCreateDeviceInterfaceRegKeyA"
+    },
+    {
+      "ordinal": 311,
+      "name": "SetupDiCreateDeviceInterfaceRegKeyW"
+    },
+    {
+      "ordinal": 312,
+      "name": "SetupDiCreateDeviceInterfaceW"
+    },
+    {
+      "ordinal": 313,
+      "name": "SetupDiDeleteDevRegKey"
+    },
+    {
+      "ordinal": 314,
+      "name": "SetupDiDeleteDeviceInfo"
+    },
+    {
+      "ordinal": 315,
+      "name": "SetupDiDeleteDeviceInterfaceData"
+    },
+    {
+      "ordinal": 316,
+      "name": "SetupDiDeleteDeviceInterfaceRegKey"
+    },
+    {
+      "ordinal": 317,
+      "name": "SetupDiDestroyClassImageList"
+    },
+    {
+      "ordinal": 318,
+      "name": "SetupDiDestroyDeviceInfoList"
+    },
+    {
+      "ordinal": 319,
+      "name": "SetupDiDestroyDriverInfoList"
+    },
+    {
+      "ordinal": 320,
+      "name": "SetupDiDrawMiniIcon"
+    },
+    {
+      "ordinal": 321,
+      "name": "SetupDiEnumDeviceInfo"
+    },
+    {
+      "ordinal": 322,
+      "name": "SetupDiEnumDeviceInterfaces"
+    },
+    {
+      "ordinal": 323,
+      "name": "SetupDiEnumDriverInfoA"
+    },
+    {
+      "ordinal": 324,
+      "name": "SetupDiEnumDriverInfoW"
+    },
+    {
+      "ordinal": 325,
+      "name": "SetupDiGetActualModelsSectionA"
+    },
+    {
+      "ordinal": 326,
+      "name": "SetupDiGetActualModelsSectionW"
+    },
+    {
+      "ordinal": 327,
+      "name": "SetupDiGetActualSectionToInstallA"
+    },
+    {
+      "ordinal": 328,
+      "name": "SetupDiGetActualSectionToInstallExA"
+    },
+    {
+      "ordinal": 329,
+      "name": "SetupDiGetActualSectionToInstallExW"
+    },
+    {
+      "ordinal": 330,
+      "name": "SetupDiGetActualSectionToInstallW"
+    },
+    {
+      "ordinal": 331,
+      "name": "SetupDiGetClassBitmapIndex"
+    },
+    {
+      "ordinal": 332,
+      "name": "SetupDiGetClassDescriptionA"
+    },
+    {
+      "ordinal": 333,
+      "name": "SetupDiGetClassDescriptionExA"
+    },
+    {
+      "ordinal": 334,
+      "name": "SetupDiGetClassDescriptionExW"
+    },
+    {
+      "ordinal": 335,
+      "name": "SetupDiGetClassDescriptionW"
+    },
+    {
+      "ordinal": 336,
+      "name": "SetupDiGetClassDevPropertySheetsA"
+    },
+    {
+      "ordinal": 337,
+      "name": "SetupDiGetClassDevPropertySheetsW"
+    },
+    {
+      "ordinal": 338,
+      "name": "SetupDiGetClassDevsA"
+    },
+    {
+      "ordinal": 339,
+      "name": "SetupDiGetClassDevsExA"
+    },
+    {
+      "ordinal": 340,
+      "name": "SetupDiGetClassDevsExW"
+    },
+    {
+      "ordinal": 341,
+      "name": "SetupDiGetClassDevsW"
+    },
+    {
+      "ordinal": 342,
+      "name": "SetupDiGetClassImageIndex"
+    },
+    {
+      "ordinal": 343,
+      "name": "SetupDiGetClassImageList"
+    },
+    {
+      "ordinal": 344,
+      "name": "SetupDiGetClassImageListExA"
+    },
+    {
+      "ordinal": 345,
+      "name": "SetupDiGetClassImageListExW"
+    },
+    {
+      "ordinal": 346,
+      "name": "SetupDiGetClassInstallParamsA"
+    },
+    {
+      "ordinal": 347,
+      "name": "SetupDiGetClassInstallParamsW"
+    },
+    {
+      "ordinal": 348,
+      "name": "SetupDiGetClassPropertyExW"
+    },
+    {
+      "ordinal": 349,
+      "name": "SetupDiGetClassPropertyKeys"
+    },
+    {
+      "ordinal": 350,
+      "name": "SetupDiGetClassPropertyKeysExW"
+    },
+    {
+      "ordinal": 351,
+      "name": "SetupDiGetClassPropertyW"
+    },
+    {
+      "ordinal": 352,
+      "name": "SetupDiGetClassRegistryPropertyA"
+    },
+    {
+      "ordinal": 353,
+      "name": "SetupDiGetClassRegistryPropertyW"
+    },
+    {
+      "ordinal": 354,
+      "name": "SetupDiGetCustomDevicePropertyA"
+    },
+    {
+      "ordinal": 355,
+      "name": "SetupDiGetCustomDevicePropertyW"
+    },
+    {
+      "ordinal": 356,
+      "name": "SetupDiGetDeviceInfoListClass"
+    },
+    {
+      "ordinal": 357,
+      "name": "SetupDiGetDeviceInfoListDetailA"
+    },
+    {
+      "ordinal": 358,
+      "name": "SetupDiGetDeviceInfoListDetailW"
+    },
+    {
+      "ordinal": 359,
+      "name": "SetupDiGetDeviceInstallParamsA"
+    },
+    {
+      "ordinal": 360,
+      "name": "SetupDiGetDeviceInstallParamsW"
+    },
+    {
+      "ordinal": 361,
+      "name": "SetupDiGetDeviceInstanceIdA"
+    },
+    {
+      "ordinal": 362,
+      "name": "SetupDiGetDeviceInstanceIdW"
+    },
+    {
+      "ordinal": 363,
+      "name": "SetupDiGetDeviceInterfaceAlias"
+    },
+    {
+      "ordinal": 364,
+      "name": "SetupDiGetDeviceInterfaceDetailA"
+    },
+    {
+      "ordinal": 365,
+      "name": "SetupDiGetDeviceInterfaceDetailW"
+    },
+    {
+      "ordinal": 366,
+      "name": "SetupDiGetDeviceInterfacePropertyKeys"
+    },
+    {
+      "ordinal": 367,
+      "name": "SetupDiGetDeviceInterfacePropertyW"
+    },
+    {
+      "ordinal": 368,
+      "name": "SetupDiGetDevicePropertyKeys"
+    },
+    {
+      "ordinal": 369,
+      "name": "SetupDiGetDevicePropertyW"
+    },
+    {
+      "ordinal": 370,
+      "name": "SetupDiGetDeviceRegistryPropertyA"
+    },
+    {
+      "ordinal": 371,
+      "name": "SetupDiGetDeviceRegistryPropertyW"
+    },
+    {
+      "ordinal": 372,
+      "name": "SetupDiGetDriverInfoDetailA"
+    },
+    {
+      "ordinal": 373,
+      "name": "SetupDiGetDriverInfoDetailW"
+    },
+    {
+      "ordinal": 374,
+      "name": "SetupDiGetDriverInstallParamsA"
+    },
+    {
+      "ordinal": 375,
+      "name": "SetupDiGetDriverInstallParamsW"
+    },
+    {
+      "ordinal": 376,
+      "name": "SetupDiGetHwProfileFriendlyNameA"
+    },
+    {
+      "ordinal": 377,
+      "name": "SetupDiGetHwProfileFriendlyNameExA"
+    },
+    {
+      "ordinal": 378,
+      "name": "SetupDiGetHwProfileFriendlyNameExW"
+    },
+    {
+      "ordinal": 379,
+      "name": "SetupDiGetHwProfileFriendlyNameW"
+    },
+    {
+      "ordinal": 380,
+      "name": "SetupDiGetHwProfileList"
+    },
+    {
+      "ordinal": 381,
+      "name": "SetupDiGetHwProfileListExA"
+    },
+    {
+      "ordinal": 382,
+      "name": "SetupDiGetHwProfileListExW"
+    },
+    {
+      "ordinal": 383,
+      "name": "SetupDiGetINFClassA"
+    },
+    {
+      "ordinal": 384,
+      "name": "SetupDiGetINFClassW"
+    },
+    {
+      "ordinal": 385,
+      "name": "SetupDiGetSelectedDevice"
+    },
+    {
+      "ordinal": 386,
+      "name": "SetupDiGetSelectedDriverA"
+    },
+    {
+      "ordinal": 387,
+      "name": "SetupDiGetSelectedDriverW"
+    },
+    {
+      "ordinal": 388,
+      "name": "SetupDiGetWizardPage"
+    },
+    {
+      "ordinal": 389,
+      "name": "SetupDiInstallClassA"
+    },
+    {
+      "ordinal": 390,
+      "name": "SetupDiInstallClassExA"
+    },
+    {
+      "ordinal": 391,
+      "name": "SetupDiInstallClassExW"
+    },
+    {
+      "ordinal": 392,
+      "name": "SetupDiInstallClassW"
+    },
+    {
+      "ordinal": 393,
+      "name": "SetupDiInstallDevice"
+    },
+    {
+      "ordinal": 394,
+      "name": "SetupDiInstallDeviceInterfaces"
+    },
+    {
+      "ordinal": 395,
+      "name": "SetupDiInstallDriverFiles"
+    },
+    {
+      "ordinal": 396,
+      "name": "SetupDiLoadClassIcon"
+    },
+    {
+      "ordinal": 397,
+      "name": "SetupDiLoadDeviceIcon"
+    },
+    {
+      "ordinal": 398,
+      "name": "SetupDiMoveDuplicateDevice"
+    },
+    {
+      "ordinal": 399,
+      "name": "SetupDiOpenClassRegKey"
+    },
+    {
+      "ordinal": 400,
+      "name": "SetupDiOpenClassRegKeyExA"
+    },
+    {
+      "ordinal": 401,
+      "name": "SetupDiOpenClassRegKeyExW"
+    },
+    {
+      "ordinal": 402,
+      "name": "SetupDiOpenDevRegKey"
+    },
+    {
+      "ordinal": 403,
+      "name": "SetupDiOpenDeviceInfoA"
+    },
+    {
+      "ordinal": 404,
+      "name": "SetupDiOpenDeviceInfoW"
+    },
+    {
+      "ordinal": 405,
+      "name": "SetupDiOpenDeviceInterfaceA"
+    },
+    {
+      "ordinal": 406,
+      "name": "SetupDiOpenDeviceInterfaceRegKey"
+    },
+    {
+      "ordinal": 407,
+      "name": "SetupDiOpenDeviceInterfaceW"
+    },
+    {
+      "ordinal": 408,
+      "name": "SetupDiRegisterCoDeviceInstallers"
+    },
+    {
+      "ordinal": 409,
+      "name": "SetupDiRegisterDeviceInfo"
+    },
+    {
+      "ordinal": 410,
+      "name": "SetupDiRemoveDevice"
+    },
+    {
+      "ordinal": 411,
+      "name": "SetupDiRemoveDeviceInterface"
+    },
+    {
+      "ordinal": 412,
+      "name": "SetupDiReportDeviceInstallError"
+    },
+    {
+      "ordinal": 413,
+      "name": "SetupDiReportDriverNotFoundError"
+    },
+    {
+      "ordinal": 414,
+      "name": "SetupDiReportDriverPackageImportationError"
+    },
+    {
+      "ordinal": 415,
+      "name": "SetupDiReportGenericDriverInstalled"
+    },
+    {
+      "ordinal": 416,
+      "name": "SetupDiReportPnPDeviceProblem"
+    },
+    {
+      "ordinal": 417,
+      "name": "SetupDiRestartDevices"
+    },
+    {
+      "ordinal": 418,
+      "name": "SetupDiSelectBestCompatDrv"
+    },
+    {
+      "ordinal": 419,
+      "name": "SetupDiSelectDevice"
+    },
+    {
+      "ordinal": 420,
+      "name": "SetupDiSelectOEMDrv"
+    },
+    {
+      "ordinal": 421,
+      "name": "SetupDiSetClassInstallParamsA"
+    },
+    {
+      "ordinal": 422,
+      "name": "SetupDiSetClassInstallParamsW"
+    },
+    {
+      "ordinal": 423,
+      "name": "SetupDiSetClassPropertyExW"
+    },
+    {
+      "ordinal": 424,
+      "name": "SetupDiSetClassPropertyW"
+    },
+    {
+      "ordinal": 425,
+      "name": "SetupDiSetClassRegistryPropertyA"
+    },
+    {
+      "ordinal": 426,
+      "name": "SetupDiSetClassRegistryPropertyW"
+    },
+    {
+      "ordinal": 427,
+      "name": "SetupDiSetDeviceInstallParamsA"
+    },
+    {
+      "ordinal": 428,
+      "name": "SetupDiSetDeviceInstallParamsW"
+    },
+    {
+      "ordinal": 429,
+      "name": "SetupDiSetDeviceInterfaceDefault"
+    },
+    {
+      "ordinal": 430,
+      "name": "SetupDiSetDeviceInterfacePropertyW"
+    },
+    {
+      "ordinal": 431,
+      "name": "SetupDiSetDevicePropertyW"
+    },
+    {
+      "ordinal": 432,
+      "name": "SetupDiSetDeviceRegistryPropertyA"
+    },
+    {
+      "ordinal": 433,
+      "name": "SetupDiSetDeviceRegistryPropertyW"
+    },
+    {
+      "ordinal": 434,
+      "name": "SetupDiSetDriverInstallParamsA"
+    },
+    {
+      "ordinal": 435,
+      "name": "SetupDiSetDriverInstallParamsW"
+    },
+    {
+      "ordinal": 436,
+      "name": "SetupDiSetSelectedDevice"
+    },
+    {
+      "ordinal": 437,
+      "name": "SetupDiSetSelectedDriverA"
+    },
+    {
+      "ordinal": 438,
+      "name": "SetupDiSetSelectedDriverW"
+    },
+    {
+      "ordinal": 439,
+      "name": "SetupDiUnremoveDevice"
+    },
+    {
+      "ordinal": 440,
+      "name": "SetupDuplicateDiskSpaceListA"
+    },
+    {
+      "ordinal": 441,
+      "name": "SetupDuplicateDiskSpaceListW"
+    },
+    {
+      "ordinal": 442,
+      "name": "SetupEnumInfSectionsA"
+    },
+    {
+      "ordinal": 443,
+      "name": "SetupEnumInfSectionsW"
+    },
+    {
+      "ordinal": 444,
+      "name": "SetupEnumPublishedInfA"
+    },
+    {
+      "ordinal": 445,
+      "name": "SetupEnumPublishedInfW"
+    },
+    {
+      "ordinal": 446,
+      "name": "SetupFindFirstLineA"
+    },
+    {
+      "ordinal": 447,
+      "name": "SetupFindFirstLineW"
+    },
+    {
+      "ordinal": 448,
+      "name": "SetupFindNextLine"
+    },
+    {
+      "ordinal": 449,
+      "name": "SetupFindNextMatchLineA"
+    },
+    {
+      "ordinal": 450,
+      "name": "SetupFindNextMatchLineW"
+    },
+    {
+      "ordinal": 451,
+      "name": "SetupFreeSourceListA"
+    },
+    {
+      "ordinal": 452,
+      "name": "SetupFreeSourceListW"
+    },
+    {
+      "ordinal": 453,
+      "name": "SetupGetBackupInformationA"
+    },
+    {
+      "ordinal": 454,
+      "name": "SetupGetBackupInformationW"
+    },
+    {
+      "ordinal": 455,
+      "name": "SetupGetBinaryField"
+    },
+    {
+      "ordinal": 456,
+      "name": "SetupGetFieldCount"
+    },
+    {
+      "ordinal": 457,
+      "name": "SetupGetFileCompressionInfoA"
+    },
+    {
+      "ordinal": 458,
+      "name": "SetupGetFileCompressionInfoExA"
+    },
+    {
+      "ordinal": 459,
+      "name": "SetupGetFileCompressionInfoExW"
+    },
+    {
+      "ordinal": 460,
+      "name": "SetupGetFileCompressionInfoW"
+    },
+    {
+      "ordinal": 461,
+      "name": "SetupGetFileQueueCount"
+    },
+    {
+      "ordinal": 462,
+      "name": "SetupGetFileQueueFlags"
+    },
+    {
+      "ordinal": 463,
+      "name": "SetupGetInfDriverStoreLocationA"
+    },
+    {
+      "ordinal": 464,
+      "name": "SetupGetInfDriverStoreLocationW"
+    },
+    {
+      "ordinal": 465,
+      "name": "SetupGetInfFileListA"
+    },
+    {
+      "ordinal": 466,
+      "name": "SetupGetInfFileListW"
+    },
+    {
+      "ordinal": 467,
+      "name": "SetupGetInfInformationA"
+    },
+    {
+      "ordinal": 468,
+      "name": "SetupGetInfInformationW"
+    },
+    {
+      "ordinal": 469,
+      "name": "SetupGetInfPublishedNameA"
+    },
+    {
+      "ordinal": 470,
+      "name": "SetupGetInfPublishedNameW"
+    },
+    {
+      "ordinal": 471,
+      "name": "SetupGetInfSections"
+    },
+    {
+      "ordinal": 472,
+      "name": "SetupGetIntField"
+    },
+    {
+      "ordinal": 473,
+      "name": "SetupGetLineByIndexA"
+    },
+    {
+      "ordinal": 474,
+      "name": "SetupGetLineByIndexW"
+    },
+    {
+      "ordinal": 475,
+      "name": "SetupGetLineCountA"
+    },
+    {
+      "ordinal": 476,
+      "name": "SetupGetLineCountW"
+    },
+    {
+      "ordinal": 477,
+      "name": "SetupGetLineTextA"
+    },
+    {
+      "ordinal": 478,
+      "name": "SetupGetLineTextW"
+    },
+    {
+      "ordinal": 479,
+      "name": "SetupGetMultiSzFieldA"
+    },
+    {
+      "ordinal": 480,
+      "name": "SetupGetMultiSzFieldW"
+    },
+    {
+      "ordinal": 481,
+      "name": "SetupGetNonInteractiveMode"
+    },
+    {
+      "ordinal": 482,
+      "name": "SetupGetSourceFileLocationA"
+    },
+    {
+      "ordinal": 483,
+      "name": "SetupGetSourceFileLocationW"
+    },
+    {
+      "ordinal": 484,
+      "name": "SetupGetSourceFileSizeA"
+    },
+    {
+      "ordinal": 485,
+      "name": "SetupGetSourceFileSizeW"
+    },
+    {
+      "ordinal": 486,
+      "name": "SetupGetSourceInfoA"
+    },
+    {
+      "ordinal": 487,
+      "name": "SetupGetSourceInfoW"
+    },
+    {
+      "ordinal": 488,
+      "name": "SetupGetStringFieldA"
+    },
+    {
+      "ordinal": 489,
+      "name": "SetupGetStringFieldW"
+    },
+    {
+      "ordinal": 490,
+      "name": "SetupGetTargetPathA"
+    },
+    {
+      "ordinal": 491,
+      "name": "SetupGetTargetPathW"
+    },
+    {
+      "ordinal": 492,
+      "name": "SetupGetThreadLogToken"
+    },
+    {
+      "ordinal": 493,
+      "name": "SetupInitDefaultQueueCallback"
+    },
+    {
+      "ordinal": 494,
+      "name": "SetupInitDefaultQueueCallbackEx"
+    },
+    {
+      "ordinal": 495,
+      "name": "SetupInitializeFileLogA"
+    },
+    {
+      "ordinal": 496,
+      "name": "SetupInitializeFileLogW"
+    },
+    {
+      "ordinal": 497,
+      "name": "SetupInstallFileA"
+    },
+    {
+      "ordinal": 498,
+      "name": "SetupInstallFileExA"
+    },
+    {
+      "ordinal": 499,
+      "name": "SetupInstallFileExW"
+    },
+    {
+      "ordinal": 500,
+      "name": "SetupInstallFileW"
+    },
+    {
+      "ordinal": 501,
+      "name": "SetupInstallFilesFromInfSectionA"
+    },
+    {
+      "ordinal": 502,
+      "name": "SetupInstallFilesFromInfSectionW"
+    },
+    {
+      "ordinal": 503,
+      "name": "SetupInstallFromInfSectionA"
+    },
+    {
+      "ordinal": 504,
+      "name": "SetupInstallFromInfSectionW"
+    },
+    {
+      "ordinal": 505,
+      "name": "SetupInstallLogCloseEventGroup"
+    },
+    {
+      "ordinal": 506,
+      "name": "SetupInstallLogCreateEventGroup"
+    },
+    {
+      "ordinal": 507,
+      "name": "SetupInstallServicesFromInfSectionA"
+    },
+    {
+      "ordinal": 508,
+      "name": "SetupInstallServicesFromInfSectionExA"
+    },
+    {
+      "ordinal": 509,
+      "name": "SetupInstallServicesFromInfSectionExW"
+    },
+    {
+      "ordinal": 510,
+      "name": "SetupInstallServicesFromInfSectionW"
+    },
+    {
+      "ordinal": 511,
+      "name": "SetupIterateCabinetA"
+    },
+    {
+      "ordinal": 512,
+      "name": "SetupIterateCabinetW"
+    },
+    {
+      "ordinal": 513,
+      "name": "SetupLogErrorA"
+    },
+    {
+      "ordinal": 514,
+      "name": "SetupLogErrorW"
+    },
+    {
+      "ordinal": 515,
+      "name": "SetupLogFileA"
+    },
+    {
+      "ordinal": 516,
+      "name": "SetupLogFileW"
+    },
+    {
+      "ordinal": 517,
+      "name": "SetupOpenAppendInfFileA"
+    },
+    {
+      "ordinal": 518,
+      "name": "SetupOpenAppendInfFileW"
+    },
+    {
+      "ordinal": 519,
+      "name": "SetupOpenFileQueue"
+    },
+    {
+      "ordinal": 520,
+      "name": "SetupOpenInfFileA"
+    },
+    {
+      "ordinal": 521,
+      "name": "SetupOpenInfFileW"
+    },
+    {
+      "ordinal": 522,
+      "name": "SetupOpenLog"
+    },
+    {
+      "ordinal": 523,
+      "name": "SetupOpenMasterInf"
+    },
+    {
+      "ordinal": 524,
+      "name": "SetupPrepareQueueForRestoreA"
+    },
+    {
+      "ordinal": 525,
+      "name": "SetupPrepareQueueForRestoreW"
+    },
+    {
+      "ordinal": 526,
+      "name": "SetupPromptForDiskA"
+    },
+    {
+      "ordinal": 527,
+      "name": "SetupPromptForDiskW"
+    },
+    {
+      "ordinal": 528,
+      "name": "SetupPromptReboot"
+    },
+    {
+      "ordinal": 529,
+      "name": "SetupQueryDrivesInDiskSpaceListA"
+    },
+    {
+      "ordinal": 530,
+      "name": "SetupQueryDrivesInDiskSpaceListW"
+    },
+    {
+      "ordinal": 531,
+      "name": "SetupQueryFileLogA"
+    },
+    {
+      "ordinal": 532,
+      "name": "SetupQueryFileLogW"
+    },
+    {
+      "ordinal": 533,
+      "name": "SetupQueryInfFileInformationA"
+    },
+    {
+      "ordinal": 534,
+      "name": "SetupQueryInfFileInformationW"
+    },
+    {
+      "ordinal": 535,
+      "name": "SetupQueryInfOriginalFileInformationA"
+    },
+    {
+      "ordinal": 536,
+      "name": "SetupQueryInfOriginalFileInformationW"
+    },
+    {
+      "ordinal": 537,
+      "name": "SetupQueryInfVersionInformationA"
+    },
+    {
+      "ordinal": 538,
+      "name": "SetupQueryInfVersionInformationW"
+    },
+    {
+      "ordinal": 539,
+      "name": "SetupQuerySourceListA"
+    },
+    {
+      "ordinal": 540,
+      "name": "SetupQuerySourceListW"
+    },
+    {
+      "ordinal": 541,
+      "name": "SetupQuerySpaceRequiredOnDriveA"
+    },
+    {
+      "ordinal": 542,
+      "name": "SetupQuerySpaceRequiredOnDriveW"
+    },
+    {
+      "ordinal": 543,
+      "name": "SetupQueueCopyA"
+    },
+    {
+      "ordinal": 544,
+      "name": "SetupQueueCopyIndirectA"
+    },
+    {
+      "ordinal": 545,
+      "name": "SetupQueueCopyIndirectW"
+    },
+    {
+      "ordinal": 546,
+      "name": "SetupQueueCopySectionA"
+    },
+    {
+      "ordinal": 547,
+      "name": "SetupQueueCopySectionW"
+    },
+    {
+      "ordinal": 548,
+      "name": "SetupQueueCopyW"
+    },
+    {
+      "ordinal": 549,
+      "name": "SetupQueueDefaultCopyA"
+    },
+    {
+      "ordinal": 550,
+      "name": "SetupQueueDefaultCopyW"
+    },
+    {
+      "ordinal": 551,
+      "name": "SetupQueueDeleteA"
+    },
+    {
+      "ordinal": 552,
+      "name": "SetupQueueDeleteSectionA"
+    },
+    {
+      "ordinal": 553,
+      "name": "SetupQueueDeleteSectionW"
+    },
+    {
+      "ordinal": 554,
+      "name": "SetupQueueDeleteW"
+    },
+    {
+      "ordinal": 555,
+      "name": "SetupQueueRenameA"
+    },
+    {
+      "ordinal": 556,
+      "name": "SetupQueueRenameSectionA"
+    },
+    {
+      "ordinal": 557,
+      "name": "SetupQueueRenameSectionW"
+    },
+    {
+      "ordinal": 558,
+      "name": "SetupQueueRenameW"
+    },
+    {
+      "ordinal": 559,
+      "name": "SetupRemoveFileLogEntryA"
+    },
+    {
+      "ordinal": 560,
+      "name": "SetupRemoveFileLogEntryW"
+    },
+    {
+      "ordinal": 561,
+      "name": "SetupRemoveFromDiskSpaceListA"
+    },
+    {
+      "ordinal": 562,
+      "name": "SetupRemoveFromDiskSpaceListW"
+    },
+    {
+      "ordinal": 563,
+      "name": "SetupRemoveFromSourceListA"
+    },
+    {
+      "ordinal": 564,
+      "name": "SetupRemoveFromSourceListW"
+    },
+    {
+      "ordinal": 565,
+      "name": "SetupRemoveInstallSectionFromDiskSpaceListA"
+    },
+    {
+      "ordinal": 566,
+      "name": "SetupRemoveInstallSectionFromDiskSpaceListW"
+    },
+    {
+      "ordinal": 567,
+      "name": "SetupRemoveSectionFromDiskSpaceListA"
+    },
+    {
+      "ordinal": 568,
+      "name": "SetupRemoveSectionFromDiskSpaceListW"
+    },
+    {
+      "ordinal": 569,
+      "name": "SetupRenameErrorA"
+    },
+    {
+      "ordinal": 570,
+      "name": "SetupRenameErrorW"
+    },
+    {
+      "ordinal": 571,
+      "name": "SetupScanFileQueue"
+    },
+    {
+      "ordinal": 572,
+      "name": "SetupScanFileQueueA"
+    },
+    {
+      "ordinal": 573,
+      "name": "SetupScanFileQueueW"
+    },
+    {
+      "ordinal": 574,
+      "name": "SetupSetDirectoryIdA"
+    },
+    {
+      "ordinal": 575,
+      "name": "SetupSetDirectoryIdExA"
+    },
+    {
+      "ordinal": 576,
+      "name": "SetupSetDirectoryIdExW"
+    },
+    {
+      "ordinal": 577,
+      "name": "SetupSetDirectoryIdW"
+    },
+    {
+      "ordinal": 578,
+      "name": "SetupSetFileQueueAlternatePlatformA"
+    },
+    {
+      "ordinal": 579,
+      "name": "SetupSetFileQueueAlternatePlatformW"
+    },
+    {
+      "ordinal": 580,
+      "name": "SetupSetFileQueueFlags"
+    },
+    {
+      "ordinal": 581,
+      "name": "SetupSetNonInteractiveMode"
+    },
+    {
+      "ordinal": 582,
+      "name": "SetupSetPlatformPathOverrideA"
+    },
+    {
+      "ordinal": 583,
+      "name": "SetupSetPlatformPathOverrideW"
+    },
+    {
+      "ordinal": 584,
+      "name": "SetupSetSourceListA"
+    },
+    {
+      "ordinal": 585,
+      "name": "SetupSetSourceListW"
+    },
+    {
+      "ordinal": 586,
+      "name": "SetupSetThreadLogToken"
+    },
+    {
+      "ordinal": 587,
+      "name": "SetupTermDefaultQueueCallback"
+    },
+    {
+      "ordinal": 588,
+      "name": "SetupTerminateFileLog"
+    },
+    {
+      "ordinal": 589,
+      "name": "SetupUninstallNewlyCopiedInfs"
+    },
+    {
+      "ordinal": 590,
+      "name": "SetupUninstallOEMInfA"
+    },
+    {
+      "ordinal": 591,
+      "name": "SetupUninstallOEMInfW"
+    },
+    {
+      "ordinal": 592,
+      "name": "SetupVerifyInfFileA"
+    },
+    {
+      "ordinal": 593,
+      "name": "SetupVerifyInfFileW"
+    },
+    {
+      "ordinal": 594,
+      "name": "SetupWriteTextLog"
+    },
+    {
+      "ordinal": 595,
+      "name": "SetupWriteTextLogError"
+    },
+    {
+      "ordinal": 596,
+      "name": "SetupWriteTextLogInfLine"
+    },
+    {
+      "ordinal": 597,
+      "name": "UnicodeToMultiByte"
+    },
+    {
+      "ordinal": 598,
+      "name": "UpdateAllDeviceIndirectStrings"
+    },
+    {
+      "ordinal": 599,
+      "name": "VerifyCatalogFile"
+    },
+    {
+      "ordinal": 600,
+      "name": "pGetDriverPackageHash"
+    },
+    {
+      "ordinal": 601,
+      "name": "pServerAddDriverPackage"
+    },
+    {
+      "ordinal": 602,
+      "name": "pServerDeleteDriverPackage"
+    },
+    {
+      "ordinal": 603,
+      "name": "pSetupAccessRunOnceNodeList"
+    },
+    {
+      "ordinal": 604,
+      "name": "pSetupAddMiniIconToList"
+    },
+    {
+      "ordinal": 605,
+      "name": "pSetupAddTagToGroupOrderListEntry"
+    },
+    {
+      "ordinal": 606,
+      "name": "pSetupAppendPath"
+    },
+    {
+      "ordinal": 607,
+      "name": "pSetupCaptureAndConvertAnsiArg"
+    },
+    {
+      "ordinal": 608,
+      "name": "pSetupCenterWindowRelativeToParent"
+    },
+    {
+      "ordinal": 609,
+      "name": "pSetupCloseTextLogSection"
+    },
+    {
+      "ordinal": 610,
+      "name": "pSetupConcatenatePaths"
+    },
+    {
+      "ordinal": 611,
+      "name": "pSetupCreateTextLogSectionA"
+    },
+    {
+      "ordinal": 612,
+      "name": "pSetupCreateTextLogSectionW"
+    },
+    {
+      "ordinal": 613,
+      "name": "pSetupDestroyRunOnceNodeList"
+    },
+    {
+      "ordinal": 614,
+      "name": "pSetupDiBuildInfoDataFromStrongName"
+    },
+    {
+      "ordinal": 615,
+      "name": "pSetupDiCrimsonLogDeviceInstall"
+    },
+    {
+      "ordinal": 616,
+      "name": "pSetupDiGetStrongNameForDriverNode"
+    },
+    {
+      "ordinal": 617,
+      "name": "pSetupDiInvalidateHelperModules"
+    },
+    {
+      "ordinal": 618,
+      "name": "pSetupDoLastKnownGoodBackup"
+    },
+    {
+      "ordinal": 619,
+      "name": "pSetupDoesUserHavePrivilege"
+    },
+    {
+      "ordinal": 620,
+      "name": "pSetupDuplicateString"
+    },
+    {
+      "ordinal": 621,
+      "name": "pSetupEnablePrivilege"
+    },
+    {
+      "ordinal": 622,
+      "name": "pSetupFree"
+    },
+    {
+      "ordinal": 623,
+      "name": "pSetupGetCurrentDriverSigningPolicy"
+    },
+    {
+      "ordinal": 624,
+      "name": "pSetupGetDriverDate"
+    },
+    {
+      "ordinal": 625,
+      "name": "pSetupGetDriverVersion"
+    },
+    {
+      "ordinal": 626,
+      "name": "pSetupGetField"
+    },
+    {
+      "ordinal": 627,
+      "name": "pSetupGetFileTitle"
+    },
+    {
+      "ordinal": 628,
+      "name": "pSetupGetGlobalFlags"
+    },
+    {
+      "ordinal": 629,
+      "name": "pSetupGetIndirectStringsFromDriverInfo"
+    },
+    {
+      "ordinal": 630,
+      "name": "pSetupGetInfSections"
+    },
+    {
+      "ordinal": 631,
+      "name": "pSetupGetQueueFlags"
+    },
+    {
+      "ordinal": 632,
+      "name": "pSetupGetRealSystemTime"
+    },
+    {
+      "ordinal": 633,
+      "name": "pSetupGuidFromString"
+    },
+    {
+      "ordinal": 634,
+      "name": "pSetupHandleFailedVerification"
+    },
+    {
+      "ordinal": 635,
+      "name": "pSetupInfGetDigitalSignatureInfo"
+    },
+    {
+      "ordinal": 636,
+      "name": "pSetupInfSetDigitalSignatureInfo"
+    },
+    {
+      "ordinal": 637,
+      "name": "pSetupInstallCatalog"
+    },
+    {
+      "ordinal": 638,
+      "name": "pSetupIsBiDiLocalizedSystemEx"
+    },
+    {
+      "ordinal": 639,
+      "name": "pSetupIsGuidNull"
+    },
+    {
+      "ordinal": 640,
+      "name": "pSetupIsLocalSystem"
+    },
+    {
+      "ordinal": 641,
+      "name": "pSetupIsUserAdmin"
+    },
+    {
+      "ordinal": 642,
+      "name": "pSetupIsUserTrustedInstaller"
+    },
+    {
+      "ordinal": 643,
+      "name": "pSetupLoadIndirectString"
+    },
+    {
+      "ordinal": 644,
+      "name": "pSetupMakeSurePathExists"
+    },
+    {
+      "ordinal": 645,
+      "name": "pSetupMalloc"
+    },
+    {
+      "ordinal": 646,
+      "name": "pSetupModifyGlobalFlags"
+    },
+    {
+      "ordinal": 647,
+      "name": "pSetupMultiByteToUnicode"
+    },
+    {
+      "ordinal": 648,
+      "name": "pSetupOpenAndMapFileForRead"
+    },
+    {
+      "ordinal": 649,
+      "name": "pSetupOutOfMemory"
+    },
+    {
+      "ordinal": 650,
+      "name": "pSetupQueryMultiSzValueToArray"
+    },
+    {
+      "ordinal": 651,
+      "name": "pSetupRealloc"
+    },
+    {
+      "ordinal": 652,
+      "name": "pSetupRegistryDelnode"
+    },
+    {
+      "ordinal": 653,
+      "name": "pSetupRetrieveServiceConfig"
+    },
+    {
+      "ordinal": 654,
+      "name": "pSetupSetArrayToMultiSzValue"
+    },
+    {
+      "ordinal": 655,
+      "name": "pSetupSetGlobalFlags"
+    },
+    {
+      "ordinal": 656,
+      "name": "pSetupSetNoDriverPrompts"
+    },
+    {
+      "ordinal": 657,
+      "name": "pSetupSetQueueFlags"
+    },
+    {
+      "ordinal": 658,
+      "name": "pSetupShouldDeviceBeExcluded"
+    },
+    {
+      "ordinal": 659,
+      "name": "pSetupStringFromGuid"
+    },
+    {
+      "ordinal": 660,
+      "name": "pSetupStringTableAddString"
+    },
+    {
+      "ordinal": 661,
+      "name": "pSetupStringTableAddStringEx"
+    },
+    {
+      "ordinal": 662,
+      "name": "pSetupStringTableDestroy"
+    },
+    {
+      "ordinal": 663,
+      "name": "pSetupStringTableDuplicate"
+    },
+    {
+      "ordinal": 664,
+      "name": "pSetupStringTableEnum"
+    },
+    {
+      "ordinal": 665,
+      "name": "pSetupStringTableGetExtraData"
+    },
+    {
+      "ordinal": 666,
+      "name": "pSetupStringTableInitialize"
+    },
+    {
+      "ordinal": 667,
+      "name": "pSetupStringTableInitializeEx"
+    },
+    {
+      "ordinal": 668,
+      "name": "pSetupStringTableLookUpString"
+    },
+    {
+      "ordinal": 669,
+      "name": "pSetupStringTableLookUpStringEx"
+    },
+    {
+      "ordinal": 670,
+      "name": "pSetupStringTableSetExtraData"
+    },
+    {
+      "ordinal": 671,
+      "name": "pSetupStringTableStringFromId"
+    },
+    {
+      "ordinal": 672,
+      "name": "pSetupStringTableStringFromIdEx"
+    },
+    {
+      "ordinal": 673,
+      "name": "pSetupUnicodeToMultiByte"
+    },
+    {
+      "ordinal": 674,
+      "name": "pSetupUnmapAndCloseFile"
+    },
+    {
+      "ordinal": 675,
+      "name": "pSetupVerifyCatalogFile"
+    },
+    {
+      "ordinal": 676,
+      "name": "pSetupVerifyQueuedCatalogs"
+    },
+    {
+      "ordinal": 677,
+      "name": "pSetupWriteLogEntry"
+    },
+    {
+      "ordinal": 678,
+      "name": "pSetupWriteLogError"
+    },
+    {
+      "ordinal": 679,
+      "name": "pSpAddInboxDriverPackage"
+    },
+    {
+      "ordinal": 680,
+      "name": "pSpDeleteInboxDriverPackage"
+    }
+  ]
+}

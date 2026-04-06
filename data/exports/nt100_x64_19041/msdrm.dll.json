@@ -1,0 +1,395 @@
+{
+  "Version": "10.0.19041.1-AMD64",
+  "md5": "9ff0692f8662c6df8968580daa471109",
+  "imphash": "9ff0692f8662c6df8968580daa471109",
+  "InternalName": "msdrm",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "Windows Rights Management client",
+  "FileVersion": "10.0.19041.1 (WinBuild.160101.0800)",
+  "ProductVersion": "10.0.19041.1",
+  "PeChecksum": 573725,
+  "Size": 570368,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ordinal": 1,
+      "name": "DRMAcquireAdvisories"
+    },
+    {
+      "ordinal": 2,
+      "name": "DRMAcquireIssuanceLicenseTemplate"
+    },
+    {
+      "ordinal": 3,
+      "name": "DRMAcquireLicense"
+    },
+    {
+      "ordinal": 4,
+      "name": "DRMActivate"
+    },
+    {
+      "ordinal": 5,
+      "name": "DRMAddLicense"
+    },
+    {
+      "ordinal": 6,
+      "name": "DRMAddRightWithUser"
+    },
+    {
+      "ordinal": 7,
+      "name": "DRMAttest"
+    },
+    {
+      "ordinal": 8,
+      "name": "DRMCheckSecurity"
+    },
+    {
+      "ordinal": 9,
+      "name": "DRMClearAllRights"
+    },
+    {
+      "ordinal": 10,
+      "name": "DRMCloseEnvironmentHandle"
+    },
+    {
+      "ordinal": 11,
+      "name": "DRMCloseHandle"
+    },
+    {
+      "ordinal": 12,
+      "name": "DRMClosePubHandle"
+    },
+    {
+      "ordinal": 13,
+      "name": "DRMCloseQueryHandle"
+    },
+    {
+      "ordinal": 14,
+      "name": "DRMCloseSession"
+    },
+    {
+      "ordinal": 15,
+      "name": "DRMConstructCertificateChain"
+    },
+    {
+      "ordinal": 16,
+      "name": "DRMCreateBoundLicense"
+    },
+    {
+      "ordinal": 17,
+      "name": "DRMCreateClientSession"
+    },
+    {
+      "ordinal": 18,
+      "name": "DRMCreateEnablingBitsDecryptor"
+    },
+    {
+      "ordinal": 19,
+      "name": "DRMCreateEnablingBitsEncryptor"
+    },
+    {
+      "ordinal": 20,
+      "name": "DRMCreateEnablingPrincipal"
+    },
+    {
+      "ordinal": 21,
+      "name": "DRMCreateIssuanceLicense"
+    },
+    {
+      "ordinal": 22,
+      "name": "DRMCreateLicenseStorageSession"
+    },
+    {
+      "ordinal": 23,
+      "name": "DRMCreateRight"
+    },
+    {
+      "ordinal": 24,
+      "name": "DRMCreateUser"
+    },
+    {
+      "ordinal": 25,
+      "name": "DRMDecode"
+    },
+    {
+      "ordinal": 26,
+      "name": "DRMDeconstructCertificateChain"
+    },
+    {
+      "ordinal": 27,
+      "name": "DRMDecrypt"
+    },
+    {
+      "ordinal": 28,
+      "name": "DRMDeleteLicense"
+    },
+    {
+      "ordinal": 29,
+      "name": "DRMDuplicateEnvironmentHandle"
+    },
+    {
+      "ordinal": 30,
+      "name": "DRMDuplicateHandle"
+    },
+    {
+      "ordinal": 31,
+      "name": "DRMDuplicatePubHandle"
+    },
+    {
+      "ordinal": 32,
+      "name": "DRMDuplicateSession"
+    },
+    {
+      "ordinal": 33,
+      "name": "DRMEncode"
+    },
+    {
+      "ordinal": 34,
+      "name": "DRMEncrypt"
+    },
+    {
+      "ordinal": 35,
+      "name": "DRMEnumerateLicense"
+    },
+    {
+      "ordinal": 36,
+      "name": "DRMGetApplicationSpecificData"
+    },
+    {
+      "ordinal": 37,
+      "name": "DRMGetBoundLicenseAttribute"
+    },
+    {
+      "ordinal": 38,
+      "name": "DRMGetBoundLicenseAttributeCount"
+    },
+    {
+      "ordinal": 39,
+      "name": "DRMGetBoundLicenseObject"
+    },
+    {
+      "ordinal": 40,
+      "name": "DRMGetBoundLicenseObjectCount"
+    },
+    {
+      "ordinal": 41,
+      "name": "DRMGetCertificateChainCount"
+    },
+    {
+      "ordinal": 42,
+      "name": "DRMGetClientVersion"
+    },
+    {
+      "ordinal": 43,
+      "name": "DRMGetEnvironmentInfo"
+    },
+    {
+      "ordinal": 44,
+      "name": "DRMGetInfo"
+    },
+    {
+      "ordinal": 45,
+      "name": "DRMGetIntervalTime"
+    },
+    {
+      "ordinal": 46,
+      "name": "DRMGetIssuanceLicenseInfo"
+    },
+    {
+      "ordinal": 47,
+      "name": "DRMGetIssuanceLicenseTemplate"
+    },
+    {
+      "ordinal": 48,
+      "name": "DRMGetMetaData"
+    },
+    {
+      "ordinal": 49,
+      "name": "DRMGetNameAndDescription"
+    },
+    {
+      "ordinal": 50,
+      "name": "DRMGetOwnerLicense"
+    },
+    {
+      "ordinal": 51,
+      "name": "DRMGetProcAddress"
+    },
+    {
+      "ordinal": 52,
+      "name": "DRMGetRevocationPoint"
+    },
+    {
+      "ordinal": 53,
+      "name": "DRMGetRightExtendedInfo"
+    },
+    {
+      "ordinal": 54,
+      "name": "DRMGetRightInfo"
+    },
+    {
+      "ordinal": 55,
+      "name": "DRMGetSecurityProvider"
+    },
+    {
+      "ordinal": 56,
+      "name": "DRMGetServiceLocation"
+    },
+    {
+      "ordinal": 57,
+      "name": "DRMGetSignedIssuanceLicense"
+    },
+    {
+      "ordinal": 58,
+      "name": "DRMGetSignedIssuanceLicenseEx"
+    },
+    {
+      "ordinal": 59,
+      "name": "DRMGetTime"
+    },
+    {
+      "ordinal": 60,
+      "name": "DRMGetUnboundLicenseAttribute"
+    },
+    {
+      "ordinal": 61,
+      "name": "DRMGetUnboundLicenseAttributeCount"
+    },
+    {
+      "ordinal": 62,
+      "name": "DRMGetUnboundLicenseObject"
+    },
+    {
+      "ordinal": 63,
+      "name": "DRMGetUnboundLicenseObjectCount"
+    },
+    {
+      "ordinal": 64,
+      "name": "DRMGetUsagePolicy"
+    },
+    {
+      "ordinal": 65,
+      "name": "DRMGetUserInfo"
+    },
+    {
+      "ordinal": 66,
+      "name": "DRMGetUserRights"
+    },
+    {
+      "ordinal": 67,
+      "name": "DRMGetUsers"
+    },
+    {
+      "ordinal": 68,
+      "name": "DRMInitEnvironment"
+    },
+    {
+      "ordinal": 69,
+      "name": "DRMIsActivated"
+    },
+    {
+      "ordinal": 70,
+      "name": "DRMIsWindowProtected"
+    },
+    {
+      "ordinal": 71,
+      "name": "DRMLoadLibrary"
+    },
+    {
+      "ordinal": 72,
+      "name": "DRMParseUnboundLicense"
+    },
+    {
+      "ordinal": 73,
+      "name": "DRMRegisterContent"
+    },
+    {
+      "ordinal": 74,
+      "name": "DRMRegisterProtectedWindow"
+    },
+    {
+      "ordinal": 75,
+      "name": "DRMRegisterRevocationList"
+    },
+    {
+      "ordinal": 76,
+      "name": "DRMRepair"
+    },
+    {
+      "ordinal": 77,
+      "name": "DRMSetApplicationSpecificData"
+    },
+    {
+      "ordinal": 78,
+      "name": "DRMSetGlobalOptions"
+    },
+    {
+      "ordinal": 79,
+      "name": "DRMSetIntervalTime"
+    },
+    {
+      "ordinal": 80,
+      "name": "DRMSetMetaData"
+    },
+    {
+      "ordinal": 81,
+      "name": "DRMSetNameAndDescription"
+    },
+    {
+      "ordinal": 82,
+      "name": "DRMSetRevocationPoint"
+    },
+    {
+      "ordinal": 83,
+      "name": "DRMSetUsagePolicy"
+    },
+    {
+      "ordinal": 84,
+      "name": "DRMVerify"
+    },
+    {
+      "ordinal": 85,
+      "name": "DRMpCloseFile"
+    },
+    {
+      "ordinal": 86,
+      "name": "DRMpFileInitialize"
+    },
+    {
+      "ordinal": 87,
+      "name": "DRMpFileIsProtected"
+    },
+    {
+      "ordinal": 88,
+      "name": "DRMpFileProtect"
+    },
+    {
+      "ordinal": 89,
+      "name": "DRMpFileUnprotect"
+    },
+    {
+      "ordinal": 90,
+      "name": "DRMpFreeMemory"
+    },
+    {
+      "ordinal": 91,
+      "name": "DllCanUnloadNow"
+    },
+    {
+      "ordinal": 92,
+      "name": "DllGetClassObject"
+    },
+    {
+      "ordinal": 93,
+      "name": "DllRegisterServer"
+    },
+    {
+      "ordinal": 94,
+      "name": "DllUnregisterServer"
+    },
+    {
+      "ordinal": 95,
+      "name": "__AddMachineCertToLicenseStore"
+    }
+  ]
+}

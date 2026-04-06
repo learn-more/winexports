@@ -1,14 +1,14 @@
 {
   "Version": "6.00.3790.3959-I386",
-  "md5": "1dbe732b701dfe2bcf670ab10e87976c",
-  "imphash": "1dbe732b701dfe2bcf670ab10e87976c",
+  "md5": "bb6b5267194d85e1fb7a8b50210e6818",
+  "imphash": "bb6b5267194d85e1fb7a8b50210e6818",
   "InternalName": "SHELL32",
   "CompanyName": "Microsoft Corporation",
   "FileDescription": "Windows Shell Common Dll",
   "FileVersion": "6.00.3790.3959 (srv03_sp2_rtm.070216-1710)",
   "ProductVersion": "6.00.3790.3959",
-  "PeChecksum": 9233725,
-  "Size": 9189888,
+  "PeChecksum": 8399986,
+  "Size": 8359936,
   "Machine": "I386",
   "exports": [
     {
@@ -481,7 +481,8 @@
     },
     {
       "ordinal": 520,
-      "name": "SHAllocShared"
+      "name": "SHAllocShared",
+      "forwarder": "shlwapi.SHAllocShared"
     },
     {
       "ordinal": 271,
@@ -665,7 +666,8 @@
     },
     {
       "ordinal": 523,
-      "name": "SHFreeShared"
+      "name": "SHFreeShared",
+      "forwarder": "shlwapi.SHFreeShared"
     },
     {
       "ordinal": 750,
@@ -857,7 +859,8 @@
     },
     {
       "ordinal": 521,
-      "name": "SHLockShared"
+      "name": "SHLockShared",
+      "forwarder": "shlwapi.SHLockShared"
     },
     {
       "ordinal": 148,
@@ -957,7 +960,8 @@
     },
     {
       "ordinal": 522,
-      "name": "SHUnlockShared"
+      "name": "SHUnlockShared",
+      "forwarder": "shlwapi.SHUnlockShared"
     },
     {
       "ordinal": 191,
@@ -1277,7 +1281,8 @@
     },
     {
       "ordinal": 30,
-      "name": null
+      "name": null,
+      "forwarder": "shlwapi.PathBuildRootW"
     },
     {
       "ordinal": 31,
@@ -1305,7 +1310,8 @@
     },
     {
       "ordinal": 37,
-      "name": null
+      "name": null,
+      "forwarder": "shlwapi.PathCombineW"
     },
     {
       "ordinal": 38,
@@ -1313,11 +1319,13 @@
     },
     {
       "ordinal": 39,
-      "name": null
+      "name": null,
+      "forwarder": "shlwapi.PathIsUNCW"
     },
     {
       "ordinal": 40,
-      "name": null
+      "name": null,
+      "forwarder": "shlwapi.PathIsRelativeW"
     },
     {
       "ordinal": 44,
@@ -1361,7 +1369,8 @@
     },
     {
       "ordinal": 57,
-      "name": null
+      "name": null,
+      "forwarder": "shlwapi.PathGetDriveNumberW"
     },
     {
       "ordinal": 58,

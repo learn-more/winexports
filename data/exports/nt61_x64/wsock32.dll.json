@@ -13,211 +13,263 @@
   "exports": [
     {
       "ordinal": 1141,
-      "name": "AcceptEx"
+      "name": "AcceptEx",
+      "forwarder": "MSWSOCK.AcceptEx"
     },
     {
       "ordinal": 1111,
-      "name": "EnumProtocolsA"
+      "name": "EnumProtocolsA",
+      "forwarder": "MSWSOCK.EnumProtocolsA"
     },
     {
       "ordinal": 1112,
-      "name": "EnumProtocolsW"
+      "name": "EnumProtocolsW",
+      "forwarder": "MSWSOCK.EnumProtocolsW"
     },
     {
       "ordinal": 1142,
-      "name": "GetAcceptExSockaddrs"
+      "name": "GetAcceptExSockaddrs",
+      "forwarder": "MSWSOCK.GetAcceptExSockaddrs"
     },
     {
       "ordinal": 1109,
-      "name": "GetAddressByNameA"
+      "name": "GetAddressByNameA",
+      "forwarder": "MSWSOCK.GetAddressByNameA"
     },
     {
       "ordinal": 1110,
-      "name": "GetAddressByNameW"
+      "name": "GetAddressByNameW",
+      "forwarder": "MSWSOCK.GetAddressByNameW"
     },
     {
       "ordinal": 1115,
-      "name": "GetNameByTypeA"
+      "name": "GetNameByTypeA",
+      "forwarder": "MSWSOCK.GetNameByTypeA"
     },
     {
       "ordinal": 1116,
-      "name": "GetNameByTypeW"
+      "name": "GetNameByTypeW",
+      "forwarder": "MSWSOCK.GetNameByTypeW"
     },
     {
       "ordinal": 1119,
-      "name": "GetServiceA"
+      "name": "GetServiceA",
+      "forwarder": "MSWSOCK.GetServiceA"
     },
     {
       "ordinal": 1120,
-      "name": "GetServiceW"
+      "name": "GetServiceW",
+      "forwarder": "MSWSOCK.GetServiceW"
     },
     {
       "ordinal": 1113,
-      "name": "GetTypeByNameA"
+      "name": "GetTypeByNameA",
+      "forwarder": "MSWSOCK.GetTypeByNameA"
     },
     {
       "ordinal": 1114,
-      "name": "GetTypeByNameW"
+      "name": "GetTypeByNameW",
+      "forwarder": "MSWSOCK.GetTypeByNameW"
     },
     {
       "ordinal": 24,
-      "name": "MigrateWinsockConfiguration"
+      "name": "MigrateWinsockConfiguration",
+      "forwarder": "MSWSOCK.MigrateWinsockConfiguration"
     },
     {
       "ordinal": 1130,
-      "name": "NPLoadNameSpaces"
+      "name": "NPLoadNameSpaces",
+      "forwarder": "MSWSOCK.NPLoadNameSpaces"
     },
     {
       "ordinal": 1117,
-      "name": "SetServiceA"
+      "name": "SetServiceA",
+      "forwarder": "MSWSOCK.SetServiceA"
     },
     {
       "ordinal": 1118,
-      "name": "SetServiceW"
+      "name": "SetServiceW",
+      "forwarder": "MSWSOCK.SetServiceW"
     },
     {
       "ordinal": 1140,
-      "name": "TransmitFile"
+      "name": "TransmitFile",
+      "forwarder": "MSWSOCK.TransmitFile"
     },
     {
       "ordinal": 500,
-      "name": "WEP"
+      "name": "WEP",
+      "forwarder": "ws2_32.WEP"
     },
     {
       "ordinal": 102,
-      "name": "WSAAsyncGetHostByAddr"
+      "name": "WSAAsyncGetHostByAddr",
+      "forwarder": "ws2_32.WSAAsyncGetHostByAddr"
     },
     {
       "ordinal": 103,
-      "name": "WSAAsyncGetHostByName"
+      "name": "WSAAsyncGetHostByName",
+      "forwarder": "ws2_32.WSAAsyncGetHostByName"
     },
     {
       "ordinal": 105,
-      "name": "WSAAsyncGetProtoByName"
+      "name": "WSAAsyncGetProtoByName",
+      "forwarder": "ws2_32.WSAAsyncGetProtoByName"
     },
     {
       "ordinal": 104,
-      "name": "WSAAsyncGetProtoByNumber"
+      "name": "WSAAsyncGetProtoByNumber",
+      "forwarder": "ws2_32.WSAAsyncGetProtoByNumber"
     },
     {
       "ordinal": 107,
-      "name": "WSAAsyncGetServByName"
+      "name": "WSAAsyncGetServByName",
+      "forwarder": "ws2_32.WSAAsyncGetServByName"
     },
     {
       "ordinal": 106,
-      "name": "WSAAsyncGetServByPort"
+      "name": "WSAAsyncGetServByPort",
+      "forwarder": "ws2_32.WSAAsyncGetServByPort"
     },
     {
       "ordinal": 101,
-      "name": "WSAAsyncSelect"
+      "name": "WSAAsyncSelect",
+      "forwarder": "ws2_32.WSAAsyncSelect"
     },
     {
       "ordinal": 108,
-      "name": "WSACancelAsyncRequest"
+      "name": "WSACancelAsyncRequest",
+      "forwarder": "ws2_32.WSACancelAsyncRequest"
     },
     {
       "ordinal": 113,
-      "name": "WSACancelBlockingCall"
+      "name": "WSACancelBlockingCall",
+      "forwarder": "ws2_32.WSACancelBlockingCall"
     },
     {
       "ordinal": 116,
-      "name": "WSACleanup"
+      "name": "WSACleanup",
+      "forwarder": "ws2_32.WSACleanup"
     },
     {
       "ordinal": 111,
-      "name": "WSAGetLastError"
+      "name": "WSAGetLastError",
+      "forwarder": "ws2_32.WSAGetLastError"
     },
     {
       "ordinal": 114,
-      "name": "WSAIsBlocking"
+      "name": "WSAIsBlocking",
+      "forwarder": "ws2_32.WSAIsBlocking"
     },
     {
       "ordinal": 1107,
-      "name": "WSARecvEx"
+      "name": "WSARecvEx",
+      "forwarder": "MSWSOCK.WSARecvEx"
     },
     {
       "ordinal": 109,
-      "name": "WSASetBlockingHook"
+      "name": "WSASetBlockingHook",
+      "forwarder": "ws2_32.WSASetBlockingHook"
     },
     {
       "ordinal": 112,
-      "name": "WSASetLastError"
+      "name": "WSASetLastError",
+      "forwarder": "ws2_32.WSASetLastError"
     },
     {
       "ordinal": 115,
-      "name": "WSAStartup"
+      "name": "WSAStartup",
+      "forwarder": "ws2_32.WSAStartup"
     },
     {
       "ordinal": 110,
-      "name": "WSAUnhookBlockingHook"
+      "name": "WSAUnhookBlockingHook",
+      "forwarder": "ws2_32.WSAUnhookBlockingHook"
     },
     {
       "ordinal": 1000,
-      "name": "WSApSetPostRoutine"
+      "name": "WSApSetPostRoutine",
+      "forwarder": "ws2_32.WSApSetPostRoutine"
     },
     {
       "ordinal": 151,
-      "name": "__WSAFDIsSet"
+      "name": "__WSAFDIsSet",
+      "forwarder": "ws2_32.__WSAFDIsSet"
     },
     {
       "ordinal": 1,
-      "name": "accept"
+      "name": "accept",
+      "forwarder": "ws2_32.accept"
     },
     {
       "ordinal": 2,
-      "name": "bind"
+      "name": "bind",
+      "forwarder": "ws2_32.bind"
     },
     {
       "ordinal": 3,
-      "name": "closesocket"
+      "name": "closesocket",
+      "forwarder": "ws2_32.closesocket"
     },
     {
       "ordinal": 4,
-      "name": "connect"
+      "name": "connect",
+      "forwarder": "ws2_32.connect"
     },
     {
       "ordinal": 1106,
-      "name": "dn_expand"
+      "name": "dn_expand",
+      "forwarder": "MSWSOCK.dn_expand"
     },
     {
       "ordinal": 51,
-      "name": "gethostbyaddr"
+      "name": "gethostbyaddr",
+      "forwarder": "ws2_32.gethostbyaddr"
     },
     {
       "ordinal": 52,
-      "name": "gethostbyname"
+      "name": "gethostbyname",
+      "forwarder": "ws2_32.gethostbyname"
     },
     {
       "ordinal": 57,
-      "name": "gethostname"
+      "name": "gethostname",
+      "forwarder": "ws2_32.gethostname"
     },
     {
       "ordinal": 1101,
-      "name": "getnetbyname"
+      "name": "getnetbyname",
+      "forwarder": "MSWSOCK.getnetbyname"
     },
     {
       "ordinal": 5,
-      "name": "getpeername"
+      "name": "getpeername",
+      "forwarder": "ws2_32.getpeername"
     },
     {
       "ordinal": 53,
-      "name": "getprotobyname"
+      "name": "getprotobyname",
+      "forwarder": "ws2_32.getprotobyname"
     },
     {
       "ordinal": 54,
-      "name": "getprotobynumber"
+      "name": "getprotobynumber",
+      "forwarder": "ws2_32.getprotobynumber"
     },
     {
       "ordinal": 55,
-      "name": "getservbyname"
+      "name": "getservbyname",
+      "forwarder": "ws2_32.getservbyname"
     },
     {
       "ordinal": 56,
-      "name": "getservbyport"
+      "name": "getservbyport",
+      "forwarder": "ws2_32.getservbyport"
     },
     {
       "ordinal": 6,
-      "name": "getsockname"
+      "name": "getsockname",
+      "forwarder": "ws2_32.getsockname"
     },
     {
       "ordinal": 7,
@@ -225,43 +277,53 @@
     },
     {
       "ordinal": 8,
-      "name": "htonl"
+      "name": "htonl",
+      "forwarder": "ws2_32.htonl"
     },
     {
       "ordinal": 9,
-      "name": "htons"
+      "name": "htons",
+      "forwarder": "ws2_32.htons"
     },
     {
       "ordinal": 10,
-      "name": "inet_addr"
+      "name": "inet_addr",
+      "forwarder": "ws2_32.inet_addr"
     },
     {
       "ordinal": 1100,
-      "name": "inet_network"
+      "name": "inet_network",
+      "forwarder": "MSWSOCK.inet_network"
     },
     {
       "ordinal": 11,
-      "name": "inet_ntoa"
+      "name": "inet_ntoa",
+      "forwarder": "ws2_32.inet_ntoa"
     },
     {
       "ordinal": 12,
-      "name": "ioctlsocket"
+      "name": "ioctlsocket",
+      "forwarder": "ws2_32.ioctlsocket"
     },
     {
       "ordinal": 13,
-      "name": "listen"
+      "name": "listen",
+      "forwarder": "ws2_32.listen"
     },
     {
       "ordinal": 14,
-      "name": "ntohl"
+      "name": "ntohl",
+      "forwarder": "ws2_32.ntohl"
     },
     {
       "ordinal": 15,
-      "name": "ntohs"
+      "name": "ntohs",
+      "forwarder": "ws2_32.ntohs"
     },
     {
       "ordinal": 1102,
-      "name": "rcmd"
+      "name": "rcmd",
+      "forwarder": "MSWSOCK.rcmd"
     },
     {
       "ordinal": 16,
@@ -273,31 +335,38 @@
     },
     {
       "ordinal": 1103,
-      "name": "rexec"
+      "name": "rexec",
+      "forwarder": "MSWSOCK.rexec"
     },
     {
       "ordinal": 1104,
-      "name": "rresvport"
+      "name": "rresvport",
+      "forwarder": "MSWSOCK.rresvport"
     },
     {
       "ordinal": 1108,
-      "name": "s_perror"
+      "name": "s_perror",
+      "forwarder": "MSWSOCK.s_perror"
     },
     {
       "ordinal": 18,
-      "name": "select"
+      "name": "select",
+      "forwarder": "ws2_32.select"
     },
     {
       "ordinal": 19,
-      "name": "send"
+      "name": "send",
+      "forwarder": "ws2_32.send"
     },
     {
       "ordinal": 20,
-      "name": "sendto"
+      "name": "sendto",
+      "forwarder": "ws2_32.sendto"
     },
     {
       "ordinal": 1105,
-      "name": "sethostname"
+      "name": "sethostname",
+      "forwarder": "MSWSOCK.sethostname"
     },
     {
       "ordinal": 21,
@@ -305,11 +374,13 @@
     },
     {
       "ordinal": 22,
-      "name": "shutdown"
+      "name": "shutdown",
+      "forwarder": "ws2_32.shutdown"
     },
     {
       "ordinal": 23,
-      "name": "socket"
+      "name": "socket",
+      "forwarder": "ws2_32.socket"
     }
   ]
 }

@@ -1,0 +1,171 @@
+{
+  "Version": "6.0.6002.18005-I386",
+  "md5": "17038aa83ccc0e1573fce458ca790380",
+  "imphash": "17038aa83ccc0e1573fce458ca790380",
+  "InternalName": "schannel.dll",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "TLS / SSL Security Provider",
+  "FileVersion": "6.0.6002.18005 (lh_sp2rtm.090410-1830)",
+  "ProductVersion": "6.0.6002.18005",
+  "PeChecksum": 315489,
+  "Size": 268800,
+  "Machine": "I386",
+  "exports": [
+    {
+      "ordinal": 1,
+      "name": "AcceptSecurityContext",
+      "forwarder": "SECUR32.AcceptSecurityContext"
+    },
+    {
+      "ordinal": 2,
+      "name": "AcquireCredentialsHandleA",
+      "forwarder": "SECUR32.AcquireCredentialsHandleA"
+    },
+    {
+      "ordinal": 3,
+      "name": "AcquireCredentialsHandleW",
+      "forwarder": "SECUR32.AcquireCredentialsHandleW"
+    },
+    {
+      "ordinal": 4,
+      "name": "ApplyControlToken",
+      "forwarder": "SECUR32.ApplyControlToken"
+    },
+    {
+      "ordinal": 5,
+      "name": "CompleteAuthToken",
+      "forwarder": "SECUR32.CompleteAuthToken"
+    },
+    {
+      "ordinal": 6,
+      "name": "DeleteSecurityContext",
+      "forwarder": "SECUR32.DeleteSecurityContext"
+    },
+    {
+      "ordinal": 7,
+      "name": "EnumerateSecurityPackagesA",
+      "forwarder": "SECUR32.EnumerateSecurityPackagesA"
+    },
+    {
+      "ordinal": 8,
+      "name": "EnumerateSecurityPackagesW",
+      "forwarder": "SECUR32.EnumerateSecurityPackagesW"
+    },
+    {
+      "ordinal": 9,
+      "name": "FreeContextBuffer",
+      "forwarder": "SECUR32.FreeContextBuffer"
+    },
+    {
+      "ordinal": 10,
+      "name": "FreeCredentialsHandle",
+      "forwarder": "SECUR32.FreeCredentialsHandle"
+    },
+    {
+      "ordinal": 11,
+      "name": "ImpersonateSecurityContext",
+      "forwarder": "SECUR32.ImpersonateSecurityContext"
+    },
+    {
+      "ordinal": 12,
+      "name": "InitSecurityInterfaceA",
+      "forwarder": "SECUR32.InitSecurityInterfaceA"
+    },
+    {
+      "ordinal": 13,
+      "name": "InitSecurityInterfaceW",
+      "forwarder": "SECUR32.InitSecurityInterfaceW"
+    },
+    {
+      "ordinal": 14,
+      "name": "InitializeSecurityContextA",
+      "forwarder": "SECUR32.InitializeSecurityContextA"
+    },
+    {
+      "ordinal": 15,
+      "name": "InitializeSecurityContextW",
+      "forwarder": "SECUR32.InitializeSecurityContextW"
+    },
+    {
+      "ordinal": 16,
+      "name": "MakeSignature",
+      "forwarder": "SECUR32.MakeSignature"
+    },
+    {
+      "ordinal": 17,
+      "name": "QueryContextAttributesA",
+      "forwarder": "SECUR32.QueryContextAttributesA"
+    },
+    {
+      "ordinal": 18,
+      "name": "QueryContextAttributesW",
+      "forwarder": "SECUR32.QueryContextAttributesW"
+    },
+    {
+      "ordinal": 19,
+      "name": "QuerySecurityPackageInfoA",
+      "forwarder": "SECUR32.QuerySecurityPackageInfoA"
+    },
+    {
+      "ordinal": 20,
+      "name": "QuerySecurityPackageInfoW",
+      "forwarder": "SECUR32.QuerySecurityPackageInfoW"
+    },
+    {
+      "ordinal": 21,
+      "name": "RevertSecurityContext",
+      "forwarder": "SECUR32.RevertSecurityContext"
+    },
+    {
+      "ordinal": 22,
+      "name": "SealMessage",
+      "forwarder": "SECUR32.SealMessage"
+    },
+    {
+      "ordinal": 23,
+      "name": "SpLsaModeInitialize"
+    },
+    {
+      "ordinal": 24,
+      "name": "SpUserModeInitialize"
+    },
+    {
+      "ordinal": 25,
+      "name": "SslCrackCertificate"
+    },
+    {
+      "ordinal": 26,
+      "name": "SslEmptyCacheA"
+    },
+    {
+      "ordinal": 27,
+      "name": "SslEmptyCacheW"
+    },
+    {
+      "ordinal": 28,
+      "name": "SslFreeCertificate"
+    },
+    {
+      "ordinal": 29,
+      "name": "SslGenerateRandomBits"
+    },
+    {
+      "ordinal": 30,
+      "name": "SslGetMaximumKeySize"
+    },
+    {
+      "ordinal": 31,
+      "name": "SslLoadCertificate"
+    },
+    {
+      "ordinal": 32,
+      "name": "UnsealMessage",
+      "forwarder": "SECUR32.UnsealMessage"
+    },
+    {
+      "ordinal": 33,
+      "name": "VerifySignature",
+      "forwarder": "SECUR32.VerifySignature"
+    }
+  ]
+}

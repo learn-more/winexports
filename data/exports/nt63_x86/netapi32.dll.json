@@ -1,0 +1,1454 @@
+{
+  "Version": "6.3.9600.16384-I386",
+  "md5": "a5bd16cf06d4ecb6445bfcac9c0a366f",
+  "imphash": "a5bd16cf06d4ecb6445bfcac9c0a366f",
+  "InternalName": "NetApi32.DLL",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "Net Win32 API DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 79872,
+  "Size": 66632,
+  "Machine": "I386",
+  "exports": [
+    {
+      "ordinal": 1,
+      "name": "DavAddConnection",
+      "forwarder": "DAVHLPR.DavAddConnection"
+    },
+    {
+      "ordinal": 2,
+      "name": "DavDeleteConnection",
+      "forwarder": "DAVHLPR.DavDeleteConnection"
+    },
+    {
+      "ordinal": 3,
+      "name": "DavFlushFile",
+      "forwarder": "DAVHLPR.DavFlushFile"
+    },
+    {
+      "ordinal": 4,
+      "name": "DavGetExtendedError",
+      "forwarder": "DAVHLPR.DavGetExtendedError"
+    },
+    {
+      "ordinal": 5,
+      "name": "DavGetHTTPFromUNCPath",
+      "forwarder": "DAVHLPR.DavGetHTTPFromUNCPath"
+    },
+    {
+      "ordinal": 6,
+      "name": "DavGetUNCFromHTTPPath",
+      "forwarder": "DAVHLPR.DavGetUNCFromHTTPPath"
+    },
+    {
+      "ordinal": 7,
+      "name": "DsAddressToSiteNamesA",
+      "forwarder": "LOGONCLI.DsAddressToSiteNamesA"
+    },
+    {
+      "ordinal": 8,
+      "name": "DsAddressToSiteNamesExA",
+      "forwarder": "LOGONCLI.DsAddressToSiteNamesExA"
+    },
+    {
+      "ordinal": 9,
+      "name": "DsAddressToSiteNamesExW",
+      "forwarder": "LOGONCLI.DsAddressToSiteNamesExW"
+    },
+    {
+      "ordinal": 10,
+      "name": "DsAddressToSiteNamesW",
+      "forwarder": "LOGONCLI.DsAddressToSiteNamesW"
+    },
+    {
+      "ordinal": 11,
+      "name": "DsDeregisterDnsHostRecordsA",
+      "forwarder": "LOGONCLI.DsDeregisterDnsHostRecordsA"
+    },
+    {
+      "ordinal": 12,
+      "name": "DsDeregisterDnsHostRecordsW",
+      "forwarder": "LOGONCLI.DsDeregisterDnsHostRecordsW"
+    },
+    {
+      "ordinal": 13,
+      "name": "DsEnumerateDomainTrustsA",
+      "forwarder": "LOGONCLI.DsEnumerateDomainTrustsA"
+    },
+    {
+      "ordinal": 14,
+      "name": "DsEnumerateDomainTrustsW",
+      "forwarder": "LOGONCLI.DsEnumerateDomainTrustsW"
+    },
+    {
+      "ordinal": 15,
+      "name": "DsGetDcCloseW",
+      "forwarder": "LOGONCLI.DsGetDcCloseW"
+    },
+    {
+      "ordinal": 16,
+      "name": "DsGetDcNameA",
+      "forwarder": "LOGONCLI.DsGetDcNameA"
+    },
+    {
+      "ordinal": 17,
+      "name": "DsGetDcNameW",
+      "forwarder": "LOGONCLI.DsGetDcNameW"
+    },
+    {
+      "ordinal": 18,
+      "name": "DsGetDcNameWithAccountA",
+      "forwarder": "LOGONCLI.DsGetDcNameWithAccountA"
+    },
+    {
+      "ordinal": 19,
+      "name": "DsGetDcNameWithAccountW",
+      "forwarder": "LOGONCLI.DsGetDcNameWithAccountW"
+    },
+    {
+      "ordinal": 20,
+      "name": "DsGetDcNextA",
+      "forwarder": "LOGONCLI.DsGetDcNextA"
+    },
+    {
+      "ordinal": 21,
+      "name": "DsGetDcNextW",
+      "forwarder": "LOGONCLI.DsGetDcNextW"
+    },
+    {
+      "ordinal": 22,
+      "name": "DsGetDcOpenA",
+      "forwarder": "LOGONCLI.DsGetDcOpenA"
+    },
+    {
+      "ordinal": 23,
+      "name": "DsGetDcOpenW",
+      "forwarder": "LOGONCLI.DsGetDcOpenW"
+    },
+    {
+      "ordinal": 24,
+      "name": "DsGetDcSiteCoverageA",
+      "forwarder": "LOGONCLI.DsGetDcSiteCoverageA"
+    },
+    {
+      "ordinal": 25,
+      "name": "DsGetDcSiteCoverageW",
+      "forwarder": "LOGONCLI.DsGetDcSiteCoverageW"
+    },
+    {
+      "ordinal": 26,
+      "name": "DsGetForestTrustInformationW",
+      "forwarder": "LOGONCLI.DsGetForestTrustInformationW"
+    },
+    {
+      "ordinal": 27,
+      "name": "DsGetSiteNameA",
+      "forwarder": "LOGONCLI.DsGetSiteNameA"
+    },
+    {
+      "ordinal": 28,
+      "name": "DsGetSiteNameW",
+      "forwarder": "LOGONCLI.DsGetSiteNameW"
+    },
+    {
+      "ordinal": 29,
+      "name": "DsMergeForestTrustInformationW",
+      "forwarder": "LOGONCLI.DsMergeForestTrustInformationW"
+    },
+    {
+      "ordinal": 30,
+      "name": "DsRoleFreeMemory",
+      "forwarder": "DSROLE.DsRoleFreeMemory"
+    },
+    {
+      "ordinal": 31,
+      "name": "DsRoleGetPrimaryDomainInformation",
+      "forwarder": "DSROLE.DsRoleGetPrimaryDomainInformation"
+    },
+    {
+      "ordinal": 32,
+      "name": "DsValidateSubnetNameA",
+      "forwarder": "LOGONCLI.DsValidateSubnetNameA"
+    },
+    {
+      "ordinal": 33,
+      "name": "DsValidateSubnetNameW",
+      "forwarder": "LOGONCLI.DsValidateSubnetNameW"
+    },
+    {
+      "ordinal": 34,
+      "name": "I_BrowserDebugCall",
+      "forwarder": "BROWCLI.I_BrowserDebugCall"
+    },
+    {
+      "ordinal": 35,
+      "name": "I_BrowserDebugTrace",
+      "forwarder": "BROWCLI.I_BrowserDebugTrace"
+    },
+    {
+      "ordinal": 36,
+      "name": "I_BrowserQueryEmulatedDomains",
+      "forwarder": "BROWCLI.I_BrowserQueryEmulatedDomains"
+    },
+    {
+      "ordinal": 37,
+      "name": "I_BrowserQueryOtherDomains",
+      "forwarder": "BROWCLI.I_BrowserQueryOtherDomains"
+    },
+    {
+      "ordinal": 38,
+      "name": "I_BrowserQueryStatistics",
+      "forwarder": "BROWCLI.I_BrowserQueryStatistics"
+    },
+    {
+      "ordinal": 39,
+      "name": "I_BrowserResetNetlogonState",
+      "forwarder": "BROWCLI.I_BrowserResetNetlogonState"
+    },
+    {
+      "ordinal": 40,
+      "name": "I_BrowserResetStatistics",
+      "forwarder": "BROWCLI.I_BrowserResetStatistics"
+    },
+    {
+      "ordinal": 41,
+      "name": "I_BrowserServerEnum",
+      "forwarder": "BROWCLI.I_BrowserServerEnum"
+    },
+    {
+      "ordinal": 42,
+      "name": "I_BrowserSetNetlogonState",
+      "forwarder": "BROWCLI.I_BrowserSetNetlogonState"
+    },
+    {
+      "ordinal": 43,
+      "name": "I_DsUpdateReadOnlyServerDnsRecords",
+      "forwarder": "LOGONCLI.I_DsUpdateReadOnlyServerDnsRecords"
+    },
+    {
+      "ordinal": 44,
+      "name": "I_NetAccountDeltas",
+      "forwarder": "LOGONCLI.I_NetAccountDeltas"
+    },
+    {
+      "ordinal": 45,
+      "name": "I_NetAccountSync",
+      "forwarder": "LOGONCLI.I_NetAccountSync"
+    },
+    {
+      "ordinal": 47,
+      "name": "I_NetChainSetClientAttributes",
+      "forwarder": "LOGONCLI.I_NetChainSetClientAttributes"
+    },
+    {
+      "ordinal": 46,
+      "name": "I_NetChainSetClientAttributes2",
+      "forwarder": "LOGONCLI.I_NetChainSetClientAttributes2"
+    },
+    {
+      "ordinal": 48,
+      "name": "I_NetDatabaseDeltas",
+      "forwarder": "LOGONCLI.I_NetDatabaseDeltas"
+    },
+    {
+      "ordinal": 49,
+      "name": "I_NetDatabaseRedo",
+      "forwarder": "LOGONCLI.I_NetDatabaseRedo"
+    },
+    {
+      "ordinal": 51,
+      "name": "I_NetDatabaseSync",
+      "forwarder": "LOGONCLI.I_NetDatabaseSync"
+    },
+    {
+      "ordinal": 50,
+      "name": "I_NetDatabaseSync2",
+      "forwarder": "LOGONCLI.I_NetDatabaseSync2"
+    },
+    {
+      "ordinal": 52,
+      "name": "I_NetDfsGetVersion",
+      "forwarder": "SRVCLI.I_NetDfsGetVersion"
+    },
+    {
+      "ordinal": 53,
+      "name": "I_NetDfsIsThisADomainName",
+      "forwarder": "DFSCLI.I_NetDfsIsThisADomainName"
+    },
+    {
+      "ordinal": 54,
+      "name": "I_NetGetDCList",
+      "forwarder": "LOGONCLI.I_NetGetDCList"
+    },
+    {
+      "ordinal": 55,
+      "name": "I_NetGetForestTrustInformation",
+      "forwarder": "LOGONCLI.I_NetGetForestTrustInformation"
+    },
+    {
+      "ordinal": 57,
+      "name": "I_NetLogonControl",
+      "forwarder": "LOGONCLI.I_NetLogonControl"
+    },
+    {
+      "ordinal": 56,
+      "name": "I_NetLogonControl2",
+      "forwarder": "LOGONCLI.I_NetLogonControl2"
+    },
+    {
+      "ordinal": 58,
+      "name": "I_NetLogonGetDomainInfo",
+      "forwarder": "LOGONCLI.I_NetLogonGetDomainInfo"
+    },
+    {
+      "ordinal": 59,
+      "name": "I_NetLogonSamLogoff",
+      "forwarder": "LOGONCLI.I_NetLogonSamLogoff"
+    },
+    {
+      "ordinal": 60,
+      "name": "I_NetLogonSamLogon",
+      "forwarder": "LOGONCLI.I_NetLogonSamLogon"
+    },
+    {
+      "ordinal": 61,
+      "name": "I_NetLogonSamLogonEx",
+      "forwarder": "LOGONCLI.I_NetLogonSamLogonEx"
+    },
+    {
+      "ordinal": 62,
+      "name": "I_NetLogonSamLogonWithFlags",
+      "forwarder": "LOGONCLI.I_NetLogonSamLogonWithFlags"
+    },
+    {
+      "ordinal": 63,
+      "name": "I_NetLogonSendToSam",
+      "forwarder": "LOGONCLI.I_NetLogonSendToSam"
+    },
+    {
+      "ordinal": 64,
+      "name": "I_NetLogonUasLogoff",
+      "forwarder": "LOGONCLI.I_NetLogonUasLogoff"
+    },
+    {
+      "ordinal": 65,
+      "name": "I_NetLogonUasLogon",
+      "forwarder": "LOGONCLI.I_NetLogonUasLogon"
+    },
+    {
+      "ordinal": 68,
+      "name": "I_NetServerAuthenticate",
+      "forwarder": "LOGONCLI.I_NetServerAuthenticate"
+    },
+    {
+      "ordinal": 66,
+      "name": "I_NetServerAuthenticate2",
+      "forwarder": "LOGONCLI.I_NetServerAuthenticate2"
+    },
+    {
+      "ordinal": 67,
+      "name": "I_NetServerAuthenticate3",
+      "forwarder": "LOGONCLI.I_NetServerAuthenticate3"
+    },
+    {
+      "ordinal": 69,
+      "name": "I_NetServerGetTrustInfo",
+      "forwarder": "LOGONCLI.I_NetServerGetTrustInfo"
+    },
+    {
+      "ordinal": 70,
+      "name": "I_NetServerPasswordGet",
+      "forwarder": "LOGONCLI.I_NetServerPasswordGet"
+    },
+    {
+      "ordinal": 72,
+      "name": "I_NetServerPasswordSet",
+      "forwarder": "LOGONCLI.I_NetServerPasswordSet"
+    },
+    {
+      "ordinal": 71,
+      "name": "I_NetServerPasswordSet2",
+      "forwarder": "LOGONCLI.I_NetServerPasswordSet2"
+    },
+    {
+      "ordinal": 73,
+      "name": "I_NetServerReqChallenge",
+      "forwarder": "LOGONCLI.I_NetServerReqChallenge"
+    },
+    {
+      "ordinal": 74,
+      "name": "I_NetServerSetServiceBits",
+      "forwarder": "SRVCLI.I_NetServerSetServiceBits"
+    },
+    {
+      "ordinal": 75,
+      "name": "I_NetServerSetServiceBitsEx",
+      "forwarder": "SRVCLI.I_NetServerSetServiceBitsEx"
+    },
+    {
+      "ordinal": 76,
+      "name": "I_NetServerTrustPasswordsGet",
+      "forwarder": "LOGONCLI.I_NetServerTrustPasswordsGet"
+    },
+    {
+      "ordinal": 77,
+      "name": "I_NetlogonComputeClientDigest",
+      "forwarder": "LOGONCLI.I_NetlogonComputeClientDigest"
+    },
+    {
+      "ordinal": 78,
+      "name": "I_NetlogonComputeServerDigest",
+      "forwarder": "LOGONCLI.I_NetlogonComputeServerDigest"
+    },
+    {
+      "ordinal": 79,
+      "name": "NetAccessAdd"
+    },
+    {
+      "ordinal": 80,
+      "name": "NetAccessDel"
+    },
+    {
+      "ordinal": 81,
+      "name": "NetAccessEnum"
+    },
+    {
+      "ordinal": 82,
+      "name": "NetAccessGetInfo"
+    },
+    {
+      "ordinal": 83,
+      "name": "NetAccessGetUserPerms"
+    },
+    {
+      "ordinal": 84,
+      "name": "NetAccessSetInfo"
+    },
+    {
+      "ordinal": 85,
+      "name": "NetAddAlternateComputerName",
+      "forwarder": "WKSCLI.NetAddAlternateComputerName"
+    },
+    {
+      "ordinal": 86,
+      "name": "NetAddServiceAccount",
+      "forwarder": "LOGONCLI.NetAddServiceAccount"
+    },
+    {
+      "ordinal": 87,
+      "name": "NetAlertRaise"
+    },
+    {
+      "ordinal": 88,
+      "name": "NetAlertRaiseEx"
+    },
+    {
+      "ordinal": 89,
+      "name": "NetApiBufferAllocate",
+      "forwarder": "NETUTILS.NetApiBufferAllocate"
+    },
+    {
+      "ordinal": 90,
+      "name": "NetApiBufferFree",
+      "forwarder": "NETUTILS.NetApiBufferFree"
+    },
+    {
+      "ordinal": 91,
+      "name": "NetApiBufferReallocate",
+      "forwarder": "NETUTILS.NetApiBufferReallocate"
+    },
+    {
+      "ordinal": 92,
+      "name": "NetApiBufferSize",
+      "forwarder": "NETUTILS.NetApiBufferSize"
+    },
+    {
+      "ordinal": 93,
+      "name": "NetAuditClear"
+    },
+    {
+      "ordinal": 94,
+      "name": "NetAuditRead"
+    },
+    {
+      "ordinal": 95,
+      "name": "NetAuditWrite"
+    },
+    {
+      "ordinal": 96,
+      "name": "NetBrowserStatisticsGet",
+      "forwarder": "BROWCLI.NetBrowserStatisticsGet"
+    },
+    {
+      "ordinal": 97,
+      "name": "NetConfigGet"
+    },
+    {
+      "ordinal": 98,
+      "name": "NetConfigGetAll"
+    },
+    {
+      "ordinal": 99,
+      "name": "NetConfigSet"
+    },
+    {
+      "ordinal": 100,
+      "name": "NetConnectionEnum",
+      "forwarder": "SRVCLI.NetConnectionEnum"
+    },
+    {
+      "ordinal": 101,
+      "name": "NetCreateProvisioningPackage",
+      "forwarder": "NETJOIN.NetCreateProvisioningPackage"
+    },
+    {
+      "ordinal": 102,
+      "name": "NetDfsAdd",
+      "forwarder": "DFSCLI.NetDfsAdd"
+    },
+    {
+      "ordinal": 103,
+      "name": "NetDfsAddFtRoot",
+      "forwarder": "DFSCLI.NetDfsAddFtRoot"
+    },
+    {
+      "ordinal": 104,
+      "name": "NetDfsAddRootTarget",
+      "forwarder": "DFSCLI.NetDfsAddRootTarget"
+    },
+    {
+      "ordinal": 105,
+      "name": "NetDfsAddStdRoot",
+      "forwarder": "DFSCLI.NetDfsAddStdRoot"
+    },
+    {
+      "ordinal": 106,
+      "name": "NetDfsAddStdRootForced",
+      "forwarder": "DFSCLI.NetDfsAddStdRootForced"
+    },
+    {
+      "ordinal": 107,
+      "name": "NetDfsEnum",
+      "forwarder": "DFSCLI.NetDfsEnum"
+    },
+    {
+      "ordinal": 108,
+      "name": "NetDfsGetClientInfo",
+      "forwarder": "DFSCLI.NetDfsGetClientInfo"
+    },
+    {
+      "ordinal": 109,
+      "name": "NetDfsGetDcAddress",
+      "forwarder": "DFSCLI.NetDfsGetDcAddress"
+    },
+    {
+      "ordinal": 110,
+      "name": "NetDfsGetFtContainerSecurity",
+      "forwarder": "DFSCLI.NetDfsGetFtContainerSecurity"
+    },
+    {
+      "ordinal": 111,
+      "name": "NetDfsGetInfo",
+      "forwarder": "DFSCLI.NetDfsGetInfo"
+    },
+    {
+      "ordinal": 112,
+      "name": "NetDfsGetSecurity",
+      "forwarder": "DFSCLI.NetDfsGetSecurity"
+    },
+    {
+      "ordinal": 113,
+      "name": "NetDfsGetStdContainerSecurity",
+      "forwarder": "DFSCLI.NetDfsGetStdContainerSecurity"
+    },
+    {
+      "ordinal": 114,
+      "name": "NetDfsGetSupportedNamespaceVersion",
+      "forwarder": "DFSCLI.NetDfsGetSupportedNamespaceVersion"
+    },
+    {
+      "ordinal": 115,
+      "name": "NetDfsManagerGetConfigInfo",
+      "forwarder": "DFSCLI.NetDfsManagerGetConfigInfo"
+    },
+    {
+      "ordinal": 116,
+      "name": "NetDfsManagerInitialize",
+      "forwarder": "DFSCLI.NetDfsManagerInitialize"
+    },
+    {
+      "ordinal": 117,
+      "name": "NetDfsManagerSendSiteInfo",
+      "forwarder": "DFSCLI.NetDfsManagerSendSiteInfo"
+    },
+    {
+      "ordinal": 118,
+      "name": "NetDfsMove",
+      "forwarder": "DFSCLI.NetDfsMove"
+    },
+    {
+      "ordinal": 119,
+      "name": "NetDfsRemove",
+      "forwarder": "DFSCLI.NetDfsRemove"
+    },
+    {
+      "ordinal": 120,
+      "name": "NetDfsRemoveFtRoot",
+      "forwarder": "DFSCLI.NetDfsRemoveFtRoot"
+    },
+    {
+      "ordinal": 121,
+      "name": "NetDfsRemoveFtRootForced",
+      "forwarder": "DFSCLI.NetDfsRemoveFtRootForced"
+    },
+    {
+      "ordinal": 122,
+      "name": "NetDfsRemoveRootTarget",
+      "forwarder": "DFSCLI.NetDfsRemoveRootTarget"
+    },
+    {
+      "ordinal": 123,
+      "name": "NetDfsRemoveStdRoot",
+      "forwarder": "DFSCLI.NetDfsRemoveStdRoot"
+    },
+    {
+      "ordinal": 124,
+      "name": "NetDfsRename",
+      "forwarder": "DFSCLI.NetDfsRename"
+    },
+    {
+      "ordinal": 125,
+      "name": "NetDfsSetClientInfo",
+      "forwarder": "DFSCLI.NetDfsSetClientInfo"
+    },
+    {
+      "ordinal": 126,
+      "name": "NetDfsSetFtContainerSecurity",
+      "forwarder": "DFSCLI.NetDfsSetFtContainerSecurity"
+    },
+    {
+      "ordinal": 127,
+      "name": "NetDfsSetInfo",
+      "forwarder": "DFSCLI.NetDfsSetInfo"
+    },
+    {
+      "ordinal": 128,
+      "name": "NetDfsSetSecurity",
+      "forwarder": "DFSCLI.NetDfsSetSecurity"
+    },
+    {
+      "ordinal": 129,
+      "name": "NetDfsSetStdContainerSecurity",
+      "forwarder": "DFSCLI.NetDfsSetStdContainerSecurity"
+    },
+    {
+      "ordinal": 130,
+      "name": "NetEnumerateComputerNames",
+      "forwarder": "WKSCLI.NetEnumerateComputerNames"
+    },
+    {
+      "ordinal": 131,
+      "name": "NetEnumerateServiceAccounts",
+      "forwarder": "LOGONCLI.NetEnumerateServiceAccounts"
+    },
+    {
+      "ordinal": 132,
+      "name": "NetEnumerateTrustedDomains",
+      "forwarder": "LOGONCLI.NetEnumerateTrustedDomains"
+    },
+    {
+      "ordinal": 133,
+      "name": "NetErrorLogClear"
+    },
+    {
+      "ordinal": 134,
+      "name": "NetErrorLogRead"
+    },
+    {
+      "ordinal": 135,
+      "name": "NetErrorLogWrite"
+    },
+    {
+      "ordinal": 136,
+      "name": "NetFileClose",
+      "forwarder": "SRVCLI.NetFileClose"
+    },
+    {
+      "ordinal": 137,
+      "name": "NetFileEnum",
+      "forwarder": "SRVCLI.NetFileEnum"
+    },
+    {
+      "ordinal": 138,
+      "name": "NetFileGetInfo",
+      "forwarder": "SRVCLI.NetFileGetInfo"
+    },
+    {
+      "ordinal": 139,
+      "name": "NetGetAnyDCName",
+      "forwarder": "LOGONCLI.NetGetAnyDCName"
+    },
+    {
+      "ordinal": 140,
+      "name": "NetGetDCName",
+      "forwarder": "LOGONCLI.NetGetDCName"
+    },
+    {
+      "ordinal": 141,
+      "name": "NetGetDisplayInformationIndex",
+      "forwarder": "SAMCLI.NetGetDisplayInformationIndex"
+    },
+    {
+      "ordinal": 142,
+      "name": "NetGetJoinInformation",
+      "forwarder": "WKSCLI.NetGetJoinInformation"
+    },
+    {
+      "ordinal": 143,
+      "name": "NetGetJoinableOUs",
+      "forwarder": "WKSCLI.NetGetJoinableOUs"
+    },
+    {
+      "ordinal": 144,
+      "name": "NetGroupAdd",
+      "forwarder": "SAMCLI.NetGroupAdd"
+    },
+    {
+      "ordinal": 145,
+      "name": "NetGroupAddUser",
+      "forwarder": "SAMCLI.NetGroupAddUser"
+    },
+    {
+      "ordinal": 146,
+      "name": "NetGroupDel",
+      "forwarder": "SAMCLI.NetGroupDel"
+    },
+    {
+      "ordinal": 147,
+      "name": "NetGroupDelUser",
+      "forwarder": "SAMCLI.NetGroupDelUser"
+    },
+    {
+      "ordinal": 148,
+      "name": "NetGroupEnum",
+      "forwarder": "SAMCLI.NetGroupEnum"
+    },
+    {
+      "ordinal": 149,
+      "name": "NetGroupGetInfo",
+      "forwarder": "SAMCLI.NetGroupGetInfo"
+    },
+    {
+      "ordinal": 150,
+      "name": "NetGroupGetUsers",
+      "forwarder": "SAMCLI.NetGroupGetUsers"
+    },
+    {
+      "ordinal": 151,
+      "name": "NetGroupSetInfo",
+      "forwarder": "SAMCLI.NetGroupSetInfo"
+    },
+    {
+      "ordinal": 152,
+      "name": "NetGroupSetUsers",
+      "forwarder": "SAMCLI.NetGroupSetUsers"
+    },
+    {
+      "ordinal": 153,
+      "name": "NetIsServiceAccount",
+      "forwarder": "LOGONCLI.NetIsServiceAccount"
+    },
+    {
+      "ordinal": 154,
+      "name": "NetJoinDomain",
+      "forwarder": "WKSCLI.NetJoinDomain"
+    },
+    {
+      "ordinal": 155,
+      "name": "NetLocalGroupAdd",
+      "forwarder": "SAMCLI.NetLocalGroupAdd"
+    },
+    {
+      "ordinal": 156,
+      "name": "NetLocalGroupAddMember",
+      "forwarder": "SAMCLI.NetLocalGroupAddMember"
+    },
+    {
+      "ordinal": 157,
+      "name": "NetLocalGroupAddMembers",
+      "forwarder": "SAMCLI.NetLocalGroupAddMembers"
+    },
+    {
+      "ordinal": 158,
+      "name": "NetLocalGroupDel",
+      "forwarder": "SAMCLI.NetLocalGroupDel"
+    },
+    {
+      "ordinal": 159,
+      "name": "NetLocalGroupDelMember",
+      "forwarder": "SAMCLI.NetLocalGroupDelMember"
+    },
+    {
+      "ordinal": 160,
+      "name": "NetLocalGroupDelMembers",
+      "forwarder": "SAMCLI.NetLocalGroupDelMembers"
+    },
+    {
+      "ordinal": 161,
+      "name": "NetLocalGroupEnum",
+      "forwarder": "SAMCLI.NetLocalGroupEnum"
+    },
+    {
+      "ordinal": 162,
+      "name": "NetLocalGroupGetInfo",
+      "forwarder": "SAMCLI.NetLocalGroupGetInfo"
+    },
+    {
+      "ordinal": 163,
+      "name": "NetLocalGroupGetMembers",
+      "forwarder": "SAMCLI.NetLocalGroupGetMembers"
+    },
+    {
+      "ordinal": 164,
+      "name": "NetLocalGroupSetInfo",
+      "forwarder": "SAMCLI.NetLocalGroupSetInfo"
+    },
+    {
+      "ordinal": 165,
+      "name": "NetLocalGroupSetMembers",
+      "forwarder": "SAMCLI.NetLocalGroupSetMembers"
+    },
+    {
+      "ordinal": 166,
+      "name": "NetLogonGetTimeServiceParentDomain",
+      "forwarder": "LOGONCLI.NetLogonGetTimeServiceParentDomain"
+    },
+    {
+      "ordinal": 167,
+      "name": "NetLogonSetServiceBits",
+      "forwarder": "LOGONCLI.NetLogonSetServiceBits"
+    },
+    {
+      "ordinal": 168,
+      "name": "NetMessageBufferSend"
+    },
+    {
+      "ordinal": 169,
+      "name": "NetMessageNameAdd"
+    },
+    {
+      "ordinal": 170,
+      "name": "NetMessageNameDel"
+    },
+    {
+      "ordinal": 171,
+      "name": "NetMessageNameEnum"
+    },
+    {
+      "ordinal": 172,
+      "name": "NetMessageNameGetInfo"
+    },
+    {
+      "ordinal": 173,
+      "name": "NetProvisionComputerAccount",
+      "forwarder": "NETJOIN.NetProvisionComputerAccount"
+    },
+    {
+      "ordinal": 174,
+      "name": "NetQueryDisplayInformation",
+      "forwarder": "SAMCLI.NetQueryDisplayInformation"
+    },
+    {
+      "ordinal": 175,
+      "name": "NetQueryServiceAccount",
+      "forwarder": "LOGONCLI.NetQueryServiceAccount"
+    },
+    {
+      "ordinal": 176,
+      "name": "NetRegisterDomainNameChangeNotification"
+    },
+    {
+      "ordinal": 177,
+      "name": "NetRemoteComputerSupports",
+      "forwarder": "NETUTILS.NetRemoteComputerSupports"
+    },
+    {
+      "ordinal": 178,
+      "name": "NetRemoteTOD",
+      "forwarder": "SRVCLI.NetRemoteTOD"
+    },
+    {
+      "ordinal": 179,
+      "name": "NetRemoveAlternateComputerName",
+      "forwarder": "WKSCLI.NetRemoveAlternateComputerName"
+    },
+    {
+      "ordinal": 180,
+      "name": "NetRemoveServiceAccount",
+      "forwarder": "LOGONCLI.NetRemoveServiceAccount"
+    },
+    {
+      "ordinal": 181,
+      "name": "NetRenameMachineInDomain",
+      "forwarder": "WKSCLI.NetRenameMachineInDomain"
+    },
+    {
+      "ordinal": 182,
+      "name": "NetReplExportDirAdd"
+    },
+    {
+      "ordinal": 183,
+      "name": "NetReplExportDirDel"
+    },
+    {
+      "ordinal": 184,
+      "name": "NetReplExportDirEnum"
+    },
+    {
+      "ordinal": 185,
+      "name": "NetReplExportDirGetInfo"
+    },
+    {
+      "ordinal": 186,
+      "name": "NetReplExportDirLock"
+    },
+    {
+      "ordinal": 187,
+      "name": "NetReplExportDirSetInfo"
+    },
+    {
+      "ordinal": 188,
+      "name": "NetReplExportDirUnlock"
+    },
+    {
+      "ordinal": 189,
+      "name": "NetReplGetInfo"
+    },
+    {
+      "ordinal": 190,
+      "name": "NetReplImportDirAdd"
+    },
+    {
+      "ordinal": 191,
+      "name": "NetReplImportDirDel"
+    },
+    {
+      "ordinal": 192,
+      "name": "NetReplImportDirEnum"
+    },
+    {
+      "ordinal": 193,
+      "name": "NetReplImportDirGetInfo"
+    },
+    {
+      "ordinal": 194,
+      "name": "NetReplImportDirLock"
+    },
+    {
+      "ordinal": 195,
+      "name": "NetReplImportDirUnlock"
+    },
+    {
+      "ordinal": 196,
+      "name": "NetReplSetInfo"
+    },
+    {
+      "ordinal": 197,
+      "name": "NetRequestOfflineDomainJoin",
+      "forwarder": "NETJOIN.NetRequestOfflineDomainJoin"
+    },
+    {
+      "ordinal": 198,
+      "name": "NetRequestProvisioningPackageInstall",
+      "forwarder": "NETJOIN.NetRequestProvisioningPackageInstall"
+    },
+    {
+      "ordinal": 199,
+      "name": "NetScheduleJobAdd",
+      "forwarder": "SCHEDCLI.NetScheduleJobAdd"
+    },
+    {
+      "ordinal": 200,
+      "name": "NetScheduleJobDel",
+      "forwarder": "SCHEDCLI.NetScheduleJobDel"
+    },
+    {
+      "ordinal": 201,
+      "name": "NetScheduleJobEnum",
+      "forwarder": "SCHEDCLI.NetScheduleJobEnum"
+    },
+    {
+      "ordinal": 202,
+      "name": "NetScheduleJobGetInfo",
+      "forwarder": "SCHEDCLI.NetScheduleJobGetInfo"
+    },
+    {
+      "ordinal": 203,
+      "name": "NetServerAliasAdd",
+      "forwarder": "SRVCLI.NetServerAliasAdd"
+    },
+    {
+      "ordinal": 204,
+      "name": "NetServerAliasDel",
+      "forwarder": "SRVCLI.NetServerAliasDel"
+    },
+    {
+      "ordinal": 205,
+      "name": "NetServerAliasEnum",
+      "forwarder": "SRVCLI.NetServerAliasEnum"
+    },
+    {
+      "ordinal": 206,
+      "name": "NetServerComputerNameAdd",
+      "forwarder": "SRVCLI.NetServerComputerNameAdd"
+    },
+    {
+      "ordinal": 207,
+      "name": "NetServerComputerNameDel",
+      "forwarder": "SRVCLI.NetServerComputerNameDel"
+    },
+    {
+      "ordinal": 208,
+      "name": "NetServerDiskEnum",
+      "forwarder": "SRVCLI.NetServerDiskEnum"
+    },
+    {
+      "ordinal": 209,
+      "name": "NetServerEnum",
+      "forwarder": "BROWCLI.NetServerEnum"
+    },
+    {
+      "ordinal": 210,
+      "name": "NetServerEnumEx",
+      "forwarder": "BROWCLI.NetServerEnumEx"
+    },
+    {
+      "ordinal": 211,
+      "name": "NetServerGetInfo",
+      "forwarder": "SRVCLI.NetServerGetInfo"
+    },
+    {
+      "ordinal": 212,
+      "name": "NetServerSetInfo",
+      "forwarder": "SRVCLI.NetServerSetInfo"
+    },
+    {
+      "ordinal": 213,
+      "name": "NetServerTransportAdd",
+      "forwarder": "SRVCLI.NetServerTransportAdd"
+    },
+    {
+      "ordinal": 214,
+      "name": "NetServerTransportAddEx",
+      "forwarder": "SRVCLI.NetServerTransportAddEx"
+    },
+    {
+      "ordinal": 215,
+      "name": "NetServerTransportDel",
+      "forwarder": "SRVCLI.NetServerTransportDel"
+    },
+    {
+      "ordinal": 216,
+      "name": "NetServerTransportEnum",
+      "forwarder": "SRVCLI.NetServerTransportEnum"
+    },
+    {
+      "ordinal": 217,
+      "name": "NetServiceControl"
+    },
+    {
+      "ordinal": 218,
+      "name": "NetServiceEnum"
+    },
+    {
+      "ordinal": 219,
+      "name": "NetServiceGetInfo"
+    },
+    {
+      "ordinal": 220,
+      "name": "NetServiceInstall"
+    },
+    {
+      "ordinal": 221,
+      "name": "NetSessionDel",
+      "forwarder": "SRVCLI.NetSessionDel"
+    },
+    {
+      "ordinal": 222,
+      "name": "NetSessionEnum",
+      "forwarder": "SRVCLI.NetSessionEnum"
+    },
+    {
+      "ordinal": 223,
+      "name": "NetSessionGetInfo",
+      "forwarder": "SRVCLI.NetSessionGetInfo"
+    },
+    {
+      "ordinal": 224,
+      "name": "NetSetPrimaryComputerName",
+      "forwarder": "WKSCLI.NetSetPrimaryComputerName"
+    },
+    {
+      "ordinal": 225,
+      "name": "NetShareAdd",
+      "forwarder": "SRVCLI.NetShareAdd"
+    },
+    {
+      "ordinal": 226,
+      "name": "NetShareCheck",
+      "forwarder": "SRVCLI.NetShareCheck"
+    },
+    {
+      "ordinal": 227,
+      "name": "NetShareDel",
+      "forwarder": "SRVCLI.NetShareDel"
+    },
+    {
+      "ordinal": 228,
+      "name": "NetShareDelEx",
+      "forwarder": "SRVCLI.NetShareDelEx"
+    },
+    {
+      "ordinal": 229,
+      "name": "NetShareDelSticky",
+      "forwarder": "SRVCLI.NetShareDelSticky"
+    },
+    {
+      "ordinal": 230,
+      "name": "NetShareEnum",
+      "forwarder": "SRVCLI.NetShareEnum"
+    },
+    {
+      "ordinal": 231,
+      "name": "NetShareEnumSticky",
+      "forwarder": "SRVCLI.NetShareEnumSticky"
+    },
+    {
+      "ordinal": 232,
+      "name": "NetShareGetInfo",
+      "forwarder": "SRVCLI.NetShareGetInfo"
+    },
+    {
+      "ordinal": 233,
+      "name": "NetShareSetInfo",
+      "forwarder": "SRVCLI.NetShareSetInfo"
+    },
+    {
+      "ordinal": 234,
+      "name": "NetStatisticsGet"
+    },
+    {
+      "ordinal": 235,
+      "name": "NetUnjoinDomain",
+      "forwarder": "WKSCLI.NetUnjoinDomain"
+    },
+    {
+      "ordinal": 236,
+      "name": "NetUnregisterDomainNameChangeNotification"
+    },
+    {
+      "ordinal": 237,
+      "name": "NetUseAdd",
+      "forwarder": "WKSCLI.NetUseAdd"
+    },
+    {
+      "ordinal": 238,
+      "name": "NetUseDel",
+      "forwarder": "WKSCLI.NetUseDel"
+    },
+    {
+      "ordinal": 239,
+      "name": "NetUseEnum",
+      "forwarder": "WKSCLI.NetUseEnum"
+    },
+    {
+      "ordinal": 240,
+      "name": "NetUseGetInfo",
+      "forwarder": "WKSCLI.NetUseGetInfo"
+    },
+    {
+      "ordinal": 241,
+      "name": "NetUserAdd",
+      "forwarder": "SAMCLI.NetUserAdd"
+    },
+    {
+      "ordinal": 242,
+      "name": "NetUserChangePassword",
+      "forwarder": "SAMCLI.NetUserChangePassword"
+    },
+    {
+      "ordinal": 243,
+      "name": "NetUserDel",
+      "forwarder": "SAMCLI.NetUserDel"
+    },
+    {
+      "ordinal": 244,
+      "name": "NetUserEnum",
+      "forwarder": "SAMCLI.NetUserEnum"
+    },
+    {
+      "ordinal": 245,
+      "name": "NetUserGetGroups",
+      "forwarder": "SAMCLI.NetUserGetGroups"
+    },
+    {
+      "ordinal": 246,
+      "name": "NetUserGetInfo",
+      "forwarder": "SAMCLI.NetUserGetInfo"
+    },
+    {
+      "ordinal": 247,
+      "name": "NetUserGetLocalGroups",
+      "forwarder": "SAMCLI.NetUserGetLocalGroups"
+    },
+    {
+      "ordinal": 248,
+      "name": "NetUserModalsGet",
+      "forwarder": "SAMCLI.NetUserModalsGet"
+    },
+    {
+      "ordinal": 249,
+      "name": "NetUserModalsSet",
+      "forwarder": "SAMCLI.NetUserModalsSet"
+    },
+    {
+      "ordinal": 250,
+      "name": "NetUserSetGroups",
+      "forwarder": "SAMCLI.NetUserSetGroups"
+    },
+    {
+      "ordinal": 251,
+      "name": "NetUserSetInfo",
+      "forwarder": "SAMCLI.NetUserSetInfo"
+    },
+    {
+      "ordinal": 252,
+      "name": "NetValidateName",
+      "forwarder": "WKSCLI.NetValidateName"
+    },
+    {
+      "ordinal": 253,
+      "name": "NetValidatePasswordPolicy",
+      "forwarder": "SAMCLI.NetValidatePasswordPolicy"
+    },
+    {
+      "ordinal": 254,
+      "name": "NetValidatePasswordPolicyFree",
+      "forwarder": "SAMCLI.NetValidatePasswordPolicyFree"
+    },
+    {
+      "ordinal": 255,
+      "name": "NetWkstaGetInfo"
+    },
+    {
+      "ordinal": 256,
+      "name": "NetWkstaSetInfo"
+    },
+    {
+      "ordinal": 257,
+      "name": "NetWkstaTransportAdd",
+      "forwarder": "WKSCLI.NetWkstaTransportAdd"
+    },
+    {
+      "ordinal": 258,
+      "name": "NetWkstaTransportDel",
+      "forwarder": "WKSCLI.NetWkstaTransportDel"
+    },
+    {
+      "ordinal": 259,
+      "name": "NetWkstaTransportEnum",
+      "forwarder": "WKSCLI.NetWkstaTransportEnum"
+    },
+    {
+      "ordinal": 260,
+      "name": "NetWkstaUserEnum",
+      "forwarder": "WKSCLI.NetWkstaUserEnum"
+    },
+    {
+      "ordinal": 261,
+      "name": "NetWkstaUserGetInfo",
+      "forwarder": "WKSCLI.NetWkstaUserGetInfo"
+    },
+    {
+      "ordinal": 262,
+      "name": "NetWkstaUserSetInfo",
+      "forwarder": "WKSCLI.NetWkstaUserSetInfo"
+    },
+    {
+      "ordinal": 263,
+      "name": "NetapipBufferAllocate",
+      "forwarder": "NETUTILS.NetapipBufferAllocate"
+    },
+    {
+      "ordinal": 264,
+      "name": "Netbios"
+    },
+    {
+      "ordinal": 265,
+      "name": "NetpAddTlnFtinfoEntry"
+    },
+    {
+      "ordinal": 266,
+      "name": "NetpAllocFtinfoEntry"
+    },
+    {
+      "ordinal": 267,
+      "name": "NetpAssertFailed"
+    },
+    {
+      "ordinal": 268,
+      "name": "NetpCleanFtinfoContext"
+    },
+    {
+      "ordinal": 269,
+      "name": "NetpCloseConfigData"
+    },
+    {
+      "ordinal": 270,
+      "name": "NetpCopyFtinfoContext"
+    },
+    {
+      "ordinal": 271,
+      "name": "NetpDbgPrint"
+    },
+    {
+      "ordinal": 272,
+      "name": "NetpGetConfigBool"
+    },
+    {
+      "ordinal": 273,
+      "name": "NetpGetConfigDword"
+    },
+    {
+      "ordinal": 274,
+      "name": "NetpGetConfigTStrArray"
+    },
+    {
+      "ordinal": 275,
+      "name": "NetpGetConfigValue"
+    },
+    {
+      "ordinal": 276,
+      "name": "NetpGetFileSecurity"
+    },
+    {
+      "ordinal": 277,
+      "name": "NetpHexDump"
+    },
+    {
+      "ordinal": 278,
+      "name": "NetpInitFtinfoContext"
+    },
+    {
+      "ordinal": 279,
+      "name": "NetpIsRemote",
+      "forwarder": "NETUTILS.NetpIsRemote"
+    },
+    {
+      "ordinal": 280,
+      "name": "NetpIsUncComputerNameValid"
+    },
+    {
+      "ordinal": 281,
+      "name": "NetpMergeFtinfo"
+    },
+    {
+      "ordinal": 282,
+      "name": "NetpNetBiosReset"
+    },
+    {
+      "ordinal": 283,
+      "name": "NetpNetBiosStatusToApiStatus"
+    },
+    {
+      "ordinal": 284,
+      "name": "NetpOpenConfigData"
+    },
+    {
+      "ordinal": 285,
+      "name": "NetpSetFileSecurity"
+    },
+    {
+      "ordinal": 286,
+      "name": "NetpwNameCanonicalize",
+      "forwarder": "NETUTILS.NetpwNameCanonicalize"
+    },
+    {
+      "ordinal": 287,
+      "name": "NetpwNameCompare",
+      "forwarder": "NETUTILS.NetpwNameCompare"
+    },
+    {
+      "ordinal": 288,
+      "name": "NetpwNameValidate",
+      "forwarder": "NETUTILS.NetpwNameValidate"
+    },
+    {
+      "ordinal": 289,
+      "name": "NetpwPathCanonicalize",
+      "forwarder": "NETUTILS.NetpwPathCanonicalize"
+    },
+    {
+      "ordinal": 290,
+      "name": "NetpwPathCompare",
+      "forwarder": "NETUTILS.NetpwPathCompare"
+    },
+    {
+      "ordinal": 291,
+      "name": "NetpwPathType",
+      "forwarder": "NETUTILS.NetpwPathType"
+    },
+    {
+      "ordinal": 292,
+      "name": "NlBindingAddServerToCache",
+      "forwarder": "LOGONCLI.NlBindingAddServerToCache"
+    },
+    {
+      "ordinal": 293,
+      "name": "NlBindingRemoveServerFromCache",
+      "forwarder": "LOGONCLI.NlBindingRemoveServerFromCache"
+    },
+    {
+      "ordinal": 294,
+      "name": "NlBindingSetAuthInfo",
+      "forwarder": "LOGONCLI.NlBindingSetAuthInfo"
+    },
+    {
+      "ordinal": 295,
+      "name": "RxNetAccessAdd"
+    },
+    {
+      "ordinal": 296,
+      "name": "RxNetAccessDel"
+    },
+    {
+      "ordinal": 297,
+      "name": "RxNetAccessEnum"
+    },
+    {
+      "ordinal": 298,
+      "name": "RxNetAccessGetInfo"
+    },
+    {
+      "ordinal": 299,
+      "name": "RxNetAccessGetUserPerms"
+    },
+    {
+      "ordinal": 300,
+      "name": "RxNetAccessSetInfo"
+    },
+    {
+      "ordinal": 301,
+      "name": "RxNetServerEnum"
+    },
+    {
+      "ordinal": 302,
+      "name": "RxNetUserPasswordSet"
+    },
+    {
+      "ordinal": 303,
+      "name": "RxRemoteApi"
+    }
+  ]
+}

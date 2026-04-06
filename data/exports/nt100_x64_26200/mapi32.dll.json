@@ -1,0 +1,575 @@
+{
+  "Version": "10.0.26100.7309-AMD64",
+  "md5": "5a04f425ac400d77a920d47007013bf0",
+  "imphash": "5a04f425ac400d77a920d47007013bf0",
+  "InternalName": "MAPI32",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "Extended MAPI 1.0 for Windows NT",
+  "FileVersion": "1.0.2536.0 (WinBuild.160101.0800)",
+  "ProductVersion": "10.0.26100.7309",
+  "PeChecksum": 203424,
+  "Size": 196608,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ordinal": 46,
+      "name": "BuildDisplayTable"
+    },
+    {
+      "ordinal": 55,
+      "name": "ChangeIdleRoutine"
+    },
+    {
+      "ordinal": 197,
+      "name": "CloseIMsgSession"
+    },
+    {
+      "ordinal": 60,
+      "name": "CreateIProp"
+    },
+    {
+      "ordinal": 61,
+      "name": "CreateTable"
+    },
+    {
+      "ordinal": 34,
+      "name": "DeinitMapiUtil"
+    },
+    {
+      "ordinal": 54,
+      "name": "DeregisterIdleRoutine"
+    },
+    {
+      "ordinal": 28,
+      "name": "DllCanUnloadNow"
+    },
+    {
+      "ordinal": 27,
+      "name": "DllGetClassObject"
+    },
+    {
+      "ordinal": 53,
+      "name": "EnableIdleRoutine"
+    },
+    {
+      "ordinal": 182,
+      "name": "FBadColumnSet"
+    },
+    {
+      "ordinal": 190,
+      "name": "FBadEntryList"
+    },
+    {
+      "ordinal": 181,
+      "name": "FBadProp"
+    },
+    {
+      "ordinal": 179,
+      "name": "FBadPropTag"
+    },
+    {
+      "ordinal": 191,
+      "name": "FBadRestriction"
+    },
+    {
+      "ordinal": 178,
+      "name": "FBadRglpNameID"
+    },
+    {
+      "ordinal": 176,
+      "name": "FBadRglpszW"
+    },
+    {
+      "ordinal": 180,
+      "name": "FBadRow"
+    },
+    {
+      "ordinal": 177,
+      "name": "FBadRowSet"
+    },
+    {
+      "ordinal": 189,
+      "name": "FBadSortOrderSet"
+    },
+    {
+      "ordinal": 44,
+      "name": "FBinFromHex"
+    },
+    {
+      "ordinal": 72,
+      "name": "FEqualNames"
+    },
+    {
+      "ordinal": 255,
+      "name": "FGetComponentPath"
+    },
+    {
+      "ordinal": 79,
+      "name": "FPropCompareProp"
+    },
+    {
+      "ordinal": 78,
+      "name": "FPropContainsProp"
+    },
+    {
+      "ordinal": 137,
+      "name": "FPropExists"
+    },
+    {
+      "ordinal": 253,
+      "name": "FixMAPI"
+    },
+    {
+      "ordinal": 139,
+      "name": "FreePadrlist"
+    },
+    {
+      "ordinal": 140,
+      "name": "FreeProws"
+    },
+    {
+      "ordinal": 122,
+      "name": "FtAdcFt"
+    },
+    {
+      "ordinal": 121,
+      "name": "FtAddFt"
+    },
+    {
+      "ordinal": 127,
+      "name": "FtDivFtBogus"
+    },
+    {
+      "ordinal": 124,
+      "name": "FtMulDw"
+    },
+    {
+      "ordinal": 125,
+      "name": "FtMulDwDw"
+    },
+    {
+      "ordinal": 126,
+      "name": "FtNegFt"
+    },
+    {
+      "ordinal": 123,
+      "name": "FtSubFt"
+    },
+    {
+      "ordinal": 52,
+      "name": "FtgRegisterIdleRoutine"
+    },
+    {
+      "ordinal": 200,
+      "name": "GetAttribIMsgOnIStg"
+    },
+    {
+      "ordinal": 251,
+      "name": "GetOutlookVersion"
+    },
+    {
+      "ordinal": 153,
+      "name": "GetTnefStreamCodepage"
+    },
+    {
+      "ordinal": 45,
+      "name": "HexFromBin"
+    },
+    {
+      "ordinal": 81,
+      "name": "HrAddColumns"
+    },
+    {
+      "ordinal": 82,
+      "name": "HrAddColumnsEx"
+    },
+    {
+      "ordinal": 36,
+      "name": "HrAllocAdviseSink"
+    },
+    {
+      "ordinal": 143,
+      "name": "HrComposeEID"
+    },
+    {
+      "ordinal": 145,
+      "name": "HrComposeMsgID"
+    },
+    {
+      "ordinal": 144,
+      "name": "HrDecomposeEID"
+    },
+    {
+      "ordinal": 146,
+      "name": "HrDecomposeMsgID"
+    },
+    {
+      "ordinal": 239,
+      "name": "HrDispatchNotifications"
+    },
+    {
+      "ordinal": 142,
+      "name": "HrEntryIDFromSz"
+    },
+    {
+      "ordinal": 247,
+      "name": "HrGetOmiProvidersFlags"
+    },
+    {
+      "ordinal": 135,
+      "name": "HrGetOneProp"
+    },
+    {
+      "ordinal": 194,
+      "name": "HrIStorageFromStream"
+    },
+    {
+      "ordinal": 75,
+      "name": "HrQueryAllRows"
+    },
+    {
+      "ordinal": 249,
+      "name": "HrSetOmiProvidersFlagsInvalid"
+    },
+    {
+      "ordinal": 136,
+      "name": "HrSetOneProp"
+    },
+    {
+      "ordinal": 141,
+      "name": "HrSzFromEntryID"
+    },
+    {
+      "ordinal": 42,
+      "name": "HrThisThreadAdviseSink"
+    },
+    {
+      "ordinal": 195,
+      "name": "HrValidateIPMSubtree"
+    },
+    {
+      "ordinal": 243,
+      "name": "HrValidateParametersValist"
+    },
+    {
+      "ordinal": 74,
+      "name": "IsBadBoundedStringPtr"
+    },
+    {
+      "ordinal": 25,
+      "name": "LAUNCHWIZARD"
+    },
+    {
+      "ordinal": 80,
+      "name": "LPropCompareProp"
+    },
+    {
+      "ordinal": 26,
+      "name": "LaunchWizard"
+    },
+    {
+      "ordinal": 173,
+      "name": "LpValFindProp"
+    },
+    {
+      "ordinal": 217,
+      "name": "MAPIAddress"
+    },
+    {
+      "ordinal": 19,
+      "name": "MAPIAdminProfiles"
+    },
+    {
+      "ordinal": 13,
+      "name": "MAPIAllocateBuffer"
+    },
+    {
+      "ordinal": 15,
+      "name": "MAPIAllocateMore"
+    },
+    {
+      "ordinal": 50,
+      "name": "MAPIDeinitIdle"
+    },
+    {
+      "ordinal": 215,
+      "name": "MAPIDeleteMail"
+    },
+    {
+      "ordinal": 218,
+      "name": "MAPIDetails"
+    },
+    {
+      "ordinal": 214,
+      "name": "MAPIFindNext"
+    },
+    {
+      "ordinal": 17,
+      "name": "MAPIFreeBuffer"
+    },
+    {
+      "ordinal": 59,
+      "name": "MAPIGetDefaultMalloc"
+    },
+    {
+      "ordinal": 49,
+      "name": "MAPIInitIdle"
+    },
+    {
+      "ordinal": 21,
+      "name": "MAPIInitialize"
+    },
+    {
+      "ordinal": 210,
+      "name": "MAPILogoff"
+    },
+    {
+      "ordinal": 209,
+      "name": "MAPILogon"
+    },
+    {
+      "ordinal": 11,
+      "name": "MAPILogonEx"
+    },
+    {
+      "ordinal": 30,
+      "name": "MAPIOpenFormMgr"
+    },
+    {
+      "ordinal": 32,
+      "name": "MAPIOpenLocalFormContainer"
+    },
+    {
+      "ordinal": 213,
+      "name": "MAPIReadMail"
+    },
+    {
+      "ordinal": 219,
+      "name": "MAPIResolveName"
+    },
+    {
+      "ordinal": 212,
+      "name": "MAPISaveMail"
+    },
+    {
+      "ordinal": 208,
+      "name": "MAPISendDocuments"
+    },
+    {
+      "ordinal": 211,
+      "name": "MAPISendMail"
+    },
+    {
+      "ordinal": 256,
+      "name": "MAPISendMailW"
+    },
+    {
+      "ordinal": 23,
+      "name": "MAPIUninitialize"
+    },
+    {
+      "ordinal": 65,
+      "name": "MNLS_CompareStringW"
+    },
+    {
+      "ordinal": 68,
+      "name": "MNLS_IsBadStringPtrW"
+    },
+    {
+      "ordinal": 66,
+      "name": "MNLS_MultiByteToWideChar"
+    },
+    {
+      "ordinal": 67,
+      "name": "MNLS_WideCharToMultiByte"
+    },
+    {
+      "ordinal": 63,
+      "name": "MNLS_lstrcmpW"
+    },
+    {
+      "ordinal": 64,
+      "name": "MNLS_lstrcpyW"
+    },
+    {
+      "ordinal": 62,
+      "name": "MNLS_lstrlenW"
+    },
+    {
+      "ordinal": 201,
+      "name": "MapStorageSCode"
+    },
+    {
+      "ordinal": 198,
+      "name": "OpenIMsgOnIStg"
+    },
+    {
+      "ordinal": 196,
+      "name": "OpenIMsgSession"
+    },
+    {
+      "ordinal": 147,
+      "name": "OpenStreamOnFile"
+    },
+    {
+      "ordinal": 149,
+      "name": "OpenTnefStream"
+    },
+    {
+      "ordinal": 151,
+      "name": "OpenTnefStreamEx"
+    },
+    {
+      "ordinal": 138,
+      "name": "PpropFindProp"
+    },
+    {
+      "ordinal": 76,
+      "name": "PropCopyMore"
+    },
+    {
+      "ordinal": 183,
+      "name": "RTFSync"
+    },
+    {
+      "ordinal": 43,
+      "name": "ScBinFromHexBounded"
+    },
+    {
+      "ordinal": 165,
+      "name": "ScCopyNotifications"
+    },
+    {
+      "ordinal": 171,
+      "name": "ScCopyProps"
+    },
+    {
+      "ordinal": 164,
+      "name": "ScCountNotifications"
+    },
+    {
+      "ordinal": 170,
+      "name": "ScCountProps"
+    },
+    {
+      "ordinal": 244,
+      "name": "ScCreateConversationIndex"
+    },
+    {
+      "ordinal": 174,
+      "name": "ScDupPropset"
+    },
+    {
+      "ordinal": 33,
+      "name": "ScInitMapiUtil"
+    },
+    {
+      "ordinal": 193,
+      "name": "ScLocalPathFromUNC"
+    },
+    {
+      "ordinal": 203,
+      "name": "ScMAPIXFromSMAPI"
+    },
+    {
+      "ordinal": 166,
+      "name": "ScRelocNotifications"
+    },
+    {
+      "ordinal": 172,
+      "name": "ScRelocProps"
+    },
+    {
+      "ordinal": 192,
+      "name": "ScUNCFromLocalPath"
+    },
+    {
+      "ordinal": 199,
+      "name": "SetAttribIMsgOnIStg"
+    },
+    {
+      "ordinal": 130,
+      "name": "SzFindCh"
+    },
+    {
+      "ordinal": 131,
+      "name": "SzFindLastCh"
+    },
+    {
+      "ordinal": 132,
+      "name": "SzFindSz"
+    },
+    {
+      "ordinal": 133,
+      "name": "UFromSz"
+    },
+    {
+      "ordinal": 128,
+      "name": "UlAddRef"
+    },
+    {
+      "ordinal": 155,
+      "name": "UlFromSzHex"
+    },
+    {
+      "ordinal": 77,
+      "name": "UlPropSize"
+    },
+    {
+      "ordinal": 129,
+      "name": "UlRelease"
+    },
+    {
+      "ordinal": 185,
+      "name": "WrapCompressedRTFStream"
+    },
+    {
+      "ordinal": 73,
+      "name": "WrapStoreEntryID"
+    },
+    {
+      "ordinal": 229,
+      "name": "cmc_act_on"
+    },
+    {
+      "ordinal": 230,
+      "name": "cmc_free"
+    },
+    {
+      "ordinal": 231,
+      "name": "cmc_list"
+    },
+    {
+      "ordinal": 232,
+      "name": "cmc_logoff"
+    },
+    {
+      "ordinal": 233,
+      "name": "cmc_logon"
+    },
+    {
+      "ordinal": 234,
+      "name": "cmc_look_up"
+    },
+    {
+      "ordinal": 235,
+      "name": "cmc_query_configuration"
+    },
+    {
+      "ordinal": 236,
+      "name": "cmc_read"
+    },
+    {
+      "ordinal": 237,
+      "name": "cmc_send"
+    },
+    {
+      "ordinal": 238,
+      "name": "cmc_send_documents"
+    },
+    {
+      "ordinal": 8,
+      "name": null
+    }
+  ]
+}

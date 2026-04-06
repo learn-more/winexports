@@ -1,31 +1,35 @@
 {
   "Version": "5.2.3790.3959-I386",
-  "md5": "fa4cf9bb53957b04df371b50e39cc4d6",
-  "imphash": "fa4cf9bb53957b04df371b50e39cc4d6",
+  "md5": "7e469a08a14f039921f072009ff44771",
+  "imphash": "7e469a08a14f039921f072009ff44771",
   "InternalName": "schannel.dll",
   "CompanyName": "Microsoft Corporation",
   "FileDescription": "TLS / SSL Security Provider",
   "FileVersion": "5.2.3790.3959 (srv03_sp2_rtm.070216-1710)",
   "ProductVersion": "5.2.3790.3959",
-  "PeChecksum": 242698,
-  "Size": 217088,
+  "PeChecksum": 170926,
+  "Size": 146944,
   "Machine": "I386",
   "exports": [
     {
       "ordinal": 1,
-      "name": "AcceptSecurityContext"
+      "name": "AcceptSecurityContext",
+      "forwarder": "SECUR32.AcceptSecurityContext"
     },
     {
       "ordinal": 2,
-      "name": "AcquireCredentialsHandleA"
+      "name": "AcquireCredentialsHandleA",
+      "forwarder": "SECUR32.AcquireCredentialsHandleA"
     },
     {
       "ordinal": 3,
-      "name": "AcquireCredentialsHandleW"
+      "name": "AcquireCredentialsHandleW",
+      "forwarder": "SECUR32.AcquireCredentialsHandleW"
     },
     {
       "ordinal": 4,
-      "name": "ApplyControlToken"
+      "name": "ApplyControlToken",
+      "forwarder": "SECUR32.ApplyControlToken"
     },
     {
       "ordinal": 5,
@@ -37,51 +41,63 @@
     },
     {
       "ordinal": 7,
-      "name": "CompleteAuthToken"
+      "name": "CompleteAuthToken",
+      "forwarder": "SECUR32.CompleteAuthToken"
     },
     {
       "ordinal": 8,
-      "name": "DeleteSecurityContext"
+      "name": "DeleteSecurityContext",
+      "forwarder": "SECUR32.DeleteSecurityContext"
     },
     {
       "ordinal": 9,
-      "name": "EnumerateSecurityPackagesA"
+      "name": "EnumerateSecurityPackagesA",
+      "forwarder": "SECUR32.EnumerateSecurityPackagesA"
     },
     {
       "ordinal": 10,
-      "name": "EnumerateSecurityPackagesW"
+      "name": "EnumerateSecurityPackagesW",
+      "forwarder": "SECUR32.EnumerateSecurityPackagesW"
     },
     {
       "ordinal": 11,
-      "name": "FreeContextBuffer"
+      "name": "FreeContextBuffer",
+      "forwarder": "SECUR32.FreeContextBuffer"
     },
     {
       "ordinal": 12,
-      "name": "FreeCredentialsHandle"
+      "name": "FreeCredentialsHandle",
+      "forwarder": "SECUR32.FreeCredentialsHandle"
     },
     {
       "ordinal": 13,
-      "name": "ImpersonateSecurityContext"
+      "name": "ImpersonateSecurityContext",
+      "forwarder": "SECUR32.ImpersonateSecurityContext"
     },
     {
       "ordinal": 14,
-      "name": "InitSecurityInterfaceA"
+      "name": "InitSecurityInterfaceA",
+      "forwarder": "SECUR32.InitSecurityInterfaceA"
     },
     {
       "ordinal": 15,
-      "name": "InitSecurityInterfaceW"
+      "name": "InitSecurityInterfaceW",
+      "forwarder": "SECUR32.InitSecurityInterfaceW"
     },
     {
       "ordinal": 16,
-      "name": "InitializeSecurityContextA"
+      "name": "InitializeSecurityContextA",
+      "forwarder": "SECUR32.InitializeSecurityContextA"
     },
     {
       "ordinal": 17,
-      "name": "InitializeSecurityContextW"
+      "name": "InitializeSecurityContextW",
+      "forwarder": "SECUR32.InitializeSecurityContextW"
     },
     {
       "ordinal": 18,
-      "name": "MakeSignature"
+      "name": "MakeSignature",
+      "forwarder": "SECUR32.MakeSignature"
     },
     {
       "ordinal": 19,
@@ -89,27 +105,33 @@
     },
     {
       "ordinal": 20,
-      "name": "QueryContextAttributesA"
+      "name": "QueryContextAttributesA",
+      "forwarder": "SECUR32.QueryContextAttributesA"
     },
     {
       "ordinal": 21,
-      "name": "QueryContextAttributesW"
+      "name": "QueryContextAttributesW",
+      "forwarder": "SECUR32.QueryContextAttributesW"
     },
     {
       "ordinal": 22,
-      "name": "QuerySecurityPackageInfoA"
+      "name": "QuerySecurityPackageInfoA",
+      "forwarder": "SECUR32.QuerySecurityPackageInfoA"
     },
     {
       "ordinal": 23,
-      "name": "QuerySecurityPackageInfoW"
+      "name": "QuerySecurityPackageInfoW",
+      "forwarder": "SECUR32.QuerySecurityPackageInfoW"
     },
     {
       "ordinal": 24,
-      "name": "RevertSecurityContext"
+      "name": "RevertSecurityContext",
+      "forwarder": "SECUR32.RevertSecurityContext"
     },
     {
       "ordinal": 25,
-      "name": "SealMessage"
+      "name": "SealMessage",
+      "forwarder": "SECUR32.SealMessage"
     },
     {
       "ordinal": 26,
@@ -153,11 +175,13 @@
     },
     {
       "ordinal": 36,
-      "name": "UnsealMessage"
+      "name": "UnsealMessage",
+      "forwarder": "SECUR32.UnsealMessage"
     },
     {
       "ordinal": 37,
-      "name": "VerifySignature"
+      "name": "VerifySignature",
+      "forwarder": "SECUR32.VerifySignature"
     }
   ]
 }

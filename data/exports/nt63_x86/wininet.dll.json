@@ -1,0 +1,1291 @@
+{
+  "Version": "11.00.9600.16384-I386",
+  "md5": "10fd6f9a2a86863b906affa74ca5d99d",
+  "imphash": "10fd6f9a2a86863b906affa74ca5d99d",
+  "InternalName": "wininet.dll",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "Internet Extensions for Win32",
+  "FileVersion": "11.00.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "11.00.9600.16384",
+  "PeChecksum": 1820117,
+  "Size": 1815552,
+  "Machine": "I386",
+  "exports": [
+    {
+      "ordinal": 107,
+      "name": "AppCacheCheckManifest"
+    },
+    {
+      "ordinal": 113,
+      "name": "AppCacheCloseHandle"
+    },
+    {
+      "ordinal": 114,
+      "name": "AppCacheDeleteGroup"
+    },
+    {
+      "ordinal": 115,
+      "name": "AppCacheDeleteIEGroup"
+    },
+    {
+      "ordinal": 119,
+      "name": "AppCacheDuplicateHandle"
+    },
+    {
+      "ordinal": 124,
+      "name": "AppCacheFinalize"
+    },
+    {
+      "ordinal": 125,
+      "name": "AppCacheFreeDownloadList"
+    },
+    {
+      "ordinal": 126,
+      "name": "AppCacheFreeGroupList"
+    },
+    {
+      "ordinal": 127,
+      "name": "AppCacheFreeIESpace"
+    },
+    {
+      "ordinal": 128,
+      "name": "AppCacheFreeSpace"
+    },
+    {
+      "ordinal": 129,
+      "name": "AppCacheGetDownloadList"
+    },
+    {
+      "ordinal": 130,
+      "name": "AppCacheGetFallbackUrl"
+    },
+    {
+      "ordinal": 131,
+      "name": "AppCacheGetGroupList"
+    },
+    {
+      "ordinal": 132,
+      "name": "AppCacheGetIEGroupList"
+    },
+    {
+      "ordinal": 133,
+      "name": "AppCacheGetInfo"
+    },
+    {
+      "ordinal": 134,
+      "name": "AppCacheGetManifestUrl"
+    },
+    {
+      "ordinal": 135,
+      "name": "AppCacheLookup"
+    },
+    {
+      "ordinal": 136,
+      "name": "CommitUrlCacheEntryA"
+    },
+    {
+      "ordinal": 137,
+      "name": "CommitUrlCacheEntryBinaryBlob"
+    },
+    {
+      "ordinal": 138,
+      "name": "CommitUrlCacheEntryW"
+    },
+    {
+      "ordinal": 139,
+      "name": "CreateMD5SSOHash"
+    },
+    {
+      "ordinal": 140,
+      "name": "CreateUrlCacheContainerA"
+    },
+    {
+      "ordinal": 141,
+      "name": "CreateUrlCacheContainerW"
+    },
+    {
+      "ordinal": 142,
+      "name": "CreateUrlCacheEntryA"
+    },
+    {
+      "ordinal": 143,
+      "name": "CreateUrlCacheEntryExW"
+    },
+    {
+      "ordinal": 144,
+      "name": "CreateUrlCacheEntryW"
+    },
+    {
+      "ordinal": 145,
+      "name": "CreateUrlCacheGroup"
+    },
+    {
+      "ordinal": 146,
+      "name": "DeleteIE3Cache"
+    },
+    {
+      "ordinal": 147,
+      "name": "DeleteUrlCacheContainerA"
+    },
+    {
+      "ordinal": 148,
+      "name": "DeleteUrlCacheContainerW"
+    },
+    {
+      "ordinal": 149,
+      "name": "DeleteUrlCacheEntry"
+    },
+    {
+      "ordinal": 150,
+      "name": "DeleteUrlCacheEntryA"
+    },
+    {
+      "ordinal": 151,
+      "name": "DeleteUrlCacheEntryW"
+    },
+    {
+      "ordinal": 152,
+      "name": "DeleteUrlCacheGroup"
+    },
+    {
+      "ordinal": 153,
+      "name": "DeleteWpadCacheForNetworks"
+    },
+    {
+      "ordinal": 154,
+      "name": "DetectAutoProxyUrl"
+    },
+    {
+      "ordinal": 106,
+      "name": "DispatchAPICall"
+    },
+    {
+      "ordinal": 155,
+      "name": "DllCanUnloadNow"
+    },
+    {
+      "ordinal": 156,
+      "name": "DllGetClassObject"
+    },
+    {
+      "ordinal": 157,
+      "name": "DllInstall"
+    },
+    {
+      "ordinal": 158,
+      "name": "DllRegisterServer"
+    },
+    {
+      "ordinal": 159,
+      "name": "DllUnregisterServer"
+    },
+    {
+      "ordinal": 160,
+      "name": "FindCloseUrlCache"
+    },
+    {
+      "ordinal": 161,
+      "name": "FindFirstUrlCacheContainerA"
+    },
+    {
+      "ordinal": 162,
+      "name": "FindFirstUrlCacheContainerW"
+    },
+    {
+      "ordinal": 163,
+      "name": "FindFirstUrlCacheEntryA"
+    },
+    {
+      "ordinal": 164,
+      "name": "FindFirstUrlCacheEntryExA"
+    },
+    {
+      "ordinal": 165,
+      "name": "FindFirstUrlCacheEntryExW"
+    },
+    {
+      "ordinal": 166,
+      "name": "FindFirstUrlCacheEntryW"
+    },
+    {
+      "ordinal": 167,
+      "name": "FindFirstUrlCacheGroup"
+    },
+    {
+      "ordinal": 168,
+      "name": "FindNextUrlCacheContainerA"
+    },
+    {
+      "ordinal": 169,
+      "name": "FindNextUrlCacheContainerW"
+    },
+    {
+      "ordinal": 170,
+      "name": "FindNextUrlCacheEntryA"
+    },
+    {
+      "ordinal": 171,
+      "name": "FindNextUrlCacheEntryExA"
+    },
+    {
+      "ordinal": 172,
+      "name": "FindNextUrlCacheEntryExW"
+    },
+    {
+      "ordinal": 173,
+      "name": "FindNextUrlCacheEntryW"
+    },
+    {
+      "ordinal": 174,
+      "name": "FindNextUrlCacheGroup"
+    },
+    {
+      "ordinal": 175,
+      "name": "ForceNexusLookup"
+    },
+    {
+      "ordinal": 176,
+      "name": "ForceNexusLookupExW"
+    },
+    {
+      "ordinal": 177,
+      "name": "FreeUrlCacheSpaceA"
+    },
+    {
+      "ordinal": 178,
+      "name": "FreeUrlCacheSpaceW"
+    },
+    {
+      "ordinal": 179,
+      "name": "FtpCommandA"
+    },
+    {
+      "ordinal": 180,
+      "name": "FtpCommandW"
+    },
+    {
+      "ordinal": 181,
+      "name": "FtpCreateDirectoryA"
+    },
+    {
+      "ordinal": 182,
+      "name": "FtpCreateDirectoryW"
+    },
+    {
+      "ordinal": 183,
+      "name": "FtpDeleteFileA"
+    },
+    {
+      "ordinal": 184,
+      "name": "FtpDeleteFileW"
+    },
+    {
+      "ordinal": 185,
+      "name": "FtpFindFirstFileA"
+    },
+    {
+      "ordinal": 186,
+      "name": "FtpFindFirstFileW"
+    },
+    {
+      "ordinal": 187,
+      "name": "FtpGetCurrentDirectoryA"
+    },
+    {
+      "ordinal": 188,
+      "name": "FtpGetCurrentDirectoryW"
+    },
+    {
+      "ordinal": 189,
+      "name": "FtpGetFileA"
+    },
+    {
+      "ordinal": 190,
+      "name": "FtpGetFileEx"
+    },
+    {
+      "ordinal": 191,
+      "name": "FtpGetFileSize"
+    },
+    {
+      "ordinal": 192,
+      "name": "FtpGetFileW"
+    },
+    {
+      "ordinal": 193,
+      "name": "FtpOpenFileA"
+    },
+    {
+      "ordinal": 194,
+      "name": "FtpOpenFileW"
+    },
+    {
+      "ordinal": 195,
+      "name": "FtpPutFileA"
+    },
+    {
+      "ordinal": 196,
+      "name": "FtpPutFileEx"
+    },
+    {
+      "ordinal": 197,
+      "name": "FtpPutFileW"
+    },
+    {
+      "ordinal": 198,
+      "name": "FtpRemoveDirectoryA"
+    },
+    {
+      "ordinal": 199,
+      "name": "FtpRemoveDirectoryW"
+    },
+    {
+      "ordinal": 200,
+      "name": "FtpRenameFileA"
+    },
+    {
+      "ordinal": 201,
+      "name": "FtpRenameFileW"
+    },
+    {
+      "ordinal": 202,
+      "name": "FtpSetCurrentDirectoryA"
+    },
+    {
+      "ordinal": 203,
+      "name": "FtpSetCurrentDirectoryW"
+    },
+    {
+      "ordinal": 204,
+      "name": "GetProxyDllInfo"
+    },
+    {
+      "ordinal": 205,
+      "name": "GetUrlCacheConfigInfoA"
+    },
+    {
+      "ordinal": 206,
+      "name": "GetUrlCacheConfigInfoW"
+    },
+    {
+      "ordinal": 207,
+      "name": "GetUrlCacheEntryBinaryBlob"
+    },
+    {
+      "ordinal": 208,
+      "name": "GetUrlCacheEntryInfoA"
+    },
+    {
+      "ordinal": 209,
+      "name": "GetUrlCacheEntryInfoExA"
+    },
+    {
+      "ordinal": 210,
+      "name": "GetUrlCacheEntryInfoExW"
+    },
+    {
+      "ordinal": 211,
+      "name": "GetUrlCacheEntryInfoW"
+    },
+    {
+      "ordinal": 212,
+      "name": "GetUrlCacheGroupAttributeA"
+    },
+    {
+      "ordinal": 213,
+      "name": "GetUrlCacheGroupAttributeW"
+    },
+    {
+      "ordinal": 214,
+      "name": "GetUrlCacheHeaderData"
+    },
+    {
+      "ordinal": 215,
+      "name": "GopherCreateLocatorA"
+    },
+    {
+      "ordinal": 216,
+      "name": "GopherCreateLocatorW"
+    },
+    {
+      "ordinal": 217,
+      "name": "GopherFindFirstFileA"
+    },
+    {
+      "ordinal": 218,
+      "name": "GopherFindFirstFileW"
+    },
+    {
+      "ordinal": 219,
+      "name": "GopherGetAttributeA"
+    },
+    {
+      "ordinal": 220,
+      "name": "GopherGetAttributeW"
+    },
+    {
+      "ordinal": 221,
+      "name": "GopherGetLocatorTypeA"
+    },
+    {
+      "ordinal": 222,
+      "name": "GopherGetLocatorTypeW"
+    },
+    {
+      "ordinal": 223,
+      "name": "GopherOpenFileA"
+    },
+    {
+      "ordinal": 224,
+      "name": "GopherOpenFileW"
+    },
+    {
+      "ordinal": 225,
+      "name": "HttpAddRequestHeadersA"
+    },
+    {
+      "ordinal": 226,
+      "name": "HttpAddRequestHeadersW"
+    },
+    {
+      "ordinal": 227,
+      "name": "HttpCheckDavCompliance"
+    },
+    {
+      "ordinal": 228,
+      "name": "HttpCloseDependencyHandle"
+    },
+    {
+      "ordinal": 229,
+      "name": "HttpDuplicateDependencyHandle"
+    },
+    {
+      "ordinal": 230,
+      "name": "HttpEndRequestA"
+    },
+    {
+      "ordinal": 231,
+      "name": "HttpEndRequestW"
+    },
+    {
+      "ordinal": 232,
+      "name": "HttpGetServerCredentials"
+    },
+    {
+      "ordinal": 233,
+      "name": "HttpGetTunnelSocket"
+    },
+    {
+      "ordinal": 234,
+      "name": "HttpOpenDependencyHandle"
+    },
+    {
+      "ordinal": 235,
+      "name": "HttpOpenRequestA"
+    },
+    {
+      "ordinal": 236,
+      "name": "HttpOpenRequestW"
+    },
+    {
+      "ordinal": 237,
+      "name": "HttpPushClose"
+    },
+    {
+      "ordinal": 238,
+      "name": "HttpPushEnable"
+    },
+    {
+      "ordinal": 239,
+      "name": "HttpPushWait"
+    },
+    {
+      "ordinal": 240,
+      "name": "HttpQueryInfoA"
+    },
+    {
+      "ordinal": 241,
+      "name": "HttpQueryInfoW"
+    },
+    {
+      "ordinal": 242,
+      "name": "HttpSendRequestA"
+    },
+    {
+      "ordinal": 243,
+      "name": "HttpSendRequestExA"
+    },
+    {
+      "ordinal": 244,
+      "name": "HttpSendRequestExW"
+    },
+    {
+      "ordinal": 245,
+      "name": "HttpSendRequestW"
+    },
+    {
+      "ordinal": 246,
+      "name": "HttpWebSocketClose"
+    },
+    {
+      "ordinal": 247,
+      "name": "HttpWebSocketCompleteUpgrade"
+    },
+    {
+      "ordinal": 248,
+      "name": "HttpWebSocketQueryCloseStatus"
+    },
+    {
+      "ordinal": 249,
+      "name": "HttpWebSocketReceive"
+    },
+    {
+      "ordinal": 250,
+      "name": "HttpWebSocketSend"
+    },
+    {
+      "ordinal": 251,
+      "name": "HttpWebSocketShutdown"
+    },
+    {
+      "ordinal": 252,
+      "name": "IncrementUrlCacheHeaderData"
+    },
+    {
+      "ordinal": 253,
+      "name": "InternetAlgIdToStringA"
+    },
+    {
+      "ordinal": 254,
+      "name": "InternetAlgIdToStringW"
+    },
+    {
+      "ordinal": 255,
+      "name": "InternetAttemptConnect"
+    },
+    {
+      "ordinal": 256,
+      "name": "InternetAutodial"
+    },
+    {
+      "ordinal": 257,
+      "name": "InternetAutodialCallback"
+    },
+    {
+      "ordinal": 258,
+      "name": "InternetAutodialHangup"
+    },
+    {
+      "ordinal": 259,
+      "name": "InternetCanonicalizeUrlA"
+    },
+    {
+      "ordinal": 260,
+      "name": "InternetCanonicalizeUrlW"
+    },
+    {
+      "ordinal": 261,
+      "name": "InternetCheckConnectionA"
+    },
+    {
+      "ordinal": 262,
+      "name": "InternetCheckConnectionW"
+    },
+    {
+      "ordinal": 263,
+      "name": "InternetClearAllPerSiteCookieDecisions"
+    },
+    {
+      "ordinal": 264,
+      "name": "InternetCloseHandle"
+    },
+    {
+      "ordinal": 265,
+      "name": "InternetCombineUrlA"
+    },
+    {
+      "ordinal": 266,
+      "name": "InternetCombineUrlW"
+    },
+    {
+      "ordinal": 267,
+      "name": "InternetConfirmZoneCrossing"
+    },
+    {
+      "ordinal": 268,
+      "name": "InternetConfirmZoneCrossingA"
+    },
+    {
+      "ordinal": 269,
+      "name": "InternetConfirmZoneCrossingW"
+    },
+    {
+      "ordinal": 270,
+      "name": "InternetConnectA"
+    },
+    {
+      "ordinal": 271,
+      "name": "InternetConnectW"
+    },
+    {
+      "ordinal": 272,
+      "name": "InternetCrackUrlA"
+    },
+    {
+      "ordinal": 273,
+      "name": "InternetCrackUrlW"
+    },
+    {
+      "ordinal": 274,
+      "name": "InternetCreateUrlA"
+    },
+    {
+      "ordinal": 275,
+      "name": "InternetCreateUrlW"
+    },
+    {
+      "ordinal": 276,
+      "name": "InternetDial"
+    },
+    {
+      "ordinal": 277,
+      "name": "InternetDialA"
+    },
+    {
+      "ordinal": 278,
+      "name": "InternetDialW"
+    },
+    {
+      "ordinal": 279,
+      "name": "InternetEnumPerSiteCookieDecisionA"
+    },
+    {
+      "ordinal": 280,
+      "name": "InternetEnumPerSiteCookieDecisionW"
+    },
+    {
+      "ordinal": 281,
+      "name": "InternetErrorDlg"
+    },
+    {
+      "ordinal": 282,
+      "name": "InternetFindNextFileA"
+    },
+    {
+      "ordinal": 283,
+      "name": "InternetFindNextFileW"
+    },
+    {
+      "ordinal": 284,
+      "name": "InternetFortezzaCommand"
+    },
+    {
+      "ordinal": 285,
+      "name": "InternetFreeCookies"
+    },
+    {
+      "ordinal": 286,
+      "name": "InternetFreeProxyInfoList"
+    },
+    {
+      "ordinal": 287,
+      "name": "InternetGetCertByURL"
+    },
+    {
+      "ordinal": 288,
+      "name": "InternetGetCertByURLA"
+    },
+    {
+      "ordinal": 289,
+      "name": "InternetGetConnectedState"
+    },
+    {
+      "ordinal": 290,
+      "name": "InternetGetConnectedStateEx"
+    },
+    {
+      "ordinal": 291,
+      "name": "InternetGetConnectedStateExA"
+    },
+    {
+      "ordinal": 292,
+      "name": "InternetGetConnectedStateExW"
+    },
+    {
+      "ordinal": 293,
+      "name": "InternetGetCookieA"
+    },
+    {
+      "ordinal": 294,
+      "name": "InternetGetCookieEx2"
+    },
+    {
+      "ordinal": 295,
+      "name": "InternetGetCookieExA"
+    },
+    {
+      "ordinal": 296,
+      "name": "InternetGetCookieExW"
+    },
+    {
+      "ordinal": 297,
+      "name": "InternetGetCookieW"
+    },
+    {
+      "ordinal": 298,
+      "name": "InternetGetLastResponseInfoA"
+    },
+    {
+      "ordinal": 299,
+      "name": "InternetGetLastResponseInfoW"
+    },
+    {
+      "ordinal": 300,
+      "name": "InternetGetPerSiteCookieDecisionA"
+    },
+    {
+      "ordinal": 301,
+      "name": "InternetGetPerSiteCookieDecisionW"
+    },
+    {
+      "ordinal": 302,
+      "name": "InternetGetProxyForUrl"
+    },
+    {
+      "ordinal": 303,
+      "name": "InternetGetSecurityInfoByURL"
+    },
+    {
+      "ordinal": 304,
+      "name": "InternetGetSecurityInfoByURLA"
+    },
+    {
+      "ordinal": 305,
+      "name": "InternetGetSecurityInfoByURLW"
+    },
+    {
+      "ordinal": 306,
+      "name": "InternetGoOnline"
+    },
+    {
+      "ordinal": 307,
+      "name": "InternetGoOnlineA"
+    },
+    {
+      "ordinal": 308,
+      "name": "InternetGoOnlineW"
+    },
+    {
+      "ordinal": 309,
+      "name": "InternetHangUp"
+    },
+    {
+      "ordinal": 310,
+      "name": "InternetInitializeAutoProxyDll"
+    },
+    {
+      "ordinal": 311,
+      "name": "InternetLockRequestFile"
+    },
+    {
+      "ordinal": 312,
+      "name": "InternetOpenA"
+    },
+    {
+      "ordinal": 313,
+      "name": "InternetOpenUrlA"
+    },
+    {
+      "ordinal": 314,
+      "name": "InternetOpenUrlW"
+    },
+    {
+      "ordinal": 315,
+      "name": "InternetOpenW"
+    },
+    {
+      "ordinal": 316,
+      "name": "InternetQueryDataAvailable"
+    },
+    {
+      "ordinal": 317,
+      "name": "InternetQueryFortezzaStatus"
+    },
+    {
+      "ordinal": 318,
+      "name": "InternetQueryOptionA"
+    },
+    {
+      "ordinal": 319,
+      "name": "InternetQueryOptionW"
+    },
+    {
+      "ordinal": 320,
+      "name": "InternetReadFile"
+    },
+    {
+      "ordinal": 321,
+      "name": "InternetReadFileExA"
+    },
+    {
+      "ordinal": 322,
+      "name": "InternetReadFileExW"
+    },
+    {
+      "ordinal": 323,
+      "name": "InternetSecurityProtocolToStringA"
+    },
+    {
+      "ordinal": 324,
+      "name": "InternetSecurityProtocolToStringW"
+    },
+    {
+      "ordinal": 325,
+      "name": "InternetSetCookieA"
+    },
+    {
+      "ordinal": 326,
+      "name": "InternetSetCookieEx2"
+    },
+    {
+      "ordinal": 327,
+      "name": "InternetSetCookieExA"
+    },
+    {
+      "ordinal": 328,
+      "name": "InternetSetCookieExW"
+    },
+    {
+      "ordinal": 329,
+      "name": "InternetSetCookieW"
+    },
+    {
+      "ordinal": 330,
+      "name": "InternetSetDialState"
+    },
+    {
+      "ordinal": 331,
+      "name": "InternetSetDialStateA"
+    },
+    {
+      "ordinal": 332,
+      "name": "InternetSetDialStateW"
+    },
+    {
+      "ordinal": 333,
+      "name": "InternetSetFilePointer"
+    },
+    {
+      "ordinal": 334,
+      "name": "InternetSetOptionA"
+    },
+    {
+      "ordinal": 335,
+      "name": "InternetSetOptionExA"
+    },
+    {
+      "ordinal": 336,
+      "name": "InternetSetOptionExW"
+    },
+    {
+      "ordinal": 337,
+      "name": "InternetSetOptionW"
+    },
+    {
+      "ordinal": 338,
+      "name": "InternetSetPerSiteCookieDecisionA"
+    },
+    {
+      "ordinal": 339,
+      "name": "InternetSetPerSiteCookieDecisionW"
+    },
+    {
+      "ordinal": 340,
+      "name": "InternetSetStatusCallback"
+    },
+    {
+      "ordinal": 341,
+      "name": "InternetSetStatusCallbackA"
+    },
+    {
+      "ordinal": 342,
+      "name": "InternetSetStatusCallbackW"
+    },
+    {
+      "ordinal": 343,
+      "name": "InternetShowSecurityInfoByURL"
+    },
+    {
+      "ordinal": 344,
+      "name": "InternetShowSecurityInfoByURLA"
+    },
+    {
+      "ordinal": 345,
+      "name": "InternetShowSecurityInfoByURLW"
+    },
+    {
+      "ordinal": 347,
+      "name": "InternetTimeFromSystemTime"
+    },
+    {
+      "ordinal": 348,
+      "name": "InternetTimeFromSystemTimeA"
+    },
+    {
+      "ordinal": 349,
+      "name": "InternetTimeFromSystemTimeW"
+    },
+    {
+      "ordinal": 350,
+      "name": "InternetTimeToSystemTime"
+    },
+    {
+      "ordinal": 351,
+      "name": "InternetTimeToSystemTimeA"
+    },
+    {
+      "ordinal": 352,
+      "name": "InternetTimeToSystemTimeW"
+    },
+    {
+      "ordinal": 353,
+      "name": "InternetUnlockRequestFile"
+    },
+    {
+      "ordinal": 354,
+      "name": "InternetWriteFile"
+    },
+    {
+      "ordinal": 355,
+      "name": "InternetWriteFileExA"
+    },
+    {
+      "ordinal": 356,
+      "name": "InternetWriteFileExW"
+    },
+    {
+      "ordinal": 357,
+      "name": "IsHostInProxyBypassList"
+    },
+    {
+      "ordinal": 358,
+      "name": "IsUrlCacheEntryExpiredA"
+    },
+    {
+      "ordinal": 359,
+      "name": "IsUrlCacheEntryExpiredW"
+    },
+    {
+      "ordinal": 360,
+      "name": "LoadUrlCacheContent"
+    },
+    {
+      "ordinal": 361,
+      "name": "ParseX509EncodedCertificateForListBoxEntry"
+    },
+    {
+      "ordinal": 362,
+      "name": "PrivacyGetZonePreferenceW"
+    },
+    {
+      "ordinal": 363,
+      "name": "PrivacySetZonePreferenceW"
+    },
+    {
+      "ordinal": 364,
+      "name": "ReadUrlCacheEntryStream"
+    },
+    {
+      "ordinal": 365,
+      "name": "ReadUrlCacheEntryStreamEx"
+    },
+    {
+      "ordinal": 366,
+      "name": "RegisterUrlCacheNotification"
+    },
+    {
+      "ordinal": 367,
+      "name": "ResumeSuspendedDownload"
+    },
+    {
+      "ordinal": 368,
+      "name": "RetrieveUrlCacheEntryFileA"
+    },
+    {
+      "ordinal": 369,
+      "name": "RetrieveUrlCacheEntryFileW"
+    },
+    {
+      "ordinal": 370,
+      "name": "RetrieveUrlCacheEntryStreamA"
+    },
+    {
+      "ordinal": 371,
+      "name": "RetrieveUrlCacheEntryStreamW"
+    },
+    {
+      "ordinal": 372,
+      "name": "RunOnceUrlCache"
+    },
+    {
+      "ordinal": 373,
+      "name": "SetUrlCacheConfigInfoA"
+    },
+    {
+      "ordinal": 374,
+      "name": "SetUrlCacheConfigInfoW"
+    },
+    {
+      "ordinal": 375,
+      "name": "SetUrlCacheEntryGroup"
+    },
+    {
+      "ordinal": 376,
+      "name": "SetUrlCacheEntryGroupA"
+    },
+    {
+      "ordinal": 377,
+      "name": "SetUrlCacheEntryGroupW"
+    },
+    {
+      "ordinal": 378,
+      "name": "SetUrlCacheEntryInfoA"
+    },
+    {
+      "ordinal": 379,
+      "name": "SetUrlCacheEntryInfoW"
+    },
+    {
+      "ordinal": 380,
+      "name": "SetUrlCacheGroupAttributeA"
+    },
+    {
+      "ordinal": 381,
+      "name": "SetUrlCacheGroupAttributeW"
+    },
+    {
+      "ordinal": 382,
+      "name": "SetUrlCacheHeaderData"
+    },
+    {
+      "ordinal": 383,
+      "name": "ShowCertificate"
+    },
+    {
+      "ordinal": 384,
+      "name": "ShowClientAuthCerts"
+    },
+    {
+      "ordinal": 385,
+      "name": "ShowSecurityInfo"
+    },
+    {
+      "ordinal": 386,
+      "name": "ShowX509EncodedCertificate"
+    },
+    {
+      "ordinal": 387,
+      "name": "UnlockUrlCacheEntryFile"
+    },
+    {
+      "ordinal": 388,
+      "name": "UnlockUrlCacheEntryFileA"
+    },
+    {
+      "ordinal": 389,
+      "name": "UnlockUrlCacheEntryFileW"
+    },
+    {
+      "ordinal": 390,
+      "name": "UnlockUrlCacheEntryStream"
+    },
+    {
+      "ordinal": 391,
+      "name": "UpdateUrlCacheContentPath"
+    },
+    {
+      "ordinal": 392,
+      "name": "UrlCacheCheckEntriesExist"
+    },
+    {
+      "ordinal": 393,
+      "name": "UrlCacheCloseEntryHandle"
+    },
+    {
+      "ordinal": 394,
+      "name": "UrlCacheContainerSetEntryMaximumAge"
+    },
+    {
+      "ordinal": 395,
+      "name": "UrlCacheCreateContainer"
+    },
+    {
+      "ordinal": 396,
+      "name": "UrlCacheFindFirstEntry"
+    },
+    {
+      "ordinal": 397,
+      "name": "UrlCacheFindNextEntry"
+    },
+    {
+      "ordinal": 398,
+      "name": "UrlCacheFreeEntryInfo"
+    },
+    {
+      "ordinal": 399,
+      "name": "UrlCacheGetContentPaths"
+    },
+    {
+      "ordinal": 400,
+      "name": "UrlCacheGetEntryInfo"
+    },
+    {
+      "ordinal": 404,
+      "name": "UrlCacheGetGlobalLimit"
+    },
+    {
+      "ordinal": 405,
+      "name": "UrlCacheReadEntryStream"
+    },
+    {
+      "ordinal": 406,
+      "name": "UrlCacheReloadSettings"
+    },
+    {
+      "ordinal": 407,
+      "name": "UrlCacheRetrieveEntryFile"
+    },
+    {
+      "ordinal": 408,
+      "name": "UrlCacheRetrieveEntryStream"
+    },
+    {
+      "ordinal": 409,
+      "name": "UrlCacheSetGlobalLimit"
+    },
+    {
+      "ordinal": 412,
+      "name": "UrlCacheUpdateEntryExtraData"
+    },
+    {
+      "ordinal": 414,
+      "name": "UrlZonesDetach"
+    },
+    {
+      "ordinal": 415,
+      "name": "_GetFileExtensionFromUrl"
+    },
+    {
+      "ordinal": 101,
+      "name": null
+    },
+    {
+      "ordinal": 102,
+      "name": null
+    },
+    {
+      "ordinal": 103,
+      "name": null
+    },
+    {
+      "ordinal": 104,
+      "name": null
+    },
+    {
+      "ordinal": 105,
+      "name": null
+    },
+    {
+      "ordinal": 108,
+      "name": null
+    },
+    {
+      "ordinal": 109,
+      "name": null
+    },
+    {
+      "ordinal": 110,
+      "name": null
+    },
+    {
+      "ordinal": 111,
+      "name": null
+    },
+    {
+      "ordinal": 112,
+      "name": null
+    },
+    {
+      "ordinal": 116,
+      "name": null
+    },
+    {
+      "ordinal": 117,
+      "name": null
+    },
+    {
+      "ordinal": 118,
+      "name": null
+    },
+    {
+      "ordinal": 120,
+      "name": null
+    },
+    {
+      "ordinal": 121,
+      "name": null
+    },
+    {
+      "ordinal": 122,
+      "name": null
+    },
+    {
+      "ordinal": 123,
+      "name": null
+    },
+    {
+      "ordinal": 346,
+      "name": null
+    },
+    {
+      "ordinal": 401,
+      "name": null
+    },
+    {
+      "ordinal": 402,
+      "name": null
+    },
+    {
+      "ordinal": 403,
+      "name": null
+    },
+    {
+      "ordinal": 410,
+      "name": null
+    },
+    {
+      "ordinal": 411,
+      "name": null
+    },
+    {
+      "ordinal": 413,
+      "name": null
+    },
+    {
+      "ordinal": 420,
+      "name": null
+    },
+    {
+      "ordinal": 421,
+      "name": null
+    },
+    {
+      "ordinal": 422,
+      "name": null
+    },
+    {
+      "ordinal": 423,
+      "name": null
+    }
+  ]
+}

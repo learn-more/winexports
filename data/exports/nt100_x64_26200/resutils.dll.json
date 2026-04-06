@@ -1,0 +1,599 @@
+{
+  "Version": "10.0.26100.7920-AMD64",
+  "md5": "05760a38eec1f9ea40056f2f0353aa0c",
+  "imphash": "05760a38eec1f9ea40056f2f0353aa0c",
+  "InternalName": "resutils",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "Microsoft Cluster Resource Utility DLL",
+  "FileVersion": "10.0.26100.7920 (WinBuild.160101.0800)",
+  "ProductVersion": "10.0.26100.7920",
+  "PeChecksum": 427684,
+  "Size": 413696,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ordinal": 2,
+      "name": "CloseClusterCryptProvider"
+    },
+    {
+      "ordinal": 3,
+      "name": "ClusAddClusterHealthFault"
+    },
+    {
+      "ordinal": 4,
+      "name": "ClusGetClusterHealthFaults"
+    },
+    {
+      "ordinal": 5,
+      "name": "ClusRemoveClusterHealthFault"
+    },
+    {
+      "ordinal": 6,
+      "name": "ClusWorkerCheckTerminate"
+    },
+    {
+      "ordinal": 7,
+      "name": "ClusWorkerCreate"
+    },
+    {
+      "ordinal": 1,
+      "name": "ClusWorkerStart"
+    },
+    {
+      "ordinal": 8,
+      "name": "ClusWorkerTerminate"
+    },
+    {
+      "ordinal": 9,
+      "name": "ClusWorkerTerminateEx"
+    },
+    {
+      "ordinal": 10,
+      "name": "ClusWorkersTerminate"
+    },
+    {
+      "ordinal": 11,
+      "name": "ClusterClearBackupStateForSharedVolume"
+    },
+    {
+      "ordinal": 12,
+      "name": "ClusterDecrypt"
+    },
+    {
+      "ordinal": 13,
+      "name": "ClusterEncrypt"
+    },
+    {
+      "ordinal": 14,
+      "name": "ClusterEnumTasks"
+    },
+    {
+      "ordinal": 15,
+      "name": "ClusterFileShareCreate"
+    },
+    {
+      "ordinal": 16,
+      "name": "ClusterFileShareDelete"
+    },
+    {
+      "ordinal": 17,
+      "name": "ClusterFileShareUpdate"
+    },
+    {
+      "ordinal": 18,
+      "name": "ClusterFreeTaskInfo"
+    },
+    {
+      "ordinal": 19,
+      "name": "ClusterFreeTaskList"
+    },
+    {
+      "ordinal": 20,
+      "name": "ClusterGetTaskNode"
+    },
+    {
+      "ordinal": 21,
+      "name": "ClusterGetVolumeNameForVolumeMountPoint"
+    },
+    {
+      "ordinal": 22,
+      "name": "ClusterGetVolumePathName"
+    },
+    {
+      "ordinal": 23,
+      "name": "ClusterIsClusterDisk"
+    },
+    {
+      "ordinal": 24,
+      "name": "ClusterIsPathOnSharedVolume"
+    },
+    {
+      "ordinal": 25,
+      "name": "ClusterPrepareSharedVolumeForBackup"
+    },
+    {
+      "ordinal": 26,
+      "name": "ClusterSharedVolumeCheckSnapshotPresence"
+    },
+    {
+      "ordinal": 27,
+      "name": "ClusterSharedVolumeCreateSnapshot"
+    },
+    {
+      "ordinal": 28,
+      "name": "ClusterSharedVolumeReleaseSnapshot"
+    },
+    {
+      "ordinal": 29,
+      "name": "ClusterTaskChangeFromXML"
+    },
+    {
+      "ordinal": 30,
+      "name": "ClusterTaskChangeFromXMLFile"
+    },
+    {
+      "ordinal": 31,
+      "name": "ClusterTaskChange_TS_V1"
+    },
+    {
+      "ordinal": 32,
+      "name": "ClusterTaskCreateFromXML"
+    },
+    {
+      "ordinal": 33,
+      "name": "ClusterTaskCreateFromXMLFile"
+    },
+    {
+      "ordinal": 34,
+      "name": "ClusterTaskCreate_TS_V1"
+    },
+    {
+      "ordinal": 35,
+      "name": "ClusterTaskDelete"
+    },
+    {
+      "ordinal": 36,
+      "name": "ClusterTaskDelete_TS_V1"
+    },
+    {
+      "ordinal": 37,
+      "name": "ClusterTaskExists_TS_V1"
+    },
+    {
+      "ordinal": 38,
+      "name": "ClusterTaskQuery"
+    },
+    {
+      "ordinal": 39,
+      "name": "CreateClusterStorageSpacesClustering"
+    },
+    {
+      "ordinal": 40,
+      "name": "CreateClusterStorageSpacesResourceLocator"
+    },
+    {
+      "ordinal": 41,
+      "name": "CreateClusterStorageSpacesSubProvider"
+    },
+    {
+      "ordinal": 42,
+      "name": "FreeClusterCrypt"
+    },
+    {
+      "ordinal": 43,
+      "name": "FreeClusterHealthFault"
+    },
+    {
+      "ordinal": 44,
+      "name": "FreeClusterHealthFaultArray"
+    },
+    {
+      "ordinal": 45,
+      "name": "InitializeClusterHealthFault"
+    },
+    {
+      "ordinal": 46,
+      "name": "InitializeClusterHealthFaultArray"
+    },
+    {
+      "ordinal": 47,
+      "name": "OpenClusterCryptProvider"
+    },
+    {
+      "ordinal": 48,
+      "name": "OpenClusterCryptProviderEx"
+    },
+    {
+      "ordinal": 49,
+      "name": "ResUtilAddUnknownProperties"
+    },
+    {
+      "ordinal": 50,
+      "name": "ResUtilCreateDirectoryTree"
+    },
+    {
+      "ordinal": 51,
+      "name": "ResUtilDupGroup"
+    },
+    {
+      "ordinal": 52,
+      "name": "ResUtilDupParameterBlock"
+    },
+    {
+      "ordinal": 53,
+      "name": "ResUtilDupResource"
+    },
+    {
+      "ordinal": 54,
+      "name": "ResUtilDupString"
+    },
+    {
+      "ordinal": 55,
+      "name": "ResUtilEnumGroups"
+    },
+    {
+      "ordinal": 56,
+      "name": "ResUtilEnumGroupsEx"
+    },
+    {
+      "ordinal": 57,
+      "name": "ResUtilEnumPrivateProperties"
+    },
+    {
+      "ordinal": 58,
+      "name": "ResUtilEnumProperties"
+    },
+    {
+      "ordinal": 59,
+      "name": "ResUtilEnumResources"
+    },
+    {
+      "ordinal": 60,
+      "name": "ResUtilEnumResourcesEx"
+    },
+    {
+      "ordinal": 61,
+      "name": "ResUtilEnumResourcesEx2"
+    },
+    {
+      "ordinal": 62,
+      "name": "ResUtilExpandEnvironmentStrings"
+    },
+    {
+      "ordinal": 63,
+      "name": "ResUtilFindBinaryProperty"
+    },
+    {
+      "ordinal": 64,
+      "name": "ResUtilFindDependentDiskResourceDriveLetter"
+    },
+    {
+      "ordinal": 65,
+      "name": "ResUtilFindDwordProperty"
+    },
+    {
+      "ordinal": 66,
+      "name": "ResUtilFindExpandSzProperty"
+    },
+    {
+      "ordinal": 67,
+      "name": "ResUtilFindExpandedSzProperty"
+    },
+    {
+      "ordinal": 68,
+      "name": "ResUtilFindFileTimeProperty"
+    },
+    {
+      "ordinal": 69,
+      "name": "ResUtilFindLongProperty"
+    },
+    {
+      "ordinal": 70,
+      "name": "ResUtilFindMultiSzProperty"
+    },
+    {
+      "ordinal": 71,
+      "name": "ResUtilFindSzProperty"
+    },
+    {
+      "ordinal": 72,
+      "name": "ResUtilFindULargeIntegerProperty"
+    },
+    {
+      "ordinal": 73,
+      "name": "ResUtilFreeEnvironment"
+    },
+    {
+      "ordinal": 74,
+      "name": "ResUtilFreeParameterBlock"
+    },
+    {
+      "ordinal": 75,
+      "name": "ResUtilGetAllProperties"
+    },
+    {
+      "ordinal": 76,
+      "name": "ResUtilGetBinaryProperty"
+    },
+    {
+      "ordinal": 77,
+      "name": "ResUtilGetBinaryValue"
+    },
+    {
+      "ordinal": 78,
+      "name": "ResUtilGetClusterGroupType"
+    },
+    {
+      "ordinal": 79,
+      "name": "ResUtilGetClusterId"
+    },
+    {
+      "ordinal": 80,
+      "name": "ResUtilGetClusterRoleState"
+    },
+    {
+      "ordinal": 81,
+      "name": "ResUtilGetCoreClusterResources"
+    },
+    {
+      "ordinal": 82,
+      "name": "ResUtilGetCoreClusterResourcesEx"
+    },
+    {
+      "ordinal": 83,
+      "name": "ResUtilGetCoreGroup"
+    },
+    {
+      "ordinal": 84,
+      "name": "ResUtilGetDwordProperty"
+    },
+    {
+      "ordinal": 85,
+      "name": "ResUtilGetDwordValue"
+    },
+    {
+      "ordinal": 86,
+      "name": "ResUtilGetEnvironmentWithNetName"
+    },
+    {
+      "ordinal": 87,
+      "name": "ResUtilGetFileTimeProperty"
+    },
+    {
+      "ordinal": 88,
+      "name": "ResUtilGetLongProperty"
+    },
+    {
+      "ordinal": 89,
+      "name": "ResUtilGetMultiSzProperty"
+    },
+    {
+      "ordinal": 90,
+      "name": "ResUtilGetPrivateProperties"
+    },
+    {
+      "ordinal": 91,
+      "name": "ResUtilGetProperties"
+    },
+    {
+      "ordinal": 92,
+      "name": "ResUtilGetPropertiesToParameterBlock"
+    },
+    {
+      "ordinal": 93,
+      "name": "ResUtilGetProperty"
+    },
+    {
+      "ordinal": 94,
+      "name": "ResUtilGetPropertyFormats"
+    },
+    {
+      "ordinal": 95,
+      "name": "ResUtilGetPropertySize"
+    },
+    {
+      "ordinal": 96,
+      "name": "ResUtilGetQwordValue"
+    },
+    {
+      "ordinal": 97,
+      "name": "ResUtilGetResourceDependency"
+    },
+    {
+      "ordinal": 98,
+      "name": "ResUtilGetResourceDependencyByClass"
+    },
+    {
+      "ordinal": 99,
+      "name": "ResUtilGetResourceDependencyByClassEx"
+    },
+    {
+      "ordinal": 100,
+      "name": "ResUtilGetResourceDependencyByName"
+    },
+    {
+      "ordinal": 101,
+      "name": "ResUtilGetResourceDependencyByNameAndClass"
+    },
+    {
+      "ordinal": 102,
+      "name": "ResUtilGetResourceDependencyByNameEx"
+    },
+    {
+      "ordinal": 103,
+      "name": "ResUtilGetResourceDependencyEx"
+    },
+    {
+      "ordinal": 104,
+      "name": "ResUtilGetResourceDependentIPAddressProps"
+    },
+    {
+      "ordinal": 105,
+      "name": "ResUtilGetResourceName"
+    },
+    {
+      "ordinal": 106,
+      "name": "ResUtilGetResourceNameDependency"
+    },
+    {
+      "ordinal": 107,
+      "name": "ResUtilGetResourceNameDependencyEx"
+    },
+    {
+      "ordinal": 108,
+      "name": "ResUtilGetSzProperty"
+    },
+    {
+      "ordinal": 109,
+      "name": "ResUtilGetSzValue"
+    },
+    {
+      "ordinal": 110,
+      "name": "ResUtilGroupsEqual"
+    },
+    {
+      "ordinal": 111,
+      "name": "ResUtilIsPathValid"
+    },
+    {
+      "ordinal": 112,
+      "name": "ResUtilIsResourceClassEqual"
+    },
+    {
+      "ordinal": 113,
+      "name": "ResUtilLeftPaxosIsLessThanRight"
+    },
+    {
+      "ordinal": 114,
+      "name": "ResUtilNodeEnum"
+    },
+    {
+      "ordinal": 115,
+      "name": "ResUtilPaxosComparer"
+    },
+    {
+      "ordinal": 116,
+      "name": "ResUtilPropertyListFromParameterBlock"
+    },
+    {
+      "ordinal": 117,
+      "name": "ResUtilRemoveResourceServiceEnvironment"
+    },
+    {
+      "ordinal": 118,
+      "name": "ResUtilResourceDepEnum"
+    },
+    {
+      "ordinal": 119,
+      "name": "ResUtilResourceTypesEqual"
+    },
+    {
+      "ordinal": 120,
+      "name": "ResUtilResourcesEqual"
+    },
+    {
+      "ordinal": 121,
+      "name": "ResUtilSetBinaryValue"
+    },
+    {
+      "ordinal": 122,
+      "name": "ResUtilSetDwordValue"
+    },
+    {
+      "ordinal": 123,
+      "name": "ResUtilSetExpandSzValue"
+    },
+    {
+      "ordinal": 124,
+      "name": "ResUtilSetMultiSzValue"
+    },
+    {
+      "ordinal": 125,
+      "name": "ResUtilSetPrivatePropertyList"
+    },
+    {
+      "ordinal": 126,
+      "name": "ResUtilSetPropertyParameterBlock"
+    },
+    {
+      "ordinal": 127,
+      "name": "ResUtilSetPropertyParameterBlockEx"
+    },
+    {
+      "ordinal": 128,
+      "name": "ResUtilSetPropertyTable"
+    },
+    {
+      "ordinal": 129,
+      "name": "ResUtilSetPropertyTableEx"
+    },
+    {
+      "ordinal": 130,
+      "name": "ResUtilSetQwordValue"
+    },
+    {
+      "ordinal": 131,
+      "name": "ResUtilSetResourceServiceEnvironment"
+    },
+    {
+      "ordinal": 132,
+      "name": "ResUtilSetResourceServiceStartParameters"
+    },
+    {
+      "ordinal": 133,
+      "name": "ResUtilSetResourceServiceStartParametersEx"
+    },
+    {
+      "ordinal": 134,
+      "name": "ResUtilSetSzValue"
+    },
+    {
+      "ordinal": 135,
+      "name": "ResUtilSetUnknownProperties"
+    },
+    {
+      "ordinal": 136,
+      "name": "ResUtilSetValueEx"
+    },
+    {
+      "ordinal": 137,
+      "name": "ResUtilStartResourceService"
+    },
+    {
+      "ordinal": 138,
+      "name": "ResUtilStopResourceService"
+    },
+    {
+      "ordinal": 139,
+      "name": "ResUtilStopService"
+    },
+    {
+      "ordinal": 140,
+      "name": "ResUtilTerminateServiceProcessFromResDll"
+    },
+    {
+      "ordinal": 141,
+      "name": "ResUtilVerifyPrivatePropertyList"
+    },
+    {
+      "ordinal": 142,
+      "name": "ResUtilVerifyPropertyTable"
+    },
+    {
+      "ordinal": 143,
+      "name": "ResUtilVerifyResourceService"
+    },
+    {
+      "ordinal": 144,
+      "name": "ResUtilVerifyService"
+    },
+    {
+      "ordinal": 145,
+      "name": "ResUtilVerifyShutdownSafe"
+    },
+    {
+      "ordinal": 146,
+      "name": "ResUtilsDeleteKeyTree"
+    }
+  ]
+}

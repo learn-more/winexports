@@ -1,13 +1,13 @@
 {
-  "Version": "7.0.7601.17744-AMD64",
-  "md5": "c391fc68282a000cdf953f8b6b55d2ef",
-  "imphash": "c391fc68282a000cdf953f8b6b55d2ef",
+  "Version": "7.0.7600.16385-AMD64",
+  "md5": "7319bb10fa1f86e49e3dcf4136f6c957",
+  "imphash": "7319bb10fa1f86e49e3dcf4136f6c957",
   "InternalName": "msvcrt.dll",
   "CompanyName": "Microsoft Corporation",
   "FileDescription": "Windows NT CRT DLL",
-  "FileVersion": "7.0.7601.17744 (win7sp1_gdr.111215-1535)",
-  "ProductVersion": "7.0.7601.17744",
-  "PeChecksum": 684170,
+  "FileVersion": "7.0.7600.16385 (win7_rtm.090713-1255)",
+  "ProductVersion": "7.0.7600.16385",
+  "PeChecksum": 673330,
   "Size": 634880,
   "Machine": "AMD64",
   "exports": [
@@ -345,7 +345,8 @@
     },
     {
       "ordinal": 85,
-      "name": "__C_specific_handler"
+      "name": "__C_specific_handler",
+      "forwarder": "NTDLL.__C_specific_handler"
     },
     {
       "ordinal": 86,

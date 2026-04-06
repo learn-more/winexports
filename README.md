@@ -12,10 +12,14 @@ Features:
 
 | Directory | Description |
 |-----------|-------------|
+| `data/exports/nt51_x86`        | Windows XP x86 (build 2600) |
 | `data/exports/nt52_x86`        | Windows Server 2003 x86 (build 3790) |
-| `data/exports/nt61_x86`        | Windows 7 x86 (build 7601) |
+| `data/exports/nt60_x86`        | Windows Vista x86 (build 6002) |
 | `data/exports/nt61_x64`        | Windows 7 x64 (build 7601) |
-| `data/exports/nt100_x86_26200` | Windows 11 x86 (build 26200) |
+| `data/exports/nt63_x86`        | Windows 8.1 x86 (build 9600) |
+| `data/exports/nt63_x64`        | Windows 8.1 x64 (build 9600) |
+| `data/exports/nt100_x64_19041` | Windows 10 x64 (build 19041) |
+| `data/exports/nt100_x64_26200` | Windows 11 x64 (build 26200) |
 
 ## Local workflow
 
@@ -35,6 +39,8 @@ This regenerates the following (all gitignored — do not edit by hand):
 
 | Output | Description |
 |--------|-------------|
+| `content/_index.md` | Site home page with version table |
+| `data/versions.json` | Version metadata (label, desc) for Hugo templates |
 | `data/dlls/` | Aggregated per-DLL data for Hugo templates |
 | `content/dlls/` | One Hugo page per DLL |
 | `static/data/fn/` | Per-function cross-reference JSON (multi-DLL functions only) |

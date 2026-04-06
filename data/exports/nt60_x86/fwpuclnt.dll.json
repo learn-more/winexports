@@ -1,0 +1,571 @@
+{
+  "Version": "6.0.6002.18005-I386",
+  "md5": "b0d12f4344eb2ae96e487d2df6f74413",
+  "imphash": "b0d12f4344eb2ae96e487d2df6f74413",
+  "InternalName": "fwpuclnt.dll",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "FWP/IPsec User-Mode API",
+  "FileVersion": "6.0.6002.18005 (lh_sp2rtm.090410-1830)",
+  "ProductVersion": "6.0.6002.18005",
+  "PeChecksum": 626586,
+  "Size": 595456,
+  "Machine": "I386",
+  "exports": [
+    {
+      "ordinal": 1,
+      "name": "FwpmCalloutAdd0"
+    },
+    {
+      "ordinal": 2,
+      "name": "FwpmCalloutCreateEnumHandle0"
+    },
+    {
+      "ordinal": 3,
+      "name": "FwpmCalloutDeleteById0"
+    },
+    {
+      "ordinal": 4,
+      "name": "FwpmCalloutDeleteByKey0"
+    },
+    {
+      "ordinal": 5,
+      "name": "FwpmCalloutDestroyEnumHandle0"
+    },
+    {
+      "ordinal": 6,
+      "name": "FwpmCalloutEnum0"
+    },
+    {
+      "ordinal": 7,
+      "name": "FwpmCalloutGetById0"
+    },
+    {
+      "ordinal": 8,
+      "name": "FwpmCalloutGetByKey0"
+    },
+    {
+      "ordinal": 9,
+      "name": "FwpmCalloutGetSecurityInfoByKey0"
+    },
+    {
+      "ordinal": 10,
+      "name": "FwpmCalloutSetSecurityInfoByKey0"
+    },
+    {
+      "ordinal": 11,
+      "name": "FwpmCalloutSubscribeChanges0"
+    },
+    {
+      "ordinal": 12,
+      "name": "FwpmCalloutSubscriptionsGet0"
+    },
+    {
+      "ordinal": 13,
+      "name": "FwpmCalloutUnsubscribeChanges0"
+    },
+    {
+      "ordinal": 14,
+      "name": "FwpmDiagnoseNetFailure0"
+    },
+    {
+      "ordinal": 15,
+      "name": "FwpmEngineClose0"
+    },
+    {
+      "ordinal": 16,
+      "name": "FwpmEngineGetOption0"
+    },
+    {
+      "ordinal": 17,
+      "name": "FwpmEngineGetSecurityInfo0"
+    },
+    {
+      "ordinal": 18,
+      "name": "FwpmEngineOpen0"
+    },
+    {
+      "ordinal": 19,
+      "name": "FwpmEngineSetOption0"
+    },
+    {
+      "ordinal": 20,
+      "name": "FwpmEngineSetSecurityInfo0"
+    },
+    {
+      "ordinal": 21,
+      "name": "FwpmEventProviderCreate0"
+    },
+    {
+      "ordinal": 22,
+      "name": "FwpmEventProviderDestroy0"
+    },
+    {
+      "ordinal": 23,
+      "name": "FwpmEventProviderFireNetEvent0"
+    },
+    {
+      "ordinal": 24,
+      "name": "FwpmEventProviderIsNetEventTypeEnabled0"
+    },
+    {
+      "ordinal": 25,
+      "name": "FwpmFilterAdd0"
+    },
+    {
+      "ordinal": 26,
+      "name": "FwpmFilterCreateEnumHandle0"
+    },
+    {
+      "ordinal": 27,
+      "name": "FwpmFilterDeleteById0"
+    },
+    {
+      "ordinal": 28,
+      "name": "FwpmFilterDeleteByKey0"
+    },
+    {
+      "ordinal": 29,
+      "name": "FwpmFilterDestroyEnumHandle0"
+    },
+    {
+      "ordinal": 30,
+      "name": "FwpmFilterEnum0"
+    },
+    {
+      "ordinal": 31,
+      "name": "FwpmFilterGetById0"
+    },
+    {
+      "ordinal": 32,
+      "name": "FwpmFilterGetByKey0"
+    },
+    {
+      "ordinal": 33,
+      "name": "FwpmFilterGetSecurityInfoByKey0"
+    },
+    {
+      "ordinal": 34,
+      "name": "FwpmFilterSetSecurityInfoByKey0"
+    },
+    {
+      "ordinal": 35,
+      "name": "FwpmFilterSubscribeChanges0"
+    },
+    {
+      "ordinal": 36,
+      "name": "FwpmFilterSubscriptionsGet0"
+    },
+    {
+      "ordinal": 37,
+      "name": "FwpmFilterUnsubscribeChanges0"
+    },
+    {
+      "ordinal": 38,
+      "name": "FwpmFreeMemory0"
+    },
+    {
+      "ordinal": 39,
+      "name": "FwpmGetAppIdFromFileName0"
+    },
+    {
+      "ordinal": 40,
+      "name": "FwpmIPsecTunnelAdd0"
+    },
+    {
+      "ordinal": 41,
+      "name": "FwpmIPsecTunnelDeleteByKey0"
+    },
+    {
+      "ordinal": 42,
+      "name": "FwpmLayerCreateEnumHandle0"
+    },
+    {
+      "ordinal": 43,
+      "name": "FwpmLayerDestroyEnumHandle0"
+    },
+    {
+      "ordinal": 44,
+      "name": "FwpmLayerEnum0"
+    },
+    {
+      "ordinal": 45,
+      "name": "FwpmLayerGetById0"
+    },
+    {
+      "ordinal": 46,
+      "name": "FwpmLayerGetByKey0"
+    },
+    {
+      "ordinal": 47,
+      "name": "FwpmLayerGetSecurityInfoByKey0"
+    },
+    {
+      "ordinal": 48,
+      "name": "FwpmLayerSetSecurityInfoByKey0"
+    },
+    {
+      "ordinal": 49,
+      "name": "FwpmNetEventCreateEnumHandle0"
+    },
+    {
+      "ordinal": 50,
+      "name": "FwpmNetEventDestroyEnumHandle0"
+    },
+    {
+      "ordinal": 51,
+      "name": "FwpmNetEventEnum0"
+    },
+    {
+      "ordinal": 52,
+      "name": "FwpmNetEventsGetSecurityInfo0"
+    },
+    {
+      "ordinal": 53,
+      "name": "FwpmNetEventsSetSecurityInfo0"
+    },
+    {
+      "ordinal": 54,
+      "name": "FwpmProviderAdd0"
+    },
+    {
+      "ordinal": 55,
+      "name": "FwpmProviderContextAdd0"
+    },
+    {
+      "ordinal": 56,
+      "name": "FwpmProviderContextCreateEnumHandle0"
+    },
+    {
+      "ordinal": 57,
+      "name": "FwpmProviderContextDeleteById0"
+    },
+    {
+      "ordinal": 58,
+      "name": "FwpmProviderContextDeleteByKey0"
+    },
+    {
+      "ordinal": 59,
+      "name": "FwpmProviderContextDestroyEnumHandle0"
+    },
+    {
+      "ordinal": 60,
+      "name": "FwpmProviderContextEnum0"
+    },
+    {
+      "ordinal": 61,
+      "name": "FwpmProviderContextGetById0"
+    },
+    {
+      "ordinal": 62,
+      "name": "FwpmProviderContextGetByKey0"
+    },
+    {
+      "ordinal": 63,
+      "name": "FwpmProviderContextGetSecurityInfoByKey0"
+    },
+    {
+      "ordinal": 64,
+      "name": "FwpmProviderContextSetSecurityInfoByKey0"
+    },
+    {
+      "ordinal": 65,
+      "name": "FwpmProviderContextSubscribeChanges0"
+    },
+    {
+      "ordinal": 66,
+      "name": "FwpmProviderContextSubscriptionsGet0"
+    },
+    {
+      "ordinal": 67,
+      "name": "FwpmProviderContextUnsubscribeChanges0"
+    },
+    {
+      "ordinal": 68,
+      "name": "FwpmProviderCreateEnumHandle0"
+    },
+    {
+      "ordinal": 69,
+      "name": "FwpmProviderDeleteByKey0"
+    },
+    {
+      "ordinal": 70,
+      "name": "FwpmProviderDestroyEnumHandle0"
+    },
+    {
+      "ordinal": 71,
+      "name": "FwpmProviderEnum0"
+    },
+    {
+      "ordinal": 72,
+      "name": "FwpmProviderGetByKey0"
+    },
+    {
+      "ordinal": 73,
+      "name": "FwpmProviderGetSecurityInfoByKey0"
+    },
+    {
+      "ordinal": 74,
+      "name": "FwpmProviderSetSecurityInfoByKey0"
+    },
+    {
+      "ordinal": 75,
+      "name": "FwpmProviderSubscribeChanges0"
+    },
+    {
+      "ordinal": 76,
+      "name": "FwpmProviderSubscriptionsGet0"
+    },
+    {
+      "ordinal": 77,
+      "name": "FwpmProviderUnsubscribeChanges0"
+    },
+    {
+      "ordinal": 78,
+      "name": "FwpmSessionCreateEnumHandle0"
+    },
+    {
+      "ordinal": 79,
+      "name": "FwpmSessionDestroyEnumHandle0"
+    },
+    {
+      "ordinal": 80,
+      "name": "FwpmSessionEnum0"
+    },
+    {
+      "ordinal": 81,
+      "name": "FwpmSubLayerAdd0"
+    },
+    {
+      "ordinal": 82,
+      "name": "FwpmSubLayerCreateEnumHandle0"
+    },
+    {
+      "ordinal": 83,
+      "name": "FwpmSubLayerDeleteByKey0"
+    },
+    {
+      "ordinal": 84,
+      "name": "FwpmSubLayerDestroyEnumHandle0"
+    },
+    {
+      "ordinal": 85,
+      "name": "FwpmSubLayerEnum0"
+    },
+    {
+      "ordinal": 86,
+      "name": "FwpmSubLayerGetByKey0"
+    },
+    {
+      "ordinal": 87,
+      "name": "FwpmSubLayerGetSecurityInfoByKey0"
+    },
+    {
+      "ordinal": 88,
+      "name": "FwpmSubLayerSetSecurityInfoByKey0"
+    },
+    {
+      "ordinal": 89,
+      "name": "FwpmSubLayerSubscribeChanges0"
+    },
+    {
+      "ordinal": 90,
+      "name": "FwpmSubLayerSubscriptionsGet0"
+    },
+    {
+      "ordinal": 91,
+      "name": "FwpmSubLayerUnsubscribeChanges0"
+    },
+    {
+      "ordinal": 92,
+      "name": "FwpmTraceRestoreDefaults0"
+    },
+    {
+      "ordinal": 93,
+      "name": "FwpmTransactionAbort0"
+    },
+    {
+      "ordinal": 94,
+      "name": "FwpmTransactionBegin0"
+    },
+    {
+      "ordinal": 95,
+      "name": "FwpmTransactionCommit0"
+    },
+    {
+      "ordinal": 96,
+      "name": "FwpsAleExplicitCredentialsQuery0"
+    },
+    {
+      "ordinal": 97,
+      "name": "FwpsClassifyUser0"
+    },
+    {
+      "ordinal": 98,
+      "name": "FwpsFreeMemory0"
+    },
+    {
+      "ordinal": 99,
+      "name": "FwpsGetInProcReplicaOffset0"
+    },
+    {
+      "ordinal": 100,
+      "name": "FwpsLayerCreateInProcReplica0"
+    },
+    {
+      "ordinal": 101,
+      "name": "FwpsLayerReleaseInProcReplica0"
+    },
+    {
+      "ordinal": 102,
+      "name": "FwpsOpenToken0"
+    },
+    {
+      "ordinal": 103,
+      "name": "IPsecGetStatistics0"
+    },
+    {
+      "ordinal": 104,
+      "name": "IPsecKeyModuleAdd0"
+    },
+    {
+      "ordinal": 105,
+      "name": "IPsecKeyModuleCompleteAcquire0"
+    },
+    {
+      "ordinal": 106,
+      "name": "IPsecKeyModuleDelete0"
+    },
+    {
+      "ordinal": 107,
+      "name": "IPsecSaContextAddInbound0"
+    },
+    {
+      "ordinal": 108,
+      "name": "IPsecSaContextAddOutbound0"
+    },
+    {
+      "ordinal": 109,
+      "name": "IPsecSaContextCreate0"
+    },
+    {
+      "ordinal": 110,
+      "name": "IPsecSaContextCreateEnumHandle0"
+    },
+    {
+      "ordinal": 111,
+      "name": "IPsecSaContextDeleteById0"
+    },
+    {
+      "ordinal": 112,
+      "name": "IPsecSaContextDestroyEnumHandle0"
+    },
+    {
+      "ordinal": 113,
+      "name": "IPsecSaContextEnum0"
+    },
+    {
+      "ordinal": 114,
+      "name": "IPsecSaContextExpire0"
+    },
+    {
+      "ordinal": 115,
+      "name": "IPsecSaContextGetById0"
+    },
+    {
+      "ordinal": 116,
+      "name": "IPsecSaContextGetSpi0"
+    },
+    {
+      "ordinal": 117,
+      "name": "IPsecSaCreateEnumHandle0"
+    },
+    {
+      "ordinal": 118,
+      "name": "IPsecSaDbGetSecurityInfo0"
+    },
+    {
+      "ordinal": 119,
+      "name": "IPsecSaDbSetSecurityInfo0"
+    },
+    {
+      "ordinal": 120,
+      "name": "IPsecSaDestroyEnumHandle0"
+    },
+    {
+      "ordinal": 121,
+      "name": "IPsecSaEnum0"
+    },
+    {
+      "ordinal": 122,
+      "name": "IPsecSaInitiateAsync0"
+    },
+    {
+      "ordinal": 123,
+      "name": "IkeextGetConfigParameters0"
+    },
+    {
+      "ordinal": 124,
+      "name": "IkeextGetStatistics0"
+    },
+    {
+      "ordinal": 125,
+      "name": "IkeextSaCreateEnumHandle0"
+    },
+    {
+      "ordinal": 126,
+      "name": "IkeextSaDbGetSecurityInfo0"
+    },
+    {
+      "ordinal": 127,
+      "name": "IkeextSaDbSetSecurityInfo0"
+    },
+    {
+      "ordinal": 128,
+      "name": "IkeextSaDeleteById0"
+    },
+    {
+      "ordinal": 129,
+      "name": "IkeextSaDestroyEnumHandle0"
+    },
+    {
+      "ordinal": 130,
+      "name": "IkeextSaEnum0"
+    },
+    {
+      "ordinal": 131,
+      "name": "IkeextSaGetById0"
+    },
+    {
+      "ordinal": 132,
+      "name": "IkeextSetConfigParameters0"
+    },
+    {
+      "ordinal": 133,
+      "name": "WSADeleteSocketPeerTargetName"
+    },
+    {
+      "ordinal": 134,
+      "name": "WSAImpersonateSocketPeer"
+    },
+    {
+      "ordinal": 135,
+      "name": "WSAQuerySocketSecurity"
+    },
+    {
+      "ordinal": 136,
+      "name": "WSARevertImpersonation"
+    },
+    {
+      "ordinal": 137,
+      "name": "WSASetSocketPeerTargetName"
+    },
+    {
+      "ordinal": 138,
+      "name": "WSASetSocketSecurity"
+    },
+    {
+      "ordinal": 139,
+      "name": "wfpdiagW"
+    }
+  ]
+}

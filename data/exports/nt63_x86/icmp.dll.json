@@ -1,0 +1,55 @@
+{
+  "Version": "6.3.9600.16384-I386",
+  "md5": "8fbbe013b769a5a029111452473a6d12",
+  "imphash": "8fbbe013b769a5a029111452473a6d12",
+  "InternalName": "icmp.dll",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ICMP DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 31563,
+  "Size": 3072,
+  "Machine": "I386",
+  "exports": [
+    {
+      "ordinal": 1,
+      "name": "IcmpCloseHandle",
+      "forwarder": "iphlpapi.IcmpCloseHandle"
+    },
+    {
+      "ordinal": 2,
+      "name": "IcmpCreateFile",
+      "forwarder": "iphlpapi.IcmpCreateFile"
+    },
+    {
+      "ordinal": 3,
+      "name": "IcmpParseReplies",
+      "forwarder": "iphlpapi.IcmpParseReplies"
+    },
+    {
+      "ordinal": 5,
+      "name": "IcmpSendEcho",
+      "forwarder": "iphlpapi.IcmpSendEcho"
+    },
+    {
+      "ordinal": 4,
+      "name": "IcmpSendEcho2",
+      "forwarder": "iphlpapi.IcmpSendEcho2"
+    },
+    {
+      "ordinal": 6,
+      "name": "do_echo_rep",
+      "forwarder": "iphlpapi.do_echo_rep"
+    },
+    {
+      "ordinal": 7,
+      "name": "do_echo_req",
+      "forwarder": "iphlpapi.do_echo_req"
+    },
+    {
+      "ordinal": 8,
+      "name": "register_icmp",
+      "forwarder": "iphlpapi.register_icmp"
+    }
+  ]
+}

@@ -1,14 +1,14 @@
 {
-  "Version": "6.1.7601.19061-AMD64",
-  "md5": "06bf84d26a05d400f6b3fb3d3de0b03a",
-  "imphash": "06bf84d26a05d400f6b3fb3d3de0b03a",
+  "Version": "6.1.7601.17514-AMD64",
+  "md5": "fe70103391a64039a921dbfff9c7ab1b",
+  "imphash": "fe70103391a64039a921dbfff9c7ab1b",
   "InternalName": "user32",
   "CompanyName": "Microsoft Corporation",
   "FileDescription": "Multi-User Windows USER API Client DLL",
-  "FileVersion": "6.1.7601.19061 (win7sp1_gdr.151110-0600)",
-  "ProductVersion": "6.1.7601.19061",
-  "PeChecksum": 1061817,
-  "Size": 1008640,
+  "FileVersion": "6.1.7601.17514 (win7sp1_rtm.101119-1850)",
+  "ProductVersion": "6.1.7601.17514",
+  "PeChecksum": 1072089,
+  "Size": 1008128,
   "Machine": "AMD64",
   "exports": [
     {
@@ -605,11 +605,13 @@
     },
     {
       "ordinal": 1657,
-      "name": "DefDlgProcA"
+      "name": "DefDlgProcA",
+      "forwarder": "NTDLL.NtdllDialogWndProc_A"
     },
     {
       "ordinal": 1658,
-      "name": "DefDlgProcW"
+      "name": "DefDlgProcW",
+      "forwarder": "NTDLL.NtdllDialogWndProc_W"
     },
     {
       "ordinal": 1659,
@@ -633,11 +635,13 @@
     },
     {
       "ordinal": 1664,
-      "name": "DefWindowProcA"
+      "name": "DefWindowProcA",
+      "forwarder": "NTDLL.NtdllDefWindowProc_A"
     },
     {
       "ordinal": 1665,
-      "name": "DefWindowProcW"
+      "name": "DefWindowProcW",
+      "forwarder": "NTDLL.NtdllDefWindowProc_W"
     },
     {
       "ordinal": 1666,

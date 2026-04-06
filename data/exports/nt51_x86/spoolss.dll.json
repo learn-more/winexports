@@ -1,0 +1,699 @@
+{
+  "Version": "5.1.2600.2180-I386",
+  "md5": "87b85bc1e1f6e0228876204a20a9c24c",
+  "imphash": "87b85bc1e1f6e0228876204a20a9c24c",
+  "InternalName": "spoolss.dll",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "Spooler SubSystem DLL",
+  "FileVersion": "5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)",
+  "ProductVersion": "5.1.2600.2180",
+  "PeChecksum": 83072,
+  "Size": 74752,
+  "Machine": "I386",
+  "exports": [
+    {
+      "ordinal": 3,
+      "name": "AbortPrinter"
+    },
+    {
+      "ordinal": 4,
+      "name": "AddDriverCatalog"
+    },
+    {
+      "ordinal": 5,
+      "name": "AddFormW"
+    },
+    {
+      "ordinal": 6,
+      "name": "AddJobW"
+    },
+    {
+      "ordinal": 7,
+      "name": "AddMonitorW"
+    },
+    {
+      "ordinal": 8,
+      "name": "AddPerMachineConnectionW"
+    },
+    {
+      "ordinal": 9,
+      "name": "AddPortExW"
+    },
+    {
+      "ordinal": 10,
+      "name": "AddPortW"
+    },
+    {
+      "ordinal": 11,
+      "name": "AddPrintProcessorW"
+    },
+    {
+      "ordinal": 12,
+      "name": "AddPrintProvidorW"
+    },
+    {
+      "ordinal": 13,
+      "name": "AddPrinterConnectionW"
+    },
+    {
+      "ordinal": 14,
+      "name": "AddPrinterDriverExW"
+    },
+    {
+      "ordinal": 15,
+      "name": "AddPrinterDriverW"
+    },
+    {
+      "ordinal": 16,
+      "name": "AddPrinterExW"
+    },
+    {
+      "ordinal": 17,
+      "name": "AddPrinterW"
+    },
+    {
+      "ordinal": 18,
+      "name": "AdjustPointers"
+    },
+    {
+      "ordinal": 19,
+      "name": "AdjustPointersInStructuresArray"
+    },
+    {
+      "ordinal": 20,
+      "name": "AlignKMPtr"
+    },
+    {
+      "ordinal": 21,
+      "name": "AlignRpcPtr"
+    },
+    {
+      "ordinal": 22,
+      "name": "AllocSplStr"
+    },
+    {
+      "ordinal": 23,
+      "name": "AppendPrinterNotifyInfoData"
+    },
+    {
+      "ordinal": 24,
+      "name": "BuildOtherNamesFromMachineName"
+    },
+    {
+      "ordinal": 25,
+      "name": "CallDrvDevModeConversion"
+    },
+    {
+      "ordinal": 26,
+      "name": "CallRouterFindFirstPrinterChangeNotification"
+    },
+    {
+      "ordinal": 27,
+      "name": "ClosePrinter"
+    },
+    {
+      "ordinal": 28,
+      "name": "ClusterSplClose"
+    },
+    {
+      "ordinal": 29,
+      "name": "ClusterSplIsAlive"
+    },
+    {
+      "ordinal": 30,
+      "name": "ClusterSplOpen"
+    },
+    {
+      "ordinal": 31,
+      "name": "ConfigurePortW"
+    },
+    {
+      "ordinal": 32,
+      "name": "CreatePrinterIC"
+    },
+    {
+      "ordinal": 33,
+      "name": "DbgGetPointers"
+    },
+    {
+      "ordinal": 34,
+      "name": "DeleteFormW"
+    },
+    {
+      "ordinal": 35,
+      "name": "DeleteMonitorW"
+    },
+    {
+      "ordinal": 36,
+      "name": "DeletePerMachineConnectionW"
+    },
+    {
+      "ordinal": 37,
+      "name": "DeletePortW"
+    },
+    {
+      "ordinal": 38,
+      "name": "DeletePrintProcessorW"
+    },
+    {
+      "ordinal": 39,
+      "name": "DeletePrintProvidorW"
+    },
+    {
+      "ordinal": 40,
+      "name": "DeletePrinter"
+    },
+    {
+      "ordinal": 41,
+      "name": "DeletePrinterConnectionW"
+    },
+    {
+      "ordinal": 42,
+      "name": "DeletePrinterDataExW"
+    },
+    {
+      "ordinal": 43,
+      "name": "DeletePrinterDataW"
+    },
+    {
+      "ordinal": 44,
+      "name": "DeletePrinterDriverExW"
+    },
+    {
+      "ordinal": 45,
+      "name": "DeletePrinterDriverW"
+    },
+    {
+      "ordinal": 46,
+      "name": "DeletePrinterIC"
+    },
+    {
+      "ordinal": 47,
+      "name": "DeletePrinterKeyW"
+    },
+    {
+      "ordinal": 48,
+      "name": "DllAllocSplMem"
+    },
+    {
+      "ordinal": 49,
+      "name": "DllFreeSplMem"
+    },
+    {
+      "ordinal": 50,
+      "name": "DllFreeSplStr"
+    },
+    {
+      "ordinal": 51,
+      "name": "EndDocPrinter"
+    },
+    {
+      "ordinal": 52,
+      "name": "EndPagePrinter"
+    },
+    {
+      "ordinal": 53,
+      "name": "EnumFormsW"
+    },
+    {
+      "ordinal": 54,
+      "name": "EnumJobsW"
+    },
+    {
+      "ordinal": 55,
+      "name": "EnumMonitorsW"
+    },
+    {
+      "ordinal": 56,
+      "name": "EnumPerMachineConnectionsW"
+    },
+    {
+      "ordinal": 57,
+      "name": "EnumPortsW"
+    },
+    {
+      "ordinal": 58,
+      "name": "EnumPrintProcessorDatatypesW"
+    },
+    {
+      "ordinal": 59,
+      "name": "EnumPrintProcessorsW"
+    },
+    {
+      "ordinal": 60,
+      "name": "EnumPrinterDataExW"
+    },
+    {
+      "ordinal": 61,
+      "name": "EnumPrinterDataW"
+    },
+    {
+      "ordinal": 62,
+      "name": "EnumPrinterDriversW"
+    },
+    {
+      "ordinal": 63,
+      "name": "EnumPrinterKeyW"
+    },
+    {
+      "ordinal": 64,
+      "name": "EnumPrintersW"
+    },
+    {
+      "ordinal": 65,
+      "name": "FindClosePrinterChangeNotification"
+    },
+    {
+      "ordinal": 66,
+      "name": "FlushPrinter"
+    },
+    {
+      "ordinal": 67,
+      "name": "FormatPrinterForRegistryKey"
+    },
+    {
+      "ordinal": 68,
+      "name": "FormatRegistryKeyForPrinter"
+    },
+    {
+      "ordinal": 69,
+      "name": "FreeOtherNames"
+    },
+    {
+      "ordinal": 70,
+      "name": "GetClientUserHandle"
+    },
+    {
+      "ordinal": 71,
+      "name": "GetFormW"
+    },
+    {
+      "ordinal": 72,
+      "name": "GetJobAttributes"
+    },
+    {
+      "ordinal": 73,
+      "name": "GetJobW"
+    },
+    {
+      "ordinal": 74,
+      "name": "GetNetworkId"
+    },
+    {
+      "ordinal": 75,
+      "name": "GetPrintProcessorDirectoryW"
+    },
+    {
+      "ordinal": 76,
+      "name": "GetPrinterDataExW"
+    },
+    {
+      "ordinal": 77,
+      "name": "GetPrinterDataW"
+    },
+    {
+      "ordinal": 78,
+      "name": "GetPrinterDriverDirectoryW"
+    },
+    {
+      "ordinal": 79,
+      "name": "GetPrinterDriverExW"
+    },
+    {
+      "ordinal": 80,
+      "name": "GetPrinterDriverW"
+    },
+    {
+      "ordinal": 81,
+      "name": "GetPrinterW"
+    },
+    {
+      "ordinal": 82,
+      "name": "GetShrinkedSize"
+    },
+    {
+      "ordinal": 83,
+      "name": "ImpersonatePrinterClient"
+    },
+    {
+      "ordinal": 84,
+      "name": "InitializeRouter"
+    },
+    {
+      "ordinal": 85,
+      "name": "IsLocalCall"
+    },
+    {
+      "ordinal": 86,
+      "name": "IsNamedPipeRpcCall"
+    },
+    {
+      "ordinal": 87,
+      "name": "LoadDriver"
+    },
+    {
+      "ordinal": 88,
+      "name": "LoadDriverFiletoConvertDevmode"
+    },
+    {
+      "ordinal": 89,
+      "name": "LoadDriverWithVersion"
+    },
+    {
+      "ordinal": 90,
+      "name": "LogWmiTraceEvent"
+    },
+    {
+      "ordinal": 91,
+      "name": "MIDL_user_allocate1"
+    },
+    {
+      "ordinal": 92,
+      "name": "MIDL_user_free1"
+    },
+    {
+      "ordinal": 93,
+      "name": "MarshallDownStructure"
+    },
+    {
+      "ordinal": 94,
+      "name": "MarshallDownStructuresArray"
+    },
+    {
+      "ordinal": 95,
+      "name": "MarshallUpStructure"
+    },
+    {
+      "ordinal": 96,
+      "name": "MarshallUpStructuresArray"
+    },
+    {
+      "ordinal": 97,
+      "name": "OldGetPrinterDriverW"
+    },
+    {
+      "ordinal": 98,
+      "name": "OpenPrinterExW"
+    },
+    {
+      "ordinal": 99,
+      "name": "OpenPrinterPortW"
+    },
+    {
+      "ordinal": 100,
+      "name": "OpenPrinterW"
+    },
+    {
+      "ordinal": 101,
+      "name": "PackStrings"
+    },
+    {
+      "ordinal": 102,
+      "name": "PartialReplyPrinterChangeNotification"
+    },
+    {
+      "ordinal": 103,
+      "name": "PlayGdiScriptOnPrinterIC"
+    },
+    {
+      "ordinal": 104,
+      "name": "PrinterHandleRundown"
+    },
+    {
+      "ordinal": 105,
+      "name": "PrinterMessageBoxW"
+    },
+    {
+      "ordinal": 106,
+      "name": "ProvidorFindClosePrinterChangeNotification"
+    },
+    {
+      "ordinal": 107,
+      "name": "ProvidorFindFirstPrinterChangeNotification"
+    },
+    {
+      "ordinal": 108,
+      "name": "ReadPrinter"
+    },
+    {
+      "ordinal": 109,
+      "name": "ReallocSplMem"
+    },
+    {
+      "ordinal": 110,
+      "name": "ReallocSplStr"
+    },
+    {
+      "ordinal": 111,
+      "name": "RemoteFindFirstPrinterChangeNotification"
+    },
+    {
+      "ordinal": 112,
+      "name": "ReplyClosePrinter"
+    },
+    {
+      "ordinal": 113,
+      "name": "ReplyOpenPrinter"
+    },
+    {
+      "ordinal": 114,
+      "name": "ReplyPrinterChangeNotification"
+    },
+    {
+      "ordinal": 115,
+      "name": "ResetPrinterW"
+    },
+    {
+      "ordinal": 116,
+      "name": "RevertToPrinterSelf"
+    },
+    {
+      "ordinal": 117,
+      "name": "RouterAllocBidiMem"
+    },
+    {
+      "ordinal": 118,
+      "name": "RouterAllocBidiResponseContainer"
+    },
+    {
+      "ordinal": 119,
+      "name": "RouterAllocPrinterNotifyInfo"
+    },
+    {
+      "ordinal": 120,
+      "name": "RouterFindFirstPrinterChangeNotification"
+    },
+    {
+      "ordinal": 121,
+      "name": "RouterFindNextPrinterChangeNotification"
+    },
+    {
+      "ordinal": 122,
+      "name": "RouterFreeBidiMem"
+    },
+    {
+      "ordinal": 123,
+      "name": "RouterFreePrinterNotifyInfo"
+    },
+    {
+      "ordinal": 124,
+      "name": "RouterRefreshPrinterChangeNotification"
+    },
+    {
+      "ordinal": 125,
+      "name": "RouterReplyPrinter"
+    },
+    {
+      "ordinal": 126,
+      "name": "ScheduleJob"
+    },
+    {
+      "ordinal": 127,
+      "name": "SeekPrinter"
+    },
+    {
+      "ordinal": 128,
+      "name": "SendRecvBidiData"
+    },
+    {
+      "ordinal": 129,
+      "name": "SetAllocFailCount"
+    },
+    {
+      "ordinal": 130,
+      "name": "SetFormW"
+    },
+    {
+      "ordinal": 131,
+      "name": "SetJobW"
+    },
+    {
+      "ordinal": 132,
+      "name": "SetPortW"
+    },
+    {
+      "ordinal": 133,
+      "name": "SetPrinterDataExW"
+    },
+    {
+      "ordinal": 134,
+      "name": "SetPrinterDataW"
+    },
+    {
+      "ordinal": 135,
+      "name": "SetPrinterW"
+    },
+    {
+      "ordinal": 136,
+      "name": "SplCloseSpoolFileHandle"
+    },
+    {
+      "ordinal": 137,
+      "name": "SplCommitSpoolData"
+    },
+    {
+      "ordinal": 138,
+      "name": "SplDriverUnloadComplete"
+    },
+    {
+      "ordinal": 139,
+      "name": "SplGetSpoolFileInfo"
+    },
+    {
+      "ordinal": 140,
+      "name": "SplInitializeWinSpoolDrv"
+    },
+    {
+      "ordinal": 141,
+      "name": "SplIsSessionZero"
+    },
+    {
+      "ordinal": 142,
+      "name": "SplIsUpgrade"
+    },
+    {
+      "ordinal": 143,
+      "name": "SplPowerEvent"
+    },
+    {
+      "ordinal": 144,
+      "name": "SplProcessPnPEvent"
+    },
+    {
+      "ordinal": 145,
+      "name": "SplPromptUIInUsersSession"
+    },
+    {
+      "ordinal": 146,
+      "name": "SplReadPrinter"
+    },
+    {
+      "ordinal": 147,
+      "name": "SplRegisterForDeviceEvents"
+    },
+    {
+      "ordinal": 148,
+      "name": "SplShutDownRouter"
+    },
+    {
+      "ordinal": 149,
+      "name": "SplStartPhase2Init"
+    },
+    {
+      "ordinal": 150,
+      "name": "SplUnregisterForDeviceEvents"
+    },
+    {
+      "ordinal": 151,
+      "name": "SpoolerFindClosePrinterChangeNotification"
+    },
+    {
+      "ordinal": 152,
+      "name": "SpoolerFindFirstPrinterChangeNotification"
+    },
+    {
+      "ordinal": 153,
+      "name": "SpoolerFindNextPrinterChangeNotification"
+    },
+    {
+      "ordinal": 154,
+      "name": "SpoolerFreePrinterNotifyInfo"
+    },
+    {
+      "ordinal": 155,
+      "name": "SpoolerHasInitialized"
+    },
+    {
+      "ordinal": 156,
+      "name": "SpoolerInit"
+    },
+    {
+      "ordinal": 157,
+      "name": "StartDocPrinterW"
+    },
+    {
+      "ordinal": 158,
+      "name": "StartPagePrinter"
+    },
+    {
+      "ordinal": 159,
+      "name": "UndoAlignKMPtr"
+    },
+    {
+      "ordinal": 160,
+      "name": "UndoAlignRpcPtr"
+    },
+    {
+      "ordinal": 161,
+      "name": "UnloadDriver"
+    },
+    {
+      "ordinal": 162,
+      "name": "UnloadDriverFile"
+    },
+    {
+      "ordinal": 163,
+      "name": "UpdateBufferSize"
+    },
+    {
+      "ordinal": 164,
+      "name": "UpdatePrinterRegAll"
+    },
+    {
+      "ordinal": 165,
+      "name": "UpdatePrinterRegUser"
+    },
+    {
+      "ordinal": 166,
+      "name": "WaitForPrinterChange"
+    },
+    {
+      "ordinal": 167,
+      "name": "WaitForSpoolerInitialization"
+    },
+    {
+      "ordinal": 168,
+      "name": "WritePrinter"
+    },
+    {
+      "ordinal": 169,
+      "name": "XcvDataW"
+    },
+    {
+      "ordinal": 170,
+      "name": "bGetDevModePerUser"
+    },
+    {
+      "ordinal": 171,
+      "name": "bSetDevModePerUser"
+    },
+    {
+      "ordinal": 1,
+      "name": "pszDbgAllocMsgA"
+    },
+    {
+      "ordinal": 2,
+      "name": "vDbgLogError"
+    }
+  ]
+}

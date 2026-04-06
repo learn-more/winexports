@@ -13,11 +13,13 @@
   "exports": [
     {
       "ordinal": 8,
-      "name": "SLClose"
+      "name": "SLClose",
+      "forwarder": "SPPC.SLClose"
     },
     {
       "ordinal": 9,
-      "name": "SLConsumeRight"
+      "name": "SLConsumeRight",
+      "forwarder": "SPPC.SLConsumeRight"
     },
     {
       "ordinal": 10,
@@ -25,79 +27,98 @@
     },
     {
       "ordinal": 11,
-      "name": "SLDepositOfflineConfirmationId"
+      "name": "SLDepositOfflineConfirmationId",
+      "forwarder": "SPPC.SLDepositOfflineConfirmationId"
     },
     {
       "ordinal": 12,
-      "name": "SLFireEvent"
+      "name": "SLFireEvent",
+      "forwarder": "SPPC.SLFireEvent"
     },
     {
       "ordinal": 13,
-      "name": "SLGenerateOfflineInstallationId"
+      "name": "SLGenerateOfflineInstallationId",
+      "forwarder": "SPPC.SLGenerateOfflineInstallationId"
     },
     {
       "ordinal": 14,
-      "name": "SLGetApplicationInformation"
+      "name": "SLGetApplicationInformation",
+      "forwarder": "SPPC.SLGetApplicationInformation"
     },
     {
       "ordinal": 15,
-      "name": "SLGetGenuineInformation"
+      "name": "SLGetGenuineInformation",
+      "forwarder": "SPPC.SLGetGenuineInformation"
     },
     {
       "ordinal": 16,
-      "name": "SLGetInstalledProductKeyIds"
+      "name": "SLGetInstalledProductKeyIds",
+      "forwarder": "SPPC.SLGetInstalledProductKeyIds"
     },
     {
       "ordinal": 1,
-      "name": "SLGetInstalledSAMLicenseApplications"
+      "name": "SLGetInstalledSAMLicenseApplications",
+      "forwarder": "SPPC.SLpGetInstalledSAMLicenseApplications"
     },
     {
       "ordinal": 17,
-      "name": "SLGetLicense"
+      "name": "SLGetLicense",
+      "forwarder": "SPPC.SLGetLicense"
     },
     {
       "ordinal": 18,
-      "name": "SLGetLicenseFileId"
+      "name": "SLGetLicenseFileId",
+      "forwarder": "SPPC.SLGetLicenseFileId"
     },
     {
       "ordinal": 19,
-      "name": "SLGetLicenseInformation"
+      "name": "SLGetLicenseInformation",
+      "forwarder": "SPPC.SLGetLicenseInformation"
     },
     {
       "ordinal": 20,
-      "name": "SLGetLicensingStatusInformation"
+      "name": "SLGetLicensingStatusInformation",
+      "forwarder": "SPPC.SLGetLicensingStatusInformation"
     },
     {
       "ordinal": 21,
-      "name": "SLGetPKeyId"
+      "name": "SLGetPKeyId",
+      "forwarder": "SPPC.SLGetPKeyId"
     },
     {
       "ordinal": 22,
-      "name": "SLGetPKeyInformation"
+      "name": "SLGetPKeyInformation",
+      "forwarder": "SPPC.SLGetPKeyInformation"
     },
     {
       "ordinal": 23,
-      "name": "SLGetPolicyInformation"
+      "name": "SLGetPolicyInformation",
+      "forwarder": "SPPC.SLGetPolicyInformation"
     },
     {
       "ordinal": 24,
-      "name": "SLGetPolicyInformationDWORD"
+      "name": "SLGetPolicyInformationDWORD",
+      "forwarder": "SPPC.SLGetPolicyInformationDWORD"
     },
     {
       "ordinal": 25,
-      "name": "SLGetProductSkuInformation"
+      "name": "SLGetProductSkuInformation",
+      "forwarder": "SPPC.SLGetProductSkuInformation"
     },
     {
       "ordinal": 2,
-      "name": "SLGetSAMLicense"
+      "name": "SLGetSAMLicense",
+      "forwarder": "SPPC.SLpGetSAMLicense"
     },
     {
       "ordinal": 26,
-      "name": "SLGetSLIDList"
+      "name": "SLGetSLIDList",
+      "forwarder": "SPPC.SLGetSLIDList"
     },
     {
       "ordinal": 27,
-      "name": "SLGetServiceInformation"
+      "name": "SLGetServiceInformation",
+      "forwarder": "SPPC.SLGetServiceInformation"
     },
     {
       "ordinal": 28,
@@ -109,15 +130,18 @@
     },
     {
       "ordinal": 30,
-      "name": "SLInstallLicense"
+      "name": "SLInstallLicense",
+      "forwarder": "SPPC.SLInstallLicense"
     },
     {
       "ordinal": 31,
-      "name": "SLInstallProofOfPurchase"
+      "name": "SLInstallProofOfPurchase",
+      "forwarder": "SPPC.SLInstallProofOfPurchase"
     },
     {
       "ordinal": 3,
-      "name": "SLInstallSAMLicense"
+      "name": "SLInstallSAMLicense",
+      "forwarder": "SPPC.SLpInstallSAMLicense"
     },
     {
       "ordinal": 32,
@@ -125,7 +149,8 @@
     },
     {
       "ordinal": 33,
-      "name": "SLOpen"
+      "name": "SLOpen",
+      "forwarder": "SPPC.SLOpen"
     },
     {
       "ordinal": 34,
@@ -133,7 +158,8 @@
     },
     {
       "ordinal": 35,
-      "name": "SLRegisterEvent"
+      "name": "SLRegisterEvent",
+      "forwarder": "SPPC.SLRegisterEvent"
     },
     {
       "ordinal": 36,
@@ -141,27 +167,33 @@
     },
     {
       "ordinal": 37,
-      "name": "SLSetCurrentProductKey"
+      "name": "SLSetCurrentProductKey",
+      "forwarder": "SPPC.SLSetCurrentProductKey"
     },
     {
       "ordinal": 38,
-      "name": "SLSetGenuineInformation"
+      "name": "SLSetGenuineInformation",
+      "forwarder": "SPPC.SLSetGenuineInformation"
     },
     {
       "ordinal": 39,
-      "name": "SLUninstallLicense"
+      "name": "SLUninstallLicense",
+      "forwarder": "SPPC.SLUninstallLicense"
     },
     {
       "ordinal": 40,
-      "name": "SLUninstallProofOfPurchase"
+      "name": "SLUninstallProofOfPurchase",
+      "forwarder": "SPPC.SLUninstallProofOfPurchase"
     },
     {
       "ordinal": 4,
-      "name": "SLUninstallSAMLicense"
+      "name": "SLUninstallSAMLicense",
+      "forwarder": "SPPC.SLpUninstallSAMLicense"
     },
     {
       "ordinal": 41,
-      "name": "SLUnregisterEvent"
+      "name": "SLUnregisterEvent",
+      "forwarder": "SPPC.SLUnregisterEvent"
     },
     {
       "ordinal": 42,
@@ -173,7 +205,8 @@
     },
     {
       "ordinal": 6,
-      "name": "SLpGetGenuineLocal"
+      "name": "SLpGetGenuineLocal",
+      "forwarder": "SPPC.SLpGetGenuineLocal"
     },
     {
       "ordinal": 7,

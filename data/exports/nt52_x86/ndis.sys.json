@@ -1,14 +1,14 @@
 {
   "Version": "5.2.3790.3959-I386",
-  "md5": "17ac9d32af669440c4b3fdc9e6fa52d5",
-  "imphash": "17ac9d32af669440c4b3fdc9e6fa52d5",
+  "md5": "33739ab31d36184772af1ee132d5c2e2",
+  "imphash": "33739ab31d36184772af1ee132d5c2e2",
   "InternalName": "NDIS.SYS",
   "CompanyName": "Microsoft Corporation",
   "FileDescription": "NDIS 5.2 wrapper driver",
   "FileVersion": "5.2.3790.3959 (srv03_sp2_rtm.070216-1710)",
   "ProductVersion": "5.2.3790.3959",
-  "PeChecksum": 496863,
-  "Size": 475136,
+  "PeChecksum": 248335,
+  "Size": 210432,
   "Machine": "I386",
   "exports": [
     {
@@ -313,11 +313,13 @@
     },
     {
       "ordinal": 76,
-      "name": "NdisCompareAnsiString"
+      "name": "NdisCompareAnsiString",
+      "forwarder": "NTOSKRNL.RtlCompareString"
     },
     {
       "ordinal": 77,
-      "name": "NdisCompareUnicodeString"
+      "name": "NdisCompareUnicodeString",
+      "forwarder": "NTOSKRNL.RtlCompareUnicodeString"
     },
     {
       "ordinal": 78,
@@ -401,7 +403,8 @@
     },
     {
       "ordinal": 98,
-      "name": "NdisEqualString"
+      "name": "NdisEqualString",
+      "forwarder": "NTOSKRNL.RtlEqualUnicodeString"
     },
     {
       "ordinal": 99,
@@ -657,11 +660,13 @@
     },
     {
       "ordinal": 162,
-      "name": "NdisInitAnsiString"
+      "name": "NdisInitAnsiString",
+      "forwarder": "NTOSKRNL.RtlInitAnsiString"
     },
     {
       "ordinal": 163,
-      "name": "NdisInitUnicodeString"
+      "name": "NdisInitUnicodeString",
+      "forwarder": "NTOSKRNL.RtlInitUnicodeString"
     },
     {
       "ordinal": 164,
@@ -689,7 +694,8 @@
     },
     {
       "ordinal": 170,
-      "name": "NdisInterlockedAddLargeInterger"
+      "name": "NdisInterlockedAddLargeInterger",
+      "forwarder": "NTOSKRNL.ExInterlockedAddLargeInteger"
     },
     {
       "ordinal": 171,

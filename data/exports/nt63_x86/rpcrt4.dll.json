@@ -1,0 +1,2238 @@
+{
+  "Version": "6.3.9600.16384-I386",
+  "md5": "d9dcdc657088a90e1b5e57bb5d35783b",
+  "imphash": "d9dcdc657088a90e1b5e57bb5d35783b",
+  "InternalName": "rpcrt4.dll",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "Remote Procedure Call Runtime",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 856501,
+  "Size": 802088,
+  "Machine": "I386",
+  "exports": [
+    {
+      "ordinal": 20,
+      "name": "CStdStubBuffer_AddRef"
+    },
+    {
+      "ordinal": 21,
+      "name": "CStdStubBuffer_Connect"
+    },
+    {
+      "ordinal": 22,
+      "name": "CStdStubBuffer_CountRefs"
+    },
+    {
+      "ordinal": 23,
+      "name": "CStdStubBuffer_DebugServerQueryInterface"
+    },
+    {
+      "ordinal": 24,
+      "name": "CStdStubBuffer_DebugServerRelease"
+    },
+    {
+      "ordinal": 25,
+      "name": "CStdStubBuffer_Disconnect"
+    },
+    {
+      "ordinal": 26,
+      "name": "CStdStubBuffer_Invoke"
+    },
+    {
+      "ordinal": 27,
+      "name": "CStdStubBuffer_IsIIDSupported"
+    },
+    {
+      "ordinal": 28,
+      "name": "CStdStubBuffer_QueryInterface"
+    },
+    {
+      "ordinal": 29,
+      "name": "CreateProxyFromTypeInfo"
+    },
+    {
+      "ordinal": 30,
+      "name": "CreateStubFromTypeInfo"
+    },
+    {
+      "ordinal": 31,
+      "name": "DceErrorInqTextA"
+    },
+    {
+      "ordinal": 32,
+      "name": "DceErrorInqTextW"
+    },
+    {
+      "ordinal": 33,
+      "name": "DllGetClassObject"
+    },
+    {
+      "ordinal": 34,
+      "name": "DllRegisterServer"
+    },
+    {
+      "ordinal": 35,
+      "name": "IUnknown_AddRef_Proxy"
+    },
+    {
+      "ordinal": 36,
+      "name": "IUnknown_QueryInterface_Proxy"
+    },
+    {
+      "ordinal": 37,
+      "name": "IUnknown_Release_Proxy"
+    },
+    {
+      "ordinal": 38,
+      "name": "I_RpcAllocate"
+    },
+    {
+      "ordinal": 39,
+      "name": "I_RpcAsyncAbortCall"
+    },
+    {
+      "ordinal": 40,
+      "name": "I_RpcAsyncSetHandle"
+    },
+    {
+      "ordinal": 41,
+      "name": "I_RpcBCacheAllocate"
+    },
+    {
+      "ordinal": 42,
+      "name": "I_RpcBCacheFree"
+    },
+    {
+      "ordinal": 43,
+      "name": "I_RpcBindingCopy"
+    },
+    {
+      "ordinal": 44,
+      "name": "I_RpcBindingCreateNP"
+    },
+    {
+      "ordinal": 45,
+      "name": "I_RpcBindingHandleToAsyncHandle"
+    },
+    {
+      "ordinal": 46,
+      "name": "I_RpcBindingInqClientTokenAttributes"
+    },
+    {
+      "ordinal": 1,
+      "name": "I_RpcBindingInqCurrentModifiedId"
+    },
+    {
+      "ordinal": 47,
+      "name": "I_RpcBindingInqDynamicEndpoint",
+      "forwarder": "RPCRT4.I_RpcBindingInqDynamicEndpointW"
+    },
+    {
+      "ordinal": 48,
+      "name": "I_RpcBindingInqDynamicEndpointA"
+    },
+    {
+      "ordinal": 49,
+      "name": "I_RpcBindingInqDynamicEndpointW"
+    },
+    {
+      "ordinal": 50,
+      "name": "I_RpcBindingInqLocalClientPID"
+    },
+    {
+      "ordinal": 51,
+      "name": "I_RpcBindingInqMarshalledTargetInfo"
+    },
+    {
+      "ordinal": 52,
+      "name": "I_RpcBindingInqSecurityContext"
+    },
+    {
+      "ordinal": 53,
+      "name": "I_RpcBindingInqSecurityContextKeyInfo"
+    },
+    {
+      "ordinal": 54,
+      "name": "I_RpcBindingInqTransportType"
+    },
+    {
+      "ordinal": 55,
+      "name": "I_RpcBindingInqWireIdForSnego"
+    },
+    {
+      "ordinal": 56,
+      "name": "I_RpcBindingIsClientLocal"
+    },
+    {
+      "ordinal": 57,
+      "name": "I_RpcBindingIsServerLocal"
+    },
+    {
+      "ordinal": 58,
+      "name": "I_RpcBindingSetPrivateOption"
+    },
+    {
+      "ordinal": 59,
+      "name": "I_RpcBindingToStaticStringBindingW"
+    },
+    {
+      "ordinal": 60,
+      "name": "I_RpcCertProcessAndProvision"
+    },
+    {
+      "ordinal": 61,
+      "name": "I_RpcClearMutex"
+    },
+    {
+      "ordinal": 62,
+      "name": "I_RpcCompleteAndFree"
+    },
+    {
+      "ordinal": 63,
+      "name": "I_RpcConnectionInqSockBuffSize"
+    },
+    {
+      "ordinal": 64,
+      "name": "I_RpcConnectionSetSockBuffSize"
+    },
+    {
+      "ordinal": 65,
+      "name": "I_RpcDeleteMutex"
+    },
+    {
+      "ordinal": 66,
+      "name": "I_RpcEnableWmiTrace"
+    },
+    {
+      "ordinal": 67,
+      "name": "I_RpcExceptionFilter"
+    },
+    {
+      "ordinal": 68,
+      "name": "I_RpcFilterDCOMActivation"
+    },
+    {
+      "ordinal": 69,
+      "name": "I_RpcFree"
+    },
+    {
+      "ordinal": 70,
+      "name": "I_RpcFreeBuffer"
+    },
+    {
+      "ordinal": 71,
+      "name": "I_RpcFreePipeBuffer"
+    },
+    {
+      "ordinal": 2,
+      "name": "I_RpcFwThisIsTheManager"
+    },
+    {
+      "ordinal": 72,
+      "name": "I_RpcGetBuffer"
+    },
+    {
+      "ordinal": 73,
+      "name": "I_RpcGetBufferWithObject"
+    },
+    {
+      "ordinal": 74,
+      "name": "I_RpcGetCurrentCallHandle"
+    },
+    {
+      "ordinal": 75,
+      "name": "I_RpcGetDefaultSD"
+    },
+    {
+      "ordinal": 76,
+      "name": "I_RpcGetExtendedError"
+    },
+    {
+      "ordinal": 77,
+      "name": "I_RpcGetPortAllocationData"
+    },
+    {
+      "ordinal": 78,
+      "name": "I_RpcIfInqTransferSyntaxes"
+    },
+    {
+      "ordinal": 3,
+      "name": "I_RpcInitFwImports"
+    },
+    {
+      "ordinal": 4,
+      "name": "I_RpcInitHttpImports"
+    },
+    {
+      "ordinal": 5,
+      "name": "I_RpcInitImports"
+    },
+    {
+      "ordinal": 6,
+      "name": "I_RpcInitNdrImports"
+    },
+    {
+      "ordinal": 79,
+      "name": "I_RpcLogEvent"
+    },
+    {
+      "ordinal": 80,
+      "name": "I_RpcMapWin32Status"
+    },
+    {
+      "ordinal": 81,
+      "name": "I_RpcMarshalBindingHandleAndInterfaceForNDF"
+    },
+    {
+      "ordinal": 82,
+      "name": "I_RpcMgmtEnableDedicatedThreadPool"
+    },
+    {
+      "ordinal": 7,
+      "name": "I_RpcMgmtQueryDedicatedThreadPool"
+    },
+    {
+      "ordinal": 83,
+      "name": "I_RpcNDRCGetWireRepresentation"
+    },
+    {
+      "ordinal": 84,
+      "name": "I_RpcNDRSContextEmergencyCleanup"
+    },
+    {
+      "ordinal": 85,
+      "name": "I_RpcNegotiateTransferSyntax"
+    },
+    {
+      "ordinal": 86,
+      "name": "I_RpcNsBindingSetEntryName",
+      "forwarder": "RPCRT4.I_RpcNsBindingSetEntryNameW"
+    },
+    {
+      "ordinal": 87,
+      "name": "I_RpcNsBindingSetEntryNameA"
+    },
+    {
+      "ordinal": 88,
+      "name": "I_RpcNsBindingSetEntryNameW"
+    },
+    {
+      "ordinal": 89,
+      "name": "I_RpcNsInterfaceExported"
+    },
+    {
+      "ordinal": 90,
+      "name": "I_RpcNsInterfaceUnexported"
+    },
+    {
+      "ordinal": 91,
+      "name": "I_RpcOpenClientProcess"
+    },
+    {
+      "ordinal": 8,
+      "name": "I_RpcOpenClientThread"
+    },
+    {
+      "ordinal": 92,
+      "name": "I_RpcParseSecurity"
+    },
+    {
+      "ordinal": 93,
+      "name": "I_RpcPauseExecution"
+    },
+    {
+      "ordinal": 94,
+      "name": "I_RpcReallocPipeBuffer"
+    },
+    {
+      "ordinal": 95,
+      "name": "I_RpcReceive"
+    },
+    {
+      "ordinal": 96,
+      "name": "I_RpcRecordCalloutFailure"
+    },
+    {
+      "ordinal": 97,
+      "name": "I_RpcRequestMutex"
+    },
+    {
+      "ordinal": 98,
+      "name": "I_RpcSNCHOption"
+    },
+    {
+      "ordinal": 99,
+      "name": "I_RpcSend"
+    },
+    {
+      "ordinal": 100,
+      "name": "I_RpcSendReceive"
+    },
+    {
+      "ordinal": 101,
+      "name": "I_RpcServerAllocateIpPort"
+    },
+    {
+      "ordinal": 102,
+      "name": "I_RpcServerCheckClientRestriction"
+    },
+    {
+      "ordinal": 103,
+      "name": "I_RpcServerDisableExceptionFilter"
+    },
+    {
+      "ordinal": 104,
+      "name": "I_RpcServerGetAssociationID"
+    },
+    {
+      "ordinal": 105,
+      "name": "I_RpcServerInqAddressChangeFn"
+    },
+    {
+      "ordinal": 106,
+      "name": "I_RpcServerInqLocalConnAddress"
+    },
+    {
+      "ordinal": 107,
+      "name": "I_RpcServerInqRemoteConnAddress"
+    },
+    {
+      "ordinal": 108,
+      "name": "I_RpcServerInqTransportType"
+    },
+    {
+      "ordinal": 109,
+      "name": "I_RpcServerIsClientDisconnected"
+    },
+    {
+      "ordinal": 110,
+      "name": "I_RpcServerRegisterForwardFunction"
+    },
+    {
+      "ordinal": 111,
+      "name": "I_RpcServerSetAddressChangeFn"
+    },
+    {
+      "ordinal": 112,
+      "name": "I_RpcServerStartService"
+    },
+    {
+      "ordinal": 113,
+      "name": "I_RpcServerSubscribeForDisconnectNotification"
+    },
+    {
+      "ordinal": 9,
+      "name": "I_RpcServerTurnOnOffKeepalives"
+    },
+    {
+      "ordinal": 114,
+      "name": "I_RpcServerUseProtseq2A"
+    },
+    {
+      "ordinal": 115,
+      "name": "I_RpcServerUseProtseq2W"
+    },
+    {
+      "ordinal": 116,
+      "name": "I_RpcServerUseProtseqEp2A"
+    },
+    {
+      "ordinal": 117,
+      "name": "I_RpcServerUseProtseqEp2W"
+    },
+    {
+      "ordinal": 118,
+      "name": "I_RpcSessionStrictContextHandle"
+    },
+    {
+      "ordinal": 119,
+      "name": "I_RpcSetDCOMAppId"
+    },
+    {
+      "ordinal": 120,
+      "name": "I_RpcSsDontSerializeContext"
+    },
+    {
+      "ordinal": 121,
+      "name": "I_RpcSystemFunction001"
+    },
+    {
+      "ordinal": 122,
+      "name": "I_RpcTransConnectionAllocatePacket"
+    },
+    {
+      "ordinal": 123,
+      "name": "I_RpcTransConnectionFreePacket"
+    },
+    {
+      "ordinal": 124,
+      "name": "I_RpcTransConnectionReallocPacket"
+    },
+    {
+      "ordinal": 126,
+      "name": "I_RpcTransDatagramAllocate"
+    },
+    {
+      "ordinal": 125,
+      "name": "I_RpcTransDatagramAllocate2"
+    },
+    {
+      "ordinal": 127,
+      "name": "I_RpcTransDatagramFree"
+    },
+    {
+      "ordinal": 128,
+      "name": "I_RpcTransGetThreadEvent"
+    },
+    {
+      "ordinal": 129,
+      "name": "I_RpcTransGetThreadEventThreadOptional"
+    },
+    {
+      "ordinal": 130,
+      "name": "I_RpcTransIoCancelled"
+    },
+    {
+      "ordinal": 131,
+      "name": "I_RpcTransServerNewConnection"
+    },
+    {
+      "ordinal": 132,
+      "name": "I_RpcTurnOnEEInfoPropagation"
+    },
+    {
+      "ordinal": 10,
+      "name": "I_RpcVerifierCorruptionExpected"
+    },
+    {
+      "ordinal": 133,
+      "name": "I_UuidCreate"
+    },
+    {
+      "ordinal": 134,
+      "name": "MIDL_wchar_strcpy"
+    },
+    {
+      "ordinal": 135,
+      "name": "MIDL_wchar_strlen"
+    },
+    {
+      "ordinal": 136,
+      "name": "MesBufferHandleReset"
+    },
+    {
+      "ordinal": 137,
+      "name": "MesDecodeBufferHandleCreate"
+    },
+    {
+      "ordinal": 138,
+      "name": "MesDecodeIncrementalHandleCreate"
+    },
+    {
+      "ordinal": 139,
+      "name": "MesEncodeDynBufferHandleCreate"
+    },
+    {
+      "ordinal": 140,
+      "name": "MesEncodeFixedBufferHandleCreate"
+    },
+    {
+      "ordinal": 141,
+      "name": "MesEncodeIncrementalHandleCreate"
+    },
+    {
+      "ordinal": 142,
+      "name": "MesHandleFree"
+    },
+    {
+      "ordinal": 143,
+      "name": "MesIncrementalHandleReset"
+    },
+    {
+      "ordinal": 144,
+      "name": "MesInqProcEncodingId"
+    },
+    {
+      "ordinal": 145,
+      "name": "NDRCContextBinding"
+    },
+    {
+      "ordinal": 146,
+      "name": "NDRCContextMarshall"
+    },
+    {
+      "ordinal": 147,
+      "name": "NDRCContextUnmarshall"
+    },
+    {
+      "ordinal": 149,
+      "name": "NDRSContextMarshall"
+    },
+    {
+      "ordinal": 148,
+      "name": "NDRSContextMarshall2"
+    },
+    {
+      "ordinal": 150,
+      "name": "NDRSContextMarshallEx"
+    },
+    {
+      "ordinal": 152,
+      "name": "NDRSContextUnmarshall"
+    },
+    {
+      "ordinal": 151,
+      "name": "NDRSContextUnmarshall2"
+    },
+    {
+      "ordinal": 153,
+      "name": "NDRSContextUnmarshallEx"
+    },
+    {
+      "ordinal": 154,
+      "name": "NDRcopy"
+    },
+    {
+      "ordinal": 155,
+      "name": "NdrAllocate"
+    },
+    {
+      "ordinal": 156,
+      "name": "NdrAsyncClientCall"
+    },
+    {
+      "ordinal": 157,
+      "name": "NdrAsyncServerCall"
+    },
+    {
+      "ordinal": 158,
+      "name": "NdrByteCountPointerBufferSize"
+    },
+    {
+      "ordinal": 159,
+      "name": "NdrByteCountPointerFree"
+    },
+    {
+      "ordinal": 160,
+      "name": "NdrByteCountPointerMarshall"
+    },
+    {
+      "ordinal": 161,
+      "name": "NdrByteCountPointerUnmarshall"
+    },
+    {
+      "ordinal": 162,
+      "name": "NdrCStdStubBuffer2_Release"
+    },
+    {
+      "ordinal": 163,
+      "name": "NdrCStdStubBuffer_Release"
+    },
+    {
+      "ordinal": 164,
+      "name": "NdrClearOutParameters"
+    },
+    {
+      "ordinal": 165,
+      "name": "NdrClientCall"
+    },
+    {
+      "ordinal": 166,
+      "name": "NdrClientCall2"
+    },
+    {
+      "ordinal": 167,
+      "name": "NdrClientContextMarshall"
+    },
+    {
+      "ordinal": 168,
+      "name": "NdrClientContextUnmarshall"
+    },
+    {
+      "ordinal": 169,
+      "name": "NdrClientInitialize"
+    },
+    {
+      "ordinal": 170,
+      "name": "NdrClientInitializeNew"
+    },
+    {
+      "ordinal": 171,
+      "name": "NdrComplexArrayBufferSize"
+    },
+    {
+      "ordinal": 172,
+      "name": "NdrComplexArrayFree"
+    },
+    {
+      "ordinal": 173,
+      "name": "NdrComplexArrayMarshall"
+    },
+    {
+      "ordinal": 174,
+      "name": "NdrComplexArrayMemorySize"
+    },
+    {
+      "ordinal": 175,
+      "name": "NdrComplexArrayUnmarshall"
+    },
+    {
+      "ordinal": 176,
+      "name": "NdrComplexStructBufferSize"
+    },
+    {
+      "ordinal": 177,
+      "name": "NdrComplexStructFree"
+    },
+    {
+      "ordinal": 178,
+      "name": "NdrComplexStructMarshall"
+    },
+    {
+      "ordinal": 179,
+      "name": "NdrComplexStructMemorySize"
+    },
+    {
+      "ordinal": 180,
+      "name": "NdrComplexStructUnmarshall"
+    },
+    {
+      "ordinal": 181,
+      "name": "NdrConformantArrayBufferSize"
+    },
+    {
+      "ordinal": 182,
+      "name": "NdrConformantArrayFree"
+    },
+    {
+      "ordinal": 183,
+      "name": "NdrConformantArrayMarshall"
+    },
+    {
+      "ordinal": 184,
+      "name": "NdrConformantArrayMemorySize"
+    },
+    {
+      "ordinal": 185,
+      "name": "NdrConformantArrayUnmarshall"
+    },
+    {
+      "ordinal": 186,
+      "name": "NdrConformantStringBufferSize"
+    },
+    {
+      "ordinal": 187,
+      "name": "NdrConformantStringMarshall"
+    },
+    {
+      "ordinal": 188,
+      "name": "NdrConformantStringMemorySize"
+    },
+    {
+      "ordinal": 189,
+      "name": "NdrConformantStringUnmarshall"
+    },
+    {
+      "ordinal": 190,
+      "name": "NdrConformantStructBufferSize"
+    },
+    {
+      "ordinal": 191,
+      "name": "NdrConformantStructFree"
+    },
+    {
+      "ordinal": 192,
+      "name": "NdrConformantStructMarshall"
+    },
+    {
+      "ordinal": 193,
+      "name": "NdrConformantStructMemorySize"
+    },
+    {
+      "ordinal": 194,
+      "name": "NdrConformantStructUnmarshall"
+    },
+    {
+      "ordinal": 195,
+      "name": "NdrConformantVaryingArrayBufferSize"
+    },
+    {
+      "ordinal": 196,
+      "name": "NdrConformantVaryingArrayFree"
+    },
+    {
+      "ordinal": 197,
+      "name": "NdrConformantVaryingArrayMarshall"
+    },
+    {
+      "ordinal": 198,
+      "name": "NdrConformantVaryingArrayMemorySize"
+    },
+    {
+      "ordinal": 199,
+      "name": "NdrConformantVaryingArrayUnmarshall"
+    },
+    {
+      "ordinal": 200,
+      "name": "NdrConformantVaryingStructBufferSize"
+    },
+    {
+      "ordinal": 201,
+      "name": "NdrConformantVaryingStructFree"
+    },
+    {
+      "ordinal": 202,
+      "name": "NdrConformantVaryingStructMarshall"
+    },
+    {
+      "ordinal": 203,
+      "name": "NdrConformantVaryingStructMemorySize"
+    },
+    {
+      "ordinal": 204,
+      "name": "NdrConformantVaryingStructUnmarshall"
+    },
+    {
+      "ordinal": 205,
+      "name": "NdrContextHandleInitialize"
+    },
+    {
+      "ordinal": 206,
+      "name": "NdrContextHandleSize"
+    },
+    {
+      "ordinal": 208,
+      "name": "NdrConvert"
+    },
+    {
+      "ordinal": 207,
+      "name": "NdrConvert2"
+    },
+    {
+      "ordinal": 209,
+      "name": "NdrCorrelationFree"
+    },
+    {
+      "ordinal": 210,
+      "name": "NdrCorrelationInitialize"
+    },
+    {
+      "ordinal": 211,
+      "name": "NdrCorrelationPass"
+    },
+    {
+      "ordinal": 212,
+      "name": "NdrCreateServerInterfaceFromStub"
+    },
+    {
+      "ordinal": 213,
+      "name": "NdrDcomAsyncClientCall"
+    },
+    {
+      "ordinal": 214,
+      "name": "NdrDcomAsyncStubCall"
+    },
+    {
+      "ordinal": 215,
+      "name": "NdrDllCanUnloadNow"
+    },
+    {
+      "ordinal": 216,
+      "name": "NdrDllGetClassObject"
+    },
+    {
+      "ordinal": 217,
+      "name": "NdrDllRegisterProxy"
+    },
+    {
+      "ordinal": 218,
+      "name": "NdrDllUnregisterProxy"
+    },
+    {
+      "ordinal": 219,
+      "name": "NdrEncapsulatedUnionBufferSize"
+    },
+    {
+      "ordinal": 220,
+      "name": "NdrEncapsulatedUnionFree"
+    },
+    {
+      "ordinal": 221,
+      "name": "NdrEncapsulatedUnionMarshall"
+    },
+    {
+      "ordinal": 222,
+      "name": "NdrEncapsulatedUnionMemorySize"
+    },
+    {
+      "ordinal": 223,
+      "name": "NdrEncapsulatedUnionUnmarshall"
+    },
+    {
+      "ordinal": 224,
+      "name": "NdrFixedArrayBufferSize"
+    },
+    {
+      "ordinal": 225,
+      "name": "NdrFixedArrayFree"
+    },
+    {
+      "ordinal": 226,
+      "name": "NdrFixedArrayMarshall"
+    },
+    {
+      "ordinal": 227,
+      "name": "NdrFixedArrayMemorySize"
+    },
+    {
+      "ordinal": 228,
+      "name": "NdrFixedArrayUnmarshall"
+    },
+    {
+      "ordinal": 229,
+      "name": "NdrFreeBuffer"
+    },
+    {
+      "ordinal": 11,
+      "name": "NdrFullPointerFree"
+    },
+    {
+      "ordinal": 12,
+      "name": "NdrFullPointerInsertRefId"
+    },
+    {
+      "ordinal": 13,
+      "name": "NdrFullPointerQueryPointer"
+    },
+    {
+      "ordinal": 14,
+      "name": "NdrFullPointerQueryRefId"
+    },
+    {
+      "ordinal": 230,
+      "name": "NdrFullPointerXlatFree"
+    },
+    {
+      "ordinal": 231,
+      "name": "NdrFullPointerXlatInit"
+    },
+    {
+      "ordinal": 232,
+      "name": "NdrGetBaseInterfaceFromStub"
+    },
+    {
+      "ordinal": 233,
+      "name": "NdrGetBuffer"
+    },
+    {
+      "ordinal": 234,
+      "name": "NdrGetDcomProtocolVersion"
+    },
+    {
+      "ordinal": 235,
+      "name": "NdrGetSimpleTypeBufferAlignment"
+    },
+    {
+      "ordinal": 236,
+      "name": "NdrGetSimpleTypeBufferSize"
+    },
+    {
+      "ordinal": 237,
+      "name": "NdrGetSimpleTypeMemorySize"
+    },
+    {
+      "ordinal": 238,
+      "name": "NdrGetTypeFlags"
+    },
+    {
+      "ordinal": 239,
+      "name": "NdrGetUserMarshalInfo"
+    },
+    {
+      "ordinal": 240,
+      "name": "NdrInterfacePointerBufferSize"
+    },
+    {
+      "ordinal": 241,
+      "name": "NdrInterfacePointerFree"
+    },
+    {
+      "ordinal": 242,
+      "name": "NdrInterfacePointerMarshall"
+    },
+    {
+      "ordinal": 243,
+      "name": "NdrInterfacePointerMemorySize"
+    },
+    {
+      "ordinal": 244,
+      "name": "NdrInterfacePointerUnmarshall"
+    },
+    {
+      "ordinal": 245,
+      "name": "NdrMapCommAndFaultStatus"
+    },
+    {
+      "ordinal": 246,
+      "name": "NdrMesProcEncodeDecode"
+    },
+    {
+      "ordinal": 247,
+      "name": "NdrMesProcEncodeDecode2"
+    },
+    {
+      "ordinal": 248,
+      "name": "NdrMesSimpleTypeAlignSize"
+    },
+    {
+      "ordinal": 249,
+      "name": "NdrMesSimpleTypeDecode"
+    },
+    {
+      "ordinal": 250,
+      "name": "NdrMesSimpleTypeEncode"
+    },
+    {
+      "ordinal": 252,
+      "name": "NdrMesTypeAlignSize"
+    },
+    {
+      "ordinal": 251,
+      "name": "NdrMesTypeAlignSize2"
+    },
+    {
+      "ordinal": 254,
+      "name": "NdrMesTypeDecode"
+    },
+    {
+      "ordinal": 253,
+      "name": "NdrMesTypeDecode2"
+    },
+    {
+      "ordinal": 256,
+      "name": "NdrMesTypeEncode"
+    },
+    {
+      "ordinal": 255,
+      "name": "NdrMesTypeEncode2"
+    },
+    {
+      "ordinal": 257,
+      "name": "NdrMesTypeFree2"
+    },
+    {
+      "ordinal": 258,
+      "name": "NdrNonConformantStringBufferSize"
+    },
+    {
+      "ordinal": 259,
+      "name": "NdrNonConformantStringMarshall"
+    },
+    {
+      "ordinal": 260,
+      "name": "NdrNonConformantStringMemorySize"
+    },
+    {
+      "ordinal": 261,
+      "name": "NdrNonConformantStringUnmarshall"
+    },
+    {
+      "ordinal": 262,
+      "name": "NdrNonEncapsulatedUnionBufferSize"
+    },
+    {
+      "ordinal": 263,
+      "name": "NdrNonEncapsulatedUnionFree"
+    },
+    {
+      "ordinal": 264,
+      "name": "NdrNonEncapsulatedUnionMarshall"
+    },
+    {
+      "ordinal": 265,
+      "name": "NdrNonEncapsulatedUnionMemorySize"
+    },
+    {
+      "ordinal": 266,
+      "name": "NdrNonEncapsulatedUnionUnmarshall"
+    },
+    {
+      "ordinal": 267,
+      "name": "NdrNsGetBuffer"
+    },
+    {
+      "ordinal": 268,
+      "name": "NdrNsSendReceive"
+    },
+    {
+      "ordinal": 269,
+      "name": "NdrOleAllocate"
+    },
+    {
+      "ordinal": 270,
+      "name": "NdrOleFree"
+    },
+    {
+      "ordinal": 271,
+      "name": "NdrOutInit"
+    },
+    {
+      "ordinal": 272,
+      "name": "NdrPartialIgnoreClientBufferSize"
+    },
+    {
+      "ordinal": 273,
+      "name": "NdrPartialIgnoreClientMarshall"
+    },
+    {
+      "ordinal": 274,
+      "name": "NdrPartialIgnoreServerInitialize"
+    },
+    {
+      "ordinal": 275,
+      "name": "NdrPartialIgnoreServerUnmarshall"
+    },
+    {
+      "ordinal": 276,
+      "name": "NdrPointerBufferSize"
+    },
+    {
+      "ordinal": 277,
+      "name": "NdrPointerFree"
+    },
+    {
+      "ordinal": 278,
+      "name": "NdrPointerMarshall"
+    },
+    {
+      "ordinal": 279,
+      "name": "NdrPointerMemorySize"
+    },
+    {
+      "ordinal": 280,
+      "name": "NdrPointerUnmarshall"
+    },
+    {
+      "ordinal": 281,
+      "name": "NdrProxyErrorHandler"
+    },
+    {
+      "ordinal": 282,
+      "name": "NdrProxyFreeBuffer"
+    },
+    {
+      "ordinal": 283,
+      "name": "NdrProxyGetBuffer"
+    },
+    {
+      "ordinal": 284,
+      "name": "NdrProxyInitialize"
+    },
+    {
+      "ordinal": 285,
+      "name": "NdrProxySendReceive"
+    },
+    {
+      "ordinal": 286,
+      "name": "NdrRangeUnmarshall"
+    },
+    {
+      "ordinal": 287,
+      "name": "NdrRpcSmClientAllocate"
+    },
+    {
+      "ordinal": 288,
+      "name": "NdrRpcSmClientFree"
+    },
+    {
+      "ordinal": 289,
+      "name": "NdrRpcSmSetClientToOsf"
+    },
+    {
+      "ordinal": 290,
+      "name": "NdrRpcSsDefaultAllocate"
+    },
+    {
+      "ordinal": 291,
+      "name": "NdrRpcSsDefaultFree"
+    },
+    {
+      "ordinal": 292,
+      "name": "NdrRpcSsDisableAllocate"
+    },
+    {
+      "ordinal": 293,
+      "name": "NdrRpcSsEnableAllocate"
+    },
+    {
+      "ordinal": 294,
+      "name": "NdrSendReceive"
+    },
+    {
+      "ordinal": 296,
+      "name": "NdrServerCall"
+    },
+    {
+      "ordinal": 295,
+      "name": "NdrServerCall2"
+    },
+    {
+      "ordinal": 297,
+      "name": "NdrServerContextMarshall"
+    },
+    {
+      "ordinal": 298,
+      "name": "NdrServerContextNewMarshall"
+    },
+    {
+      "ordinal": 299,
+      "name": "NdrServerContextNewUnmarshall"
+    },
+    {
+      "ordinal": 300,
+      "name": "NdrServerContextUnmarshall"
+    },
+    {
+      "ordinal": 301,
+      "name": "NdrServerInitialize"
+    },
+    {
+      "ordinal": 302,
+      "name": "NdrServerInitializeMarshall"
+    },
+    {
+      "ordinal": 303,
+      "name": "NdrServerInitializeNew"
+    },
+    {
+      "ordinal": 304,
+      "name": "NdrServerInitializePartial"
+    },
+    {
+      "ordinal": 305,
+      "name": "NdrServerInitializeUnmarshall"
+    },
+    {
+      "ordinal": 306,
+      "name": "NdrServerMarshall"
+    },
+    {
+      "ordinal": 307,
+      "name": "NdrServerUnmarshall"
+    },
+    {
+      "ordinal": 308,
+      "name": "NdrSimpleStructBufferSize"
+    },
+    {
+      "ordinal": 309,
+      "name": "NdrSimpleStructFree"
+    },
+    {
+      "ordinal": 310,
+      "name": "NdrSimpleStructMarshall"
+    },
+    {
+      "ordinal": 311,
+      "name": "NdrSimpleStructMemorySize"
+    },
+    {
+      "ordinal": 312,
+      "name": "NdrSimpleStructUnmarshall"
+    },
+    {
+      "ordinal": 313,
+      "name": "NdrSimpleTypeMarshall"
+    },
+    {
+      "ordinal": 314,
+      "name": "NdrSimpleTypeUnmarshall"
+    },
+    {
+      "ordinal": 316,
+      "name": "NdrStubCall"
+    },
+    {
+      "ordinal": 315,
+      "name": "NdrStubCall2"
+    },
+    {
+      "ordinal": 317,
+      "name": "NdrStubForwardingFunction"
+    },
+    {
+      "ordinal": 318,
+      "name": "NdrStubGetBuffer"
+    },
+    {
+      "ordinal": 319,
+      "name": "NdrStubInitialize"
+    },
+    {
+      "ordinal": 320,
+      "name": "NdrStubInitializeMarshall"
+    },
+    {
+      "ordinal": 321,
+      "name": "NdrTypeFlags"
+    },
+    {
+      "ordinal": 322,
+      "name": "NdrTypeFree"
+    },
+    {
+      "ordinal": 323,
+      "name": "NdrTypeMarshall"
+    },
+    {
+      "ordinal": 324,
+      "name": "NdrTypeSize"
+    },
+    {
+      "ordinal": 325,
+      "name": "NdrTypeUnmarshall"
+    },
+    {
+      "ordinal": 326,
+      "name": "NdrUnmarshallBasetypeInline"
+    },
+    {
+      "ordinal": 327,
+      "name": "NdrUserMarshalBufferSize"
+    },
+    {
+      "ordinal": 328,
+      "name": "NdrUserMarshalFree"
+    },
+    {
+      "ordinal": 329,
+      "name": "NdrUserMarshalMarshall"
+    },
+    {
+      "ordinal": 330,
+      "name": "NdrUserMarshalMemorySize"
+    },
+    {
+      "ordinal": 331,
+      "name": "NdrUserMarshalSimpleTypeConvert"
+    },
+    {
+      "ordinal": 332,
+      "name": "NdrUserMarshalUnmarshall"
+    },
+    {
+      "ordinal": 333,
+      "name": "NdrVaryingArrayBufferSize"
+    },
+    {
+      "ordinal": 334,
+      "name": "NdrVaryingArrayFree"
+    },
+    {
+      "ordinal": 335,
+      "name": "NdrVaryingArrayMarshall"
+    },
+    {
+      "ordinal": 336,
+      "name": "NdrVaryingArrayMemorySize"
+    },
+    {
+      "ordinal": 337,
+      "name": "NdrVaryingArrayUnmarshall"
+    },
+    {
+      "ordinal": 338,
+      "name": "NdrXmitOrRepAsBufferSize"
+    },
+    {
+      "ordinal": 339,
+      "name": "NdrXmitOrRepAsFree"
+    },
+    {
+      "ordinal": 340,
+      "name": "NdrXmitOrRepAsMarshall"
+    },
+    {
+      "ordinal": 341,
+      "name": "NdrXmitOrRepAsMemorySize"
+    },
+    {
+      "ordinal": 342,
+      "name": "NdrXmitOrRepAsUnmarshall"
+    },
+    {
+      "ordinal": 343,
+      "name": "NdrpCreateProxy"
+    },
+    {
+      "ordinal": 344,
+      "name": "NdrpCreateStub"
+    },
+    {
+      "ordinal": 345,
+      "name": "NdrpGetProcFormatString"
+    },
+    {
+      "ordinal": 346,
+      "name": "NdrpGetTypeFormatString"
+    },
+    {
+      "ordinal": 347,
+      "name": "NdrpGetTypeGenCookie"
+    },
+    {
+      "ordinal": 348,
+      "name": "NdrpMemoryIncrement"
+    },
+    {
+      "ordinal": 349,
+      "name": "NdrpReleaseTypeFormatString"
+    },
+    {
+      "ordinal": 350,
+      "name": "NdrpReleaseTypeGenCookie"
+    },
+    {
+      "ordinal": 351,
+      "name": "NdrpVarVtOfTypeDesc"
+    },
+    {
+      "ordinal": 352,
+      "name": "RpcAsyncAbortCall"
+    },
+    {
+      "ordinal": 353,
+      "name": "RpcAsyncCancelCall"
+    },
+    {
+      "ordinal": 354,
+      "name": "RpcAsyncCompleteCall"
+    },
+    {
+      "ordinal": 355,
+      "name": "RpcAsyncGetCallStatus"
+    },
+    {
+      "ordinal": 356,
+      "name": "RpcAsyncInitializeHandle"
+    },
+    {
+      "ordinal": 357,
+      "name": "RpcAsyncRegisterInfo"
+    },
+    {
+      "ordinal": 358,
+      "name": "RpcBindingBind"
+    },
+    {
+      "ordinal": 359,
+      "name": "RpcBindingCopy"
+    },
+    {
+      "ordinal": 360,
+      "name": "RpcBindingCreateA"
+    },
+    {
+      "ordinal": 361,
+      "name": "RpcBindingCreateW"
+    },
+    {
+      "ordinal": 362,
+      "name": "RpcBindingFree"
+    },
+    {
+      "ordinal": 363,
+      "name": "RpcBindingFromStringBindingA"
+    },
+    {
+      "ordinal": 364,
+      "name": "RpcBindingFromStringBindingW"
+    },
+    {
+      "ordinal": 365,
+      "name": "RpcBindingInqAuthClientA"
+    },
+    {
+      "ordinal": 366,
+      "name": "RpcBindingInqAuthClientExA"
+    },
+    {
+      "ordinal": 367,
+      "name": "RpcBindingInqAuthClientExW"
+    },
+    {
+      "ordinal": 368,
+      "name": "RpcBindingInqAuthClientW"
+    },
+    {
+      "ordinal": 369,
+      "name": "RpcBindingInqAuthInfoA"
+    },
+    {
+      "ordinal": 370,
+      "name": "RpcBindingInqAuthInfoExA"
+    },
+    {
+      "ordinal": 371,
+      "name": "RpcBindingInqAuthInfoExW"
+    },
+    {
+      "ordinal": 372,
+      "name": "RpcBindingInqAuthInfoW"
+    },
+    {
+      "ordinal": 373,
+      "name": "RpcBindingInqObject"
+    },
+    {
+      "ordinal": 374,
+      "name": "RpcBindingInqOption"
+    },
+    {
+      "ordinal": 375,
+      "name": "RpcBindingReset"
+    },
+    {
+      "ordinal": 376,
+      "name": "RpcBindingServerFromClient"
+    },
+    {
+      "ordinal": 377,
+      "name": "RpcBindingSetAuthInfoA"
+    },
+    {
+      "ordinal": 378,
+      "name": "RpcBindingSetAuthInfoExA"
+    },
+    {
+      "ordinal": 379,
+      "name": "RpcBindingSetAuthInfoExW"
+    },
+    {
+      "ordinal": 380,
+      "name": "RpcBindingSetAuthInfoW"
+    },
+    {
+      "ordinal": 381,
+      "name": "RpcBindingSetObject"
+    },
+    {
+      "ordinal": 382,
+      "name": "RpcBindingSetOption"
+    },
+    {
+      "ordinal": 383,
+      "name": "RpcBindingToStringBindingA"
+    },
+    {
+      "ordinal": 384,
+      "name": "RpcBindingToStringBindingW"
+    },
+    {
+      "ordinal": 385,
+      "name": "RpcBindingUnbind"
+    },
+    {
+      "ordinal": 386,
+      "name": "RpcBindingVectorFree"
+    },
+    {
+      "ordinal": 387,
+      "name": "RpcCancelThread"
+    },
+    {
+      "ordinal": 388,
+      "name": "RpcCancelThreadEx"
+    },
+    {
+      "ordinal": 389,
+      "name": "RpcCertGeneratePrincipalNameA"
+    },
+    {
+      "ordinal": 390,
+      "name": "RpcCertGeneratePrincipalNameW"
+    },
+    {
+      "ordinal": 15,
+      "name": "RpcCertMatchPrincipalName"
+    },
+    {
+      "ordinal": 391,
+      "name": "RpcEpRegisterA"
+    },
+    {
+      "ordinal": 392,
+      "name": "RpcEpRegisterNoReplaceA"
+    },
+    {
+      "ordinal": 393,
+      "name": "RpcEpRegisterNoReplaceW"
+    },
+    {
+      "ordinal": 394,
+      "name": "RpcEpRegisterW"
+    },
+    {
+      "ordinal": 395,
+      "name": "RpcEpResolveBinding"
+    },
+    {
+      "ordinal": 396,
+      "name": "RpcEpUnregister"
+    },
+    {
+      "ordinal": 397,
+      "name": "RpcErrorAddRecord"
+    },
+    {
+      "ordinal": 398,
+      "name": "RpcErrorClearInformation"
+    },
+    {
+      "ordinal": 399,
+      "name": "RpcErrorEndEnumeration"
+    },
+    {
+      "ordinal": 400,
+      "name": "RpcErrorGetNextRecord"
+    },
+    {
+      "ordinal": 401,
+      "name": "RpcErrorGetNumberOfRecords"
+    },
+    {
+      "ordinal": 402,
+      "name": "RpcErrorLoadErrorInfo"
+    },
+    {
+      "ordinal": 403,
+      "name": "RpcErrorResetEnumeration"
+    },
+    {
+      "ordinal": 404,
+      "name": "RpcErrorSaveErrorInfo"
+    },
+    {
+      "ordinal": 405,
+      "name": "RpcErrorStartEnumeration"
+    },
+    {
+      "ordinal": 406,
+      "name": "RpcExceptionFilter"
+    },
+    {
+      "ordinal": 407,
+      "name": "RpcFreeAuthorizationContext"
+    },
+    {
+      "ordinal": 408,
+      "name": "RpcGetAuthorizationContextForClient"
+    },
+    {
+      "ordinal": 409,
+      "name": "RpcIfIdVectorFree"
+    },
+    {
+      "ordinal": 410,
+      "name": "RpcIfInqId"
+    },
+    {
+      "ordinal": 412,
+      "name": "RpcImpersonateClient"
+    },
+    {
+      "ordinal": 411,
+      "name": "RpcImpersonateClient2"
+    },
+    {
+      "ordinal": 413,
+      "name": "RpcMgmtEnableIdleCleanup"
+    },
+    {
+      "ordinal": 414,
+      "name": "RpcMgmtEpEltInqBegin"
+    },
+    {
+      "ordinal": 415,
+      "name": "RpcMgmtEpEltInqDone"
+    },
+    {
+      "ordinal": 416,
+      "name": "RpcMgmtEpEltInqNextA"
+    },
+    {
+      "ordinal": 417,
+      "name": "RpcMgmtEpEltInqNextW"
+    },
+    {
+      "ordinal": 418,
+      "name": "RpcMgmtEpUnregister"
+    },
+    {
+      "ordinal": 419,
+      "name": "RpcMgmtInqComTimeout"
+    },
+    {
+      "ordinal": 420,
+      "name": "RpcMgmtInqDefaultProtectLevel"
+    },
+    {
+      "ordinal": 421,
+      "name": "RpcMgmtInqIfIds"
+    },
+    {
+      "ordinal": 422,
+      "name": "RpcMgmtInqServerPrincNameA"
+    },
+    {
+      "ordinal": 423,
+      "name": "RpcMgmtInqServerPrincNameW"
+    },
+    {
+      "ordinal": 424,
+      "name": "RpcMgmtInqStats"
+    },
+    {
+      "ordinal": 425,
+      "name": "RpcMgmtIsServerListening"
+    },
+    {
+      "ordinal": 426,
+      "name": "RpcMgmtSetAuthorizationFn"
+    },
+    {
+      "ordinal": 427,
+      "name": "RpcMgmtSetCancelTimeout"
+    },
+    {
+      "ordinal": 428,
+      "name": "RpcMgmtSetComTimeout"
+    },
+    {
+      "ordinal": 429,
+      "name": "RpcMgmtSetServerStackSize"
+    },
+    {
+      "ordinal": 430,
+      "name": "RpcMgmtStatsVectorFree"
+    },
+    {
+      "ordinal": 431,
+      "name": "RpcMgmtStopServerListening"
+    },
+    {
+      "ordinal": 432,
+      "name": "RpcMgmtWaitServerListen"
+    },
+    {
+      "ordinal": 433,
+      "name": "RpcNetworkInqProtseqsA"
+    },
+    {
+      "ordinal": 434,
+      "name": "RpcNetworkInqProtseqsW"
+    },
+    {
+      "ordinal": 435,
+      "name": "RpcNetworkIsProtseqValidA"
+    },
+    {
+      "ordinal": 436,
+      "name": "RpcNetworkIsProtseqValidW"
+    },
+    {
+      "ordinal": 437,
+      "name": "RpcNsBindingInqEntryNameA"
+    },
+    {
+      "ordinal": 438,
+      "name": "RpcNsBindingInqEntryNameW"
+    },
+    {
+      "ordinal": 439,
+      "name": "RpcObjectInqType"
+    },
+    {
+      "ordinal": 440,
+      "name": "RpcObjectSetInqFn"
+    },
+    {
+      "ordinal": 441,
+      "name": "RpcObjectSetType"
+    },
+    {
+      "ordinal": 442,
+      "name": "RpcProtseqVectorFreeA"
+    },
+    {
+      "ordinal": 443,
+      "name": "RpcProtseqVectorFreeW"
+    },
+    {
+      "ordinal": 444,
+      "name": "RpcRaiseException"
+    },
+    {
+      "ordinal": 445,
+      "name": "RpcRevertToSelf"
+    },
+    {
+      "ordinal": 446,
+      "name": "RpcRevertToSelfEx"
+    },
+    {
+      "ordinal": 447,
+      "name": "RpcServerCompleteSecurityCallback"
+    },
+    {
+      "ordinal": 448,
+      "name": "RpcServerInqBindingHandle"
+    },
+    {
+      "ordinal": 449,
+      "name": "RpcServerInqBindings"
+    },
+    {
+      "ordinal": 450,
+      "name": "RpcServerInqCallAttributesA"
+    },
+    {
+      "ordinal": 451,
+      "name": "RpcServerInqCallAttributesW"
+    },
+    {
+      "ordinal": 452,
+      "name": "RpcServerInqDefaultPrincNameA"
+    },
+    {
+      "ordinal": 453,
+      "name": "RpcServerInqDefaultPrincNameW"
+    },
+    {
+      "ordinal": 454,
+      "name": "RpcServerInqIf"
+    },
+    {
+      "ordinal": 455,
+      "name": "RpcServerInterfaceGroupActivate"
+    },
+    {
+      "ordinal": 456,
+      "name": "RpcServerInterfaceGroupClose"
+    },
+    {
+      "ordinal": 457,
+      "name": "RpcServerInterfaceGroupCreateA"
+    },
+    {
+      "ordinal": 458,
+      "name": "RpcServerInterfaceGroupCreateW"
+    },
+    {
+      "ordinal": 459,
+      "name": "RpcServerInterfaceGroupDeactivate"
+    },
+    {
+      "ordinal": 460,
+      "name": "RpcServerInterfaceGroupInqBindings"
+    },
+    {
+      "ordinal": 461,
+      "name": "RpcServerListen"
+    },
+    {
+      "ordinal": 462,
+      "name": "RpcServerRegisterAuthInfoA"
+    },
+    {
+      "ordinal": 463,
+      "name": "RpcServerRegisterAuthInfoW"
+    },
+    {
+      "ordinal": 466,
+      "name": "RpcServerRegisterIf"
+    },
+    {
+      "ordinal": 464,
+      "name": "RpcServerRegisterIf2"
+    },
+    {
+      "ordinal": 465,
+      "name": "RpcServerRegisterIf3"
+    },
+    {
+      "ordinal": 467,
+      "name": "RpcServerRegisterIfEx"
+    },
+    {
+      "ordinal": 468,
+      "name": "RpcServerSubscribeForNotification"
+    },
+    {
+      "ordinal": 469,
+      "name": "RpcServerTestCancel"
+    },
+    {
+      "ordinal": 470,
+      "name": "RpcServerUnregisterIf"
+    },
+    {
+      "ordinal": 471,
+      "name": "RpcServerUnregisterIfEx"
+    },
+    {
+      "ordinal": 472,
+      "name": "RpcServerUnsubscribeForNotification"
+    },
+    {
+      "ordinal": 473,
+      "name": "RpcServerUseAllProtseqs"
+    },
+    {
+      "ordinal": 474,
+      "name": "RpcServerUseAllProtseqsEx"
+    },
+    {
+      "ordinal": 475,
+      "name": "RpcServerUseAllProtseqsIf"
+    },
+    {
+      "ordinal": 476,
+      "name": "RpcServerUseAllProtseqsIfEx"
+    },
+    {
+      "ordinal": 477,
+      "name": "RpcServerUseProtseqA"
+    },
+    {
+      "ordinal": 478,
+      "name": "RpcServerUseProtseqEpA"
+    },
+    {
+      "ordinal": 479,
+      "name": "RpcServerUseProtseqEpExA"
+    },
+    {
+      "ordinal": 480,
+      "name": "RpcServerUseProtseqEpExW"
+    },
+    {
+      "ordinal": 481,
+      "name": "RpcServerUseProtseqEpW"
+    },
+    {
+      "ordinal": 482,
+      "name": "RpcServerUseProtseqExA"
+    },
+    {
+      "ordinal": 483,
+      "name": "RpcServerUseProtseqExW"
+    },
+    {
+      "ordinal": 484,
+      "name": "RpcServerUseProtseqIfA"
+    },
+    {
+      "ordinal": 485,
+      "name": "RpcServerUseProtseqIfExA"
+    },
+    {
+      "ordinal": 486,
+      "name": "RpcServerUseProtseqIfExW"
+    },
+    {
+      "ordinal": 487,
+      "name": "RpcServerUseProtseqIfW"
+    },
+    {
+      "ordinal": 488,
+      "name": "RpcServerUseProtseqW"
+    },
+    {
+      "ordinal": 489,
+      "name": "RpcServerYield"
+    },
+    {
+      "ordinal": 490,
+      "name": "RpcSmAllocate"
+    },
+    {
+      "ordinal": 491,
+      "name": "RpcSmClientFree"
+    },
+    {
+      "ordinal": 492,
+      "name": "RpcSmDestroyClientContext"
+    },
+    {
+      "ordinal": 493,
+      "name": "RpcSmDisableAllocate"
+    },
+    {
+      "ordinal": 494,
+      "name": "RpcSmEnableAllocate"
+    },
+    {
+      "ordinal": 495,
+      "name": "RpcSmFree"
+    },
+    {
+      "ordinal": 496,
+      "name": "RpcSmGetThreadHandle"
+    },
+    {
+      "ordinal": 497,
+      "name": "RpcSmSetClientAllocFree"
+    },
+    {
+      "ordinal": 498,
+      "name": "RpcSmSetThreadHandle"
+    },
+    {
+      "ordinal": 499,
+      "name": "RpcSmSwapClientAllocFree"
+    },
+    {
+      "ordinal": 500,
+      "name": "RpcSsAllocate"
+    },
+    {
+      "ordinal": 501,
+      "name": "RpcSsContextLockExclusive"
+    },
+    {
+      "ordinal": 502,
+      "name": "RpcSsContextLockShared"
+    },
+    {
+      "ordinal": 503,
+      "name": "RpcSsDestroyClientContext"
+    },
+    {
+      "ordinal": 504,
+      "name": "RpcSsDisableAllocate"
+    },
+    {
+      "ordinal": 505,
+      "name": "RpcSsDontSerializeContext",
+      "forwarder": "RPCRT4.I_RpcSsDontSerializeContext"
+    },
+    {
+      "ordinal": 506,
+      "name": "RpcSsEnableAllocate"
+    },
+    {
+      "ordinal": 507,
+      "name": "RpcSsFree"
+    },
+    {
+      "ordinal": 508,
+      "name": "RpcSsGetContextBinding"
+    },
+    {
+      "ordinal": 509,
+      "name": "RpcSsGetThreadHandle"
+    },
+    {
+      "ordinal": 510,
+      "name": "RpcSsSetClientAllocFree"
+    },
+    {
+      "ordinal": 511,
+      "name": "RpcSsSetThreadHandle"
+    },
+    {
+      "ordinal": 512,
+      "name": "RpcSsSwapClientAllocFree"
+    },
+    {
+      "ordinal": 513,
+      "name": "RpcStringBindingComposeA"
+    },
+    {
+      "ordinal": 514,
+      "name": "RpcStringBindingComposeW"
+    },
+    {
+      "ordinal": 515,
+      "name": "RpcStringBindingParseA"
+    },
+    {
+      "ordinal": 516,
+      "name": "RpcStringBindingParseW"
+    },
+    {
+      "ordinal": 517,
+      "name": "RpcStringFreeA"
+    },
+    {
+      "ordinal": 518,
+      "name": "RpcStringFreeW"
+    },
+    {
+      "ordinal": 519,
+      "name": "RpcTestCancel"
+    },
+    {
+      "ordinal": 520,
+      "name": "RpcUserFree"
+    },
+    {
+      "ordinal": 521,
+      "name": "SimpleTypeAlignment"
+    },
+    {
+      "ordinal": 522,
+      "name": "SimpleTypeBufferSize"
+    },
+    {
+      "ordinal": 523,
+      "name": "SimpleTypeMemorySize"
+    },
+    {
+      "ordinal": 524,
+      "name": "TowerConstruct"
+    },
+    {
+      "ordinal": 525,
+      "name": "TowerExplode"
+    },
+    {
+      "ordinal": 526,
+      "name": "UuidCompare"
+    },
+    {
+      "ordinal": 527,
+      "name": "UuidCreate"
+    },
+    {
+      "ordinal": 528,
+      "name": "UuidCreateNil"
+    },
+    {
+      "ordinal": 529,
+      "name": "UuidCreateSequential"
+    },
+    {
+      "ordinal": 530,
+      "name": "UuidEqual"
+    },
+    {
+      "ordinal": 531,
+      "name": "UuidFromStringA"
+    },
+    {
+      "ordinal": 532,
+      "name": "UuidFromStringW"
+    },
+    {
+      "ordinal": 533,
+      "name": "UuidHash"
+    },
+    {
+      "ordinal": 534,
+      "name": "UuidIsNil"
+    },
+    {
+      "ordinal": 535,
+      "name": "UuidToStringA"
+    },
+    {
+      "ordinal": 536,
+      "name": "UuidToStringW"
+    },
+    {
+      "ordinal": 537,
+      "name": "char_array_from_ndr"
+    },
+    {
+      "ordinal": 538,
+      "name": "char_from_ndr"
+    },
+    {
+      "ordinal": 539,
+      "name": "data_from_ndr"
+    },
+    {
+      "ordinal": 540,
+      "name": "data_into_ndr"
+    },
+    {
+      "ordinal": 541,
+      "name": "data_size_ndr"
+    },
+    {
+      "ordinal": 542,
+      "name": "double_array_from_ndr"
+    },
+    {
+      "ordinal": 543,
+      "name": "double_from_ndr"
+    },
+    {
+      "ordinal": 544,
+      "name": "enum_from_ndr"
+    },
+    {
+      "ordinal": 545,
+      "name": "float_array_from_ndr"
+    },
+    {
+      "ordinal": 546,
+      "name": "float_from_ndr"
+    },
+    {
+      "ordinal": 547,
+      "name": "long_array_from_ndr"
+    },
+    {
+      "ordinal": 548,
+      "name": "long_from_ndr"
+    },
+    {
+      "ordinal": 549,
+      "name": "long_from_ndr_temp"
+    },
+    {
+      "ordinal": 16,
+      "name": "pfnFreeRoutines"
+    },
+    {
+      "ordinal": 17,
+      "name": "pfnMarshallRoutines"
+    },
+    {
+      "ordinal": 18,
+      "name": "pfnSizeRoutines"
+    },
+    {
+      "ordinal": 19,
+      "name": "pfnUnmarshallRoutines"
+    },
+    {
+      "ordinal": 550,
+      "name": "short_array_from_ndr"
+    },
+    {
+      "ordinal": 551,
+      "name": "short_from_ndr"
+    },
+    {
+      "ordinal": 552,
+      "name": "short_from_ndr_temp"
+    },
+    {
+      "ordinal": 553,
+      "name": "tree_into_ndr"
+    },
+    {
+      "ordinal": 554,
+      "name": "tree_peek_ndr"
+    },
+    {
+      "ordinal": 555,
+      "name": "tree_size_ndr"
+    }
+  ]
+}

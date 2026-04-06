@@ -1,0 +1,50 @@
+{
+  "Version": "10.0.26100.1-AMD64",
+  "md5": "57d363f6f8579c7db1ea03152ec1bbd0",
+  "imphash": "57d363f6f8579c7db1ea03152ec1bbd0",
+  "InternalName": "xaudio2_8.dll",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "XAudio2 Game Audio API",
+  "FileVersion": "10.0.26100.1 (WinBuild.160101.0800)",
+  "ProductVersion": "10.0.26100.1",
+  "PeChecksum": 25012,
+  "Size": 12288,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ordinal": 2,
+      "name": "CreateAudioReverb",
+      "forwarder": "xaudio2_9.CreateAudioReverbV2_8"
+    },
+    {
+      "ordinal": 3,
+      "name": "CreateAudioVolumeMeter",
+      "forwarder": "xaudio2_9.CreateAudioVolumeMeter"
+    },
+    {
+      "ordinal": 4,
+      "name": "CreateFX",
+      "forwarder": "xaudio2_9.CreateFX"
+    },
+    {
+      "ordinal": 5,
+      "name": "X3DAudioCalculate",
+      "forwarder": "xaudio2_9.X3DAudioCalculate"
+    },
+    {
+      "ordinal": 6,
+      "name": "X3DAudioInitialize",
+      "forwarder": "xaudio2_9.X3DAudioInitialize"
+    },
+    {
+      "ordinal": 1,
+      "name": "XAudio2Create",
+      "forwarder": "xaudio2_9.XAudio2Create"
+    },
+    {
+      "ordinal": 7,
+      "name": "XAudio2CreateWithVersionInfo",
+      "forwarder": "xaudio2_9.XAudio2CreateWithVersionInfo"
+    }
+  ]
+}

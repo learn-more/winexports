@@ -1,0 +1,491 @@
+{
+  "Version": "6.0.6002.18005-I386",
+  "md5": "a57260867734fb1f68241eca3d589f76",
+  "imphash": "a57260867734fb1f68241eca3d589f76",
+  "InternalName": "ncrypt.dll",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "Windows cryptographic library",
+  "FileVersion": "6.0.6002.18005 (lh_sp2rtm.090410-1830)",
+  "ProductVersion": "6.0.6002.18005",
+  "PeChecksum": 205079,
+  "Size": 204288,
+  "Machine": "I386",
+  "exports": [
+    {
+      "ordinal": 1,
+      "name": "BCryptAddContextFunction",
+      "forwarder": "BCRYPT.BCryptAddContextFunction"
+    },
+    {
+      "ordinal": 2,
+      "name": "BCryptAddContextFunctionProvider",
+      "forwarder": "BCRYPT.BCryptAddContextFunctionProvider"
+    },
+    {
+      "ordinal": 3,
+      "name": "BCryptCloseAlgorithmProvider",
+      "forwarder": "BCRYPT.BCryptCloseAlgorithmProvider"
+    },
+    {
+      "ordinal": 4,
+      "name": "BCryptConfigureContext",
+      "forwarder": "BCRYPT.BCryptConfigureContext"
+    },
+    {
+      "ordinal": 5,
+      "name": "BCryptConfigureContextFunction",
+      "forwarder": "BCRYPT.BCryptConfigureContextFunction"
+    },
+    {
+      "ordinal": 6,
+      "name": "BCryptCreateContext",
+      "forwarder": "BCRYPT.BCryptCreateContext"
+    },
+    {
+      "ordinal": 7,
+      "name": "BCryptCreateHash",
+      "forwarder": "BCRYPT.BCryptCreateHash"
+    },
+    {
+      "ordinal": 8,
+      "name": "BCryptDecrypt",
+      "forwarder": "BCRYPT.BCryptDecrypt"
+    },
+    {
+      "ordinal": 9,
+      "name": "BCryptDeleteContext",
+      "forwarder": "BCRYPT.BCryptDeleteContext"
+    },
+    {
+      "ordinal": 10,
+      "name": "BCryptDeriveKey",
+      "forwarder": "BCRYPT.BCryptDeriveKey"
+    },
+    {
+      "ordinal": 11,
+      "name": "BCryptDestroyHash",
+      "forwarder": "BCRYPT.BCryptDestroyHash"
+    },
+    {
+      "ordinal": 12,
+      "name": "BCryptDestroyKey",
+      "forwarder": "BCRYPT.BCryptDestroyKey"
+    },
+    {
+      "ordinal": 13,
+      "name": "BCryptDestroySecret",
+      "forwarder": "BCRYPT.BCryptDestroySecret"
+    },
+    {
+      "ordinal": 14,
+      "name": "BCryptDuplicateHash",
+      "forwarder": "BCRYPT.BCryptDuplicateHash"
+    },
+    {
+      "ordinal": 15,
+      "name": "BCryptDuplicateKey",
+      "forwarder": "BCRYPT.BCryptDuplicateKey"
+    },
+    {
+      "ordinal": 16,
+      "name": "BCryptEncrypt",
+      "forwarder": "BCRYPT.BCryptEncrypt"
+    },
+    {
+      "ordinal": 17,
+      "name": "BCryptEnumAlgorithms",
+      "forwarder": "BCRYPT.BCryptEnumAlgorithms"
+    },
+    {
+      "ordinal": 18,
+      "name": "BCryptEnumContextFunctionProviders",
+      "forwarder": "BCRYPT.BCryptEnumContextFunctionProviders"
+    },
+    {
+      "ordinal": 19,
+      "name": "BCryptEnumContextFunctions",
+      "forwarder": "BCRYPT.BCryptEnumContextFunctions"
+    },
+    {
+      "ordinal": 20,
+      "name": "BCryptEnumContexts",
+      "forwarder": "BCRYPT.BCryptEnumContexts"
+    },
+    {
+      "ordinal": 21,
+      "name": "BCryptEnumProviders",
+      "forwarder": "BCRYPT.BCryptEnumProviders"
+    },
+    {
+      "ordinal": 22,
+      "name": "BCryptEnumRegisteredProviders",
+      "forwarder": "BCRYPT.BCryptEnumRegisteredProviders"
+    },
+    {
+      "ordinal": 23,
+      "name": "BCryptExportKey",
+      "forwarder": "BCRYPT.BCryptExportKey"
+    },
+    {
+      "ordinal": 24,
+      "name": "BCryptFinalizeKeyPair",
+      "forwarder": "BCRYPT.BCryptFinalizeKeyPair"
+    },
+    {
+      "ordinal": 25,
+      "name": "BCryptFinishHash",
+      "forwarder": "BCRYPT.BCryptFinishHash"
+    },
+    {
+      "ordinal": 26,
+      "name": "BCryptFreeBuffer",
+      "forwarder": "BCRYPT.BCryptFreeBuffer"
+    },
+    {
+      "ordinal": 27,
+      "name": "BCryptGenRandom",
+      "forwarder": "BCRYPT.BCryptGenRandom"
+    },
+    {
+      "ordinal": 28,
+      "name": "BCryptGenerateKeyPair",
+      "forwarder": "BCRYPT.BCryptGenerateKeyPair"
+    },
+    {
+      "ordinal": 29,
+      "name": "BCryptGenerateSymmetricKey",
+      "forwarder": "BCRYPT.BCryptGenerateSymmetricKey"
+    },
+    {
+      "ordinal": 30,
+      "name": "BCryptGetFipsAlgorithmMode",
+      "forwarder": "BCRYPT.BCryptGetFipsAlgorithmMode"
+    },
+    {
+      "ordinal": 31,
+      "name": "BCryptGetProperty",
+      "forwarder": "BCRYPT.BCryptGetProperty"
+    },
+    {
+      "ordinal": 32,
+      "name": "BCryptHashData",
+      "forwarder": "BCRYPT.BCryptHashData"
+    },
+    {
+      "ordinal": 33,
+      "name": "BCryptImportKey",
+      "forwarder": "BCRYPT.BCryptImportKey"
+    },
+    {
+      "ordinal": 34,
+      "name": "BCryptImportKeyPair",
+      "forwarder": "BCRYPT.BCryptImportKeyPair"
+    },
+    {
+      "ordinal": 35,
+      "name": "BCryptOpenAlgorithmProvider",
+      "forwarder": "BCRYPT.BCryptOpenAlgorithmProvider"
+    },
+    {
+      "ordinal": 36,
+      "name": "BCryptQueryContextConfiguration",
+      "forwarder": "BCRYPT.BCryptQueryContextConfiguration"
+    },
+    {
+      "ordinal": 37,
+      "name": "BCryptQueryContextFunctionConfiguration",
+      "forwarder": "BCRYPT.BCryptQueryContextFunctionConfiguration"
+    },
+    {
+      "ordinal": 38,
+      "name": "BCryptQueryContextFunctionProperty",
+      "forwarder": "BCRYPT.BCryptQueryContextFunctionProperty"
+    },
+    {
+      "ordinal": 39,
+      "name": "BCryptQueryProviderRegistration",
+      "forwarder": "BCRYPT.BCryptQueryProviderRegistration"
+    },
+    {
+      "ordinal": 40,
+      "name": "BCryptRegisterConfigChangeNotify",
+      "forwarder": "BCRYPT.BCryptRegisterConfigChangeNotify"
+    },
+    {
+      "ordinal": 41,
+      "name": "BCryptRegisterProvider",
+      "forwarder": "BCRYPT.BCryptRegisterProvider"
+    },
+    {
+      "ordinal": 42,
+      "name": "BCryptRemoveContextFunction",
+      "forwarder": "BCRYPT.BCryptRemoveContextFunction"
+    },
+    {
+      "ordinal": 43,
+      "name": "BCryptRemoveContextFunctionProvider",
+      "forwarder": "BCRYPT.BCryptRemoveContextFunctionProvider"
+    },
+    {
+      "ordinal": 44,
+      "name": "BCryptResolveProviders",
+      "forwarder": "BCRYPT.BCryptResolveProviders"
+    },
+    {
+      "ordinal": 45,
+      "name": "BCryptSecretAgreement",
+      "forwarder": "BCRYPT.BCryptSecretAgreement"
+    },
+    {
+      "ordinal": 46,
+      "name": "BCryptSetAuditingInterface",
+      "forwarder": "BCRYPT.BCryptSetAuditingInterface"
+    },
+    {
+      "ordinal": 47,
+      "name": "BCryptSetContextFunctionProperty",
+      "forwarder": "BCRYPT.BCryptSetContextFunctionProperty"
+    },
+    {
+      "ordinal": 48,
+      "name": "BCryptSetProperty",
+      "forwarder": "BCRYPT.BCryptSetProperty"
+    },
+    {
+      "ordinal": 49,
+      "name": "BCryptSignHash",
+      "forwarder": "BCRYPT.BCryptSignHash"
+    },
+    {
+      "ordinal": 50,
+      "name": "BCryptUnregisterConfigChangeNotify",
+      "forwarder": "BCRYPT.BCryptUnregisterConfigChangeNotify"
+    },
+    {
+      "ordinal": 51,
+      "name": "BCryptUnregisterProvider",
+      "forwarder": "BCRYPT.BCryptUnregisterProvider"
+    },
+    {
+      "ordinal": 52,
+      "name": "BCryptVerifySignature",
+      "forwarder": "BCRYPT.BCryptVerifySignature"
+    },
+    {
+      "ordinal": 53,
+      "name": "GetIsolationServerInterface"
+    },
+    {
+      "ordinal": 54,
+      "name": "GetKeyStorageInterface"
+    },
+    {
+      "ordinal": 55,
+      "name": "GetSChannelInterface"
+    },
+    {
+      "ordinal": 56,
+      "name": "NCryptCreatePersistedKey"
+    },
+    {
+      "ordinal": 57,
+      "name": "NCryptDecrypt"
+    },
+    {
+      "ordinal": 58,
+      "name": "NCryptDeleteKey"
+    },
+    {
+      "ordinal": 59,
+      "name": "NCryptDeriveKey"
+    },
+    {
+      "ordinal": 60,
+      "name": "NCryptEncrypt"
+    },
+    {
+      "ordinal": 61,
+      "name": "NCryptEnumAlgorithms"
+    },
+    {
+      "ordinal": 62,
+      "name": "NCryptEnumKeys"
+    },
+    {
+      "ordinal": 63,
+      "name": "NCryptEnumStorageProviders"
+    },
+    {
+      "ordinal": 64,
+      "name": "NCryptExportKey"
+    },
+    {
+      "ordinal": 65,
+      "name": "NCryptFinalizeKey"
+    },
+    {
+      "ordinal": 66,
+      "name": "NCryptFreeBuffer"
+    },
+    {
+      "ordinal": 67,
+      "name": "NCryptFreeObject"
+    },
+    {
+      "ordinal": 68,
+      "name": "NCryptGetProperty"
+    },
+    {
+      "ordinal": 69,
+      "name": "NCryptImportKey"
+    },
+    {
+      "ordinal": 70,
+      "name": "NCryptIsAlgSupported"
+    },
+    {
+      "ordinal": 71,
+      "name": "NCryptIsKeyHandle"
+    },
+    {
+      "ordinal": 72,
+      "name": "NCryptNotifyChangeKey"
+    },
+    {
+      "ordinal": 73,
+      "name": "NCryptOpenKey"
+    },
+    {
+      "ordinal": 74,
+      "name": "NCryptOpenStorageProvider"
+    },
+    {
+      "ordinal": 75,
+      "name": "NCryptSecretAgreement"
+    },
+    {
+      "ordinal": 76,
+      "name": "NCryptSetAuditingInterface"
+    },
+    {
+      "ordinal": 77,
+      "name": "NCryptSetProperty"
+    },
+    {
+      "ordinal": 78,
+      "name": "NCryptSignHash"
+    },
+    {
+      "ordinal": 79,
+      "name": "NCryptTranslateHandle"
+    },
+    {
+      "ordinal": 80,
+      "name": "NCryptVerifySignature"
+    },
+    {
+      "ordinal": 81,
+      "name": "SslChangeNotify"
+    },
+    {
+      "ordinal": 82,
+      "name": "SslComputeClientAuthHash"
+    },
+    {
+      "ordinal": 83,
+      "name": "SslComputeEapKeyBlock"
+    },
+    {
+      "ordinal": 84,
+      "name": "SslComputeFinishedHash"
+    },
+    {
+      "ordinal": 85,
+      "name": "SslCreateEphemeralKey"
+    },
+    {
+      "ordinal": 86,
+      "name": "SslCreateHandshakeHash"
+    },
+    {
+      "ordinal": 87,
+      "name": "SslDecrementProviderReferenceCount"
+    },
+    {
+      "ordinal": 88,
+      "name": "SslDecryptPacket"
+    },
+    {
+      "ordinal": 89,
+      "name": "SslEncryptPacket"
+    },
+    {
+      "ordinal": 90,
+      "name": "SslEnumCipherSuites"
+    },
+    {
+      "ordinal": 91,
+      "name": "SslEnumProtocolProviders"
+    },
+    {
+      "ordinal": 92,
+      "name": "SslExportKey"
+    },
+    {
+      "ordinal": 93,
+      "name": "SslFreeBuffer"
+    },
+    {
+      "ordinal": 94,
+      "name": "SslFreeObject"
+    },
+    {
+      "ordinal": 95,
+      "name": "SslGenerateMasterKey"
+    },
+    {
+      "ordinal": 96,
+      "name": "SslGenerateSessionKeys"
+    },
+    {
+      "ordinal": 97,
+      "name": "SslGetKeyProperty"
+    },
+    {
+      "ordinal": 98,
+      "name": "SslGetProviderProperty"
+    },
+    {
+      "ordinal": 99,
+      "name": "SslHashHandshake"
+    },
+    {
+      "ordinal": 100,
+      "name": "SslImportKey"
+    },
+    {
+      "ordinal": 101,
+      "name": "SslImportMasterKey"
+    },
+    {
+      "ordinal": 102,
+      "name": "SslIncrementProviderReferenceCount"
+    },
+    {
+      "ordinal": 103,
+      "name": "SslLookupCipherSuiteInfo"
+    },
+    {
+      "ordinal": 104,
+      "name": "SslOpenPrivateKey"
+    },
+    {
+      "ordinal": 105,
+      "name": "SslOpenProvider"
+    },
+    {
+      "ordinal": 106,
+      "name": "SslSignHash"
+    }
+  ]
+}

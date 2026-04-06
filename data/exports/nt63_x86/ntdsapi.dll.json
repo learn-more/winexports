@@ -1,0 +1,526 @@
+{
+  "Version": "6.3.9600.16384-I386",
+  "md5": "0e85438d4edee1548266f8bb22b73aae",
+  "imphash": "0e85438d4edee1548266f8bb22b73aae",
+  "InternalName": "ntdsapi.dll",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "Active Directory Domain Services API",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 151647,
+  "Size": 90112,
+  "Machine": "I386",
+  "exports": [
+    {
+      "ordinal": 1,
+      "name": "DsAddCloneDCW"
+    },
+    {
+      "ordinal": 2,
+      "name": "DsAddSidHistoryA"
+    },
+    {
+      "ordinal": 3,
+      "name": "DsAddSidHistoryW"
+    },
+    {
+      "ordinal": 4,
+      "name": "DsBindA"
+    },
+    {
+      "ordinal": 5,
+      "name": "DsBindByInstanceA"
+    },
+    {
+      "ordinal": 6,
+      "name": "DsBindByInstanceW"
+    },
+    {
+      "ordinal": 7,
+      "name": "DsBindToISTGA"
+    },
+    {
+      "ordinal": 8,
+      "name": "DsBindToISTGW"
+    },
+    {
+      "ordinal": 9,
+      "name": "DsBindW"
+    },
+    {
+      "ordinal": 10,
+      "name": "DsBindWithCredA"
+    },
+    {
+      "ordinal": 11,
+      "name": "DsBindWithCredW"
+    },
+    {
+      "ordinal": 12,
+      "name": "DsBindWithSpnA"
+    },
+    {
+      "ordinal": 13,
+      "name": "DsBindWithSpnExA"
+    },
+    {
+      "ordinal": 14,
+      "name": "DsBindWithSpnExW"
+    },
+    {
+      "ordinal": 15,
+      "name": "DsBindWithSpnExWWorker"
+    },
+    {
+      "ordinal": 16,
+      "name": "DsBindWithSpnW"
+    },
+    {
+      "ordinal": 17,
+      "name": "DsBindingSetTimeout"
+    },
+    {
+      "ordinal": 18,
+      "name": "DsClientMakeSpnForTargetServerA"
+    },
+    {
+      "ordinal": 19,
+      "name": "DsClientMakeSpnForTargetServerW"
+    },
+    {
+      "ordinal": 20,
+      "name": "DsCrackNamesA"
+    },
+    {
+      "ordinal": 21,
+      "name": "DsCrackNamesW"
+    },
+    {
+      "ordinal": 22,
+      "name": "DsCrackNamesWWorker"
+    },
+    {
+      "ordinal": 23,
+      "name": "DsCrackSpn2A",
+      "forwarder": "DSPARSE.DsCrackSpn2A"
+    },
+    {
+      "ordinal": 24,
+      "name": "DsCrackSpn2W",
+      "forwarder": "DSPARSE.DsCrackSpn2W"
+    },
+    {
+      "ordinal": 25,
+      "name": "DsCrackSpn3W",
+      "forwarder": "DSPARSE.DsCrackSpn3W"
+    },
+    {
+      "ordinal": 26,
+      "name": "DsCrackSpn4W",
+      "forwarder": "DSPARSE.DsCrackSpn4W"
+    },
+    {
+      "ordinal": 27,
+      "name": "DsCrackSpnA",
+      "forwarder": "DSPARSE.DsCrackSpnA"
+    },
+    {
+      "ordinal": 28,
+      "name": "DsCrackSpnW",
+      "forwarder": "DSPARSE.DsCrackSpnW"
+    },
+    {
+      "ordinal": 29,
+      "name": "DsCrackUnquotedMangledRdnA",
+      "forwarder": "DSPARSE.DsCrackUnquotedMangledRdnA"
+    },
+    {
+      "ordinal": 30,
+      "name": "DsCrackUnquotedMangledRdnW",
+      "forwarder": "DSPARSE.DsCrackUnquotedMangledRdnW"
+    },
+    {
+      "ordinal": 31,
+      "name": "DsFinishDemotionW"
+    },
+    {
+      "ordinal": 32,
+      "name": "DsFreeCloneDcResult"
+    },
+    {
+      "ordinal": 33,
+      "name": "DsFreeDomainControllerInfoA"
+    },
+    {
+      "ordinal": 34,
+      "name": "DsFreeDomainControllerInfoW"
+    },
+    {
+      "ordinal": 35,
+      "name": "DsFreeDomainControllerInfoWWorker"
+    },
+    {
+      "ordinal": 36,
+      "name": "DsFreeNameResultA"
+    },
+    {
+      "ordinal": 37,
+      "name": "DsFreeNameResultW"
+    },
+    {
+      "ordinal": 38,
+      "name": "DsFreeNameResultWWorker"
+    },
+    {
+      "ordinal": 39,
+      "name": "DsFreePasswordCredentials"
+    },
+    {
+      "ordinal": 40,
+      "name": "DsFreePasswordCredentialsWorker"
+    },
+    {
+      "ordinal": 41,
+      "name": "DsFreeSchemaGuidMapA"
+    },
+    {
+      "ordinal": 42,
+      "name": "DsFreeSchemaGuidMapW"
+    },
+    {
+      "ordinal": 43,
+      "name": "DsFreeSpnArrayA"
+    },
+    {
+      "ordinal": 44,
+      "name": "DsFreeSpnArrayW"
+    },
+    {
+      "ordinal": 45,
+      "name": "DsGetBindAddrW"
+    },
+    {
+      "ordinal": 46,
+      "name": "DsGetBindAnnotW"
+    },
+    {
+      "ordinal": 47,
+      "name": "DsGetBindInstGuid"
+    },
+    {
+      "ordinal": 48,
+      "name": "DsGetDomainControllerInfoA"
+    },
+    {
+      "ordinal": 49,
+      "name": "DsGetDomainControllerInfoW"
+    },
+    {
+      "ordinal": 50,
+      "name": "DsGetDomainControllerInfoWWorker"
+    },
+    {
+      "ordinal": 51,
+      "name": "DsGetRdnW",
+      "forwarder": "DSPARSE.DsGetRdnW"
+    },
+    {
+      "ordinal": 52,
+      "name": "DsGetSpnA"
+    },
+    {
+      "ordinal": 53,
+      "name": "DsGetSpnW"
+    },
+    {
+      "ordinal": 54,
+      "name": "DsInheritSecurityIdentityA"
+    },
+    {
+      "ordinal": 55,
+      "name": "DsInheritSecurityIdentityW"
+    },
+    {
+      "ordinal": 56,
+      "name": "DsInitDemotionW"
+    },
+    {
+      "ordinal": 57,
+      "name": "DsIsMangledDnA",
+      "forwarder": "DSPARSE.DsIsMangledDnA"
+    },
+    {
+      "ordinal": 58,
+      "name": "DsIsMangledDnW",
+      "forwarder": "DSPARSE.DsIsMangledDnW"
+    },
+    {
+      "ordinal": 59,
+      "name": "DsIsMangledRdnValueA",
+      "forwarder": "DSPARSE.DsIsMangledRdnValueA"
+    },
+    {
+      "ordinal": 60,
+      "name": "DsIsMangledRdnValueW",
+      "forwarder": "DSPARSE.DsIsMangledRdnValueW"
+    },
+    {
+      "ordinal": 61,
+      "name": "DsListDomainsInSiteA"
+    },
+    {
+      "ordinal": 62,
+      "name": "DsListDomainsInSiteW"
+    },
+    {
+      "ordinal": 63,
+      "name": "DsListInfoForServerA"
+    },
+    {
+      "ordinal": 64,
+      "name": "DsListInfoForServerW"
+    },
+    {
+      "ordinal": 65,
+      "name": "DsListRolesA"
+    },
+    {
+      "ordinal": 66,
+      "name": "DsListRolesW"
+    },
+    {
+      "ordinal": 67,
+      "name": "DsListServersForDomainInSiteA"
+    },
+    {
+      "ordinal": 68,
+      "name": "DsListServersForDomainInSiteW"
+    },
+    {
+      "ordinal": 69,
+      "name": "DsListServersInSiteA"
+    },
+    {
+      "ordinal": 70,
+      "name": "DsListServersInSiteW"
+    },
+    {
+      "ordinal": 71,
+      "name": "DsListSitesA"
+    },
+    {
+      "ordinal": 72,
+      "name": "DsListSitesW"
+    },
+    {
+      "ordinal": 73,
+      "name": "DsLogEntry"
+    },
+    {
+      "ordinal": 74,
+      "name": "DsMakePasswordCredentialsA"
+    },
+    {
+      "ordinal": 75,
+      "name": "DsMakePasswordCredentialsW"
+    },
+    {
+      "ordinal": 76,
+      "name": "DsMakePasswordCredentialsWWorker"
+    },
+    {
+      "ordinal": 77,
+      "name": "DsMakeSpnA",
+      "forwarder": "DSPARSE.DsMakeSpnA"
+    },
+    {
+      "ordinal": 78,
+      "name": "DsMakeSpnW",
+      "forwarder": "DSPARSE.DsMakeSpnW"
+    },
+    {
+      "ordinal": 79,
+      "name": "DsMapSchemaGuidsA"
+    },
+    {
+      "ordinal": 80,
+      "name": "DsMapSchemaGuidsW"
+    },
+    {
+      "ordinal": 81,
+      "name": "DsQuerySitesByCostA"
+    },
+    {
+      "ordinal": 82,
+      "name": "DsQuerySitesByCostW"
+    },
+    {
+      "ordinal": 83,
+      "name": "DsQuerySitesFree"
+    },
+    {
+      "ordinal": 84,
+      "name": "DsQuoteRdnValueA",
+      "forwarder": "DSPARSE.DsQuoteRdnValueA"
+    },
+    {
+      "ordinal": 85,
+      "name": "DsQuoteRdnValueW",
+      "forwarder": "DSPARSE.DsQuoteRdnValueW"
+    },
+    {
+      "ordinal": 86,
+      "name": "DsRemoveDsDomainA"
+    },
+    {
+      "ordinal": 87,
+      "name": "DsRemoveDsDomainW"
+    },
+    {
+      "ordinal": 88,
+      "name": "DsRemoveDsServerA"
+    },
+    {
+      "ordinal": 89,
+      "name": "DsRemoveDsServerW"
+    },
+    {
+      "ordinal": 90,
+      "name": "DsReplicaAddA"
+    },
+    {
+      "ordinal": 91,
+      "name": "DsReplicaAddW"
+    },
+    {
+      "ordinal": 92,
+      "name": "DsReplicaConsistencyCheck"
+    },
+    {
+      "ordinal": 93,
+      "name": "DsReplicaDelA"
+    },
+    {
+      "ordinal": 94,
+      "name": "DsReplicaDelW"
+    },
+    {
+      "ordinal": 95,
+      "name": "DsReplicaDemotionW"
+    },
+    {
+      "ordinal": 96,
+      "name": "DsReplicaFreeInfo"
+    },
+    {
+      "ordinal": 97,
+      "name": "DsReplicaGetInfo2W"
+    },
+    {
+      "ordinal": 98,
+      "name": "DsReplicaGetInfoW"
+    },
+    {
+      "ordinal": 99,
+      "name": "DsReplicaModifyA"
+    },
+    {
+      "ordinal": 100,
+      "name": "DsReplicaModifyW"
+    },
+    {
+      "ordinal": 101,
+      "name": "DsReplicaSyncA"
+    },
+    {
+      "ordinal": 102,
+      "name": "DsReplicaSyncAllA"
+    },
+    {
+      "ordinal": 103,
+      "name": "DsReplicaSyncAllW"
+    },
+    {
+      "ordinal": 104,
+      "name": "DsReplicaSyncW"
+    },
+    {
+      "ordinal": 105,
+      "name": "DsReplicaUpdateRefsA"
+    },
+    {
+      "ordinal": 106,
+      "name": "DsReplicaUpdateRefsW"
+    },
+    {
+      "ordinal": 107,
+      "name": "DsReplicaVerifyObjectsA"
+    },
+    {
+      "ordinal": 108,
+      "name": "DsReplicaVerifyObjectsW"
+    },
+    {
+      "ordinal": 109,
+      "name": "DsServerRegisterSpnA"
+    },
+    {
+      "ordinal": 110,
+      "name": "DsServerRegisterSpnW"
+    },
+    {
+      "ordinal": 111,
+      "name": "DsUnBindA"
+    },
+    {
+      "ordinal": 112,
+      "name": "DsUnBindW"
+    },
+    {
+      "ordinal": 113,
+      "name": "DsUnBindWWorker"
+    },
+    {
+      "ordinal": 114,
+      "name": "DsUnquoteRdnValueA",
+      "forwarder": "DSPARSE.DsUnquoteRdnValueA"
+    },
+    {
+      "ordinal": 115,
+      "name": "DsUnquoteRdnValueW",
+      "forwarder": "DSPARSE.DsUnquoteRdnValueW"
+    },
+    {
+      "ordinal": 116,
+      "name": "DsWriteAccountSpnA"
+    },
+    {
+      "ordinal": 117,
+      "name": "DsWriteAccountSpnW"
+    },
+    {
+      "ordinal": 118,
+      "name": "DsaopBind"
+    },
+    {
+      "ordinal": 119,
+      "name": "DsaopBindWithCred"
+    },
+    {
+      "ordinal": 120,
+      "name": "DsaopBindWithSpn"
+    },
+    {
+      "ordinal": 121,
+      "name": "DsaopExecuteScript"
+    },
+    {
+      "ordinal": 122,
+      "name": "DsaopPrepareScript"
+    },
+    {
+      "ordinal": 123,
+      "name": "DsaopUnBind"
+    }
+  ]
+}

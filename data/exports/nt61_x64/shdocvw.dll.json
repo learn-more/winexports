@@ -1,19 +1,20 @@
 {
-  "Version": "6.1.7601.18222-AMD64",
-  "md5": "23b001185b7c3cb1f4bdeb143e6b45b7",
-  "imphash": "23b001185b7c3cb1f4bdeb143e6b45b7",
+  "Version": "6.1.7601.17514-AMD64",
+  "md5": "c4f40f6cacd796a8e16671d0e9a2f319",
+  "imphash": "c4f40f6cacd796a8e16671d0e9a2f319",
   "InternalName": "SHDOCVW.DLL",
   "CompanyName": "Microsoft Corporation",
   "FileDescription": "Shell Doc Object and Control Library",
-  "FileVersion": "6.1.7601.18222 (win7sp1_gdr.130725-1535)",
-  "ProductVersion": "6.1.7601.18222",
-  "PeChecksum": 245040,
-  "Size": 197120,
+  "FileVersion": "6.1.7601.17514 (win7sp1_rtm.101119-1850)",
+  "ProductVersion": "6.1.7601.17514",
+  "PeChecksum": 237916,
+  "Size": 196608,
   "Machine": "AMD64",
   "exports": [
     {
       "ordinal": 106,
-      "name": "AddUrlToFavorites"
+      "name": "AddUrlToFavorites",
+      "forwarder": "ieframe.AddUrlToFavorites"
     },
     {
       "ordinal": 107,
@@ -33,55 +34,68 @@
     },
     {
       "ordinal": 113,
-      "name": "DoAddToFavDlg"
+      "name": "DoAddToFavDlg",
+      "forwarder": "ieframe.DoAddToFavDlg"
     },
     {
       "ordinal": 114,
-      "name": "DoAddToFavDlgW"
+      "name": "DoAddToFavDlgW",
+      "forwarder": "ieframe.DoAddToFavDlgW"
     },
     {
       "ordinal": 124,
-      "name": "DoFileDownload"
+      "name": "DoFileDownload",
+      "forwarder": "ieframe.DoFileDownload"
     },
     {
       "ordinal": 126,
-      "name": "DoFileDownloadEx"
+      "name": "DoFileDownloadEx",
+      "forwarder": "ieframe.DoFileDownloadEx"
     },
     {
       "ordinal": 127,
-      "name": "DoOrganizeFavDlg"
+      "name": "DoOrganizeFavDlg",
+      "forwarder": "ieframe.DoOrganizeFavDlg"
     },
     {
       "ordinal": 128,
-      "name": "DoOrganizeFavDlgW"
+      "name": "DoOrganizeFavDlgW",
+      "forwarder": "ieframe.DoOrganizeFavDlgW"
     },
     {
       "ordinal": 129,
-      "name": "DoPrivacyDlg"
+      "name": "DoPrivacyDlg",
+      "forwarder": "ieframe.DoPrivacyDlg"
     },
     {
       "ordinal": 132,
-      "name": "HlinkFindFrame"
+      "name": "HlinkFindFrame",
+      "forwarder": "ieframe.HlinkFindFrame"
     },
     {
       "ordinal": 133,
-      "name": "HlinkFrameNavigate"
+      "name": "HlinkFrameNavigate",
+      "forwarder": "ieframe.HlinkFrameNavigate"
     },
     {
       "ordinal": 134,
-      "name": "HlinkFrameNavigateNHL"
+      "name": "HlinkFrameNavigateNHL",
+      "forwarder": "ieframe.HlinkFrameNavigateNHL"
     },
     {
       "ordinal": 144,
-      "name": "ImportPrivacySettings"
+      "name": "ImportPrivacySettings",
+      "forwarder": "ieframe.ImportPrivacySettings"
     },
     {
       "ordinal": 154,
-      "name": "OpenURL"
+      "name": "OpenURL",
+      "forwarder": "ieframe.OpenURL"
     },
     {
       "ordinal": 163,
-      "name": "SHAddSubscribeFavorite"
+      "name": "SHAddSubscribeFavorite",
+      "forwarder": "ieframe.#163"
     },
     {
       "ordinal": 155,
@@ -93,395 +107,493 @@
     },
     {
       "ordinal": 157,
-      "name": "SetShellOfflineState"
+      "name": "SetShellOfflineState",
+      "forwarder": "SHUNIMPL.#230"
     },
     {
       "ordinal": 166,
-      "name": "SoftwareUpdateMessageBox"
+      "name": "SoftwareUpdateMessageBox",
+      "forwarder": "ieframe.SoftwareUpdateMessageBox"
     },
     {
       "ordinal": 168,
-      "name": "URLQualifyA"
+      "name": "URLQualifyA",
+      "forwarder": "ieframe.URLQualifyA"
     },
     {
       "ordinal": 182,
-      "name": "URLQualifyW"
+      "name": "URLQualifyW",
+      "forwarder": "ieframe.URLQualifyW"
     },
     {
       "ordinal": 101,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#194"
     },
     {
       "ordinal": 102,
-      "name": null
+      "name": null,
+      "forwarder": "ieframe.#102"
     },
     {
       "ordinal": 103,
-      "name": null
+      "name": null,
+      "forwarder": "ieframe.#103"
     },
     {
       "ordinal": 104,
-      "name": null
+      "name": null,
+      "forwarder": "shlwapi.WhichPlatform"
     },
     {
       "ordinal": 105,
-      "name": null
+      "name": null,
+      "forwarder": "ieframe.#105"
     },
     {
       "ordinal": 110,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#280"
     },
     {
       "ordinal": 111,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#281"
     },
     {
       "ordinal": 115,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#119"
     },
     {
       "ordinal": 116,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#39"
     },
     {
       "ordinal": 117,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#57"
     },
     {
       "ordinal": 118,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#120"
     },
     {
       "ordinal": 119,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#121"
     },
     {
       "ordinal": 120,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#122"
     },
     {
       "ordinal": 121,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#142"
     },
     {
       "ordinal": 122,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#143"
     },
     {
       "ordinal": 123,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#144"
     },
     {
       "ordinal": 125,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#123"
     },
     {
       "ordinal": 130,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#282"
     },
     {
       "ordinal": 131,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#124"
     },
     {
       "ordinal": 135,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#283"
     },
     {
       "ordinal": 136,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#284"
     },
     {
       "ordinal": 137,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#285"
     },
     {
       "ordinal": 138,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#218"
     },
     {
       "ordinal": 139,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#286"
     },
     {
       "ordinal": 140,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#287"
     },
     {
       "ordinal": 141,
-      "name": null
+      "name": null,
+      "forwarder": "ieframe.#141"
     },
     {
       "ordinal": 142,
-      "name": null
+      "name": null,
+      "forwarder": "ieframe.#142"
     },
     {
       "ordinal": 143,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#288"
     },
     {
       "ordinal": 145,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#125"
     },
     {
       "ordinal": 146,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#126"
     },
     {
       "ordinal": 147,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#127"
     },
     {
       "ordinal": 148,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#128"
     },
     {
       "ordinal": 149,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#129"
     },
     {
       "ordinal": 150,
-      "name": null
+      "name": null,
+      "forwarder": "ieframe.#150"
     },
     {
       "ordinal": 151,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#130"
     },
     {
       "ordinal": 152,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#195"
     },
     {
       "ordinal": 153,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#289"
     },
     {
       "ordinal": 158,
-      "name": null
+      "name": null,
+      "forwarder": "ieframe.#158"
     },
     {
       "ordinal": 159,
-      "name": null
+      "name": null,
+      "forwarder": "ieframe.#159"
     },
     {
       "ordinal": 160,
-      "name": null
+      "name": null,
+      "forwarder": "ieframe.#160"
     },
     {
       "ordinal": 161,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#131"
     },
     {
       "ordinal": 162,
-      "name": null
+      "name": null,
+      "forwarder": "ieframe.#162"
     },
     {
       "ordinal": 164,
-      "name": null
+      "name": null,
+      "forwarder": "ieframe.#164"
     },
     {
       "ordinal": 165,
-      "name": null
+      "name": null,
+      "forwarder": "ieframe.#165"
     },
     {
       "ordinal": 167,
-      "name": null
+      "name": null,
+      "forwarder": "ieframe.#167"
     },
     {
       "ordinal": 169,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#290"
     },
     {
       "ordinal": 170,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#291"
     },
     {
       "ordinal": 171,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#292"
     },
     {
       "ordinal": 172,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#293"
     },
     {
       "ordinal": 173,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#294"
     },
     {
       "ordinal": 174,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#295"
     },
     {
       "ordinal": 175,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#199"
     },
     {
       "ordinal": 176,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#200"
     },
     {
       "ordinal": 177,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#296"
     },
     {
       "ordinal": 178,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#297"
     },
     {
       "ordinal": 179,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#228"
     },
     {
       "ordinal": 180,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#298"
     },
     {
       "ordinal": 181,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#299"
     },
     {
       "ordinal": 183,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#226"
     },
     {
       "ordinal": 185,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#300"
     },
     {
       "ordinal": 187,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#223"
     },
     {
       "ordinal": 188,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#225"
     },
     {
       "ordinal": 189,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#231"
     },
     {
       "ordinal": 190,
-      "name": null
+      "name": null,
+      "forwarder": "shlwapi.SHRunIndirectRegClientCommand"
     },
     {
       "ordinal": 191,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#301"
     },
     {
       "ordinal": 192,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#224"
     },
     {
       "ordinal": 194,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#229"
     },
     {
       "ordinal": 195,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#302"
     },
     {
       "ordinal": 196,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#196"
     },
     {
       "ordinal": 197,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#197"
     },
     {
       "ordinal": 198,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#222"
     },
     {
       "ordinal": 199,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#303"
     },
     {
       "ordinal": 200,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#304"
     },
     {
       "ordinal": 203,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#219"
     },
     {
       "ordinal": 204,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#220"
     },
     {
       "ordinal": 208,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#305"
     },
     {
       "ordinal": 209,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#132"
     },
     {
       "ordinal": 210,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#306"
     },
     {
       "ordinal": 211,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#201"
     },
     {
       "ordinal": 212,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#221"
     },
     {
       "ordinal": 213,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#133"
     },
     {
       "ordinal": 214,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#134"
     },
     {
       "ordinal": 215,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#135"
     },
     {
       "ordinal": 216,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#136"
     },
     {
       "ordinal": 217,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#137"
     },
     {
       "ordinal": 218,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#307"
     },
     {
       "ordinal": 219,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#138"
     },
     {
       "ordinal": 221,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#308"
     },
     {
       "ordinal": 222,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#309"
     },
     {
       "ordinal": 223,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#202"
     },
     {
       "ordinal": 224,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#203"
     },
     {
       "ordinal": 225,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#310"
     },
     {
       "ordinal": 226,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#311"
     },
     {
       "ordinal": 227,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#208"
     },
     {
       "ordinal": 228,
@@ -489,27 +601,33 @@
     },
     {
       "ordinal": 229,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#227"
     },
     {
       "ordinal": 230,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#217"
     },
     {
       "ordinal": 231,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#204"
     },
     {
       "ordinal": 232,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#205"
     },
     {
       "ordinal": 233,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#206"
     },
     {
       "ordinal": 234,
-      "name": null
+      "name": null,
+      "forwarder": "SHUNIMPL.#207"
     }
   ]
 }

@@ -1,0 +1,651 @@
+{
+  "Version": "10.0.19041.3636-AMD64",
+  "md5": "a99313451ce0ee40cab48795c393aec9",
+  "imphash": "a99313451ce0ee40cab48795c393aec9",
+  "InternalName": "WINTRUST.DLL",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "Microsoft Trust Verification APIs",
+  "FileVersion": "10.0.19041.3636 (WinBuild.160101.0800)",
+  "ProductVersion": "10.0.19041.3636",
+  "PeChecksum": 473273,
+  "Size": 414776,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ordinal": 12,
+      "name": "AddPersonalTrustDBPages"
+    },
+    {
+      "ordinal": 13,
+      "name": "CatalogCompactHashDatabase"
+    },
+    {
+      "ordinal": 1,
+      "name": "ComputeFirstPageHash"
+    },
+    {
+      "ordinal": 14,
+      "name": "ConfigCiFinalPolicy"
+    },
+    {
+      "ordinal": 15,
+      "name": "ConfigCiPackageFamilyNameCheck"
+    },
+    {
+      "ordinal": 16,
+      "name": "CryptCATAdminAcquireContext"
+    },
+    {
+      "ordinal": 17,
+      "name": "CryptCATAdminAcquireContext2"
+    },
+    {
+      "ordinal": 18,
+      "name": "CryptCATAdminAddCatalog"
+    },
+    {
+      "ordinal": 19,
+      "name": "CryptCATAdminCalcHashFromFileHandle"
+    },
+    {
+      "ordinal": 20,
+      "name": "CryptCATAdminCalcHashFromFileHandle2"
+    },
+    {
+      "ordinal": 21,
+      "name": "CryptCATAdminCalcHashFromFileHandle3"
+    },
+    {
+      "ordinal": 22,
+      "name": "CryptCATAdminEnumCatalogFromHash"
+    },
+    {
+      "ordinal": 23,
+      "name": "CryptCATAdminPauseServiceForBackup"
+    },
+    {
+      "ordinal": 24,
+      "name": "CryptCATAdminReleaseCatalogContext"
+    },
+    {
+      "ordinal": 25,
+      "name": "CryptCATAdminReleaseContext"
+    },
+    {
+      "ordinal": 26,
+      "name": "CryptCATAdminRemoveCatalog"
+    },
+    {
+      "ordinal": 27,
+      "name": "CryptCATAdminResolveCatalogPath"
+    },
+    {
+      "ordinal": 28,
+      "name": "CryptCATAllocSortedMemberInfo"
+    },
+    {
+      "ordinal": 29,
+      "name": "CryptCATCDFClose"
+    },
+    {
+      "ordinal": 30,
+      "name": "CryptCATCDFEnumAttributes"
+    },
+    {
+      "ordinal": 31,
+      "name": "CryptCATCDFEnumAttributesWithCDFTag"
+    },
+    {
+      "ordinal": 32,
+      "name": "CryptCATCDFEnumCatAttributes"
+    },
+    {
+      "ordinal": 33,
+      "name": "CryptCATCDFEnumMembers"
+    },
+    {
+      "ordinal": 34,
+      "name": "CryptCATCDFEnumMembersByCDFTag"
+    },
+    {
+      "ordinal": 35,
+      "name": "CryptCATCDFEnumMembersByCDFTagEx"
+    },
+    {
+      "ordinal": 36,
+      "name": "CryptCATCDFOpen"
+    },
+    {
+      "ordinal": 37,
+      "name": "CryptCATCatalogInfoFromContext"
+    },
+    {
+      "ordinal": 38,
+      "name": "CryptCATClose"
+    },
+    {
+      "ordinal": 39,
+      "name": "CryptCATEnumerateAttr"
+    },
+    {
+      "ordinal": 40,
+      "name": "CryptCATEnumerateCatAttr"
+    },
+    {
+      "ordinal": 41,
+      "name": "CryptCATEnumerateMember"
+    },
+    {
+      "ordinal": 42,
+      "name": "CryptCATFreeSortedMemberInfo"
+    },
+    {
+      "ordinal": 43,
+      "name": "CryptCATGetAttrInfo"
+    },
+    {
+      "ordinal": 44,
+      "name": "CryptCATGetCatAttrInfo"
+    },
+    {
+      "ordinal": 45,
+      "name": "CryptCATGetMemberInfo"
+    },
+    {
+      "ordinal": 46,
+      "name": "CryptCATHandleFromStore"
+    },
+    {
+      "ordinal": 47,
+      "name": "CryptCATOpen"
+    },
+    {
+      "ordinal": 48,
+      "name": "CryptCATPersistStore"
+    },
+    {
+      "ordinal": 49,
+      "name": "CryptCATPutAttrInfo"
+    },
+    {
+      "ordinal": 50,
+      "name": "CryptCATPutCatAttrInfo"
+    },
+    {
+      "ordinal": 51,
+      "name": "CryptCATPutMemberInfo"
+    },
+    {
+      "ordinal": 52,
+      "name": "CryptCATStoreFromHandle"
+    },
+    {
+      "ordinal": 2,
+      "name": "CryptCATVerifyMember"
+    },
+    {
+      "ordinal": 53,
+      "name": "CryptSIPCreateIndirectData"
+    },
+    {
+      "ordinal": 54,
+      "name": "CryptSIPGetCaps"
+    },
+    {
+      "ordinal": 3,
+      "name": "CryptSIPGetInfo"
+    },
+    {
+      "ordinal": 4,
+      "name": "CryptSIPGetRegWorkingFlags"
+    },
+    {
+      "ordinal": 55,
+      "name": "CryptSIPGetSealedDigest"
+    },
+    {
+      "ordinal": 56,
+      "name": "CryptSIPGetSignedDataMsg"
+    },
+    {
+      "ordinal": 57,
+      "name": "CryptSIPPutSignedDataMsg"
+    },
+    {
+      "ordinal": 58,
+      "name": "CryptSIPRemoveSignedDataMsg"
+    },
+    {
+      "ordinal": 59,
+      "name": "CryptSIPVerifyIndirectData"
+    },
+    {
+      "ordinal": 60,
+      "name": "DllRegisterServer"
+    },
+    {
+      "ordinal": 61,
+      "name": "DllUnregisterServer"
+    },
+    {
+      "ordinal": 62,
+      "name": "DriverCleanupPolicy"
+    },
+    {
+      "ordinal": 63,
+      "name": "DriverFinalPolicy"
+    },
+    {
+      "ordinal": 64,
+      "name": "DriverInitializePolicy"
+    },
+    {
+      "ordinal": 65,
+      "name": "FindCertsByIssuer"
+    },
+    {
+      "ordinal": 5,
+      "name": "GenericChainCertificateTrust"
+    },
+    {
+      "ordinal": 6,
+      "name": "GenericChainFinalProv"
+    },
+    {
+      "ordinal": 66,
+      "name": "GetAuthenticodeSha256Hash"
+    },
+    {
+      "ordinal": 7,
+      "name": "HTTPSCertificateTrust"
+    },
+    {
+      "ordinal": 67,
+      "name": "HTTPSFinalProv"
+    },
+    {
+      "ordinal": 68,
+      "name": "IsCatalogFile"
+    },
+    {
+      "ordinal": 69,
+      "name": "MsCatConstructHashTag"
+    },
+    {
+      "ordinal": 70,
+      "name": "MsCatFreeHashTag"
+    },
+    {
+      "ordinal": 71,
+      "name": "OfficeCleanupPolicy"
+    },
+    {
+      "ordinal": 72,
+      "name": "OfficeInitializePolicy"
+    },
+    {
+      "ordinal": 73,
+      "name": "OpenPersonalTrustDBDialog"
+    },
+    {
+      "ordinal": 74,
+      "name": "OpenPersonalTrustDBDialogEx"
+    },
+    {
+      "ordinal": 75,
+      "name": "SoftpubAuthenticode"
+    },
+    {
+      "ordinal": 76,
+      "name": "SoftpubCheckCert"
+    },
+    {
+      "ordinal": 77,
+      "name": "SoftpubCleanup"
+    },
+    {
+      "ordinal": 8,
+      "name": "SoftpubDefCertInit"
+    },
+    {
+      "ordinal": 78,
+      "name": "SoftpubDllRegisterServer"
+    },
+    {
+      "ordinal": 79,
+      "name": "SoftpubDllUnregisterServer"
+    },
+    {
+      "ordinal": 80,
+      "name": "SoftpubDumpStructure"
+    },
+    {
+      "ordinal": 9,
+      "name": "SoftpubFreeDefUsageCallData"
+    },
+    {
+      "ordinal": 81,
+      "name": "SoftpubInitialize"
+    },
+    {
+      "ordinal": 10,
+      "name": "SoftpubLoadDefUsageCallData"
+    },
+    {
+      "ordinal": 82,
+      "name": "SoftpubLoadMessage"
+    },
+    {
+      "ordinal": 83,
+      "name": "SoftpubLoadSignature"
+    },
+    {
+      "ordinal": 84,
+      "name": "SrpCheckSmartlockerEAandProcessToken"
+    },
+    {
+      "ordinal": 85,
+      "name": "TrustDecode"
+    },
+    {
+      "ordinal": 86,
+      "name": "TrustFindIssuerCertificate"
+    },
+    {
+      "ordinal": 87,
+      "name": "TrustFreeDecode"
+    },
+    {
+      "ordinal": 88,
+      "name": "TrustIsCertificateSelfSigned"
+    },
+    {
+      "ordinal": 89,
+      "name": "TrustOpenStores"
+    },
+    {
+      "ordinal": 90,
+      "name": "WTConvertCertCtxToChainInfo"
+    },
+    {
+      "ordinal": 91,
+      "name": "WTGetBioSignatureInfo"
+    },
+    {
+      "ordinal": 92,
+      "name": "WTGetPluginSignatureInfo"
+    },
+    {
+      "ordinal": 93,
+      "name": "WTGetSignatureInfo"
+    },
+    {
+      "ordinal": 94,
+      "name": "WTHelperCertCheckValidSignature"
+    },
+    {
+      "ordinal": 11,
+      "name": "WTHelperCertFindIssuerCertificate"
+    },
+    {
+      "ordinal": 95,
+      "name": "WTHelperCertIsSelfSigned"
+    },
+    {
+      "ordinal": 96,
+      "name": "WTHelperCheckCertUsage"
+    },
+    {
+      "ordinal": 97,
+      "name": "WTHelperGetAgencyInfo"
+    },
+    {
+      "ordinal": 98,
+      "name": "WTHelperGetFileHandle"
+    },
+    {
+      "ordinal": 99,
+      "name": "WTHelperGetFileHash"
+    },
+    {
+      "ordinal": 100,
+      "name": "WTHelperGetFileName"
+    },
+    {
+      "ordinal": 101,
+      "name": "WTHelperGetKnownUsages"
+    },
+    {
+      "ordinal": 102,
+      "name": "WTHelperGetProvCertFromChain"
+    },
+    {
+      "ordinal": 103,
+      "name": "WTHelperGetProvPrivateDataFromChain"
+    },
+    {
+      "ordinal": 104,
+      "name": "WTHelperGetProvSignerFromChain"
+    },
+    {
+      "ordinal": 105,
+      "name": "WTHelperIsChainedToMicrosoft"
+    },
+    {
+      "ordinal": 106,
+      "name": "WTHelperIsChainedToMicrosoftFromStateData"
+    },
+    {
+      "ordinal": 107,
+      "name": "WTHelperIsInRootStore"
+    },
+    {
+      "ordinal": 108,
+      "name": "WTHelperOpenKnownStores"
+    },
+    {
+      "ordinal": 109,
+      "name": "WTHelperProvDataFromStateData"
+    },
+    {
+      "ordinal": 110,
+      "name": "WTIsFirstConfigCiResultPreferred"
+    },
+    {
+      "ordinal": 111,
+      "name": "WTLogConfigCiScriptEvent"
+    },
+    {
+      "ordinal": 112,
+      "name": "WTLogConfigCiSignerEvent"
+    },
+    {
+      "ordinal": 113,
+      "name": "WTValidateBioSignaturePolicy"
+    },
+    {
+      "ordinal": 114,
+      "name": "WVTAsn1CatMemberInfo2Decode"
+    },
+    {
+      "ordinal": 115,
+      "name": "WVTAsn1CatMemberInfo2Encode"
+    },
+    {
+      "ordinal": 116,
+      "name": "WVTAsn1CatMemberInfoDecode"
+    },
+    {
+      "ordinal": 117,
+      "name": "WVTAsn1CatMemberInfoEncode"
+    },
+    {
+      "ordinal": 118,
+      "name": "WVTAsn1CatNameValueDecode"
+    },
+    {
+      "ordinal": 119,
+      "name": "WVTAsn1CatNameValueEncode"
+    },
+    {
+      "ordinal": 120,
+      "name": "WVTAsn1IntentToSealAttributeDecode"
+    },
+    {
+      "ordinal": 121,
+      "name": "WVTAsn1IntentToSealAttributeEncode"
+    },
+    {
+      "ordinal": 122,
+      "name": "WVTAsn1SealingSignatureAttributeDecode"
+    },
+    {
+      "ordinal": 123,
+      "name": "WVTAsn1SealingSignatureAttributeEncode"
+    },
+    {
+      "ordinal": 124,
+      "name": "WVTAsn1SealingTimestampAttributeDecode"
+    },
+    {
+      "ordinal": 125,
+      "name": "WVTAsn1SealingTimestampAttributeEncode"
+    },
+    {
+      "ordinal": 126,
+      "name": "WVTAsn1SpcFinancialCriteriaInfoDecode"
+    },
+    {
+      "ordinal": 127,
+      "name": "WVTAsn1SpcFinancialCriteriaInfoEncode"
+    },
+    {
+      "ordinal": 128,
+      "name": "WVTAsn1SpcIndirectDataContentDecode"
+    },
+    {
+      "ordinal": 129,
+      "name": "WVTAsn1SpcIndirectDataContentEncode"
+    },
+    {
+      "ordinal": 130,
+      "name": "WVTAsn1SpcLinkDecode"
+    },
+    {
+      "ordinal": 131,
+      "name": "WVTAsn1SpcLinkEncode"
+    },
+    {
+      "ordinal": 132,
+      "name": "WVTAsn1SpcMinimalCriteriaInfoDecode"
+    },
+    {
+      "ordinal": 133,
+      "name": "WVTAsn1SpcMinimalCriteriaInfoEncode"
+    },
+    {
+      "ordinal": 134,
+      "name": "WVTAsn1SpcPeImageDataDecode"
+    },
+    {
+      "ordinal": 135,
+      "name": "WVTAsn1SpcPeImageDataEncode"
+    },
+    {
+      "ordinal": 136,
+      "name": "WVTAsn1SpcSigInfoDecode"
+    },
+    {
+      "ordinal": 137,
+      "name": "WVTAsn1SpcSigInfoEncode"
+    },
+    {
+      "ordinal": 138,
+      "name": "WVTAsn1SpcSpAgencyInfoDecode"
+    },
+    {
+      "ordinal": 139,
+      "name": "WVTAsn1SpcSpAgencyInfoEncode"
+    },
+    {
+      "ordinal": 140,
+      "name": "WVTAsn1SpcSpOpusInfoDecode"
+    },
+    {
+      "ordinal": 141,
+      "name": "WVTAsn1SpcSpOpusInfoEncode"
+    },
+    {
+      "ordinal": 142,
+      "name": "WVTAsn1SpcStatementTypeDecode"
+    },
+    {
+      "ordinal": 143,
+      "name": "WVTAsn1SpcStatementTypeEncode"
+    },
+    {
+      "ordinal": 144,
+      "name": "WinVerifyTrust"
+    },
+    {
+      "ordinal": 145,
+      "name": "WinVerifyTrustEx"
+    },
+    {
+      "ordinal": 146,
+      "name": "WintrustAddActionID"
+    },
+    {
+      "ordinal": 147,
+      "name": "WintrustAddDefaultForUsage"
+    },
+    {
+      "ordinal": 148,
+      "name": "WintrustCertificateTrust"
+    },
+    {
+      "ordinal": 149,
+      "name": "WintrustGetDefaultForUsage"
+    },
+    {
+      "ordinal": 150,
+      "name": "WintrustGetRegPolicyFlags"
+    },
+    {
+      "ordinal": 151,
+      "name": "WintrustLoadFunctionPointers"
+    },
+    {
+      "ordinal": 152,
+      "name": "WintrustRemoveActionID"
+    },
+    {
+      "ordinal": 153,
+      "name": "WintrustSetDefaultIncludePEPageHashes"
+    },
+    {
+      "ordinal": 154,
+      "name": "WintrustSetRegPolicyFlags"
+    },
+    {
+      "ordinal": 155,
+      "name": "WintrustUserWriteabilityCheck"
+    },
+    {
+      "ordinal": 156,
+      "name": "mscat32DllRegisterServer"
+    },
+    {
+      "ordinal": 157,
+      "name": "mscat32DllUnregisterServer"
+    },
+    {
+      "ordinal": 158,
+      "name": "mssip32DllRegisterServer"
+    },
+    {
+      "ordinal": 159,
+      "name": "mssip32DllUnregisterServer"
+    }
+  ]
+}

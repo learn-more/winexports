@@ -13,75 +13,93 @@
   "exports": [
     {
       "ordinal": 1,
-      "name": "CMP_GetBlockedDriverInfo"
+      "name": "CMP_GetBlockedDriverInfo",
+      "forwarder": "cfgmgr32.CMP_GetBlockedDriverInfo"
     },
     {
       "ordinal": 2,
-      "name": "CMP_GetServerSideDeviceInstallFlags"
+      "name": "CMP_GetServerSideDeviceInstallFlags",
+      "forwarder": "cfgmgr32.CMP_GetServerSideDeviceInstallFlags"
     },
     {
       "ordinal": 3,
-      "name": "CMP_Init_Detection"
+      "name": "CMP_Init_Detection",
+      "forwarder": "cfgmgr32.CMP_Init_Detection"
     },
     {
       "ordinal": 4,
-      "name": "CMP_RegisterNotification"
+      "name": "CMP_RegisterNotification",
+      "forwarder": "cfgmgr32.CMP_RegisterNotification"
     },
     {
       "ordinal": 5,
-      "name": "CMP_Report_LogOn"
+      "name": "CMP_Report_LogOn",
+      "forwarder": "cfgmgr32.CMP_Report_LogOn"
     },
     {
       "ordinal": 6,
-      "name": "CMP_UnregisterNotification"
+      "name": "CMP_UnregisterNotification",
+      "forwarder": "cfgmgr32.CMP_UnregisterNotification"
     },
     {
       "ordinal": 7,
-      "name": "CMP_WaitNoPendingInstallEvents"
+      "name": "CMP_WaitNoPendingInstallEvents",
+      "forwarder": "cfgmgr32.CMP_WaitNoPendingInstallEvents"
     },
     {
       "ordinal": 8,
-      "name": "CMP_WaitServicesAvailable"
+      "name": "CMP_WaitServicesAvailable",
+      "forwarder": "cfgmgr32.CMP_WaitServicesAvailable"
     },
     {
       "ordinal": 9,
-      "name": "CM_Add_Driver_PackageW"
+      "name": "CM_Add_Driver_PackageW",
+      "forwarder": "cfgmgr32.CM_Add_Driver_PackageW"
     },
     {
       "ordinal": 10,
-      "name": "CM_Add_Empty_Log_Conf"
+      "name": "CM_Add_Empty_Log_Conf",
+      "forwarder": "cfgmgr32.CM_Add_Empty_Log_Conf"
     },
     {
       "ordinal": 11,
-      "name": "CM_Add_Empty_Log_Conf_Ex"
+      "name": "CM_Add_Empty_Log_Conf_Ex",
+      "forwarder": "cfgmgr32.CM_Add_Empty_Log_Conf_Ex"
     },
     {
       "ordinal": 12,
-      "name": "CM_Add_IDA"
+      "name": "CM_Add_IDA",
+      "forwarder": "cfgmgr32.CM_Add_IDA"
     },
     {
       "ordinal": 13,
-      "name": "CM_Add_IDW"
+      "name": "CM_Add_IDW",
+      "forwarder": "cfgmgr32.CM_Add_IDW"
     },
     {
       "ordinal": 14,
-      "name": "CM_Add_ID_ExA"
+      "name": "CM_Add_ID_ExA",
+      "forwarder": "cfgmgr32.CM_Add_ID_ExA"
     },
     {
       "ordinal": 15,
-      "name": "CM_Add_ID_ExW"
+      "name": "CM_Add_ID_ExW",
+      "forwarder": "cfgmgr32.CM_Add_ID_ExW"
     },
     {
       "ordinal": 16,
-      "name": "CM_Add_Range"
+      "name": "CM_Add_Range",
+      "forwarder": "cfgmgr32.CM_Add_Range"
     },
     {
       "ordinal": 17,
-      "name": "CM_Add_Res_Des"
+      "name": "CM_Add_Res_Des",
+      "forwarder": "cfgmgr32.CM_Add_Res_Des"
     },
     {
       "ordinal": 18,
-      "name": "CM_Add_Res_Des_Ex"
+      "name": "CM_Add_Res_Des_Ex",
+      "forwarder": "cfgmgr32.CM_Add_Res_Des_Ex"
     },
     {
       "ordinal": 19,
@@ -89,67 +107,83 @@
     },
     {
       "ordinal": 20,
-      "name": "CM_Connect_MachineA"
+      "name": "CM_Connect_MachineA",
+      "forwarder": "cfgmgr32.CM_Connect_MachineA"
     },
     {
       "ordinal": 21,
-      "name": "CM_Connect_MachineW"
+      "name": "CM_Connect_MachineW",
+      "forwarder": "cfgmgr32.CM_Connect_MachineW"
     },
     {
       "ordinal": 22,
-      "name": "CM_Create_DevNodeA"
+      "name": "CM_Create_DevNodeA",
+      "forwarder": "cfgmgr32.CM_Create_DevNodeA"
     },
     {
       "ordinal": 23,
-      "name": "CM_Create_DevNodeW"
+      "name": "CM_Create_DevNodeW",
+      "forwarder": "cfgmgr32.CM_Create_DevNodeW"
     },
     {
       "ordinal": 24,
-      "name": "CM_Create_DevNode_ExA"
+      "name": "CM_Create_DevNode_ExA",
+      "forwarder": "cfgmgr32.CM_Create_DevNode_ExA"
     },
     {
       "ordinal": 25,
-      "name": "CM_Create_DevNode_ExW"
+      "name": "CM_Create_DevNode_ExW",
+      "forwarder": "cfgmgr32.CM_Create_DevNode_ExW"
     },
     {
       "ordinal": 26,
-      "name": "CM_Create_Range_List"
+      "name": "CM_Create_Range_List",
+      "forwarder": "cfgmgr32.CM_Create_Range_List"
     },
     {
       "ordinal": 27,
-      "name": "CM_Delete_Class_Key"
+      "name": "CM_Delete_Class_Key",
+      "forwarder": "cfgmgr32.CM_Delete_Class_Key"
     },
     {
       "ordinal": 28,
-      "name": "CM_Delete_Class_Key_Ex"
+      "name": "CM_Delete_Class_Key_Ex",
+      "forwarder": "cfgmgr32.CM_Delete_Class_Key_Ex"
     },
     {
       "ordinal": 29,
-      "name": "CM_Delete_DevNode_Key"
+      "name": "CM_Delete_DevNode_Key",
+      "forwarder": "cfgmgr32.CM_Delete_DevNode_Key"
     },
     {
       "ordinal": 30,
-      "name": "CM_Delete_DevNode_Key_Ex"
+      "name": "CM_Delete_DevNode_Key_Ex",
+      "forwarder": "cfgmgr32.CM_Delete_DevNode_Key_Ex"
     },
     {
       "ordinal": 31,
-      "name": "CM_Delete_Device_Interface_KeyA"
+      "name": "CM_Delete_Device_Interface_KeyA",
+      "forwarder": "cfgmgr32.CM_Delete_Device_Interface_KeyA"
     },
     {
       "ordinal": 32,
-      "name": "CM_Delete_Device_Interface_KeyW"
+      "name": "CM_Delete_Device_Interface_KeyW",
+      "forwarder": "cfgmgr32.CM_Delete_Device_Interface_KeyW"
     },
     {
       "ordinal": 33,
-      "name": "CM_Delete_Device_Interface_Key_ExA"
+      "name": "CM_Delete_Device_Interface_Key_ExA",
+      "forwarder": "cfgmgr32.CM_Delete_Device_Interface_Key_ExA"
     },
     {
       "ordinal": 34,
-      "name": "CM_Delete_Device_Interface_Key_ExW"
+      "name": "CM_Delete_Device_Interface_Key_ExW",
+      "forwarder": "cfgmgr32.CM_Delete_Device_Interface_Key_ExW"
     },
     {
       "ordinal": 35,
-      "name": "CM_Delete_Driver_PackageW"
+      "name": "CM_Delete_Driver_PackageW",
+      "forwarder": "cfgmgr32.CM_Delete_Driver_PackageW"
     },
     {
       "ordinal": 36,
@@ -157,31 +191,38 @@
     },
     {
       "ordinal": 37,
-      "name": "CM_Delete_Range"
+      "name": "CM_Delete_Range",
+      "forwarder": "cfgmgr32.CM_Delete_Range"
     },
     {
       "ordinal": 38,
-      "name": "CM_Detect_Resource_Conflict"
+      "name": "CM_Detect_Resource_Conflict",
+      "forwarder": "cfgmgr32.CM_Detect_Resource_Conflict"
     },
     {
       "ordinal": 39,
-      "name": "CM_Detect_Resource_Conflict_Ex"
+      "name": "CM_Detect_Resource_Conflict_Ex",
+      "forwarder": "cfgmgr32.CM_Detect_Resource_Conflict_Ex"
     },
     {
       "ordinal": 40,
-      "name": "CM_Disable_DevNode"
+      "name": "CM_Disable_DevNode",
+      "forwarder": "cfgmgr32.CM_Disable_DevNode"
     },
     {
       "ordinal": 41,
-      "name": "CM_Disable_DevNode_Ex"
+      "name": "CM_Disable_DevNode_Ex",
+      "forwarder": "cfgmgr32.CM_Disable_DevNode_Ex"
     },
     {
       "ordinal": 42,
-      "name": "CM_Disconnect_Machine"
+      "name": "CM_Disconnect_Machine",
+      "forwarder": "cfgmgr32.CM_Disconnect_Machine"
     },
     {
       "ordinal": 43,
-      "name": "CM_Dup_Range_List"
+      "name": "CM_Dup_Range_List",
+      "forwarder": "cfgmgr32.CM_Dup_Range_List"
     },
     {
       "ordinal": 44,
@@ -189,399 +230,498 @@
     },
     {
       "ordinal": 45,
-      "name": "CM_Enable_DevNode"
+      "name": "CM_Enable_DevNode",
+      "forwarder": "cfgmgr32.CM_Enable_DevNode"
     },
     {
       "ordinal": 46,
-      "name": "CM_Enable_DevNode_Ex"
+      "name": "CM_Enable_DevNode_Ex",
+      "forwarder": "cfgmgr32.CM_Enable_DevNode_Ex"
     },
     {
       "ordinal": 47,
-      "name": "CM_Enumerate_Classes"
+      "name": "CM_Enumerate_Classes",
+      "forwarder": "cfgmgr32.CM_Enumerate_Classes"
     },
     {
       "ordinal": 48,
-      "name": "CM_Enumerate_Classes_Ex"
+      "name": "CM_Enumerate_Classes_Ex",
+      "forwarder": "cfgmgr32.CM_Enumerate_Classes_Ex"
     },
     {
       "ordinal": 49,
-      "name": "CM_Enumerate_EnumeratorsA"
+      "name": "CM_Enumerate_EnumeratorsA",
+      "forwarder": "cfgmgr32.CM_Enumerate_EnumeratorsA"
     },
     {
       "ordinal": 50,
-      "name": "CM_Enumerate_EnumeratorsW"
+      "name": "CM_Enumerate_EnumeratorsW",
+      "forwarder": "cfgmgr32.CM_Enumerate_EnumeratorsW"
     },
     {
       "ordinal": 51,
-      "name": "CM_Enumerate_Enumerators_ExA"
+      "name": "CM_Enumerate_Enumerators_ExA",
+      "forwarder": "cfgmgr32.CM_Enumerate_Enumerators_ExA"
     },
     {
       "ordinal": 52,
-      "name": "CM_Enumerate_Enumerators_ExW"
+      "name": "CM_Enumerate_Enumerators_ExW",
+      "forwarder": "cfgmgr32.CM_Enumerate_Enumerators_ExW"
     },
     {
       "ordinal": 53,
-      "name": "CM_Find_Range"
+      "name": "CM_Find_Range",
+      "forwarder": "cfgmgr32.CM_Find_Range"
     },
     {
       "ordinal": 54,
-      "name": "CM_First_Range"
+      "name": "CM_First_Range",
+      "forwarder": "cfgmgr32.CM_First_Range"
     },
     {
       "ordinal": 55,
-      "name": "CM_Free_Log_Conf"
+      "name": "CM_Free_Log_Conf",
+      "forwarder": "cfgmgr32.CM_Free_Log_Conf"
     },
     {
       "ordinal": 56,
-      "name": "CM_Free_Log_Conf_Ex"
+      "name": "CM_Free_Log_Conf_Ex",
+      "forwarder": "cfgmgr32.CM_Free_Log_Conf_Ex"
     },
     {
       "ordinal": 57,
-      "name": "CM_Free_Log_Conf_Handle"
+      "name": "CM_Free_Log_Conf_Handle",
+      "forwarder": "cfgmgr32.CM_Free_Log_Conf_Handle"
     },
     {
       "ordinal": 58,
-      "name": "CM_Free_Range_List"
+      "name": "CM_Free_Range_List",
+      "forwarder": "cfgmgr32.CM_Free_Range_List"
     },
     {
       "ordinal": 59,
-      "name": "CM_Free_Res_Des"
+      "name": "CM_Free_Res_Des",
+      "forwarder": "cfgmgr32.CM_Free_Res_Des"
     },
     {
       "ordinal": 60,
-      "name": "CM_Free_Res_Des_Ex"
+      "name": "CM_Free_Res_Des_Ex",
+      "forwarder": "cfgmgr32.CM_Free_Res_Des_Ex"
     },
     {
       "ordinal": 61,
-      "name": "CM_Free_Res_Des_Handle"
+      "name": "CM_Free_Res_Des_Handle",
+      "forwarder": "cfgmgr32.CM_Free_Res_Des_Handle"
     },
     {
       "ordinal": 62,
-      "name": "CM_Free_Resource_Conflict_Handle"
+      "name": "CM_Free_Resource_Conflict_Handle",
+      "forwarder": "cfgmgr32.CM_Free_Resource_Conflict_Handle"
     },
     {
       "ordinal": 63,
-      "name": "CM_Get_Child"
+      "name": "CM_Get_Child",
+      "forwarder": "cfgmgr32.CM_Get_Child"
     },
     {
       "ordinal": 64,
-      "name": "CM_Get_Child_Ex"
+      "name": "CM_Get_Child_Ex",
+      "forwarder": "cfgmgr32.CM_Get_Child_Ex"
     },
     {
       "ordinal": 65,
-      "name": "CM_Get_Class_Key_NameA"
+      "name": "CM_Get_Class_Key_NameA",
+      "forwarder": "cfgmgr32.CM_Get_Class_Key_NameA"
     },
     {
       "ordinal": 66,
-      "name": "CM_Get_Class_Key_NameW"
+      "name": "CM_Get_Class_Key_NameW",
+      "forwarder": "cfgmgr32.CM_Get_Class_Key_NameW"
     },
     {
       "ordinal": 67,
-      "name": "CM_Get_Class_Key_Name_ExA"
+      "name": "CM_Get_Class_Key_Name_ExA",
+      "forwarder": "cfgmgr32.CM_Get_Class_Key_Name_ExA"
     },
     {
       "ordinal": 68,
-      "name": "CM_Get_Class_Key_Name_ExW"
+      "name": "CM_Get_Class_Key_Name_ExW",
+      "forwarder": "cfgmgr32.CM_Get_Class_Key_Name_ExW"
     },
     {
       "ordinal": 69,
-      "name": "CM_Get_Class_NameA"
+      "name": "CM_Get_Class_NameA",
+      "forwarder": "cfgmgr32.CM_Get_Class_NameA"
     },
     {
       "ordinal": 70,
-      "name": "CM_Get_Class_NameW"
+      "name": "CM_Get_Class_NameW",
+      "forwarder": "cfgmgr32.CM_Get_Class_NameW"
     },
     {
       "ordinal": 71,
-      "name": "CM_Get_Class_Name_ExA"
+      "name": "CM_Get_Class_Name_ExA",
+      "forwarder": "cfgmgr32.CM_Get_Class_Name_ExA"
     },
     {
       "ordinal": 72,
-      "name": "CM_Get_Class_Name_ExW"
+      "name": "CM_Get_Class_Name_ExW",
+      "forwarder": "cfgmgr32.CM_Get_Class_Name_ExW"
     },
     {
       "ordinal": 73,
-      "name": "CM_Get_Class_Registry_PropertyA"
+      "name": "CM_Get_Class_Registry_PropertyA",
+      "forwarder": "cfgmgr32.CM_Get_Class_Registry_PropertyA"
     },
     {
       "ordinal": 74,
-      "name": "CM_Get_Class_Registry_PropertyW"
+      "name": "CM_Get_Class_Registry_PropertyW",
+      "forwarder": "cfgmgr32.CM_Get_Class_Registry_PropertyW"
     },
     {
       "ordinal": 75,
-      "name": "CM_Get_Depth"
+      "name": "CM_Get_Depth",
+      "forwarder": "cfgmgr32.CM_Get_Depth"
     },
     {
       "ordinal": 76,
-      "name": "CM_Get_Depth_Ex"
+      "name": "CM_Get_Depth_Ex",
+      "forwarder": "cfgmgr32.CM_Get_Depth_Ex"
     },
     {
       "ordinal": 77,
-      "name": "CM_Get_DevNode_Custom_PropertyA"
+      "name": "CM_Get_DevNode_Custom_PropertyA",
+      "forwarder": "cfgmgr32.CM_Get_DevNode_Custom_PropertyA"
     },
     {
       "ordinal": 78,
-      "name": "CM_Get_DevNode_Custom_PropertyW"
+      "name": "CM_Get_DevNode_Custom_PropertyW",
+      "forwarder": "cfgmgr32.CM_Get_DevNode_Custom_PropertyW"
     },
     {
       "ordinal": 79,
-      "name": "CM_Get_DevNode_Custom_Property_ExA"
+      "name": "CM_Get_DevNode_Custom_Property_ExA",
+      "forwarder": "cfgmgr32.CM_Get_DevNode_Custom_Property_ExA"
     },
     {
       "ordinal": 80,
-      "name": "CM_Get_DevNode_Custom_Property_ExW"
+      "name": "CM_Get_DevNode_Custom_Property_ExW",
+      "forwarder": "cfgmgr32.CM_Get_DevNode_Custom_Property_ExW"
     },
     {
       "ordinal": 81,
-      "name": "CM_Get_DevNode_Registry_PropertyA"
+      "name": "CM_Get_DevNode_Registry_PropertyA",
+      "forwarder": "cfgmgr32.CM_Get_DevNode_Registry_PropertyA"
     },
     {
       "ordinal": 82,
-      "name": "CM_Get_DevNode_Registry_PropertyW"
+      "name": "CM_Get_DevNode_Registry_PropertyW",
+      "forwarder": "cfgmgr32.CM_Get_DevNode_Registry_PropertyW"
     },
     {
       "ordinal": 83,
-      "name": "CM_Get_DevNode_Registry_Property_ExA"
+      "name": "CM_Get_DevNode_Registry_Property_ExA",
+      "forwarder": "cfgmgr32.CM_Get_DevNode_Registry_Property_ExA"
     },
     {
       "ordinal": 84,
-      "name": "CM_Get_DevNode_Registry_Property_ExW"
+      "name": "CM_Get_DevNode_Registry_Property_ExW",
+      "forwarder": "cfgmgr32.CM_Get_DevNode_Registry_Property_ExW"
     },
     {
       "ordinal": 85,
-      "name": "CM_Get_DevNode_Status"
+      "name": "CM_Get_DevNode_Status",
+      "forwarder": "cfgmgr32.CM_Get_DevNode_Status"
     },
     {
       "ordinal": 86,
-      "name": "CM_Get_DevNode_Status_Ex"
+      "name": "CM_Get_DevNode_Status_Ex",
+      "forwarder": "cfgmgr32.CM_Get_DevNode_Status_Ex"
     },
     {
       "ordinal": 87,
-      "name": "CM_Get_Device_IDA"
+      "name": "CM_Get_Device_IDA",
+      "forwarder": "cfgmgr32.CM_Get_Device_IDA"
     },
     {
       "ordinal": 88,
-      "name": "CM_Get_Device_IDW"
+      "name": "CM_Get_Device_IDW",
+      "forwarder": "cfgmgr32.CM_Get_Device_IDW"
     },
     {
       "ordinal": 89,
-      "name": "CM_Get_Device_ID_ExA"
+      "name": "CM_Get_Device_ID_ExA",
+      "forwarder": "cfgmgr32.CM_Get_Device_ID_ExA"
     },
     {
       "ordinal": 90,
-      "name": "CM_Get_Device_ID_ExW"
+      "name": "CM_Get_Device_ID_ExW",
+      "forwarder": "cfgmgr32.CM_Get_Device_ID_ExW"
     },
     {
       "ordinal": 91,
-      "name": "CM_Get_Device_ID_ListA"
+      "name": "CM_Get_Device_ID_ListA",
+      "forwarder": "cfgmgr32.CM_Get_Device_ID_ListA"
     },
     {
       "ordinal": 92,
-      "name": "CM_Get_Device_ID_ListW"
+      "name": "CM_Get_Device_ID_ListW",
+      "forwarder": "cfgmgr32.CM_Get_Device_ID_ListW"
     },
     {
       "ordinal": 93,
-      "name": "CM_Get_Device_ID_List_ExA"
+      "name": "CM_Get_Device_ID_List_ExA",
+      "forwarder": "cfgmgr32.CM_Get_Device_ID_List_ExA"
     },
     {
       "ordinal": 94,
-      "name": "CM_Get_Device_ID_List_ExW"
+      "name": "CM_Get_Device_ID_List_ExW",
+      "forwarder": "cfgmgr32.CM_Get_Device_ID_List_ExW"
     },
     {
       "ordinal": 95,
-      "name": "CM_Get_Device_ID_List_SizeA"
+      "name": "CM_Get_Device_ID_List_SizeA",
+      "forwarder": "cfgmgr32.CM_Get_Device_ID_List_SizeA"
     },
     {
       "ordinal": 96,
-      "name": "CM_Get_Device_ID_List_SizeW"
+      "name": "CM_Get_Device_ID_List_SizeW",
+      "forwarder": "cfgmgr32.CM_Get_Device_ID_List_SizeW"
     },
     {
       "ordinal": 97,
-      "name": "CM_Get_Device_ID_List_Size_ExA"
+      "name": "CM_Get_Device_ID_List_Size_ExA",
+      "forwarder": "cfgmgr32.CM_Get_Device_ID_List_Size_ExA"
     },
     {
       "ordinal": 98,
-      "name": "CM_Get_Device_ID_List_Size_ExW"
+      "name": "CM_Get_Device_ID_List_Size_ExW",
+      "forwarder": "cfgmgr32.CM_Get_Device_ID_List_Size_ExW"
     },
     {
       "ordinal": 99,
-      "name": "CM_Get_Device_ID_Size"
+      "name": "CM_Get_Device_ID_Size",
+      "forwarder": "cfgmgr32.CM_Get_Device_ID_Size"
     },
     {
       "ordinal": 100,
-      "name": "CM_Get_Device_ID_Size_Ex"
+      "name": "CM_Get_Device_ID_Size_Ex",
+      "forwarder": "cfgmgr32.CM_Get_Device_ID_Size_Ex"
     },
     {
       "ordinal": 101,
-      "name": "CM_Get_Device_Interface_AliasA"
+      "name": "CM_Get_Device_Interface_AliasA",
+      "forwarder": "cfgmgr32.CM_Get_Device_Interface_AliasA"
     },
     {
       "ordinal": 102,
-      "name": "CM_Get_Device_Interface_AliasW"
+      "name": "CM_Get_Device_Interface_AliasW",
+      "forwarder": "cfgmgr32.CM_Get_Device_Interface_AliasW"
     },
     {
       "ordinal": 103,
-      "name": "CM_Get_Device_Interface_Alias_ExA"
+      "name": "CM_Get_Device_Interface_Alias_ExA",
+      "forwarder": "cfgmgr32.CM_Get_Device_Interface_Alias_ExA"
     },
     {
       "ordinal": 104,
-      "name": "CM_Get_Device_Interface_Alias_ExW"
+      "name": "CM_Get_Device_Interface_Alias_ExW",
+      "forwarder": "cfgmgr32.CM_Get_Device_Interface_Alias_ExW"
     },
     {
       "ordinal": 105,
-      "name": "CM_Get_Device_Interface_ListA"
+      "name": "CM_Get_Device_Interface_ListA",
+      "forwarder": "cfgmgr32.CM_Get_Device_Interface_ListA"
     },
     {
       "ordinal": 106,
-      "name": "CM_Get_Device_Interface_ListW"
+      "name": "CM_Get_Device_Interface_ListW",
+      "forwarder": "cfgmgr32.CM_Get_Device_Interface_ListW"
     },
     {
       "ordinal": 107,
-      "name": "CM_Get_Device_Interface_List_ExA"
+      "name": "CM_Get_Device_Interface_List_ExA",
+      "forwarder": "cfgmgr32.CM_Get_Device_Interface_List_ExA"
     },
     {
       "ordinal": 108,
-      "name": "CM_Get_Device_Interface_List_ExW"
+      "name": "CM_Get_Device_Interface_List_ExW",
+      "forwarder": "cfgmgr32.CM_Get_Device_Interface_List_ExW"
     },
     {
       "ordinal": 109,
-      "name": "CM_Get_Device_Interface_List_SizeA"
+      "name": "CM_Get_Device_Interface_List_SizeA",
+      "forwarder": "cfgmgr32.CM_Get_Device_Interface_List_SizeA"
     },
     {
       "ordinal": 110,
-      "name": "CM_Get_Device_Interface_List_SizeW"
+      "name": "CM_Get_Device_Interface_List_SizeW",
+      "forwarder": "cfgmgr32.CM_Get_Device_Interface_List_SizeW"
     },
     {
       "ordinal": 111,
-      "name": "CM_Get_Device_Interface_List_Size_ExA"
+      "name": "CM_Get_Device_Interface_List_Size_ExA",
+      "forwarder": "cfgmgr32.CM_Get_Device_Interface_List_Size_ExA"
     },
     {
       "ordinal": 112,
-      "name": "CM_Get_Device_Interface_List_Size_ExW"
+      "name": "CM_Get_Device_Interface_List_Size_ExW",
+      "forwarder": "cfgmgr32.CM_Get_Device_Interface_List_Size_ExW"
     },
     {
       "ordinal": 113,
-      "name": "CM_Get_First_Log_Conf"
+      "name": "CM_Get_First_Log_Conf",
+      "forwarder": "cfgmgr32.CM_Get_First_Log_Conf"
     },
     {
       "ordinal": 114,
-      "name": "CM_Get_First_Log_Conf_Ex"
+      "name": "CM_Get_First_Log_Conf_Ex",
+      "forwarder": "cfgmgr32.CM_Get_First_Log_Conf_Ex"
     },
     {
       "ordinal": 115,
-      "name": "CM_Get_Global_State"
+      "name": "CM_Get_Global_State",
+      "forwarder": "cfgmgr32.CM_Get_Global_State"
     },
     {
       "ordinal": 116,
-      "name": "CM_Get_Global_State_Ex"
+      "name": "CM_Get_Global_State_Ex",
+      "forwarder": "cfgmgr32.CM_Get_Global_State_Ex"
     },
     {
       "ordinal": 117,
-      "name": "CM_Get_HW_Prof_FlagsA"
+      "name": "CM_Get_HW_Prof_FlagsA",
+      "forwarder": "cfgmgr32.CM_Get_HW_Prof_FlagsA"
     },
     {
       "ordinal": 118,
-      "name": "CM_Get_HW_Prof_FlagsW"
+      "name": "CM_Get_HW_Prof_FlagsW",
+      "forwarder": "cfgmgr32.CM_Get_HW_Prof_FlagsW"
     },
     {
       "ordinal": 119,
-      "name": "CM_Get_HW_Prof_Flags_ExA"
+      "name": "CM_Get_HW_Prof_Flags_ExA",
+      "forwarder": "cfgmgr32.CM_Get_HW_Prof_Flags_ExA"
     },
     {
       "ordinal": 120,
-      "name": "CM_Get_HW_Prof_Flags_ExW"
+      "name": "CM_Get_HW_Prof_Flags_ExW",
+      "forwarder": "cfgmgr32.CM_Get_HW_Prof_Flags_ExW"
     },
     {
       "ordinal": 121,
-      "name": "CM_Get_Hardware_Profile_InfoA"
+      "name": "CM_Get_Hardware_Profile_InfoA",
+      "forwarder": "cfgmgr32.CM_Get_Hardware_Profile_InfoA"
     },
     {
       "ordinal": 122,
-      "name": "CM_Get_Hardware_Profile_InfoW"
+      "name": "CM_Get_Hardware_Profile_InfoW",
+      "forwarder": "cfgmgr32.CM_Get_Hardware_Profile_InfoW"
     },
     {
       "ordinal": 123,
-      "name": "CM_Get_Hardware_Profile_Info_ExA"
+      "name": "CM_Get_Hardware_Profile_Info_ExA",
+      "forwarder": "cfgmgr32.CM_Get_Hardware_Profile_Info_ExA"
     },
     {
       "ordinal": 124,
-      "name": "CM_Get_Hardware_Profile_Info_ExW"
+      "name": "CM_Get_Hardware_Profile_Info_ExW",
+      "forwarder": "cfgmgr32.CM_Get_Hardware_Profile_Info_ExW"
     },
     {
       "ordinal": 125,
-      "name": "CM_Get_Log_Conf_Priority"
+      "name": "CM_Get_Log_Conf_Priority",
+      "forwarder": "cfgmgr32.CM_Get_Log_Conf_Priority"
     },
     {
       "ordinal": 126,
-      "name": "CM_Get_Log_Conf_Priority_Ex"
+      "name": "CM_Get_Log_Conf_Priority_Ex",
+      "forwarder": "cfgmgr32.CM_Get_Log_Conf_Priority_Ex"
     },
     {
       "ordinal": 127,
-      "name": "CM_Get_Next_Log_Conf"
+      "name": "CM_Get_Next_Log_Conf",
+      "forwarder": "cfgmgr32.CM_Get_Next_Log_Conf"
     },
     {
       "ordinal": 128,
-      "name": "CM_Get_Next_Log_Conf_Ex"
+      "name": "CM_Get_Next_Log_Conf_Ex",
+      "forwarder": "cfgmgr32.CM_Get_Next_Log_Conf_Ex"
     },
     {
       "ordinal": 129,
-      "name": "CM_Get_Next_Res_Des"
+      "name": "CM_Get_Next_Res_Des",
+      "forwarder": "cfgmgr32.CM_Get_Next_Res_Des"
     },
     {
       "ordinal": 130,
-      "name": "CM_Get_Next_Res_Des_Ex"
+      "name": "CM_Get_Next_Res_Des_Ex",
+      "forwarder": "cfgmgr32.CM_Get_Next_Res_Des_Ex"
     },
     {
       "ordinal": 131,
-      "name": "CM_Get_Parent"
+      "name": "CM_Get_Parent",
+      "forwarder": "cfgmgr32.CM_Get_Parent"
     },
     {
       "ordinal": 132,
-      "name": "CM_Get_Parent_Ex"
+      "name": "CM_Get_Parent_Ex",
+      "forwarder": "cfgmgr32.CM_Get_Parent_Ex"
     },
     {
       "ordinal": 133,
-      "name": "CM_Get_Res_Des_Data"
+      "name": "CM_Get_Res_Des_Data",
+      "forwarder": "cfgmgr32.CM_Get_Res_Des_Data"
     },
     {
       "ordinal": 134,
-      "name": "CM_Get_Res_Des_Data_Ex"
+      "name": "CM_Get_Res_Des_Data_Ex",
+      "forwarder": "cfgmgr32.CM_Get_Res_Des_Data_Ex"
     },
     {
       "ordinal": 135,
-      "name": "CM_Get_Res_Des_Data_Size"
+      "name": "CM_Get_Res_Des_Data_Size",
+      "forwarder": "cfgmgr32.CM_Get_Res_Des_Data_Size"
     },
     {
       "ordinal": 136,
-      "name": "CM_Get_Res_Des_Data_Size_Ex"
+      "name": "CM_Get_Res_Des_Data_Size_Ex",
+      "forwarder": "cfgmgr32.CM_Get_Res_Des_Data_Size_Ex"
     },
     {
       "ordinal": 137,
-      "name": "CM_Get_Resource_Conflict_Count"
+      "name": "CM_Get_Resource_Conflict_Count",
+      "forwarder": "cfgmgr32.CM_Get_Resource_Conflict_Count"
     },
     {
       "ordinal": 138,
-      "name": "CM_Get_Resource_Conflict_DetailsA"
+      "name": "CM_Get_Resource_Conflict_DetailsA",
+      "forwarder": "cfgmgr32.CM_Get_Resource_Conflict_DetailsA"
     },
     {
       "ordinal": 139,
-      "name": "CM_Get_Resource_Conflict_DetailsW"
+      "name": "CM_Get_Resource_Conflict_DetailsW",
+      "forwarder": "cfgmgr32.CM_Get_Resource_Conflict_DetailsW"
     },
     {
       "ordinal": 140,
-      "name": "CM_Get_Sibling"
+      "name": "CM_Get_Sibling",
+      "forwarder": "cfgmgr32.CM_Get_Sibling"
     },
     {
       "ordinal": 141,
-      "name": "CM_Get_Sibling_Ex"
+      "name": "CM_Get_Sibling_Ex",
+      "forwarder": "cfgmgr32.CM_Get_Sibling_Ex"
     },
     {
       "ordinal": 142,
-      "name": "CM_Get_Version"
+      "name": "CM_Get_Version",
+      "forwarder": "cfgmgr32.CM_Get_Version"
     },
     {
       "ordinal": 143,
-      "name": "CM_Get_Version_Ex"
+      "name": "CM_Get_Version_Ex",
+      "forwarder": "cfgmgr32.CM_Get_Version_Ex"
     },
     {
       "ordinal": 144,
@@ -589,223 +729,278 @@
     },
     {
       "ordinal": 145,
-      "name": "CM_Install_DevNodeW"
+      "name": "CM_Install_DevNodeW",
+      "forwarder": "cfgmgr32.CM_Install_DevNodeW"
     },
     {
       "ordinal": 146,
-      "name": "CM_Install_DevNode_ExW"
+      "name": "CM_Install_DevNode_ExW",
+      "forwarder": "cfgmgr32.CM_Install_DevNode_ExW"
     },
     {
       "ordinal": 147,
-      "name": "CM_Intersect_Range_List"
+      "name": "CM_Intersect_Range_List",
+      "forwarder": "cfgmgr32.CM_Intersect_Range_List"
     },
     {
       "ordinal": 148,
-      "name": "CM_Invert_Range_List"
+      "name": "CM_Invert_Range_List",
+      "forwarder": "cfgmgr32.CM_Invert_Range_List"
     },
     {
       "ordinal": 149,
-      "name": "CM_Is_Dock_Station_Present"
+      "name": "CM_Is_Dock_Station_Present",
+      "forwarder": "cfgmgr32.CM_Is_Dock_Station_Present"
     },
     {
       "ordinal": 150,
-      "name": "CM_Is_Dock_Station_Present_Ex"
+      "name": "CM_Is_Dock_Station_Present_Ex",
+      "forwarder": "cfgmgr32.CM_Is_Dock_Station_Present_Ex"
     },
     {
       "ordinal": 151,
-      "name": "CM_Is_Version_Available"
+      "name": "CM_Is_Version_Available",
+      "forwarder": "cfgmgr32.CM_Is_Version_Available"
     },
     {
       "ordinal": 152,
-      "name": "CM_Is_Version_Available_Ex"
+      "name": "CM_Is_Version_Available_Ex",
+      "forwarder": "cfgmgr32.CM_Is_Version_Available_Ex"
     },
     {
       "ordinal": 153,
-      "name": "CM_Locate_DevNodeA"
+      "name": "CM_Locate_DevNodeA",
+      "forwarder": "cfgmgr32.CM_Locate_DevNodeA"
     },
     {
       "ordinal": 154,
-      "name": "CM_Locate_DevNodeW"
+      "name": "CM_Locate_DevNodeW",
+      "forwarder": "cfgmgr32.CM_Locate_DevNodeW"
     },
     {
       "ordinal": 155,
-      "name": "CM_Locate_DevNode_ExA"
+      "name": "CM_Locate_DevNode_ExA",
+      "forwarder": "cfgmgr32.CM_Locate_DevNode_ExA"
     },
     {
       "ordinal": 156,
-      "name": "CM_Locate_DevNode_ExW"
+      "name": "CM_Locate_DevNode_ExW",
+      "forwarder": "cfgmgr32.CM_Locate_DevNode_ExW"
     },
     {
       "ordinal": 157,
-      "name": "CM_Merge_Range_List"
+      "name": "CM_Merge_Range_List",
+      "forwarder": "cfgmgr32.CM_Merge_Range_List"
     },
     {
       "ordinal": 158,
-      "name": "CM_Modify_Res_Des"
+      "name": "CM_Modify_Res_Des",
+      "forwarder": "cfgmgr32.CM_Modify_Res_Des"
     },
     {
       "ordinal": 159,
-      "name": "CM_Modify_Res_Des_Ex"
+      "name": "CM_Modify_Res_Des_Ex",
+      "forwarder": "cfgmgr32.CM_Modify_Res_Des_Ex"
     },
     {
       "ordinal": 160,
-      "name": "CM_Move_DevNode"
+      "name": "CM_Move_DevNode",
+      "forwarder": "cfgmgr32.CM_Move_DevNode"
     },
     {
       "ordinal": 161,
-      "name": "CM_Move_DevNode_Ex"
+      "name": "CM_Move_DevNode_Ex",
+      "forwarder": "cfgmgr32.CM_Move_DevNode_Ex"
     },
     {
       "ordinal": 162,
-      "name": "CM_Next_Range"
+      "name": "CM_Next_Range",
+      "forwarder": "cfgmgr32.CM_Next_Range"
     },
     {
       "ordinal": 163,
-      "name": "CM_Open_Class_KeyA"
+      "name": "CM_Open_Class_KeyA",
+      "forwarder": "cfgmgr32.CM_Open_Class_KeyA"
     },
     {
       "ordinal": 164,
-      "name": "CM_Open_Class_KeyW"
+      "name": "CM_Open_Class_KeyW",
+      "forwarder": "cfgmgr32.CM_Open_Class_KeyW"
     },
     {
       "ordinal": 165,
-      "name": "CM_Open_Class_Key_ExA"
+      "name": "CM_Open_Class_Key_ExA",
+      "forwarder": "cfgmgr32.CM_Open_Class_Key_ExA"
     },
     {
       "ordinal": 166,
-      "name": "CM_Open_Class_Key_ExW"
+      "name": "CM_Open_Class_Key_ExW",
+      "forwarder": "cfgmgr32.CM_Open_Class_Key_ExW"
     },
     {
       "ordinal": 167,
-      "name": "CM_Open_DevNode_Key"
+      "name": "CM_Open_DevNode_Key",
+      "forwarder": "cfgmgr32.CM_Open_DevNode_Key"
     },
     {
       "ordinal": 168,
-      "name": "CM_Open_DevNode_Key_Ex"
+      "name": "CM_Open_DevNode_Key_Ex",
+      "forwarder": "cfgmgr32.CM_Open_DevNode_Key_Ex"
     },
     {
       "ordinal": 169,
-      "name": "CM_Open_Device_Interface_KeyA"
+      "name": "CM_Open_Device_Interface_KeyA",
+      "forwarder": "cfgmgr32.CM_Open_Device_Interface_KeyA"
     },
     {
       "ordinal": 170,
-      "name": "CM_Open_Device_Interface_KeyW"
+      "name": "CM_Open_Device_Interface_KeyW",
+      "forwarder": "cfgmgr32.CM_Open_Device_Interface_KeyW"
     },
     {
       "ordinal": 171,
-      "name": "CM_Open_Device_Interface_Key_ExA"
+      "name": "CM_Open_Device_Interface_Key_ExA",
+      "forwarder": "cfgmgr32.CM_Open_Device_Interface_Key_ExA"
     },
     {
       "ordinal": 172,
-      "name": "CM_Open_Device_Interface_Key_ExW"
+      "name": "CM_Open_Device_Interface_Key_ExW",
+      "forwarder": "cfgmgr32.CM_Open_Device_Interface_Key_ExW"
     },
     {
       "ordinal": 173,
-      "name": "CM_Query_And_Remove_SubTreeA"
+      "name": "CM_Query_And_Remove_SubTreeA",
+      "forwarder": "cfgmgr32.CM_Query_And_Remove_SubTreeA"
     },
     {
       "ordinal": 174,
-      "name": "CM_Query_And_Remove_SubTreeW"
+      "name": "CM_Query_And_Remove_SubTreeW",
+      "forwarder": "cfgmgr32.CM_Query_And_Remove_SubTreeW"
     },
     {
       "ordinal": 175,
-      "name": "CM_Query_And_Remove_SubTree_ExA"
+      "name": "CM_Query_And_Remove_SubTree_ExA",
+      "forwarder": "cfgmgr32.CM_Query_And_Remove_SubTree_ExA"
     },
     {
       "ordinal": 176,
-      "name": "CM_Query_And_Remove_SubTree_ExW"
+      "name": "CM_Query_And_Remove_SubTree_ExW",
+      "forwarder": "cfgmgr32.CM_Query_And_Remove_SubTree_ExW"
     },
     {
       "ordinal": 177,
-      "name": "CM_Query_Arbitrator_Free_Data"
+      "name": "CM_Query_Arbitrator_Free_Data",
+      "forwarder": "cfgmgr32.CM_Query_Arbitrator_Free_Data"
     },
     {
       "ordinal": 178,
-      "name": "CM_Query_Arbitrator_Free_Data_Ex"
+      "name": "CM_Query_Arbitrator_Free_Data_Ex",
+      "forwarder": "cfgmgr32.CM_Query_Arbitrator_Free_Data_Ex"
     },
     {
       "ordinal": 179,
-      "name": "CM_Query_Arbitrator_Free_Size"
+      "name": "CM_Query_Arbitrator_Free_Size",
+      "forwarder": "cfgmgr32.CM_Query_Arbitrator_Free_Size"
     },
     {
       "ordinal": 180,
-      "name": "CM_Query_Arbitrator_Free_Size_Ex"
+      "name": "CM_Query_Arbitrator_Free_Size_Ex",
+      "forwarder": "cfgmgr32.CM_Query_Arbitrator_Free_Size_Ex"
     },
     {
       "ordinal": 181,
-      "name": "CM_Query_Remove_SubTree"
+      "name": "CM_Query_Remove_SubTree",
+      "forwarder": "cfgmgr32.CM_Query_Remove_SubTree"
     },
     {
       "ordinal": 182,
-      "name": "CM_Query_Remove_SubTree_Ex"
+      "name": "CM_Query_Remove_SubTree_Ex",
+      "forwarder": "cfgmgr32.CM_Query_Remove_SubTree_Ex"
     },
     {
       "ordinal": 183,
-      "name": "CM_Query_Resource_Conflict_List"
+      "name": "CM_Query_Resource_Conflict_List",
+      "forwarder": "cfgmgr32.CM_Query_Resource_Conflict_List"
     },
     {
       "ordinal": 184,
-      "name": "CM_Reenumerate_DevNode"
+      "name": "CM_Reenumerate_DevNode",
+      "forwarder": "cfgmgr32.CM_Reenumerate_DevNode"
     },
     {
       "ordinal": 185,
-      "name": "CM_Reenumerate_DevNode_Ex"
+      "name": "CM_Reenumerate_DevNode_Ex",
+      "forwarder": "cfgmgr32.CM_Reenumerate_DevNode_Ex"
     },
     {
       "ordinal": 186,
-      "name": "CM_Register_Device_Driver"
+      "name": "CM_Register_Device_Driver",
+      "forwarder": "cfgmgr32.CM_Register_Device_Driver"
     },
     {
       "ordinal": 187,
-      "name": "CM_Register_Device_Driver_Ex"
+      "name": "CM_Register_Device_Driver_Ex",
+      "forwarder": "cfgmgr32.CM_Register_Device_Driver_Ex"
     },
     {
       "ordinal": 188,
-      "name": "CM_Register_Device_InterfaceA"
+      "name": "CM_Register_Device_InterfaceA",
+      "forwarder": "cfgmgr32.CM_Register_Device_InterfaceA"
     },
     {
       "ordinal": 189,
-      "name": "CM_Register_Device_InterfaceW"
+      "name": "CM_Register_Device_InterfaceW",
+      "forwarder": "cfgmgr32.CM_Register_Device_InterfaceW"
     },
     {
       "ordinal": 190,
-      "name": "CM_Register_Device_Interface_ExA"
+      "name": "CM_Register_Device_Interface_ExA",
+      "forwarder": "cfgmgr32.CM_Register_Device_Interface_ExA"
     },
     {
       "ordinal": 191,
-      "name": "CM_Register_Device_Interface_ExW"
+      "name": "CM_Register_Device_Interface_ExW",
+      "forwarder": "cfgmgr32.CM_Register_Device_Interface_ExW"
     },
     {
       "ordinal": 192,
-      "name": "CM_Remove_SubTree"
+      "name": "CM_Remove_SubTree",
+      "forwarder": "cfgmgr32.CM_Remove_SubTree"
     },
     {
       "ordinal": 193,
-      "name": "CM_Remove_SubTree_Ex"
+      "name": "CM_Remove_SubTree_Ex",
+      "forwarder": "cfgmgr32.CM_Remove_SubTree_Ex"
     },
     {
       "ordinal": 194,
-      "name": "CM_Request_Device_EjectA"
+      "name": "CM_Request_Device_EjectA",
+      "forwarder": "cfgmgr32.CM_Request_Device_EjectA"
     },
     {
       "ordinal": 195,
-      "name": "CM_Request_Device_EjectW"
+      "name": "CM_Request_Device_EjectW",
+      "forwarder": "cfgmgr32.CM_Request_Device_EjectW"
     },
     {
       "ordinal": 196,
-      "name": "CM_Request_Device_Eject_ExA"
+      "name": "CM_Request_Device_Eject_ExA",
+      "forwarder": "cfgmgr32.CM_Request_Device_Eject_ExA"
     },
     {
       "ordinal": 197,
-      "name": "CM_Request_Device_Eject_ExW"
+      "name": "CM_Request_Device_Eject_ExW",
+      "forwarder": "cfgmgr32.CM_Request_Device_Eject_ExW"
     },
     {
       "ordinal": 198,
-      "name": "CM_Request_Eject_PC"
+      "name": "CM_Request_Eject_PC",
+      "forwarder": "cfgmgr32.CM_Request_Eject_PC"
     },
     {
       "ordinal": 199,
-      "name": "CM_Request_Eject_PC_Ex"
+      "name": "CM_Request_Eject_PC_Ex",
+      "forwarder": "cfgmgr32.CM_Request_Eject_PC_Ex"
     },
     {
       "ordinal": 200,
@@ -817,11 +1012,13 @@
     },
     {
       "ordinal": 202,
-      "name": "CM_Run_Detection"
+      "name": "CM_Run_Detection",
+      "forwarder": "cfgmgr32.CM_Run_Detection"
     },
     {
       "ordinal": 203,
-      "name": "CM_Run_Detection_Ex"
+      "name": "CM_Run_Detection_Ex",
+      "forwarder": "cfgmgr32.CM_Run_Detection_Ex"
     },
     {
       "ordinal": 204,
@@ -829,95 +1026,118 @@
     },
     {
       "ordinal": 205,
-      "name": "CM_Set_Class_Registry_PropertyA"
+      "name": "CM_Set_Class_Registry_PropertyA",
+      "forwarder": "cfgmgr32.CM_Set_Class_Registry_PropertyA"
     },
     {
       "ordinal": 206,
-      "name": "CM_Set_Class_Registry_PropertyW"
+      "name": "CM_Set_Class_Registry_PropertyW",
+      "forwarder": "cfgmgr32.CM_Set_Class_Registry_PropertyW"
     },
     {
       "ordinal": 207,
-      "name": "CM_Set_DevNode_Problem"
+      "name": "CM_Set_DevNode_Problem",
+      "forwarder": "cfgmgr32.CM_Set_DevNode_Problem"
     },
     {
       "ordinal": 208,
-      "name": "CM_Set_DevNode_Problem_Ex"
+      "name": "CM_Set_DevNode_Problem_Ex",
+      "forwarder": "cfgmgr32.CM_Set_DevNode_Problem_Ex"
     },
     {
       "ordinal": 209,
-      "name": "CM_Set_DevNode_Registry_PropertyA"
+      "name": "CM_Set_DevNode_Registry_PropertyA",
+      "forwarder": "cfgmgr32.CM_Set_DevNode_Registry_PropertyA"
     },
     {
       "ordinal": 210,
-      "name": "CM_Set_DevNode_Registry_PropertyW"
+      "name": "CM_Set_DevNode_Registry_PropertyW",
+      "forwarder": "cfgmgr32.CM_Set_DevNode_Registry_PropertyW"
     },
     {
       "ordinal": 211,
-      "name": "CM_Set_DevNode_Registry_Property_ExA"
+      "name": "CM_Set_DevNode_Registry_Property_ExA",
+      "forwarder": "cfgmgr32.CM_Set_DevNode_Registry_Property_ExA"
     },
     {
       "ordinal": 212,
-      "name": "CM_Set_DevNode_Registry_Property_ExW"
+      "name": "CM_Set_DevNode_Registry_Property_ExW",
+      "forwarder": "cfgmgr32.CM_Set_DevNode_Registry_Property_ExW"
     },
     {
       "ordinal": 213,
-      "name": "CM_Set_HW_Prof"
+      "name": "CM_Set_HW_Prof",
+      "forwarder": "cfgmgr32.CM_Set_HW_Prof"
     },
     {
       "ordinal": 214,
-      "name": "CM_Set_HW_Prof_Ex"
+      "name": "CM_Set_HW_Prof_Ex",
+      "forwarder": "cfgmgr32.CM_Set_HW_Prof_Ex"
     },
     {
       "ordinal": 215,
-      "name": "CM_Set_HW_Prof_FlagsA"
+      "name": "CM_Set_HW_Prof_FlagsA",
+      "forwarder": "cfgmgr32.CM_Set_HW_Prof_FlagsA"
     },
     {
       "ordinal": 216,
-      "name": "CM_Set_HW_Prof_FlagsW"
+      "name": "CM_Set_HW_Prof_FlagsW",
+      "forwarder": "cfgmgr32.CM_Set_HW_Prof_FlagsW"
     },
     {
       "ordinal": 217,
-      "name": "CM_Set_HW_Prof_Flags_ExA"
+      "name": "CM_Set_HW_Prof_Flags_ExA",
+      "forwarder": "cfgmgr32.CM_Set_HW_Prof_Flags_ExA"
     },
     {
       "ordinal": 218,
-      "name": "CM_Set_HW_Prof_Flags_ExW"
+      "name": "CM_Set_HW_Prof_Flags_ExW",
+      "forwarder": "cfgmgr32.CM_Set_HW_Prof_Flags_ExW"
     },
     {
       "ordinal": 219,
-      "name": "CM_Setup_DevNode"
+      "name": "CM_Setup_DevNode",
+      "forwarder": "cfgmgr32.CM_Setup_DevNode"
     },
     {
       "ordinal": 220,
-      "name": "CM_Setup_DevNode_Ex"
+      "name": "CM_Setup_DevNode_Ex",
+      "forwarder": "cfgmgr32.CM_Setup_DevNode_Ex"
     },
     {
       "ordinal": 221,
-      "name": "CM_Test_Range_Available"
+      "name": "CM_Test_Range_Available",
+      "forwarder": "cfgmgr32.CM_Test_Range_Available"
     },
     {
       "ordinal": 222,
-      "name": "CM_Uninstall_DevNode"
+      "name": "CM_Uninstall_DevNode",
+      "forwarder": "cfgmgr32.CM_Uninstall_DevNode"
     },
     {
       "ordinal": 223,
-      "name": "CM_Uninstall_DevNode_Ex"
+      "name": "CM_Uninstall_DevNode_Ex",
+      "forwarder": "cfgmgr32.CM_Uninstall_DevNode_Ex"
     },
     {
       "ordinal": 224,
-      "name": "CM_Unregister_Device_InterfaceA"
+      "name": "CM_Unregister_Device_InterfaceA",
+      "forwarder": "cfgmgr32.CM_Unregister_Device_InterfaceA"
     },
     {
       "ordinal": 225,
-      "name": "CM_Unregister_Device_InterfaceW"
+      "name": "CM_Unregister_Device_InterfaceW",
+      "forwarder": "cfgmgr32.CM_Unregister_Device_InterfaceW"
     },
     {
       "ordinal": 226,
-      "name": "CM_Unregister_Device_Interface_ExA"
+      "name": "CM_Unregister_Device_Interface_ExA",
+      "forwarder": "cfgmgr32.CM_Unregister_Device_Interface_ExA"
     },
     {
       "ordinal": 227,
-      "name": "CM_Unregister_Device_Interface_ExW"
+      "name": "CM_Unregister_Device_Interface_ExW",
+      "forwarder": "cfgmgr32.CM_Unregister_Device_Interface_ExW"
     },
     {
       "ordinal": 228,
@@ -1989,7 +2209,8 @@
     },
     {
       "ordinal": 495,
-      "name": "SetupGetThreadLogToken"
+      "name": "SetupGetThreadLogToken",
+      "forwarder": "devrtl.DevRtlGetThreadLogToken"
     },
     {
       "ordinal": 496,
@@ -2365,7 +2586,8 @@
     },
     {
       "ordinal": 589,
-      "name": "SetupSetThreadLogToken"
+      "name": "SetupSetThreadLogToken",
+      "forwarder": "devrtl.DevRtlSetThreadLogToken"
     },
     {
       "ordinal": 590,
@@ -2397,11 +2619,13 @@
     },
     {
       "ordinal": 597,
-      "name": "SetupWriteTextLog"
+      "name": "SetupWriteTextLog",
+      "forwarder": "devrtl.DevRtlWriteTextLog"
     },
     {
       "ordinal": 598,
-      "name": "SetupWriteTextLogError"
+      "name": "SetupWriteTextLogError",
+      "forwarder": "devrtl.DevRtlWriteTextLogError"
     },
     {
       "ordinal": 599,
@@ -2445,7 +2669,8 @@
     },
     {
       "ordinal": 609,
-      "name": "pSetupCloseTextLogSection"
+      "name": "pSetupCloseTextLogSection",
+      "forwarder": "devrtl.DevRtlCloseTextLogSection"
     },
     {
       "ordinal": 610,
@@ -2453,11 +2678,13 @@
     },
     {
       "ordinal": 611,
-      "name": "pSetupCreateTextLogSectionA"
+      "name": "pSetupCreateTextLogSectionA",
+      "forwarder": "devrtl.DevRtlCreateTextLogSectionA"
     },
     {
       "ordinal": 612,
-      "name": "pSetupCreateTextLogSectionW"
+      "name": "pSetupCreateTextLogSectionW",
+      "forwarder": "devrtl.DevRtlCreateTextLogSectionW"
     },
     {
       "ordinal": 613,

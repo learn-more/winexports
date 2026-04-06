@@ -1,0 +1,511 @@
+{
+  "Version": "6.3.9600.16384-I386",
+  "md5": "b64db101952c115d392ffa55ab499afc",
+  "imphash": "b64db101952c115d392ffa55ab499afc",
+  "InternalName": "halmacpi.dll",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "Hardware Abstraction Layer DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 383163,
+  "Size": 337248,
+  "Machine": "I386",
+  "exports": [
+    {
+      "ordinal": 1,
+      "name": "ExAcquireFastMutex",
+      "forwarder": "ntoskrnl.ExAcquireFastMutex"
+    },
+    {
+      "ordinal": 2,
+      "name": "ExReleaseFastMutex",
+      "forwarder": "ntoskrnl.ExReleaseFastMutex"
+    },
+    {
+      "ordinal": 3,
+      "name": "ExTryToAcquireFastMutex",
+      "forwarder": "ntoskrnl.ExTryToAcquireFastMutex"
+    },
+    {
+      "ordinal": 21,
+      "name": "HalAcpiGetTableEx"
+    },
+    {
+      "ordinal": 22,
+      "name": "HalAcquireDisplayOwnership"
+    },
+    {
+      "ordinal": 23,
+      "name": "HalAdjustResourceList"
+    },
+    {
+      "ordinal": 24,
+      "name": "HalAllProcessorsStarted"
+    },
+    {
+      "ordinal": 25,
+      "name": "HalAllocateAdapterChannel"
+    },
+    {
+      "ordinal": 26,
+      "name": "HalAllocateCommonBuffer"
+    },
+    {
+      "ordinal": 27,
+      "name": "HalAllocateCrashDumpRegisters"
+    },
+    {
+      "ordinal": 28,
+      "name": "HalAllocateHardwareCounters"
+    },
+    {
+      "ordinal": 29,
+      "name": "HalAssignSlotResources"
+    },
+    {
+      "ordinal": 30,
+      "name": "HalBeginSystemInterrupt"
+    },
+    {
+      "ordinal": 31,
+      "name": "HalBugCheckSystem"
+    },
+    {
+      "ordinal": 32,
+      "name": "HalCalibratePerformanceCounter"
+    },
+    {
+      "ordinal": 4,
+      "name": "HalClearSoftwareInterrupt"
+    },
+    {
+      "ordinal": 33,
+      "name": "HalConvertDeviceIdtToIrql"
+    },
+    {
+      "ordinal": 34,
+      "name": "HalDisableInterrupt"
+    },
+    {
+      "ordinal": 35,
+      "name": "HalDisplayString"
+    },
+    {
+      "ordinal": 36,
+      "name": "HalDmaAllocateCrashDumpRegistersEx"
+    },
+    {
+      "ordinal": 37,
+      "name": "HalDmaFreeCrashDumpRegistersEx"
+    },
+    {
+      "ordinal": 38,
+      "name": "HalEnableInterrupt"
+    },
+    {
+      "ordinal": 39,
+      "name": "HalEndSystemInterrupt"
+    },
+    {
+      "ordinal": 40,
+      "name": "HalEnumerateEnvironmentVariablesEx"
+    },
+    {
+      "ordinal": 41,
+      "name": "HalFlushCommonBuffer"
+    },
+    {
+      "ordinal": 42,
+      "name": "HalFreeCommonBuffer"
+    },
+    {
+      "ordinal": 43,
+      "name": "HalFreeHardwareCounters"
+    },
+    {
+      "ordinal": 44,
+      "name": "HalGetAdapter"
+    },
+    {
+      "ordinal": 45,
+      "name": "HalGetBusData"
+    },
+    {
+      "ordinal": 46,
+      "name": "HalGetBusDataByOffset"
+    },
+    {
+      "ordinal": 47,
+      "name": "HalGetEnvironmentVariable"
+    },
+    {
+      "ordinal": 48,
+      "name": "HalGetEnvironmentVariableEx"
+    },
+    {
+      "ordinal": 49,
+      "name": "HalGetInterruptTargetInformation"
+    },
+    {
+      "ordinal": 50,
+      "name": "HalGetInterruptVector"
+    },
+    {
+      "ordinal": 51,
+      "name": "HalGetMemoryCachingRequirements"
+    },
+    {
+      "ordinal": 52,
+      "name": "HalGetMessageRoutingInfo"
+    },
+    {
+      "ordinal": 53,
+      "name": "HalGetProcessorIdByNtNumber"
+    },
+    {
+      "ordinal": 54,
+      "name": "HalGetVectorInput"
+    },
+    {
+      "ordinal": 55,
+      "name": "HalHandleNMI"
+    },
+    {
+      "ordinal": 56,
+      "name": "HalInitSystem"
+    },
+    {
+      "ordinal": 57,
+      "name": "HalInitializeBios"
+    },
+    {
+      "ordinal": 58,
+      "name": "HalInitializeOnResume"
+    },
+    {
+      "ordinal": 59,
+      "name": "HalInitializeProcessor"
+    },
+    {
+      "ordinal": 60,
+      "name": "HalMakeBeep"
+    },
+    {
+      "ordinal": 61,
+      "name": "HalProcessorIdle"
+    },
+    {
+      "ordinal": 62,
+      "name": "HalQueryDisplayParameters"
+    },
+    {
+      "ordinal": 63,
+      "name": "HalQueryEnvironmentVariableInfoEx"
+    },
+    {
+      "ordinal": 64,
+      "name": "HalQueryMaximumProcessorCount"
+    },
+    {
+      "ordinal": 65,
+      "name": "HalQueryRealTimeClock"
+    },
+    {
+      "ordinal": 66,
+      "name": "HalReadDmaCounter"
+    },
+    {
+      "ordinal": 67,
+      "name": "HalRegisterDynamicProcessor"
+    },
+    {
+      "ordinal": 68,
+      "name": "HalRegisterErrataCallbacks"
+    },
+    {
+      "ordinal": 69,
+      "name": "HalReportResourceUsage"
+    },
+    {
+      "ordinal": 5,
+      "name": "HalRequestClockInterrupt"
+    },
+    {
+      "ordinal": 70,
+      "name": "HalRequestIpi"
+    },
+    {
+      "ordinal": 71,
+      "name": "HalRequestIpiSpecifyVector"
+    },
+    {
+      "ordinal": 6,
+      "name": "HalRequestSoftwareInterrupt"
+    },
+    {
+      "ordinal": 72,
+      "name": "HalReturnToFirmware"
+    },
+    {
+      "ordinal": 73,
+      "name": "HalSetBusData"
+    },
+    {
+      "ordinal": 74,
+      "name": "HalSetBusDataByOffset"
+    },
+    {
+      "ordinal": 75,
+      "name": "HalSetDisplayParameters"
+    },
+    {
+      "ordinal": 76,
+      "name": "HalSetEnvironmentVariable"
+    },
+    {
+      "ordinal": 77,
+      "name": "HalSetEnvironmentVariableEx"
+    },
+    {
+      "ordinal": 78,
+      "name": "HalSetProfileInterval"
+    },
+    {
+      "ordinal": 79,
+      "name": "HalSetRealTimeClock"
+    },
+    {
+      "ordinal": 80,
+      "name": "HalStartDynamicProcessor"
+    },
+    {
+      "ordinal": 81,
+      "name": "HalStartNextProcessor"
+    },
+    {
+      "ordinal": 82,
+      "name": "HalStartProfileInterrupt"
+    },
+    {
+      "ordinal": 83,
+      "name": "HalStopProfileInterrupt"
+    },
+    {
+      "ordinal": 7,
+      "name": "HalSystemVectorDispatchEntry"
+    },
+    {
+      "ordinal": 84,
+      "name": "HalTranslateBusAddress"
+    },
+    {
+      "ordinal": 85,
+      "name": "IoFlushAdapterBuffers"
+    },
+    {
+      "ordinal": 86,
+      "name": "IoFreeAdapterChannel"
+    },
+    {
+      "ordinal": 87,
+      "name": "IoFreeMapRegisters"
+    },
+    {
+      "ordinal": 88,
+      "name": "IoMapTransfer"
+    },
+    {
+      "ordinal": 89,
+      "name": "IoReadPartitionTable"
+    },
+    {
+      "ordinal": 90,
+      "name": "IoSetPartitionInformation"
+    },
+    {
+      "ordinal": 91,
+      "name": "IoWritePartitionTable"
+    },
+    {
+      "ordinal": 92,
+      "name": "KdComPortInUse"
+    },
+    {
+      "ordinal": 93,
+      "name": "KdHvComPortInUse"
+    },
+    {
+      "ordinal": 8,
+      "name": "KeAcquireInStackQueuedSpinLock",
+      "forwarder": "ntoskrnl.KeAcquireInStackQueuedSpinLock"
+    },
+    {
+      "ordinal": 9,
+      "name": "KeAcquireInStackQueuedSpinLockRaiseToSynch",
+      "forwarder": "ntoskrnl.KeAcquireInStackQueuedSpinLockRaiseToSynch"
+    },
+    {
+      "ordinal": 10,
+      "name": "KeAcquireQueuedSpinLock",
+      "forwarder": "ntoskrnl.KeAcquireQueuedSpinLock"
+    },
+    {
+      "ordinal": 11,
+      "name": "KeAcquireQueuedSpinLockRaiseToSynch",
+      "forwarder": "ntoskrnl.KeAcquireQueuedSpinLockRaiseToSynch"
+    },
+    {
+      "ordinal": 94,
+      "name": "KeAcquireSpinLock",
+      "forwarder": "ntoskrnl.KeAcquireSpinLock"
+    },
+    {
+      "ordinal": 12,
+      "name": "KeAcquireSpinLockRaiseToSynch",
+      "forwarder": "ntoskrnl.KeAcquireSpinLockRaiseToSynch"
+    },
+    {
+      "ordinal": 95,
+      "name": "KeFlushWriteBuffer"
+    },
+    {
+      "ordinal": 96,
+      "name": "KeGetCurrentIrql"
+    },
+    {
+      "ordinal": 97,
+      "name": "KeLowerIrql"
+    },
+    {
+      "ordinal": 98,
+      "name": "KeQueryPerformanceCounter"
+    },
+    {
+      "ordinal": 99,
+      "name": "KeRaiseIrql"
+    },
+    {
+      "ordinal": 100,
+      "name": "KeRaiseIrqlToDpcLevel"
+    },
+    {
+      "ordinal": 101,
+      "name": "KeRaiseIrqlToSynchLevel"
+    },
+    {
+      "ordinal": 13,
+      "name": "KeReleaseInStackQueuedSpinLock",
+      "forwarder": "ntoskrnl.KeReleaseInStackQueuedSpinLock"
+    },
+    {
+      "ordinal": 14,
+      "name": "KeReleaseQueuedSpinLock",
+      "forwarder": "ntoskrnl.KeReleaseQueuedSpinLock"
+    },
+    {
+      "ordinal": 102,
+      "name": "KeReleaseSpinLock",
+      "forwarder": "ntoskrnl.KeReleaseSpinLock"
+    },
+    {
+      "ordinal": 103,
+      "name": "KeStallExecutionProcessor"
+    },
+    {
+      "ordinal": 15,
+      "name": "KeTryToAcquireQueuedSpinLock",
+      "forwarder": "ntoskrnl.KeTryToAcquireQueuedSpinLock"
+    },
+    {
+      "ordinal": 16,
+      "name": "KeTryToAcquireQueuedSpinLockRaiseToSynch",
+      "forwarder": "ntoskrnl.KeTryToAcquireQueuedSpinLockRaiseToSynch"
+    },
+    {
+      "ordinal": 17,
+      "name": "KfAcquireSpinLock",
+      "forwarder": "ntoskrnl.KfAcquireSpinLock"
+    },
+    {
+      "ordinal": 18,
+      "name": "KfLowerIrql"
+    },
+    {
+      "ordinal": 19,
+      "name": "KfRaiseIrql"
+    },
+    {
+      "ordinal": 20,
+      "name": "KfReleaseSpinLock",
+      "forwarder": "ntoskrnl.KfReleaseSpinLock"
+    },
+    {
+      "ordinal": 104,
+      "name": "READ_PORT_BUFFER_UCHAR"
+    },
+    {
+      "ordinal": 105,
+      "name": "READ_PORT_BUFFER_ULONG"
+    },
+    {
+      "ordinal": 106,
+      "name": "READ_PORT_BUFFER_USHORT"
+    },
+    {
+      "ordinal": 107,
+      "name": "READ_PORT_UCHAR"
+    },
+    {
+      "ordinal": 108,
+      "name": "READ_PORT_ULONG"
+    },
+    {
+      "ordinal": 109,
+      "name": "READ_PORT_USHORT"
+    },
+    {
+      "ordinal": 110,
+      "name": "WRITE_PORT_BUFFER_UCHAR"
+    },
+    {
+      "ordinal": 111,
+      "name": "WRITE_PORT_BUFFER_ULONG"
+    },
+    {
+      "ordinal": 112,
+      "name": "WRITE_PORT_BUFFER_USHORT"
+    },
+    {
+      "ordinal": 113,
+      "name": "WRITE_PORT_UCHAR"
+    },
+    {
+      "ordinal": 114,
+      "name": "WRITE_PORT_ULONG"
+    },
+    {
+      "ordinal": 115,
+      "name": "WRITE_PORT_USHORT"
+    },
+    {
+      "ordinal": 116,
+      "name": "x86BiosAllocateBuffer"
+    },
+    {
+      "ordinal": 117,
+      "name": "x86BiosCall"
+    },
+    {
+      "ordinal": 118,
+      "name": "x86BiosFreeBuffer"
+    },
+    {
+      "ordinal": 119,
+      "name": "x86BiosReadMemory"
+    },
+    {
+      "ordinal": 120,
+      "name": "x86BiosWriteMemory"
+    }
+  ]
+}

@@ -1,14 +1,14 @@
 {
   "Version": "5.2.3790.3959-I386",
-  "md5": "2748dbb1ec07626b805f933f51e00f0f",
-  "imphash": "2748dbb1ec07626b805f933f51e00f0f",
+  "md5": "d92bcb65f8c40b7e88362f8ea8a06565",
+  "imphash": "d92bcb65f8c40b7e88362f8ea8a06565",
   "InternalName": "rpcrt4.dll",
   "CompanyName": "Microsoft Corporation",
   "FileDescription": "Remote Procedure Call Runtime",
   "FileVersion": "5.2.3790.3959 (srv03_sp2_rtm.070216-1710)",
   "ProductVersion": "5.2.3790.3959",
-  "PeChecksum": 880822,
-  "Size": 866304,
+  "PeChecksum": 681276,
+  "Size": 642048,
   "Machine": "I386",
   "exports": [
     {
@@ -97,7 +97,8 @@
     },
     {
       "ordinal": 23,
-      "name": "I_RpcAbortAsyncCall"
+      "name": "I_RpcAbortAsyncCall",
+      "forwarder": "RPCRT4.I_RpcAsyncAbortCall"
     },
     {
       "ordinal": 24,
@@ -133,7 +134,8 @@
     },
     {
       "ordinal": 32,
-      "name": "I_RpcBindingInqDynamicEndpoint"
+      "name": "I_RpcBindingInqDynamicEndpoint",
+      "forwarder": "RPCRT4.I_RpcBindingInqDynamicEndpointW"
     },
     {
       "ordinal": 33,
@@ -249,7 +251,8 @@
     },
     {
       "ordinal": 61,
-      "name": "I_RpcNsBindingSetEntryName"
+      "name": "I_RpcNsBindingSetEntryName",
+      "forwarder": "RPCRT4.I_RpcNsBindingSetEntryNameW"
     },
     {
       "ordinal": 62,
@@ -369,7 +372,8 @@
     },
     {
       "ordinal": 90,
-      "name": "I_RpcSetAsyncHandle"
+      "name": "I_RpcSetAsyncHandle",
+      "forwarder": "RPCRT4.I_RpcAsyncSetHandle"
     },
     {
       "ordinal": 91,
@@ -1313,7 +1317,8 @@
     },
     {
       "ordinal": 326,
-      "name": "RpcAbortAsyncCall"
+      "name": "RpcAbortAsyncCall",
+      "forwarder": "RPCRT4.RpcAsyncAbortCall"
     },
     {
       "ordinal": 327,
@@ -1441,7 +1446,8 @@
     },
     {
       "ordinal": 358,
-      "name": "RpcCancelAsyncCall"
+      "name": "RpcCancelAsyncCall",
+      "forwarder": "RPCRT4.RpcAsyncCancelCall"
     },
     {
       "ordinal": 359,
@@ -1461,7 +1467,8 @@
     },
     {
       "ordinal": 363,
-      "name": "RpcCompleteAsyncCall"
+      "name": "RpcCompleteAsyncCall",
+      "forwarder": "RPCRT4.RpcAsyncCompleteCall"
     },
     {
       "ordinal": 364,
@@ -1529,7 +1536,8 @@
     },
     {
       "ordinal": 380,
-      "name": "RpcGetAsyncCallStatus"
+      "name": "RpcGetAsyncCallStatus",
+      "forwarder": "RPCRT4.RpcAsyncGetCallStatus"
     },
     {
       "ordinal": 381,
@@ -1549,7 +1557,8 @@
     },
     {
       "ordinal": 385,
-      "name": "RpcInitializeAsyncHandle"
+      "name": "RpcInitializeAsyncHandle",
+      "forwarder": "RPCRT4.RpcAsyncInitializeHandle"
     },
     {
       "ordinal": 386,
@@ -1681,7 +1690,8 @@
     },
     {
       "ordinal": 418,
-      "name": "RpcRegisterAsyncInfo"
+      "name": "RpcRegisterAsyncInfo",
+      "forwarder": "RPCRT4.RpcAsyncRegisterInfo"
     },
     {
       "ordinal": 419,
@@ -1881,7 +1891,8 @@
     },
     {
       "ordinal": 468,
-      "name": "RpcSsDontSerializeContext"
+      "name": "RpcSsDontSerializeContext",
+      "forwarder": "RPCRT4.I_RpcSsDontSerializeContext"
     },
     {
       "ordinal": 469,

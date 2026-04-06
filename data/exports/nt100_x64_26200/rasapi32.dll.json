@@ -1,0 +1,815 @@
+{
+  "Version": "10.0.26100.7920-AMD64",
+  "md5": "b610263bc6be89dbfddb555a76b18213",
+  "imphash": "b610263bc6be89dbfddb555a76b18213",
+  "InternalName": "rasapi32.dll",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "Remote Access API",
+  "FileVersion": "10.0.26100.7920 (WinBuild.160101.0800)",
+  "ProductVersion": "10.0.26100.7920",
+  "PeChecksum": 1145701,
+  "Size": 1126400,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ordinal": 1,
+      "name": "ChangeEntryType"
+    },
+    {
+      "ordinal": 2,
+      "name": "ClosePhonebookFile"
+    },
+    {
+      "ordinal": 3,
+      "name": "ComputeHashFromEntryName"
+    },
+    {
+      "ordinal": 4,
+      "name": "CopyToPbport"
+    },
+    {
+      "ordinal": 5,
+      "name": "CreateEntryNode"
+    },
+    {
+      "ordinal": 6,
+      "name": "CreateLinkNode"
+    },
+    {
+      "ordinal": 7,
+      "name": "CreatePhoneNode"
+    },
+    {
+      "ordinal": 8,
+      "name": "CreatePortNode"
+    },
+    {
+      "ordinal": 9,
+      "name": "DDMComputeLuid"
+    },
+    {
+      "ordinal": 10,
+      "name": "DDMFreeDialingParam"
+    },
+    {
+      "ordinal": 11,
+      "name": "DDMFreePhonebookContext"
+    },
+    {
+      "ordinal": 12,
+      "name": "DDMFreeRemoteEndpoint"
+    },
+    {
+      "ordinal": 13,
+      "name": "DDMGetAddressesFromPhonebook"
+    },
+    {
+      "ordinal": 14,
+      "name": "DDMGetEapInfo"
+    },
+    {
+      "ordinal": 15,
+      "name": "DDMGetEapUserIdentityW"
+    },
+    {
+      "ordinal": 16,
+      "name": "DDMGetPhoneBookContext"
+    },
+    {
+      "ordinal": 17,
+      "name": "DDMGetPhonebookInfo"
+    },
+    {
+      "ordinal": 18,
+      "name": "DDMGetProtocolStartParams"
+    },
+    {
+      "ordinal": 19,
+      "name": "DDMGetRasDialParams"
+    },
+    {
+      "ordinal": 20,
+      "name": "DDMGetRasDialingParams"
+    },
+    {
+      "ordinal": 21,
+      "name": "DDMGetTunnelEndpoints"
+    },
+    {
+      "ordinal": 22,
+      "name": "DDMRasPbkEntryCleanup"
+    },
+    {
+      "ordinal": 23,
+      "name": "DDMUpdateProtocolConfigInfoFromEntry"
+    },
+    {
+      "ordinal": 24,
+      "name": "DestroyEntryNode"
+    },
+    {
+      "ordinal": 25,
+      "name": "DestroyLinkNode"
+    },
+    {
+      "ordinal": 26,
+      "name": "DestroyPhoneNode"
+    },
+    {
+      "ordinal": 27,
+      "name": "DestroyPortNode"
+    },
+    {
+      "ordinal": 28,
+      "name": "DoesProtocolListInfoContain"
+    },
+    {
+      "ordinal": 29,
+      "name": "DuplicateEntryNode"
+    },
+    {
+      "ordinal": 30,
+      "name": "DuplicatePhoneNode"
+    },
+    {
+      "ordinal": 31,
+      "name": "DwCloneEntry"
+    },
+    {
+      "ordinal": 32,
+      "name": "DwEnumEntryDetails"
+    },
+    {
+      "ordinal": 33,
+      "name": "DwEnumEntryDetailsEx"
+    },
+    {
+      "ordinal": 34,
+      "name": "DwGetCustomAuthData"
+    },
+    {
+      "ordinal": 35,
+      "name": "DwGetCustomDllEntryPoint"
+    },
+    {
+      "ordinal": 36,
+      "name": "DwGetEntryMode"
+    },
+    {
+      "ordinal": 37,
+      "name": "DwRasUninitialize"
+    },
+    {
+      "ordinal": 38,
+      "name": "DwSetCustomAuthData"
+    },
+    {
+      "ordinal": 39,
+      "name": "EnableOrDisableNetComponent"
+    },
+    {
+      "ordinal": 40,
+      "name": "EntryNodeFromName"
+    },
+    {
+      "ordinal": 41,
+      "name": "FIsNetComponentListed"
+    },
+    {
+      "ordinal": 42,
+      "name": "GetAutoTriggerProfileInfo"
+    },
+    {
+      "ordinal": 43,
+      "name": "GetCountryCodeAndID"
+    },
+    {
+      "ordinal": 44,
+      "name": "GetFirstPhoneNode"
+    },
+    {
+      "ordinal": 45,
+      "name": "GetOverridableParam"
+    },
+    {
+      "ordinal": 46,
+      "name": "GetPbkAndEntryName"
+    },
+    {
+      "ordinal": 47,
+      "name": "GetPersonalPhonebookPath"
+    },
+    {
+      "ordinal": 48,
+      "name": "GetPhonebookDirectory"
+    },
+    {
+      "ordinal": 49,
+      "name": "GetPreferredDestinationForEntry"
+    },
+    {
+      "ordinal": 50,
+      "name": "GetPublicPhonebookPath"
+    },
+    {
+      "ordinal": 51,
+      "name": "IsActiveAutoTriggerConnection"
+    },
+    {
+      "ordinal": 52,
+      "name": "IsActiveAutoTriggerConnectionEx"
+    },
+    {
+      "ordinal": 53,
+      "name": "IsCredentialIsolationEnabled"
+    },
+    {
+      "ordinal": 54,
+      "name": "IsProtocolListInfoEmpty"
+    },
+    {
+      "ordinal": 55,
+      "name": "IsProtocolListInfoValid"
+    },
+    {
+      "ordinal": 56,
+      "name": "IsPublicPhonebook"
+    },
+    {
+      "ordinal": 57,
+      "name": "IsRouterPhonebook"
+    },
+    {
+      "ordinal": 58,
+      "name": "IsValidPbportForVPNStrategy"
+    },
+    {
+      "ordinal": 59,
+      "name": "LoadPortsList2"
+    },
+    {
+      "ordinal": 60,
+      "name": "PbdevicetypeFromPszType"
+    },
+    {
+      "ordinal": 61,
+      "name": "RasAutoDialSharedConnection"
+    },
+    {
+      "ordinal": 62,
+      "name": "RasAutodialAddressToNetwork"
+    },
+    {
+      "ordinal": 63,
+      "name": "RasAutodialEntryToNetwork"
+    },
+    {
+      "ordinal": 64,
+      "name": "RasClearConnectionStatistics"
+    },
+    {
+      "ordinal": 65,
+      "name": "RasClearLinkStatistics"
+    },
+    {
+      "ordinal": 66,
+      "name": "RasCompleteDialMachineCleanup"
+    },
+    {
+      "ordinal": 67,
+      "name": "RasConfigUserProxySettingsW"
+    },
+    {
+      "ordinal": 68,
+      "name": "RasConnectionNotificationA"
+    },
+    {
+      "ordinal": 69,
+      "name": "RasConnectionNotificationW"
+    },
+    {
+      "ordinal": 70,
+      "name": "RasCreatePhonebookEntryA"
+    },
+    {
+      "ordinal": 71,
+      "name": "RasCreatePhonebookEntryW"
+    },
+    {
+      "ordinal": 72,
+      "name": "RasDeleteEntryA"
+    },
+    {
+      "ordinal": 73,
+      "name": "RasDeleteEntryW"
+    },
+    {
+      "ordinal": 74,
+      "name": "RasDeleteSubEntryA"
+    },
+    {
+      "ordinal": 75,
+      "name": "RasDeleteSubEntryW"
+    },
+    {
+      "ordinal": 76,
+      "name": "RasDialA"
+    },
+    {
+      "ordinal": 77,
+      "name": "RasDialW"
+    },
+    {
+      "ordinal": 78,
+      "name": "RasEditPhonebookEntryA"
+    },
+    {
+      "ordinal": 79,
+      "name": "RasEditPhonebookEntryW"
+    },
+    {
+      "ordinal": 80,
+      "name": "RasEnumAutodialAddressesA"
+    },
+    {
+      "ordinal": 81,
+      "name": "RasEnumAutodialAddressesW"
+    },
+    {
+      "ordinal": 82,
+      "name": "RasEnumConnectionsA"
+    },
+    {
+      "ordinal": 83,
+      "name": "RasEnumConnectionsW"
+    },
+    {
+      "ordinal": 84,
+      "name": "RasEnumDevicesA"
+    },
+    {
+      "ordinal": 85,
+      "name": "RasEnumDevicesW"
+    },
+    {
+      "ordinal": 86,
+      "name": "RasEnumEntriesA"
+    },
+    {
+      "ordinal": 87,
+      "name": "RasEnumEntriesW"
+    },
+    {
+      "ordinal": 88,
+      "name": "RasFreeEapUserIdentityA"
+    },
+    {
+      "ordinal": 89,
+      "name": "RasFreeEapUserIdentityW"
+    },
+    {
+      "ordinal": 90,
+      "name": "RasFreeEntryAdvancedProperties"
+    },
+    {
+      "ordinal": 91,
+      "name": "RasGetAutoTriggerConnectStatus"
+    },
+    {
+      "ordinal": 92,
+      "name": "RasGetAutodialAddressA"
+    },
+    {
+      "ordinal": 93,
+      "name": "RasGetAutodialAddressW"
+    },
+    {
+      "ordinal": 94,
+      "name": "RasGetAutodialEnableA"
+    },
+    {
+      "ordinal": 95,
+      "name": "RasGetAutodialEnableW"
+    },
+    {
+      "ordinal": 96,
+      "name": "RasGetAutodialParamA"
+    },
+    {
+      "ordinal": 97,
+      "name": "RasGetAutodialParamW"
+    },
+    {
+      "ordinal": 98,
+      "name": "RasGetConnectStatusA"
+    },
+    {
+      "ordinal": 99,
+      "name": "RasGetConnectStatusW"
+    },
+    {
+      "ordinal": 100,
+      "name": "RasGetConnectionErrorStringW"
+    },
+    {
+      "ordinal": 101,
+      "name": "RasGetConnectionStatistics"
+    },
+    {
+      "ordinal": 102,
+      "name": "RasGetCountryInfoA"
+    },
+    {
+      "ordinal": 103,
+      "name": "RasGetCountryInfoW"
+    },
+    {
+      "ordinal": 104,
+      "name": "RasGetCredentialsA"
+    },
+    {
+      "ordinal": 105,
+      "name": "RasGetCredentialsW"
+    },
+    {
+      "ordinal": 106,
+      "name": "RasGetCustomAuthDataA"
+    },
+    {
+      "ordinal": 107,
+      "name": "RasGetCustomAuthDataW"
+    },
+    {
+      "ordinal": 108,
+      "name": "RasGetEapUserDataA"
+    },
+    {
+      "ordinal": 109,
+      "name": "RasGetEapUserDataW"
+    },
+    {
+      "ordinal": 110,
+      "name": "RasGetEapUserIdentityA"
+    },
+    {
+      "ordinal": 111,
+      "name": "RasGetEapUserIdentityW"
+    },
+    {
+      "ordinal": 112,
+      "name": "RasGetEntryAdvancedProperties"
+    },
+    {
+      "ordinal": 113,
+      "name": "RasGetEntryDialParamsA"
+    },
+    {
+      "ordinal": 114,
+      "name": "RasGetEntryDialParamsW"
+    },
+    {
+      "ordinal": 115,
+      "name": "RasGetEntryHrasconnW"
+    },
+    {
+      "ordinal": 116,
+      "name": "RasGetEntryPropertiesA"
+    },
+    {
+      "ordinal": 117,
+      "name": "RasGetEntryPropertiesW"
+    },
+    {
+      "ordinal": 118,
+      "name": "RasGetErrorStringA"
+    },
+    {
+      "ordinal": 119,
+      "name": "RasGetErrorStringEx"
+    },
+    {
+      "ordinal": 120,
+      "name": "RasGetErrorStringW"
+    },
+    {
+      "ordinal": 121,
+      "name": "RasGetHport"
+    },
+    {
+      "ordinal": 122,
+      "name": "RasGetLinkStatistics"
+    },
+    {
+      "ordinal": 123,
+      "name": "RasGetNapStatus"
+    },
+    {
+      "ordinal": 124,
+      "name": "RasGetPCscf"
+    },
+    {
+      "ordinal": 125,
+      "name": "RasGetPbkPath"
+    },
+    {
+      "ordinal": 126,
+      "name": "RasGetProjectionInfoA"
+    },
+    {
+      "ordinal": 127,
+      "name": "RasGetProjectionInfoEx"
+    },
+    {
+      "ordinal": 128,
+      "name": "RasGetProjectionInfoW"
+    },
+    {
+      "ordinal": 129,
+      "name": "RasGetSubEntryHandleA"
+    },
+    {
+      "ordinal": 130,
+      "name": "RasGetSubEntryHandleW"
+    },
+    {
+      "ordinal": 131,
+      "name": "RasGetSubEntryPropertiesA"
+    },
+    {
+      "ordinal": 132,
+      "name": "RasGetSubEntryPropertiesW"
+    },
+    {
+      "ordinal": 133,
+      "name": "RasHandleTriggerConnDisconnect"
+    },
+    {
+      "ordinal": 134,
+      "name": "RasHangUpA"
+    },
+    {
+      "ordinal": 135,
+      "name": "RasHangUpW"
+    },
+    {
+      "ordinal": 136,
+      "name": "RasInvokeEapUI"
+    },
+    {
+      "ordinal": 137,
+      "name": "RasIsPublicPhonebook"
+    },
+    {
+      "ordinal": 138,
+      "name": "RasIsSharedConnection"
+    },
+    {
+      "ordinal": 139,
+      "name": "RasMobileCore"
+    },
+    {
+      "ordinal": 140,
+      "name": "RasNQMStateEnteredNotification"
+    },
+    {
+      "ordinal": 141,
+      "name": "RasParserSetThreadHandle"
+    },
+    {
+      "ordinal": 142,
+      "name": "RasQueryRedialOnLinkFailure"
+    },
+    {
+      "ordinal": 143,
+      "name": "RasQuerySharedAutoDial"
+    },
+    {
+      "ordinal": 144,
+      "name": "RasQuerySharedConnection"
+    },
+    {
+      "ordinal": 145,
+      "name": "RasRegisterEntryChangeNotification"
+    },
+    {
+      "ordinal": 146,
+      "name": "RasRemoveToastNotification"
+    },
+    {
+      "ordinal": 147,
+      "name": "RasRenameEntryA"
+    },
+    {
+      "ordinal": 148,
+      "name": "RasRenameEntryW"
+    },
+    {
+      "ordinal": 149,
+      "name": "RasRestoreDefaultLegacyProxySettings"
+    },
+    {
+      "ordinal": 150,
+      "name": "RasScriptExecute"
+    },
+    {
+      "ordinal": 151,
+      "name": "RasScriptGetIpAddress"
+    },
+    {
+      "ordinal": 152,
+      "name": "RasScriptInit"
+    },
+    {
+      "ordinal": 153,
+      "name": "RasScriptReceive"
+    },
+    {
+      "ordinal": 154,
+      "name": "RasScriptSend"
+    },
+    {
+      "ordinal": 155,
+      "name": "RasScriptTerm"
+    },
+    {
+      "ordinal": 156,
+      "name": "RasSetAutoTriggerProfile"
+    },
+    {
+      "ordinal": 157,
+      "name": "RasSetAutoTriggerProfileEx"
+    },
+    {
+      "ordinal": 158,
+      "name": "RasSetAutodialAddressA"
+    },
+    {
+      "ordinal": 159,
+      "name": "RasSetAutodialAddressW"
+    },
+    {
+      "ordinal": 160,
+      "name": "RasSetAutodialEnableA"
+    },
+    {
+      "ordinal": 161,
+      "name": "RasSetAutodialEnableW"
+    },
+    {
+      "ordinal": 162,
+      "name": "RasSetAutodialParamA"
+    },
+    {
+      "ordinal": 163,
+      "name": "RasSetAutodialParamW"
+    },
+    {
+      "ordinal": 164,
+      "name": "RasSetCredentialsA"
+    },
+    {
+      "ordinal": 165,
+      "name": "RasSetCredentialsW"
+    },
+    {
+      "ordinal": 166,
+      "name": "RasSetCustomAuthDataA"
+    },
+    {
+      "ordinal": 167,
+      "name": "RasSetCustomAuthDataW"
+    },
+    {
+      "ordinal": 168,
+      "name": "RasSetEapUserDataA"
+    },
+    {
+      "ordinal": 169,
+      "name": "RasSetEapUserDataAEx"
+    },
+    {
+      "ordinal": 170,
+      "name": "RasSetEapUserDataW"
+    },
+    {
+      "ordinal": 171,
+      "name": "RasSetEapUserDataWEx"
+    },
+    {
+      "ordinal": 172,
+      "name": "RasSetEntryAdvancedProperties"
+    },
+    {
+      "ordinal": 173,
+      "name": "RasSetEntryDialParamsA"
+    },
+    {
+      "ordinal": 174,
+      "name": "RasSetEntryDialParamsW"
+    },
+    {
+      "ordinal": 175,
+      "name": "RasSetEntryPropertiesA"
+    },
+    {
+      "ordinal": 176,
+      "name": "RasSetEntryPropertiesW"
+    },
+    {
+      "ordinal": 177,
+      "name": "RasSetOldPassword"
+    },
+    {
+      "ordinal": 178,
+      "name": "RasSetPerConnectionProxy"
+    },
+    {
+      "ordinal": 179,
+      "name": "RasSetSharedAutoDial"
+    },
+    {
+      "ordinal": 180,
+      "name": "RasSetSubEntryPropertiesA"
+    },
+    {
+      "ordinal": 181,
+      "name": "RasSetSubEntryPropertiesW"
+    },
+    {
+      "ordinal": 182,
+      "name": "RasShowToastNotificationEx"
+    },
+    {
+      "ordinal": 183,
+      "name": "RasTriggerConnection"
+    },
+    {
+      "ordinal": 184,
+      "name": "RasTriggerConnectionEx"
+    },
+    {
+      "ordinal": 185,
+      "name": "RasTriggerConnectionWithDetails"
+    },
+    {
+      "ordinal": 186,
+      "name": "RasTriggerConnectionWithDetailsEx"
+    },
+    {
+      "ordinal": 187,
+      "name": "RasTriggerDisconnection"
+    },
+    {
+      "ordinal": 188,
+      "name": "RasTriggerDisconnectionEx"
+    },
+    {
+      "ordinal": 189,
+      "name": "RasUnregisterEntryChangeNotification"
+    },
+    {
+      "ordinal": 190,
+      "name": "RasUpdateConnection"
+    },
+    {
+      "ordinal": 191,
+      "name": "RasValidateEntryNameA"
+    },
+    {
+      "ordinal": 192,
+      "name": "RasValidateEntryNameW"
+    },
+    {
+      "ordinal": 193,
+      "name": "RasWriteSharedPbkOptions"
+    },
+    {
+      "ordinal": 194,
+      "name": "RdtFromPbdt"
+    },
+    {
+      "ordinal": 195,
+      "name": "ReadPhonebookFile"
+    },
+    {
+      "ordinal": 196,
+      "name": "SetDefaultModemSettings"
+    },
+    {
+      "ordinal": 197,
+      "name": "UnInitializeRAS"
+    },
+    {
+      "ordinal": 198,
+      "name": "UpdatePreferredVPNDestinationInRegistry"
+    },
+    {
+      "ordinal": 199,
+      "name": "ValidateEntryName"
+    },
+    {
+      "ordinal": 200,
+      "name": "WritePhonebookFile"
+    }
+  ]
+}

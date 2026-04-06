@@ -1,0 +1,787 @@
+{
+  "Version": "6.3.9600.16384-I386",
+  "md5": "0a742d2b39a48da795dce63959e7e4cb",
+  "imphash": "0a742d2b39a48da795dce63959e7e4cb",
+  "InternalName": "WebServices.dll",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "Windows Web Services Runtime",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 1085293,
+  "Size": 1085152,
+  "Machine": "I386",
+  "exports": [
+    {
+      "ordinal": 1,
+      "name": "WsAbandonCall"
+    },
+    {
+      "ordinal": 2,
+      "name": "WsAbandonMessage"
+    },
+    {
+      "ordinal": 3,
+      "name": "WsAbortChannel"
+    },
+    {
+      "ordinal": 4,
+      "name": "WsAbortListener"
+    },
+    {
+      "ordinal": 5,
+      "name": "WsAbortServiceHost"
+    },
+    {
+      "ordinal": 6,
+      "name": "WsAbortServiceProxy"
+    },
+    {
+      "ordinal": 7,
+      "name": "WsAcceptChannel"
+    },
+    {
+      "ordinal": 8,
+      "name": "WsAddCustomHeader"
+    },
+    {
+      "ordinal": 9,
+      "name": "WsAddErrorString"
+    },
+    {
+      "ordinal": 10,
+      "name": "WsAddMappedHeader"
+    },
+    {
+      "ordinal": 11,
+      "name": "WsAddressMessage"
+    },
+    {
+      "ordinal": 12,
+      "name": "WsAlloc"
+    },
+    {
+      "ordinal": 13,
+      "name": "WsAsyncExecute"
+    },
+    {
+      "ordinal": 14,
+      "name": "WsCall"
+    },
+    {
+      "ordinal": 15,
+      "name": "WsCheckMustUnderstandHeaders"
+    },
+    {
+      "ordinal": 16,
+      "name": "WsCloseChannel"
+    },
+    {
+      "ordinal": 17,
+      "name": "WsCloseListener"
+    },
+    {
+      "ordinal": 18,
+      "name": "WsCloseServiceHost"
+    },
+    {
+      "ordinal": 19,
+      "name": "WsCloseServiceProxy"
+    },
+    {
+      "ordinal": 20,
+      "name": "WsCombineUrl"
+    },
+    {
+      "ordinal": 21,
+      "name": "WsCopyError"
+    },
+    {
+      "ordinal": 22,
+      "name": "WsCopyNode"
+    },
+    {
+      "ordinal": 23,
+      "name": "WsCreateChannel"
+    },
+    {
+      "ordinal": 24,
+      "name": "WsCreateChannelForListener"
+    },
+    {
+      "ordinal": 25,
+      "name": "WsCreateError"
+    },
+    {
+      "ordinal": 26,
+      "name": "WsCreateFaultFromError"
+    },
+    {
+      "ordinal": 27,
+      "name": "WsCreateHeap"
+    },
+    {
+      "ordinal": 28,
+      "name": "WsCreateListener"
+    },
+    {
+      "ordinal": 29,
+      "name": "WsCreateMessage"
+    },
+    {
+      "ordinal": 30,
+      "name": "WsCreateMessageForChannel"
+    },
+    {
+      "ordinal": 31,
+      "name": "WsCreateMetadata"
+    },
+    {
+      "ordinal": 32,
+      "name": "WsCreateReader"
+    },
+    {
+      "ordinal": 33,
+      "name": "WsCreateServiceEndpointFromTemplate"
+    },
+    {
+      "ordinal": 34,
+      "name": "WsCreateServiceHost"
+    },
+    {
+      "ordinal": 35,
+      "name": "WsCreateServiceProxy"
+    },
+    {
+      "ordinal": 36,
+      "name": "WsCreateServiceProxyFromTemplate"
+    },
+    {
+      "ordinal": 37,
+      "name": "WsCreateWriter"
+    },
+    {
+      "ordinal": 38,
+      "name": "WsCreateXmlBuffer"
+    },
+    {
+      "ordinal": 39,
+      "name": "WsCreateXmlSecurityToken"
+    },
+    {
+      "ordinal": 40,
+      "name": "WsDateTimeToFileTime"
+    },
+    {
+      "ordinal": 41,
+      "name": "WsDecodeUrl"
+    },
+    {
+      "ordinal": 42,
+      "name": "WsEncodeUrl"
+    },
+    {
+      "ordinal": 43,
+      "name": "WsEndReaderCanonicalization"
+    },
+    {
+      "ordinal": 44,
+      "name": "WsEndWriterCanonicalization"
+    },
+    {
+      "ordinal": 45,
+      "name": "WsFileTimeToDateTime"
+    },
+    {
+      "ordinal": 46,
+      "name": "WsFillBody"
+    },
+    {
+      "ordinal": 47,
+      "name": "WsFillReader"
+    },
+    {
+      "ordinal": 48,
+      "name": "WsFindAttribute"
+    },
+    {
+      "ordinal": 49,
+      "name": "WsFlushBody"
+    },
+    {
+      "ordinal": 50,
+      "name": "WsFlushWriter"
+    },
+    {
+      "ordinal": 51,
+      "name": "WsFreeChannel"
+    },
+    {
+      "ordinal": 52,
+      "name": "WsFreeError"
+    },
+    {
+      "ordinal": 53,
+      "name": "WsFreeHeap"
+    },
+    {
+      "ordinal": 54,
+      "name": "WsFreeListener"
+    },
+    {
+      "ordinal": 55,
+      "name": "WsFreeMessage"
+    },
+    {
+      "ordinal": 56,
+      "name": "WsFreeMetadata"
+    },
+    {
+      "ordinal": 57,
+      "name": "WsFreeReader"
+    },
+    {
+      "ordinal": 58,
+      "name": "WsFreeSecurityToken"
+    },
+    {
+      "ordinal": 59,
+      "name": "WsFreeServiceHost"
+    },
+    {
+      "ordinal": 60,
+      "name": "WsFreeServiceProxy"
+    },
+    {
+      "ordinal": 61,
+      "name": "WsFreeWriter"
+    },
+    {
+      "ordinal": 62,
+      "name": "WsGetChannelProperty"
+    },
+    {
+      "ordinal": 63,
+      "name": "WsGetCustomHeader"
+    },
+    {
+      "ordinal": 64,
+      "name": "WsGetDictionary"
+    },
+    {
+      "ordinal": 65,
+      "name": "WsGetErrorProperty"
+    },
+    {
+      "ordinal": 66,
+      "name": "WsGetErrorString"
+    },
+    {
+      "ordinal": 67,
+      "name": "WsGetFaultErrorDetail"
+    },
+    {
+      "ordinal": 68,
+      "name": "WsGetFaultErrorProperty"
+    },
+    {
+      "ordinal": 69,
+      "name": "WsGetHeader"
+    },
+    {
+      "ordinal": 70,
+      "name": "WsGetHeaderAttributes"
+    },
+    {
+      "ordinal": 71,
+      "name": "WsGetHeapProperty"
+    },
+    {
+      "ordinal": 72,
+      "name": "WsGetListenerProperty"
+    },
+    {
+      "ordinal": 73,
+      "name": "WsGetMappedHeader"
+    },
+    {
+      "ordinal": 74,
+      "name": "WsGetMessageProperty"
+    },
+    {
+      "ordinal": 75,
+      "name": "WsGetMetadataEndpoints"
+    },
+    {
+      "ordinal": 76,
+      "name": "WsGetMetadataProperty"
+    },
+    {
+      "ordinal": 77,
+      "name": "WsGetMissingMetadataDocumentAddress"
+    },
+    {
+      "ordinal": 78,
+      "name": "WsGetNamespaceFromPrefix"
+    },
+    {
+      "ordinal": 79,
+      "name": "WsGetOperationContextProperty"
+    },
+    {
+      "ordinal": 80,
+      "name": "WsGetPolicyAlternativeCount"
+    },
+    {
+      "ordinal": 81,
+      "name": "WsGetPolicyProperty"
+    },
+    {
+      "ordinal": 82,
+      "name": "WsGetPrefixFromNamespace"
+    },
+    {
+      "ordinal": 83,
+      "name": "WsGetReaderNode"
+    },
+    {
+      "ordinal": 84,
+      "name": "WsGetReaderPosition"
+    },
+    {
+      "ordinal": 85,
+      "name": "WsGetReaderProperty"
+    },
+    {
+      "ordinal": 86,
+      "name": "WsGetSecurityContextProperty"
+    },
+    {
+      "ordinal": 87,
+      "name": "WsGetSecurityTokenProperty"
+    },
+    {
+      "ordinal": 88,
+      "name": "WsGetServiceHostProperty"
+    },
+    {
+      "ordinal": 89,
+      "name": "WsGetServiceProxyProperty"
+    },
+    {
+      "ordinal": 90,
+      "name": "WsGetWriterPosition"
+    },
+    {
+      "ordinal": 91,
+      "name": "WsGetWriterProperty"
+    },
+    {
+      "ordinal": 92,
+      "name": "WsGetXmlAttribute"
+    },
+    {
+      "ordinal": 93,
+      "name": "WsInitializeMessage"
+    },
+    {
+      "ordinal": 94,
+      "name": "WsMarkHeaderAsUnderstood"
+    },
+    {
+      "ordinal": 95,
+      "name": "WsMatchPolicyAlternative"
+    },
+    {
+      "ordinal": 96,
+      "name": "WsMoveReader"
+    },
+    {
+      "ordinal": 97,
+      "name": "WsMoveWriter"
+    },
+    {
+      "ordinal": 98,
+      "name": "WsOpenChannel"
+    },
+    {
+      "ordinal": 99,
+      "name": "WsOpenListener"
+    },
+    {
+      "ordinal": 100,
+      "name": "WsOpenServiceHost"
+    },
+    {
+      "ordinal": 101,
+      "name": "WsOpenServiceProxy"
+    },
+    {
+      "ordinal": 102,
+      "name": "WsPullBytes"
+    },
+    {
+      "ordinal": 103,
+      "name": "WsPushBytes"
+    },
+    {
+      "ordinal": 104,
+      "name": "WsReadArray"
+    },
+    {
+      "ordinal": 105,
+      "name": "WsReadAttribute"
+    },
+    {
+      "ordinal": 106,
+      "name": "WsReadBody"
+    },
+    {
+      "ordinal": 107,
+      "name": "WsReadBytes"
+    },
+    {
+      "ordinal": 108,
+      "name": "WsReadChars"
+    },
+    {
+      "ordinal": 109,
+      "name": "WsReadCharsUtf8"
+    },
+    {
+      "ordinal": 110,
+      "name": "WsReadElement"
+    },
+    {
+      "ordinal": 111,
+      "name": "WsReadEndAttribute"
+    },
+    {
+      "ordinal": 112,
+      "name": "WsReadEndElement"
+    },
+    {
+      "ordinal": 113,
+      "name": "WsReadEndpointAddressExtension"
+    },
+    {
+      "ordinal": 114,
+      "name": "WsReadEnvelopeEnd"
+    },
+    {
+      "ordinal": 115,
+      "name": "WsReadEnvelopeStart"
+    },
+    {
+      "ordinal": 116,
+      "name": "WsReadMessageEnd"
+    },
+    {
+      "ordinal": 117,
+      "name": "WsReadMessageStart"
+    },
+    {
+      "ordinal": 118,
+      "name": "WsReadMetadata"
+    },
+    {
+      "ordinal": 119,
+      "name": "WsReadNode"
+    },
+    {
+      "ordinal": 120,
+      "name": "WsReadQualifiedName"
+    },
+    {
+      "ordinal": 121,
+      "name": "WsReadStartAttribute"
+    },
+    {
+      "ordinal": 122,
+      "name": "WsReadStartElement"
+    },
+    {
+      "ordinal": 123,
+      "name": "WsReadToStartElement"
+    },
+    {
+      "ordinal": 124,
+      "name": "WsReadType"
+    },
+    {
+      "ordinal": 125,
+      "name": "WsReadValue"
+    },
+    {
+      "ordinal": 126,
+      "name": "WsReadXmlBuffer"
+    },
+    {
+      "ordinal": 127,
+      "name": "WsReadXmlBufferFromBytes"
+    },
+    {
+      "ordinal": 128,
+      "name": "WsReceiveMessage"
+    },
+    {
+      "ordinal": 129,
+      "name": "WsRegisterOperationForCancel"
+    },
+    {
+      "ordinal": 130,
+      "name": "WsRemoveCustomHeader"
+    },
+    {
+      "ordinal": 131,
+      "name": "WsRemoveHeader"
+    },
+    {
+      "ordinal": 132,
+      "name": "WsRemoveMappedHeader"
+    },
+    {
+      "ordinal": 133,
+      "name": "WsRemoveNode"
+    },
+    {
+      "ordinal": 134,
+      "name": "WsRequestReply"
+    },
+    {
+      "ordinal": 135,
+      "name": "WsRequestSecurityToken"
+    },
+    {
+      "ordinal": 136,
+      "name": "WsResetChannel"
+    },
+    {
+      "ordinal": 137,
+      "name": "WsResetError"
+    },
+    {
+      "ordinal": 138,
+      "name": "WsResetHeap"
+    },
+    {
+      "ordinal": 139,
+      "name": "WsResetListener"
+    },
+    {
+      "ordinal": 140,
+      "name": "WsResetMessage"
+    },
+    {
+      "ordinal": 141,
+      "name": "WsResetMetadata"
+    },
+    {
+      "ordinal": 142,
+      "name": "WsResetServiceHost"
+    },
+    {
+      "ordinal": 143,
+      "name": "WsResetServiceProxy"
+    },
+    {
+      "ordinal": 144,
+      "name": "WsRevokeSecurityContext"
+    },
+    {
+      "ordinal": 145,
+      "name": "WsSendFaultMessageForError"
+    },
+    {
+      "ordinal": 146,
+      "name": "WsSendMessage"
+    },
+    {
+      "ordinal": 147,
+      "name": "WsSendReplyMessage"
+    },
+    {
+      "ordinal": 148,
+      "name": "WsSetChannelProperty"
+    },
+    {
+      "ordinal": 149,
+      "name": "WsSetErrorProperty"
+    },
+    {
+      "ordinal": 150,
+      "name": "WsSetFaultErrorDetail"
+    },
+    {
+      "ordinal": 151,
+      "name": "WsSetFaultErrorProperty"
+    },
+    {
+      "ordinal": 152,
+      "name": "WsSetHeader"
+    },
+    {
+      "ordinal": 153,
+      "name": "WsSetInput"
+    },
+    {
+      "ordinal": 154,
+      "name": "WsSetInputToBuffer"
+    },
+    {
+      "ordinal": 155,
+      "name": "WsSetListenerProperty"
+    },
+    {
+      "ordinal": 156,
+      "name": "WsSetMessageProperty"
+    },
+    {
+      "ordinal": 157,
+      "name": "WsSetOutput"
+    },
+    {
+      "ordinal": 158,
+      "name": "WsSetOutputToBuffer"
+    },
+    {
+      "ordinal": 159,
+      "name": "WsSetReaderPosition"
+    },
+    {
+      "ordinal": 160,
+      "name": "WsSetWriterPosition"
+    },
+    {
+      "ordinal": 161,
+      "name": "WsShutdownSessionChannel"
+    },
+    {
+      "ordinal": 162,
+      "name": "WsSkipNode"
+    },
+    {
+      "ordinal": 163,
+      "name": "WsStartReaderCanonicalization"
+    },
+    {
+      "ordinal": 164,
+      "name": "WsStartWriterCanonicalization"
+    },
+    {
+      "ordinal": 165,
+      "name": "WsTrimXmlWhitespace"
+    },
+    {
+      "ordinal": 166,
+      "name": "WsVerifyXmlNCName"
+    },
+    {
+      "ordinal": 167,
+      "name": "WsWriteArray"
+    },
+    {
+      "ordinal": 168,
+      "name": "WsWriteAttribute"
+    },
+    {
+      "ordinal": 169,
+      "name": "WsWriteBody"
+    },
+    {
+      "ordinal": 170,
+      "name": "WsWriteBytes"
+    },
+    {
+      "ordinal": 171,
+      "name": "WsWriteChars"
+    },
+    {
+      "ordinal": 172,
+      "name": "WsWriteCharsUtf8"
+    },
+    {
+      "ordinal": 173,
+      "name": "WsWriteElement"
+    },
+    {
+      "ordinal": 174,
+      "name": "WsWriteEndAttribute"
+    },
+    {
+      "ordinal": 175,
+      "name": "WsWriteEndCData"
+    },
+    {
+      "ordinal": 176,
+      "name": "WsWriteEndElement"
+    },
+    {
+      "ordinal": 177,
+      "name": "WsWriteEndStartElement"
+    },
+    {
+      "ordinal": 178,
+      "name": "WsWriteEnvelopeEnd"
+    },
+    {
+      "ordinal": 179,
+      "name": "WsWriteEnvelopeStart"
+    },
+    {
+      "ordinal": 180,
+      "name": "WsWriteMessageEnd"
+    },
+    {
+      "ordinal": 181,
+      "name": "WsWriteMessageStart"
+    },
+    {
+      "ordinal": 182,
+      "name": "WsWriteNode"
+    },
+    {
+      "ordinal": 183,
+      "name": "WsWriteQualifiedName"
+    },
+    {
+      "ordinal": 184,
+      "name": "WsWriteStartAttribute"
+    },
+    {
+      "ordinal": 185,
+      "name": "WsWriteStartCData"
+    },
+    {
+      "ordinal": 186,
+      "name": "WsWriteStartElement"
+    },
+    {
+      "ordinal": 187,
+      "name": "WsWriteText"
+    },
+    {
+      "ordinal": 188,
+      "name": "WsWriteType"
+    },
+    {
+      "ordinal": 189,
+      "name": "WsWriteValue"
+    },
+    {
+      "ordinal": 190,
+      "name": "WsWriteXmlBuffer"
+    },
+    {
+      "ordinal": 191,
+      "name": "WsWriteXmlBufferToBytes"
+    },
+    {
+      "ordinal": 192,
+      "name": "WsWriteXmlnsAttribute"
+    },
+    {
+      "ordinal": 193,
+      "name": "WsXmlStringEquals"
+    }
+  ]
+}

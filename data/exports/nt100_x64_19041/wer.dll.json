@@ -1,0 +1,595 @@
+{
+  "Version": "10.0.19041.3636-AMD64",
+  "md5": "0a0cd54859a60630714a076934111e7c",
+  "imphash": "0a0cd54859a60630714a076934111e7c",
+  "InternalName": "wer.dll",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "Windows Error Reporting DLL",
+  "FileVersion": "10.0.19041.3636 (WinBuild.160101.0800)",
+  "ProductVersion": "10.0.19041.3636",
+  "PeChecksum": 945020,
+  "Size": 898312,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ordinal": 94,
+      "name": "CloseThreadWaitChainSession"
+    },
+    {
+      "ordinal": 95,
+      "name": "GetThreadWaitChain"
+    },
+    {
+      "ordinal": 96,
+      "name": "OpenThreadWaitChainSession"
+    },
+    {
+      "ordinal": 97,
+      "name": "RegisterWaitChainCOMCallback"
+    },
+    {
+      "ordinal": 98,
+      "name": "WerAddExcludedApplication"
+    },
+    {
+      "ordinal": 99,
+      "name": "WerFreeString"
+    },
+    {
+      "ordinal": 100,
+      "name": "WerRemoveExcludedApplication"
+    },
+    {
+      "ordinal": 101,
+      "name": "WerReportAddDump"
+    },
+    {
+      "ordinal": 102,
+      "name": "WerReportAddFile"
+    },
+    {
+      "ordinal": 103,
+      "name": "WerReportCloseHandle"
+    },
+    {
+      "ordinal": 104,
+      "name": "WerReportCreate"
+    },
+    {
+      "ordinal": 105,
+      "name": "WerReportSetParameter"
+    },
+    {
+      "ordinal": 106,
+      "name": "WerReportSetUIOption"
+    },
+    {
+      "ordinal": 107,
+      "name": "WerReportSubmit"
+    },
+    {
+      "ordinal": 108,
+      "name": "WerStoreClose"
+    },
+    {
+      "ordinal": 109,
+      "name": "WerStoreGetFirstReportKey"
+    },
+    {
+      "ordinal": 110,
+      "name": "WerStoreGetNextReportKey"
+    },
+    {
+      "ordinal": 111,
+      "name": "WerStoreGetReportCount"
+    },
+    {
+      "ordinal": 112,
+      "name": "WerStoreGetSizeOnDisk"
+    },
+    {
+      "ordinal": 113,
+      "name": "WerStoreOpen"
+    },
+    {
+      "ordinal": 114,
+      "name": "WerStorePurge"
+    },
+    {
+      "ordinal": 115,
+      "name": "WerStoreQueryReportMetadataV1"
+    },
+    {
+      "ordinal": 116,
+      "name": "WerStoreQueryReportMetadataV2"
+    },
+    {
+      "ordinal": 117,
+      "name": "WerStoreQueryReportMetadataV3"
+    },
+    {
+      "ordinal": 118,
+      "name": "WerStoreUploadReport"
+    },
+    {
+      "ordinal": 1,
+      "name": "WerSysprepCleanup"
+    },
+    {
+      "ordinal": 2,
+      "name": "WerSysprepGeneralize"
+    },
+    {
+      "ordinal": 3,
+      "name": "WerUnattendedSetup"
+    },
+    {
+      "ordinal": 4,
+      "name": "WerpAddAppCompatData"
+    },
+    {
+      "ordinal": 119,
+      "name": "WerpAddFile"
+    },
+    {
+      "ordinal": 120,
+      "name": "WerpAddFileBuffer"
+    },
+    {
+      "ordinal": 121,
+      "name": "WerpAddFileCallback"
+    },
+    {
+      "ordinal": 5,
+      "name": "WerpAddIfRegisteredForAppLocalDump"
+    },
+    {
+      "ordinal": 6,
+      "name": "WerpAddMemoryBlock"
+    },
+    {
+      "ordinal": 7,
+      "name": "WerpAddRegisteredDataToReport"
+    },
+    {
+      "ordinal": 8,
+      "name": "WerpAddRegisteredDumpsToReport"
+    },
+    {
+      "ordinal": 9,
+      "name": "WerpAddRegisteredMetadataToReport"
+    },
+    {
+      "ordinal": 122,
+      "name": "WerpAddTerminationReason"
+    },
+    {
+      "ordinal": 10,
+      "name": "WerpArchiveReport"
+    },
+    {
+      "ordinal": 123,
+      "name": "WerpAuxmdDumpProcessImages"
+    },
+    {
+      "ordinal": 124,
+      "name": "WerpAuxmdDumpRegisteredBlocks"
+    },
+    {
+      "ordinal": 125,
+      "name": "WerpAuxmdFree"
+    },
+    {
+      "ordinal": 126,
+      "name": "WerpAuxmdFreeCopyBuffer"
+    },
+    {
+      "ordinal": 127,
+      "name": "WerpAuxmdHashVaRanges"
+    },
+    {
+      "ordinal": 128,
+      "name": "WerpAuxmdInitialize"
+    },
+    {
+      "ordinal": 129,
+      "name": "WerpAuxmdMapFile"
+    },
+    {
+      "ordinal": 11,
+      "name": "WerpCancelUpload"
+    },
+    {
+      "ordinal": 12,
+      "name": "WerpCleanWer"
+    },
+    {
+      "ordinal": 13,
+      "name": "WerpCloseStore"
+    },
+    {
+      "ordinal": 130,
+      "name": "WerpCreateIntegratorReportId"
+    },
+    {
+      "ordinal": 14,
+      "name": "WerpCreateMachineStore"
+    },
+    {
+      "ordinal": 15,
+      "name": "WerpDeleteReport"
+    },
+    {
+      "ordinal": 16,
+      "name": "WerpDestroyWerString"
+    },
+    {
+      "ordinal": 17,
+      "name": "WerpEnumerateStoreNext"
+    },
+    {
+      "ordinal": 18,
+      "name": "WerpEnumerateStoreStart"
+    },
+    {
+      "ordinal": 131,
+      "name": "WerpExtractReportFiles"
+    },
+    {
+      "ordinal": 19,
+      "name": "WerpFlushImageCache"
+    },
+    {
+      "ordinal": 20,
+      "name": "WerpForceDeferredCollection"
+    },
+    {
+      "ordinal": 132,
+      "name": "WerpFreeString"
+    },
+    {
+      "ordinal": 21,
+      "name": "WerpFreeUnmappedVaRanges"
+    },
+    {
+      "ordinal": 22,
+      "name": "WerpGetBucketId"
+    },
+    {
+      "ordinal": 23,
+      "name": "WerpGetDynamicParameter"
+    },
+    {
+      "ordinal": 24,
+      "name": "WerpGetEventType"
+    },
+    {
+      "ordinal": 25,
+      "name": "WerpGetExtendedDiagData"
+    },
+    {
+      "ordinal": 26,
+      "name": "WerpGetFileByIndex"
+    },
+    {
+      "ordinal": 27,
+      "name": "WerpGetFilePathByIndex"
+    },
+    {
+      "ordinal": 133,
+      "name": "WerpGetIntegratorReportId"
+    },
+    {
+      "ordinal": 28,
+      "name": "WerpGetLegacyBucketId"
+    },
+    {
+      "ordinal": 29,
+      "name": "WerpGetLoadedModuleByIndex"
+    },
+    {
+      "ordinal": 30,
+      "name": "WerpGetNumFiles"
+    },
+    {
+      "ordinal": 31,
+      "name": "WerpGetNumLoadedModules"
+    },
+    {
+      "ordinal": 32,
+      "name": "WerpGetNumSigParams"
+    },
+    {
+      "ordinal": 33,
+      "name": "WerpGetPathOfWERTempDirectory"
+    },
+    {
+      "ordinal": 134,
+      "name": "WerpGetReportConsent"
+    },
+    {
+      "ordinal": 34,
+      "name": "WerpGetReportCount"
+    },
+    {
+      "ordinal": 35,
+      "name": "WerpGetReportFinalConsent"
+    },
+    {
+      "ordinal": 36,
+      "name": "WerpGetReportFlags"
+    },
+    {
+      "ordinal": 37,
+      "name": "WerpGetReportId"
+    },
+    {
+      "ordinal": 38,
+      "name": "WerpGetReportInformation"
+    },
+    {
+      "ordinal": 39,
+      "name": "WerpGetReportSettings"
+    },
+    {
+      "ordinal": 40,
+      "name": "WerpGetReportTime"
+    },
+    {
+      "ordinal": 41,
+      "name": "WerpGetReportType"
+    },
+    {
+      "ordinal": 42,
+      "name": "WerpGetResponseId"
+    },
+    {
+      "ordinal": 43,
+      "name": "WerpGetSigParamByIndex"
+    },
+    {
+      "ordinal": 135,
+      "name": "WerpGetStoreLocation"
+    },
+    {
+      "ordinal": 44,
+      "name": "WerpGetStorePath"
+    },
+    {
+      "ordinal": 45,
+      "name": "WerpGetStoreType"
+    },
+    {
+      "ordinal": 46,
+      "name": "WerpGetTextFromReport"
+    },
+    {
+      "ordinal": 47,
+      "name": "WerpGetUIParamByIndex"
+    },
+    {
+      "ordinal": 48,
+      "name": "WerpGetUploadTime"
+    },
+    {
+      "ordinal": 49,
+      "name": "WerpGetWerStringData"
+    },
+    {
+      "ordinal": 50,
+      "name": "WerpGetWow64Process"
+    },
+    {
+      "ordinal": 51,
+      "name": "WerpHashApplicationParameters"
+    },
+    {
+      "ordinal": 52,
+      "name": "WerpInitializeImageCache"
+    },
+    {
+      "ordinal": 136,
+      "name": "WerpIsDisabled"
+    },
+    {
+      "ordinal": 53,
+      "name": "WerpIsOnBattery"
+    },
+    {
+      "ordinal": 54,
+      "name": "WerpIsTransportAvailable"
+    },
+    {
+      "ordinal": 137,
+      "name": "WerpLoadReport"
+    },
+    {
+      "ordinal": 55,
+      "name": "WerpLoadReportFromBuffer"
+    },
+    {
+      "ordinal": 56,
+      "name": "WerpOpenMachineArchive"
+    },
+    {
+      "ordinal": 57,
+      "name": "WerpOpenMachineQueue"
+    },
+    {
+      "ordinal": 58,
+      "name": "WerpPromptUser"
+    },
+    {
+      "ordinal": 59,
+      "name": "WerpPruneStore"
+    },
+    {
+      "ordinal": 60,
+      "name": "WerpReportCancel"
+    },
+    {
+      "ordinal": 61,
+      "name": "WerpReportSetMaxProcessHoldMilliseconds"
+    },
+    {
+      "ordinal": 62,
+      "name": "WerpReportSprintfParameter"
+    },
+    {
+      "ordinal": 63,
+      "name": "WerpReserveMachineQueueReportDir"
+    },
+    {
+      "ordinal": 64,
+      "name": "WerpResetTransientImageCacheStatistics"
+    },
+    {
+      "ordinal": 65,
+      "name": "WerpRestartApplication"
+    },
+    {
+      "ordinal": 138,
+      "name": "WerpSetAuxiliaryArchivePath"
+    },
+    {
+      "ordinal": 139,
+      "name": "WerpSetCallBack"
+    },
+    {
+      "ordinal": 140,
+      "name": "WerpSetDefaultUserConsent"
+    },
+    {
+      "ordinal": 66,
+      "name": "WerpSetDynamicParameter"
+    },
+    {
+      "ordinal": 67,
+      "name": "WerpSetEventName"
+    },
+    {
+      "ordinal": 141,
+      "name": "WerpSetExitListeners"
+    },
+    {
+      "ordinal": 142,
+      "name": "WerpSetIntegratorReportId"
+    },
+    {
+      "ordinal": 143,
+      "name": "WerpSetIptEnabled"
+    },
+    {
+      "ordinal": 68,
+      "name": "WerpSetProcessTimelines"
+    },
+    {
+      "ordinal": 69,
+      "name": "WerpSetQuickDumpType"
+    },
+    {
+      "ordinal": 70,
+      "name": "WerpSetReportApplicationIdentity"
+    },
+    {
+      "ordinal": 71,
+      "name": "WerpSetReportFlags"
+    },
+    {
+      "ordinal": 72,
+      "name": "WerpSetReportInformation"
+    },
+    {
+      "ordinal": 73,
+      "name": "WerpSetReportIsFatal"
+    },
+    {
+      "ordinal": 74,
+      "name": "WerpSetReportNamespaceParameter"
+    },
+    {
+      "ordinal": 144,
+      "name": "WerpSetReportOption"
+    },
+    {
+      "ordinal": 75,
+      "name": "WerpSetReportTime"
+    },
+    {
+      "ordinal": 76,
+      "name": "WerpSetReportUploadContextToken"
+    },
+    {
+      "ordinal": 77,
+      "name": "WerpSetTelemetryAppParams"
+    },
+    {
+      "ordinal": 78,
+      "name": "WerpSetTelemetryKernelParams"
+    },
+    {
+      "ordinal": 79,
+      "name": "WerpSetTelemetryServiceParams"
+    },
+    {
+      "ordinal": 145,
+      "name": "WerpSetTtdStatus"
+    },
+    {
+      "ordinal": 80,
+      "name": "WerpShowUpsellUI"
+    },
+    {
+      "ordinal": 81,
+      "name": "WerpStitchedMinidumpVmPostReadCallback"
+    },
+    {
+      "ordinal": 82,
+      "name": "WerpStitchedMinidumpVmPreReadCallback"
+    },
+    {
+      "ordinal": 83,
+      "name": "WerpStitchedMinidumpVmQueryCallback"
+    },
+    {
+      "ordinal": 84,
+      "name": "WerpSubmitReportFromStore"
+    },
+    {
+      "ordinal": 85,
+      "name": "WerpTraceAuxMemDumpStatistics"
+    },
+    {
+      "ordinal": 86,
+      "name": "WerpTraceDuration"
+    },
+    {
+      "ordinal": 87,
+      "name": "WerpTraceImageCacheStatistics"
+    },
+    {
+      "ordinal": 88,
+      "name": "WerpTraceSnapshotStatistics"
+    },
+    {
+      "ordinal": 89,
+      "name": "WerpTraceStitchedDumpWriterStatistics"
+    },
+    {
+      "ordinal": 90,
+      "name": "WerpTraceUnmappedVaRangesStatistics"
+    },
+    {
+      "ordinal": 91,
+      "name": "WerpUnmapProcessViews"
+    },
+    {
+      "ordinal": 92,
+      "name": "WerpValidateReportKey"
+    },
+    {
+      "ordinal": 93,
+      "name": "WerpWalkGatherBlocks"
+    }
+  ]
+}

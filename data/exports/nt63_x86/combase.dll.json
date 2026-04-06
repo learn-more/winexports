@@ -1,0 +1,1419 @@
+{
+  "Version": "6.3.9600.16384-I386",
+  "md5": "abcdb844eabba13e2125056f45ca2d33",
+  "imphash": "abcdb844eabba13e2125056f45ca2d33",
+  "InternalName": "COMBASE.DLL",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "Microsoft COM for Windows",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 1383548,
+  "Size": 1369272,
+  "Machine": "I386",
+  "exports": [
+    {
+      "ordinal": 74,
+      "name": "CLSIDFromOle1Class"
+    },
+    {
+      "ordinal": 75,
+      "name": "CLSIDFromProgID"
+    },
+    {
+      "ordinal": 76,
+      "name": "CLSIDFromString"
+    },
+    {
+      "ordinal": 77,
+      "name": "CleanupOleStateInAllTls"
+    },
+    {
+      "ordinal": 78,
+      "name": "CleanupTlsOleState"
+    },
+    {
+      "ordinal": 82,
+      "name": "ClearCleanupFlag"
+    },
+    {
+      "ordinal": 83,
+      "name": "CoAddRefServerProcess"
+    },
+    {
+      "ordinal": 84,
+      "name": "CoAllowUnmarshalerCLSID"
+    },
+    {
+      "ordinal": 85,
+      "name": "CoCancelCall"
+    },
+    {
+      "ordinal": 89,
+      "name": "CoCopyProxy"
+    },
+    {
+      "ordinal": 94,
+      "name": "CoCreateErrorInfo"
+    },
+    {
+      "ordinal": 105,
+      "name": "CoCreateFreeThreadedMarshaler"
+    },
+    {
+      "ordinal": 106,
+      "name": "CoCreateGuid"
+    },
+    {
+      "ordinal": 107,
+      "name": "CoCreateInstance"
+    },
+    {
+      "ordinal": 108,
+      "name": "CoCreateInstanceEx"
+    },
+    {
+      "ordinal": 109,
+      "name": "CoCreateInstanceFromApp"
+    },
+    {
+      "ordinal": 113,
+      "name": "CoCreateObjectInContext"
+    },
+    {
+      "ordinal": 114,
+      "name": "CoDeactivateObject"
+    },
+    {
+      "ordinal": 115,
+      "name": "CoDecodeProxy"
+    },
+    {
+      "ordinal": 116,
+      "name": "CoDecrementMTAUsage"
+    },
+    {
+      "ordinal": 117,
+      "name": "CoDisableCallCancellation"
+    },
+    {
+      "ordinal": 118,
+      "name": "CoDisconnectContext"
+    },
+    {
+      "ordinal": 119,
+      "name": "CoDisconnectObject"
+    },
+    {
+      "ordinal": 131,
+      "name": "CoEnableCallCancellation"
+    },
+    {
+      "ordinal": 132,
+      "name": "CoFreeUnusedLibraries"
+    },
+    {
+      "ordinal": 140,
+      "name": "CoFreeUnusedLibrariesEx"
+    },
+    {
+      "ordinal": 141,
+      "name": "CoGetActivationState"
+    },
+    {
+      "ordinal": 142,
+      "name": "CoGetApartmentID"
+    },
+    {
+      "ordinal": 143,
+      "name": "CoGetApartmentType"
+    },
+    {
+      "ordinal": 144,
+      "name": "CoGetCallContext"
+    },
+    {
+      "ordinal": 145,
+      "name": "CoGetCallState"
+    },
+    {
+      "ordinal": 146,
+      "name": "CoGetCallerTID"
+    },
+    {
+      "ordinal": 147,
+      "name": "CoGetCancelObject"
+    },
+    {
+      "ordinal": 148,
+      "name": "CoGetClassObject"
+    },
+    {
+      "ordinal": 149,
+      "name": "CoGetClassVersion"
+    },
+    {
+      "ordinal": 150,
+      "name": "CoGetContextToken"
+    },
+    {
+      "ordinal": 151,
+      "name": "CoGetCurrentLogicalThreadId"
+    },
+    {
+      "ordinal": 152,
+      "name": "CoGetCurrentProcess"
+    },
+    {
+      "ordinal": 153,
+      "name": "CoGetDefaultContext"
+    },
+    {
+      "ordinal": 154,
+      "name": "CoGetErrorInfo"
+    },
+    {
+      "ordinal": 155,
+      "name": "CoGetInstanceFromFile"
+    },
+    {
+      "ordinal": 156,
+      "name": "CoGetInstanceFromIStorage"
+    },
+    {
+      "ordinal": 157,
+      "name": "CoGetInterfaceAndReleaseStream"
+    },
+    {
+      "ordinal": 158,
+      "name": "CoGetMalloc"
+    },
+    {
+      "ordinal": 159,
+      "name": "CoGetMarshalSizeMax"
+    },
+    {
+      "ordinal": 160,
+      "name": "CoGetModuleType"
+    },
+    {
+      "ordinal": 161,
+      "name": "CoGetObjectContext"
+    },
+    {
+      "ordinal": 162,
+      "name": "CoGetPSClsid"
+    },
+    {
+      "ordinal": 163,
+      "name": "CoGetProcessIdentifier"
+    },
+    {
+      "ordinal": 164,
+      "name": "CoGetStandardMarshal"
+    },
+    {
+      "ordinal": 165,
+      "name": "CoGetStdMarshalEx"
+    },
+    {
+      "ordinal": 166,
+      "name": "CoGetSystemSecurityPermissions"
+    },
+    {
+      "ordinal": 167,
+      "name": "CoGetTreatAsClass"
+    },
+    {
+      "ordinal": 168,
+      "name": "CoImpersonateClient"
+    },
+    {
+      "ordinal": 169,
+      "name": "CoIncrementMTAUsage"
+    },
+    {
+      "ordinal": 170,
+      "name": "CoInitializeEx"
+    },
+    {
+      "ordinal": 171,
+      "name": "CoInitializeSecurity"
+    },
+    {
+      "ordinal": 172,
+      "name": "CoInitializeWOW"
+    },
+    {
+      "ordinal": 173,
+      "name": "CoInvalidateRemoteMachineBindings"
+    },
+    {
+      "ordinal": 174,
+      "name": "CoIsHandlerConnected"
+    },
+    {
+      "ordinal": 175,
+      "name": "CoLockObjectExternal"
+    },
+    {
+      "ordinal": 176,
+      "name": "CoMarshalHresult"
+    },
+    {
+      "ordinal": 177,
+      "name": "CoMarshalInterThreadInterfaceInStream"
+    },
+    {
+      "ordinal": 178,
+      "name": "CoMarshalInterface"
+    },
+    {
+      "ordinal": 179,
+      "name": "CoPopServiceDomain"
+    },
+    {
+      "ordinal": 180,
+      "name": "CoPushServiceDomain"
+    },
+    {
+      "ordinal": 181,
+      "name": "CoQueryAuthenticationServices"
+    },
+    {
+      "ordinal": 182,
+      "name": "CoQueryClientBlanket"
+    },
+    {
+      "ordinal": 183,
+      "name": "CoQueryProxyBlanket"
+    },
+    {
+      "ordinal": 184,
+      "name": "CoReactivateObject"
+    },
+    {
+      "ordinal": 185,
+      "name": "CoRegisterActivationFilter"
+    },
+    {
+      "ordinal": 186,
+      "name": "CoRegisterClassObject"
+    },
+    {
+      "ordinal": 187,
+      "name": "CoRegisterInitializeSpy"
+    },
+    {
+      "ordinal": 188,
+      "name": "CoRegisterMallocSpy"
+    },
+    {
+      "ordinal": 189,
+      "name": "CoRegisterMessageFilter"
+    },
+    {
+      "ordinal": 190,
+      "name": "CoRegisterPSClsid"
+    },
+    {
+      "ordinal": 191,
+      "name": "CoRegisterSurrogate"
+    },
+    {
+      "ordinal": 192,
+      "name": "CoRegisterSurrogateEx"
+    },
+    {
+      "ordinal": 193,
+      "name": "CoReleaseMarshalData"
+    },
+    {
+      "ordinal": 194,
+      "name": "CoReleaseServerProcess"
+    },
+    {
+      "ordinal": 195,
+      "name": "CoResumeClassObjects"
+    },
+    {
+      "ordinal": 196,
+      "name": "CoRetireServer"
+    },
+    {
+      "ordinal": 197,
+      "name": "CoRevertToSelf"
+    },
+    {
+      "ordinal": 198,
+      "name": "CoRevokeClassObject"
+    },
+    {
+      "ordinal": 199,
+      "name": "CoRevokeInitializeSpy"
+    },
+    {
+      "ordinal": 200,
+      "name": "CoRevokeMallocSpy"
+    },
+    {
+      "ordinal": 201,
+      "name": "CoSetCancelObject"
+    },
+    {
+      "ordinal": 202,
+      "name": "CoSetErrorInfo"
+    },
+    {
+      "ordinal": 203,
+      "name": "CoSetProxyBlanket"
+    },
+    {
+      "ordinal": 204,
+      "name": "CoSuspendClassObjects"
+    },
+    {
+      "ordinal": 205,
+      "name": "CoSwitchCallContext"
+    },
+    {
+      "ordinal": 206,
+      "name": "CoTaskMemAlloc"
+    },
+    {
+      "ordinal": 207,
+      "name": "CoTaskMemFree"
+    },
+    {
+      "ordinal": 208,
+      "name": "CoTaskMemRealloc"
+    },
+    {
+      "ordinal": 209,
+      "name": "CoTestCancel"
+    },
+    {
+      "ordinal": 210,
+      "name": "CoUninitialize"
+    },
+    {
+      "ordinal": 211,
+      "name": "CoUnloadingWOW"
+    },
+    {
+      "ordinal": 212,
+      "name": "CoUnmarshalHresult"
+    },
+    {
+      "ordinal": 213,
+      "name": "CoUnmarshalInterface"
+    },
+    {
+      "ordinal": 214,
+      "name": "CoVrfCheckThreadState"
+    },
+    {
+      "ordinal": 215,
+      "name": "CoVrfGetThreadState"
+    },
+    {
+      "ordinal": 216,
+      "name": "CoVrfReleaseThreadState"
+    },
+    {
+      "ordinal": 217,
+      "name": "CoWaitForMultipleHandles"
+    },
+    {
+      "ordinal": 218,
+      "name": "CoWaitForMultipleObjects"
+    },
+    {
+      "ordinal": 219,
+      "name": "CreateErrorInfo"
+    },
+    {
+      "ordinal": 220,
+      "name": "CreateStreamOnHGlobal"
+    },
+    {
+      "ordinal": 221,
+      "name": "DcomChannelSetHResult"
+    },
+    {
+      "ordinal": 222,
+      "name": "DllDebugObjectRPCHook"
+    },
+    {
+      "ordinal": 223,
+      "name": "DllGetActivationFactory"
+    },
+    {
+      "ordinal": 224,
+      "name": "DllGetClassObject"
+    },
+    {
+      "ordinal": 225,
+      "name": "EnableHookObject"
+    },
+    {
+      "ordinal": 226,
+      "name": "FreePropVariantArray"
+    },
+    {
+      "ordinal": 227,
+      "name": "FreePropVariantArrayWorker"
+    },
+    {
+      "ordinal": 228,
+      "name": "GetCatalogHelper"
+    },
+    {
+      "ordinal": 229,
+      "name": "GetErrorInfo"
+    },
+    {
+      "ordinal": 230,
+      "name": "GetFuncDescs"
+    },
+    {
+      "ordinal": 231,
+      "name": "GetHGlobalFromStream"
+    },
+    {
+      "ordinal": 232,
+      "name": "GetHookInterface"
+    },
+    {
+      "ordinal": 233,
+      "name": "GetRestrictedErrorInfo"
+    },
+    {
+      "ordinal": 234,
+      "name": "HSTRING_UserFree"
+    },
+    {
+      "ordinal": 235,
+      "name": "HSTRING_UserMarshal"
+    },
+    {
+      "ordinal": 236,
+      "name": "HSTRING_UserSize"
+    },
+    {
+      "ordinal": 237,
+      "name": "HSTRING_UserUnmarshal"
+    },
+    {
+      "ordinal": 238,
+      "name": "HkOleRegisterObject"
+    },
+    {
+      "ordinal": 239,
+      "name": "IIDFromString"
+    },
+    {
+      "ordinal": 240,
+      "name": "InternalAppInvokeExceptionFilter"
+    },
+    {
+      "ordinal": 241,
+      "name": "InternalCCFreeUnused"
+    },
+    {
+      "ordinal": 242,
+      "name": "InternalCCGetClassInformationForDde"
+    },
+    {
+      "ordinal": 243,
+      "name": "InternalCCGetClassInformationFromKey"
+    },
+    {
+      "ordinal": 244,
+      "name": "InternalCCSetDdeServerWindow"
+    },
+    {
+      "ordinal": 245,
+      "name": "InternalCMLSendReceive"
+    },
+    {
+      "ordinal": 246,
+      "name": "InternalCallAsProxyExceptionFilter"
+    },
+    {
+      "ordinal": 247,
+      "name": "InternalCallFrameExceptionFilter"
+    },
+    {
+      "ordinal": 248,
+      "name": "InternalCallerIsAppContainer"
+    },
+    {
+      "ordinal": 249,
+      "name": "InternalCanMakeOutCall"
+    },
+    {
+      "ordinal": 250,
+      "name": "InternalCoIsSurrogateProcess"
+    },
+    {
+      "ordinal": 251,
+      "name": "InternalCoRegisterDisconnectCallback"
+    },
+    {
+      "ordinal": 252,
+      "name": "InternalCoRegisterSurrogatedObject"
+    },
+    {
+      "ordinal": 253,
+      "name": "InternalCoStdMarshalObject"
+    },
+    {
+      "ordinal": 254,
+      "name": "InternalCoUnregisterDisconnectCallback"
+    },
+    {
+      "ordinal": 255,
+      "name": "InternalCompleteObjRef"
+    },
+    {
+      "ordinal": 256,
+      "name": "InternalCreateCAggId"
+    },
+    {
+      "ordinal": 257,
+      "name": "InternalCreateIdentityHandler"
+    },
+    {
+      "ordinal": 258,
+      "name": "InternalDoATClassCreate"
+    },
+    {
+      "ordinal": 259,
+      "name": "InternalFillLocalOXIDInfo"
+    },
+    {
+      "ordinal": 260,
+      "name": "InternalFreeObjRef"
+    },
+    {
+      "ordinal": 261,
+      "name": "InternalGetWindowPropInterface"
+    },
+    {
+      "ordinal": 262,
+      "name": "InternalIrotEnumRunning"
+    },
+    {
+      "ordinal": 263,
+      "name": "InternalIrotGetObject"
+    },
+    {
+      "ordinal": 264,
+      "name": "InternalIrotGetTimeOfLastChange"
+    },
+    {
+      "ordinal": 265,
+      "name": "InternalIrotIsRunning"
+    },
+    {
+      "ordinal": 266,
+      "name": "InternalIrotNoteChangeTime"
+    },
+    {
+      "ordinal": 267,
+      "name": "InternalIrotRegister"
+    },
+    {
+      "ordinal": 268,
+      "name": "InternalIrotRevoke"
+    },
+    {
+      "ordinal": 269,
+      "name": "InternalIsApartmentInitialized"
+    },
+    {
+      "ordinal": 270,
+      "name": "InternalIsProcessInitialized"
+    },
+    {
+      "ordinal": 271,
+      "name": "InternalMarshalObjRef"
+    },
+    {
+      "ordinal": 272,
+      "name": "InternalNotifyDDStartOrStop"
+    },
+    {
+      "ordinal": 273,
+      "name": "InternalOleModalLoopBlockFn"
+    },
+    {
+      "ordinal": 274,
+      "name": "InternalRegisterWindowPropInterface"
+    },
+    {
+      "ordinal": 275,
+      "name": "InternalReleaseMarshalObjRef"
+    },
+    {
+      "ordinal": 276,
+      "name": "InternalSTAInvoke"
+    },
+    {
+      "ordinal": 277,
+      "name": "InternalServerExceptionFilter"
+    },
+    {
+      "ordinal": 278,
+      "name": "InternalSetAptCallCtrlOnTlsIfRequired"
+    },
+    {
+      "ordinal": 279,
+      "name": "InternalSetOleThunkWowPtr"
+    },
+    {
+      "ordinal": 280,
+      "name": "InternalStubInvoke"
+    },
+    {
+      "ordinal": 281,
+      "name": "InternalTlsAllocData"
+    },
+    {
+      "ordinal": 282,
+      "name": "InternalUnmarshalObjRef"
+    },
+    {
+      "ordinal": 283,
+      "name": "IsErrorPropagationEnabled"
+    },
+    {
+      "ordinal": 284,
+      "name": "NdrExtStubInitialize"
+    },
+    {
+      "ordinal": 285,
+      "name": "NdrOleDllGetClassObject"
+    },
+    {
+      "ordinal": 62,
+      "name": "NdrOleInitializeExtension"
+    },
+    {
+      "ordinal": 39,
+      "name": "NdrProxyForwardingFunction10"
+    },
+    {
+      "ordinal": 40,
+      "name": "NdrProxyForwardingFunction11"
+    },
+    {
+      "ordinal": 41,
+      "name": "NdrProxyForwardingFunction12"
+    },
+    {
+      "ordinal": 42,
+      "name": "NdrProxyForwardingFunction13"
+    },
+    {
+      "ordinal": 43,
+      "name": "NdrProxyForwardingFunction14"
+    },
+    {
+      "ordinal": 44,
+      "name": "NdrProxyForwardingFunction15"
+    },
+    {
+      "ordinal": 45,
+      "name": "NdrProxyForwardingFunction16"
+    },
+    {
+      "ordinal": 46,
+      "name": "NdrProxyForwardingFunction17"
+    },
+    {
+      "ordinal": 47,
+      "name": "NdrProxyForwardingFunction18"
+    },
+    {
+      "ordinal": 48,
+      "name": "NdrProxyForwardingFunction19"
+    },
+    {
+      "ordinal": 49,
+      "name": "NdrProxyForwardingFunction20"
+    },
+    {
+      "ordinal": 50,
+      "name": "NdrProxyForwardingFunction21"
+    },
+    {
+      "ordinal": 51,
+      "name": "NdrProxyForwardingFunction22"
+    },
+    {
+      "ordinal": 52,
+      "name": "NdrProxyForwardingFunction23"
+    },
+    {
+      "ordinal": 53,
+      "name": "NdrProxyForwardingFunction24"
+    },
+    {
+      "ordinal": 54,
+      "name": "NdrProxyForwardingFunction25"
+    },
+    {
+      "ordinal": 55,
+      "name": "NdrProxyForwardingFunction26"
+    },
+    {
+      "ordinal": 56,
+      "name": "NdrProxyForwardingFunction27"
+    },
+    {
+      "ordinal": 57,
+      "name": "NdrProxyForwardingFunction28"
+    },
+    {
+      "ordinal": 58,
+      "name": "NdrProxyForwardingFunction29"
+    },
+    {
+      "ordinal": 32,
+      "name": "NdrProxyForwardingFunction3"
+    },
+    {
+      "ordinal": 59,
+      "name": "NdrProxyForwardingFunction30"
+    },
+    {
+      "ordinal": 60,
+      "name": "NdrProxyForwardingFunction31"
+    },
+    {
+      "ordinal": 61,
+      "name": "NdrProxyForwardingFunction32"
+    },
+    {
+      "ordinal": 33,
+      "name": "NdrProxyForwardingFunction4"
+    },
+    {
+      "ordinal": 34,
+      "name": "NdrProxyForwardingFunction5"
+    },
+    {
+      "ordinal": 35,
+      "name": "NdrProxyForwardingFunction6"
+    },
+    {
+      "ordinal": 36,
+      "name": "NdrProxyForwardingFunction7"
+    },
+    {
+      "ordinal": 37,
+      "name": "NdrProxyForwardingFunction8"
+    },
+    {
+      "ordinal": 38,
+      "name": "NdrProxyForwardingFunction9"
+    },
+    {
+      "ordinal": 286,
+      "name": "NdrpFindInterface"
+    },
+    {
+      "ordinal": 9,
+      "name": "ObjectStublessClient10"
+    },
+    {
+      "ordinal": 10,
+      "name": "ObjectStublessClient11"
+    },
+    {
+      "ordinal": 11,
+      "name": "ObjectStublessClient12"
+    },
+    {
+      "ordinal": 12,
+      "name": "ObjectStublessClient13"
+    },
+    {
+      "ordinal": 13,
+      "name": "ObjectStublessClient14"
+    },
+    {
+      "ordinal": 14,
+      "name": "ObjectStublessClient15"
+    },
+    {
+      "ordinal": 15,
+      "name": "ObjectStublessClient16"
+    },
+    {
+      "ordinal": 16,
+      "name": "ObjectStublessClient17"
+    },
+    {
+      "ordinal": 17,
+      "name": "ObjectStublessClient18"
+    },
+    {
+      "ordinal": 18,
+      "name": "ObjectStublessClient19"
+    },
+    {
+      "ordinal": 19,
+      "name": "ObjectStublessClient20"
+    },
+    {
+      "ordinal": 20,
+      "name": "ObjectStublessClient21"
+    },
+    {
+      "ordinal": 21,
+      "name": "ObjectStublessClient22"
+    },
+    {
+      "ordinal": 22,
+      "name": "ObjectStublessClient23"
+    },
+    {
+      "ordinal": 23,
+      "name": "ObjectStublessClient24"
+    },
+    {
+      "ordinal": 24,
+      "name": "ObjectStublessClient25"
+    },
+    {
+      "ordinal": 25,
+      "name": "ObjectStublessClient26"
+    },
+    {
+      "ordinal": 26,
+      "name": "ObjectStublessClient27"
+    },
+    {
+      "ordinal": 27,
+      "name": "ObjectStublessClient28"
+    },
+    {
+      "ordinal": 28,
+      "name": "ObjectStublessClient29"
+    },
+    {
+      "ordinal": 2,
+      "name": "ObjectStublessClient3"
+    },
+    {
+      "ordinal": 29,
+      "name": "ObjectStublessClient30"
+    },
+    {
+      "ordinal": 30,
+      "name": "ObjectStublessClient31"
+    },
+    {
+      "ordinal": 31,
+      "name": "ObjectStublessClient32"
+    },
+    {
+      "ordinal": 3,
+      "name": "ObjectStublessClient4"
+    },
+    {
+      "ordinal": 4,
+      "name": "ObjectStublessClient5"
+    },
+    {
+      "ordinal": 5,
+      "name": "ObjectStublessClient6"
+    },
+    {
+      "ordinal": 6,
+      "name": "ObjectStublessClient7"
+    },
+    {
+      "ordinal": 7,
+      "name": "ObjectStublessClient8"
+    },
+    {
+      "ordinal": 8,
+      "name": "ObjectStublessClient9"
+    },
+    {
+      "ordinal": 287,
+      "name": "ProgIDFromCLSID"
+    },
+    {
+      "ordinal": 288,
+      "name": "PropVariantClear"
+    },
+    {
+      "ordinal": 289,
+      "name": "PropVariantCopy"
+    },
+    {
+      "ordinal": 290,
+      "name": "ReleaseFuncDescs"
+    },
+    {
+      "ordinal": 291,
+      "name": "RoActivateInstance"
+    },
+    {
+      "ordinal": 292,
+      "name": "RoCaptureErrorContext"
+    },
+    {
+      "ordinal": 293,
+      "name": "RoClearError"
+    },
+    {
+      "ordinal": 294,
+      "name": "RoFailFastWithErrorContext"
+    },
+    {
+      "ordinal": 72,
+      "name": "RoFailFastWithErrorContextInternal"
+    },
+    {
+      "ordinal": 295,
+      "name": "RoFreeParameterizedTypeExtra"
+    },
+    {
+      "ordinal": 296,
+      "name": "RoGetActivatableClassRegistration"
+    },
+    {
+      "ordinal": 297,
+      "name": "RoGetActivationFactory"
+    },
+    {
+      "ordinal": 298,
+      "name": "RoGetAgileReference"
+    },
+    {
+      "ordinal": 299,
+      "name": "RoGetApartmentIdentifier"
+    },
+    {
+      "ordinal": 300,
+      "name": "RoGetErrorReportingFlags"
+    },
+    {
+      "ordinal": 301,
+      "name": "RoGetMatchingRestrictedErrorInfo"
+    },
+    {
+      "ordinal": 302,
+      "name": "RoGetParameterizedTypeInstanceIID"
+    },
+    {
+      "ordinal": 303,
+      "name": "RoGetServerActivatableClasses"
+    },
+    {
+      "ordinal": 304,
+      "name": "RoInitialize"
+    },
+    {
+      "ordinal": 305,
+      "name": "RoInspectCapturedStackBackTrace"
+    },
+    {
+      "ordinal": 306,
+      "name": "RoInspectThreadErrorInfo"
+    },
+    {
+      "ordinal": 307,
+      "name": "RoOriginateError"
+    },
+    {
+      "ordinal": 308,
+      "name": "RoOriginateErrorW"
+    },
+    {
+      "ordinal": 309,
+      "name": "RoOriginateLanguageException"
+    },
+    {
+      "ordinal": 310,
+      "name": "RoParameterizedTypeExtraGetTypeSignature"
+    },
+    {
+      "ordinal": 311,
+      "name": "RoRegisterActivationFactories"
+    },
+    {
+      "ordinal": 312,
+      "name": "RoRegisterForApartmentShutdown"
+    },
+    {
+      "ordinal": 313,
+      "name": "RoReportCapabilityCheckFailure"
+    },
+    {
+      "ordinal": 314,
+      "name": "RoReportFailedDelegate"
+    },
+    {
+      "ordinal": 315,
+      "name": "RoReportUnhandledError"
+    },
+    {
+      "ordinal": 316,
+      "name": "RoResolveRestrictedErrorInfoReference"
+    },
+    {
+      "ordinal": 317,
+      "name": "RoRevokeActivationFactories"
+    },
+    {
+      "ordinal": 318,
+      "name": "RoSetErrorReportingFlags"
+    },
+    {
+      "ordinal": 319,
+      "name": "RoTransformError"
+    },
+    {
+      "ordinal": 320,
+      "name": "RoTransformErrorW"
+    },
+    {
+      "ordinal": 321,
+      "name": "RoUninitialize"
+    },
+    {
+      "ordinal": 322,
+      "name": "RoUnregisterForApartmentShutdown"
+    },
+    {
+      "ordinal": 323,
+      "name": "SetCleanupFlag"
+    },
+    {
+      "ordinal": 324,
+      "name": "SetErrorInfo"
+    },
+    {
+      "ordinal": 325,
+      "name": "SetRestrictedErrorInfo"
+    },
+    {
+      "ordinal": 326,
+      "name": "StringFromCLSID"
+    },
+    {
+      "ordinal": 327,
+      "name": "StringFromGUID2"
+    },
+    {
+      "ordinal": 328,
+      "name": "StringFromIID"
+    },
+    {
+      "ordinal": 329,
+      "name": "UpdateDCOMSettings"
+    },
+    {
+      "ordinal": 73,
+      "name": "UpdateProcessTracing"
+    },
+    {
+      "ordinal": 330,
+      "name": "WdtpInterfacePointer_UserMarshal"
+    },
+    {
+      "ordinal": 331,
+      "name": "WdtpInterfacePointer_UserSize"
+    },
+    {
+      "ordinal": 332,
+      "name": "WdtpInterfacePointer_UserUnmarshal"
+    },
+    {
+      "ordinal": 333,
+      "name": "WindowsCompareStringOrdinal"
+    },
+    {
+      "ordinal": 334,
+      "name": "WindowsConcatString"
+    },
+    {
+      "ordinal": 335,
+      "name": "WindowsCreateString"
+    },
+    {
+      "ordinal": 336,
+      "name": "WindowsCreateStringReference"
+    },
+    {
+      "ordinal": 337,
+      "name": "WindowsDeleteString"
+    },
+    {
+      "ordinal": 338,
+      "name": "WindowsDeleteStringBuffer"
+    },
+    {
+      "ordinal": 339,
+      "name": "WindowsDuplicateString"
+    },
+    {
+      "ordinal": 340,
+      "name": "WindowsGetStringLen"
+    },
+    {
+      "ordinal": 341,
+      "name": "WindowsGetStringRawBuffer"
+    },
+    {
+      "ordinal": 342,
+      "name": "WindowsInspectString"
+    },
+    {
+      "ordinal": 343,
+      "name": "WindowsIsStringEmpty"
+    },
+    {
+      "ordinal": 344,
+      "name": "WindowsPreallocateStringBuffer"
+    },
+    {
+      "ordinal": 345,
+      "name": "WindowsPromoteStringBuffer"
+    },
+    {
+      "ordinal": 346,
+      "name": "WindowsReplaceString"
+    },
+    {
+      "ordinal": 347,
+      "name": "WindowsStringHasEmbeddedNull"
+    },
+    {
+      "ordinal": 348,
+      "name": "WindowsSubstring"
+    },
+    {
+      "ordinal": 349,
+      "name": "WindowsSubstringWithSpecifiedLength"
+    },
+    {
+      "ordinal": 350,
+      "name": "WindowsTrimStringEnd"
+    },
+    {
+      "ordinal": 351,
+      "name": "WindowsTrimStringStart"
+    },
+    {
+      "ordinal": 1,
+      "name": null
+    },
+    {
+      "ordinal": 63,
+      "name": null
+    },
+    {
+      "ordinal": 64,
+      "name": null
+    },
+    {
+      "ordinal": 65,
+      "name": null
+    },
+    {
+      "ordinal": 66,
+      "name": null
+    },
+    {
+      "ordinal": 67,
+      "name": null
+    },
+    {
+      "ordinal": 68,
+      "name": null
+    },
+    {
+      "ordinal": 69,
+      "name": null
+    },
+    {
+      "ordinal": 70,
+      "name": null
+    },
+    {
+      "ordinal": 71,
+      "name": null
+    },
+    {
+      "ordinal": 79,
+      "name": null
+    },
+    {
+      "ordinal": 80,
+      "name": null
+    },
+    {
+      "ordinal": 81,
+      "name": null
+    },
+    {
+      "ordinal": 86,
+      "name": null
+    },
+    {
+      "ordinal": 87,
+      "name": null
+    },
+    {
+      "ordinal": 88,
+      "name": null
+    },
+    {
+      "ordinal": 90,
+      "name": null
+    },
+    {
+      "ordinal": 91,
+      "name": null
+    },
+    {
+      "ordinal": 92,
+      "name": null
+    },
+    {
+      "ordinal": 93,
+      "name": null
+    },
+    {
+      "ordinal": 95,
+      "name": null
+    },
+    {
+      "ordinal": 96,
+      "name": null
+    },
+    {
+      "ordinal": 97,
+      "name": null
+    },
+    {
+      "ordinal": 98,
+      "name": null
+    },
+    {
+      "ordinal": 99,
+      "name": null
+    },
+    {
+      "ordinal": 100,
+      "name": null
+    },
+    {
+      "ordinal": 101,
+      "name": null
+    },
+    {
+      "ordinal": 102,
+      "name": null
+    },
+    {
+      "ordinal": 103,
+      "name": null
+    },
+    {
+      "ordinal": 104,
+      "name": null
+    },
+    {
+      "ordinal": 110,
+      "name": null
+    },
+    {
+      "ordinal": 111,
+      "name": null
+    },
+    {
+      "ordinal": 112,
+      "name": null
+    },
+    {
+      "ordinal": 120,
+      "name": null
+    },
+    {
+      "ordinal": 121,
+      "name": null
+    },
+    {
+      "ordinal": 122,
+      "name": null
+    },
+    {
+      "ordinal": 123,
+      "name": null
+    },
+    {
+      "ordinal": 124,
+      "name": null
+    },
+    {
+      "ordinal": 125,
+      "name": null
+    },
+    {
+      "ordinal": 126,
+      "name": null
+    },
+    {
+      "ordinal": 127,
+      "name": null
+    },
+    {
+      "ordinal": 128,
+      "name": null
+    },
+    {
+      "ordinal": 129,
+      "name": null
+    },
+    {
+      "ordinal": 130,
+      "name": null
+    },
+    {
+      "ordinal": 133,
+      "name": null
+    },
+    {
+      "ordinal": 134,
+      "name": null
+    },
+    {
+      "ordinal": 135,
+      "name": null
+    },
+    {
+      "ordinal": 136,
+      "name": null
+    },
+    {
+      "ordinal": 137,
+      "name": null
+    },
+    {
+      "ordinal": 138,
+      "name": null
+    },
+    {
+      "ordinal": 139,
+      "name": null
+    }
+  ]
+}

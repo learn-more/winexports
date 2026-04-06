@@ -1,14 +1,14 @@
 {
   "Version": "5.2.3790.3959-I386",
-  "md5": "bcfe9c4bb73b2f155ef1b1547f69acd4",
-  "imphash": "bcfe9c4bb73b2f155ef1b1547f69acd4",
+  "md5": "e30388a0d7e54951cbc74e734ba9b7ba",
+  "imphash": "e30388a0d7e54951cbc74e734ba9b7ba",
   "InternalName": "scsiport.sys",
   "CompanyName": "Microsoft Corporation",
   "FileDescription": "SCSI Port Driver",
   "FileVersion": "5.2.3790.3959 (srv03_sp2_rtm.070216-1710)",
   "ProductVersion": "5.2.3790.3959",
-  "PeChecksum": 256849,
-  "Size": 223232,
+  "PeChecksum": 168568,
+  "Size": 105472,
   "Machine": "I386",
   "exports": [
     {
@@ -89,55 +89,68 @@
     },
     {
       "ordinal": 20,
-      "name": "ScsiPortQuerySystemTime"
+      "name": "ScsiPortQuerySystemTime",
+      "forwarder": "NTOSKRNL.KeQuerySystemTime"
     },
     {
       "ordinal": 21,
-      "name": "ScsiPortReadPortBufferUchar"
+      "name": "ScsiPortReadPortBufferUchar",
+      "forwarder": "HAL.READ_PORT_BUFFER_UCHAR"
     },
     {
       "ordinal": 22,
-      "name": "ScsiPortReadPortBufferUlong"
+      "name": "ScsiPortReadPortBufferUlong",
+      "forwarder": "HAL.READ_PORT_BUFFER_ULONG"
     },
     {
       "ordinal": 23,
-      "name": "ScsiPortReadPortBufferUshort"
+      "name": "ScsiPortReadPortBufferUshort",
+      "forwarder": "HAL.READ_PORT_BUFFER_USHORT"
     },
     {
       "ordinal": 24,
-      "name": "ScsiPortReadPortUchar"
+      "name": "ScsiPortReadPortUchar",
+      "forwarder": "HAL.READ_PORT_UCHAR"
     },
     {
       "ordinal": 25,
-      "name": "ScsiPortReadPortUlong"
+      "name": "ScsiPortReadPortUlong",
+      "forwarder": "HAL.READ_PORT_ULONG"
     },
     {
       "ordinal": 26,
-      "name": "ScsiPortReadPortUshort"
+      "name": "ScsiPortReadPortUshort",
+      "forwarder": "HAL.READ_PORT_USHORT"
     },
     {
       "ordinal": 27,
-      "name": "ScsiPortReadRegisterBufferUchar"
+      "name": "ScsiPortReadRegisterBufferUchar",
+      "forwarder": "NTOSKRNL.READ_REGISTER_BUFFER_UCHAR"
     },
     {
       "ordinal": 28,
-      "name": "ScsiPortReadRegisterBufferUlong"
+      "name": "ScsiPortReadRegisterBufferUlong",
+      "forwarder": "NTOSKRNL.READ_REGISTER_BUFFER_ULONG"
     },
     {
       "ordinal": 29,
-      "name": "ScsiPortReadRegisterBufferUshort"
+      "name": "ScsiPortReadRegisterBufferUshort",
+      "forwarder": "NTOSKRNL.READ_REGISTER_BUFFER_USHORT"
     },
     {
       "ordinal": 30,
-      "name": "ScsiPortReadRegisterUchar"
+      "name": "ScsiPortReadRegisterUchar",
+      "forwarder": "NTOSKRNL.READ_REGISTER_UCHAR"
     },
     {
       "ordinal": 31,
-      "name": "ScsiPortReadRegisterUlong"
+      "name": "ScsiPortReadRegisterUlong",
+      "forwarder": "NTOSKRNL.READ_REGISTER_ULONG"
     },
     {
       "ordinal": 32,
-      "name": "ScsiPortReadRegisterUshort"
+      "name": "ScsiPortReadRegisterUshort",
+      "forwarder": "NTOSKRNL.READ_REGISTER_USHORT"
     },
     {
       "ordinal": 33,
@@ -153,51 +166,63 @@
     },
     {
       "ordinal": 36,
-      "name": "ScsiPortWritePortBufferUchar"
+      "name": "ScsiPortWritePortBufferUchar",
+      "forwarder": "HAL.WRITE_PORT_BUFFER_UCHAR"
     },
     {
       "ordinal": 37,
-      "name": "ScsiPortWritePortBufferUlong"
+      "name": "ScsiPortWritePortBufferUlong",
+      "forwarder": "HAL.WRITE_PORT_BUFFER_ULONG"
     },
     {
       "ordinal": 38,
-      "name": "ScsiPortWritePortBufferUshort"
+      "name": "ScsiPortWritePortBufferUshort",
+      "forwarder": "HAL.WRITE_PORT_BUFFER_USHORT"
     },
     {
       "ordinal": 39,
-      "name": "ScsiPortWritePortUchar"
+      "name": "ScsiPortWritePortUchar",
+      "forwarder": "HAL.WRITE_PORT_UCHAR"
     },
     {
       "ordinal": 40,
-      "name": "ScsiPortWritePortUlong"
+      "name": "ScsiPortWritePortUlong",
+      "forwarder": "HAL.WRITE_PORT_ULONG"
     },
     {
       "ordinal": 41,
-      "name": "ScsiPortWritePortUshort"
+      "name": "ScsiPortWritePortUshort",
+      "forwarder": "HAL.WRITE_PORT_USHORT"
     },
     {
       "ordinal": 42,
-      "name": "ScsiPortWriteRegisterBufferUchar"
+      "name": "ScsiPortWriteRegisterBufferUchar",
+      "forwarder": "NTOSKRNL.WRITE_REGISTER_BUFFER_UCHAR"
     },
     {
       "ordinal": 43,
-      "name": "ScsiPortWriteRegisterBufferUlong"
+      "name": "ScsiPortWriteRegisterBufferUlong",
+      "forwarder": "NTOSKRNL.WRITE_REGISTER_BUFFER_ULONG"
     },
     {
       "ordinal": 44,
-      "name": "ScsiPortWriteRegisterBufferUshort"
+      "name": "ScsiPortWriteRegisterBufferUshort",
+      "forwarder": "NTOSKRNL.WRITE_REGISTER_BUFFER_USHORT"
     },
     {
       "ordinal": 45,
-      "name": "ScsiPortWriteRegisterUchar"
+      "name": "ScsiPortWriteRegisterUchar",
+      "forwarder": "NTOSKRNL.WRITE_REGISTER_UCHAR"
     },
     {
       "ordinal": 46,
-      "name": "ScsiPortWriteRegisterUlong"
+      "name": "ScsiPortWriteRegisterUlong",
+      "forwarder": "NTOSKRNL.WRITE_REGISTER_ULONG"
     },
     {
       "ordinal": 47,
-      "name": "ScsiPortWriteRegisterUshort"
+      "name": "ScsiPortWriteRegisterUshort",
+      "forwarder": "NTOSKRNL.WRITE_REGISTER_USHORT"
     }
   ]
 }

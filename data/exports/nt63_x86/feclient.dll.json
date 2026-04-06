@@ -1,0 +1,36 @@
+{
+  "Version": "6.3.9600.16384-I386",
+  "md5": "fde78c3b2c014c9ce8c9a2feba48b51c",
+  "imphash": "fde78c3b2c014c9ce8c9a2feba48b51c",
+  "InternalName": "FECLIENT.DLL",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "Windows NT File Encryption Client Interfaces",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 89297,
+  "Size": 36864,
+  "Machine": "I386",
+  "exports": [
+    {
+      "ordinal": 2,
+      "name": "EfsClientEncryptFileEx"
+    },
+    {
+      "ordinal": 3,
+      "name": "EfsClientFreeProtectorList"
+    },
+    {
+      "ordinal": 4,
+      "name": "EfsClientQueryProtectors"
+    },
+    {
+      "ordinal": 1,
+      "name": "EfsUtilGetCurrentKey",
+      "forwarder": "efsutil._EfsUtilGetCurrentKey_Deprecated@16"
+    },
+    {
+      "ordinal": 5,
+      "name": "FeClientInitialize"
+    }
+  ]
+}

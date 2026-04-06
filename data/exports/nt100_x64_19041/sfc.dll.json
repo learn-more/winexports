@@ -1,0 +1,95 @@
+{
+  "Version": "10.0.19041.3636-AMD64",
+  "md5": "9dc819af0b5ca106a4da5ae05a6dbaef",
+  "imphash": "9dc819af0b5ca106a4da5ae05a6dbaef",
+  "InternalName": "sfc.dll",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "Windows File Protection",
+  "FileVersion": "10.0.19041.3636 (WinBuild.160101.0800)",
+  "ProductVersion": "10.0.19041.3636",
+  "PeChecksum": 34642,
+  "Size": 12864,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ordinal": 10,
+      "name": "SRSetRestorePoint",
+      "forwarder": "sfc_os.SRSetRestorePointA"
+    },
+    {
+      "ordinal": 11,
+      "name": "SRSetRestorePointA",
+      "forwarder": "sfc_os.SRSetRestorePointA"
+    },
+    {
+      "ordinal": 12,
+      "name": "SRSetRestorePointW",
+      "forwarder": "sfc_os.SRSetRestorePointW"
+    },
+    {
+      "ordinal": 13,
+      "name": "SfcGetNextProtectedFile",
+      "forwarder": "sfc_os.SfcGetNextProtectedFile"
+    },
+    {
+      "ordinal": 14,
+      "name": "SfcIsFileProtected",
+      "forwarder": "sfc_os.SfcIsFileProtected"
+    },
+    {
+      "ordinal": 15,
+      "name": "SfcIsKeyProtected",
+      "forwarder": "sfc_os.SfcIsKeyProtected"
+    },
+    {
+      "ordinal": 16,
+      "name": "SfpVerifyFile",
+      "forwarder": "sfc_os.SfpVerifyFile"
+    },
+    {
+      "ordinal": 1,
+      "name": null,
+      "forwarder": "sfc_os.SfcInitProt"
+    },
+    {
+      "ordinal": 2,
+      "name": null,
+      "forwarder": "sfc_os.SfcTerminateWatcherThread"
+    },
+    {
+      "ordinal": 3,
+      "name": null,
+      "forwarder": "sfc_os.SfcConnectToServer"
+    },
+    {
+      "ordinal": 4,
+      "name": null,
+      "forwarder": "sfc_os.SfcClose"
+    },
+    {
+      "ordinal": 5,
+      "name": null,
+      "forwarder": "sfc_os.SfcFileException"
+    },
+    {
+      "ordinal": 6,
+      "name": null,
+      "forwarder": "sfc_os.SfcInitiateScan"
+    },
+    {
+      "ordinal": 7,
+      "name": null,
+      "forwarder": "sfc_os.SfcInstallProtectedFiles"
+    },
+    {
+      "ordinal": 8,
+      "name": null,
+      "forwarder": "sfc_os.SfpInstallCatalog"
+    },
+    {
+      "ordinal": 9,
+      "name": null,
+      "forwarder": "sfc_os.SfpDeleteCatalog"
+    }
+  ]
+}

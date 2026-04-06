@@ -1,14 +1,14 @@
 {
   "Version": "5.2.3790.3959-I386",
-  "md5": "7322f7da9d8aa540d227a7bfffed9850",
-  "imphash": "7322f7da9d8aa540d227a7bfffed9850",
+  "md5": "e6b01492682b799479456a8e45c6a7b1",
+  "imphash": "e6b01492682b799479456a8e45c6a7b1",
   "InternalName": "imm32",
   "CompanyName": "Microsoft Corporation",
   "FileDescription": "Windows IMM32 API Client DLL",
   "FileVersion": "5.2.3790.3959 (srv03_sp2_rtm.070216-1710)",
   "ProductVersion": "5.2.3790.3959",
-  "PeChecksum": 175442,
-  "Size": 149504,
+  "PeChecksum": 146224,
+  "Size": 110592,
   "Machine": "I386",
   "exports": [
     {
@@ -473,7 +473,8 @@
     },
     {
       "ordinal": 116,
-      "name": "ImmSetHotKey"
+      "name": "ImmSetHotKey",
+      "forwarder": "USER32.CliImmSetHotKey"
     },
     {
       "ordinal": 117,
