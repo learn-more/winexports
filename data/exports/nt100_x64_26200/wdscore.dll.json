@@ -12,6 +12,18 @@
   "Machine": "AMD64",
   "exports": [
     {
+      "ordinal": 1,
+      "name": "WdsGetPointer"
+    },
+    {
+      "ordinal": 2,
+      "name": "g_Kernel32"
+    },
+    {
+      "ordinal": 3,
+      "name": "g_bEnableDiagnosticMode"
+    },
+    {
       "ordinal": 4,
       "name": "ConstructPartialMsgIfA"
     },
@@ -220,10 +232,6 @@
       "name": "WdsGetCurrentExecutionGroup"
     },
     {
-      "ordinal": 1,
-      "name": "WdsGetPointer"
-    },
-    {
       "ordinal": 56,
       "name": "WdsGetSetupLog"
     },
@@ -398,14 +406,6 @@
     {
       "ordinal": 99,
       "name": "WdsValidBlackboard"
-    },
-    {
-      "ordinal": 2,
-      "name": "g_Kernel32"
-    },
-    {
-      "ordinal": 3,
-      "name": "g_bEnableDiagnosticMode"
     }
   ]
 }

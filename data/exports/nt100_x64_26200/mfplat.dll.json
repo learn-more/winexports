@@ -12,6 +12,42 @@
   "Machine": "AMD64",
   "exports": [
     {
+      "ordinal": 1,
+      "name": "FormatTagFromWfx"
+    },
+    {
+      "ordinal": 2,
+      "name": "MFEnumLocalMFTRegistrations"
+    },
+    {
+      "ordinal": 3,
+      "name": "MFGetPlatformFlags"
+    },
+    {
+      "ordinal": 4,
+      "name": "MFGetPlatformVersion"
+    },
+    {
+      "ordinal": 5,
+      "name": "MFGetRandomNumber"
+    },
+    {
+      "ordinal": 6,
+      "name": "MFIsFeatureEnabled"
+    },
+    {
+      "ordinal": 7,
+      "name": "MFPlatformBigEndian"
+    },
+    {
+      "ordinal": 8,
+      "name": "MFPlatformLittleEndian"
+    },
+    {
+      "ordinal": 9,
+      "name": "ValidateWaveFormat"
+    },
+    {
       "ordinal": 10,
       "name": "CopyPropVariant"
     },
@@ -26,10 +62,6 @@
     {
       "ordinal": 13,
       "name": "DestroyPropVariant"
-    },
-    {
-      "ordinal": 1,
-      "name": "FormatTagFromWfx"
     },
     {
       "ordinal": 14,
@@ -525,10 +557,6 @@
       "forwarder": "RTWorkQ.RtwqEndUnregisterWorkQueueWithMMCSS"
     },
     {
-      "ordinal": 2,
-      "name": "MFEnumLocalMFTRegistrations"
-    },
-    {
       "ordinal": 135,
       "name": "MFFrameRateToAverageTimePerFrame"
     },
@@ -589,20 +617,8 @@
       "name": "MFGetPlaneSize"
     },
     {
-      "ordinal": 3,
-      "name": "MFGetPlatformFlags"
-    },
-    {
-      "ordinal": 4,
-      "name": "MFGetPlatformVersion"
-    },
-    {
       "ordinal": 150,
       "name": "MFGetPluginControl"
-    },
-    {
-      "ordinal": 5,
-      "name": "MFGetRandomNumber"
     },
     {
       "ordinal": 151,
@@ -725,10 +741,6 @@
       "name": "MFIsContentProtectionDeviceSupported"
     },
     {
-      "ordinal": 6,
-      "name": "MFIsFeatureEnabled"
-    },
-    {
       "ordinal": 180,
       "name": "MFIsLocallyRegisteredMimeType"
     },
@@ -767,14 +779,6 @@
     {
       "ordinal": 188,
       "name": "MFMapDXGIFormatToDX9Format"
-    },
-    {
-      "ordinal": 7,
-      "name": "MFPlatformBigEndian"
-    },
-    {
-      "ordinal": 8,
-      "name": "MFPlatformLittleEndian"
     },
     {
       "ordinal": 189,
@@ -967,10 +971,6 @@
     {
       "ordinal": 234,
       "name": "PropVariantToStream"
-    },
-    {
-      "ordinal": 9,
-      "name": "ValidateWaveFormat"
     }
   ]
 }

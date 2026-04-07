@@ -12,6 +12,10 @@
   "Machine": "I386",
   "exports": [
     {
+      "ordinal": 253,
+      "name": "?CoTaskAllocator@@3VCCoTaskAllocator@@A"
+    },
+    {
       "ordinal": 254,
       "name": "??0CAllocStorageVariant@@QAE@AAUtagPROPVARIANT@@AAVPMemoryAllocator@@@Z"
     },
@@ -1048,6 +1052,10 @@
       "name": "?CheckHasIndexTable@CiStorage@@SGHPBG@Z"
     },
     {
+      "ordinal": 513,
+      "name": "CiCreateSecurityDescriptor"
+    },
+    {
       "ordinal": 514,
       "name": "?CiGetPassword@@YGHPBG0PAG@Z"
     },
@@ -1118,10 +1126,6 @@
     {
       "ordinal": 531,
       "name": "?CloseRecord@CPropStoreManager@@QAEXPAVCCompositePropRecordForWrites@@@Z"
-    },
-    {
-      "ordinal": 253,
-      "name": "?CoTaskAllocator@@3VCCoTaskAllocator@@A"
     },
     {
       "ordinal": 532,
@@ -2992,6 +2996,14 @@
       "name": "?wcsipattern@@YGPAGPAGPBG@Z"
     },
     {
+      "ordinal": 999,
+      "name": "FsCiShutdown"
+    },
+    {
+      "ordinal": 1000,
+      "name": "_AbortMerges@16"
+    },
+    {
       "ordinal": 1001,
       "name": "BeginCacheTransaction"
     },
@@ -3052,10 +3064,6 @@
       "name": "CITextToSelectTreeEx"
     },
     {
-      "ordinal": 513,
-      "name": "CiCreateSecurityDescriptor"
-    },
-    {
       "ordinal": 1016,
       "name": "CiSvcMain"
     },
@@ -3104,8 +3112,8 @@
       "name": "EndCacheTransaction"
     },
     {
-      "ordinal": 999,
-      "name": "FsCiShutdown"
+      "ordinal": 1028,
+      "name": "_ForceMasterMerge@16"
     },
     {
       "ordinal": 1029,
@@ -3134,6 +3142,10 @@
     {
       "ordinal": 1035,
       "name": "InternalBindIFilterFromStream"
+    },
+    {
+      "ordinal": 1036,
+      "name": "_LoadBHIFilter@16"
     },
     {
       "ordinal": 1037,
@@ -3176,28 +3188,16 @@
       "name": "SetupCacheEx"
     },
     {
-      "ordinal": 1049,
-      "name": "SvcEntry_CiSvc"
-    },
-    {
-      "ordinal": 1000,
-      "name": "_AbortMerges@16"
-    },
-    {
-      "ordinal": 1028,
-      "name": "_ForceMasterMerge@16"
-    },
-    {
-      "ordinal": 1036,
-      "name": "_LoadBHIFilter@16"
-    },
-    {
       "ordinal": 1047,
       "name": "_StartFWCiSvcWork@12"
     },
     {
       "ordinal": 1048,
       "name": "_StopFWCiSvcWork@16"
+    },
+    {
+      "ordinal": 1049,
+      "name": "SvcEntry_CiSvc"
     }
   ]
 }

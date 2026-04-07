@@ -1,0 +1,70 @@
+{
+  "Version": "6.3.9600.16384-I386",
+  "md5": "2725e3a1dfbce3642999b1075922b4aa",
+  "imphash": "2725e3a1dfbce3642999b1075922b4aa",
+  "InternalName": "Shim Engine DLL (IAT)",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "Shim Engine DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 26846,
+  "Size": 5632,
+  "Machine": "I386",
+  "exports": [
+    {
+      "ordinal": 1,
+      "name": "SE_DllLoaded",
+      "forwarder": "APPHELP.SE_DllLoaded"
+    },
+    {
+      "ordinal": 2,
+      "name": "SE_DllUnloaded",
+      "forwarder": "APPHELP.SE_DllUnloaded"
+    },
+    {
+      "ordinal": 3,
+      "name": "SE_DynamicShim",
+      "forwarder": "APPHELP.SE_DynamicShim"
+    },
+    {
+      "ordinal": 4,
+      "name": "SE_GetHookAPIs",
+      "forwarder": "APPHELP.SE_GetHookAPIs"
+    },
+    {
+      "ordinal": 5,
+      "name": "SE_GetMaxShimCount",
+      "forwarder": "APPHELP.SE_GetMaxShimCount"
+    },
+    {
+      "ordinal": 6,
+      "name": "SE_GetProcAddressIgnoreIncExc",
+      "forwarder": "APPHELP.SE_GetProcAddressIgnoreIncExc"
+    },
+    {
+      "ordinal": 7,
+      "name": "SE_GetShimCount",
+      "forwarder": "APPHELP.SE_GetShimCount"
+    },
+    {
+      "ordinal": 8,
+      "name": "SE_InstallAfterInit",
+      "forwarder": "APPHELP.SE_InstallAfterInit"
+    },
+    {
+      "ordinal": 9,
+      "name": "SE_InstallBeforeInit",
+      "forwarder": "APPHELP.SE_InstallBeforeInit"
+    },
+    {
+      "ordinal": 10,
+      "name": "SE_IsShimDll",
+      "forwarder": "APPHELP.SE_IsShimDll"
+    },
+    {
+      "ordinal": 11,
+      "name": "SE_ProcessDying",
+      "forwarder": "APPHELP.SE_ProcessDying"
+    }
+  ]
+}

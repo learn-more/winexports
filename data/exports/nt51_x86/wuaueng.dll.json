@@ -12,24 +12,24 @@
   "Machine": "I386",
   "exports": [
     {
+      "ordinal": 1,
+      "name": "GetAUOptionsEx"
+    },
+    {
       "ordinal": 2,
       "name": "DSRunStoreAsComServer"
     },
     {
-      "ordinal": 10,
-      "name": "DllMain"
+      "ordinal": 3,
+      "name": "UHRunRemoteHandlerServer"
     },
     {
-      "ordinal": 11,
-      "name": "DllRegisterServer"
+      "ordinal": 4,
+      "name": "WUCheckForUpdatesAtShutdown"
     },
     {
-      "ordinal": 12,
-      "name": "DllUnregisterServer"
-    },
-    {
-      "ordinal": 1,
-      "name": "GetAUOptionsEx"
+      "ordinal": 5,
+      "name": "WUAutoUpdateAtShutdown"
     },
     {
       "ordinal": 6,
@@ -48,16 +48,16 @@
       "name": "ServiceMain"
     },
     {
-      "ordinal": 3,
-      "name": "UHRunRemoteHandlerServer"
+      "ordinal": 10,
+      "name": "DllMain"
     },
     {
-      "ordinal": 5,
-      "name": "WUAutoUpdateAtShutdown"
+      "ordinal": 11,
+      "name": "DllRegisterServer"
     },
     {
-      "ordinal": 4,
-      "name": "WUCheckForUpdatesAtShutdown"
+      "ordinal": 12,
+      "name": "DllUnregisterServer"
     }
   ]
 }

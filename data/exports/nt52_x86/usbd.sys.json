@@ -12,6 +12,18 @@
   "Machine": "I386",
   "exports": [
     {
+      "ordinal": 1,
+      "name": "USBD_CreateConfigurationRequestEx"
+    },
+    {
+      "ordinal": 2,
+      "name": "USBD_ParseConfigurationDescriptorEx"
+    },
+    {
+      "ordinal": 3,
+      "name": "USBD_ParseDescriptors"
+    },
+    {
       "ordinal": 4,
       "name": "DllInitialize"
     },
@@ -36,8 +48,8 @@
       "name": "USBD_CreateConfigurationRequest"
     },
     {
-      "ordinal": 1,
-      "name": "USBD_CreateConfigurationRequestEx"
+      "ordinal": 10,
+      "name": "_USBD_CreateConfigurationRequestEx@8"
     },
     {
       "ordinal": 11,
@@ -100,12 +112,12 @@
       "name": "USBD_ParseConfigurationDescriptor"
     },
     {
-      "ordinal": 2,
-      "name": "USBD_ParseConfigurationDescriptorEx"
+      "ordinal": 26,
+      "name": "_USBD_ParseConfigurationDescriptorEx@28"
     },
     {
-      "ordinal": 3,
-      "name": "USBD_ParseDescriptors"
+      "ordinal": 27,
+      "name": "_USBD_ParseDescriptors@16"
     },
     {
       "ordinal": 28,
@@ -138,18 +150,6 @@
     {
       "ordinal": 35,
       "name": "USBD_WaitDeviceMutex"
-    },
-    {
-      "ordinal": 10,
-      "name": "_USBD_CreateConfigurationRequestEx@8"
-    },
-    {
-      "ordinal": 26,
-      "name": "_USBD_ParseConfigurationDescriptorEx@28"
-    },
-    {
-      "ordinal": 27,
-      "name": "_USBD_ParseDescriptors@16"
     }
   ]
 }

@@ -12,1481 +12,12 @@
   "Machine": "AMD64",
   "exports": [
     {
-      "ordinal": 579,
-      "name": "AssocCreate"
-    },
-    {
-      "ordinal": 584,
-      "name": "AssocGetPerceivedType"
-    },
-    {
-      "ordinal": 585,
-      "name": "AssocIsDangerous"
-    },
-    {
-      "ordinal": 586,
-      "name": "AssocQueryKeyA"
-    },
-    {
-      "ordinal": 587,
-      "name": "AssocQueryKeyW"
-    },
-    {
-      "ordinal": 588,
-      "name": "AssocQueryStringA"
-    },
-    {
-      "ordinal": 589,
-      "name": "AssocQueryStringByKeyA"
-    },
-    {
-      "ordinal": 590,
-      "name": "AssocQueryStringByKeyW"
-    },
-    {
-      "ordinal": 591,
-      "name": "AssocQueryStringW"
-    },
-    {
-      "ordinal": 592,
-      "name": "ChrCmpIA"
-    },
-    {
-      "ordinal": 593,
-      "name": "ChrCmpIW"
-    },
-    {
-      "ordinal": 594,
-      "name": "ColorAdjustLuma"
-    },
-    {
-      "ordinal": 595,
-      "name": "ColorHLSToRGB"
-    },
-    {
-      "ordinal": 607,
-      "name": "ColorRGBToHLS"
-    },
-    {
-      "ordinal": 168,
-      "name": "ConnectToConnectionPoint"
-    },
-    {
-      "ordinal": 569,
-      "name": "DelayLoadFailureHook"
-    },
-    {
-      "ordinal": 608,
-      "name": "DllGetVersion"
-    },
-    {
-      "ordinal": 14,
-      "name": "GetAcceptLanguagesA"
-    },
-    {
-      "ordinal": 15,
-      "name": "GetAcceptLanguagesW"
-    },
-    {
-      "ordinal": 609,
-      "name": "GetMenuPosFromID"
-    },
-    {
-      "ordinal": 610,
-      "name": "HashData"
-    },
-    {
-      "ordinal": 568,
-      "name": "IStream_Copy"
-    },
-    {
-      "ordinal": 184,
-      "name": "IStream_Read"
-    },
-    {
-      "ordinal": 512,
-      "name": "IStream_ReadPidl"
-    },
-    {
-      "ordinal": 596,
-      "name": "IStream_ReadStr"
-    },
-    {
-      "ordinal": 213,
-      "name": "IStream_Reset"
-    },
-    {
-      "ordinal": 214,
-      "name": "IStream_Size"
-    },
-    {
-      "ordinal": 212,
-      "name": "IStream_Write"
-    },
-    {
-      "ordinal": 513,
-      "name": "IStream_WritePidl"
-    },
-    {
-      "ordinal": 597,
-      "name": "IStream_WriteStr"
-    },
-    {
-      "ordinal": 169,
-      "name": "IUnknown_AtomicRelease"
-    },
-    {
-      "ordinal": 256,
-      "name": "IUnknown_GetSite"
-    },
-    {
-      "ordinal": 172,
-      "name": "IUnknown_GetWindow"
-    },
-    {
-      "ordinal": 176,
-      "name": "IUnknown_QueryService"
-    },
-    {
-      "ordinal": 199,
-      "name": "IUnknown_Set"
-    },
-    {
-      "ordinal": 174,
-      "name": "IUnknown_SetSite"
-    },
-    {
-      "ordinal": 612,
-      "name": "IntlStrEqWorkerA"
-    },
-    {
-      "ordinal": 619,
-      "name": "IntlStrEqWorkerW"
-    },
-    {
-      "ordinal": 620,
-      "name": "IsCharSpaceA"
-    },
-    {
-      "ordinal": 29,
-      "name": "IsCharSpaceW"
-    },
-    {
-      "ordinal": 553,
-      "name": "IsInternetESCEnabled"
-    },
-    {
-      "ordinal": 437,
-      "name": "IsOS"
-    },
-    {
-      "ordinal": 418,
-      "name": "MLFreeLibrary"
-    },
-    {
-      "ordinal": 377,
-      "name": "MLLoadLibraryA"
-    },
-    {
-      "ordinal": 378,
-      "name": "MLLoadLibraryW"
-    },
-    {
       "ordinal": 1,
       "name": "ParseURLA"
     },
     {
       "ordinal": 2,
       "name": "ParseURLW"
-    },
-    {
-      "ordinal": 622,
-      "name": "PathAddBackslashA"
-    },
-    {
-      "ordinal": 623,
-      "name": "PathAddBackslashW"
-    },
-    {
-      "ordinal": 624,
-      "name": "PathAddExtensionA"
-    },
-    {
-      "ordinal": 625,
-      "name": "PathAddExtensionW"
-    },
-    {
-      "ordinal": 646,
-      "name": "PathAppendA"
-    },
-    {
-      "ordinal": 647,
-      "name": "PathAppendW"
-    },
-    {
-      "ordinal": 648,
-      "name": "PathBuildRootA"
-    },
-    {
-      "ordinal": 649,
-      "name": "PathBuildRootW"
-    },
-    {
-      "ordinal": 650,
-      "name": "PathCanonicalizeA"
-    },
-    {
-      "ordinal": 651,
-      "name": "PathCanonicalizeW"
-    },
-    {
-      "ordinal": 652,
-      "name": "PathCombineA"
-    },
-    {
-      "ordinal": 653,
-      "name": "PathCombineW"
-    },
-    {
-      "ordinal": 654,
-      "name": "PathCommonPrefixA"
-    },
-    {
-      "ordinal": 655,
-      "name": "PathCommonPrefixW"
-    },
-    {
-      "ordinal": 656,
-      "name": "PathCompactPathA"
-    },
-    {
-      "ordinal": 657,
-      "name": "PathCompactPathExA"
-    },
-    {
-      "ordinal": 658,
-      "name": "PathCompactPathExW"
-    },
-    {
-      "ordinal": 659,
-      "name": "PathCompactPathW"
-    },
-    {
-      "ordinal": 660,
-      "name": "PathCreateFromUrlA"
-    },
-    {
-      "ordinal": 661,
-      "name": "PathCreateFromUrlAlloc"
-    },
-    {
-      "ordinal": 662,
-      "name": "PathCreateFromUrlW"
-    },
-    {
-      "ordinal": 663,
-      "name": "PathFileExistsA"
-    },
-    {
-      "ordinal": 664,
-      "name": "PathFileExistsW"
-    },
-    {
-      "ordinal": 665,
-      "name": "PathFindExtensionA"
-    },
-    {
-      "ordinal": 666,
-      "name": "PathFindExtensionW"
-    },
-    {
-      "ordinal": 667,
-      "name": "PathFindFileNameA"
-    },
-    {
-      "ordinal": 668,
-      "name": "PathFindFileNameW"
-    },
-    {
-      "ordinal": 669,
-      "name": "PathFindNextComponentA"
-    },
-    {
-      "ordinal": 670,
-      "name": "PathFindNextComponentW"
-    },
-    {
-      "ordinal": 671,
-      "name": "PathFindOnPathA"
-    },
-    {
-      "ordinal": 672,
-      "name": "PathFindOnPathW"
-    },
-    {
-      "ordinal": 673,
-      "name": "PathFindSuffixArrayA"
-    },
-    {
-      "ordinal": 674,
-      "name": "PathFindSuffixArrayW"
-    },
-    {
-      "ordinal": 675,
-      "name": "PathGetArgsA"
-    },
-    {
-      "ordinal": 676,
-      "name": "PathGetArgsW"
-    },
-    {
-      "ordinal": 677,
-      "name": "PathGetCharTypeA"
-    },
-    {
-      "ordinal": 678,
-      "name": "PathGetCharTypeW"
-    },
-    {
-      "ordinal": 679,
-      "name": "PathGetDriveNumberA"
-    },
-    {
-      "ordinal": 680,
-      "name": "PathGetDriveNumberW"
-    },
-    {
-      "ordinal": 681,
-      "name": "PathIsContentTypeA"
-    },
-    {
-      "ordinal": 682,
-      "name": "PathIsContentTypeW"
-    },
-    {
-      "ordinal": 683,
-      "name": "PathIsDirectoryA"
-    },
-    {
-      "ordinal": 684,
-      "name": "PathIsDirectoryEmptyA"
-    },
-    {
-      "ordinal": 685,
-      "name": "PathIsDirectoryEmptyW"
-    },
-    {
-      "ordinal": 686,
-      "name": "PathIsDirectoryW"
-    },
-    {
-      "ordinal": 687,
-      "name": "PathIsFileSpecA"
-    },
-    {
-      "ordinal": 688,
-      "name": "PathIsFileSpecW"
-    },
-    {
-      "ordinal": 689,
-      "name": "PathIsLFNFileSpecA"
-    },
-    {
-      "ordinal": 690,
-      "name": "PathIsLFNFileSpecW"
-    },
-    {
-      "ordinal": 691,
-      "name": "PathIsNetworkPathA"
-    },
-    {
-      "ordinal": 692,
-      "name": "PathIsNetworkPathW"
-    },
-    {
-      "ordinal": 693,
-      "name": "PathIsPrefixA"
-    },
-    {
-      "ordinal": 694,
-      "name": "PathIsPrefixW"
-    },
-    {
-      "ordinal": 695,
-      "name": "PathIsRelativeA"
-    },
-    {
-      "ordinal": 696,
-      "name": "PathIsRelativeW"
-    },
-    {
-      "ordinal": 697,
-      "name": "PathIsRootA"
-    },
-    {
-      "ordinal": 698,
-      "name": "PathIsRootW"
-    },
-    {
-      "ordinal": 699,
-      "name": "PathIsSameRootA"
-    },
-    {
-      "ordinal": 700,
-      "name": "PathIsSameRootW"
-    },
-    {
-      "ordinal": 701,
-      "name": "PathIsSystemFolderA"
-    },
-    {
-      "ordinal": 702,
-      "name": "PathIsSystemFolderW"
-    },
-    {
-      "ordinal": 703,
-      "name": "PathIsUNCA"
-    },
-    {
-      "ordinal": 704,
-      "name": "PathIsUNCServerA"
-    },
-    {
-      "ordinal": 705,
-      "name": "PathIsUNCServerShareA"
-    },
-    {
-      "ordinal": 706,
-      "name": "PathIsUNCServerShareW"
-    },
-    {
-      "ordinal": 707,
-      "name": "PathIsUNCServerW"
-    },
-    {
-      "ordinal": 708,
-      "name": "PathIsUNCW"
-    },
-    {
-      "ordinal": 709,
-      "name": "PathIsURLA"
-    },
-    {
-      "ordinal": 710,
-      "name": "PathIsURLW"
-    },
-    {
-      "ordinal": 711,
-      "name": "PathMakePrettyA"
-    },
-    {
-      "ordinal": 712,
-      "name": "PathMakePrettyW"
-    },
-    {
-      "ordinal": 713,
-      "name": "PathMakeSystemFolderA"
-    },
-    {
-      "ordinal": 714,
-      "name": "PathMakeSystemFolderW"
-    },
-    {
-      "ordinal": 715,
-      "name": "PathMatchSpecA"
-    },
-    {
-      "ordinal": 716,
-      "name": "PathMatchSpecExA"
-    },
-    {
-      "ordinal": 717,
-      "name": "PathMatchSpecExW"
-    },
-    {
-      "ordinal": 718,
-      "name": "PathMatchSpecW"
-    },
-    {
-      "ordinal": 719,
-      "name": "PathParseIconLocationA"
-    },
-    {
-      "ordinal": 720,
-      "name": "PathParseIconLocationW"
-    },
-    {
-      "ordinal": 721,
-      "name": "PathQuoteSpacesA"
-    },
-    {
-      "ordinal": 722,
-      "name": "PathQuoteSpacesW"
-    },
-    {
-      "ordinal": 723,
-      "name": "PathRelativePathToA"
-    },
-    {
-      "ordinal": 724,
-      "name": "PathRelativePathToW"
-    },
-    {
-      "ordinal": 725,
-      "name": "PathRemoveArgsA"
-    },
-    {
-      "ordinal": 726,
-      "name": "PathRemoveArgsW"
-    },
-    {
-      "ordinal": 727,
-      "name": "PathRemoveBackslashA"
-    },
-    {
-      "ordinal": 728,
-      "name": "PathRemoveBackslashW"
-    },
-    {
-      "ordinal": 729,
-      "name": "PathRemoveBlanksA"
-    },
-    {
-      "ordinal": 730,
-      "name": "PathRemoveBlanksW"
-    },
-    {
-      "ordinal": 731,
-      "name": "PathRemoveExtensionA"
-    },
-    {
-      "ordinal": 732,
-      "name": "PathRemoveExtensionW"
-    },
-    {
-      "ordinal": 733,
-      "name": "PathRemoveFileSpecA"
-    },
-    {
-      "ordinal": 734,
-      "name": "PathRemoveFileSpecW"
-    },
-    {
-      "ordinal": 735,
-      "name": "PathRenameExtensionA"
-    },
-    {
-      "ordinal": 736,
-      "name": "PathRenameExtensionW"
-    },
-    {
-      "ordinal": 737,
-      "name": "PathSearchAndQualifyA"
-    },
-    {
-      "ordinal": 738,
-      "name": "PathSearchAndQualifyW"
-    },
-    {
-      "ordinal": 739,
-      "name": "PathSetDlgItemPathA"
-    },
-    {
-      "ordinal": 740,
-      "name": "PathSetDlgItemPathW"
-    },
-    {
-      "ordinal": 741,
-      "name": "PathSkipRootA"
-    },
-    {
-      "ordinal": 742,
-      "name": "PathSkipRootW"
-    },
-    {
-      "ordinal": 743,
-      "name": "PathStripPathA"
-    },
-    {
-      "ordinal": 744,
-      "name": "PathStripPathW"
-    },
-    {
-      "ordinal": 745,
-      "name": "PathStripToRootA"
-    },
-    {
-      "ordinal": 746,
-      "name": "PathStripToRootW"
-    },
-    {
-      "ordinal": 747,
-      "name": "PathUnExpandEnvStringsA"
-    },
-    {
-      "ordinal": 748,
-      "name": "PathUnExpandEnvStringsW"
-    },
-    {
-      "ordinal": 749,
-      "name": "PathUndecorateA"
-    },
-    {
-      "ordinal": 750,
-      "name": "PathUndecorateW"
-    },
-    {
-      "ordinal": 751,
-      "name": "PathUnmakeSystemFolderA"
-    },
-    {
-      "ordinal": 752,
-      "name": "PathUnmakeSystemFolderW"
-    },
-    {
-      "ordinal": 753,
-      "name": "PathUnquoteSpacesA"
-    },
-    {
-      "ordinal": 754,
-      "name": "PathUnquoteSpacesW"
-    },
-    {
-      "ordinal": 219,
-      "name": "QISearch"
-    },
-    {
-      "ordinal": 7,
-      "name": "SHAllocShared"
-    },
-    {
-      "ordinal": 345,
-      "name": "SHAnsiToAnsi"
-    },
-    {
-      "ordinal": 215,
-      "name": "SHAnsiToUnicode"
-    },
-    {
-      "ordinal": 755,
-      "name": "SHAutoComplete"
-    },
-    {
-      "ordinal": 756,
-      "name": "SHCopyKeyA"
-    },
-    {
-      "ordinal": 757,
-      "name": "SHCopyKeyW"
-    },
-    {
-      "ordinal": 12,
-      "name": "SHCreateMemStream"
-    },
-    {
-      "ordinal": 758,
-      "name": "SHCreateShellPalette"
-    },
-    {
-      "ordinal": 759,
-      "name": "SHCreateStreamOnFileA"
-    },
-    {
-      "ordinal": 760,
-      "name": "SHCreateStreamOnFileEx"
-    },
-    {
-      "ordinal": 761,
-      "name": "SHCreateStreamOnFileW"
-    },
-    {
-      "ordinal": 762,
-      "name": "SHCreateStreamWrapper",
-      "forwarder": "SHUNIMPL.#UNIMPL_SHCreateStreamWrapper"
-    },
-    {
-      "ordinal": 16,
-      "name": "SHCreateThread"
-    },
-    {
-      "ordinal": 763,
-      "name": "SHCreateThreadRef"
-    },
-    {
-      "ordinal": 615,
-      "name": "SHCreateThreadWithHandle"
-    },
-    {
-      "ordinal": 764,
-      "name": "SHDeleteEmptyKeyA"
-    },
-    {
-      "ordinal": 765,
-      "name": "SHDeleteEmptyKeyW"
-    },
-    {
-      "ordinal": 766,
-      "name": "SHDeleteKeyA"
-    },
-    {
-      "ordinal": 767,
-      "name": "SHDeleteKeyW"
-    },
-    {
-      "ordinal": 768,
-      "name": "SHDeleteOrphanKeyA"
-    },
-    {
-      "ordinal": 769,
-      "name": "SHDeleteOrphanKeyW"
-    },
-    {
-      "ordinal": 770,
-      "name": "SHDeleteValueA"
-    },
-    {
-      "ordinal": 771,
-      "name": "SHDeleteValueW"
-    },
-    {
-      "ordinal": 772,
-      "name": "SHEnumKeyExA"
-    },
-    {
-      "ordinal": 773,
-      "name": "SHEnumKeyExW"
-    },
-    {
-      "ordinal": 774,
-      "name": "SHEnumValueA"
-    },
-    {
-      "ordinal": 775,
-      "name": "SHEnumValueW"
-    },
-    {
-      "ordinal": 353,
-      "name": "SHFormatDateTimeA"
-    },
-    {
-      "ordinal": 354,
-      "name": "SHFormatDateTimeW"
-    },
-    {
-      "ordinal": 10,
-      "name": "SHFreeShared"
-    },
-    {
-      "ordinal": 776,
-      "name": "SHGetInverseCMAP"
-    },
-    {
-      "ordinal": 777,
-      "name": "SHGetThreadRef"
-    },
-    {
-      "ordinal": 778,
-      "name": "SHGetValueA"
-    },
-    {
-      "ordinal": 779,
-      "name": "SHGetValueW"
-    },
-    {
-      "ordinal": 515,
-      "name": "SHGetViewStatePropertyBag"
-    },
-    {
-      "ordinal": 204,
-      "name": "SHIsChildOrSelf"
-    },
-    {
-      "ordinal": 780,
-      "name": "SHIsLowMemoryMachine"
-    },
-    {
-      "ordinal": 487,
-      "name": "SHLoadIndirectString"
-    },
-    {
-      "ordinal": 8,
-      "name": "SHLockShared"
-    },
-    {
-      "ordinal": 185,
-      "name": "SHMessageBoxCheckA"
-    },
-    {
-      "ordinal": 191,
-      "name": "SHMessageBoxCheckW"
-    },
-    {
-      "ordinal": 781,
-      "name": "SHOpenRegStream2A"
-    },
-    {
-      "ordinal": 782,
-      "name": "SHOpenRegStream2W"
-    },
-    {
-      "ordinal": 783,
-      "name": "SHOpenRegStreamA"
-    },
-    {
-      "ordinal": 784,
-      "name": "SHOpenRegStreamW"
-    },
-    {
-      "ordinal": 567,
-      "name": "SHPropertyBag_ReadStrAlloc"
-    },
-    {
-      "ordinal": 570,
-      "name": "SHPropertyBag_WriteBSTR"
-    },
-    {
-      "ordinal": 785,
-      "name": "SHQueryInfoKeyA"
-    },
-    {
-      "ordinal": 786,
-      "name": "SHQueryInfoKeyW"
-    },
-    {
-      "ordinal": 787,
-      "name": "SHQueryValueExA"
-    },
-    {
-      "ordinal": 788,
-      "name": "SHQueryValueExW"
-    },
-    {
-      "ordinal": 789,
-      "name": "SHRegCloseUSKey"
-    },
-    {
-      "ordinal": 790,
-      "name": "SHRegCreateUSKeyA"
-    },
-    {
-      "ordinal": 791,
-      "name": "SHRegCreateUSKeyW"
-    },
-    {
-      "ordinal": 792,
-      "name": "SHRegDeleteEmptyUSKeyA"
-    },
-    {
-      "ordinal": 793,
-      "name": "SHRegDeleteEmptyUSKeyW"
-    },
-    {
-      "ordinal": 794,
-      "name": "SHRegDeleteUSValueA"
-    },
-    {
-      "ordinal": 795,
-      "name": "SHRegDeleteUSValueW"
-    },
-    {
-      "ordinal": 796,
-      "name": "SHRegDuplicateHKey"
-    },
-    {
-      "ordinal": 797,
-      "name": "SHRegEnumUSKeyA"
-    },
-    {
-      "ordinal": 798,
-      "name": "SHRegEnumUSKeyW"
-    },
-    {
-      "ordinal": 799,
-      "name": "SHRegEnumUSValueA"
-    },
-    {
-      "ordinal": 800,
-      "name": "SHRegEnumUSValueW"
-    },
-    {
-      "ordinal": 801,
-      "name": "SHRegGetBoolUSValueA"
-    },
-    {
-      "ordinal": 802,
-      "name": "SHRegGetBoolUSValueW"
-    },
-    {
-      "ordinal": 280,
-      "name": "SHRegGetIntW"
-    },
-    {
-      "ordinal": 803,
-      "name": "SHRegGetPathA"
-    },
-    {
-      "ordinal": 804,
-      "name": "SHRegGetPathW"
-    },
-    {
-      "ordinal": 805,
-      "name": "SHRegGetUSValueA"
-    },
-    {
-      "ordinal": 806,
-      "name": "SHRegGetUSValueW"
-    },
-    {
-      "ordinal": 807,
-      "name": "SHRegGetValueA"
-    },
-    {
-      "ordinal": 808,
-      "name": "SHRegGetValueW"
-    },
-    {
-      "ordinal": 809,
-      "name": "SHRegOpenUSKeyA"
-    },
-    {
-      "ordinal": 810,
-      "name": "SHRegOpenUSKeyW"
-    },
-    {
-      "ordinal": 811,
-      "name": "SHRegQueryInfoUSKeyA"
-    },
-    {
-      "ordinal": 812,
-      "name": "SHRegQueryInfoUSKeyW"
-    },
-    {
-      "ordinal": 813,
-      "name": "SHRegQueryUSValueA"
-    },
-    {
-      "ordinal": 814,
-      "name": "SHRegQueryUSValueW"
-    },
-    {
-      "ordinal": 815,
-      "name": "SHRegSetPathA"
-    },
-    {
-      "ordinal": 816,
-      "name": "SHRegSetPathW"
-    },
-    {
-      "ordinal": 817,
-      "name": "SHRegSetUSValueA"
-    },
-    {
-      "ordinal": 818,
-      "name": "SHRegSetUSValueW"
-    },
-    {
-      "ordinal": 819,
-      "name": "SHRegWriteUSValueA"
-    },
-    {
-      "ordinal": 820,
-      "name": "SHRegWriteUSValueW"
-    },
-    {
-      "ordinal": 821,
-      "name": "SHRegisterValidateTemplate"
-    },
-    {
-      "ordinal": 822,
-      "name": "SHReleaseThreadRef"
-    },
-    {
-      "ordinal": 467,
-      "name": "SHRunIndirectRegClientCommand"
-    },
-    {
-      "ordinal": 432,
-      "name": "SHSendMessageBroadcastA"
-    },
-    {
-      "ordinal": 433,
-      "name": "SHSendMessageBroadcastW"
-    },
-    {
-      "ordinal": 823,
-      "name": "SHSetThreadRef"
-    },
-    {
-      "ordinal": 824,
-      "name": "SHSetValueA"
-    },
-    {
-      "ordinal": 825,
-      "name": "SHSetValueW"
-    },
-    {
-      "ordinal": 826,
-      "name": "SHSkipJunction"
-    },
-    {
-      "ordinal": 827,
-      "name": "SHStrDupA"
-    },
-    {
-      "ordinal": 828,
-      "name": "SHStrDupW"
-    },
-    {
-      "ordinal": 203,
-      "name": "SHStripMneumonicA"
-    },
-    {
-      "ordinal": 225,
-      "name": "SHStripMneumonicW"
-    },
-    {
-      "ordinal": 217,
-      "name": "SHUnicodeToAnsi"
-    },
-    {
-      "ordinal": 346,
-      "name": "SHUnicodeToUnicode"
-    },
-    {
-      "ordinal": 9,
-      "name": "SHUnlockShared"
-    },
-    {
-      "ordinal": 829,
-      "name": "ShellMessageBoxA"
-    },
-    {
-      "ordinal": 388,
-      "name": "ShellMessageBoxW"
-    },
-    {
-      "ordinal": 830,
-      "name": "StrCSpnA"
-    },
-    {
-      "ordinal": 831,
-      "name": "StrCSpnIA"
-    },
-    {
-      "ordinal": 832,
-      "name": "StrCSpnIW"
-    },
-    {
-      "ordinal": 833,
-      "name": "StrCSpnW"
-    },
-    {
-      "ordinal": 834,
-      "name": "StrCatBuffA"
-    },
-    {
-      "ordinal": 835,
-      "name": "StrCatBuffW"
-    },
-    {
-      "ordinal": 836,
-      "name": "StrCatChainW"
-    },
-    {
-      "ordinal": 837,
-      "name": "StrCatW"
-    },
-    {
-      "ordinal": 838,
-      "name": "StrChrA"
-    },
-    {
-      "ordinal": 839,
-      "name": "StrChrIA"
-    },
-    {
-      "ordinal": 840,
-      "name": "StrChrIW"
-    },
-    {
-      "ordinal": 841,
-      "name": "StrChrNIW"
-    },
-    {
-      "ordinal": 842,
-      "name": "StrChrNW"
-    },
-    {
-      "ordinal": 843,
-      "name": "StrChrW"
-    },
-    {
-      "ordinal": 155,
-      "name": "StrCmpCA"
-    },
-    {
-      "ordinal": 156,
-      "name": "StrCmpCW"
-    },
-    {
-      "ordinal": 157,
-      "name": "StrCmpICA"
-    },
-    {
-      "ordinal": 158,
-      "name": "StrCmpICW"
-    },
-    {
-      "ordinal": 844,
-      "name": "StrCmpIW"
-    },
-    {
-      "ordinal": 845,
-      "name": "StrCmpLogicalW"
-    },
-    {
-      "ordinal": 846,
-      "name": "StrCmpNA"
-    },
-    {
-      "ordinal": 151,
-      "name": "StrCmpNCA"
-    },
-    {
-      "ordinal": 152,
-      "name": "StrCmpNCW"
-    },
-    {
-      "ordinal": 847,
-      "name": "StrCmpNIA"
-    },
-    {
-      "ordinal": 153,
-      "name": "StrCmpNICA"
-    },
-    {
-      "ordinal": 154,
-      "name": "StrCmpNICW"
-    },
-    {
-      "ordinal": 848,
-      "name": "StrCmpNIW"
-    },
-    {
-      "ordinal": 849,
-      "name": "StrCmpNW"
-    },
-    {
-      "ordinal": 850,
-      "name": "StrCmpW"
-    },
-    {
-      "ordinal": 851,
-      "name": "StrCpyNW"
-    },
-    {
-      "ordinal": 852,
-      "name": "StrCpyW"
-    },
-    {
-      "ordinal": 853,
-      "name": "StrDupA"
-    },
-    {
-      "ordinal": 854,
-      "name": "StrDupW"
-    },
-    {
-      "ordinal": 855,
-      "name": "StrFormatByteSize64A"
-    },
-    {
-      "ordinal": 856,
-      "name": "StrFormatByteSizeA"
-    },
-    {
-      "ordinal": 857,
-      "name": "StrFormatByteSizeEx"
-    },
-    {
-      "ordinal": 858,
-      "name": "StrFormatByteSizeW"
-    },
-    {
-      "ordinal": 859,
-      "name": "StrFormatKBSizeA"
-    },
-    {
-      "ordinal": 860,
-      "name": "StrFormatKBSizeW"
-    },
-    {
-      "ordinal": 861,
-      "name": "StrFromTimeIntervalA"
-    },
-    {
-      "ordinal": 862,
-      "name": "StrFromTimeIntervalW"
-    },
-    {
-      "ordinal": 863,
-      "name": "StrIsIntlEqualA"
-    },
-    {
-      "ordinal": 864,
-      "name": "StrIsIntlEqualW"
-    },
-    {
-      "ordinal": 865,
-      "name": "StrNCatA"
-    },
-    {
-      "ordinal": 866,
-      "name": "StrNCatW"
-    },
-    {
-      "ordinal": 867,
-      "name": "StrPBrkA"
-    },
-    {
-      "ordinal": 868,
-      "name": "StrPBrkW"
-    },
-    {
-      "ordinal": 869,
-      "name": "StrRChrA"
-    },
-    {
-      "ordinal": 870,
-      "name": "StrRChrIA"
-    },
-    {
-      "ordinal": 871,
-      "name": "StrRChrIW"
-    },
-    {
-      "ordinal": 872,
-      "name": "StrRChrW"
-    },
-    {
-      "ordinal": 873,
-      "name": "StrRStrIA"
-    },
-    {
-      "ordinal": 874,
-      "name": "StrRStrIW"
-    },
-    {
-      "ordinal": 875,
-      "name": "StrRetToBSTR"
-    },
-    {
-      "ordinal": 876,
-      "name": "StrRetToBufA"
-    },
-    {
-      "ordinal": 877,
-      "name": "StrRetToBufW"
-    },
-    {
-      "ordinal": 878,
-      "name": "StrRetToStrA"
-    },
-    {
-      "ordinal": 879,
-      "name": "StrRetToStrW"
-    },
-    {
-      "ordinal": 880,
-      "name": "StrSpnA"
-    },
-    {
-      "ordinal": 881,
-      "name": "StrSpnW"
-    },
-    {
-      "ordinal": 882,
-      "name": "StrStrA"
-    },
-    {
-      "ordinal": 883,
-      "name": "StrStrIA"
-    },
-    {
-      "ordinal": 884,
-      "name": "StrStrIW"
-    },
-    {
-      "ordinal": 885,
-      "name": "StrStrNIW"
-    },
-    {
-      "ordinal": 886,
-      "name": "StrStrNW"
-    },
-    {
-      "ordinal": 887,
-      "name": "StrStrW"
-    },
-    {
-      "ordinal": 888,
-      "name": "StrToInt64ExA"
-    },
-    {
-      "ordinal": 889,
-      "name": "StrToInt64ExW"
-    },
-    {
-      "ordinal": 890,
-      "name": "StrToIntA"
-    },
-    {
-      "ordinal": 891,
-      "name": "StrToIntExA"
-    },
-    {
-      "ordinal": 892,
-      "name": "StrToIntExW"
-    },
-    {
-      "ordinal": 893,
-      "name": "StrToIntW"
-    },
-    {
-      "ordinal": 894,
-      "name": "StrTrimA"
-    },
-    {
-      "ordinal": 895,
-      "name": "StrTrimW"
-    },
-    {
-      "ordinal": 896,
-      "name": "UrlApplySchemeA"
-    },
-    {
-      "ordinal": 897,
-      "name": "UrlApplySchemeW"
-    },
-    {
-      "ordinal": 898,
-      "name": "UrlCanonicalizeA"
-    },
-    {
-      "ordinal": 899,
-      "name": "UrlCanonicalizeW"
-    },
-    {
-      "ordinal": 900,
-      "name": "UrlCombineA"
-    },
-    {
-      "ordinal": 901,
-      "name": "UrlCombineW"
-    },
-    {
-      "ordinal": 902,
-      "name": "UrlCompareA"
-    },
-    {
-      "ordinal": 903,
-      "name": "UrlCompareW"
-    },
-    {
-      "ordinal": 904,
-      "name": "UrlCreateFromPathA"
-    },
-    {
-      "ordinal": 905,
-      "name": "UrlCreateFromPathW"
-    },
-    {
-      "ordinal": 906,
-      "name": "UrlEscapeA"
-    },
-    {
-      "ordinal": 907,
-      "name": "UrlEscapeW"
-    },
-    {
-      "ordinal": 462,
-      "name": "UrlFixupW"
-    },
-    {
-      "ordinal": 908,
-      "name": "UrlGetLocationA"
-    },
-    {
-      "ordinal": 909,
-      "name": "UrlGetLocationW"
-    },
-    {
-      "ordinal": 910,
-      "name": "UrlGetPartA"
-    },
-    {
-      "ordinal": 911,
-      "name": "UrlGetPartW"
-    },
-    {
-      "ordinal": 912,
-      "name": "UrlHashA"
-    },
-    {
-      "ordinal": 913,
-      "name": "UrlHashW"
-    },
-    {
-      "ordinal": 914,
-      "name": "UrlIsA"
-    },
-    {
-      "ordinal": 915,
-      "name": "UrlIsNoHistoryA"
-    },
-    {
-      "ordinal": 916,
-      "name": "UrlIsNoHistoryW"
-    },
-    {
-      "ordinal": 917,
-      "name": "UrlIsOpaqueA"
-    },
-    {
-      "ordinal": 918,
-      "name": "UrlIsOpaqueW"
-    },
-    {
-      "ordinal": 919,
-      "name": "UrlIsW"
-    },
-    {
-      "ordinal": 920,
-      "name": "UrlUnescapeA"
-    },
-    {
-      "ordinal": 921,
-      "name": "UrlUnescapeW"
-    },
-    {
-      "ordinal": 276,
-      "name": "WhichPlatform"
-    },
-    {
-      "ordinal": 922,
-      "name": "wnsprintfA"
-    },
-    {
-      "ordinal": 923,
-      "name": "wnsprintfW"
-    },
-    {
-      "ordinal": 924,
-      "name": "wvnsprintfA"
-    },
-    {
-      "ordinal": 925,
-      "name": "wvnsprintfW"
     },
     {
       "ordinal": 3,
@@ -1505,12 +36,44 @@
       "name": null
     },
     {
+      "ordinal": 7,
+      "name": "SHAllocShared"
+    },
+    {
+      "ordinal": 8,
+      "name": "SHLockShared"
+    },
+    {
+      "ordinal": 9,
+      "name": "SHUnlockShared"
+    },
+    {
+      "ordinal": 10,
+      "name": "SHFreeShared"
+    },
+    {
       "ordinal": 11,
       "name": null
     },
     {
+      "ordinal": 12,
+      "name": "SHCreateMemStream"
+    },
+    {
       "ordinal": 13,
       "name": null
+    },
+    {
+      "ordinal": 14,
+      "name": "GetAcceptLanguagesA"
+    },
+    {
+      "ordinal": 15,
+      "name": "GetAcceptLanguagesW"
+    },
+    {
+      "ordinal": 16,
+      "name": "SHCreateThread"
     },
     {
       "ordinal": 17,
@@ -1563,6 +126,10 @@
       "ordinal": 28,
       "name": null,
       "forwarder": "user32.IsCharAlphaNumericW"
+    },
+    {
+      "ordinal": 29,
+      "name": "IsCharSpaceW"
     },
     {
       "ordinal": 30,
@@ -2152,6 +719,38 @@
       "forwarder": "USER32.wvsprintfW"
     },
     {
+      "ordinal": 151,
+      "name": "StrCmpNCA"
+    },
+    {
+      "ordinal": 152,
+      "name": "StrCmpNCW"
+    },
+    {
+      "ordinal": 153,
+      "name": "StrCmpNICA"
+    },
+    {
+      "ordinal": 154,
+      "name": "StrCmpNICW"
+    },
+    {
+      "ordinal": 155,
+      "name": "StrCmpCA"
+    },
+    {
+      "ordinal": 156,
+      "name": "StrCmpCW"
+    },
+    {
+      "ordinal": 157,
+      "name": "StrCmpICA"
+    },
+    {
+      "ordinal": 158,
+      "name": "StrCmpICW"
+    },
+    {
       "ordinal": 159,
       "name": null,
       "forwarder": "KERNEL32.CompareStringW"
@@ -2189,6 +788,14 @@
       "name": null
     },
     {
+      "ordinal": 168,
+      "name": "ConnectToConnectionPoint"
+    },
+    {
+      "ordinal": 169,
+      "name": "IUnknown_AtomicRelease"
+    },
+    {
       "ordinal": 170,
       "name": null
     },
@@ -2198,12 +805,24 @@
       "forwarder": "SHUNIMPL.#246"
     },
     {
+      "ordinal": 172,
+      "name": "IUnknown_GetWindow"
+    },
+    {
       "ordinal": 173,
       "name": null
     },
     {
+      "ordinal": 174,
+      "name": "IUnknown_SetSite"
+    },
+    {
       "ordinal": 175,
       "name": null
+    },
+    {
+      "ordinal": 176,
+      "name": "IUnknown_QueryService"
     },
     {
       "ordinal": 177,
@@ -2234,6 +853,14 @@
       "name": null
     },
     {
+      "ordinal": 184,
+      "name": "IStream_Read"
+    },
+    {
+      "ordinal": 185,
+      "name": "SHMessageBoxCheckA"
+    },
+    {
       "ordinal": 186,
       "name": null
     },
@@ -2252,6 +879,10 @@
     {
       "ordinal": 190,
       "name": null
+    },
+    {
+      "ordinal": 191,
+      "name": "SHMessageBoxCheckW"
     },
     {
       "ordinal": 192,
@@ -2283,6 +914,10 @@
       "name": null
     },
     {
+      "ordinal": 199,
+      "name": "IUnknown_Set"
+    },
+    {
       "ordinal": 200,
       "name": null
     },
@@ -2293,6 +928,14 @@
     {
       "ordinal": 202,
       "name": null
+    },
+    {
+      "ordinal": 203,
+      "name": "SHStripMneumonicA"
+    },
+    {
+      "ordinal": 204,
+      "name": "SHIsChildOrSelf"
     },
     {
       "ordinal": 205,
@@ -2323,12 +966,36 @@
       "name": null
     },
     {
+      "ordinal": 212,
+      "name": "IStream_Write"
+    },
+    {
+      "ordinal": 213,
+      "name": "IStream_Reset"
+    },
+    {
+      "ordinal": 214,
+      "name": "IStream_Size"
+    },
+    {
+      "ordinal": 215,
+      "name": "SHAnsiToUnicode"
+    },
+    {
       "ordinal": 216,
       "name": null
     },
     {
+      "ordinal": 217,
+      "name": "SHUnicodeToAnsi"
+    },
+    {
       "ordinal": 218,
       "name": null
+    },
+    {
+      "ordinal": 219,
+      "name": "QISearch"
     },
     {
       "ordinal": 220,
@@ -2352,6 +1019,10 @@
       "ordinal": 224,
       "name": null,
       "forwarder": "SHUNIMPL.#141"
+    },
+    {
+      "ordinal": 225,
+      "name": "SHStripMneumonicW"
     },
     {
       "ordinal": 226,
@@ -2491,6 +1162,10 @@
       "forwarder": "SHUNIMPL.#157"
     },
     {
+      "ordinal": 256,
+      "name": "IUnknown_GetSite"
+    },
+    {
       "ordinal": 257,
       "name": null
     },
@@ -2576,6 +1251,10 @@
       "forwarder": "SHUNIMPL.#317"
     },
     {
+      "ordinal": 276,
+      "name": "WhichPlatform"
+    },
+    {
       "ordinal": 277,
       "name": null,
       "forwarder": "SHUNIMPL.#240"
@@ -2587,6 +1266,10 @@
     {
       "ordinal": 279,
       "name": null
+    },
+    {
+      "ordinal": 280,
+      "name": "SHRegGetIntW"
     },
     {
       "ordinal": 281,
@@ -2881,6 +1564,14 @@
       "name": null
     },
     {
+      "ordinal": 345,
+      "name": "SHAnsiToAnsi"
+    },
+    {
+      "ordinal": 346,
+      "name": "SHUnicodeToUnicode"
+    },
+    {
       "ordinal": 347,
       "name": null
     },
@@ -2903,6 +1594,14 @@
     {
       "ordinal": 352,
       "name": null
+    },
+    {
+      "ordinal": 353,
+      "name": "SHFormatDateTimeA"
+    },
+    {
+      "ordinal": 354,
+      "name": "SHFormatDateTimeW"
     },
     {
       "ordinal": 355,
@@ -3009,6 +1708,14 @@
       "forwarder": "KERNEL32.GetThreadUILanguage"
     },
     {
+      "ordinal": 377,
+      "name": "MLLoadLibraryA"
+    },
+    {
+      "ordinal": 378,
+      "name": "MLLoadLibraryW"
+    },
+    {
       "ordinal": 379,
       "name": null,
       "forwarder": "SHELL32.Shell_GetCachedImageIndexW"
@@ -3048,6 +1755,10 @@
       "ordinal": 387,
       "name": null,
       "forwarder": "SHUNIMPL.#340"
+    },
+    {
+      "ordinal": 388,
+      "name": "ShellMessageBoxW"
     },
     {
       "ordinal": 389,
@@ -3186,6 +1897,10 @@
       "forwarder": "SHUNIMPL.#324"
     },
     {
+      "ordinal": 418,
+      "name": "MLFreeLibrary"
+    },
+    {
       "ordinal": 419,
       "name": null,
       "forwarder": "SHELL32.SHFlushSFCache"
@@ -3251,6 +1966,14 @@
       "forwarder": "SHUNIMPL.#333"
     },
     {
+      "ordinal": 432,
+      "name": "SHSendMessageBroadcastA"
+    },
+    {
+      "ordinal": 433,
+      "name": "SHSendMessageBroadcastW"
+    },
+    {
       "ordinal": 434,
       "name": null,
       "forwarder": "USER32.SendMessageTimeoutW"
@@ -3262,6 +1985,10 @@
     {
       "ordinal": 436,
       "name": null
+    },
+    {
+      "ordinal": 437,
+      "name": "IsOS"
     },
     {
       "ordinal": 438,
@@ -3365,6 +2092,10 @@
       "name": null
     },
     {
+      "ordinal": 462,
+      "name": "UrlFixupW"
+    },
+    {
       "ordinal": 463,
       "name": null
     },
@@ -3379,6 +2110,10 @@
     {
       "ordinal": 466,
       "name": null
+    },
+    {
+      "ordinal": 467,
+      "name": "SHRunIndirectRegClientCommand"
     },
     {
       "ordinal": 468,
@@ -3462,6 +2197,10 @@
     {
       "ordinal": 486,
       "name": null
+    },
+    {
+      "ordinal": 487,
+      "name": "SHLoadIndirectString"
     },
     {
       "ordinal": 488,
@@ -3565,8 +2304,20 @@
       "name": null
     },
     {
+      "ordinal": 512,
+      "name": "IStream_ReadPidl"
+    },
+    {
+      "ordinal": 513,
+      "name": "IStream_WritePidl"
+    },
+    {
       "ordinal": 514,
       "name": null
+    },
+    {
+      "ordinal": 515,
+      "name": "SHGetViewStatePropertyBag"
     },
     {
       "ordinal": 516,
@@ -3722,6 +2473,10 @@
       "forwarder": "SHUNIMPL.#176"
     },
     {
+      "ordinal": 553,
+      "name": "IsInternetESCEnabled"
+    },
+    {
       "ordinal": 554,
       "name": null,
       "forwarder": "SHUNIMPL.#177"
@@ -3783,6 +2538,22 @@
       "forwarder": "SHUNIMPL.#180"
     },
     {
+      "ordinal": 567,
+      "name": "SHPropertyBag_ReadStrAlloc"
+    },
+    {
+      "ordinal": 568,
+      "name": "IStream_Copy"
+    },
+    {
+      "ordinal": 569,
+      "name": "DelayLoadFailureHook"
+    },
+    {
+      "ordinal": 570,
+      "name": "SHPropertyBag_WriteBSTR"
+    },
+    {
       "ordinal": 571,
       "name": null
     },
@@ -3817,6 +2588,10 @@
       "name": null
     },
     {
+      "ordinal": 579,
+      "name": "AssocCreate"
+    },
+    {
       "ordinal": 580,
       "name": null
     },
@@ -3831,6 +2606,62 @@
     {
       "ordinal": 583,
       "name": null
+    },
+    {
+      "ordinal": 584,
+      "name": "AssocGetPerceivedType"
+    },
+    {
+      "ordinal": 585,
+      "name": "AssocIsDangerous"
+    },
+    {
+      "ordinal": 586,
+      "name": "AssocQueryKeyA"
+    },
+    {
+      "ordinal": 587,
+      "name": "AssocQueryKeyW"
+    },
+    {
+      "ordinal": 588,
+      "name": "AssocQueryStringA"
+    },
+    {
+      "ordinal": 589,
+      "name": "AssocQueryStringByKeyA"
+    },
+    {
+      "ordinal": 590,
+      "name": "AssocQueryStringByKeyW"
+    },
+    {
+      "ordinal": 591,
+      "name": "AssocQueryStringW"
+    },
+    {
+      "ordinal": 592,
+      "name": "ChrCmpIA"
+    },
+    {
+      "ordinal": 593,
+      "name": "ChrCmpIW"
+    },
+    {
+      "ordinal": 594,
+      "name": "ColorAdjustLuma"
+    },
+    {
+      "ordinal": 595,
+      "name": "ColorHLSToRGB"
+    },
+    {
+      "ordinal": 596,
+      "name": "IStream_ReadStr"
+    },
+    {
+      "ordinal": 597,
+      "name": "IStream_WriteStr"
     },
     {
       "ordinal": 598,
@@ -3876,8 +2707,28 @@
       "forwarder": "SHUNIMPL.#356"
     },
     {
+      "ordinal": 607,
+      "name": "ColorRGBToHLS"
+    },
+    {
+      "ordinal": 608,
+      "name": "DllGetVersion"
+    },
+    {
+      "ordinal": 609,
+      "name": "GetMenuPosFromID"
+    },
+    {
+      "ordinal": 610,
+      "name": "HashData"
+    },
+    {
       "ordinal": 611,
       "name": null
+    },
+    {
+      "ordinal": 612,
+      "name": "IntlStrEqWorkerA"
     },
     {
       "ordinal": 613,
@@ -3886,6 +2737,10 @@
     {
       "ordinal": 614,
       "name": null
+    },
+    {
+      "ordinal": 615,
+      "name": "SHCreateThreadWithHandle"
     },
     {
       "ordinal": 616,
@@ -3900,8 +2755,32 @@
       "name": null
     },
     {
+      "ordinal": 619,
+      "name": "IntlStrEqWorkerW"
+    },
+    {
+      "ordinal": 620,
+      "name": "IsCharSpaceA"
+    },
+    {
       "ordinal": 621,
       "name": null
+    },
+    {
+      "ordinal": 622,
+      "name": "PathAddBackslashA"
+    },
+    {
+      "ordinal": 623,
+      "name": "PathAddBackslashW"
+    },
+    {
+      "ordinal": 624,
+      "name": "PathAddExtensionA"
+    },
+    {
+      "ordinal": 625,
+      "name": "PathAddExtensionW"
     },
     {
       "ordinal": 626,
@@ -3982,6 +2861,1127 @@
     {
       "ordinal": 645,
       "name": null
+    },
+    {
+      "ordinal": 646,
+      "name": "PathAppendA"
+    },
+    {
+      "ordinal": 647,
+      "name": "PathAppendW"
+    },
+    {
+      "ordinal": 648,
+      "name": "PathBuildRootA"
+    },
+    {
+      "ordinal": 649,
+      "name": "PathBuildRootW"
+    },
+    {
+      "ordinal": 650,
+      "name": "PathCanonicalizeA"
+    },
+    {
+      "ordinal": 651,
+      "name": "PathCanonicalizeW"
+    },
+    {
+      "ordinal": 652,
+      "name": "PathCombineA"
+    },
+    {
+      "ordinal": 653,
+      "name": "PathCombineW"
+    },
+    {
+      "ordinal": 654,
+      "name": "PathCommonPrefixA"
+    },
+    {
+      "ordinal": 655,
+      "name": "PathCommonPrefixW"
+    },
+    {
+      "ordinal": 656,
+      "name": "PathCompactPathA"
+    },
+    {
+      "ordinal": 657,
+      "name": "PathCompactPathExA"
+    },
+    {
+      "ordinal": 658,
+      "name": "PathCompactPathExW"
+    },
+    {
+      "ordinal": 659,
+      "name": "PathCompactPathW"
+    },
+    {
+      "ordinal": 660,
+      "name": "PathCreateFromUrlA"
+    },
+    {
+      "ordinal": 661,
+      "name": "PathCreateFromUrlAlloc"
+    },
+    {
+      "ordinal": 662,
+      "name": "PathCreateFromUrlW"
+    },
+    {
+      "ordinal": 663,
+      "name": "PathFileExistsA"
+    },
+    {
+      "ordinal": 664,
+      "name": "PathFileExistsW"
+    },
+    {
+      "ordinal": 665,
+      "name": "PathFindExtensionA"
+    },
+    {
+      "ordinal": 666,
+      "name": "PathFindExtensionW"
+    },
+    {
+      "ordinal": 667,
+      "name": "PathFindFileNameA"
+    },
+    {
+      "ordinal": 668,
+      "name": "PathFindFileNameW"
+    },
+    {
+      "ordinal": 669,
+      "name": "PathFindNextComponentA"
+    },
+    {
+      "ordinal": 670,
+      "name": "PathFindNextComponentW"
+    },
+    {
+      "ordinal": 671,
+      "name": "PathFindOnPathA"
+    },
+    {
+      "ordinal": 672,
+      "name": "PathFindOnPathW"
+    },
+    {
+      "ordinal": 673,
+      "name": "PathFindSuffixArrayA"
+    },
+    {
+      "ordinal": 674,
+      "name": "PathFindSuffixArrayW"
+    },
+    {
+      "ordinal": 675,
+      "name": "PathGetArgsA"
+    },
+    {
+      "ordinal": 676,
+      "name": "PathGetArgsW"
+    },
+    {
+      "ordinal": 677,
+      "name": "PathGetCharTypeA"
+    },
+    {
+      "ordinal": 678,
+      "name": "PathGetCharTypeW"
+    },
+    {
+      "ordinal": 679,
+      "name": "PathGetDriveNumberA"
+    },
+    {
+      "ordinal": 680,
+      "name": "PathGetDriveNumberW"
+    },
+    {
+      "ordinal": 681,
+      "name": "PathIsContentTypeA"
+    },
+    {
+      "ordinal": 682,
+      "name": "PathIsContentTypeW"
+    },
+    {
+      "ordinal": 683,
+      "name": "PathIsDirectoryA"
+    },
+    {
+      "ordinal": 684,
+      "name": "PathIsDirectoryEmptyA"
+    },
+    {
+      "ordinal": 685,
+      "name": "PathIsDirectoryEmptyW"
+    },
+    {
+      "ordinal": 686,
+      "name": "PathIsDirectoryW"
+    },
+    {
+      "ordinal": 687,
+      "name": "PathIsFileSpecA"
+    },
+    {
+      "ordinal": 688,
+      "name": "PathIsFileSpecW"
+    },
+    {
+      "ordinal": 689,
+      "name": "PathIsLFNFileSpecA"
+    },
+    {
+      "ordinal": 690,
+      "name": "PathIsLFNFileSpecW"
+    },
+    {
+      "ordinal": 691,
+      "name": "PathIsNetworkPathA"
+    },
+    {
+      "ordinal": 692,
+      "name": "PathIsNetworkPathW"
+    },
+    {
+      "ordinal": 693,
+      "name": "PathIsPrefixA"
+    },
+    {
+      "ordinal": 694,
+      "name": "PathIsPrefixW"
+    },
+    {
+      "ordinal": 695,
+      "name": "PathIsRelativeA"
+    },
+    {
+      "ordinal": 696,
+      "name": "PathIsRelativeW"
+    },
+    {
+      "ordinal": 697,
+      "name": "PathIsRootA"
+    },
+    {
+      "ordinal": 698,
+      "name": "PathIsRootW"
+    },
+    {
+      "ordinal": 699,
+      "name": "PathIsSameRootA"
+    },
+    {
+      "ordinal": 700,
+      "name": "PathIsSameRootW"
+    },
+    {
+      "ordinal": 701,
+      "name": "PathIsSystemFolderA"
+    },
+    {
+      "ordinal": 702,
+      "name": "PathIsSystemFolderW"
+    },
+    {
+      "ordinal": 703,
+      "name": "PathIsUNCA"
+    },
+    {
+      "ordinal": 704,
+      "name": "PathIsUNCServerA"
+    },
+    {
+      "ordinal": 705,
+      "name": "PathIsUNCServerShareA"
+    },
+    {
+      "ordinal": 706,
+      "name": "PathIsUNCServerShareW"
+    },
+    {
+      "ordinal": 707,
+      "name": "PathIsUNCServerW"
+    },
+    {
+      "ordinal": 708,
+      "name": "PathIsUNCW"
+    },
+    {
+      "ordinal": 709,
+      "name": "PathIsURLA"
+    },
+    {
+      "ordinal": 710,
+      "name": "PathIsURLW"
+    },
+    {
+      "ordinal": 711,
+      "name": "PathMakePrettyA"
+    },
+    {
+      "ordinal": 712,
+      "name": "PathMakePrettyW"
+    },
+    {
+      "ordinal": 713,
+      "name": "PathMakeSystemFolderA"
+    },
+    {
+      "ordinal": 714,
+      "name": "PathMakeSystemFolderW"
+    },
+    {
+      "ordinal": 715,
+      "name": "PathMatchSpecA"
+    },
+    {
+      "ordinal": 716,
+      "name": "PathMatchSpecExA"
+    },
+    {
+      "ordinal": 717,
+      "name": "PathMatchSpecExW"
+    },
+    {
+      "ordinal": 718,
+      "name": "PathMatchSpecW"
+    },
+    {
+      "ordinal": 719,
+      "name": "PathParseIconLocationA"
+    },
+    {
+      "ordinal": 720,
+      "name": "PathParseIconLocationW"
+    },
+    {
+      "ordinal": 721,
+      "name": "PathQuoteSpacesA"
+    },
+    {
+      "ordinal": 722,
+      "name": "PathQuoteSpacesW"
+    },
+    {
+      "ordinal": 723,
+      "name": "PathRelativePathToA"
+    },
+    {
+      "ordinal": 724,
+      "name": "PathRelativePathToW"
+    },
+    {
+      "ordinal": 725,
+      "name": "PathRemoveArgsA"
+    },
+    {
+      "ordinal": 726,
+      "name": "PathRemoveArgsW"
+    },
+    {
+      "ordinal": 727,
+      "name": "PathRemoveBackslashA"
+    },
+    {
+      "ordinal": 728,
+      "name": "PathRemoveBackslashW"
+    },
+    {
+      "ordinal": 729,
+      "name": "PathRemoveBlanksA"
+    },
+    {
+      "ordinal": 730,
+      "name": "PathRemoveBlanksW"
+    },
+    {
+      "ordinal": 731,
+      "name": "PathRemoveExtensionA"
+    },
+    {
+      "ordinal": 732,
+      "name": "PathRemoveExtensionW"
+    },
+    {
+      "ordinal": 733,
+      "name": "PathRemoveFileSpecA"
+    },
+    {
+      "ordinal": 734,
+      "name": "PathRemoveFileSpecW"
+    },
+    {
+      "ordinal": 735,
+      "name": "PathRenameExtensionA"
+    },
+    {
+      "ordinal": 736,
+      "name": "PathRenameExtensionW"
+    },
+    {
+      "ordinal": 737,
+      "name": "PathSearchAndQualifyA"
+    },
+    {
+      "ordinal": 738,
+      "name": "PathSearchAndQualifyW"
+    },
+    {
+      "ordinal": 739,
+      "name": "PathSetDlgItemPathA"
+    },
+    {
+      "ordinal": 740,
+      "name": "PathSetDlgItemPathW"
+    },
+    {
+      "ordinal": 741,
+      "name": "PathSkipRootA"
+    },
+    {
+      "ordinal": 742,
+      "name": "PathSkipRootW"
+    },
+    {
+      "ordinal": 743,
+      "name": "PathStripPathA"
+    },
+    {
+      "ordinal": 744,
+      "name": "PathStripPathW"
+    },
+    {
+      "ordinal": 745,
+      "name": "PathStripToRootA"
+    },
+    {
+      "ordinal": 746,
+      "name": "PathStripToRootW"
+    },
+    {
+      "ordinal": 747,
+      "name": "PathUnExpandEnvStringsA"
+    },
+    {
+      "ordinal": 748,
+      "name": "PathUnExpandEnvStringsW"
+    },
+    {
+      "ordinal": 749,
+      "name": "PathUndecorateA"
+    },
+    {
+      "ordinal": 750,
+      "name": "PathUndecorateW"
+    },
+    {
+      "ordinal": 751,
+      "name": "PathUnmakeSystemFolderA"
+    },
+    {
+      "ordinal": 752,
+      "name": "PathUnmakeSystemFolderW"
+    },
+    {
+      "ordinal": 753,
+      "name": "PathUnquoteSpacesA"
+    },
+    {
+      "ordinal": 754,
+      "name": "PathUnquoteSpacesW"
+    },
+    {
+      "ordinal": 755,
+      "name": "SHAutoComplete"
+    },
+    {
+      "ordinal": 756,
+      "name": "SHCopyKeyA"
+    },
+    {
+      "ordinal": 757,
+      "name": "SHCopyKeyW"
+    },
+    {
+      "ordinal": 758,
+      "name": "SHCreateShellPalette"
+    },
+    {
+      "ordinal": 759,
+      "name": "SHCreateStreamOnFileA"
+    },
+    {
+      "ordinal": 760,
+      "name": "SHCreateStreamOnFileEx"
+    },
+    {
+      "ordinal": 761,
+      "name": "SHCreateStreamOnFileW"
+    },
+    {
+      "ordinal": 762,
+      "name": "SHCreateStreamWrapper",
+      "forwarder": "SHUNIMPL.#UNIMPL_SHCreateStreamWrapper"
+    },
+    {
+      "ordinal": 763,
+      "name": "SHCreateThreadRef"
+    },
+    {
+      "ordinal": 764,
+      "name": "SHDeleteEmptyKeyA"
+    },
+    {
+      "ordinal": 765,
+      "name": "SHDeleteEmptyKeyW"
+    },
+    {
+      "ordinal": 766,
+      "name": "SHDeleteKeyA"
+    },
+    {
+      "ordinal": 767,
+      "name": "SHDeleteKeyW"
+    },
+    {
+      "ordinal": 768,
+      "name": "SHDeleteOrphanKeyA"
+    },
+    {
+      "ordinal": 769,
+      "name": "SHDeleteOrphanKeyW"
+    },
+    {
+      "ordinal": 770,
+      "name": "SHDeleteValueA"
+    },
+    {
+      "ordinal": 771,
+      "name": "SHDeleteValueW"
+    },
+    {
+      "ordinal": 772,
+      "name": "SHEnumKeyExA"
+    },
+    {
+      "ordinal": 773,
+      "name": "SHEnumKeyExW"
+    },
+    {
+      "ordinal": 774,
+      "name": "SHEnumValueA"
+    },
+    {
+      "ordinal": 775,
+      "name": "SHEnumValueW"
+    },
+    {
+      "ordinal": 776,
+      "name": "SHGetInverseCMAP"
+    },
+    {
+      "ordinal": 777,
+      "name": "SHGetThreadRef"
+    },
+    {
+      "ordinal": 778,
+      "name": "SHGetValueA"
+    },
+    {
+      "ordinal": 779,
+      "name": "SHGetValueW"
+    },
+    {
+      "ordinal": 780,
+      "name": "SHIsLowMemoryMachine"
+    },
+    {
+      "ordinal": 781,
+      "name": "SHOpenRegStream2A"
+    },
+    {
+      "ordinal": 782,
+      "name": "SHOpenRegStream2W"
+    },
+    {
+      "ordinal": 783,
+      "name": "SHOpenRegStreamA"
+    },
+    {
+      "ordinal": 784,
+      "name": "SHOpenRegStreamW"
+    },
+    {
+      "ordinal": 785,
+      "name": "SHQueryInfoKeyA"
+    },
+    {
+      "ordinal": 786,
+      "name": "SHQueryInfoKeyW"
+    },
+    {
+      "ordinal": 787,
+      "name": "SHQueryValueExA"
+    },
+    {
+      "ordinal": 788,
+      "name": "SHQueryValueExW"
+    },
+    {
+      "ordinal": 789,
+      "name": "SHRegCloseUSKey"
+    },
+    {
+      "ordinal": 790,
+      "name": "SHRegCreateUSKeyA"
+    },
+    {
+      "ordinal": 791,
+      "name": "SHRegCreateUSKeyW"
+    },
+    {
+      "ordinal": 792,
+      "name": "SHRegDeleteEmptyUSKeyA"
+    },
+    {
+      "ordinal": 793,
+      "name": "SHRegDeleteEmptyUSKeyW"
+    },
+    {
+      "ordinal": 794,
+      "name": "SHRegDeleteUSValueA"
+    },
+    {
+      "ordinal": 795,
+      "name": "SHRegDeleteUSValueW"
+    },
+    {
+      "ordinal": 796,
+      "name": "SHRegDuplicateHKey"
+    },
+    {
+      "ordinal": 797,
+      "name": "SHRegEnumUSKeyA"
+    },
+    {
+      "ordinal": 798,
+      "name": "SHRegEnumUSKeyW"
+    },
+    {
+      "ordinal": 799,
+      "name": "SHRegEnumUSValueA"
+    },
+    {
+      "ordinal": 800,
+      "name": "SHRegEnumUSValueW"
+    },
+    {
+      "ordinal": 801,
+      "name": "SHRegGetBoolUSValueA"
+    },
+    {
+      "ordinal": 802,
+      "name": "SHRegGetBoolUSValueW"
+    },
+    {
+      "ordinal": 803,
+      "name": "SHRegGetPathA"
+    },
+    {
+      "ordinal": 804,
+      "name": "SHRegGetPathW"
+    },
+    {
+      "ordinal": 805,
+      "name": "SHRegGetUSValueA"
+    },
+    {
+      "ordinal": 806,
+      "name": "SHRegGetUSValueW"
+    },
+    {
+      "ordinal": 807,
+      "name": "SHRegGetValueA"
+    },
+    {
+      "ordinal": 808,
+      "name": "SHRegGetValueW"
+    },
+    {
+      "ordinal": 809,
+      "name": "SHRegOpenUSKeyA"
+    },
+    {
+      "ordinal": 810,
+      "name": "SHRegOpenUSKeyW"
+    },
+    {
+      "ordinal": 811,
+      "name": "SHRegQueryInfoUSKeyA"
+    },
+    {
+      "ordinal": 812,
+      "name": "SHRegQueryInfoUSKeyW"
+    },
+    {
+      "ordinal": 813,
+      "name": "SHRegQueryUSValueA"
+    },
+    {
+      "ordinal": 814,
+      "name": "SHRegQueryUSValueW"
+    },
+    {
+      "ordinal": 815,
+      "name": "SHRegSetPathA"
+    },
+    {
+      "ordinal": 816,
+      "name": "SHRegSetPathW"
+    },
+    {
+      "ordinal": 817,
+      "name": "SHRegSetUSValueA"
+    },
+    {
+      "ordinal": 818,
+      "name": "SHRegSetUSValueW"
+    },
+    {
+      "ordinal": 819,
+      "name": "SHRegWriteUSValueA"
+    },
+    {
+      "ordinal": 820,
+      "name": "SHRegWriteUSValueW"
+    },
+    {
+      "ordinal": 821,
+      "name": "SHRegisterValidateTemplate"
+    },
+    {
+      "ordinal": 822,
+      "name": "SHReleaseThreadRef"
+    },
+    {
+      "ordinal": 823,
+      "name": "SHSetThreadRef"
+    },
+    {
+      "ordinal": 824,
+      "name": "SHSetValueA"
+    },
+    {
+      "ordinal": 825,
+      "name": "SHSetValueW"
+    },
+    {
+      "ordinal": 826,
+      "name": "SHSkipJunction"
+    },
+    {
+      "ordinal": 827,
+      "name": "SHStrDupA"
+    },
+    {
+      "ordinal": 828,
+      "name": "SHStrDupW"
+    },
+    {
+      "ordinal": 829,
+      "name": "ShellMessageBoxA"
+    },
+    {
+      "ordinal": 830,
+      "name": "StrCSpnA"
+    },
+    {
+      "ordinal": 831,
+      "name": "StrCSpnIA"
+    },
+    {
+      "ordinal": 832,
+      "name": "StrCSpnIW"
+    },
+    {
+      "ordinal": 833,
+      "name": "StrCSpnW"
+    },
+    {
+      "ordinal": 834,
+      "name": "StrCatBuffA"
+    },
+    {
+      "ordinal": 835,
+      "name": "StrCatBuffW"
+    },
+    {
+      "ordinal": 836,
+      "name": "StrCatChainW"
+    },
+    {
+      "ordinal": 837,
+      "name": "StrCatW"
+    },
+    {
+      "ordinal": 838,
+      "name": "StrChrA"
+    },
+    {
+      "ordinal": 839,
+      "name": "StrChrIA"
+    },
+    {
+      "ordinal": 840,
+      "name": "StrChrIW"
+    },
+    {
+      "ordinal": 841,
+      "name": "StrChrNIW"
+    },
+    {
+      "ordinal": 842,
+      "name": "StrChrNW"
+    },
+    {
+      "ordinal": 843,
+      "name": "StrChrW"
+    },
+    {
+      "ordinal": 844,
+      "name": "StrCmpIW"
+    },
+    {
+      "ordinal": 845,
+      "name": "StrCmpLogicalW"
+    },
+    {
+      "ordinal": 846,
+      "name": "StrCmpNA"
+    },
+    {
+      "ordinal": 847,
+      "name": "StrCmpNIA"
+    },
+    {
+      "ordinal": 848,
+      "name": "StrCmpNIW"
+    },
+    {
+      "ordinal": 849,
+      "name": "StrCmpNW"
+    },
+    {
+      "ordinal": 850,
+      "name": "StrCmpW"
+    },
+    {
+      "ordinal": 851,
+      "name": "StrCpyNW"
+    },
+    {
+      "ordinal": 852,
+      "name": "StrCpyW"
+    },
+    {
+      "ordinal": 853,
+      "name": "StrDupA"
+    },
+    {
+      "ordinal": 854,
+      "name": "StrDupW"
+    },
+    {
+      "ordinal": 855,
+      "name": "StrFormatByteSize64A"
+    },
+    {
+      "ordinal": 856,
+      "name": "StrFormatByteSizeA"
+    },
+    {
+      "ordinal": 857,
+      "name": "StrFormatByteSizeEx"
+    },
+    {
+      "ordinal": 858,
+      "name": "StrFormatByteSizeW"
+    },
+    {
+      "ordinal": 859,
+      "name": "StrFormatKBSizeA"
+    },
+    {
+      "ordinal": 860,
+      "name": "StrFormatKBSizeW"
+    },
+    {
+      "ordinal": 861,
+      "name": "StrFromTimeIntervalA"
+    },
+    {
+      "ordinal": 862,
+      "name": "StrFromTimeIntervalW"
+    },
+    {
+      "ordinal": 863,
+      "name": "StrIsIntlEqualA"
+    },
+    {
+      "ordinal": 864,
+      "name": "StrIsIntlEqualW"
+    },
+    {
+      "ordinal": 865,
+      "name": "StrNCatA"
+    },
+    {
+      "ordinal": 866,
+      "name": "StrNCatW"
+    },
+    {
+      "ordinal": 867,
+      "name": "StrPBrkA"
+    },
+    {
+      "ordinal": 868,
+      "name": "StrPBrkW"
+    },
+    {
+      "ordinal": 869,
+      "name": "StrRChrA"
+    },
+    {
+      "ordinal": 870,
+      "name": "StrRChrIA"
+    },
+    {
+      "ordinal": 871,
+      "name": "StrRChrIW"
+    },
+    {
+      "ordinal": 872,
+      "name": "StrRChrW"
+    },
+    {
+      "ordinal": 873,
+      "name": "StrRStrIA"
+    },
+    {
+      "ordinal": 874,
+      "name": "StrRStrIW"
+    },
+    {
+      "ordinal": 875,
+      "name": "StrRetToBSTR"
+    },
+    {
+      "ordinal": 876,
+      "name": "StrRetToBufA"
+    },
+    {
+      "ordinal": 877,
+      "name": "StrRetToBufW"
+    },
+    {
+      "ordinal": 878,
+      "name": "StrRetToStrA"
+    },
+    {
+      "ordinal": 879,
+      "name": "StrRetToStrW"
+    },
+    {
+      "ordinal": 880,
+      "name": "StrSpnA"
+    },
+    {
+      "ordinal": 881,
+      "name": "StrSpnW"
+    },
+    {
+      "ordinal": 882,
+      "name": "StrStrA"
+    },
+    {
+      "ordinal": 883,
+      "name": "StrStrIA"
+    },
+    {
+      "ordinal": 884,
+      "name": "StrStrIW"
+    },
+    {
+      "ordinal": 885,
+      "name": "StrStrNIW"
+    },
+    {
+      "ordinal": 886,
+      "name": "StrStrNW"
+    },
+    {
+      "ordinal": 887,
+      "name": "StrStrW"
+    },
+    {
+      "ordinal": 888,
+      "name": "StrToInt64ExA"
+    },
+    {
+      "ordinal": 889,
+      "name": "StrToInt64ExW"
+    },
+    {
+      "ordinal": 890,
+      "name": "StrToIntA"
+    },
+    {
+      "ordinal": 891,
+      "name": "StrToIntExA"
+    },
+    {
+      "ordinal": 892,
+      "name": "StrToIntExW"
+    },
+    {
+      "ordinal": 893,
+      "name": "StrToIntW"
+    },
+    {
+      "ordinal": 894,
+      "name": "StrTrimA"
+    },
+    {
+      "ordinal": 895,
+      "name": "StrTrimW"
+    },
+    {
+      "ordinal": 896,
+      "name": "UrlApplySchemeA"
+    },
+    {
+      "ordinal": 897,
+      "name": "UrlApplySchemeW"
+    },
+    {
+      "ordinal": 898,
+      "name": "UrlCanonicalizeA"
+    },
+    {
+      "ordinal": 899,
+      "name": "UrlCanonicalizeW"
+    },
+    {
+      "ordinal": 900,
+      "name": "UrlCombineA"
+    },
+    {
+      "ordinal": 901,
+      "name": "UrlCombineW"
+    },
+    {
+      "ordinal": 902,
+      "name": "UrlCompareA"
+    },
+    {
+      "ordinal": 903,
+      "name": "UrlCompareW"
+    },
+    {
+      "ordinal": 904,
+      "name": "UrlCreateFromPathA"
+    },
+    {
+      "ordinal": 905,
+      "name": "UrlCreateFromPathW"
+    },
+    {
+      "ordinal": 906,
+      "name": "UrlEscapeA"
+    },
+    {
+      "ordinal": 907,
+      "name": "UrlEscapeW"
+    },
+    {
+      "ordinal": 908,
+      "name": "UrlGetLocationA"
+    },
+    {
+      "ordinal": 909,
+      "name": "UrlGetLocationW"
+    },
+    {
+      "ordinal": 910,
+      "name": "UrlGetPartA"
+    },
+    {
+      "ordinal": 911,
+      "name": "UrlGetPartW"
+    },
+    {
+      "ordinal": 912,
+      "name": "UrlHashA"
+    },
+    {
+      "ordinal": 913,
+      "name": "UrlHashW"
+    },
+    {
+      "ordinal": 914,
+      "name": "UrlIsA"
+    },
+    {
+      "ordinal": 915,
+      "name": "UrlIsNoHistoryA"
+    },
+    {
+      "ordinal": 916,
+      "name": "UrlIsNoHistoryW"
+    },
+    {
+      "ordinal": 917,
+      "name": "UrlIsOpaqueA"
+    },
+    {
+      "ordinal": 918,
+      "name": "UrlIsOpaqueW"
+    },
+    {
+      "ordinal": 919,
+      "name": "UrlIsW"
+    },
+    {
+      "ordinal": 920,
+      "name": "UrlUnescapeA"
+    },
+    {
+      "ordinal": 921,
+      "name": "UrlUnescapeW"
+    },
+    {
+      "ordinal": 922,
+      "name": "wnsprintfA"
+    },
+    {
+      "ordinal": 923,
+      "name": "wnsprintfW"
+    },
+    {
+      "ordinal": 924,
+      "name": "wvnsprintfA"
+    },
+    {
+      "ordinal": 925,
+      "name": "wvnsprintfW"
     }
   ]
 }

@@ -12,6 +12,38 @@
   "Machine": "AMD64",
   "exports": [
     {
+      "ordinal": 1,
+      "name": "CCHlpAddNodeUpdateCluster"
+    },
+    {
+      "ordinal": 2,
+      "name": "CCHlpConfigureNode"
+    },
+    {
+      "ordinal": 3,
+      "name": "CCHlpCreateClusterNameCOIfNotExists"
+    },
+    {
+      "ordinal": 4,
+      "name": "CCHlpCreateClusterNameInAD"
+    },
+    {
+      "ordinal": 5,
+      "name": "CCHlpGetClusterServiceSecret"
+    },
+    {
+      "ordinal": 6,
+      "name": "CCHlpGetDNSHostLabel"
+    },
+    {
+      "ordinal": 7,
+      "name": "CCHlpRestoreClusterVirtualObjectToInitialState"
+    },
+    {
+      "ordinal": 8,
+      "name": "GetClusterUserMgrResource"
+    },
+    {
       "ordinal": 9,
       "name": "AddClusterFabricControllerManager"
     },
@@ -86,34 +118,6 @@
     {
       "ordinal": 27,
       "name": "BackupClusterDatabase"
-    },
-    {
-      "ordinal": 1,
-      "name": "CCHlpAddNodeUpdateCluster"
-    },
-    {
-      "ordinal": 2,
-      "name": "CCHlpConfigureNode"
-    },
-    {
-      "ordinal": 3,
-      "name": "CCHlpCreateClusterNameCOIfNotExists"
-    },
-    {
-      "ordinal": 4,
-      "name": "CCHlpCreateClusterNameInAD"
-    },
-    {
-      "ordinal": 5,
-      "name": "CCHlpGetClusterServiceSecret"
-    },
-    {
-      "ordinal": 6,
-      "name": "CCHlpGetDNSHostLabel"
-    },
-    {
-      "ordinal": 7,
-      "name": "CCHlpRestoreClusterVirtualObjectToInitialState"
     },
     {
       "ordinal": 28,
@@ -1218,10 +1222,6 @@
     {
       "ordinal": 303,
       "name": "GetClusterUserMgrCredential"
-    },
-    {
-      "ordinal": 8,
-      "name": "GetClusterUserMgrResource"
     },
     {
       "ordinal": 304,

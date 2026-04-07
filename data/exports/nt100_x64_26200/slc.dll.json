@@ -12,6 +12,19 @@
   "Machine": "AMD64",
   "exports": [
     {
+      "ordinal": 1,
+      "name": "SLpCheckProductKey"
+    },
+    {
+      "ordinal": 2,
+      "name": "SLpGetGenuineLocal",
+      "forwarder": "SPPC.SLpGetGenuineLocal"
+    },
+    {
+      "ordinal": 3,
+      "name": "SLpUpdateComponentTokens"
+    },
+    {
       "ordinal": 4,
       "name": "SLClose",
       "forwarder": "SPPC.SLClose"
@@ -188,19 +201,6 @@
     {
       "ordinal": 40,
       "name": "SLUnregisterWindowsEvent"
-    },
-    {
-      "ordinal": 1,
-      "name": "SLpCheckProductKey"
-    },
-    {
-      "ordinal": 2,
-      "name": "SLpGetGenuineLocal",
-      "forwarder": "SPPC.SLpGetGenuineLocal"
-    },
-    {
-      "ordinal": 3,
-      "name": "SLpUpdateComponentTokens"
     }
   ]
 }

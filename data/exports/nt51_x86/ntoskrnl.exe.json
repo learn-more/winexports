@@ -12,6 +12,242 @@
   "Machine": "I386",
   "exports": [
     {
+      "ordinal": 1,
+      "name": "ExAcquireFastMutexUnsafe"
+    },
+    {
+      "ordinal": 2,
+      "name": "ExAcquireRundownProtection"
+    },
+    {
+      "ordinal": 3,
+      "name": "ExAcquireRundownProtectionEx"
+    },
+    {
+      "ordinal": 4,
+      "name": "ExInitializeRundownProtection"
+    },
+    {
+      "ordinal": 5,
+      "name": "ExInterlockedAddLargeStatistic"
+    },
+    {
+      "ordinal": 6,
+      "name": "ExInterlockedCompareExchange64"
+    },
+    {
+      "ordinal": 7,
+      "name": "ExInterlockedFlushSList"
+    },
+    {
+      "ordinal": 8,
+      "name": "ExInterlockedPopEntrySList"
+    },
+    {
+      "ordinal": 9,
+      "name": "ExInterlockedPushEntrySList"
+    },
+    {
+      "ordinal": 10,
+      "name": "ExReInitializeRundownProtection"
+    },
+    {
+      "ordinal": 11,
+      "name": "ExReleaseFastMutexUnsafe"
+    },
+    {
+      "ordinal": 12,
+      "name": "ExReleaseResourceLite"
+    },
+    {
+      "ordinal": 13,
+      "name": "ExReleaseRundownProtection"
+    },
+    {
+      "ordinal": 14,
+      "name": "ExReleaseRundownProtectionEx"
+    },
+    {
+      "ordinal": 15,
+      "name": "ExRundownCompleted"
+    },
+    {
+      "ordinal": 16,
+      "name": "ExWaitForRundownProtectionRelease"
+    },
+    {
+      "ordinal": 17,
+      "name": "ExfAcquirePushLockExclusive"
+    },
+    {
+      "ordinal": 18,
+      "name": "ExfAcquirePushLockShared"
+    },
+    {
+      "ordinal": 19,
+      "name": "ExfInterlockedAddUlong"
+    },
+    {
+      "ordinal": 20,
+      "name": "ExfInterlockedCompareExchange64"
+    },
+    {
+      "ordinal": 21,
+      "name": "ExfInterlockedInsertHeadList"
+    },
+    {
+      "ordinal": 22,
+      "name": "ExfInterlockedInsertTailList"
+    },
+    {
+      "ordinal": 23,
+      "name": "ExfInterlockedPopEntryList"
+    },
+    {
+      "ordinal": 24,
+      "name": "ExfInterlockedPushEntryList"
+    },
+    {
+      "ordinal": 25,
+      "name": "ExfInterlockedRemoveHeadList"
+    },
+    {
+      "ordinal": 26,
+      "name": "ExfReleasePushLock"
+    },
+    {
+      "ordinal": 27,
+      "name": "Exfi386InterlockedDecrementLong"
+    },
+    {
+      "ordinal": 28,
+      "name": "Exfi386InterlockedExchangeUlong"
+    },
+    {
+      "ordinal": 29,
+      "name": "Exfi386InterlockedIncrementLong"
+    },
+    {
+      "ordinal": 30,
+      "name": "HalExamineMBR"
+    },
+    {
+      "ordinal": 31,
+      "name": "InterlockedCompareExchange"
+    },
+    {
+      "ordinal": 32,
+      "name": "InterlockedDecrement"
+    },
+    {
+      "ordinal": 33,
+      "name": "InterlockedExchange"
+    },
+    {
+      "ordinal": 34,
+      "name": "InterlockedExchangeAdd"
+    },
+    {
+      "ordinal": 35,
+      "name": "InterlockedIncrement"
+    },
+    {
+      "ordinal": 36,
+      "name": "InterlockedPopEntrySList"
+    },
+    {
+      "ordinal": 37,
+      "name": "InterlockedPushEntrySList"
+    },
+    {
+      "ordinal": 38,
+      "name": "IoAssignDriveLetters"
+    },
+    {
+      "ordinal": 39,
+      "name": "IoReadPartitionTable"
+    },
+    {
+      "ordinal": 40,
+      "name": "IoSetPartitionInformation"
+    },
+    {
+      "ordinal": 41,
+      "name": "IoWritePartitionTable"
+    },
+    {
+      "ordinal": 42,
+      "name": "IofCallDriver"
+    },
+    {
+      "ordinal": 43,
+      "name": "IofCompleteRequest"
+    },
+    {
+      "ordinal": 44,
+      "name": "KeAcquireInStackQueuedSpinLockAtDpcLevel"
+    },
+    {
+      "ordinal": 45,
+      "name": "KeReleaseInStackQueuedSpinLockFromDpcLevel"
+    },
+    {
+      "ordinal": 46,
+      "name": "KeSetTimeUpdateNotifyRoutine"
+    },
+    {
+      "ordinal": 47,
+      "name": "KefAcquireSpinLockAtDpcLevel"
+    },
+    {
+      "ordinal": 48,
+      "name": "KefReleaseSpinLockFromDpcLevel"
+    },
+    {
+      "ordinal": 49,
+      "name": "KiAcquireSpinLock"
+    },
+    {
+      "ordinal": 50,
+      "name": "KiReleaseSpinLock"
+    },
+    {
+      "ordinal": 51,
+      "name": "ObfDereferenceObject"
+    },
+    {
+      "ordinal": 52,
+      "name": "ObfReferenceObject"
+    },
+    {
+      "ordinal": 53,
+      "name": "RtlPrefetchMemoryNonTemporal"
+    },
+    {
+      "ordinal": 54,
+      "name": "RtlUlongByteSwap"
+    },
+    {
+      "ordinal": 55,
+      "name": "RtlUlonglongByteSwap"
+    },
+    {
+      "ordinal": 56,
+      "name": "RtlUshortByteSwap"
+    },
+    {
+      "ordinal": 57,
+      "name": "WmiGetClock"
+    },
+    {
+      "ordinal": 58,
+      "name": "Kei386EoiHelper"
+    },
+    {
+      "ordinal": 59,
+      "name": "Kii386SpinOnSpinLock"
+    },
+    {
       "ordinal": 60,
       "name": "CcCanIWrite"
     },
@@ -228,24 +464,12 @@
       "name": "DbgSetDebugFilterState"
     },
     {
-      "ordinal": 1,
-      "name": "ExAcquireFastMutexUnsafe"
-    },
-    {
       "ordinal": 114,
       "name": "ExAcquireResourceExclusiveLite"
     },
     {
       "ordinal": 115,
       "name": "ExAcquireResourceSharedLite"
-    },
-    {
-      "ordinal": 2,
-      "name": "ExAcquireRundownProtection"
-    },
-    {
-      "ordinal": 3,
-      "name": "ExAcquireRundownProtectionEx"
     },
     {
       "ordinal": 116,
@@ -364,10 +588,6 @@
       "name": "ExInitializeResourceLite"
     },
     {
-      "ordinal": 4,
-      "name": "ExInitializeRundownProtection"
-    },
-    {
       "ordinal": 145,
       "name": "ExInitializeZone"
     },
@@ -376,16 +596,8 @@
       "name": "ExInterlockedAddLargeInteger"
     },
     {
-      "ordinal": 5,
-      "name": "ExInterlockedAddLargeStatistic"
-    },
-    {
       "ordinal": 147,
       "name": "ExInterlockedAddUlong"
-    },
-    {
-      "ordinal": 6,
-      "name": "ExInterlockedCompareExchange64"
     },
     {
       "ordinal": 148,
@@ -398,10 +610,6 @@
     {
       "ordinal": 150,
       "name": "ExInterlockedExtendZone"
-    },
-    {
-      "ordinal": 7,
-      "name": "ExInterlockedFlushSList"
     },
     {
       "ordinal": 151,
@@ -420,16 +628,8 @@
       "name": "ExInterlockedPopEntryList"
     },
     {
-      "ordinal": 8,
-      "name": "ExInterlockedPopEntrySList"
-    },
-    {
       "ordinal": 155,
       "name": "ExInterlockedPushEntryList"
-    },
-    {
-      "ordinal": 9,
-      "name": "ExInterlockedPushEntrySList"
     },
     {
       "ordinal": 156,
@@ -484,10 +684,6 @@
       "name": "ExRaiseStatus"
     },
     {
-      "ordinal": 10,
-      "name": "ExReInitializeRundownProtection"
-    },
-    {
       "ordinal": 169,
       "name": "ExRegisterCallback"
     },
@@ -496,28 +692,8 @@
       "name": "ExReinitializeResourceLite"
     },
     {
-      "ordinal": 11,
-      "name": "ExReleaseFastMutexUnsafe"
-    },
-    {
       "ordinal": 171,
       "name": "ExReleaseResourceForThreadLite"
-    },
-    {
-      "ordinal": 12,
-      "name": "ExReleaseResourceLite"
-    },
-    {
-      "ordinal": 13,
-      "name": "ExReleaseRundownProtection"
-    },
-    {
-      "ordinal": 14,
-      "name": "ExReleaseRundownProtectionEx"
-    },
-    {
-      "ordinal": 15,
-      "name": "ExRundownCompleted"
     },
     {
       "ordinal": 172,
@@ -552,64 +728,8 @@
       "name": "ExVerifySuite"
     },
     {
-      "ordinal": 16,
-      "name": "ExWaitForRundownProtectionRelease"
-    },
-    {
       "ordinal": 180,
       "name": "ExWindowStationObjectType"
-    },
-    {
-      "ordinal": 17,
-      "name": "ExfAcquirePushLockExclusive"
-    },
-    {
-      "ordinal": 18,
-      "name": "ExfAcquirePushLockShared"
-    },
-    {
-      "ordinal": 19,
-      "name": "ExfInterlockedAddUlong"
-    },
-    {
-      "ordinal": 20,
-      "name": "ExfInterlockedCompareExchange64"
-    },
-    {
-      "ordinal": 21,
-      "name": "ExfInterlockedInsertHeadList"
-    },
-    {
-      "ordinal": 22,
-      "name": "ExfInterlockedInsertTailList"
-    },
-    {
-      "ordinal": 23,
-      "name": "ExfInterlockedPopEntryList"
-    },
-    {
-      "ordinal": 24,
-      "name": "ExfInterlockedPushEntryList"
-    },
-    {
-      "ordinal": 25,
-      "name": "ExfInterlockedRemoveHeadList"
-    },
-    {
-      "ordinal": 26,
-      "name": "ExfReleasePushLock"
-    },
-    {
-      "ordinal": 27,
-      "name": "Exfi386InterlockedDecrementLong"
-    },
-    {
-      "ordinal": 28,
-      "name": "Exfi386InterlockedExchangeUlong"
-    },
-    {
-      "ordinal": 29,
-      "name": "Exfi386InterlockedIncrementLong"
     },
     {
       "ordinal": 181,
@@ -1052,10 +1172,6 @@
       "name": "HalDispatchTable"
     },
     {
-      "ordinal": 30,
-      "name": "HalExamineMBR"
-    },
-    {
       "ordinal": 291,
       "name": "HalPrivateDispatchTable"
     },
@@ -1116,34 +1232,6 @@
       "name": "InitSafeBootMode"
     },
     {
-      "ordinal": 31,
-      "name": "InterlockedCompareExchange"
-    },
-    {
-      "ordinal": 32,
-      "name": "InterlockedDecrement"
-    },
-    {
-      "ordinal": 33,
-      "name": "InterlockedExchange"
-    },
-    {
-      "ordinal": 34,
-      "name": "InterlockedExchangeAdd"
-    },
-    {
-      "ordinal": 35,
-      "name": "InterlockedIncrement"
-    },
-    {
-      "ordinal": 36,
-      "name": "InterlockedPopEntrySList"
-    },
-    {
-      "ordinal": 37,
-      "name": "InterlockedPushEntrySList"
-    },
-    {
       "ordinal": 306,
       "name": "IoAcquireCancelSpinLock"
     },
@@ -1186,10 +1274,6 @@
     {
       "ordinal": 316,
       "name": "IoAllocateWorkItem"
-    },
-    {
-      "ordinal": 38,
-      "name": "IoAssignDriveLetters"
     },
     {
       "ordinal": 317,
@@ -1624,10 +1708,6 @@
       "name": "IoReadOperationCount"
     },
     {
-      "ordinal": 39,
-      "name": "IoReadPartitionTable"
-    },
-    {
       "ordinal": 425,
       "name": "IoReadPartitionTableEx"
     },
@@ -1746,10 +1826,6 @@
     {
       "ordinal": 454,
       "name": "IoSetIoCompletion"
-    },
-    {
-      "ordinal": 40,
-      "name": "IoSetPartitionInformation"
     },
     {
       "ordinal": 455,
@@ -1916,24 +1992,12 @@
       "name": "IoWriteOperationCount"
     },
     {
-      "ordinal": 41,
-      "name": "IoWritePartitionTable"
-    },
-    {
       "ordinal": 496,
       "name": "IoWritePartitionTableEx"
     },
     {
       "ordinal": 497,
       "name": "IoWriteTransferCount"
-    },
-    {
-      "ordinal": 42,
-      "name": "IofCallDriver"
-    },
-    {
-      "ordinal": 43,
-      "name": "IofCompleteRequest"
     },
     {
       "ordinal": 498,
@@ -1978,10 +2042,6 @@
     {
       "ordinal": 508,
       "name": "Ke386SetIoAccessMap"
-    },
-    {
-      "ordinal": 44,
-      "name": "KeAcquireInStackQueuedSpinLockAtDpcLevel"
     },
     {
       "ordinal": 509,
@@ -2300,10 +2360,6 @@
       "name": "KeRegisterBugCheckReasonCallback"
     },
     {
-      "ordinal": 45,
-      "name": "KeReleaseInStackQueuedSpinLockFromDpcLevel"
-    },
-    {
       "ordinal": 588,
       "name": "KeReleaseInterruptSpinLock"
     },
@@ -2432,10 +2488,6 @@
       "name": "KeSetTimeIncrement"
     },
     {
-      "ordinal": 46,
-      "name": "KeSetTimeUpdateNotifyRoutine"
-    },
-    {
       "ordinal": 620,
       "name": "KeSetTimer"
     },
@@ -2488,22 +2540,6 @@
       "name": "KeWaitForSingleObject"
     },
     {
-      "ordinal": 47,
-      "name": "KefAcquireSpinLockAtDpcLevel"
-    },
-    {
-      "ordinal": 48,
-      "name": "KefReleaseSpinLockFromDpcLevel"
-    },
-    {
-      "ordinal": 58,
-      "name": "Kei386EoiHelper"
-    },
-    {
-      "ordinal": 49,
-      "name": "KiAcquireSpinLock"
-    },
-    {
       "ordinal": 633,
       "name": "KiBugCheckData"
     },
@@ -2528,16 +2564,8 @@
       "name": "KiIpiServiceRoutine"
     },
     {
-      "ordinal": 50,
-      "name": "KiReleaseSpinLock"
-    },
-    {
       "ordinal": 639,
       "name": "KiUnexpectedInterrupt"
-    },
-    {
-      "ordinal": 59,
-      "name": "Kii386SpinOnSpinLock"
     },
     {
       "ordinal": 640,
@@ -3258,14 +3286,6 @@
     {
       "ordinal": 819,
       "name": "ObSetSecurityObjectByPointer"
-    },
-    {
-      "ordinal": 51,
-      "name": "ObfDereferenceObject"
-    },
-    {
-      "ordinal": 52,
-      "name": "ObfReferenceObject"
     },
     {
       "ordinal": 820,
@@ -4496,10 +4516,6 @@
       "name": "RtlPinAtomInAtomTable"
     },
     {
-      "ordinal": 53,
-      "name": "RtlPrefetchMemoryNonTemporal"
-    },
-    {
       "ordinal": 1127,
       "name": "RtlPrefixString"
     },
@@ -4556,12 +4572,12 @@
       "name": "RtlSecondsSince1980ToTime"
     },
     {
-      "ordinal": 1142,
-      "name": "RtlSelfRelativeToAbsoluteSD"
-    },
-    {
       "ordinal": 1141,
       "name": "RtlSelfRelativeToAbsoluteSD2"
+    },
+    {
+      "ordinal": 1142,
+      "name": "RtlSelfRelativeToAbsoluteSD"
     },
     {
       "ordinal": 1143,
@@ -4680,14 +4696,6 @@
       "name": "RtlTraceDatabaseValidate"
     },
     {
-      "ordinal": 54,
-      "name": "RtlUlongByteSwap"
-    },
-    {
-      "ordinal": 55,
-      "name": "RtlUlonglongByteSwap"
-    },
-    {
       "ordinal": 1172,
       "name": "RtlUnicodeStringToAnsiSize"
     },
@@ -4774,10 +4782,6 @@
     {
       "ordinal": 1193,
       "name": "RtlUpperString"
-    },
-    {
-      "ordinal": 56,
-      "name": "RtlUshortByteSwap"
     },
     {
       "ordinal": 1194,
@@ -5086,10 +5090,6 @@
     {
       "ordinal": 1270,
       "name": "WmiFlushTrace"
-    },
-    {
-      "ordinal": 57,
-      "name": "WmiGetClock"
     },
     {
       "ordinal": 1271,

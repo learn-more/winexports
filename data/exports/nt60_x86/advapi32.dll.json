@@ -12,6 +12,10 @@
   "Machine": "I386",
   "exports": [
     {
+      "ordinal": 1,
+      "name": "I_ScGetCurrentGroupStateW"
+    },
+    {
       "ordinal": 2,
       "name": "A_SHAFinal",
       "forwarder": "NTDLL.A_SHAFinal"
@@ -1445,10 +1449,6 @@
       "name": "I_QueryTagInformation"
     },
     {
-      "ordinal": 1,
-      "name": "I_ScGetCurrentGroupStateW"
-    },
-    {
       "ordinal": 356,
       "name": "I_ScIsSecurityProcess"
     },
@@ -1749,12 +1749,12 @@
       "name": "LsaICLookupSidsWithCreds"
     },
     {
-      "ordinal": 432,
-      "name": "LsaLookupNames"
-    },
-    {
       "ordinal": 431,
       "name": "LsaLookupNames2"
+    },
+    {
+      "ordinal": 432,
+      "name": "LsaLookupNames"
     },
     {
       "ordinal": 433,
@@ -1923,20 +1923,20 @@
       "forwarder": "NTDLL.MD5Update"
     },
     {
-      "ordinal": 474,
-      "name": "MSChapSrvChangePassword"
-    },
-    {
       "ordinal": 473,
       "name": "MSChapSrvChangePassword2"
     },
     {
-      "ordinal": 476,
-      "name": "MakeAbsoluteSD"
+      "ordinal": 474,
+      "name": "MSChapSrvChangePassword"
     },
     {
       "ordinal": 475,
       "name": "MakeAbsoluteSD2"
+    },
+    {
+      "ordinal": 476,
+      "name": "MakeAbsoluteSD"
     },
     {
       "ordinal": 477,

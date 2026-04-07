@@ -12,6 +12,10 @@
   "Machine": "I386",
   "exports": [
     {
+      "ordinal": 3,
+      "name": "GetProxyDllInfo"
+    },
+    {
       "ordinal": 4,
       "name": "ClearPropVariantArray"
     },
@@ -34,10 +38,6 @@
     {
       "ordinal": 9,
       "name": "DllUnregisterServer"
-    },
-    {
-      "ordinal": 3,
-      "name": "GetProxyDllInfo"
     },
     {
       "ordinal": 10,
@@ -672,10 +672,6 @@
       "name": "PropVariantToVariant"
     },
     {
-      "ordinal": 435,
-      "name": "PropVariantToWinRTPropertyValue"
-    },
-    {
       "ordinal": 168,
       "name": "StgDeserializePropVariant"
     },
@@ -900,10 +896,6 @@
       "name": "VariantToUInt64WithDefault"
     },
     {
-      "ordinal": 436,
-      "name": "WinRTPropertyValueToPropVariant"
-    },
-    {
       "ordinal": 400,
       "name": null
     },
@@ -1035,6 +1027,14 @@
     {
       "ordinal": 434,
       "name": null
+    },
+    {
+      "ordinal": 435,
+      "name": "PropVariantToWinRTPropertyValue"
+    },
+    {
+      "ordinal": 436,
+      "name": "WinRTPropertyValueToPropVariant"
     },
     {
       "ordinal": 437,

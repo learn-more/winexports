@@ -12,6 +12,11 @@
   "Machine": "I386",
   "exports": [
     {
+      "ordinal": 1,
+      "name": "EfsUtilGetCurrentKey",
+      "forwarder": "efsutil._EfsUtilGetCurrentKey_Deprecated@16"
+    },
+    {
       "ordinal": 2,
       "name": "EfsClientEncryptFileEx"
     },
@@ -22,11 +27,6 @@
     {
       "ordinal": 4,
       "name": "EfsClientQueryProtectors"
-    },
-    {
-      "ordinal": 1,
-      "name": "EfsUtilGetCurrentKey",
-      "forwarder": "efsutil._EfsUtilGetCurrentKey_Deprecated@16"
     },
     {
       "ordinal": 5,

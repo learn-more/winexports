@@ -12,6 +12,11 @@
   "Machine": "AMD64",
   "exports": [
     {
+      "ordinal": 1,
+      "name": "CryptCATVerifyMember",
+      "forwarder": "Wintrust.CryptCATVerifyMember"
+    },
+    {
       "ordinal": 2,
       "name": "CatalogCompactHashDatabase",
       "forwarder": "Wintrust.CatalogCompactHashDatabase"
@@ -160,11 +165,6 @@
       "ordinal": 31,
       "name": "CryptCATStoreFromHandle",
       "forwarder": "Wintrust.CryptCATStoreFromHandle"
-    },
-    {
-      "ordinal": 1,
-      "name": "CryptCATVerifyMember",
-      "forwarder": "Wintrust.CryptCATVerifyMember"
     },
     {
       "ordinal": 32,

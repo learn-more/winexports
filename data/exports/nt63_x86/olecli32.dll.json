@@ -12,344 +12,284 @@
   "Machine": "I386",
   "exports": [
     {
-      "ordinal": 410,
-      "name": "BmChangeData"
+      "ordinal": 1,
+      "name": "WEP"
     },
     {
-      "ordinal": 403,
-      "name": "BmClone"
+      "ordinal": 2,
+      "name": "OleDelete"
     },
     {
-      "ordinal": 405,
-      "name": "BmCopy"
+      "ordinal": 3,
+      "name": "OleSaveToStream"
     },
     {
-      "ordinal": 408,
-      "name": "BmDraw"
+      "ordinal": 4,
+      "name": "OleLoadFromStream"
     },
     {
-      "ordinal": 409,
-      "name": "BmEnumFormat"
+      "ordinal": 6,
+      "name": "OleClone"
     },
     {
-      "ordinal": 404,
-      "name": "BmEqual"
+      "ordinal": 7,
+      "name": "OleCopyFromLink"
     },
     {
-      "ordinal": 401,
-      "name": "BmGetData"
+      "ordinal": 8,
+      "name": "OleEqual"
     },
     {
-      "ordinal": 407,
-      "name": "BmQueryBounds"
+      "ordinal": 9,
+      "name": "OleQueryLinkFromClip"
     },
     {
-      "ordinal": 400,
-      "name": "BmRelease"
+      "ordinal": 10,
+      "name": "OleQueryCreateFromClip"
     },
     {
-      "ordinal": 402,
-      "name": "BmSaveToStream"
+      "ordinal": 11,
+      "name": "OleCreateLinkFromClip"
     },
     {
-      "ordinal": 952,
-      "name": "CheckNetDrive"
+      "ordinal": 12,
+      "name": "OleCreateFromClip"
     },
     {
-      "ordinal": 950,
-      "name": "ConnectDlgProc"
+      "ordinal": 13,
+      "name": "OleCopyToClipboard"
     },
     {
-      "ordinal": 114,
-      "name": "DefCreate"
+      "ordinal": 14,
+      "name": "OleQueryType"
     },
     {
-      "ordinal": 111,
-      "name": "DefCreateFromClip"
+      "ordinal": 15,
+      "name": "OleSetHostNames"
     },
     {
-      "ordinal": 115,
-      "name": "DefCreateFromFile"
+      "ordinal": 16,
+      "name": "OleSetTargetDevice"
     },
     {
-      "ordinal": 113,
-      "name": "DefCreateFromTemplate"
+      "ordinal": 17,
+      "name": "OleSetBounds"
     },
     {
-      "ordinal": 117,
-      "name": "DefCreateInvisible"
+      "ordinal": 18,
+      "name": "OleQueryBounds"
     },
     {
-      "ordinal": 112,
-      "name": "DefCreateLinkFromClip"
+      "ordinal": 19,
+      "name": "OleDraw"
     },
     {
-      "ordinal": 116,
-      "name": "DefCreateLinkFromFile"
+      "ordinal": 20,
+      "name": "OleQueryOpen"
     },
     {
-      "ordinal": 110,
-      "name": "DefLoadFromStream"
+      "ordinal": 21,
+      "name": "OleActivate"
     },
     {
-      "ordinal": 510,
-      "name": "DibChangeData"
+      "ordinal": 22,
+      "name": "OleUpdate"
     },
     {
-      "ordinal": 503,
-      "name": "DibClone"
+      "ordinal": 23,
+      "name": "OleReconnect"
     },
     {
-      "ordinal": 505,
-      "name": "DibCopy"
+      "ordinal": 24,
+      "name": "OleGetLinkUpdateOptions"
     },
     {
-      "ordinal": 508,
-      "name": "DibDraw"
+      "ordinal": 25,
+      "name": "OleSetLinkUpdateOptions"
     },
     {
-      "ordinal": 509,
-      "name": "DibEnumFormat"
+      "ordinal": 26,
+      "name": "OleEnumFormats"
     },
     {
-      "ordinal": 504,
-      "name": "DibEqual"
+      "ordinal": 27,
+      "name": "OleClose"
     },
     {
-      "ordinal": 501,
-      "name": "DibGetData"
+      "ordinal": 28,
+      "name": "OleGetData"
     },
     {
-      "ordinal": 507,
-      "name": "DibQueryBounds"
+      "ordinal": 29,
+      "name": "OleSetData"
     },
     {
-      "ordinal": 500,
-      "name": "DibRelease"
+      "ordinal": 30,
+      "name": "OleQueryProtocol"
     },
     {
-      "ordinal": 502,
-      "name": "DibSaveToStream"
+      "ordinal": 31,
+      "name": "OleQueryOutOfDate"
+    },
+    {
+      "ordinal": 32,
+      "name": "OleObjectConvert"
+    },
+    {
+      "ordinal": 33,
+      "name": "OleCreateFromTemplate"
+    },
+    {
+      "ordinal": 34,
+      "name": "OleCreate"
+    },
+    {
+      "ordinal": 35,
+      "name": "OleQueryReleaseStatus"
+    },
+    {
+      "ordinal": 36,
+      "name": "OleQueryReleaseError"
+    },
+    {
+      "ordinal": 37,
+      "name": "OleQueryReleaseMethod"
+    },
+    {
+      "ordinal": 38,
+      "name": "OleCreateFromFile"
+    },
+    {
+      "ordinal": 39,
+      "name": "OleCreateLinkFromFile"
+    },
+    {
+      "ordinal": 40,
+      "name": "OleRelease"
+    },
+    {
+      "ordinal": 41,
+      "name": "OleRegisterClientDoc"
+    },
+    {
+      "ordinal": 42,
+      "name": "OleRevokeClientDoc"
+    },
+    {
+      "ordinal": 43,
+      "name": "OleRenameClientDoc"
+    },
+    {
+      "ordinal": 44,
+      "name": "OleRevertClientDoc"
+    },
+    {
+      "ordinal": 45,
+      "name": "OleSavedClientDoc"
+    },
+    {
+      "ordinal": 46,
+      "name": "OleRename"
+    },
+    {
+      "ordinal": 47,
+      "name": "OleEnumObjects"
+    },
+    {
+      "ordinal": 48,
+      "name": "OleQueryName"
+    },
+    {
+      "ordinal": 49,
+      "name": "OleSetColorScheme"
+    },
+    {
+      "ordinal": 50,
+      "name": "OleRequestData"
+    },
+    {
+      "ordinal": 54,
+      "name": "OleLockServer"
+    },
+    {
+      "ordinal": 55,
+      "name": "OleUnlockServer"
+    },
+    {
+      "ordinal": 56,
+      "name": "OleQuerySize"
+    },
+    {
+      "ordinal": 57,
+      "name": "OleExecute"
+    },
+    {
+      "ordinal": 58,
+      "name": "OleCreateInvisible"
+    },
+    {
+      "ordinal": 59,
+      "name": "OleQueryClientVersion"
+    },
+    {
+      "ordinal": 60,
+      "name": "OleIsDcMeta"
     },
     {
       "ordinal": 100,
       "name": "DocWndProc"
     },
     {
-      "ordinal": 708,
-      "name": "ErrActivate"
+      "ordinal": 101,
+      "name": "SrvrWndProc"
     },
     {
-      "ordinal": 709,
-      "name": "ErrClose"
+      "ordinal": 102,
+      "name": "MfCallbackFunc"
     },
     {
-      "ordinal": 706,
-      "name": "ErrCopyFromLink"
+      "ordinal": 110,
+      "name": "DefLoadFromStream"
     },
     {
-      "ordinal": 717,
-      "name": "ErrExecute"
+      "ordinal": 111,
+      "name": "DefCreateFromClip"
     },
     {
-      "ordinal": 715,
-      "name": "ErrGetUpdateOptions"
+      "ordinal": 112,
+      "name": "DefCreateLinkFromClip"
     },
     {
-      "ordinal": 714,
-      "name": "ErrObjectConvert"
+      "ordinal": 113,
+      "name": "DefCreateFromTemplate"
     },
     {
-      "ordinal": 718,
-      "name": "ErrObjectLong"
+      "ordinal": 114,
+      "name": "DefCreate"
     },
     {
-      "ordinal": 707,
-      "name": "ErrQueryOpen"
+      "ordinal": 115,
+      "name": "DefCreateFromFile"
     },
     {
-      "ordinal": 713,
-      "name": "ErrQueryOutOfDate"
+      "ordinal": 116,
+      "name": "DefCreateLinkFromFile"
     },
     {
-      "ordinal": 712,
-      "name": "ErrQueryProtocol"
-    },
-    {
-      "ordinal": 711,
-      "name": "ErrReconnect"
-    },
-    {
-      "ordinal": 705,
-      "name": "ErrSetBounds"
-    },
-    {
-      "ordinal": 702,
-      "name": "ErrSetData"
-    },
-    {
-      "ordinal": 703,
-      "name": "ErrSetHostNames"
-    },
-    {
-      "ordinal": 704,
-      "name": "ErrSetTargetDevice"
-    },
-    {
-      "ordinal": 716,
-      "name": "ErrSetUpdateOptions"
-    },
-    {
-      "ordinal": 701,
-      "name": "ErrShow"
-    },
-    {
-      "ordinal": 710,
-      "name": "ErrUpdate"
-    },
-    {
-      "ordinal": 611,
-      "name": "GenChangeData"
-    },
-    {
-      "ordinal": 604,
-      "name": "GenClone"
-    },
-    {
-      "ordinal": 606,
-      "name": "GenCopy"
-    },
-    {
-      "ordinal": 609,
-      "name": "GenDraw"
-    },
-    {
-      "ordinal": 610,
-      "name": "GenEnumFormat"
-    },
-    {
-      "ordinal": 605,
-      "name": "GenEqual"
-    },
-    {
-      "ordinal": 601,
-      "name": "GenGetData"
-    },
-    {
-      "ordinal": 608,
-      "name": "GenQueryBounds"
-    },
-    {
-      "ordinal": 600,
-      "name": "GenRelease"
-    },
-    {
-      "ordinal": 603,
-      "name": "GenSaveToStream"
-    },
-    {
-      "ordinal": 602,
-      "name": "GenSetData"
-    },
-    {
-      "ordinal": 954,
-      "name": "GetTaskVisibleWindow"
-    },
-    {
-      "ordinal": 216,
-      "name": "LeActivate"
-    },
-    {
-      "ordinal": 224,
-      "name": "LeChangeData"
-    },
-    {
-      "ordinal": 208,
-      "name": "LeClone"
-    },
-    {
-      "ordinal": 225,
-      "name": "LeClose"
-    },
-    {
-      "ordinal": 211,
-      "name": "LeCopy"
-    },
-    {
-      "ordinal": 209,
-      "name": "LeCopyFromLink"
-    },
-    {
-      "ordinal": 230,
-      "name": "LeCreateInvisible"
-    },
-    {
-      "ordinal": 214,
-      "name": "LeDraw"
-    },
-    {
-      "ordinal": 220,
-      "name": "LeEnumFormat"
-    },
-    {
-      "ordinal": 210,
-      "name": "LeEqual"
-    },
-    {
-      "ordinal": 228,
-      "name": "LeExecute"
-    },
-    {
-      "ordinal": 202,
-      "name": "LeGetData"
-    },
-    {
-      "ordinal": 226,
-      "name": "LeGetUpdateOptions"
-    },
-    {
-      "ordinal": 223,
-      "name": "LeObjectConvert"
-    },
-    {
-      "ordinal": 229,
-      "name": "LeObjectLong"
-    },
-    {
-      "ordinal": 213,
-      "name": "LeQueryBounds"
-    },
-    {
-      "ordinal": 215,
-      "name": "LeQueryOpen"
-    },
-    {
-      "ordinal": 222,
-      "name": "LeQueryOutOfDate"
-    },
-    {
-      "ordinal": 221,
-      "name": "LeQueryProtocol"
-    },
-    {
-      "ordinal": 212,
-      "name": "LeQueryType"
-    },
-    {
-      "ordinal": 219,
-      "name": "LeReconnect"
+      "ordinal": 117,
+      "name": "DefCreateInvisible"
     },
     {
       "ordinal": 200,
       "name": "LeRelease"
     },
     {
-      "ordinal": 207,
-      "name": "LeSaveToStream"
+      "ordinal": 201,
+      "name": "LeShow"
     },
     {
-      "ordinal": 206,
-      "name": "LeSetBounds"
+      "ordinal": 202,
+      "name": "LeGetData"
     },
     {
       "ordinal": 203,
@@ -364,32 +304,128 @@
       "name": "LeSetTargetDevice"
     },
     {
-      "ordinal": 227,
-      "name": "LeSetUpdateOptions"
+      "ordinal": 206,
+      "name": "LeSetBounds"
     },
     {
-      "ordinal": 201,
-      "name": "LeShow"
+      "ordinal": 207,
+      "name": "LeSaveToStream"
+    },
+    {
+      "ordinal": 208,
+      "name": "LeClone"
+    },
+    {
+      "ordinal": 209,
+      "name": "LeCopyFromLink"
+    },
+    {
+      "ordinal": 210,
+      "name": "LeEqual"
+    },
+    {
+      "ordinal": 211,
+      "name": "LeCopy"
+    },
+    {
+      "ordinal": 212,
+      "name": "LeQueryType"
+    },
+    {
+      "ordinal": 213,
+      "name": "LeQueryBounds"
+    },
+    {
+      "ordinal": 214,
+      "name": "LeDraw"
+    },
+    {
+      "ordinal": 215,
+      "name": "LeQueryOpen"
+    },
+    {
+      "ordinal": 216,
+      "name": "LeActivate"
     },
     {
       "ordinal": 218,
       "name": "LeUpdate"
     },
     {
-      "ordinal": 102,
-      "name": "MfCallbackFunc"
+      "ordinal": 219,
+      "name": "LeReconnect"
     },
     {
-      "ordinal": 310,
-      "name": "MfChangeData"
+      "ordinal": 220,
+      "name": "LeEnumFormat"
+    },
+    {
+      "ordinal": 221,
+      "name": "LeQueryProtocol"
+    },
+    {
+      "ordinal": 222,
+      "name": "LeQueryOutOfDate"
+    },
+    {
+      "ordinal": 223,
+      "name": "LeObjectConvert"
+    },
+    {
+      "ordinal": 224,
+      "name": "LeChangeData"
+    },
+    {
+      "ordinal": 225,
+      "name": "LeClose"
+    },
+    {
+      "ordinal": 226,
+      "name": "LeGetUpdateOptions"
+    },
+    {
+      "ordinal": 227,
+      "name": "LeSetUpdateOptions"
+    },
+    {
+      "ordinal": 228,
+      "name": "LeExecute"
+    },
+    {
+      "ordinal": 229,
+      "name": "LeObjectLong"
+    },
+    {
+      "ordinal": 230,
+      "name": "LeCreateInvisible"
+    },
+    {
+      "ordinal": 300,
+      "name": "MfRelease"
+    },
+    {
+      "ordinal": 301,
+      "name": "MfGetData"
+    },
+    {
+      "ordinal": 302,
+      "name": "MfSaveToStream"
     },
     {
       "ordinal": 303,
       "name": "MfClone"
     },
     {
+      "ordinal": 304,
+      "name": "MfEqual"
+    },
+    {
       "ordinal": 305,
       "name": "MfCopy"
+    },
+    {
+      "ordinal": 307,
+      "name": "MfQueryBounds"
     },
     {
       "ordinal": 308,
@@ -400,296 +436,244 @@
       "name": "MfEnumFormat"
     },
     {
-      "ordinal": 304,
-      "name": "MfEqual"
+      "ordinal": 310,
+      "name": "MfChangeData"
     },
     {
-      "ordinal": 301,
-      "name": "MfGetData"
+      "ordinal": 400,
+      "name": "BmRelease"
     },
     {
-      "ordinal": 307,
-      "name": "MfQueryBounds"
+      "ordinal": 401,
+      "name": "BmGetData"
     },
     {
-      "ordinal": 300,
-      "name": "MfRelease"
+      "ordinal": 402,
+      "name": "BmSaveToStream"
     },
     {
-      "ordinal": 302,
-      "name": "MfSaveToStream"
+      "ordinal": 403,
+      "name": "BmClone"
     },
     {
-      "ordinal": 910,
-      "name": "ObjQueryName"
+      "ordinal": 404,
+      "name": "BmEqual"
     },
     {
-      "ordinal": 913,
-      "name": "ObjQuerySize"
+      "ordinal": 405,
+      "name": "BmCopy"
     },
     {
-      "ordinal": 912,
-      "name": "ObjQueryType"
+      "ordinal": 407,
+      "name": "BmQueryBounds"
     },
     {
-      "ordinal": 911,
-      "name": "ObjRename"
+      "ordinal": 408,
+      "name": "BmDraw"
     },
     {
-      "ordinal": 21,
-      "name": "OleActivate"
+      "ordinal": 409,
+      "name": "BmEnumFormat"
     },
     {
-      "ordinal": 6,
-      "name": "OleClone"
+      "ordinal": 410,
+      "name": "BmChangeData"
     },
     {
-      "ordinal": 27,
-      "name": "OleClose"
+      "ordinal": 500,
+      "name": "DibRelease"
     },
     {
-      "ordinal": 7,
-      "name": "OleCopyFromLink"
+      "ordinal": 501,
+      "name": "DibGetData"
     },
     {
-      "ordinal": 13,
-      "name": "OleCopyToClipboard"
+      "ordinal": 502,
+      "name": "DibSaveToStream"
     },
     {
-      "ordinal": 34,
-      "name": "OleCreate"
+      "ordinal": 503,
+      "name": "DibClone"
     },
     {
-      "ordinal": 12,
-      "name": "OleCreateFromClip"
+      "ordinal": 504,
+      "name": "DibEqual"
     },
     {
-      "ordinal": 38,
-      "name": "OleCreateFromFile"
+      "ordinal": 505,
+      "name": "DibCopy"
     },
     {
-      "ordinal": 33,
-      "name": "OleCreateFromTemplate"
+      "ordinal": 507,
+      "name": "DibQueryBounds"
     },
     {
-      "ordinal": 58,
-      "name": "OleCreateInvisible"
+      "ordinal": 508,
+      "name": "DibDraw"
     },
     {
-      "ordinal": 11,
-      "name": "OleCreateLinkFromClip"
+      "ordinal": 509,
+      "name": "DibEnumFormat"
     },
     {
-      "ordinal": 39,
-      "name": "OleCreateLinkFromFile"
+      "ordinal": 510,
+      "name": "DibChangeData"
     },
     {
-      "ordinal": 2,
-      "name": "OleDelete"
+      "ordinal": 600,
+      "name": "GenRelease"
     },
     {
-      "ordinal": 19,
-      "name": "OleDraw"
+      "ordinal": 601,
+      "name": "GenGetData"
     },
     {
-      "ordinal": 26,
-      "name": "OleEnumFormats"
+      "ordinal": 602,
+      "name": "GenSetData"
     },
     {
-      "ordinal": 47,
-      "name": "OleEnumObjects"
+      "ordinal": 603,
+      "name": "GenSaveToStream"
     },
     {
-      "ordinal": 8,
-      "name": "OleEqual"
+      "ordinal": 604,
+      "name": "GenClone"
     },
     {
-      "ordinal": 57,
-      "name": "OleExecute"
+      "ordinal": 605,
+      "name": "GenEqual"
     },
     {
-      "ordinal": 28,
-      "name": "OleGetData"
+      "ordinal": 606,
+      "name": "GenCopy"
     },
     {
-      "ordinal": 24,
-      "name": "OleGetLinkUpdateOptions"
+      "ordinal": 608,
+      "name": "GenQueryBounds"
     },
     {
-      "ordinal": 60,
-      "name": "OleIsDcMeta"
+      "ordinal": 609,
+      "name": "GenDraw"
     },
     {
-      "ordinal": 4,
-      "name": "OleLoadFromStream"
+      "ordinal": 610,
+      "name": "GenEnumFormat"
     },
     {
-      "ordinal": 54,
-      "name": "OleLockServer"
+      "ordinal": 611,
+      "name": "GenChangeData"
     },
     {
-      "ordinal": 32,
-      "name": "OleObjectConvert"
+      "ordinal": 701,
+      "name": "ErrShow"
     },
     {
-      "ordinal": 18,
-      "name": "OleQueryBounds"
+      "ordinal": 702,
+      "name": "ErrSetData"
     },
     {
-      "ordinal": 59,
-      "name": "OleQueryClientVersion"
+      "ordinal": 703,
+      "name": "ErrSetHostNames"
     },
     {
-      "ordinal": 10,
-      "name": "OleQueryCreateFromClip"
+      "ordinal": 704,
+      "name": "ErrSetTargetDevice"
     },
     {
-      "ordinal": 9,
-      "name": "OleQueryLinkFromClip"
+      "ordinal": 705,
+      "name": "ErrSetBounds"
     },
     {
-      "ordinal": 48,
-      "name": "OleQueryName"
+      "ordinal": 706,
+      "name": "ErrCopyFromLink"
     },
     {
-      "ordinal": 20,
-      "name": "OleQueryOpen"
+      "ordinal": 707,
+      "name": "ErrQueryOpen"
     },
     {
-      "ordinal": 31,
-      "name": "OleQueryOutOfDate"
+      "ordinal": 708,
+      "name": "ErrActivate"
     },
     {
-      "ordinal": 30,
-      "name": "OleQueryProtocol"
+      "ordinal": 709,
+      "name": "ErrClose"
     },
     {
-      "ordinal": 36,
-      "name": "OleQueryReleaseError"
+      "ordinal": 710,
+      "name": "ErrUpdate"
     },
     {
-      "ordinal": 37,
-      "name": "OleQueryReleaseMethod"
+      "ordinal": 711,
+      "name": "ErrReconnect"
     },
     {
-      "ordinal": 35,
-      "name": "OleQueryReleaseStatus"
+      "ordinal": 712,
+      "name": "ErrQueryProtocol"
     },
     {
-      "ordinal": 56,
-      "name": "OleQuerySize"
+      "ordinal": 713,
+      "name": "ErrQueryOutOfDate"
     },
     {
-      "ordinal": 14,
-      "name": "OleQueryType"
+      "ordinal": 714,
+      "name": "ErrObjectConvert"
     },
     {
-      "ordinal": 23,
-      "name": "OleReconnect"
+      "ordinal": 715,
+      "name": "ErrGetUpdateOptions"
     },
     {
-      "ordinal": 41,
-      "name": "OleRegisterClientDoc"
+      "ordinal": 716,
+      "name": "ErrSetUpdateOptions"
     },
     {
-      "ordinal": 40,
-      "name": "OleRelease"
+      "ordinal": 717,
+      "name": "ErrExecute"
     },
     {
-      "ordinal": 46,
-      "name": "OleRename"
+      "ordinal": 718,
+      "name": "ErrObjectLong"
     },
     {
-      "ordinal": 43,
-      "name": "OleRenameClientDoc"
-    },
-    {
-      "ordinal": 50,
-      "name": "OleRequestData"
-    },
-    {
-      "ordinal": 44,
-      "name": "OleRevertClientDoc"
-    },
-    {
-      "ordinal": 42,
-      "name": "OleRevokeClientDoc"
-    },
-    {
-      "ordinal": 3,
-      "name": "OleSaveToStream"
-    },
-    {
-      "ordinal": 45,
-      "name": "OleSavedClientDoc"
-    },
-    {
-      "ordinal": 17,
-      "name": "OleSetBounds"
-    },
-    {
-      "ordinal": 49,
-      "name": "OleSetColorScheme"
-    },
-    {
-      "ordinal": 29,
-      "name": "OleSetData"
-    },
-    {
-      "ordinal": 15,
-      "name": "OleSetHostNames"
-    },
-    {
-      "ordinal": 25,
-      "name": "OleSetLinkUpdateOptions"
-    },
-    {
-      "ordinal": 16,
-      "name": "OleSetTargetDevice"
-    },
-    {
-      "ordinal": 55,
-      "name": "OleUnlockServer"
-    },
-    {
-      "ordinal": 22,
-      "name": "OleUpdate"
-    },
-    {
-      "ordinal": 807,
-      "name": "PbCopyToClipboard"
-    },
-    {
-      "ordinal": 804,
-      "name": "PbCreate"
+      "ordinal": 800,
+      "name": "PbLoadFromStream"
     },
     {
       "ordinal": 801,
       "name": "PbCreateFromClip"
     },
     {
-      "ordinal": 808,
-      "name": "PbCreateFromFile"
+      "ordinal": 802,
+      "name": "PbCreateLinkFromClip"
     },
     {
       "ordinal": 803,
       "name": "PbCreateFromTemplate"
     },
     {
-      "ordinal": 812,
-      "name": "PbCreateInvisible"
-    },
-    {
-      "ordinal": 802,
-      "name": "PbCreateLinkFromClip"
-    },
-    {
-      "ordinal": 809,
-      "name": "PbCreateLinkFromFile"
+      "ordinal": 804,
+      "name": "PbCreate"
     },
     {
       "ordinal": 805,
       "name": "PbDraw"
+    },
+    {
+      "ordinal": 806,
+      "name": "PbQueryBounds"
+    },
+    {
+      "ordinal": 807,
+      "name": "PbCopyToClipboard"
+    },
+    {
+      "ordinal": 808,
+      "name": "PbCreateFromFile"
+    },
+    {
+      "ordinal": 809,
+      "name": "PbCreateLinkFromFile"
     },
     {
       "ordinal": 810,
@@ -700,28 +684,44 @@
       "name": "PbGetData"
     },
     {
-      "ordinal": 800,
-      "name": "PbLoadFromStream"
+      "ordinal": 812,
+      "name": "PbCreateInvisible"
     },
     {
-      "ordinal": 806,
-      "name": "PbQueryBounds"
+      "ordinal": 910,
+      "name": "ObjQueryName"
+    },
+    {
+      "ordinal": 911,
+      "name": "ObjRename"
+    },
+    {
+      "ordinal": 912,
+      "name": "ObjQueryType"
+    },
+    {
+      "ordinal": 913,
+      "name": "ObjQuerySize"
+    },
+    {
+      "ordinal": 950,
+      "name": "ConnectDlgProc"
     },
     {
       "ordinal": 951,
       "name": "SetNetName"
     },
     {
+      "ordinal": 952,
+      "name": "CheckNetDrive"
+    },
+    {
       "ordinal": 953,
       "name": "SetNextNetDrive"
     },
     {
-      "ordinal": 101,
-      "name": "SrvrWndProc"
-    },
-    {
-      "ordinal": 1,
-      "name": "WEP"
+      "ordinal": 954,
+      "name": "GetTaskVisibleWindow"
     }
   ]
 }

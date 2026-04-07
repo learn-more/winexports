@@ -12,6 +12,15 @@
   "Machine": "I386",
   "exports": [
     {
+      "ordinal": 1,
+      "name": "BaseThreadInitThunk"
+    },
+    {
+      "ordinal": 2,
+      "name": "InterlockedPushListSList",
+      "forwarder": "NTDLL.RtlInterlockedPushListSList"
+    },
+    {
       "ordinal": 3,
       "name": "AcquireSRWLockExclusive",
       "forwarder": "NTDLL.RtlAcquireSRWLockExclusive"
@@ -154,10 +163,6 @@
     {
       "ordinal": 37,
       "name": "BaseQueryModuleData"
-    },
-    {
-      "ordinal": 1,
-      "name": "BaseThreadInitThunk"
     },
     {
       "ordinal": 38,
@@ -2509,12 +2514,12 @@
       "name": "GetThreadUILanguage"
     },
     {
-      "ordinal": 621,
-      "name": "GetTickCount"
-    },
-    {
       "ordinal": 620,
       "name": "GetTickCount64"
+    },
+    {
+      "ordinal": 621,
+      "name": "GetTickCount"
     },
     {
       "ordinal": 622,
@@ -2857,13 +2862,13 @@
       "forwarder": "NTDLL.RtlInitializeSRWLock"
     },
     {
-      "ordinal": 706,
-      "name": "InterlockedCompareExchange"
-    },
-    {
       "ordinal": 705,
       "name": "InterlockedCompareExchange64",
       "forwarder": "NTDLL.RtlInterlockedCompareExchange64"
+    },
+    {
+      "ordinal": 706,
+      "name": "InterlockedCompareExchange"
     },
     {
       "ordinal": 707,
@@ -2895,11 +2900,6 @@
       "ordinal": 713,
       "name": "InterlockedPushEntrySList",
       "forwarder": "NTDLL.RtlInterlockedPushEntrySList"
-    },
-    {
-      "ordinal": 2,
-      "name": "InterlockedPushListSList",
-      "forwarder": "NTDLL.RtlInterlockedPushListSList"
     },
     {
       "ordinal": 714,

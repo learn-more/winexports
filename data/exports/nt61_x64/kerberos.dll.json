@@ -12,16 +12,28 @@
   "Machine": "AMD64",
   "exports": [
     {
+      "ordinal": 1,
+      "name": "SpInitialize"
+    },
+    {
+      "ordinal": 2,
+      "name": "KerbDomainChangeCallback"
+    },
+    {
+      "ordinal": 3,
+      "name": "SpLsaModeInitialize"
+    },
+    {
+      "ordinal": 4,
+      "name": "SpUserModeInitialize"
+    },
+    {
       "ordinal": 5,
       "name": "DllMain"
     },
     {
       "ordinal": 6,
       "name": "KerbCreateTokenFromTicket"
-    },
-    {
-      "ordinal": 2,
-      "name": "KerbDomainChangeCallback"
     },
     {
       "ordinal": 7,
@@ -36,20 +48,8 @@
       "name": "KerbMakeKdcCall"
     },
     {
-      "ordinal": 1,
-      "name": "SpInitialize"
-    },
-    {
       "ordinal": 32,
       "name": "SpInstanceInit"
-    },
-    {
-      "ordinal": 3,
-      "name": "SpLsaModeInitialize"
-    },
-    {
-      "ordinal": 4,
-      "name": "SpUserModeInitialize"
     }
   ]
 }

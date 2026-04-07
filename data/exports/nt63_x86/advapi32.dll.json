@@ -12,6 +12,14 @@
   "Machine": "I386",
   "exports": [
     {
+      "ordinal": 1000,
+      "name": null
+    },
+    {
+      "ordinal": 1001,
+      "name": "I_ScGetCurrentGroupStateW"
+    },
+    {
       "ordinal": 1002,
       "name": "A_SHAFinal",
       "forwarder": "NTDLL.A_SHAFinal"
@@ -1065,12 +1073,12 @@
       "name": "EnableTrace"
     },
     {
-      "ordinal": 1265,
-      "name": "EnableTraceEx"
-    },
-    {
       "ordinal": 1264,
       "name": "EnableTraceEx2"
+    },
+    {
+      "ordinal": 1265,
+      "name": "EnableTraceEx"
     },
     {
       "ordinal": 1266,
@@ -1557,10 +1565,6 @@
       "forwarder": "api-ms-win-service-private-l1-1-0.I_QueryTagInformation"
     },
     {
-      "ordinal": 1001,
-      "name": "I_ScGetCurrentGroupStateW"
-    },
-    {
       "ordinal": 1383,
       "name": "I_ScIsSecurityProcess",
       "forwarder": "api-ms-win-service-private-l1-1-0.I_ScIsSecurityProcess"
@@ -1876,12 +1880,12 @@
       "name": "LsaICLookupSidsWithCreds"
     },
     {
-      "ordinal": 1461,
-      "name": "LsaLookupNames"
-    },
-    {
       "ordinal": 1460,
       "name": "LsaLookupNames2"
+    },
+    {
+      "ordinal": 1461,
+      "name": "LsaLookupNames"
     },
     {
       "ordinal": 1462,
@@ -1896,12 +1900,12 @@
       "name": "LsaLookupPrivilegeValue"
     },
     {
-      "ordinal": 1466,
-      "name": "LsaLookupSids"
-    },
-    {
       "ordinal": 1465,
       "name": "LsaLookupSids2"
+    },
+    {
+      "ordinal": 1466,
+      "name": "LsaLookupSids"
     },
     {
       "ordinal": 1467,
@@ -2066,20 +2070,20 @@
       "name": "MIDL_user_free_Ext"
     },
     {
-      "ordinal": 1507,
-      "name": "MSChapSrvChangePassword"
-    },
-    {
       "ordinal": 1506,
       "name": "MSChapSrvChangePassword2"
     },
     {
-      "ordinal": 1509,
-      "name": "MakeAbsoluteSD"
+      "ordinal": 1507,
+      "name": "MSChapSrvChangePassword"
     },
     {
       "ordinal": 1508,
       "name": "MakeAbsoluteSD2"
+    },
+    {
+      "ordinal": 1509,
+      "name": "MakeAbsoluteSD"
     },
     {
       "ordinal": 1510,
@@ -3496,10 +3500,6 @@
     {
       "ordinal": 1848,
       "name": "WriteEncryptedFileRaw"
-    },
-    {
-      "ordinal": 1000,
-      "name": null
     }
   ]
 }

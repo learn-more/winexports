@@ -12,6 +12,50 @@
   "Machine": "I386",
   "exports": [
     {
+      "ordinal": 1,
+      "name": "I_RpcFwThisIsTheManager"
+    },
+    {
+      "ordinal": 2,
+      "name": "I_RpcInitHttpImports"
+    },
+    {
+      "ordinal": 3,
+      "name": "I_RpcOpenClientProcess"
+    },
+    {
+      "ordinal": 4,
+      "name": "I_RpcServerTurnOnOffKeepalives"
+    },
+    {
+      "ordinal": 5,
+      "name": "I_RpcVerifierCorruptionExpected"
+    },
+    {
+      "ordinal": 6,
+      "name": "NdrFullPointerFree"
+    },
+    {
+      "ordinal": 7,
+      "name": "NdrFullPointerInsertRefId"
+    },
+    {
+      "ordinal": 8,
+      "name": "NdrFullPointerQueryPointer"
+    },
+    {
+      "ordinal": 9,
+      "name": "NdrFullPointerQueryRefId"
+    },
+    {
+      "ordinal": 10,
+      "name": "NdrGetBaseInterfaceFromStub"
+    },
+    {
+      "ordinal": 11,
+      "name": "RpcCertMatchPrincipalName"
+    },
+    {
       "ordinal": 12,
       "name": "CStdStubBuffer_AddRef"
     },
@@ -205,10 +249,6 @@
       "name": "I_RpcFreePipeBuffer"
     },
     {
-      "ordinal": 1,
-      "name": "I_RpcFwThisIsTheManager"
-    },
-    {
       "ordinal": 60,
       "name": "I_RpcGetBuffer"
     },
@@ -231,10 +271,6 @@
     {
       "ordinal": 65,
       "name": "I_RpcIfInqTransferSyntaxes"
-    },
-    {
-      "ordinal": 2,
-      "name": "I_RpcInitHttpImports"
     },
     {
       "ordinal": 66,
@@ -280,10 +316,6 @@
     {
       "ordinal": 76,
       "name": "I_RpcNsInterfaceUnexported"
-    },
-    {
-      "ordinal": 3,
-      "name": "I_RpcOpenClientProcess"
     },
     {
       "ordinal": 77,
@@ -362,10 +394,6 @@
       "name": "I_RpcServerStartService"
     },
     {
-      "ordinal": 4,
-      "name": "I_RpcServerTurnOnOffKeepalives"
-    },
-    {
       "ordinal": 96,
       "name": "I_RpcServerUseProtseq2A"
     },
@@ -410,12 +438,12 @@
       "name": "I_RpcTransConnectionReallocPacket"
     },
     {
-      "ordinal": 108,
-      "name": "I_RpcTransDatagramAllocate"
-    },
-    {
       "ordinal": 107,
       "name": "I_RpcTransDatagramAllocate2"
+    },
+    {
+      "ordinal": 108,
+      "name": "I_RpcTransDatagramAllocate"
     },
     {
       "ordinal": 109,
@@ -440,10 +468,6 @@
     {
       "ordinal": 114,
       "name": "I_RpcTurnOnEEInfoPropagation"
-    },
-    {
-      "ordinal": 5,
-      "name": "I_RpcVerifierCorruptionExpected"
     },
     {
       "ordinal": 115,
@@ -506,24 +530,24 @@
       "name": "NDRCContextUnmarshall"
     },
     {
-      "ordinal": 131,
-      "name": "NDRSContextMarshall"
-    },
-    {
       "ordinal": 130,
       "name": "NDRSContextMarshall2"
+    },
+    {
+      "ordinal": 131,
+      "name": "NDRSContextMarshall"
     },
     {
       "ordinal": 132,
       "name": "NDRSContextMarshallEx"
     },
     {
-      "ordinal": 134,
-      "name": "NDRSContextUnmarshall"
-    },
-    {
       "ordinal": 133,
       "name": "NDRSContextUnmarshall2"
+    },
+    {
+      "ordinal": 134,
+      "name": "NDRSContextUnmarshall"
     },
     {
       "ordinal": 135,
@@ -742,12 +766,12 @@
       "name": "NdrContextHandleSize"
     },
     {
-      "ordinal": 190,
-      "name": "NdrConvert"
-    },
-    {
       "ordinal": 189,
       "name": "NdrConvert2"
+    },
+    {
+      "ordinal": 190,
+      "name": "NdrConvert"
     },
     {
       "ordinal": 191,
@@ -834,32 +858,12 @@
       "name": "NdrFreeBuffer"
     },
     {
-      "ordinal": 6,
-      "name": "NdrFullPointerFree"
-    },
-    {
-      "ordinal": 7,
-      "name": "NdrFullPointerInsertRefId"
-    },
-    {
-      "ordinal": 8,
-      "name": "NdrFullPointerQueryPointer"
-    },
-    {
-      "ordinal": 9,
-      "name": "NdrFullPointerQueryRefId"
-    },
-    {
       "ordinal": 212,
       "name": "NdrFullPointerXlatFree"
     },
     {
       "ordinal": 213,
       "name": "NdrFullPointerXlatInit"
-    },
-    {
-      "ordinal": 10,
-      "name": "NdrGetBaseInterfaceFromStub"
     },
     {
       "ordinal": 214,
@@ -934,28 +938,28 @@
       "name": "NdrMesSimpleTypeEncode"
     },
     {
-      "ordinal": 233,
-      "name": "NdrMesTypeAlignSize"
-    },
-    {
       "ordinal": 232,
       "name": "NdrMesTypeAlignSize2"
     },
     {
-      "ordinal": 235,
-      "name": "NdrMesTypeDecode"
+      "ordinal": 233,
+      "name": "NdrMesTypeAlignSize"
     },
     {
       "ordinal": 234,
       "name": "NdrMesTypeDecode2"
     },
     {
-      "ordinal": 237,
-      "name": "NdrMesTypeEncode"
+      "ordinal": 235,
+      "name": "NdrMesTypeDecode"
     },
     {
       "ordinal": 236,
       "name": "NdrMesTypeEncode2"
+    },
+    {
+      "ordinal": 237,
+      "name": "NdrMesTypeEncode"
     },
     {
       "ordinal": 238,
@@ -1110,12 +1114,12 @@
       "name": "NdrSendReceive"
     },
     {
-      "ordinal": 277,
-      "name": "NdrServerCall"
-    },
-    {
       "ordinal": 276,
       "name": "NdrServerCall2"
+    },
+    {
+      "ordinal": 277,
+      "name": "NdrServerCall"
     },
     {
       "ordinal": 278,
@@ -1190,12 +1194,12 @@
       "name": "NdrSimpleTypeUnmarshall"
     },
     {
-      "ordinal": 297,
-      "name": "NdrStubCall"
-    },
-    {
       "ordinal": 296,
       "name": "NdrStubCall2"
+    },
+    {
+      "ordinal": 297,
+      "name": "NdrStubCall"
     },
     {
       "ordinal": 298,
@@ -1494,10 +1498,6 @@
       "name": "RpcCertGeneratePrincipalNameW"
     },
     {
-      "ordinal": 11,
-      "name": "RpcCertMatchPrincipalName"
-    },
-    {
       "ordinal": 372,
       "name": "RpcEpRegisterA"
     },
@@ -1762,12 +1762,12 @@
       "name": "RpcServerRegisterAuthInfoW"
     },
     {
-      "ordinal": 439,
-      "name": "RpcServerRegisterIf"
-    },
-    {
       "ordinal": 438,
       "name": "RpcServerRegisterIf2"
+    },
+    {
+      "ordinal": 439,
+      "name": "RpcServerRegisterIf"
     },
     {
       "ordinal": 440,

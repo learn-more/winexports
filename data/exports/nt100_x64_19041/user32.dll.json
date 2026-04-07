@@ -12,6 +12,14 @@
   "Machine": "AMD64",
   "exports": [
     {
+      "ordinal": 1502,
+      "name": null
+    },
+    {
+      "ordinal": 1503,
+      "name": "GetPointerFrameArrivalTimes"
+    },
+    {
       "ordinal": 1504,
       "name": "ActivateKeyboardLayout"
     },
@@ -194,6 +202,26 @@
     {
       "ordinal": 1549,
       "name": "ChangeWindowMessageFilterEx"
+    },
+    {
+      "ordinal": 1550,
+      "name": null
+    },
+    {
+      "ordinal": 1551,
+      "name": null
+    },
+    {
+      "ordinal": 1552,
+      "name": null
+    },
+    {
+      "ordinal": 1553,
+      "name": "DwmGetDxRgn"
+    },
+    {
+      "ordinal": 1554,
+      "name": null
     },
     {
       "ordinal": 1555,
@@ -696,10 +724,6 @@
       "name": "DeferWindowPosAndBand"
     },
     {
-      "ordinal": 2503,
-      "name": "DelegateInput"
-    },
-    {
       "ordinal": 1679,
       "name": "DeleteMenu"
     },
@@ -906,10 +930,6 @@
     {
       "ordinal": 1730,
       "name": "DrawTextW"
-    },
-    {
-      "ordinal": 1553,
-      "name": "DwmGetDxRgn"
     },
     {
       "ordinal": 1731,
@@ -1656,10 +1676,6 @@
       "name": "GetPointerDevices"
     },
     {
-      "ordinal": 1503,
-      "name": "GetPointerFrameArrivalTimes"
-    },
-    {
       "ordinal": 1917,
       "name": "GetPointerFrameInfo"
     },
@@ -1730,10 +1746,6 @@
     {
       "ordinal": 1934,
       "name": "GetProcessDpiAwarenessInternal"
-    },
-    {
-      "ordinal": 2521,
-      "name": "GetProcessUIContextInformation"
     },
     {
       "ordinal": 1935,
@@ -2000,12 +2012,24 @@
       "name": "GetWindowProcessHandle"
     },
     {
+      "ordinal": 2001,
+      "name": null
+    },
+    {
+      "ordinal": 2002,
+      "name": null
+    },
+    {
       "ordinal": 2003,
       "name": "GetWindowRect"
     },
     {
       "ordinal": 2004,
       "name": "GetWindowRgn"
+    },
+    {
+      "ordinal": 2005,
+      "name": null
     },
     {
       "ordinal": 2006,
@@ -2022,6 +2046,10 @@
     {
       "ordinal": 2009,
       "name": "GetWindowTextLengthA"
+    },
+    {
+      "ordinal": 2010,
+      "name": null
     },
     {
       "ordinal": 2011,
@@ -2050,10 +2078,6 @@
     {
       "ordinal": 2017,
       "name": "GrayStringW"
-    },
-    {
-      "ordinal": 2505,
-      "name": "HandleDelegatedInput"
     },
     {
       "ordinal": 2018,
@@ -2322,10 +2346,6 @@
     {
       "ordinal": 2084,
       "name": "IsThreadDesktopComposited"
-    },
-    {
-      "ordinal": 2528,
-      "name": "IsThreadMessageQueueAttached"
     },
     {
       "ordinal": 2085,
@@ -3112,10 +3132,6 @@
       "name": "ReplyMessage"
     },
     {
-      "ordinal": 2551,
-      "name": "ReportInertia"
-    },
-    {
       "ordinal": 2281,
       "name": "ResolveDesktopForWOW"
     },
@@ -3242,10 +3258,6 @@
     {
       "ordinal": 2312,
       "name": "SetCoalescableTimer"
-    },
-    {
-      "ordinal": 2571,
-      "name": "SetCoreWindow"
     },
     {
       "ordinal": 2313,
@@ -3788,10 +3800,6 @@
       "name": "TranslateMessageEx"
     },
     {
-      "ordinal": 2504,
-      "name": "UndelegateInput"
-    },
-    {
       "ordinal": 2448,
       "name": "UnhookWinEvent"
     },
@@ -4012,64 +4020,16 @@
       "name": "gapfnScSendMessage"
     },
     {
-      "ordinal": 2543,
-      "name": "keybd_event"
+      "ordinal": 2503,
+      "name": "DelegateInput"
     },
     {
-      "ordinal": 2547,
-      "name": "mouse_event"
+      "ordinal": 2504,
+      "name": "UndelegateInput"
     },
     {
-      "ordinal": 2562,
-      "name": "wsprintfA"
-    },
-    {
-      "ordinal": 2580,
-      "name": "wsprintfW"
-    },
-    {
-      "ordinal": 2583,
-      "name": "wvsprintfA"
-    },
-    {
-      "ordinal": 2596,
-      "name": "wvsprintfW"
-    },
-    {
-      "ordinal": 1502,
-      "name": null
-    },
-    {
-      "ordinal": 1550,
-      "name": null
-    },
-    {
-      "ordinal": 1551,
-      "name": null
-    },
-    {
-      "ordinal": 1552,
-      "name": null
-    },
-    {
-      "ordinal": 1554,
-      "name": null
-    },
-    {
-      "ordinal": 2001,
-      "name": null
-    },
-    {
-      "ordinal": 2002,
-      "name": null
-    },
-    {
-      "ordinal": 2005,
-      "name": null
-    },
-    {
-      "ordinal": 2010,
-      "name": null
+      "ordinal": 2505,
+      "name": "HandleDelegatedInput"
     },
     {
       "ordinal": 2506,
@@ -4132,6 +4092,10 @@
       "name": null
     },
     {
+      "ordinal": 2521,
+      "name": "GetProcessUIContextInformation"
+    },
+    {
       "ordinal": 2522,
       "name": null
     },
@@ -4154,6 +4118,10 @@
     {
       "ordinal": 2527,
       "name": null
+    },
+    {
+      "ordinal": 2528,
+      "name": "IsThreadMessageQueueAttached"
     },
     {
       "ordinal": 2529,
@@ -4212,6 +4180,10 @@
       "name": null
     },
     {
+      "ordinal": 2543,
+      "name": "keybd_event"
+    },
+    {
       "ordinal": 2544,
       "name": null
     },
@@ -4224,6 +4196,10 @@
       "name": null
     },
     {
+      "ordinal": 2547,
+      "name": "mouse_event"
+    },
+    {
       "ordinal": 2548,
       "name": null
     },
@@ -4234,6 +4210,10 @@
     {
       "ordinal": 2550,
       "name": null
+    },
+    {
+      "ordinal": 2551,
+      "name": "ReportInertia"
     },
     {
       "ordinal": 2552,
@@ -4276,6 +4256,10 @@
       "name": null
     },
     {
+      "ordinal": 2562,
+      "name": "wsprintfA"
+    },
+    {
       "ordinal": 2563,
       "name": null
     },
@@ -4306,6 +4290,10 @@
     {
       "ordinal": 2570,
       "name": null
+    },
+    {
+      "ordinal": 2571,
+      "name": "SetCoreWindow"
     },
     {
       "ordinal": 2572,
@@ -4340,12 +4328,20 @@
       "name": null
     },
     {
+      "ordinal": 2580,
+      "name": "wsprintfW"
+    },
+    {
       "ordinal": 2581,
       "name": null
     },
     {
       "ordinal": 2582,
       "name": null
+    },
+    {
+      "ordinal": 2583,
+      "name": "wvsprintfA"
     },
     {
       "ordinal": 2584,
@@ -4394,6 +4390,10 @@
     {
       "ordinal": 2595,
       "name": null
+    },
+    {
+      "ordinal": 2596,
+      "name": "wvsprintfW"
     },
     {
       "ordinal": 2597,

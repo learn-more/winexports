@@ -12,140 +12,68 @@
   "Machine": "I386",
   "exports": [
     {
-      "ordinal": 222,
-      "name": "SnmpCancelMsg"
+      "ordinal": 100,
+      "name": "SnmpGetTranslateMode"
     },
     {
-      "ordinal": 201,
-      "name": "SnmpCleanup"
-    },
-    {
-      "ordinal": 292,
-      "name": "SnmpCleanupEx"
-    },
-    {
-      "ordinal": 203,
-      "name": "SnmpClose"
-    },
-    {
-      "ordinal": 401,
-      "name": "SnmpContextToStr"
-    },
-    {
-      "ordinal": 603,
-      "name": "SnmpCountVbl"
-    },
-    {
-      "ordinal": 500,
-      "name": "SnmpCreatePdu"
-    },
-    {
-      "ordinal": 220,
-      "name": "SnmpCreateSession"
-    },
-    {
-      "ordinal": 600,
-      "name": "SnmpCreateVbl"
-    },
-    {
-      "ordinal": 902,
-      "name": "SnmpDecodeMsg"
-    },
-    {
-      "ordinal": 606,
-      "name": "SnmpDeleteVb"
-    },
-    {
-      "ordinal": 503,
-      "name": "SnmpDuplicatePdu"
-    },
-    {
-      "ordinal": 601,
-      "name": "SnmpDuplicateVbl"
-    },
-    {
-      "ordinal": 901,
-      "name": "SnmpEncodeMsg"
-    },
-    {
-      "ordinal": 301,
-      "name": "SnmpEntityToStr"
-    },
-    {
-      "ordinal": 402,
-      "name": "SnmpFreeContext"
-    },
-    {
-      "ordinal": 900,
-      "name": "SnmpFreeDescriptor"
-    },
-    {
-      "ordinal": 302,
-      "name": "SnmpFreeEntity"
-    },
-    {
-      "ordinal": 504,
-      "name": "SnmpFreePdu"
-    },
-    {
-      "ordinal": 602,
-      "name": "SnmpFreeVbl"
-    },
-    {
-      "ordinal": 999,
-      "name": "SnmpGetLastError"
-    },
-    {
-      "ordinal": 501,
-      "name": "SnmpGetPduData"
+      "ordinal": 101,
+      "name": "SnmpSetTranslateMode"
     },
     {
       "ordinal": 102,
       "name": "SnmpGetRetransmitMode"
     },
     {
-      "ordinal": 106,
-      "name": "SnmpGetRetry"
+      "ordinal": 103,
+      "name": "SnmpSetRetransmitMode"
     },
     {
       "ordinal": 104,
       "name": "SnmpGetTimeout"
     },
     {
-      "ordinal": 100,
-      "name": "SnmpGetTranslateMode"
+      "ordinal": 105,
+      "name": "SnmpSetTimeout"
     },
     {
-      "ordinal": 604,
-      "name": "SnmpGetVb"
+      "ordinal": 106,
+      "name": "SnmpGetRetry"
+    },
+    {
+      "ordinal": 107,
+      "name": "SnmpSetRetry"
+    },
+    {
+      "ordinal": 108,
+      "name": "_SnmpConveyAgentAddress@4"
+    },
+    {
+      "ordinal": 109,
+      "name": "_SnmpSetAgentAddress@4"
     },
     {
       "ordinal": 120,
       "name": "SnmpGetVendorInfo"
     },
     {
-      "ordinal": 221,
-      "name": "SnmpListen"
+      "ordinal": 200,
+      "name": "SnmpStartup"
     },
     {
-      "ordinal": 293,
-      "name": "SnmpListenEx"
-    },
-    {
-      "ordinal": 906,
-      "name": "SnmpOidCompare"
-    },
-    {
-      "ordinal": 905,
-      "name": "SnmpOidCopy"
-    },
-    {
-      "ordinal": 904,
-      "name": "SnmpOidToStr"
+      "ordinal": 201,
+      "name": "SnmpCleanup"
     },
     {
       "ordinal": 202,
       "name": "SnmpOpen"
+    },
+    {
+      "ordinal": 203,
+      "name": "SnmpClose"
+    },
+    {
+      "ordinal": 204,
+      "name": "SnmpSendMsg"
     },
     {
       "ordinal": 205,
@@ -156,64 +84,136 @@
       "name": "SnmpRegister"
     },
     {
-      "ordinal": 204,
-      "name": "SnmpSendMsg"
+      "ordinal": 220,
+      "name": "SnmpCreateSession"
     },
     {
-      "ordinal": 502,
-      "name": "SnmpSetPduData"
+      "ordinal": 221,
+      "name": "SnmpListen"
     },
     {
-      "ordinal": 320,
-      "name": "SnmpSetPort"
-    },
-    {
-      "ordinal": 103,
-      "name": "SnmpSetRetransmitMode"
-    },
-    {
-      "ordinal": 107,
-      "name": "SnmpSetRetry"
-    },
-    {
-      "ordinal": 105,
-      "name": "SnmpSetTimeout"
-    },
-    {
-      "ordinal": 101,
-      "name": "SnmpSetTranslateMode"
-    },
-    {
-      "ordinal": 605,
-      "name": "SnmpSetVb"
-    },
-    {
-      "ordinal": 200,
-      "name": "SnmpStartup"
+      "ordinal": 222,
+      "name": "SnmpCancelMsg"
     },
     {
       "ordinal": 291,
       "name": "SnmpStartupEx"
     },
     {
-      "ordinal": 400,
-      "name": "SnmpStrToContext"
+      "ordinal": 292,
+      "name": "SnmpCleanupEx"
+    },
+    {
+      "ordinal": 293,
+      "name": "SnmpListenEx"
     },
     {
       "ordinal": 300,
       "name": "SnmpStrToEntity"
     },
     {
+      "ordinal": 301,
+      "name": "SnmpEntityToStr"
+    },
+    {
+      "ordinal": 302,
+      "name": "SnmpFreeEntity"
+    },
+    {
+      "ordinal": 320,
+      "name": "SnmpSetPort"
+    },
+    {
+      "ordinal": 400,
+      "name": "SnmpStrToContext"
+    },
+    {
+      "ordinal": 401,
+      "name": "SnmpContextToStr"
+    },
+    {
+      "ordinal": 402,
+      "name": "SnmpFreeContext"
+    },
+    {
+      "ordinal": 500,
+      "name": "SnmpCreatePdu"
+    },
+    {
+      "ordinal": 501,
+      "name": "SnmpGetPduData"
+    },
+    {
+      "ordinal": 502,
+      "name": "SnmpSetPduData"
+    },
+    {
+      "ordinal": 503,
+      "name": "SnmpDuplicatePdu"
+    },
+    {
+      "ordinal": 504,
+      "name": "SnmpFreePdu"
+    },
+    {
+      "ordinal": 600,
+      "name": "SnmpCreateVbl"
+    },
+    {
+      "ordinal": 601,
+      "name": "SnmpDuplicateVbl"
+    },
+    {
+      "ordinal": 602,
+      "name": "SnmpFreeVbl"
+    },
+    {
+      "ordinal": 603,
+      "name": "SnmpCountVbl"
+    },
+    {
+      "ordinal": 604,
+      "name": "SnmpGetVb"
+    },
+    {
+      "ordinal": 605,
+      "name": "SnmpSetVb"
+    },
+    {
+      "ordinal": 606,
+      "name": "SnmpDeleteVb"
+    },
+    {
+      "ordinal": 900,
+      "name": "SnmpFreeDescriptor"
+    },
+    {
+      "ordinal": 901,
+      "name": "SnmpEncodeMsg"
+    },
+    {
+      "ordinal": 902,
+      "name": "SnmpDecodeMsg"
+    },
+    {
       "ordinal": 903,
       "name": "SnmpStrToOid"
     },
     {
-      "ordinal": 108,
-      "name": "_SnmpConveyAgentAddress@4"
+      "ordinal": 904,
+      "name": "SnmpOidToStr"
     },
     {
-      "ordinal": 109,
-      "name": "_SnmpSetAgentAddress@4"
+      "ordinal": 905,
+      "name": "SnmpOidCopy"
+    },
+    {
+      "ordinal": 906,
+      "name": "SnmpOidCompare"
+    },
+    {
+      "ordinal": 999,
+      "name": "SnmpGetLastError"
     }
   ]
 }

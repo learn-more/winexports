@@ -12,6 +12,36 @@
   "Machine": "AMD64",
   "exports": [
     {
+      "ordinal": 1,
+      "name": "GenericChainCertificateTrust",
+      "forwarder": "Wintrust.GenericChainCertificateTrust"
+    },
+    {
+      "ordinal": 2,
+      "name": "GenericChainFinalProv",
+      "forwarder": "Wintrust.GenericChainFinalProv"
+    },
+    {
+      "ordinal": 3,
+      "name": "HTTPSCertificateTrust",
+      "forwarder": "Wintrust.HTTPSCertificateTrust"
+    },
+    {
+      "ordinal": 4,
+      "name": "SoftpubDefCertInit",
+      "forwarder": "Wintrust.SoftpubDefCertInit"
+    },
+    {
+      "ordinal": 5,
+      "name": "SoftpubFreeDefUsageCallData",
+      "forwarder": "Wintrust.SoftpubFreeDefUsageCallData"
+    },
+    {
+      "ordinal": 6,
+      "name": "SoftpubLoadDefUsageCallData",
+      "forwarder": "Wintrust.SoftpubLoadDefUsageCallData"
+    },
+    {
       "ordinal": 7,
       "name": "AddPersonalTrustDBPages",
       "forwarder": "Wintrust.AddPersonalTrustDBPages"
@@ -45,21 +75,6 @@
       "ordinal": 13,
       "name": "FindCertsByIssuer",
       "forwarder": "Wintrust.FindCertsByIssuer"
-    },
-    {
-      "ordinal": 1,
-      "name": "GenericChainCertificateTrust",
-      "forwarder": "Wintrust.GenericChainCertificateTrust"
-    },
-    {
-      "ordinal": 2,
-      "name": "GenericChainFinalProv",
-      "forwarder": "Wintrust.GenericChainFinalProv"
-    },
-    {
-      "ordinal": 3,
-      "name": "HTTPSCertificateTrust",
-      "forwarder": "Wintrust.HTTPSCertificateTrust"
     },
     {
       "ordinal": 14,
@@ -97,29 +112,14 @@
       "forwarder": "Wintrust.SoftpubCleanup"
     },
     {
-      "ordinal": 4,
-      "name": "SoftpubDefCertInit",
-      "forwarder": "Wintrust.SoftpubDefCertInit"
-    },
-    {
       "ordinal": 21,
       "name": "SoftpubDumpStructure",
       "forwarder": "Wintrust.SoftpubDumpStructure"
     },
     {
-      "ordinal": 5,
-      "name": "SoftpubFreeDefUsageCallData",
-      "forwarder": "Wintrust.SoftpubFreeDefUsageCallData"
-    },
-    {
       "ordinal": 22,
       "name": "SoftpubInitialize",
       "forwarder": "Wintrust.SoftpubInitialize"
-    },
-    {
-      "ordinal": 6,
-      "name": "SoftpubLoadDefUsageCallData",
-      "forwarder": "Wintrust.SoftpubLoadDefUsageCallData"
     },
     {
       "ordinal": 23,

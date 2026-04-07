@@ -12,6 +12,42 @@
   "Machine": "AMD64",
   "exports": [
     {
+      "ordinal": 1,
+      "name": "RemoveRelocations"
+    },
+    {
+      "ordinal": 2,
+      "name": "SymAllocDiaString"
+    },
+    {
+      "ordinal": 3,
+      "name": "SymFreeDiaString"
+    },
+    {
+      "ordinal": 4,
+      "name": "SymGetDiaSession"
+    },
+    {
+      "ordinal": 5,
+      "name": "SymGetDiaSource"
+    },
+    {
+      "ordinal": 6,
+      "name": "SymRegisterGetSourcePathPartCallback"
+    },
+    {
+      "ordinal": 7,
+      "name": "SymRegisterSourceFileUrlListCallback"
+    },
+    {
+      "ordinal": 8,
+      "name": "SymSetDiaSession"
+    },
+    {
+      "ordinal": 9,
+      "name": "SymSetServiceManager"
+    },
+    {
       "ordinal": 10,
       "name": "BindImage"
     },
@@ -188,10 +224,6 @@
       "name": "RemovePrivateCvSymbolicEx"
     },
     {
-      "ordinal": 1,
-      "name": "RemoveRelocations"
-    },
-    {
       "ordinal": 54,
       "name": "ReportSymbolLoadSummary"
     },
@@ -234,10 +266,6 @@
     {
       "ordinal": 64,
       "name": "SymAddrIncludeInlineTrace"
-    },
-    {
-      "ordinal": 2,
-      "name": "SymAllocDiaString"
     },
     {
       "ordinal": 65,
@@ -316,10 +344,6 @@
       "name": "SymFindFileInPathW"
     },
     {
-      "ordinal": 3,
-      "name": "SymFreeDiaString"
-    },
-    {
       "ordinal": 84,
       "name": "SymFromAddr"
     },
@@ -346,14 +370,6 @@
     {
       "ordinal": 90,
       "name": "SymFunctionTableAccess64AccessRoutines"
-    },
-    {
-      "ordinal": 4,
-      "name": "SymGetDiaSession"
-    },
-    {
-      "ordinal": 5,
-      "name": "SymGetDiaSource"
     },
     {
       "ordinal": 91,
@@ -576,20 +592,8 @@
       "name": "SymRegisterFunctionEntryCallback64"
     },
     {
-      "ordinal": 6,
-      "name": "SymRegisterGetSourcePathPartCallback"
-    },
-    {
-      "ordinal": 7,
-      "name": "SymRegisterSourceFileUrlListCallback"
-    },
-    {
       "ordinal": 146,
       "name": "SymSetContext"
-    },
-    {
-      "ordinal": 8,
-      "name": "SymSetDiaSession"
     },
     {
       "ordinal": 147,
@@ -614,10 +618,6 @@
     {
       "ordinal": 152,
       "name": "SymSetSearchPath"
-    },
-    {
-      "ordinal": 9,
-      "name": "SymSetServiceManager"
     },
     {
       "ordinal": 153,

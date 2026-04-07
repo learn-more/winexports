@@ -12,42 +12,6 @@
   "Machine": "I386",
   "exports": [
     {
-      "ordinal": 91,
-      "name": "WerAddExcludedApplication"
-    },
-    {
-      "ordinal": 92,
-      "name": "WerRemoveExcludedApplication"
-    },
-    {
-      "ordinal": 93,
-      "name": "WerReportAddDump"
-    },
-    {
-      "ordinal": 94,
-      "name": "WerReportAddFile"
-    },
-    {
-      "ordinal": 95,
-      "name": "WerReportCloseHandle"
-    },
-    {
-      "ordinal": 96,
-      "name": "WerReportCreate"
-    },
-    {
-      "ordinal": 97,
-      "name": "WerReportSetParameter"
-    },
-    {
-      "ordinal": 98,
-      "name": "WerReportSetUIOption"
-    },
-    {
-      "ordinal": 99,
-      "name": "WerReportSubmit"
-    },
-    {
       "ordinal": 1,
       "name": "WerSysprepCleanup"
     },
@@ -68,18 +32,6 @@
       "name": "WerpAddAppCompatData"
     },
     {
-      "ordinal": 100,
-      "name": "WerpAddFile"
-    },
-    {
-      "ordinal": 101,
-      "name": "WerpAddFileBuffer"
-    },
-    {
-      "ordinal": 102,
-      "name": "WerpAddFileCallback"
-    },
-    {
       "ordinal": 6,
       "name": "WerpAddMemoryBlock"
     },
@@ -92,34 +44,6 @@
       "name": "WerpArchiveReport"
     },
     {
-      "ordinal": 103,
-      "name": "WerpAuxmdDumpProcessImages"
-    },
-    {
-      "ordinal": 104,
-      "name": "WerpAuxmdDumpRegisteredBlocks"
-    },
-    {
-      "ordinal": 105,
-      "name": "WerpAuxmdFree"
-    },
-    {
-      "ordinal": 106,
-      "name": "WerpAuxmdFreeCopyBuffer"
-    },
-    {
-      "ordinal": 107,
-      "name": "WerpAuxmdHashVaRanges"
-    },
-    {
-      "ordinal": 108,
-      "name": "WerpAuxmdInitialize"
-    },
-    {
-      "ordinal": 109,
-      "name": "WerpAuxmdMapFile"
-    },
-    {
       "ordinal": 9,
       "name": "WerpCancelResponseDownload"
     },
@@ -130,10 +54,6 @@
     {
       "ordinal": 11,
       "name": "WerpCloseStore"
-    },
-    {
-      "ordinal": 110,
-      "name": "WerpCreateIntegratorReportId"
     },
     {
       "ordinal": 12,
@@ -154,10 +74,6 @@
     {
       "ordinal": 16,
       "name": "WerpDownloadResponse"
-    },
-    {
-      "ordinal": 111,
-      "name": "WerpDownloadResponseOnly"
     },
     {
       "ordinal": 17,
@@ -182,10 +98,6 @@
     {
       "ordinal": 22,
       "name": "WerpForceDeferredCollection"
-    },
-    {
-      "ordinal": 112,
-      "name": "WerpFreeString"
     },
     {
       "ordinal": 23,
@@ -216,10 +128,6 @@
       "name": "WerpGetFilePathByIndex"
     },
     {
-      "ordinal": 113,
-      "name": "WerpGetIntegratorReportId"
-    },
-    {
       "ordinal": 30,
       "name": "WerpGetLegacyBucketId"
     },
@@ -238,10 +146,6 @@
     {
       "ordinal": 34,
       "name": "WerpGetNumSigParams"
-    },
-    {
-      "ordinal": 114,
-      "name": "WerpGetReportConsent"
     },
     {
       "ordinal": 35,
@@ -280,10 +184,6 @@
       "name": "WerpGetSigParamByIndex"
     },
     {
-      "ordinal": 115,
-      "name": "WerpGetStoreLocation"
-    },
-    {
       "ordinal": 44,
       "name": "WerpGetStorePath"
     },
@@ -320,20 +220,12 @@
       "name": "WerpInitializeImageCache"
     },
     {
-      "ordinal": 116,
-      "name": "WerpIsDisabled"
-    },
-    {
       "ordinal": 53,
       "name": "WerpIsOnBattery"
     },
     {
       "ordinal": 54,
       "name": "WerpIsTransportAvailable"
-    },
-    {
-      "ordinal": 117,
-      "name": "WerpLaunchResponse"
     },
     {
       "ordinal": 55,
@@ -354,10 +246,6 @@
     {
       "ordinal": 59,
       "name": "WerpOpenUserArchive"
-    },
-    {
-      "ordinal": 118,
-      "name": "WerpOpenUserQueue"
     },
     {
       "ordinal": 60,
@@ -388,28 +276,12 @@
       "name": "WerpRestartApplication"
     },
     {
-      "ordinal": 119,
-      "name": "WerpSetAuxiliaryArchivePath"
-    },
-    {
-      "ordinal": 120,
-      "name": "WerpSetCallBack"
-    },
-    {
-      "ordinal": 121,
-      "name": "WerpSetDefaultUserConsent"
-    },
-    {
       "ordinal": 67,
       "name": "WerpSetDynamicParameter"
     },
     {
       "ordinal": 68,
       "name": "WerpSetEventName"
-    },
-    {
-      "ordinal": 122,
-      "name": "WerpSetIntegratorReportId"
     },
     {
       "ordinal": 69,
@@ -498,6 +370,134 @@
     {
       "ordinal": 90,
       "name": "WerpWalkGatherBlocks"
+    },
+    {
+      "ordinal": 91,
+      "name": "WerAddExcludedApplication"
+    },
+    {
+      "ordinal": 92,
+      "name": "WerRemoveExcludedApplication"
+    },
+    {
+      "ordinal": 93,
+      "name": "WerReportAddDump"
+    },
+    {
+      "ordinal": 94,
+      "name": "WerReportAddFile"
+    },
+    {
+      "ordinal": 95,
+      "name": "WerReportCloseHandle"
+    },
+    {
+      "ordinal": 96,
+      "name": "WerReportCreate"
+    },
+    {
+      "ordinal": 97,
+      "name": "WerReportSetParameter"
+    },
+    {
+      "ordinal": 98,
+      "name": "WerReportSetUIOption"
+    },
+    {
+      "ordinal": 99,
+      "name": "WerReportSubmit"
+    },
+    {
+      "ordinal": 100,
+      "name": "WerpAddFile"
+    },
+    {
+      "ordinal": 101,
+      "name": "WerpAddFileBuffer"
+    },
+    {
+      "ordinal": 102,
+      "name": "WerpAddFileCallback"
+    },
+    {
+      "ordinal": 103,
+      "name": "WerpAuxmdDumpProcessImages"
+    },
+    {
+      "ordinal": 104,
+      "name": "WerpAuxmdDumpRegisteredBlocks"
+    },
+    {
+      "ordinal": 105,
+      "name": "WerpAuxmdFree"
+    },
+    {
+      "ordinal": 106,
+      "name": "WerpAuxmdFreeCopyBuffer"
+    },
+    {
+      "ordinal": 107,
+      "name": "WerpAuxmdHashVaRanges"
+    },
+    {
+      "ordinal": 108,
+      "name": "WerpAuxmdInitialize"
+    },
+    {
+      "ordinal": 109,
+      "name": "WerpAuxmdMapFile"
+    },
+    {
+      "ordinal": 110,
+      "name": "WerpCreateIntegratorReportId"
+    },
+    {
+      "ordinal": 111,
+      "name": "WerpDownloadResponseOnly"
+    },
+    {
+      "ordinal": 112,
+      "name": "WerpFreeString"
+    },
+    {
+      "ordinal": 113,
+      "name": "WerpGetIntegratorReportId"
+    },
+    {
+      "ordinal": 114,
+      "name": "WerpGetReportConsent"
+    },
+    {
+      "ordinal": 115,
+      "name": "WerpGetStoreLocation"
+    },
+    {
+      "ordinal": 116,
+      "name": "WerpIsDisabled"
+    },
+    {
+      "ordinal": 117,
+      "name": "WerpLaunchResponse"
+    },
+    {
+      "ordinal": 118,
+      "name": "WerpOpenUserQueue"
+    },
+    {
+      "ordinal": 119,
+      "name": "WerpSetAuxiliaryArchivePath"
+    },
+    {
+      "ordinal": 120,
+      "name": "WerpSetCallBack"
+    },
+    {
+      "ordinal": 121,
+      "name": "WerpSetDefaultUserConsent"
+    },
+    {
+      "ordinal": 122,
+      "name": "WerpSetIntegratorReportId"
     }
   ]
 }

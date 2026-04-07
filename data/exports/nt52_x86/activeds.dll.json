@@ -12,90 +12,32 @@
   "Machine": "I386",
   "exports": [
     {
+      "ordinal": 3,
+      "name": "ADsGetObject"
+    },
+    {
       "ordinal": 4,
       "name": "ADsBuildEnumerator"
-    },
-    {
-      "ordinal": 8,
-      "name": "ADsBuildVarArrayInt"
-    },
-    {
-      "ordinal": 7,
-      "name": "ADsBuildVarArrayStr"
-    },
-    {
-      "ordinal": 24,
-      "name": "ADsDecodeBinaryData",
-      "forwarder": "ADSLDPC.ADsDecodeBinaryData"
-    },
-    {
-      "ordinal": 20,
-      "name": "ADsEncodeBinaryData",
-      "forwarder": "ADSLDPC.ADsEncodeBinaryData"
-    },
-    {
-      "ordinal": 6,
-      "name": "ADsEnumerateNext"
     },
     {
       "ordinal": 5,
       "name": "ADsFreeEnumerator"
     },
     {
-      "ordinal": 13,
-      "name": "ADsGetLastError",
-      "forwarder": "ADSLDPC.ADsGetLastError"
+      "ordinal": 6,
+      "name": "ADsEnumerateNext"
     },
     {
-      "ordinal": 3,
-      "name": "ADsGetObject"
+      "ordinal": 7,
+      "name": "ADsBuildVarArrayStr"
+    },
+    {
+      "ordinal": 8,
+      "name": "ADsBuildVarArrayInt"
     },
     {
       "ordinal": 9,
       "name": "ADsOpenObject"
-    },
-    {
-      "ordinal": 12,
-      "name": "ADsSetLastError",
-      "forwarder": "ADSLDPC.ADsSetLastError"
-    },
-    {
-      "ordinal": 23,
-      "name": "AdsFreeAdsValues"
-    },
-    {
-      "ordinal": 22,
-      "name": "AdsTypeToPropVariant"
-    },
-    {
-      "ordinal": 25,
-      "name": "AdsTypeToPropVariant2"
-    },
-    {
-      "ordinal": 14,
-      "name": "AllocADsMem",
-      "forwarder": "ADSLDPC.AllocADsMem"
-    },
-    {
-      "ordinal": 17,
-      "name": "AllocADsStr",
-      "forwarder": "ADSLDPC.AllocADsStr"
-    },
-    {
-      "ordinal": 29,
-      "name": "BinarySDToSecurityDescriptor"
-    },
-    {
-      "ordinal": 27,
-      "name": "ConvertSecDescriptorToVariant"
-    },
-    {
-      "ordinal": 28,
-      "name": "ConvertSecurityDescriptorToSecDes"
-    },
-    {
-      "ordinal": 31,
-      "name": "ConvertTrusteeToSid"
     },
     {
       "ordinal": 10,
@@ -106,12 +48,19 @@
       "name": "DllGetClassObject"
     },
     {
-      "ordinal": 32,
-      "name": "DllRegisterServer"
+      "ordinal": 12,
+      "name": "ADsSetLastError",
+      "forwarder": "ADSLDPC.ADsSetLastError"
     },
     {
-      "ordinal": 33,
-      "name": "DllUnregisterServer"
+      "ordinal": 13,
+      "name": "ADsGetLastError",
+      "forwarder": "ADSLDPC.ADsGetLastError"
+    },
+    {
+      "ordinal": 14,
+      "name": "AllocADsMem",
+      "forwarder": "ADSLDPC.AllocADsMem"
     },
     {
       "ordinal": 15,
@@ -119,22 +68,19 @@
       "forwarder": "ADSLDPC.FreeADsMem"
     },
     {
-      "ordinal": 18,
-      "name": "FreeADsStr",
-      "forwarder": "ADSLDPC.FreeADsStr"
-    },
-    {
-      "ordinal": 21,
-      "name": "PropVariantToAdsType"
-    },
-    {
-      "ordinal": 26,
-      "name": "PropVariantToAdsType2"
-    },
-    {
       "ordinal": 16,
       "name": "ReallocADsMem",
       "forwarder": "ADSLDPC.ReallocADsMem"
+    },
+    {
+      "ordinal": 17,
+      "name": "AllocADsStr",
+      "forwarder": "ADSLDPC.AllocADsStr"
+    },
+    {
+      "ordinal": 18,
+      "name": "FreeADsStr",
+      "forwarder": "ADSLDPC.FreeADsStr"
     },
     {
       "ordinal": 19,
@@ -142,8 +88,62 @@
       "forwarder": "ADSLDPC.ReallocADsStr"
     },
     {
+      "ordinal": 20,
+      "name": "ADsEncodeBinaryData",
+      "forwarder": "ADSLDPC.ADsEncodeBinaryData"
+    },
+    {
+      "ordinal": 21,
+      "name": "PropVariantToAdsType"
+    },
+    {
+      "ordinal": 22,
+      "name": "AdsTypeToPropVariant"
+    },
+    {
+      "ordinal": 23,
+      "name": "AdsFreeAdsValues"
+    },
+    {
+      "ordinal": 24,
+      "name": "ADsDecodeBinaryData",
+      "forwarder": "ADSLDPC.ADsDecodeBinaryData"
+    },
+    {
+      "ordinal": 25,
+      "name": "AdsTypeToPropVariant2"
+    },
+    {
+      "ordinal": 26,
+      "name": "PropVariantToAdsType2"
+    },
+    {
+      "ordinal": 27,
+      "name": "ConvertSecDescriptorToVariant"
+    },
+    {
+      "ordinal": 28,
+      "name": "ConvertSecurityDescriptorToSecDes"
+    },
+    {
+      "ordinal": 29,
+      "name": "BinarySDToSecurityDescriptor"
+    },
+    {
       "ordinal": 30,
       "name": "SecurityDescriptorToBinarySD"
+    },
+    {
+      "ordinal": 31,
+      "name": "ConvertTrusteeToSid"
+    },
+    {
+      "ordinal": 32,
+      "name": "DllRegisterServer"
+    },
+    {
+      "ordinal": 33,
+      "name": "DllUnregisterServer"
     }
   ]
 }

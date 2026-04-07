@@ -103,7 +103,7 @@ def dump_dlls(input_dir, output_dir, dll_list):
                 continue
             pe.parse_data_directories(directories=dirs)
             if hasattr(pe, 'DIRECTORY_ENTRY_EXPORT'):
-                exports = [grab_export(e) for e in pe.DIRECTORY_ENTRY_EXPORT.symbols]
+                exports = sorted([grab_export(e) for e in pe.DIRECTORY_ENTRY_EXPORT.symbols], key=lambda x: x['ordinal'])
             else:
                 exports = []
             info = PeInfo(pe)

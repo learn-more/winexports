@@ -12,6 +12,50 @@
   "Machine": "I386",
   "exports": [
     {
+      "ordinal": 1,
+      "name": "DnsGetDomainName"
+    },
+    {
+      "ordinal": 2,
+      "name": "DnsIsAMailboxType"
+    },
+    {
+      "ordinal": 3,
+      "name": "DnsIsStatusRcode"
+    },
+    {
+      "ordinal": 4,
+      "name": "DnsMapRcodeToStatus"
+    },
+    {
+      "ordinal": 5,
+      "name": "DnsStatusString"
+    },
+    {
+      "ordinal": 6,
+      "name": "DnsUnicodeToUtf8"
+    },
+    {
+      "ordinal": 7,
+      "name": "DnsUtf8ToUnicode"
+    },
+    {
+      "ordinal": 8,
+      "name": "Dns_ReadPacketName"
+    },
+    {
+      "ordinal": 9,
+      "name": "Dns_ReadPacketNameAllocate"
+    },
+    {
+      "ordinal": 10,
+      "name": "Dns_SkipPacketName"
+    },
+    {
+      "ordinal": 11,
+      "name": "Dns_WriteDottedNameToPacket"
+    },
+    {
       "ordinal": 12,
       "name": "BreakRecordsIntoBlob"
     },
@@ -168,10 +212,6 @@
       "name": "DnsGetDnsServerList"
     },
     {
-      "ordinal": 1,
-      "name": "DnsGetDomainName"
-    },
-    {
       "ordinal": 51,
       "name": "DnsGetLastFailedUpdateInfo"
     },
@@ -192,20 +232,8 @@
       "name": "DnsIpv6StringToAddress"
     },
     {
-      "ordinal": 2,
-      "name": "DnsIsAMailboxType"
-    },
-    {
-      "ordinal": 3,
-      "name": "DnsIsStatusRcode"
-    },
-    {
       "ordinal": 56,
       "name": "DnsIsStringCountValidForTextType"
-    },
-    {
-      "ordinal": 4,
-      "name": "DnsMapRcodeToStatus"
     },
     {
       "ordinal": 57,
@@ -384,16 +412,8 @@
       "name": "DnsSetConfigDword"
     },
     {
-      "ordinal": 5,
-      "name": "DnsStatusString"
-    },
-    {
       "ordinal": 101,
       "name": "DnsStringCopyAllocateEx"
-    },
-    {
-      "ordinal": 6,
-      "name": "DnsUnicodeToUtf8"
     },
     {
       "ordinal": 102,
@@ -410,10 +430,6 @@
     {
       "ordinal": 105,
       "name": "DnsUpdateTest_W"
-    },
-    {
-      "ordinal": 7,
-      "name": "DnsUtf8ToUnicode"
     },
     {
       "ordinal": 106,
@@ -512,14 +528,6 @@
       "name": "Dns_PingAdapterServers"
     },
     {
-      "ordinal": 8,
-      "name": "Dns_ReadPacketName"
-    },
-    {
-      "ordinal": 9,
-      "name": "Dns_ReadPacketNameAllocate"
-    },
-    {
       "ordinal": 130,
       "name": "Dns_ReadRecordStructureFromPacket"
     },
@@ -544,10 +552,6 @@
       "name": "Dns_SetRecordDatalength"
     },
     {
-      "ordinal": 10,
-      "name": "Dns_SkipPacketName"
-    },
-    {
       "ordinal": 136,
       "name": "Dns_SkipToRecord"
     },
@@ -558,10 +562,6 @@
     {
       "ordinal": 138,
       "name": "Dns_UpdateLibEx"
-    },
-    {
-      "ordinal": 11,
-      "name": "Dns_WriteDottedNameToPacket"
     },
     {
       "ordinal": 139,

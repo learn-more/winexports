@@ -12,16 +12,60 @@
   "Machine": "AMD64",
   "exports": [
     {
+      "ordinal": 1,
+      "name": "ComputeFirstPageHash"
+    },
+    {
+      "ordinal": 2,
+      "name": "CryptCATVerifyMember"
+    },
+    {
+      "ordinal": 3,
+      "name": "CryptSIPGetInfo"
+    },
+    {
+      "ordinal": 4,
+      "name": "CryptSIPGetRegWorkingFlags"
+    },
+    {
+      "ordinal": 5,
+      "name": "GenericChainCertificateTrust"
+    },
+    {
+      "ordinal": 6,
+      "name": "GenericChainFinalProv"
+    },
+    {
+      "ordinal": 7,
+      "name": "HTTPSCertificateTrust"
+    },
+    {
+      "ordinal": 8,
+      "name": "SetMessageDigestInfo"
+    },
+    {
+      "ordinal": 9,
+      "name": "SoftpubDefCertInit"
+    },
+    {
+      "ordinal": 10,
+      "name": "SoftpubFreeDefUsageCallData"
+    },
+    {
+      "ordinal": 11,
+      "name": "SoftpubLoadDefUsageCallData"
+    },
+    {
+      "ordinal": 12,
+      "name": "WTHelperCertFindIssuerCertificate"
+    },
+    {
       "ordinal": 13,
       "name": "AddPersonalTrustDBPages"
     },
     {
       "ordinal": 14,
       "name": "CatalogCompactHashDatabase"
-    },
-    {
-      "ordinal": 1,
-      "name": "ComputeFirstPageHash"
     },
     {
       "ordinal": 15,
@@ -180,24 +224,12 @@
       "name": "CryptCATStoreFromHandle"
     },
     {
-      "ordinal": 2,
-      "name": "CryptCATVerifyMember"
-    },
-    {
       "ordinal": 54,
       "name": "CryptSIPCreateIndirectData"
     },
     {
       "ordinal": 55,
       "name": "CryptSIPGetCaps"
-    },
-    {
-      "ordinal": 3,
-      "name": "CryptSIPGetInfo"
-    },
-    {
-      "ordinal": 4,
-      "name": "CryptSIPGetRegWorkingFlags"
     },
     {
       "ordinal": 56,
@@ -244,20 +276,8 @@
       "name": "FindCertsByIssuer"
     },
     {
-      "ordinal": 5,
-      "name": "GenericChainCertificateTrust"
-    },
-    {
-      "ordinal": 6,
-      "name": "GenericChainFinalProv"
-    },
-    {
       "ordinal": 67,
       "name": "GetAuthenticodeSha256Hash"
-    },
-    {
-      "ordinal": 7,
-      "name": "HTTPSCertificateTrust"
     },
     {
       "ordinal": 68,
@@ -292,10 +312,6 @@
       "name": "OpenPersonalTrustDBDialogEx"
     },
     {
-      "ordinal": 8,
-      "name": "SetMessageDigestInfo"
-    },
-    {
       "ordinal": 76,
       "name": "SoftpubAuthenticode"
     },
@@ -306,10 +322,6 @@
     {
       "ordinal": 78,
       "name": "SoftpubCleanup"
-    },
-    {
-      "ordinal": 9,
-      "name": "SoftpubDefCertInit"
     },
     {
       "ordinal": 79,
@@ -324,16 +336,8 @@
       "name": "SoftpubDumpStructure"
     },
     {
-      "ordinal": 10,
-      "name": "SoftpubFreeDefUsageCallData"
-    },
-    {
       "ordinal": 82,
       "name": "SoftpubInitialize"
-    },
-    {
-      "ordinal": 11,
-      "name": "SoftpubLoadDefUsageCallData"
     },
     {
       "ordinal": 83,
@@ -390,10 +394,6 @@
     {
       "ordinal": 96,
       "name": "WTHelperCertCheckValidSignature"
-    },
-    {
-      "ordinal": 12,
-      "name": "WTHelperCertFindIssuerCertificate"
     },
     {
       "ordinal": 97,

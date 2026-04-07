@@ -12,6 +12,14 @@
   "Machine": "AMD64",
   "exports": [
     {
+      "ordinal": 1,
+      "name": "DllRegisterServer"
+    },
+    {
+      "ordinal": 2,
+      "name": "DllUnregisterServer"
+    },
+    {
       "ordinal": 3,
       "name": "AccGetRunningUtilityState"
     },
@@ -62,14 +70,6 @@
     {
       "ordinal": 15,
       "name": "DllGetClassObject"
-    },
-    {
-      "ordinal": 1,
-      "name": "DllRegisterServer"
-    },
-    {
-      "ordinal": 2,
-      "name": "DllUnregisterServer"
     },
     {
       "ordinal": 16,

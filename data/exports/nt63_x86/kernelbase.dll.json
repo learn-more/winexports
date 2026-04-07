@@ -12,6 +12,23 @@
   "Machine": "I386",
   "exports": [
     {
+      "ordinal": 1,
+      "name": "GetCPHashNode"
+    },
+    {
+      "ordinal": 2,
+      "name": "GetNamedLocaleHashNode"
+    },
+    {
+      "ordinal": 3,
+      "name": "InterlockedPushListSList",
+      "forwarder": "NTDLL.RtlInterlockedPushListSList"
+    },
+    {
+      "ordinal": 4,
+      "name": "InternalLcidToName"
+    },
+    {
       "ordinal": 5,
       "name": "AccessCheck"
     },
@@ -1534,10 +1551,6 @@
       "name": "GetCPFileNameFromRegistry"
     },
     {
-      "ordinal": 1,
-      "name": "GetCPHashNode"
-    },
-    {
       "ordinal": 377,
       "name": "GetCPInfo"
     },
@@ -2088,10 +2101,6 @@
       "name": "GetNLSVersionEx"
     },
     {
-      "ordinal": 2,
-      "name": "GetNamedLocaleHashNode"
-    },
-    {
       "ordinal": 514,
       "name": "GetNamedPipeAttribute"
     },
@@ -2584,12 +2593,12 @@
       "name": "GetThreadUILanguage"
     },
     {
-      "ordinal": 638,
-      "name": "GetTickCount"
-    },
-    {
       "ordinal": 637,
       "name": "GetTickCount64"
+    },
+    {
+      "ordinal": 638,
+      "name": "GetTickCount"
     },
     {
       "ordinal": 639,
@@ -2920,13 +2929,13 @@
       "name": "InstallELAMCertificateInfo"
     },
     {
-      "ordinal": 719,
-      "name": "InterlockedCompareExchange"
-    },
-    {
       "ordinal": 718,
       "name": "InterlockedCompareExchange64",
       "forwarder": "NTDLL.RtlInterlockedCompareExchange64"
+    },
+    {
+      "ordinal": 719,
+      "name": "InterlockedCompareExchange"
     },
     {
       "ordinal": 720,
@@ -2960,18 +2969,9 @@
       "forwarder": "NTDLL.RtlInterlockedPushEntrySList"
     },
     {
-      "ordinal": 3,
-      "name": "InterlockedPushListSList",
-      "forwarder": "NTDLL.RtlInterlockedPushListSList"
-    },
-    {
       "ordinal": 727,
       "name": "InterlockedPushListSListEx",
       "forwarder": "NTDLL.RtlInterlockedPushListSListEx"
-    },
-    {
-      "ordinal": 4,
-      "name": "InternalLcidToName"
     },
     {
       "ordinal": 728,
@@ -3405,12 +3405,12 @@
       "name": "LockResource"
     },
     {
-      "ordinal": 836,
-      "name": "MakeAbsoluteSD"
-    },
-    {
       "ordinal": 835,
       "name": "MakeAbsoluteSD2"
+    },
+    {
+      "ordinal": 836,
+      "name": "MakeAbsoluteSD"
     },
     {
       "ordinal": 837,
@@ -4273,16 +4273,12 @@
       "name": "QueueUserWorkItem"
     },
     {
-      "ordinal": 1052,
-      "name": "QuirkGetData"
-    },
-    {
       "ordinal": 1051,
       "name": "QuirkGetData2"
     },
     {
-      "ordinal": 1055,
-      "name": "QuirkIsEnabled"
+      "ordinal": 1052,
+      "name": "QuirkGetData"
     },
     {
       "ordinal": 1053,
@@ -4293,12 +4289,16 @@
       "name": "QuirkIsEnabled3"
     },
     {
-      "ordinal": 1057,
-      "name": "QuirkIsEnabledForPackage"
+      "ordinal": 1055,
+      "name": "QuirkIsEnabled"
     },
     {
       "ordinal": 1056,
       "name": "QuirkIsEnabledForPackage2"
+    },
+    {
+      "ordinal": 1057,
+      "name": "QuirkIsEnabledForPackage"
     },
     {
       "ordinal": 1058,

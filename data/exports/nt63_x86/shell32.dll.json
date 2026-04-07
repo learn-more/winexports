@@ -12,24 +12,1167 @@
   "Machine": "I386",
   "exports": [
     {
+      "ordinal": 2,
+      "name": "SHChangeNotifyRegister"
+    },
+    {
+      "ordinal": 3,
+      "name": "SHDefExtractIconA"
+    },
+    {
+      "ordinal": 4,
+      "name": "SHChangeNotifyDeregister"
+    },
+    {
+      "ordinal": 5,
+      "name": null,
+      "forwarder": "SHUNIMPL.#35"
+    },
+    {
+      "ordinal": 6,
+      "name": "SHDefExtractIconW"
+    },
+    {
+      "ordinal": 7,
+      "name": null,
+      "forwarder": "SHUNIMPL.#192"
+    },
+    {
+      "ordinal": 8,
+      "name": null,
+      "forwarder": "SHUNIMPL.#193"
+    },
+    {
+      "ordinal": 9,
+      "name": "PifMgr_OpenProperties"
+    },
+    {
+      "ordinal": 10,
+      "name": "PifMgr_GetProperties"
+    },
+    {
+      "ordinal": 11,
+      "name": "PifMgr_SetProperties"
+    },
+    {
+      "ordinal": 12,
+      "name": null
+    },
+    {
+      "ordinal": 13,
+      "name": "PifMgr_CloseProperties"
+    },
+    {
+      "ordinal": 14,
+      "name": "SHStartNetConnectionDialogW"
+    },
+    {
+      "ordinal": 15,
+      "name": null
+    },
+    {
+      "ordinal": 16,
+      "name": "ILFindLastID"
+    },
+    {
+      "ordinal": 17,
+      "name": "ILRemoveLastID"
+    },
+    {
+      "ordinal": 18,
+      "name": "ILClone"
+    },
+    {
+      "ordinal": 19,
+      "name": "ILCloneFirst"
+    },
+    {
+      "ordinal": 20,
+      "name": null
+    },
+    {
+      "ordinal": 21,
+      "name": "ILIsEqual"
+    },
+    {
+      "ordinal": 22,
+      "name": "DAD_DragEnterEx2"
+    },
+    {
+      "ordinal": 23,
+      "name": "ILIsParent"
+    },
+    {
+      "ordinal": 24,
+      "name": "ILFindChild"
+    },
+    {
+      "ordinal": 25,
+      "name": "ILCombine"
+    },
+    {
+      "ordinal": 26,
+      "name": null,
+      "forwarder": "SHUNIMPL.#36"
+    },
+    {
+      "ordinal": 27,
+      "name": "ILSaveToStream"
+    },
+    {
+      "ordinal": 28,
+      "name": "SHILCreateFromPath"
+    },
+    {
+      "ordinal": 29,
+      "name": null
+    },
+    {
+      "ordinal": 30,
+      "name": null,
+      "forwarder": "shlwapi.PathBuildRootW"
+    },
+    {
+      "ordinal": 31,
+      "name": null,
+      "forwarder": "shlwapi.PathFindExtensionW"
+    },
+    {
+      "ordinal": 32,
+      "name": null,
+      "forwarder": "shlwapi.PathAddBackslashW"
+    },
+    {
+      "ordinal": 33,
+      "name": null,
+      "forwarder": "shlwapi.PathRemoveBlanksW"
+    },
+    {
+      "ordinal": 34,
+      "name": null,
+      "forwarder": "shlwapi.PathFindFileNameW"
+    },
+    {
+      "ordinal": 35,
+      "name": null
+    },
+    {
+      "ordinal": 36,
+      "name": null
+    },
+    {
+      "ordinal": 37,
+      "name": null,
+      "forwarder": "shlwapi.PathCombineW"
+    },
+    {
+      "ordinal": 38,
+      "name": null,
+      "forwarder": "shlwapi.PathStripPathW"
+    },
+    {
+      "ordinal": 39,
+      "name": null,
+      "forwarder": "shlwapi.PathIsUNCW"
+    },
+    {
+      "ordinal": 40,
+      "name": null,
+      "forwarder": "shlwapi.PathIsRelativeW"
+    },
+    {
+      "ordinal": 41,
+      "name": "IsLFNDriveA"
+    },
+    {
+      "ordinal": 42,
+      "name": "IsLFNDriveW"
+    },
+    {
+      "ordinal": 43,
+      "name": "PathIsExe"
+    },
+    {
+      "ordinal": 44,
+      "name": null
+    },
+    {
+      "ordinal": 45,
+      "name": null
+    },
+    {
+      "ordinal": 46,
+      "name": null,
+      "forwarder": "shlwapi.PathMatchSpecW"
+    },
+    {
+      "ordinal": 47,
+      "name": "PathMakeUniqueName"
+    },
+    {
+      "ordinal": 48,
+      "name": null,
+      "forwarder": "shlwapi.PathSetDlgItemPathW"
+    },
+    {
+      "ordinal": 49,
+      "name": "PathQualify"
+    },
+    {
+      "ordinal": 50,
+      "name": null,
+      "forwarder": "shlwapi.PathStripToRootW"
+    },
+    {
+      "ordinal": 51,
+      "name": "PathResolve"
+    },
+    {
+      "ordinal": 52,
+      "name": null,
+      "forwarder": "shlwapi.PathGetArgsW"
+    },
+    {
+      "ordinal": 53,
+      "name": null,
+      "forwarder": "SHUNIMPL.#388"
+    },
+    {
+      "ordinal": 54,
+      "name": null
+    },
+    {
+      "ordinal": 55,
+      "name": null,
+      "forwarder": "shlwapi.PathQuoteSpacesW"
+    },
+    {
+      "ordinal": 56,
+      "name": null,
+      "forwarder": "shlwapi.PathUnquoteSpacesW"
+    },
+    {
+      "ordinal": 57,
+      "name": null,
+      "forwarder": "shlwapi.PathGetDriveNumberW"
+    },
+    {
+      "ordinal": 58,
+      "name": null
+    },
+    {
+      "ordinal": 59,
+      "name": "RestartDialog"
+    },
+    {
+      "ordinal": 60,
+      "name": null
+    },
+    {
+      "ordinal": 61,
+      "name": null
+    },
+    {
+      "ordinal": 62,
+      "name": "PickIconDlg"
+    },
+    {
+      "ordinal": 63,
+      "name": "GetFileNameFromBrowse"
+    },
+    {
+      "ordinal": 64,
+      "name": "DriveType"
+    },
+    {
+      "ordinal": 65,
+      "name": null
+    },
+    {
+      "ordinal": 66,
+      "name": "IsNetDrive"
+    },
+    {
+      "ordinal": 67,
+      "name": "Shell_MergeMenus"
+    },
+    {
+      "ordinal": 68,
+      "name": "SHGetSetSettings"
+    },
+    {
+      "ordinal": 69,
+      "name": null
+    },
+    {
+      "ordinal": 70,
+      "name": null
+    },
+    {
+      "ordinal": 71,
+      "name": "Shell_GetImageLists"
+    },
+    {
+      "ordinal": 72,
+      "name": "Shell_GetCachedImageIndex"
+    },
+    {
+      "ordinal": 73,
+      "name": "SHShellFolderView_Message"
+    },
+    {
+      "ordinal": 74,
+      "name": "SHCreateStdEnumFmtEtc"
+    },
+    {
+      "ordinal": 75,
+      "name": "PathYetAnotherMakeUniqueName"
+    },
+    {
+      "ordinal": 76,
+      "name": null
+    },
+    {
+      "ordinal": 77,
+      "name": "SHMapPIDLToSystemImageListIndex"
+    },
+    {
+      "ordinal": 78,
+      "name": null,
+      "forwarder": "SHUNIMPL.#37"
+    },
+    {
+      "ordinal": 79,
+      "name": null,
+      "forwarder": "SHUNIMPL.#38"
+    },
+    {
+      "ordinal": 80,
+      "name": "SHOpenPropSheetW"
+    },
+    {
+      "ordinal": 81,
+      "name": "OpenAs_RunDLL"
+    },
+    {
+      "ordinal": 82,
+      "name": null,
+      "forwarder": "SHUNIMPL.#39"
+    },
+    {
+      "ordinal": 83,
+      "name": "CIDLData_CreateFromIDArray"
+    },
+    {
+      "ordinal": 84,
+      "name": null,
+      "forwarder": "SHUNIMPL.#40"
+    },
+    {
+      "ordinal": 85,
+      "name": "OpenRegStream"
+    },
+    {
+      "ordinal": 86,
+      "name": null,
+      "forwarder": "SHUNIMPL.#41"
+    },
+    {
+      "ordinal": 87,
+      "name": null,
+      "forwarder": "SHUNIMPL.#42"
+    },
+    {
+      "ordinal": 88,
+      "name": "SHDoDragDrop"
+    },
+    {
+      "ordinal": 89,
+      "name": "SHCloneSpecialIDList"
+    },
+    {
+      "ordinal": 90,
+      "name": "SHFindFiles"
+    },
+    {
+      "ordinal": 91,
+      "name": null
+    },
+    {
+      "ordinal": 92,
+      "name": "PathGetShortPath"
+    },
+    {
+      "ordinal": 93,
+      "name": null
+    },
+    {
+      "ordinal": 94,
+      "name": null
+    },
+    {
+      "ordinal": 95,
+      "name": null
+    },
+    {
+      "ordinal": 96,
+      "name": null,
+      "forwarder": "SHUNIMPL.#43"
+    },
+    {
+      "ordinal": 97,
+      "name": null
+    },
+    {
+      "ordinal": 98,
+      "name": "SHGetRealIDL"
+    },
+    {
+      "ordinal": 99,
+      "name": null
+    },
+    {
+      "ordinal": 100,
+      "name": "SHRestricted"
+    },
+    {
+      "ordinal": 101,
+      "name": null,
+      "forwarder": "SHUNIMPL.#1"
+    },
+    {
+      "ordinal": 102,
+      "name": "SHCoCreateInstance"
+    },
+    {
+      "ordinal": 103,
+      "name": "SignalFileOpen"
+    },
+    {
+      "ordinal": 104,
+      "name": null,
+      "forwarder": "SHUNIMPL.#2"
+    },
+    {
+      "ordinal": 105,
+      "name": null,
+      "forwarder": "SHUNIMPL.#3"
+    },
+    {
+      "ordinal": 106,
+      "name": null,
+      "forwarder": "SHUNIMPL.#4"
+    },
+    {
+      "ordinal": 107,
+      "name": null,
+      "forwarder": "SHUNIMPL.#5"
+    },
+    {
+      "ordinal": 108,
+      "name": null,
+      "forwarder": "SHUNIMPL.#6"
+    },
+    {
+      "ordinal": 109,
+      "name": null,
+      "forwarder": "SHUNIMPL.#7"
+    },
+    {
+      "ordinal": 110,
+      "name": null,
+      "forwarder": "SHUNIMPL.#8"
+    },
+    {
+      "ordinal": 111,
+      "name": null,
+      "forwarder": "SHUNIMPL.#9"
+    },
+    {
+      "ordinal": 112,
+      "name": null,
+      "forwarder": "SHUNIMPL.#10"
+    },
+    {
+      "ordinal": 113,
+      "name": null,
+      "forwarder": "SHUNIMPL.#11"
+    },
+    {
+      "ordinal": 114,
+      "name": null,
+      "forwarder": "SHUNIMPL.#12"
+    },
+    {
+      "ordinal": 115,
+      "name": null,
+      "forwarder": "SHUNIMPL.#13"
+    },
+    {
+      "ordinal": 116,
+      "name": null,
+      "forwarder": "SHUNIMPL.#14"
+    },
+    {
+      "ordinal": 117,
+      "name": null,
+      "forwarder": "SHUNIMPL.#15"
+    },
+    {
+      "ordinal": 118,
+      "name": null,
+      "forwarder": "SHUNIMPL.#16"
+    },
+    {
+      "ordinal": 119,
+      "name": "IsLFNDrive"
+    },
+    {
+      "ordinal": 120,
+      "name": null,
+      "forwarder": "SHUNIMPL.#17"
+    },
+    {
+      "ordinal": 121,
+      "name": null,
+      "forwarder": "SHUNIMPL.#44"
+    },
+    {
+      "ordinal": 122,
+      "name": null,
+      "forwarder": "SHUNIMPL.#45"
+    },
+    {
+      "ordinal": 123,
+      "name": null,
+      "forwarder": "SHUNIMPL.#46"
+    },
+    {
+      "ordinal": 124,
+      "name": null,
+      "forwarder": "SHUNIMPL.#18"
+    },
+    {
+      "ordinal": 125,
+      "name": "OpenAs_RunDLLA"
+    },
+    {
+      "ordinal": 126,
+      "name": null,
+      "forwarder": "SHUNIMPL.#47"
+    },
+    {
+      "ordinal": 127,
+      "name": null,
+      "forwarder": "SHUNIMPL.#371"
+    },
+    {
+      "ordinal": 128,
+      "name": null
+    },
+    {
+      "ordinal": 129,
+      "name": "DAD_AutoScroll"
+    },
+    {
+      "ordinal": 130,
+      "name": null,
+      "forwarder": "SHUNIMPL.#48"
+    },
+    {
+      "ordinal": 131,
+      "name": "DAD_DragEnterEx"
+    },
+    {
+      "ordinal": 132,
+      "name": "DAD_DragLeave"
+    },
+    {
+      "ordinal": 133,
+      "name": "OpenAs_RunDLLW"
+    },
+    {
+      "ordinal": 134,
+      "name": "DAD_DragMove"
+    },
+    {
+      "ordinal": 135,
+      "name": "PrepareDiscForBurnRunDllW"
+    },
+    {
+      "ordinal": 136,
+      "name": "DAD_SetDragImage"
+    },
+    {
+      "ordinal": 137,
+      "name": "DAD_ShowDragImage"
+    },
+    {
+      "ordinal": 138,
+      "name": "PrintersGetCommand_RunDLL"
+    },
+    {
+      "ordinal": 139,
+      "name": "PrintersGetCommand_RunDLLA"
+    },
+    {
+      "ordinal": 140,
+      "name": null,
+      "forwarder": "SHUNIMPL.#19"
+    },
+    {
+      "ordinal": 141,
+      "name": null,
+      "forwarder": "SHUNIMPL.#20"
+    },
+    {
+      "ordinal": 142,
+      "name": null,
+      "forwarder": "SHUNIMPL.#21"
+    },
+    {
+      "ordinal": 143,
+      "name": null,
+      "forwarder": "SHUNIMPL.#22"
+    },
+    {
+      "ordinal": 144,
+      "name": null,
+      "forwarder": "SHUNIMPL.#23"
+    },
+    {
+      "ordinal": 145,
+      "name": null,
+      "forwarder": "shlwapi.PathFindOnPathW"
+    },
+    {
+      "ordinal": 146,
+      "name": null,
+      "forwarder": "SHUNIMPL.#49"
+    },
+    {
+      "ordinal": 147,
+      "name": "SHCLSIDFromString"
+    },
+    {
+      "ordinal": 148,
+      "name": null,
+      "forwarder": "SHUNIMPL.#50"
+    },
+    {
+      "ordinal": 149,
+      "name": "SHFind_InitMenuPopup"
+    },
+    {
+      "ordinal": 150,
+      "name": "PrintersGetCommand_RunDLLW"
+    },
+    {
+      "ordinal": 151,
+      "name": null,
+      "forwarder": "SHUNIMPL.#51"
+    },
+    {
+      "ordinal": 152,
+      "name": "ILGetSize"
+    },
+    {
+      "ordinal": 153,
+      "name": "ILGetNext"
+    },
+    {
+      "ordinal": 154,
+      "name": "ILAppendID"
+    },
+    {
+      "ordinal": 155,
+      "name": "ILFree"
+    },
+    {
+      "ordinal": 156,
+      "name": null
+    },
+    {
+      "ordinal": 157,
+      "name": "ILCreateFromPath"
+    },
+    {
+      "ordinal": 158,
+      "name": null,
+      "forwarder": "SHUNIMPL.#389"
+    },
+    {
+      "ordinal": 159,
+      "name": null,
+      "forwarder": "shlwapi.PathIsDirectoryW"
+    },
+    {
+      "ordinal": 160,
+      "name": null
+    },
+    {
+      "ordinal": 161,
+      "name": null,
+      "forwarder": "SHUNIMPL.#214"
+    },
+    {
+      "ordinal": 162,
+      "name": "SHSimpleIDListFromPath"
+    },
+    {
+      "ordinal": 163,
+      "name": null,
+      "forwarder": "SHUNIMPL.#52"
+    },
+    {
+      "ordinal": 164,
+      "name": "Win32DeleteFile"
+    },
+    {
+      "ordinal": 165,
+      "name": "SHCreateDirectory"
+    },
+    {
+      "ordinal": 166,
+      "name": null,
+      "forwarder": "SHUNIMPL.#53"
+    },
+    {
+      "ordinal": 167,
+      "name": "SHAddFromPropSheetExtArray"
+    },
+    {
+      "ordinal": 168,
+      "name": "SHCreatePropSheetExtArray"
+    },
+    {
+      "ordinal": 169,
+      "name": "SHDestroyPropSheetExtArray"
+    },
+    {
+      "ordinal": 170,
+      "name": "SHReplaceFromPropSheetExtArray"
+    },
+    {
+      "ordinal": 171,
+      "name": "PathCleanupSpec"
+    },
+    {
+      "ordinal": 172,
+      "name": null
+    },
+    {
+      "ordinal": 173,
+      "name": "SHValidateUNC"
+    },
+    {
+      "ordinal": 174,
+      "name": "SHCreateShellFolderViewEx"
+    },
+    {
+      "ordinal": 175,
+      "name": null
+    },
+    {
+      "ordinal": 176,
+      "name": "SHSetInstanceExplorer"
+    },
+    {
+      "ordinal": 177,
+      "name": null,
+      "forwarder": "SHUNIMPL.#54"
+    },
+    {
+      "ordinal": 178,
+      "name": "SHObjectProperties"
+    },
+    {
+      "ordinal": 179,
+      "name": "SHGetNewLinkInfoA"
+    },
+    {
+      "ordinal": 180,
+      "name": "SHGetNewLinkInfoW"
+    },
+    {
+      "ordinal": 181,
+      "name": null
+    },
+    {
+      "ordinal": 182,
+      "name": "ShellMessageBoxW",
+      "forwarder": "shlwapi.ShellMessageBoxW"
+    },
+    {
+      "ordinal": 183,
+      "name": "ShellMessageBoxA",
+      "forwarder": "shlwapi.ShellMessageBoxA"
+    },
+    {
+      "ordinal": 184,
+      "name": null
+    },
+    {
+      "ordinal": 185,
+      "name": null,
+      "forwarder": "SHUNIMPL.#390"
+    },
+    {
+      "ordinal": 186,
+      "name": null
+    },
+    {
+      "ordinal": 187,
+      "name": null,
+      "forwarder": "SHUNIMPL.#235"
+    },
+    {
+      "ordinal": 188,
+      "name": null
+    },
+    {
+      "ordinal": 189,
+      "name": "ILCreateFromPathA"
+    },
+    {
+      "ordinal": 190,
+      "name": "ILCreateFromPathW"
+    },
+    {
+      "ordinal": 191,
+      "name": "SHUpdateImageA"
+    },
+    {
+      "ordinal": 192,
+      "name": "SHUpdateImageW"
+    },
+    {
+      "ordinal": 193,
+      "name": "SHHandleUpdateImage"
+    },
+    {
+      "ordinal": 194,
+      "name": null
+    },
+    {
+      "ordinal": 195,
+      "name": "SHFree"
+    },
+    {
+      "ordinal": 196,
+      "name": "SHAlloc"
+    },
+    {
+      "ordinal": 197,
+      "name": null,
+      "forwarder": "SHUNIMPL.#55"
+    },
+    {
+      "ordinal": 198,
+      "name": null,
+      "forwarder": "SHUNIMPL.#56"
+    },
+    {
+      "ordinal": 199,
+      "name": "RealShellExecuteA"
+    },
+    {
+      "ordinal": 200,
+      "name": null
+    },
+    {
+      "ordinal": 201,
+      "name": null
+    },
+    {
+      "ordinal": 202,
+      "name": null,
+      "forwarder": "SHUNIMPL.#57"
+    },
+    {
+      "ordinal": 203,
+      "name": null
+    },
+    {
+      "ordinal": 204,
+      "name": null
+    },
+    {
+      "ordinal": 205,
+      "name": null
+    },
+    {
+      "ordinal": 206,
+      "name": null
+    },
+    {
+      "ordinal": 207,
+      "name": "RealShellExecuteExA"
+    },
+    {
+      "ordinal": 208,
+      "name": "RealShellExecuteExW"
+    },
+    {
+      "ordinal": 209,
+      "name": null
+    },
+    {
+      "ordinal": 210,
+      "name": null
+    },
+    {
+      "ordinal": 211,
+      "name": null
+    },
+    {
+      "ordinal": 212,
+      "name": null
+    },
+    {
+      "ordinal": 213,
+      "name": null
+    },
+    {
+      "ordinal": 214,
+      "name": null
+    },
+    {
+      "ordinal": 215,
+      "name": null
+    },
+    {
+      "ordinal": 216,
+      "name": null,
+      "forwarder": "SHUNIMPL.#24"
+    },
+    {
+      "ordinal": 217,
+      "name": null,
+      "forwarder": "SHUNIMPL.#25"
+    },
+    {
+      "ordinal": 218,
+      "name": null,
+      "forwarder": "SHUNIMPL.#26"
+    },
+    {
+      "ordinal": 219,
+      "name": null,
+      "forwarder": "SHUNIMPL.#27"
+    },
+    {
+      "ordinal": 220,
+      "name": null,
+      "forwarder": "SHUNIMPL.#28"
+    },
+    {
+      "ordinal": 221,
+      "name": null,
+      "forwarder": "SHUNIMPL.#29"
+    },
+    {
+      "ordinal": 222,
+      "name": null,
+      "forwarder": "SHUNIMPL.#30"
+    },
+    {
+      "ordinal": 223,
+      "name": null,
+      "forwarder": "SHUNIMPL.#31"
+    },
+    {
+      "ordinal": 224,
+      "name": null,
+      "forwarder": "SHUNIMPL.#32"
+    },
+    {
+      "ordinal": 225,
+      "name": null,
+      "forwarder": "SHUNIMPL.#33"
+    },
+    {
+      "ordinal": 226,
+      "name": "RealShellExecuteW"
+    },
+    {
+      "ordinal": 227,
+      "name": null,
+      "forwarder": "SHUNIMPL.#34"
+    },
+    {
+      "ordinal": 228,
+      "name": "SHHelpShortcuts_RunDLL"
+    },
+    {
+      "ordinal": 229,
+      "name": "SHHelpShortcuts_RunDLLA"
+    },
+    {
+      "ordinal": 230,
+      "name": null,
+      "forwarder": "SHUNIMPL.#372"
+    },
+    {
+      "ordinal": 231,
+      "name": "SHSetFolderPathA"
+    },
+    {
+      "ordinal": 232,
+      "name": "SHSetFolderPathW"
+    },
+    {
+      "ordinal": 233,
+      "name": null,
+      "forwarder": "SHUNIMPL.#58"
+    },
+    {
+      "ordinal": 234,
+      "name": null,
+      "forwarder": "SHUNIMPL.#59"
+    },
+    {
+      "ordinal": 235,
+      "name": null,
+      "forwarder": "SHUNIMPL.#212"
+    },
+    {
+      "ordinal": 236,
+      "name": null
+    },
+    {
+      "ordinal": 237,
+      "name": null
+    },
+    {
+      "ordinal": 238,
+      "name": "SHHelpShortcuts_RunDLLW"
+    },
+    {
+      "ordinal": 239,
+      "name": "PathIsSlowW"
+    },
+    {
+      "ordinal": 240,
+      "name": "PathIsSlowA"
+    },
+    {
+      "ordinal": 241,
+      "name": null
+    },
+    {
+      "ordinal": 242,
+      "name": null,
+      "forwarder": "SHUNIMPL.#373"
+    },
+    {
+      "ordinal": 243,
+      "name": null,
+      "forwarder": "SHUNIMPL.#374"
+    },
+    {
+      "ordinal": 244,
+      "name": null
+    },
+    {
+      "ordinal": 245,
+      "name": "SHTestTokenMembership"
+    },
+    {
+      "ordinal": 246,
+      "name": null,
+      "forwarder": "SHUNIMPL.#375"
+    },
+    {
+      "ordinal": 247,
+      "name": null,
+      "forwarder": "SHUNIMPL.#376"
+    },
+    {
+      "ordinal": 248,
+      "name": null,
+      "forwarder": "SHUNIMPL.#377"
+    },
+    {
+      "ordinal": 249,
+      "name": null,
+      "forwarder": "shlwapi.PathParseIconLocationW"
+    },
+    {
+      "ordinal": 250,
+      "name": null,
+      "forwarder": "shlwapi.PathRemoveExtensionW"
+    },
+    {
+      "ordinal": 251,
+      "name": null,
+      "forwarder": "shlwapi.PathRemoveArgsW"
+    },
+    {
+      "ordinal": 252,
+      "name": null,
+      "forwarder": "api-ms-win-core-url-l1.PathIsURLW"
+    },
+    {
+      "ordinal": 253,
+      "name": null,
+      "forwarder": "SHUNIMPL.#378"
+    },
+    {
+      "ordinal": 254,
+      "name": null
+    },
+    {
       "ordinal": 255,
       "name": "AppCompat_RunDLLW"
+    },
+    {
+      "ordinal": 256,
+      "name": "SHCreateShellFolderView"
+    },
+    {
+      "ordinal": 257,
+      "name": null
+    },
+    {
+      "ordinal": 258,
+      "name": null
+    },
+    {
+      "ordinal": 259,
+      "name": null
+    },
+    {
+      "ordinal": 260,
+      "name": null
+    },
+    {
+      "ordinal": 261,
+      "name": null
+    },
+    {
+      "ordinal": 262,
+      "name": null
     },
     {
       "ordinal": 263,
       "name": "AssocCreateForClasses"
     },
     {
+      "ordinal": 264,
+      "name": null
+    },
+    {
+      "ordinal": 265,
+      "name": null
+    },
+    {
+      "ordinal": 266,
+      "name": null
+    },
+    {
       "ordinal": 267,
       "name": "AssocGetDetailsOfPropKey"
-    },
-    {
-      "ordinal": 701,
-      "name": "CDefFolderMenu_Create2"
-    },
-    {
-      "ordinal": 83,
-      "name": "CIDLData_CreateFromIDArray"
     },
     {
       "ordinal": 268,
@@ -38,6 +1181,14 @@
     {
       "ordinal": 269,
       "name": "CommandLineToArgvW"
+    },
+    {
+      "ordinal": 270,
+      "name": null
+    },
+    {
+      "ordinal": 271,
+      "name": null
     },
     {
       "ordinal": 272,
@@ -54,50 +1205,6 @@
     {
       "ordinal": 275,
       "name": "Control_RunDLLW"
-    },
-    {
-      "ordinal": 921,
-      "name": "CreateStorageItemFromShellItem_FullTrustCaller"
-    },
-    {
-      "ordinal": 925,
-      "name": "CreateStorageItemFromShellItem_FullTrustCaller_ForPackage"
-    },
-    {
-      "ordinal": 929,
-      "name": "CreateStorageItemFromShellItem_FullTrustCaller_ForPackage_WithProcessHandle"
-    },
-    {
-      "ordinal": 931,
-      "name": "CreateStorageItemFromShellItem_FullTrustCaller_UseImplicitFlagsAndPackage"
-    },
-    {
-      "ordinal": 129,
-      "name": "DAD_AutoScroll"
-    },
-    {
-      "ordinal": 131,
-      "name": "DAD_DragEnterEx"
-    },
-    {
-      "ordinal": 22,
-      "name": "DAD_DragEnterEx2"
-    },
-    {
-      "ordinal": 132,
-      "name": "DAD_DragLeave"
-    },
-    {
-      "ordinal": 134,
-      "name": "DAD_DragMove"
-    },
-    {
-      "ordinal": 136,
-      "name": "DAD_SetDragImage"
-    },
-    {
-      "ordinal": 137,
-      "name": "DAD_ShowDragImage"
     },
     {
       "ordinal": 276,
@@ -164,10 +1271,6 @@
       "name": "DragQueryPoint"
     },
     {
-      "ordinal": 64,
-      "name": "DriveType"
-    },
-    {
       "ordinal": 292,
       "name": "DuplicateIcon"
     },
@@ -224,82 +1327,6 @@
       "name": "GetCurrentProcessExplicitAppUserModelID"
     },
     {
-      "ordinal": 63,
-      "name": "GetFileNameFromBrowse"
-    },
-    {
-      "ordinal": 919,
-      "name": "GetSystemPersistedStorageItemList"
-    },
-    {
-      "ordinal": 154,
-      "name": "ILAppendID"
-    },
-    {
-      "ordinal": 18,
-      "name": "ILClone"
-    },
-    {
-      "ordinal": 19,
-      "name": "ILCloneFirst"
-    },
-    {
-      "ordinal": 25,
-      "name": "ILCombine"
-    },
-    {
-      "ordinal": 157,
-      "name": "ILCreateFromPath"
-    },
-    {
-      "ordinal": 189,
-      "name": "ILCreateFromPathA"
-    },
-    {
-      "ordinal": 190,
-      "name": "ILCreateFromPathW"
-    },
-    {
-      "ordinal": 24,
-      "name": "ILFindChild"
-    },
-    {
-      "ordinal": 16,
-      "name": "ILFindLastID"
-    },
-    {
-      "ordinal": 155,
-      "name": "ILFree"
-    },
-    {
-      "ordinal": 153,
-      "name": "ILGetNext"
-    },
-    {
-      "ordinal": 152,
-      "name": "ILGetSize"
-    },
-    {
-      "ordinal": 21,
-      "name": "ILIsEqual"
-    },
-    {
-      "ordinal": 23,
-      "name": "ILIsParent"
-    },
-    {
-      "ordinal": 846,
-      "name": "ILLoadFromStreamEx"
-    },
-    {
-      "ordinal": 17,
-      "name": "ILRemoveLastID"
-    },
-    {
-      "ordinal": 27,
-      "name": "ILSaveToStream"
-    },
-    {
       "ordinal": 306,
       "name": "InitNetworkAddressControl"
     },
@@ -312,44 +1339,8 @@
       "name": "InternalExtractIconListW"
     },
     {
-      "ordinal": 119,
-      "name": "IsLFNDrive"
-    },
-    {
-      "ordinal": 41,
-      "name": "IsLFNDriveA"
-    },
-    {
-      "ordinal": 42,
-      "name": "IsLFNDriveW"
-    },
-    {
-      "ordinal": 66,
-      "name": "IsNetDrive"
-    },
-    {
-      "ordinal": 680,
-      "name": "IsUserAnAdmin"
-    },
-    {
       "ordinal": 309,
       "name": "LaunchMSHelp_RunDLLW"
-    },
-    {
-      "ordinal": 81,
-      "name": "OpenAs_RunDLL"
-    },
-    {
-      "ordinal": 125,
-      "name": "OpenAs_RunDLLA"
-    },
-    {
-      "ordinal": 133,
-      "name": "OpenAs_RunDLLW"
-    },
-    {
-      "ordinal": 85,
-      "name": "OpenRegStream"
     },
     {
       "ordinal": 310,
@@ -364,120 +1355,16 @@
       "name": "Options_RunDLLW"
     },
     {
-      "ordinal": 171,
-      "name": "PathCleanupSpec"
-    },
-    {
       "ordinal": 313,
       "name": "PathCleanupSpecWorker"
-    },
-    {
-      "ordinal": 92,
-      "name": "PathGetShortPath"
-    },
-    {
-      "ordinal": 43,
-      "name": "PathIsExe"
     },
     {
       "ordinal": 314,
       "name": "PathIsExeWorker"
     },
     {
-      "ordinal": 240,
-      "name": "PathIsSlowA"
-    },
-    {
-      "ordinal": 239,
-      "name": "PathIsSlowW"
-    },
-    {
-      "ordinal": 47,
-      "name": "PathMakeUniqueName"
-    },
-    {
-      "ordinal": 49,
-      "name": "PathQualify"
-    },
-    {
-      "ordinal": 51,
-      "name": "PathResolve"
-    },
-    {
-      "ordinal": 75,
-      "name": "PathYetAnotherMakeUniqueName"
-    },
-    {
-      "ordinal": 62,
-      "name": "PickIconDlg"
-    },
-    {
-      "ordinal": 13,
-      "name": "PifMgr_CloseProperties"
-    },
-    {
-      "ordinal": 10,
-      "name": "PifMgr_GetProperties"
-    },
-    {
-      "ordinal": 9,
-      "name": "PifMgr_OpenProperties"
-    },
-    {
-      "ordinal": 11,
-      "name": "PifMgr_SetProperties"
-    },
-    {
-      "ordinal": 135,
-      "name": "PrepareDiscForBurnRunDllW"
-    },
-    {
-      "ordinal": 138,
-      "name": "PrintersGetCommand_RunDLL"
-    },
-    {
-      "ordinal": 139,
-      "name": "PrintersGetCommand_RunDLLA"
-    },
-    {
-      "ordinal": 150,
-      "name": "PrintersGetCommand_RunDLLW"
-    },
-    {
-      "ordinal": 654,
-      "name": "ReadCabinetState"
-    },
-    {
-      "ordinal": 524,
-      "name": "RealDriveType"
-    },
-    {
-      "ordinal": 199,
-      "name": "RealShellExecuteA"
-    },
-    {
-      "ordinal": 207,
-      "name": "RealShellExecuteExA"
-    },
-    {
-      "ordinal": 208,
-      "name": "RealShellExecuteExW"
-    },
-    {
-      "ordinal": 226,
-      "name": "RealShellExecuteW"
-    },
-    {
       "ordinal": 315,
       "name": "RegenerateUserEnvironment"
-    },
-    {
-      "ordinal": 59,
-      "name": "RestartDialog"
-    },
-    {
-      "ordinal": 730,
-      "name": "RestartDialogEx"
     },
     {
       "ordinal": 316,
@@ -488,16 +1375,8 @@
       "name": "SHAddDefaultPropertiesByExt"
     },
     {
-      "ordinal": 167,
-      "name": "SHAddFromPropSheetExtArray"
-    },
-    {
       "ordinal": 318,
       "name": "SHAddToRecentDocs"
-    },
-    {
-      "ordinal": 196,
-      "name": "SHAlloc"
     },
     {
       "ordinal": 319,
@@ -540,28 +1419,8 @@
       "name": "SHBrowseForFolderW"
     },
     {
-      "ordinal": 147,
-      "name": "SHCLSIDFromString"
-    },
-    {
-      "ordinal": 644,
-      "name": "SHChangeNotification_Lock"
-    },
-    {
-      "ordinal": 645,
-      "name": "SHChangeNotification_Unlock"
-    },
-    {
       "ordinal": 329,
       "name": "SHChangeNotify"
-    },
-    {
-      "ordinal": 4,
-      "name": "SHChangeNotifyDeregister"
-    },
-    {
-      "ordinal": 2,
-      "name": "SHChangeNotifyRegister"
     },
     {
       "ordinal": 330,
@@ -570,14 +1429,6 @@
     {
       "ordinal": 331,
       "name": "SHChangeNotifySuspendResume"
-    },
-    {
-      "ordinal": 89,
-      "name": "SHCloneSpecialIDList"
-    },
-    {
-      "ordinal": 102,
-      "name": "SHCoCreateInstance"
     },
     {
       "ordinal": 332,
@@ -604,10 +1455,6 @@
       "name": "SHCreateDefaultPropertiesOp"
     },
     {
-      "ordinal": 165,
-      "name": "SHCreateDirectory"
-    },
-    {
       "ordinal": 338,
       "name": "SHCreateDirectoryExA"
     },
@@ -618,10 +1465,6 @@
     {
       "ordinal": 340,
       "name": "SHCreateDirectoryExWWorker"
-    },
-    {
-      "ordinal": 743,
-      "name": "SHCreateFileExtractIconW"
     },
     {
       "ordinal": 341,
@@ -652,20 +1495,8 @@
       "name": "SHCreateProcessAsUserW"
     },
     {
-      "ordinal": 168,
-      "name": "SHCreatePropSheetExtArray"
-    },
-    {
       "ordinal": 348,
       "name": "SHCreateQueryCancelAutoPlayMoniker"
-    },
-    {
-      "ordinal": 256,
-      "name": "SHCreateShellFolderView"
-    },
-    {
-      "ordinal": 174,
-      "name": "SHCreateShellFolderViewEx"
     },
     {
       "ordinal": 349,
@@ -686,26 +1517,6 @@
     {
       "ordinal": 353,
       "name": "SHCreateShellItemArrayFromShellItem"
-    },
-    {
-      "ordinal": 74,
-      "name": "SHCreateStdEnumFmtEtc"
-    },
-    {
-      "ordinal": 3,
-      "name": "SHDefExtractIconA"
-    },
-    {
-      "ordinal": 6,
-      "name": "SHDefExtractIconW"
-    },
-    {
-      "ordinal": 169,
-      "name": "SHDestroyPropSheetExtArray"
-    },
-    {
-      "ordinal": 88,
-      "name": "SHDoDragDrop"
     },
     {
       "ordinal": 354,
@@ -744,32 +1555,12 @@
       "name": "SHFileOperationW"
     },
     {
-      "ordinal": 90,
-      "name": "SHFindFiles"
-    },
-    {
-      "ordinal": 149,
-      "name": "SHFind_InitMenuPopup"
-    },
-    {
-      "ordinal": 526,
-      "name": "SHFlushSFCache"
-    },
-    {
       "ordinal": 363,
       "name": "SHFormatDrive"
     },
     {
-      "ordinal": 195,
-      "name": "SHFree"
-    },
-    {
       "ordinal": 364,
       "name": "SHFreeNameMappings"
-    },
-    {
-      "ordinal": 750,
-      "name": "SHGetAttributesFromDataObject"
     },
     {
       "ordinal": 365,
@@ -872,10 +1663,6 @@
       "name": "SHGetIconOverlayIndexW"
     },
     {
-      "ordinal": 727,
-      "name": "SHGetImageList"
-    },
-    {
       "ordinal": 390,
       "name": "SHGetInstanceExplorer"
     },
@@ -924,14 +1711,6 @@
       "name": "SHGetNewLinkInfo"
     },
     {
-      "ordinal": 179,
-      "name": "SHGetNewLinkInfoA"
-    },
-    {
-      "ordinal": 180,
-      "name": "SHGetNewLinkInfoW"
-    },
-    {
       "ordinal": 402,
       "name": "SHGetPathFromIDList"
     },
@@ -958,18 +1737,6 @@
     {
       "ordinal": 408,
       "name": "SHGetPropertyStoreFromParsingName"
-    },
-    {
-      "ordinal": 98,
-      "name": "SHGetRealIDL"
-    },
-    {
-      "ordinal": 709,
-      "name": "SHGetSetFolderCustomSettings"
-    },
-    {
-      "ordinal": 68,
-      "name": "SHGetSetSettings"
     },
     {
       "ordinal": 409,
@@ -1008,26 +1775,6 @@
       "name": "SHGetUnreadMailCountW"
     },
     {
-      "ordinal": 193,
-      "name": "SHHandleUpdateImage"
-    },
-    {
-      "ordinal": 228,
-      "name": "SHHelpShortcuts_RunDLL"
-    },
-    {
-      "ordinal": 229,
-      "name": "SHHelpShortcuts_RunDLLA"
-    },
-    {
-      "ordinal": 238,
-      "name": "SHHelpShortcuts_RunDLLW"
-    },
-    {
-      "ordinal": 28,
-      "name": "SHILCreateFromPath"
-    },
-    {
       "ordinal": 418,
       "name": "SHInvokePrinterCommandA"
     },
@@ -1040,10 +1787,6 @@
       "name": "SHIsFileAvailableOffline"
     },
     {
-      "ordinal": 747,
-      "name": "SHLimitInputEdit"
-    },
-    {
       "ordinal": 421,
       "name": "SHLoadInProc"
     },
@@ -1052,24 +1795,8 @@
       "name": "SHLoadNonloadedIconOverlayIdentifiers"
     },
     {
-      "ordinal": 77,
-      "name": "SHMapPIDLToSystemImageListIndex"
-    },
-    {
-      "ordinal": 716,
-      "name": "SHMultiFileProperties"
-    },
-    {
-      "ordinal": 178,
-      "name": "SHObjectProperties"
-    },
-    {
       "ordinal": 423,
       "name": "SHOpenFolderAndSelectItems"
-    },
-    {
-      "ordinal": 80,
-      "name": "SHOpenPropSheetW"
     },
     {
       "ordinal": 424,
@@ -1088,18 +1815,6 @@
       "name": "SHPathPrepareForWriteW"
     },
     {
-      "ordinal": 685,
-      "name": "SHPropStgCreate"
-    },
-    {
-      "ordinal": 688,
-      "name": "SHPropStgReadMultiple"
-    },
-    {
-      "ordinal": 689,
-      "name": "SHPropStgWriteMultiple"
-    },
-    {
       "ordinal": 428,
       "name": "SHQueryRecycleBinA"
     },
@@ -1116,32 +1831,12 @@
       "name": "SHRemoveLocalizedName"
     },
     {
-      "ordinal": 170,
-      "name": "SHReplaceFromPropSheetExtArray"
-    },
-    {
       "ordinal": 432,
       "name": "SHResolveLibrary"
     },
     {
-      "ordinal": 100,
-      "name": "SHRestricted"
-    },
-    {
       "ordinal": 433,
       "name": "SHSetDefaultProperties"
-    },
-    {
-      "ordinal": 231,
-      "name": "SHSetFolderPathA"
-    },
-    {
-      "ordinal": 232,
-      "name": "SHSetFolderPathW"
-    },
-    {
-      "ordinal": 176,
-      "name": "SHSetInstanceExplorer"
     },
     {
       "ordinal": 434,
@@ -1164,40 +1859,12 @@
       "name": "SHSetUnreadMailCountW"
     },
     {
-      "ordinal": 73,
-      "name": "SHShellFolderView_Message"
-    },
-    {
       "ordinal": 439,
       "name": "SHShowManageLibraryUI"
     },
     {
-      "ordinal": 162,
-      "name": "SHSimpleIDListFromPath"
-    },
-    {
-      "ordinal": 14,
-      "name": "SHStartNetConnectionDialogW"
-    },
-    {
-      "ordinal": 245,
-      "name": "SHTestTokenMembership"
-    },
-    {
-      "ordinal": 191,
-      "name": "SHUpdateImageA"
-    },
-    {
-      "ordinal": 192,
-      "name": "SHUpdateImageW"
-    },
-    {
       "ordinal": 440,
       "name": "SHUpdateRecycleBinIcon"
-    },
-    {
-      "ordinal": 173,
-      "name": "SHValidateUNC"
     },
     {
       "ordinal": 441,
@@ -1264,34 +1931,12 @@
       "name": "ShellHookProc"
     },
     {
-      "ordinal": 183,
-      "name": "ShellMessageBoxA",
-      "forwarder": "shlwapi.ShellMessageBoxA"
-    },
-    {
-      "ordinal": 182,
-      "name": "ShellMessageBoxW",
-      "forwarder": "shlwapi.ShellMessageBoxW"
-    },
-    {
-      "ordinal": 72,
-      "name": "Shell_GetCachedImageIndex"
-    },
-    {
       "ordinal": 457,
       "name": "Shell_GetCachedImageIndexA"
     },
     {
       "ordinal": 458,
       "name": "Shell_GetCachedImageIndexW"
-    },
-    {
-      "ordinal": 71,
-      "name": "Shell_GetImageLists"
-    },
-    {
-      "ordinal": 67,
-      "name": "Shell_MergeMenus"
     },
     {
       "ordinal": 459,
@@ -1308,14 +1953,6 @@
     {
       "ordinal": 462,
       "name": "Shell_NotifyIconW"
-    },
-    {
-      "ordinal": 103,
-      "name": "SignalFileOpen"
-    },
-    {
-      "ordinal": 682,
-      "name": "StgMakeUniqueName"
     },
     {
       "ordinal": 463,
@@ -1422,743 +2059,6 @@
       "name": "WaitForExplorerRestartW"
     },
     {
-      "ordinal": 164,
-      "name": "Win32DeleteFile"
-    },
-    {
-      "ordinal": 652,
-      "name": "WriteCabinetState"
-    },
-    {
-      "ordinal": 5,
-      "name": null,
-      "forwarder": "SHUNIMPL.#35"
-    },
-    {
-      "ordinal": 7,
-      "name": null,
-      "forwarder": "SHUNIMPL.#192"
-    },
-    {
-      "ordinal": 8,
-      "name": null,
-      "forwarder": "SHUNIMPL.#193"
-    },
-    {
-      "ordinal": 12,
-      "name": null
-    },
-    {
-      "ordinal": 15,
-      "name": null
-    },
-    {
-      "ordinal": 20,
-      "name": null
-    },
-    {
-      "ordinal": 26,
-      "name": null,
-      "forwarder": "SHUNIMPL.#36"
-    },
-    {
-      "ordinal": 29,
-      "name": null
-    },
-    {
-      "ordinal": 30,
-      "name": null,
-      "forwarder": "shlwapi.PathBuildRootW"
-    },
-    {
-      "ordinal": 31,
-      "name": null,
-      "forwarder": "shlwapi.PathFindExtensionW"
-    },
-    {
-      "ordinal": 32,
-      "name": null,
-      "forwarder": "shlwapi.PathAddBackslashW"
-    },
-    {
-      "ordinal": 33,
-      "name": null,
-      "forwarder": "shlwapi.PathRemoveBlanksW"
-    },
-    {
-      "ordinal": 34,
-      "name": null,
-      "forwarder": "shlwapi.PathFindFileNameW"
-    },
-    {
-      "ordinal": 35,
-      "name": null
-    },
-    {
-      "ordinal": 36,
-      "name": null
-    },
-    {
-      "ordinal": 37,
-      "name": null,
-      "forwarder": "shlwapi.PathCombineW"
-    },
-    {
-      "ordinal": 38,
-      "name": null,
-      "forwarder": "shlwapi.PathStripPathW"
-    },
-    {
-      "ordinal": 39,
-      "name": null,
-      "forwarder": "shlwapi.PathIsUNCW"
-    },
-    {
-      "ordinal": 40,
-      "name": null,
-      "forwarder": "shlwapi.PathIsRelativeW"
-    },
-    {
-      "ordinal": 44,
-      "name": null
-    },
-    {
-      "ordinal": 45,
-      "name": null
-    },
-    {
-      "ordinal": 46,
-      "name": null,
-      "forwarder": "shlwapi.PathMatchSpecW"
-    },
-    {
-      "ordinal": 48,
-      "name": null,
-      "forwarder": "shlwapi.PathSetDlgItemPathW"
-    },
-    {
-      "ordinal": 50,
-      "name": null,
-      "forwarder": "shlwapi.PathStripToRootW"
-    },
-    {
-      "ordinal": 52,
-      "name": null,
-      "forwarder": "shlwapi.PathGetArgsW"
-    },
-    {
-      "ordinal": 53,
-      "name": null,
-      "forwarder": "SHUNIMPL.#388"
-    },
-    {
-      "ordinal": 54,
-      "name": null
-    },
-    {
-      "ordinal": 55,
-      "name": null,
-      "forwarder": "shlwapi.PathQuoteSpacesW"
-    },
-    {
-      "ordinal": 56,
-      "name": null,
-      "forwarder": "shlwapi.PathUnquoteSpacesW"
-    },
-    {
-      "ordinal": 57,
-      "name": null,
-      "forwarder": "shlwapi.PathGetDriveNumberW"
-    },
-    {
-      "ordinal": 58,
-      "name": null
-    },
-    {
-      "ordinal": 60,
-      "name": null
-    },
-    {
-      "ordinal": 61,
-      "name": null
-    },
-    {
-      "ordinal": 65,
-      "name": null
-    },
-    {
-      "ordinal": 69,
-      "name": null
-    },
-    {
-      "ordinal": 70,
-      "name": null
-    },
-    {
-      "ordinal": 76,
-      "name": null
-    },
-    {
-      "ordinal": 78,
-      "name": null,
-      "forwarder": "SHUNIMPL.#37"
-    },
-    {
-      "ordinal": 79,
-      "name": null,
-      "forwarder": "SHUNIMPL.#38"
-    },
-    {
-      "ordinal": 82,
-      "name": null,
-      "forwarder": "SHUNIMPL.#39"
-    },
-    {
-      "ordinal": 84,
-      "name": null,
-      "forwarder": "SHUNIMPL.#40"
-    },
-    {
-      "ordinal": 86,
-      "name": null,
-      "forwarder": "SHUNIMPL.#41"
-    },
-    {
-      "ordinal": 87,
-      "name": null,
-      "forwarder": "SHUNIMPL.#42"
-    },
-    {
-      "ordinal": 91,
-      "name": null
-    },
-    {
-      "ordinal": 93,
-      "name": null
-    },
-    {
-      "ordinal": 94,
-      "name": null
-    },
-    {
-      "ordinal": 95,
-      "name": null
-    },
-    {
-      "ordinal": 96,
-      "name": null,
-      "forwarder": "SHUNIMPL.#43"
-    },
-    {
-      "ordinal": 97,
-      "name": null
-    },
-    {
-      "ordinal": 99,
-      "name": null
-    },
-    {
-      "ordinal": 101,
-      "name": null,
-      "forwarder": "SHUNIMPL.#1"
-    },
-    {
-      "ordinal": 104,
-      "name": null,
-      "forwarder": "SHUNIMPL.#2"
-    },
-    {
-      "ordinal": 105,
-      "name": null,
-      "forwarder": "SHUNIMPL.#3"
-    },
-    {
-      "ordinal": 106,
-      "name": null,
-      "forwarder": "SHUNIMPL.#4"
-    },
-    {
-      "ordinal": 107,
-      "name": null,
-      "forwarder": "SHUNIMPL.#5"
-    },
-    {
-      "ordinal": 108,
-      "name": null,
-      "forwarder": "SHUNIMPL.#6"
-    },
-    {
-      "ordinal": 109,
-      "name": null,
-      "forwarder": "SHUNIMPL.#7"
-    },
-    {
-      "ordinal": 110,
-      "name": null,
-      "forwarder": "SHUNIMPL.#8"
-    },
-    {
-      "ordinal": 111,
-      "name": null,
-      "forwarder": "SHUNIMPL.#9"
-    },
-    {
-      "ordinal": 112,
-      "name": null,
-      "forwarder": "SHUNIMPL.#10"
-    },
-    {
-      "ordinal": 113,
-      "name": null,
-      "forwarder": "SHUNIMPL.#11"
-    },
-    {
-      "ordinal": 114,
-      "name": null,
-      "forwarder": "SHUNIMPL.#12"
-    },
-    {
-      "ordinal": 115,
-      "name": null,
-      "forwarder": "SHUNIMPL.#13"
-    },
-    {
-      "ordinal": 116,
-      "name": null,
-      "forwarder": "SHUNIMPL.#14"
-    },
-    {
-      "ordinal": 117,
-      "name": null,
-      "forwarder": "SHUNIMPL.#15"
-    },
-    {
-      "ordinal": 118,
-      "name": null,
-      "forwarder": "SHUNIMPL.#16"
-    },
-    {
-      "ordinal": 120,
-      "name": null,
-      "forwarder": "SHUNIMPL.#17"
-    },
-    {
-      "ordinal": 121,
-      "name": null,
-      "forwarder": "SHUNIMPL.#44"
-    },
-    {
-      "ordinal": 122,
-      "name": null,
-      "forwarder": "SHUNIMPL.#45"
-    },
-    {
-      "ordinal": 123,
-      "name": null,
-      "forwarder": "SHUNIMPL.#46"
-    },
-    {
-      "ordinal": 124,
-      "name": null,
-      "forwarder": "SHUNIMPL.#18"
-    },
-    {
-      "ordinal": 126,
-      "name": null,
-      "forwarder": "SHUNIMPL.#47"
-    },
-    {
-      "ordinal": 127,
-      "name": null,
-      "forwarder": "SHUNIMPL.#371"
-    },
-    {
-      "ordinal": 128,
-      "name": null
-    },
-    {
-      "ordinal": 130,
-      "name": null,
-      "forwarder": "SHUNIMPL.#48"
-    },
-    {
-      "ordinal": 140,
-      "name": null,
-      "forwarder": "SHUNIMPL.#19"
-    },
-    {
-      "ordinal": 141,
-      "name": null,
-      "forwarder": "SHUNIMPL.#20"
-    },
-    {
-      "ordinal": 142,
-      "name": null,
-      "forwarder": "SHUNIMPL.#21"
-    },
-    {
-      "ordinal": 143,
-      "name": null,
-      "forwarder": "SHUNIMPL.#22"
-    },
-    {
-      "ordinal": 144,
-      "name": null,
-      "forwarder": "SHUNIMPL.#23"
-    },
-    {
-      "ordinal": 145,
-      "name": null,
-      "forwarder": "shlwapi.PathFindOnPathW"
-    },
-    {
-      "ordinal": 146,
-      "name": null,
-      "forwarder": "SHUNIMPL.#49"
-    },
-    {
-      "ordinal": 148,
-      "name": null,
-      "forwarder": "SHUNIMPL.#50"
-    },
-    {
-      "ordinal": 151,
-      "name": null,
-      "forwarder": "SHUNIMPL.#51"
-    },
-    {
-      "ordinal": 156,
-      "name": null
-    },
-    {
-      "ordinal": 158,
-      "name": null,
-      "forwarder": "SHUNIMPL.#389"
-    },
-    {
-      "ordinal": 159,
-      "name": null,
-      "forwarder": "shlwapi.PathIsDirectoryW"
-    },
-    {
-      "ordinal": 160,
-      "name": null
-    },
-    {
-      "ordinal": 161,
-      "name": null,
-      "forwarder": "SHUNIMPL.#214"
-    },
-    {
-      "ordinal": 163,
-      "name": null,
-      "forwarder": "SHUNIMPL.#52"
-    },
-    {
-      "ordinal": 166,
-      "name": null,
-      "forwarder": "SHUNIMPL.#53"
-    },
-    {
-      "ordinal": 172,
-      "name": null
-    },
-    {
-      "ordinal": 175,
-      "name": null
-    },
-    {
-      "ordinal": 177,
-      "name": null,
-      "forwarder": "SHUNIMPL.#54"
-    },
-    {
-      "ordinal": 181,
-      "name": null
-    },
-    {
-      "ordinal": 184,
-      "name": null
-    },
-    {
-      "ordinal": 185,
-      "name": null,
-      "forwarder": "SHUNIMPL.#390"
-    },
-    {
-      "ordinal": 186,
-      "name": null
-    },
-    {
-      "ordinal": 187,
-      "name": null,
-      "forwarder": "SHUNIMPL.#235"
-    },
-    {
-      "ordinal": 188,
-      "name": null
-    },
-    {
-      "ordinal": 194,
-      "name": null
-    },
-    {
-      "ordinal": 197,
-      "name": null,
-      "forwarder": "SHUNIMPL.#55"
-    },
-    {
-      "ordinal": 198,
-      "name": null,
-      "forwarder": "SHUNIMPL.#56"
-    },
-    {
-      "ordinal": 200,
-      "name": null
-    },
-    {
-      "ordinal": 201,
-      "name": null
-    },
-    {
-      "ordinal": 202,
-      "name": null,
-      "forwarder": "SHUNIMPL.#57"
-    },
-    {
-      "ordinal": 203,
-      "name": null
-    },
-    {
-      "ordinal": 204,
-      "name": null
-    },
-    {
-      "ordinal": 205,
-      "name": null
-    },
-    {
-      "ordinal": 206,
-      "name": null
-    },
-    {
-      "ordinal": 209,
-      "name": null
-    },
-    {
-      "ordinal": 210,
-      "name": null
-    },
-    {
-      "ordinal": 211,
-      "name": null
-    },
-    {
-      "ordinal": 212,
-      "name": null
-    },
-    {
-      "ordinal": 213,
-      "name": null
-    },
-    {
-      "ordinal": 214,
-      "name": null
-    },
-    {
-      "ordinal": 215,
-      "name": null
-    },
-    {
-      "ordinal": 216,
-      "name": null,
-      "forwarder": "SHUNIMPL.#24"
-    },
-    {
-      "ordinal": 217,
-      "name": null,
-      "forwarder": "SHUNIMPL.#25"
-    },
-    {
-      "ordinal": 218,
-      "name": null,
-      "forwarder": "SHUNIMPL.#26"
-    },
-    {
-      "ordinal": 219,
-      "name": null,
-      "forwarder": "SHUNIMPL.#27"
-    },
-    {
-      "ordinal": 220,
-      "name": null,
-      "forwarder": "SHUNIMPL.#28"
-    },
-    {
-      "ordinal": 221,
-      "name": null,
-      "forwarder": "SHUNIMPL.#29"
-    },
-    {
-      "ordinal": 222,
-      "name": null,
-      "forwarder": "SHUNIMPL.#30"
-    },
-    {
-      "ordinal": 223,
-      "name": null,
-      "forwarder": "SHUNIMPL.#31"
-    },
-    {
-      "ordinal": 224,
-      "name": null,
-      "forwarder": "SHUNIMPL.#32"
-    },
-    {
-      "ordinal": 225,
-      "name": null,
-      "forwarder": "SHUNIMPL.#33"
-    },
-    {
-      "ordinal": 227,
-      "name": null,
-      "forwarder": "SHUNIMPL.#34"
-    },
-    {
-      "ordinal": 230,
-      "name": null,
-      "forwarder": "SHUNIMPL.#372"
-    },
-    {
-      "ordinal": 233,
-      "name": null,
-      "forwarder": "SHUNIMPL.#58"
-    },
-    {
-      "ordinal": 234,
-      "name": null,
-      "forwarder": "SHUNIMPL.#59"
-    },
-    {
-      "ordinal": 235,
-      "name": null,
-      "forwarder": "SHUNIMPL.#212"
-    },
-    {
-      "ordinal": 236,
-      "name": null
-    },
-    {
-      "ordinal": 237,
-      "name": null
-    },
-    {
-      "ordinal": 241,
-      "name": null
-    },
-    {
-      "ordinal": 242,
-      "name": null,
-      "forwarder": "SHUNIMPL.#373"
-    },
-    {
-      "ordinal": 243,
-      "name": null,
-      "forwarder": "SHUNIMPL.#374"
-    },
-    {
-      "ordinal": 244,
-      "name": null
-    },
-    {
-      "ordinal": 246,
-      "name": null,
-      "forwarder": "SHUNIMPL.#375"
-    },
-    {
-      "ordinal": 247,
-      "name": null,
-      "forwarder": "SHUNIMPL.#376"
-    },
-    {
-      "ordinal": 248,
-      "name": null,
-      "forwarder": "SHUNIMPL.#377"
-    },
-    {
-      "ordinal": 249,
-      "name": null,
-      "forwarder": "shlwapi.PathParseIconLocationW"
-    },
-    {
-      "ordinal": 250,
-      "name": null,
-      "forwarder": "shlwapi.PathRemoveExtensionW"
-    },
-    {
-      "ordinal": 251,
-      "name": null,
-      "forwarder": "shlwapi.PathRemoveArgsW"
-    },
-    {
-      "ordinal": 252,
-      "name": null,
-      "forwarder": "api-ms-win-core-url-l1.PathIsURLW"
-    },
-    {
-      "ordinal": 253,
-      "name": null,
-      "forwarder": "SHUNIMPL.#378"
-    },
-    {
-      "ordinal": 254,
-      "name": null
-    },
-    {
-      "ordinal": 257,
-      "name": null
-    },
-    {
-      "ordinal": 258,
-      "name": null
-    },
-    {
-      "ordinal": 259,
-      "name": null
-    },
-    {
-      "ordinal": 260,
-      "name": null
-    },
-    {
-      "ordinal": 261,
-      "name": null
-    },
-    {
-      "ordinal": 262,
-      "name": null
-    },
-    {
-      "ordinal": 264,
-      "name": null
-    },
-    {
-      "ordinal": 265,
-      "name": null
-    },
-    {
-      "ordinal": 266,
-      "name": null
-    },
-    {
-      "ordinal": 270,
-      "name": null
-    },
-    {
-      "ordinal": 271,
-      "name": null
-    },
-    {
       "ordinal": 520,
       "name": null,
       "forwarder": "SHUNIMPL.#60"
@@ -2179,9 +2079,17 @@
       "forwarder": "SHUNIMPL.#63"
     },
     {
+      "ordinal": 524,
+      "name": "RealDriveType"
+    },
+    {
       "ordinal": 525,
       "name": null,
       "forwarder": "SHUNIMPL.#234"
+    },
+    {
+      "ordinal": 526,
+      "name": "SHFlushSFCache"
     },
     {
       "ordinal": 640,
@@ -2197,6 +2105,14 @@
       "ordinal": 643,
       "name": null,
       "forwarder": "SHUNIMPL.#66"
+    },
+    {
+      "ordinal": 644,
+      "name": "SHChangeNotification_Lock"
+    },
+    {
+      "ordinal": 645,
+      "name": "SHChangeNotification_Unlock"
     },
     {
       "ordinal": 646,
@@ -2218,18 +2134,34 @@
       "name": null
     },
     {
+      "ordinal": 652,
+      "name": "WriteCabinetState"
+    },
+    {
       "ordinal": 653,
       "name": null,
       "forwarder": "SHUNIMPL.#68"
+    },
+    {
+      "ordinal": 654,
+      "name": "ReadCabinetState"
     },
     {
       "ordinal": 660,
       "name": null
     },
     {
+      "ordinal": 680,
+      "name": "IsUserAnAdmin"
+    },
+    {
       "ordinal": 681,
       "name": null,
       "forwarder": "SHUNIMPL.#428"
+    },
+    {
+      "ordinal": 682,
+      "name": "StgMakeUniqueName"
     },
     {
       "ordinal": 683,
@@ -2238,6 +2170,18 @@
     {
       "ordinal": 684,
       "name": null
+    },
+    {
+      "ordinal": 685,
+      "name": "SHPropStgCreate"
+    },
+    {
+      "ordinal": 688,
+      "name": "SHPropStgReadMultiple"
+    },
+    {
+      "ordinal": 689,
+      "name": "SHPropStgWriteMultiple"
     },
     {
       "ordinal": 690,
@@ -2252,6 +2196,10 @@
       "ordinal": 700,
       "name": null,
       "forwarder": "SHUNIMPL.#380"
+    },
+    {
+      "ordinal": 701,
+      "name": "CDefFolderMenu_Create2"
     },
     {
       "ordinal": 702,
@@ -2278,6 +2226,10 @@
       "forwarder": "SHUNIMPL.#70"
     },
     {
+      "ordinal": 709,
+      "name": "SHGetSetFolderCustomSettings"
+    },
+    {
       "ordinal": 711,
       "name": null
     },
@@ -2298,6 +2250,10 @@
       "ordinal": 715,
       "name": null,
       "forwarder": "SHUNIMPL.#191"
+    },
+    {
+      "ordinal": 716,
+      "name": "SHMultiFileProperties"
     },
     {
       "ordinal": 719,
@@ -2338,6 +2294,14 @@
       "forwarder": "SHUNIMPL.#75"
     },
     {
+      "ordinal": 727,
+      "name": "SHGetImageList"
+    },
+    {
+      "ordinal": 730,
+      "name": "RestartDialogEx"
+    },
+    {
       "ordinal": 731,
       "name": null
     },
@@ -2354,6 +2318,10 @@
       "name": null
     },
     {
+      "ordinal": 743,
+      "name": "SHCreateFileExtractIconW"
+    },
+    {
       "ordinal": 744,
       "name": null
     },
@@ -2363,6 +2331,10 @@
       "forwarder": "SHUNIMPL.#382"
     },
     {
+      "ordinal": 747,
+      "name": "SHLimitInputEdit"
+    },
+    {
       "ordinal": 748,
       "name": null
     },
@@ -2370,6 +2342,10 @@
       "ordinal": 749,
       "name": null,
       "forwarder": "SHUNIMPL.#76"
+    },
+    {
+      "ordinal": 750,
+      "name": "SHGetAttributesFromDataObject"
     },
     {
       "ordinal": 751,
@@ -2651,6 +2627,10 @@
       "name": null
     },
     {
+      "ordinal": 846,
+      "name": "ILLoadFromStreamEx"
+    },
+    {
       "ordinal": 847,
       "name": null
     },
@@ -2927,8 +2907,16 @@
       "name": null
     },
     {
+      "ordinal": 919,
+      "name": "GetSystemPersistedStorageItemList"
+    },
+    {
       "ordinal": 920,
       "name": null
+    },
+    {
+      "ordinal": 921,
+      "name": "CreateStorageItemFromShellItem_FullTrustCaller"
     },
     {
       "ordinal": 922,
@@ -2943,6 +2931,10 @@
       "name": null
     },
     {
+      "ordinal": 925,
+      "name": "CreateStorageItemFromShellItem_FullTrustCaller_ForPackage"
+    },
+    {
       "ordinal": 926,
       "name": null
     },
@@ -2955,8 +2947,16 @@
       "name": null
     },
     {
+      "ordinal": 929,
+      "name": "CreateStorageItemFromShellItem_FullTrustCaller_ForPackage_WithProcessHandle"
+    },
+    {
       "ordinal": 930,
       "name": null
+    },
+    {
+      "ordinal": 931,
+      "name": "CreateStorageItemFromShellItem_FullTrustCaller_UseImplicitFlagsAndPackage"
     },
     {
       "ordinal": 932,

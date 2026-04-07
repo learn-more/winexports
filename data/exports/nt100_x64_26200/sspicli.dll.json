@@ -12,6 +12,18 @@
   "Machine": "AMD64",
   "exports": [
     {
+      "ordinal": 1,
+      "name": "SecDeleteUserModeContext"
+    },
+    {
+      "ordinal": 2,
+      "name": "SecInitUserModeContext"
+    },
+    {
+      "ordinal": 3,
+      "name": "SspiUnmarshalAuthIdentityInternal"
+    },
+    {
       "ordinal": 4,
       "name": "AcceptSecurityContext"
     },
@@ -312,16 +324,8 @@
       "name": "SecCacheSspiPackages"
     },
     {
-      "ordinal": 1,
-      "name": "SecDeleteUserModeContext"
-    },
-    {
       "ordinal": 79,
       "name": "SecFreeCallContext"
-    },
-    {
-      "ordinal": 2,
-      "name": "SecInitUserModeContext"
     },
     {
       "ordinal": 80,
@@ -434,10 +438,6 @@
     {
       "ordinal": 107,
       "name": "SspiUnmarshalAuthIdentity"
-    },
-    {
-      "ordinal": 3,
-      "name": "SspiUnmarshalAuthIdentityInternal"
     },
     {
       "ordinal": 108,

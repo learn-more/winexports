@@ -12,12 +12,24 @@
   "Machine": "I386",
   "exports": [
     {
-      "ordinal": 5,
-      "name": "KerbCreateTokenFromTicket"
+      "ordinal": 1,
+      "name": "SpInitialize"
     },
     {
       "ordinal": 2,
       "name": "KerbDomainChangeCallback"
+    },
+    {
+      "ordinal": 3,
+      "name": "SpLsaModeInitialize"
+    },
+    {
+      "ordinal": 4,
+      "name": "SpUserModeInitialize"
+    },
+    {
+      "ordinal": 5,
+      "name": "KerbCreateTokenFromTicket"
     },
     {
       "ordinal": 6,
@@ -36,20 +48,8 @@
       "name": "KerbMakeKdcCall"
     },
     {
-      "ordinal": 1,
-      "name": "SpInitialize"
-    },
-    {
       "ordinal": 32,
       "name": "SpInstanceInit"
-    },
-    {
-      "ordinal": 3,
-      "name": "SpLsaModeInitialize"
-    },
-    {
-      "ordinal": 4,
-      "name": "SpUserModeInitialize"
     }
   ]
 }

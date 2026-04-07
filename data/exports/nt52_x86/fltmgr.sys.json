@@ -12,6 +12,14 @@
   "Machine": "I386",
   "exports": [
     {
+      "ordinal": 1,
+      "name": "FltGetSwappedBufferMdlAddress"
+    },
+    {
+      "ordinal": 2,
+      "name": "FltRetainSwappedBufferMdlAddress"
+    },
+    {
       "ordinal": 3,
       "name": "FltAcquirePushLockExclusive"
     },
@@ -348,10 +356,6 @@
       "name": "FltGetStreamHandleContext"
     },
     {
-      "ordinal": 1,
-      "name": "FltGetSwappedBufferMdlAddress"
-    },
-    {
       "ordinal": 87,
       "name": "FltGetTopInstance"
     },
@@ -562,10 +566,6 @@
     {
       "ordinal": 139,
       "name": "FltRequestOperationStatusCallback"
-    },
-    {
-      "ordinal": 2,
-      "name": "FltRetainSwappedBufferMdlAddress"
     },
     {
       "ordinal": 140,

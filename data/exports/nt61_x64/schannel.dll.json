@@ -12,6 +12,10 @@
   "Machine": "AMD64",
   "exports": [
     {
+      "ordinal": 1,
+      "name": "SpLsaModeInitialize"
+    },
+    {
       "ordinal": 2,
       "name": "AcceptSecurityContext",
       "forwarder": "SSPICLI.AcceptSecurityContext"
@@ -120,10 +124,6 @@
       "ordinal": 23,
       "name": "SealMessage",
       "forwarder": "SSPICLI.SealMessage"
-    },
-    {
-      "ordinal": 1,
-      "name": "SpLsaModeInitialize"
     },
     {
       "ordinal": 24,

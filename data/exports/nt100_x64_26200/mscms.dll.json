@@ -16,6 +16,10 @@
       "name": "AssociateColorProfileWithDeviceA"
     },
     {
+      "ordinal": 2,
+      "name": "DeviceRenameEvent"
+    },
+    {
       "ordinal": 3,
       "name": "AssociateColorProfileWithDeviceW"
     },
@@ -88,34 +92,6 @@
       "name": "ColorCplUninitialize"
     },
     {
-      "ordinal": 230,
-      "name": "ColorProfileAddDisplayAssociation"
-    },
-    {
-      "ordinal": 236,
-      "name": "ColorProfileGetDeviceCapabilities"
-    },
-    {
-      "ordinal": 234,
-      "name": "ColorProfileGetDisplayDefault"
-    },
-    {
-      "ordinal": 233,
-      "name": "ColorProfileGetDisplayList"
-    },
-    {
-      "ordinal": 235,
-      "name": "ColorProfileGetDisplayUserScope"
-    },
-    {
-      "ordinal": 231,
-      "name": "ColorProfileRemoveDisplayAssociation"
-    },
-    {
-      "ordinal": 232,
-      "name": "ColorProfileSetDisplayDefaultAssociation"
-    },
-    {
       "ordinal": 21,
       "name": "ConvertColorNameToIndex"
     },
@@ -172,10 +148,6 @@
       "name": "DeleteColorTransform"
     },
     {
-      "ordinal": 2,
-      "name": "DeviceRenameEvent"
-    },
-    {
       "ordinal": 35,
       "name": "DisassociateColorProfileFromDeviceA"
     },
@@ -206,10 +178,6 @@
     {
       "ordinal": 42,
       "name": "GetCMMInfo"
-    },
-    {
-      "ordinal": 240,
-      "name": "GetCalibrationDataFromProfile"
     },
     {
       "ordinal": 43,
@@ -272,24 +240,8 @@
       "name": "InstallColorProfileW"
     },
     {
-      "ordinal": 207,
-      "name": "InternalGetAppliedGDIGammaRamp"
-    },
-    {
-      "ordinal": 205,
-      "name": "InternalGetAppliedGammaRamp"
-    },
-    {
-      "ordinal": 250,
-      "name": "InternalGetChromaticAdaptationMatrixForDisplay"
-    },
-    {
       "ordinal": 58,
       "name": "InternalGetDeviceConfig"
-    },
-    {
-      "ordinal": 206,
-      "name": "InternalGetDeviceGammaCapability"
     },
     {
       "ordinal": 59,
@@ -300,52 +252,20 @@
       "name": "InternalGetPS2ColorRenderingDictionary"
     },
     {
-      "ordinal": 200,
-      "name": "InternalGetPS2ColorRenderingDictionary2"
-    },
-    {
       "ordinal": 61,
       "name": "InternalGetPS2ColorSpaceArray"
-    },
-    {
-      "ordinal": 202,
-      "name": "InternalGetPS2ColorSpaceArray2"
     },
     {
       "ordinal": 62,
       "name": "InternalGetPS2PreviewCRD"
     },
     {
-      "ordinal": 201,
-      "name": "InternalGetPS2PreviewCRD2"
-    },
-    {
       "ordinal": 63,
       "name": "InternalRefreshCalibration"
     },
     {
-      "ordinal": 270,
-      "name": "InternalRefreshCalibrationFromColorServer"
-    },
-    {
-      "ordinal": 260,
-      "name": "InternalSetAccessibilityColorMatrix"
-    },
-    {
       "ordinal": 64,
       "name": "InternalSetDeviceConfig"
-    },
-    {
-      "ordinal": 208,
-      "name": "InternalSetDeviceGDIGammaRamp"
-    },
-    {
-      "ordinal": 203,
-      "name": "InternalSetDeviceGammaRamp"
-    },
-    {
-      "ordinal": 204,
-      "name": "InternalSetDeviceTemperature"
     },
     {
       "ordinal": 65,
@@ -514,6 +434,86 @@
     {
       "ordinal": 106,
       "name": "WcsTranslateColors"
+    },
+    {
+      "ordinal": 200,
+      "name": "InternalGetPS2ColorRenderingDictionary2"
+    },
+    {
+      "ordinal": 201,
+      "name": "InternalGetPS2PreviewCRD2"
+    },
+    {
+      "ordinal": 202,
+      "name": "InternalGetPS2ColorSpaceArray2"
+    },
+    {
+      "ordinal": 203,
+      "name": "InternalSetDeviceGammaRamp"
+    },
+    {
+      "ordinal": 204,
+      "name": "InternalSetDeviceTemperature"
+    },
+    {
+      "ordinal": 205,
+      "name": "InternalGetAppliedGammaRamp"
+    },
+    {
+      "ordinal": 206,
+      "name": "InternalGetDeviceGammaCapability"
+    },
+    {
+      "ordinal": 207,
+      "name": "InternalGetAppliedGDIGammaRamp"
+    },
+    {
+      "ordinal": 208,
+      "name": "InternalSetDeviceGDIGammaRamp"
+    },
+    {
+      "ordinal": 230,
+      "name": "ColorProfileAddDisplayAssociation"
+    },
+    {
+      "ordinal": 231,
+      "name": "ColorProfileRemoveDisplayAssociation"
+    },
+    {
+      "ordinal": 232,
+      "name": "ColorProfileSetDisplayDefaultAssociation"
+    },
+    {
+      "ordinal": 233,
+      "name": "ColorProfileGetDisplayList"
+    },
+    {
+      "ordinal": 234,
+      "name": "ColorProfileGetDisplayDefault"
+    },
+    {
+      "ordinal": 235,
+      "name": "ColorProfileGetDisplayUserScope"
+    },
+    {
+      "ordinal": 236,
+      "name": "ColorProfileGetDeviceCapabilities"
+    },
+    {
+      "ordinal": 240,
+      "name": "GetCalibrationDataFromProfile"
+    },
+    {
+      "ordinal": 250,
+      "name": "InternalGetChromaticAdaptationMatrixForDisplay"
+    },
+    {
+      "ordinal": 260,
+      "name": "InternalSetAccessibilityColorMatrix"
+    },
+    {
+      "ordinal": 270,
+      "name": "InternalRefreshCalibrationFromColorServer"
     }
   ]
 }

@@ -12,16 +12,96 @@
   "Machine": "I386",
   "exports": [
     {
+      "ordinal": 17,
+      "name": "InitErrors"
+    },
+    {
+      "ordinal": 18,
+      "name": "PostError"
+    },
+    {
+      "ordinal": 19,
+      "name": "InitSSAutoEnterThread"
+    },
+    {
+      "ordinal": 20,
+      "name": "UpdateError"
+    },
+    {
+      "ordinal": 21,
+      "name": "CloseCtrs"
+    },
+    {
+      "ordinal": 22,
+      "name": "LoadStringRC"
+    },
+    {
+      "ordinal": 23,
+      "name": "ReOpenMetaDataWithMemory"
+    },
+    {
+      "ordinal": 24,
+      "name": null
+    },
+    {
+      "ordinal": 25,
+      "name": "CollectCtrs"
+    },
+    {
+      "ordinal": 26,
+      "name": "CorDllMainWorker"
+    },
+    {
+      "ordinal": 27,
+      "name": "EEDllGetClassObjectFromClass"
+    },
+    {
+      "ordinal": 28,
+      "name": "GetPrivateContextsPerfCounters"
+    },
+    {
+      "ordinal": 29,
+      "name": "GetProcessExecutableHeap"
+    },
+    {
+      "ordinal": 30,
+      "name": "GetStartupFlags"
+    },
+    {
+      "ordinal": 31,
+      "name": "GetTargetForVTableEntry"
+    },
+    {
+      "ordinal": 32,
+      "name": "GetTokenForVTableEntry"
+    },
+    {
+      "ordinal": 33,
+      "name": "LogHelp_LogAssert"
+    },
+    {
+      "ordinal": 34,
+      "name": "LogHelp_NoGuiOnAssert"
+    },
+    {
+      "ordinal": 35,
+      "name": "LogHelp_TerminateOnAssert"
+    },
+    {
+      "ordinal": 36,
+      "name": "OpenCtrs"
+    },
+    {
+      "ordinal": 37,
+      "name": "SetTargetForVTableEntry"
+    },
+    {
       "ordinal": 38,
       "name": "CLRCreateInstance"
     },
     {
       "ordinal": 39,
       "name": "CallFunctionShim"
-    },
-    {
-      "ordinal": 21,
-      "name": "CloseCtrs"
     },
     {
       "ordinal": 40,
@@ -46,10 +126,6 @@
     {
       "ordinal": 45,
       "name": "CoUninitializeEE"
-    },
-    {
-      "ordinal": 25,
-      "name": "CollectCtrs"
     },
     {
       "ordinal": 46,
@@ -78,10 +154,6 @@
     {
       "ordinal": 52,
       "name": "CorBindToRuntimeHost"
-    },
-    {
-      "ordinal": 26,
-      "name": "CorDllMainWorker"
     },
     {
       "ordinal": 53,
@@ -130,10 +202,6 @@
     {
       "ordinal": 64,
       "name": "DllUnregisterServer"
-    },
-    {
-      "ordinal": 27,
-      "name": "EEDllGetClassObjectFromClass"
     },
     {
       "ordinal": 65,
@@ -220,14 +288,6 @@
       "name": "GetPermissionRequests"
     },
     {
-      "ordinal": 28,
-      "name": "GetPrivateContextsPerfCounters"
-    },
-    {
-      "ordinal": 29,
-      "name": "GetProcessExecutableHeap"
-    },
-    {
       "ordinal": 86,
       "name": "GetRealProcAddress"
     },
@@ -242,18 +302,6 @@
     {
       "ordinal": 89,
       "name": "GetRequestedRuntimeVersionForCLSID"
-    },
-    {
-      "ordinal": 30,
-      "name": "GetStartupFlags"
-    },
-    {
-      "ordinal": 31,
-      "name": "GetTargetForVTableEntry"
-    },
-    {
-      "ordinal": 32,
-      "name": "GetTokenForVTableEntry"
     },
     {
       "ordinal": 90,
@@ -276,14 +324,6 @@
       "name": "IEE"
     },
     {
-      "ordinal": 17,
-      "name": "InitErrors"
-    },
-    {
-      "ordinal": 19,
-      "name": "InitSSAutoEnterThread"
-    },
-    {
       "ordinal": 95,
       "name": "LoadLibraryShim"
     },
@@ -292,28 +332,12 @@
       "name": "LoadLibraryWithPolicyShim"
     },
     {
-      "ordinal": 22,
-      "name": "LoadStringRC"
-    },
-    {
       "ordinal": 97,
       "name": "LoadStringRCEx"
     },
     {
       "ordinal": 98,
       "name": "LockClrVersion"
-    },
-    {
-      "ordinal": 33,
-      "name": "LogHelp_LogAssert"
-    },
-    {
-      "ordinal": 34,
-      "name": "LogHelp_NoGuiOnAssert"
-    },
-    {
-      "ordinal": 35,
-      "name": "LogHelp_TerminateOnAssert"
     },
     {
       "ordinal": 99,
@@ -360,18 +384,6 @@
       "name": "ND_WU1"
     },
     {
-      "ordinal": 36,
-      "name": "OpenCtrs"
-    },
-    {
-      "ordinal": 18,
-      "name": "PostError"
-    },
-    {
-      "ordinal": 23,
-      "name": "ReOpenMetaDataWithMemory"
-    },
-    {
       "ordinal": 110,
       "name": "ReOpenMetaDataWithMemoryEx"
     },
@@ -390,10 +402,6 @@
     {
       "ordinal": 114,
       "name": "RuntimeReleaseHandle"
-    },
-    {
-      "ordinal": 37,
-      "name": "SetTargetForVTableEntry"
     },
     {
       "ordinal": 115,
@@ -480,20 +488,16 @@
       "name": "TranslateSecurityAttributes"
     },
     {
-      "ordinal": 20,
-      "name": "UpdateError"
-    },
-    {
       "ordinal": 136,
       "name": "_CorDllMain"
     },
     {
-      "ordinal": 138,
-      "name": "_CorExeMain"
-    },
-    {
       "ordinal": 137,
       "name": "_CorExeMain2"
+    },
+    {
+      "ordinal": 138,
+      "name": "_CorExeMain"
     },
     {
       "ordinal": 139,
@@ -502,10 +506,6 @@
     {
       "ordinal": 140,
       "name": "_CorValidateImage"
-    },
-    {
-      "ordinal": 24,
-      "name": null
     },
     {
       "ordinal": 142,

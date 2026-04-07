@@ -12,6 +12,14 @@
   "Machine": "I386",
   "exports": [
     {
+      "ordinal": 1,
+      "name": "I_ScSetServiceBitsA"
+    },
+    {
+      "ordinal": 2,
+      "name": "I_ScSetServiceBitsW"
+    },
+    {
       "ordinal": 3,
       "name": "AuditComputeEffectivePolicyBySid"
     },
@@ -408,14 +416,6 @@
       "name": "I_ScSendTSMessage"
     },
     {
-      "ordinal": 1,
-      "name": "I_ScSetServiceBitsA"
-    },
-    {
-      "ordinal": 2,
-      "name": "I_ScSetServiceBitsW"
-    },
-    {
       "ordinal": 102,
       "name": "I_ScUnregisterDeviceNotification"
     },
@@ -516,12 +516,12 @@
       "name": "LsaLookupOpenLocalPolicy"
     },
     {
-      "ordinal": 128,
-      "name": "LsaLookupSids"
-    },
-    {
       "ordinal": 127,
       "name": "LsaLookupSids2"
+    },
+    {
+      "ordinal": 128,
+      "name": "LsaLookupSids"
     },
     {
       "ordinal": 129,

@@ -12,20 +12,128 @@
   "Machine": "I386",
   "exports": [
     {
-      "ordinal": 29,
-      "name": "JetAddColumn"
+      "ordinal": 1,
+      "name": "JetAttachDatabase@12"
     },
     {
-      "ordinal": 31,
-      "name": "JetAttachDatabase"
+      "ordinal": 2,
+      "name": "JetBackup@12"
+    },
+    {
+      "ordinal": 3,
+      "name": "JetBeginSession@16"
+    },
+    {
+      "ordinal": 4,
+      "name": "JetBeginTransaction@4"
+    },
+    {
+      "ordinal": 5,
+      "name": "JetCloseDatabase@12"
+    },
+    {
+      "ordinal": 6,
+      "name": "JetCloseTable@8"
+    },
+    {
+      "ordinal": 7,
+      "name": "JetCommitTransaction@8"
+    },
+    {
+      "ordinal": 8,
+      "name": "JetCreateDatabase@20"
+    },
+    {
+      "ordinal": 9,
+      "name": "JetCreateTableColumnIndex@12"
+    },
+    {
+      "ordinal": 10,
+      "name": "JetDelete@8"
+    },
+    {
+      "ordinal": 11,
+      "name": "JetDetachDatabase@8"
+    },
+    {
+      "ordinal": 12,
+      "name": "JetEndSession@8"
+    },
+    {
+      "ordinal": 13,
+      "name": "JetGetColumnInfo@28"
+    },
+    {
+      "ordinal": 14,
+      "name": "JetInit@4"
+    },
+    {
+      "ordinal": 15,
+      "name": "JetMakeKey@20"
+    },
+    {
+      "ordinal": 16,
+      "name": "JetMove@16"
+    },
+    {
+      "ordinal": 17,
+      "name": "JetOpenDatabase@20"
+    },
+    {
+      "ordinal": 18,
+      "name": "JetOpenTable@28"
+    },
+    {
+      "ordinal": 19,
+      "name": "JetPrepareUpdate@12"
+    },
+    {
+      "ordinal": 20,
+      "name": "JetRestore2@12"
+    },
+    {
+      "ordinal": 21,
+      "name": "JetRetrieveColumn@32"
+    },
+    {
+      "ordinal": 22,
+      "name": "JetRollback@8"
+    },
+    {
+      "ordinal": 23,
+      "name": "JetSeek@12"
+    },
+    {
+      "ordinal": 24,
+      "name": "JetSetColumn@28"
+    },
+    {
+      "ordinal": 25,
+      "name": "JetSetCurrentIndex@12"
+    },
+    {
+      "ordinal": 26,
+      "name": "JetSetSystemParameter@20"
+    },
+    {
+      "ordinal": 27,
+      "name": "JetTerm@4"
+    },
+    {
+      "ordinal": 28,
+      "name": "JetUpdate@20"
+    },
+    {
+      "ordinal": 29,
+      "name": "JetAddColumn"
     },
     {
       "ordinal": 30,
       "name": "JetAttachDatabase2"
     },
     {
-      "ordinal": 1,
-      "name": "JetAttachDatabase@12"
+      "ordinal": 31,
+      "name": "JetAttachDatabase"
     },
     {
       "ordinal": 32,
@@ -34,10 +142,6 @@
     {
       "ordinal": 33,
       "name": "JetBackup"
-    },
-    {
-      "ordinal": 2,
-      "name": "JetBackup@12"
     },
     {
       "ordinal": 34,
@@ -56,28 +160,16 @@
       "name": "JetBeginSession"
     },
     {
-      "ordinal": 3,
-      "name": "JetBeginSession@16"
+      "ordinal": 38,
+      "name": "JetBeginTransaction2"
     },
     {
       "ordinal": 39,
       "name": "JetBeginTransaction"
     },
     {
-      "ordinal": 38,
-      "name": "JetBeginTransaction2"
-    },
-    {
-      "ordinal": 4,
-      "name": "JetBeginTransaction@4"
-    },
-    {
       "ordinal": 40,
       "name": "JetCloseDatabase"
-    },
-    {
-      "ordinal": 5,
-      "name": "JetCloseDatabase@12"
     },
     {
       "ordinal": 41,
@@ -92,16 +184,8 @@
       "name": "JetCloseTable"
     },
     {
-      "ordinal": 6,
-      "name": "JetCloseTable@8"
-    },
-    {
       "ordinal": 44,
       "name": "JetCommitTransaction"
-    },
-    {
-      "ordinal": 7,
-      "name": "JetCommitTransaction@8"
     },
     {
       "ordinal": 45,
@@ -116,80 +200,68 @@
       "name": "JetConvertDDL"
     },
     {
-      "ordinal": 49,
-      "name": "JetCreateDatabase"
-    },
-    {
       "ordinal": 48,
       "name": "JetCreateDatabase2"
     },
     {
-      "ordinal": 8,
-      "name": "JetCreateDatabase@20"
+      "ordinal": 49,
+      "name": "JetCreateDatabase"
     },
     {
       "ordinal": 50,
       "name": "JetCreateDatabaseWithStreaming"
     },
     {
-      "ordinal": 52,
-      "name": "JetCreateIndex"
-    },
-    {
       "ordinal": 51,
       "name": "JetCreateIndex2"
     },
     {
-      "ordinal": 54,
-      "name": "JetCreateInstance"
+      "ordinal": 52,
+      "name": "JetCreateIndex"
     },
     {
       "ordinal": 53,
       "name": "JetCreateInstance2"
     },
     {
-      "ordinal": 55,
-      "name": "JetCreateTable"
+      "ordinal": 54,
+      "name": "JetCreateInstance"
     },
     {
-      "ordinal": 57,
-      "name": "JetCreateTableColumnIndex"
+      "ordinal": 55,
+      "name": "JetCreateTable"
     },
     {
       "ordinal": 56,
       "name": "JetCreateTableColumnIndex2"
     },
     {
-      "ordinal": 9,
-      "name": "JetCreateTableColumnIndex@12"
+      "ordinal": 57,
+      "name": "JetCreateTableColumnIndex"
     },
     {
       "ordinal": 58,
       "name": "JetDBUtilities"
     },
     {
-      "ordinal": 60,
-      "name": "JetDefragment"
-    },
-    {
       "ordinal": 59,
       "name": "JetDefragment2"
+    },
+    {
+      "ordinal": 60,
+      "name": "JetDefragment"
     },
     {
       "ordinal": 61,
       "name": "JetDelete"
     },
     {
-      "ordinal": 10,
-      "name": "JetDelete@8"
+      "ordinal": 62,
+      "name": "JetDeleteColumn2"
     },
     {
       "ordinal": 63,
       "name": "JetDeleteColumn"
-    },
-    {
-      "ordinal": 62,
-      "name": "JetDeleteColumn2"
     },
     {
       "ordinal": 64,
@@ -200,16 +272,12 @@
       "name": "JetDeleteTable"
     },
     {
-      "ordinal": 67,
-      "name": "JetDetachDatabase"
-    },
-    {
       "ordinal": 66,
       "name": "JetDetachDatabase2"
     },
     {
-      "ordinal": 11,
-      "name": "JetDetachDatabase@8"
+      "ordinal": 67,
+      "name": "JetDetachDatabase"
     },
     {
       "ordinal": 68,
@@ -228,20 +296,16 @@
       "name": "JetEndExternalBackup"
     },
     {
-      "ordinal": 73,
-      "name": "JetEndExternalBackupInstance"
-    },
-    {
       "ordinal": 72,
       "name": "JetEndExternalBackupInstance2"
     },
     {
-      "ordinal": 74,
-      "name": "JetEndSession"
+      "ordinal": 73,
+      "name": "JetEndExternalBackupInstance"
     },
     {
-      "ordinal": 12,
-      "name": "JetEndSession@8"
+      "ordinal": 74,
+      "name": "JetEndSession"
     },
     {
       "ordinal": 75,
@@ -252,12 +316,12 @@
       "name": "JetEscrowUpdate"
     },
     {
-      "ordinal": 78,
-      "name": "JetExternalRestore"
-    },
-    {
       "ordinal": 77,
       "name": "JetExternalRestore2"
+    },
+    {
+      "ordinal": 78,
+      "name": "JetExternalRestore"
     },
     {
       "ordinal": 79,
@@ -278,10 +342,6 @@
     {
       "ordinal": 83,
       "name": "JetGetColumnInfo"
-    },
-    {
-      "ordinal": 13,
-      "name": "JetGetColumnInfo@28"
     },
     {
       "ordinal": 84,
@@ -324,12 +384,12 @@
       "name": "JetGetLogInfo"
     },
     {
-      "ordinal": 95,
-      "name": "JetGetLogInfoInstance"
-    },
-    {
       "ordinal": 94,
       "name": "JetGetLogInfoInstance2"
+    },
+    {
+      "ordinal": 95,
+      "name": "JetGetLogInfoInstance"
     },
     {
       "ordinal": 96,
@@ -392,10 +452,6 @@
       "name": "JetIndexRecordCount"
     },
     {
-      "ordinal": 113,
-      "name": "JetInit"
-    },
-    {
       "ordinal": 111,
       "name": "JetInit2"
     },
@@ -404,8 +460,8 @@
       "name": "JetInit3"
     },
     {
-      "ordinal": 14,
-      "name": "JetInit@4"
+      "ordinal": 113,
+      "name": "JetInit"
     },
     {
       "ordinal": 114,
@@ -416,16 +472,8 @@
       "name": "JetMakeKey"
     },
     {
-      "ordinal": 15,
-      "name": "JetMakeKey@20"
-    },
-    {
       "ordinal": 116,
       "name": "JetMove"
-    },
-    {
-      "ordinal": 16,
-      "name": "JetMove@16"
     },
     {
       "ordinal": 117,
@@ -444,10 +492,6 @@
       "name": "JetOpenDatabase"
     },
     {
-      "ordinal": 17,
-      "name": "JetOpenDatabase@20"
-    },
-    {
       "ordinal": 121,
       "name": "JetOpenFile"
     },
@@ -464,14 +508,6 @@
       "name": "JetOpenTable"
     },
     {
-      "ordinal": 18,
-      "name": "JetOpenTable@28"
-    },
-    {
-      "ordinal": 127,
-      "name": "JetOpenTempTable"
-    },
-    {
       "ordinal": 125,
       "name": "JetOpenTempTable2"
     },
@@ -480,16 +516,16 @@
       "name": "JetOpenTempTable3"
     },
     {
+      "ordinal": 127,
+      "name": "JetOpenTempTable"
+    },
+    {
       "ordinal": 128,
       "name": "JetPrepareToCommitTransaction"
     },
     {
       "ordinal": 129,
       "name": "JetPrepareUpdate"
-    },
-    {
-      "ordinal": 19,
-      "name": "JetPrepareUpdate@12"
     },
     {
       "ordinal": 130,
@@ -524,16 +560,12 @@
       "name": "JetResetTableSequential"
     },
     {
-      "ordinal": 139,
-      "name": "JetRestore"
-    },
-    {
       "ordinal": 138,
       "name": "JetRestore2"
     },
     {
-      "ordinal": 20,
-      "name": "JetRestore2@12"
+      "ordinal": 139,
+      "name": "JetRestore"
     },
     {
       "ordinal": 140,
@@ -542,10 +574,6 @@
     {
       "ordinal": 141,
       "name": "JetRetrieveColumn"
-    },
-    {
-      "ordinal": 21,
-      "name": "JetRetrieveColumn@32"
     },
     {
       "ordinal": 142,
@@ -564,24 +592,12 @@
       "name": "JetRollback"
     },
     {
-      "ordinal": 22,
-      "name": "JetRollback@8"
-    },
-    {
       "ordinal": 146,
       "name": "JetSeek"
     },
     {
-      "ordinal": 23,
-      "name": "JetSeek@12"
-    },
-    {
       "ordinal": 147,
       "name": "JetSetColumn"
-    },
-    {
-      "ordinal": 24,
-      "name": "JetSetColumn@28"
     },
     {
       "ordinal": 148,
@@ -590,10 +606,6 @@
     {
       "ordinal": 149,
       "name": "JetSetColumns"
-    },
-    {
-      "ordinal": 153,
-      "name": "JetSetCurrentIndex"
     },
     {
       "ordinal": 150,
@@ -608,8 +620,8 @@
       "name": "JetSetCurrentIndex4"
     },
     {
-      "ordinal": 25,
-      "name": "JetSetCurrentIndex@12"
+      "ordinal": 153,
+      "name": "JetSetCurrentIndex"
     },
     {
       "ordinal": 154,
@@ -630,10 +642,6 @@
     {
       "ordinal": 158,
       "name": "JetSetSystemParameter"
-    },
-    {
-      "ordinal": 26,
-      "name": "JetSetSystemParameter@20"
     },
     {
       "ordinal": 159,
@@ -664,16 +672,12 @@
       "name": "JetStopServiceInstance"
     },
     {
-      "ordinal": 167,
-      "name": "JetTerm"
-    },
-    {
       "ordinal": 166,
       "name": "JetTerm2"
     },
     {
-      "ordinal": 27,
-      "name": "JetTerm@4"
+      "ordinal": 167,
+      "name": "JetTerm"
     },
     {
       "ordinal": 168,
@@ -690,10 +694,6 @@
     {
       "ordinal": 171,
       "name": "JetUpdate"
-    },
-    {
-      "ordinal": 28,
-      "name": "JetUpdate@20"
     },
     {
       "ordinal": 172,

@@ -12,6 +12,15 @@
   "Machine": "I386",
   "exports": [
     {
+      "ordinal": 1,
+      "name": "BaseThreadInitThunk"
+    },
+    {
+      "ordinal": 2,
+      "name": "InterlockedPushListSList",
+      "forwarder": "NTDLL.RtlInterlockedPushListSList"
+    },
+    {
       "ordinal": 3,
       "name": "AcquireSRWLockExclusive",
       "forwarder": "NTDLL.RtlAcquireSRWLockExclusive"
@@ -260,10 +269,6 @@
     {
       "ordinal": 63,
       "name": "BaseSetLastNTError"
-    },
-    {
-      "ordinal": 1,
-      "name": "BaseThreadInitThunk"
     },
     {
       "ordinal": 64,
@@ -3086,12 +3091,12 @@
       "name": "GetThreadUILanguage"
     },
     {
-      "ordinal": 757,
-      "name": "GetTickCount"
-    },
-    {
       "ordinal": 756,
       "name": "GetTickCount64"
+    },
+    {
+      "ordinal": 757,
+      "name": "GetTickCount"
     },
     {
       "ordinal": 758,
@@ -3471,13 +3476,13 @@
       "forwarder": "api-ms-win-core-sysinfo-l1-2-1.InstallELAMCertificateInfo"
     },
     {
-      "ordinal": 850,
-      "name": "InterlockedCompareExchange"
-    },
-    {
       "ordinal": 849,
       "name": "InterlockedCompareExchange64",
       "forwarder": "NTDLL.RtlInterlockedCompareExchange64"
+    },
+    {
+      "ordinal": 850,
+      "name": "InterlockedCompareExchange"
     },
     {
       "ordinal": 851,
@@ -3509,11 +3514,6 @@
       "ordinal": 857,
       "name": "InterlockedPushEntrySList",
       "forwarder": "NTDLL.RtlInterlockedPushEntrySList"
-    },
-    {
-      "ordinal": 2,
-      "name": "InterlockedPushListSList",
-      "forwarder": "NTDLL.RtlInterlockedPushListSList"
     },
     {
       "ordinal": 858,

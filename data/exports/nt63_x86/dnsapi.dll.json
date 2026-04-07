@@ -12,6 +12,54 @@
   "Machine": "I386",
   "exports": [
     {
+      "ordinal": 1,
+      "name": "DnsGetDomainName"
+    },
+    {
+      "ordinal": 2,
+      "name": "DnsIsAMailboxType"
+    },
+    {
+      "ordinal": 3,
+      "name": "DnsIsNSECType"
+    },
+    {
+      "ordinal": 4,
+      "name": "DnsIsStatusRcode"
+    },
+    {
+      "ordinal": 5,
+      "name": "DnsMapRcodeToStatus"
+    },
+    {
+      "ordinal": 6,
+      "name": "DnsStatusString"
+    },
+    {
+      "ordinal": 7,
+      "name": "DnsUnicodeToUtf8"
+    },
+    {
+      "ordinal": 8,
+      "name": "DnsUtf8ToUnicode"
+    },
+    {
+      "ordinal": 9,
+      "name": "Dns_ReadPacketName"
+    },
+    {
+      "ordinal": 10,
+      "name": "Dns_ReadPacketNameAllocate"
+    },
+    {
+      "ordinal": 11,
+      "name": "Dns_SkipPacketName"
+    },
+    {
+      "ordinal": 12,
+      "name": "Dns_WriteDottedNameToPacket"
+    },
+    {
       "ordinal": 13,
       "name": "AdaptiveTimeout_ClearInterfaceSpecificConfiguration"
     },
@@ -224,10 +272,6 @@
       "name": "DnsGetDnsServerList"
     },
     {
-      "ordinal": 1,
-      "name": "DnsGetDomainName"
-    },
-    {
       "ordinal": 66,
       "name": "DnsGetLastFailedUpdateInfo"
     },
@@ -268,28 +312,12 @@
       "name": "DnsIpv6StringToAddress"
     },
     {
-      "ordinal": 2,
-      "name": "DnsIsAMailboxType"
-    },
-    {
-      "ordinal": 3,
-      "name": "DnsIsNSECType"
-    },
-    {
-      "ordinal": 4,
-      "name": "DnsIsStatusRcode"
-    },
-    {
       "ordinal": 76,
       "name": "DnsIsStringCountValidForTextType"
     },
     {
       "ordinal": 77,
       "name": "DnsLogEvent"
-    },
-    {
-      "ordinal": 5,
-      "name": "DnsMapRcodeToStatus"
     },
     {
       "ordinal": 78,
@@ -484,20 +512,12 @@
       "name": "DnsSetQueryRetryTimeouts"
     },
     {
-      "ordinal": 6,
-      "name": "DnsStatusString"
-    },
-    {
       "ordinal": 126,
       "name": "DnsStringCopyAllocateEx"
     },
     {
       "ordinal": 127,
       "name": "DnsTraceServerConfig"
-    },
-    {
-      "ordinal": 7,
-      "name": "DnsUnicodeToUtf8"
     },
     {
       "ordinal": 128,
@@ -518,10 +538,6 @@
     {
       "ordinal": 132,
       "name": "DnsUpdateTest_W"
-    },
-    {
-      "ordinal": 8,
-      "name": "DnsUtf8ToUnicode"
     },
     {
       "ordinal": 133,
@@ -668,14 +684,6 @@
       "name": "Dns_PingAdapterServers"
     },
     {
-      "ordinal": 9,
-      "name": "Dns_ReadPacketName"
-    },
-    {
-      "ordinal": 10,
-      "name": "Dns_ReadPacketNameAllocate"
-    },
-    {
       "ordinal": 169,
       "name": "Dns_ReadRecordStructureFromPacket"
     },
@@ -708,10 +716,6 @@
       "name": "Dns_SetRecordsTtl"
     },
     {
-      "ordinal": 11,
-      "name": "Dns_SkipPacketName"
-    },
-    {
       "ordinal": 177,
       "name": "Dns_SkipToRecord"
     },
@@ -722,10 +726,6 @@
     {
       "ordinal": 179,
       "name": "Dns_UpdateLibEx"
-    },
-    {
-      "ordinal": 12,
-      "name": "Dns_WriteDottedNameToPacket"
     },
     {
       "ordinal": 180,

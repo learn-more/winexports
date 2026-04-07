@@ -27,6 +27,85 @@
       "forwarder": "ntoskrnl.ExTryToAcquireFastMutex"
     },
     {
+      "ordinal": 4,
+      "name": "HalClearSoftwareInterrupt"
+    },
+    {
+      "ordinal": 5,
+      "name": "HalRequestClockInterrupt"
+    },
+    {
+      "ordinal": 6,
+      "name": "HalRequestSoftwareInterrupt"
+    },
+    {
+      "ordinal": 7,
+      "name": "HalSystemVectorDispatchEntry"
+    },
+    {
+      "ordinal": 8,
+      "name": "KeAcquireInStackQueuedSpinLock",
+      "forwarder": "ntoskrnl.KeAcquireInStackQueuedSpinLock"
+    },
+    {
+      "ordinal": 9,
+      "name": "KeAcquireInStackQueuedSpinLockRaiseToSynch",
+      "forwarder": "ntoskrnl.KeAcquireInStackQueuedSpinLockRaiseToSynch"
+    },
+    {
+      "ordinal": 10,
+      "name": "KeAcquireQueuedSpinLock",
+      "forwarder": "ntoskrnl.KeAcquireQueuedSpinLock"
+    },
+    {
+      "ordinal": 11,
+      "name": "KeAcquireQueuedSpinLockRaiseToSynch",
+      "forwarder": "ntoskrnl.KeAcquireQueuedSpinLockRaiseToSynch"
+    },
+    {
+      "ordinal": 12,
+      "name": "KeAcquireSpinLockRaiseToSynch",
+      "forwarder": "ntoskrnl.KeAcquireSpinLockRaiseToSynch"
+    },
+    {
+      "ordinal": 13,
+      "name": "KeReleaseInStackQueuedSpinLock",
+      "forwarder": "ntoskrnl.KeReleaseInStackQueuedSpinLock"
+    },
+    {
+      "ordinal": 14,
+      "name": "KeReleaseQueuedSpinLock",
+      "forwarder": "ntoskrnl.KeReleaseQueuedSpinLock"
+    },
+    {
+      "ordinal": 15,
+      "name": "KeTryToAcquireQueuedSpinLock",
+      "forwarder": "ntoskrnl.KeTryToAcquireQueuedSpinLock"
+    },
+    {
+      "ordinal": 16,
+      "name": "KeTryToAcquireQueuedSpinLockRaiseToSynch",
+      "forwarder": "ntoskrnl.KeTryToAcquireQueuedSpinLockRaiseToSynch"
+    },
+    {
+      "ordinal": 17,
+      "name": "KfAcquireSpinLock",
+      "forwarder": "ntoskrnl.KfAcquireSpinLock"
+    },
+    {
+      "ordinal": 18,
+      "name": "KfLowerIrql"
+    },
+    {
+      "ordinal": 19,
+      "name": "KfRaiseIrql"
+    },
+    {
+      "ordinal": 20,
+      "name": "KfReleaseSpinLock",
+      "forwarder": "ntoskrnl.KfReleaseSpinLock"
+    },
+    {
       "ordinal": 21,
       "name": "HalAcpiGetTableEx"
     },
@@ -73,10 +152,6 @@
     {
       "ordinal": 32,
       "name": "HalCalibratePerformanceCounter"
-    },
-    {
-      "ordinal": 4,
-      "name": "HalClearSoftwareInterrupt"
     },
     {
       "ordinal": 33,
@@ -227,20 +302,12 @@
       "name": "HalReportResourceUsage"
     },
     {
-      "ordinal": 5,
-      "name": "HalRequestClockInterrupt"
-    },
-    {
       "ordinal": 70,
       "name": "HalRequestIpi"
     },
     {
       "ordinal": 71,
       "name": "HalRequestIpiSpecifyVector"
-    },
-    {
-      "ordinal": 6,
-      "name": "HalRequestSoftwareInterrupt"
     },
     {
       "ordinal": 72,
@@ -291,10 +358,6 @@
       "name": "HalStopProfileInterrupt"
     },
     {
-      "ordinal": 7,
-      "name": "HalSystemVectorDispatchEntry"
-    },
-    {
       "ordinal": 84,
       "name": "HalTranslateBusAddress"
     },
@@ -335,34 +398,9 @@
       "name": "KdHvComPortInUse"
     },
     {
-      "ordinal": 8,
-      "name": "KeAcquireInStackQueuedSpinLock",
-      "forwarder": "ntoskrnl.KeAcquireInStackQueuedSpinLock"
-    },
-    {
-      "ordinal": 9,
-      "name": "KeAcquireInStackQueuedSpinLockRaiseToSynch",
-      "forwarder": "ntoskrnl.KeAcquireInStackQueuedSpinLockRaiseToSynch"
-    },
-    {
-      "ordinal": 10,
-      "name": "KeAcquireQueuedSpinLock",
-      "forwarder": "ntoskrnl.KeAcquireQueuedSpinLock"
-    },
-    {
-      "ordinal": 11,
-      "name": "KeAcquireQueuedSpinLockRaiseToSynch",
-      "forwarder": "ntoskrnl.KeAcquireQueuedSpinLockRaiseToSynch"
-    },
-    {
       "ordinal": 94,
       "name": "KeAcquireSpinLock",
       "forwarder": "ntoskrnl.KeAcquireSpinLock"
-    },
-    {
-      "ordinal": 12,
-      "name": "KeAcquireSpinLockRaiseToSynch",
-      "forwarder": "ntoskrnl.KeAcquireSpinLockRaiseToSynch"
     },
     {
       "ordinal": 95,
@@ -393,16 +431,6 @@
       "name": "KeRaiseIrqlToSynchLevel"
     },
     {
-      "ordinal": 13,
-      "name": "KeReleaseInStackQueuedSpinLock",
-      "forwarder": "ntoskrnl.KeReleaseInStackQueuedSpinLock"
-    },
-    {
-      "ordinal": 14,
-      "name": "KeReleaseQueuedSpinLock",
-      "forwarder": "ntoskrnl.KeReleaseQueuedSpinLock"
-    },
-    {
       "ordinal": 102,
       "name": "KeReleaseSpinLock",
       "forwarder": "ntoskrnl.KeReleaseSpinLock"
@@ -410,34 +438,6 @@
     {
       "ordinal": 103,
       "name": "KeStallExecutionProcessor"
-    },
-    {
-      "ordinal": 15,
-      "name": "KeTryToAcquireQueuedSpinLock",
-      "forwarder": "ntoskrnl.KeTryToAcquireQueuedSpinLock"
-    },
-    {
-      "ordinal": 16,
-      "name": "KeTryToAcquireQueuedSpinLockRaiseToSynch",
-      "forwarder": "ntoskrnl.KeTryToAcquireQueuedSpinLockRaiseToSynch"
-    },
-    {
-      "ordinal": 17,
-      "name": "KfAcquireSpinLock",
-      "forwarder": "ntoskrnl.KfAcquireSpinLock"
-    },
-    {
-      "ordinal": 18,
-      "name": "KfLowerIrql"
-    },
-    {
-      "ordinal": 19,
-      "name": "KfRaiseIrql"
-    },
-    {
-      "ordinal": 20,
-      "name": "KfReleaseSpinLock",
-      "forwarder": "ntoskrnl.KfReleaseSpinLock"
     },
     {
       "ordinal": 104,

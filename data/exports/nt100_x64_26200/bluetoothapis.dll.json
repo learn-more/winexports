@@ -12,6 +12,18 @@
   "Machine": "AMD64",
   "exports": [
     {
+      "ordinal": 1,
+      "name": "BthpEnableA2DPIfPresent"
+    },
+    {
+      "ordinal": 2,
+      "name": "BthpSetServiceState"
+    },
+    {
+      "ordinal": 3,
+      "name": "BthpSetServiceStateEx"
+    },
+    {
       "ordinal": 4,
       "name": "BluetoothAddressToString"
     },
@@ -348,10 +360,6 @@
       "name": "BthpCleanupLEDeviceNodes"
     },
     {
-      "ordinal": 1,
-      "name": "BthpEnableA2DPIfPresent"
-    },
-    {
       "ordinal": 88,
       "name": "BthpEnableAllServices"
     },
@@ -382,14 +390,6 @@
     {
       "ordinal": 95,
       "name": "BthpRegisterForAuthentication"
-    },
-    {
-      "ordinal": 2,
-      "name": "BthpSetServiceState"
-    },
-    {
-      "ordinal": 3,
-      "name": "BthpSetServiceStateEx"
     },
     {
       "ordinal": 96,

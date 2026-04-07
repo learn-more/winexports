@@ -12,16 +12,56 @@
   "Machine": "AMD64",
   "exports": [
     {
+      "ordinal": 1,
+      "name": "ComputeFirstPageHash"
+    },
+    {
+      "ordinal": 2,
+      "name": "CryptCATVerifyMember"
+    },
+    {
+      "ordinal": 3,
+      "name": "CryptSIPGetInfo"
+    },
+    {
+      "ordinal": 4,
+      "name": "CryptSIPGetRegWorkingFlags"
+    },
+    {
+      "ordinal": 5,
+      "name": "GenericChainCertificateTrust"
+    },
+    {
+      "ordinal": 6,
+      "name": "GenericChainFinalProv"
+    },
+    {
+      "ordinal": 7,
+      "name": "HTTPSCertificateTrust"
+    },
+    {
+      "ordinal": 8,
+      "name": "SoftpubDefCertInit"
+    },
+    {
+      "ordinal": 9,
+      "name": "SoftpubFreeDefUsageCallData"
+    },
+    {
+      "ordinal": 10,
+      "name": "SoftpubLoadDefUsageCallData"
+    },
+    {
+      "ordinal": 11,
+      "name": "WTHelperCertFindIssuerCertificate"
+    },
+    {
       "ordinal": 12,
       "name": "AddPersonalTrustDBPages"
     },
     {
       "ordinal": 13,
       "name": "CatalogCompactHashDatabase"
-    },
-    {
-      "ordinal": 1,
-      "name": "ComputeFirstPageHash"
     },
     {
       "ordinal": 14,
@@ -180,24 +220,12 @@
       "name": "CryptCATStoreFromHandle"
     },
     {
-      "ordinal": 2,
-      "name": "CryptCATVerifyMember"
-    },
-    {
       "ordinal": 53,
       "name": "CryptSIPCreateIndirectData"
     },
     {
       "ordinal": 54,
       "name": "CryptSIPGetCaps"
-    },
-    {
-      "ordinal": 3,
-      "name": "CryptSIPGetInfo"
-    },
-    {
-      "ordinal": 4,
-      "name": "CryptSIPGetRegWorkingFlags"
     },
     {
       "ordinal": 55,
@@ -244,20 +272,8 @@
       "name": "FindCertsByIssuer"
     },
     {
-      "ordinal": 5,
-      "name": "GenericChainCertificateTrust"
-    },
-    {
-      "ordinal": 6,
-      "name": "GenericChainFinalProv"
-    },
-    {
       "ordinal": 66,
       "name": "GetAuthenticodeSha256Hash"
-    },
-    {
-      "ordinal": 7,
-      "name": "HTTPSCertificateTrust"
     },
     {
       "ordinal": 67,
@@ -304,10 +320,6 @@
       "name": "SoftpubCleanup"
     },
     {
-      "ordinal": 8,
-      "name": "SoftpubDefCertInit"
-    },
-    {
       "ordinal": 78,
       "name": "SoftpubDllRegisterServer"
     },
@@ -320,16 +332,8 @@
       "name": "SoftpubDumpStructure"
     },
     {
-      "ordinal": 9,
-      "name": "SoftpubFreeDefUsageCallData"
-    },
-    {
       "ordinal": 81,
       "name": "SoftpubInitialize"
-    },
-    {
-      "ordinal": 10,
-      "name": "SoftpubLoadDefUsageCallData"
     },
     {
       "ordinal": 82,
@@ -382,10 +386,6 @@
     {
       "ordinal": 94,
       "name": "WTHelperCertCheckValidSignature"
-    },
-    {
-      "ordinal": 11,
-      "name": "WTHelperCertFindIssuerCertificate"
     },
     {
       "ordinal": 95,

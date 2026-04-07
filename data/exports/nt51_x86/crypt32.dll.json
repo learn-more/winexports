@@ -12,6 +12,75 @@
   "Machine": "I386",
   "exports": [
     {
+      "ordinal": 1001,
+      "name": null
+    },
+    {
+      "ordinal": 1002,
+      "name": null
+    },
+    {
+      "ordinal": 1003,
+      "name": null,
+      "forwarder": "advapi32.RegCreateKeyW"
+    },
+    {
+      "ordinal": 1004,
+      "name": null,
+      "forwarder": "advapi32.RegCreateKeyExW"
+    },
+    {
+      "ordinal": 1005,
+      "name": null,
+      "forwarder": "advapi32.RegOpenKeyW"
+    },
+    {
+      "ordinal": 1006,
+      "name": null,
+      "forwarder": "advapi32.RegOpenKeyExW"
+    },
+    {
+      "ordinal": 1007,
+      "name": null,
+      "forwarder": "advapi32.RegCreateKeyA"
+    },
+    {
+      "ordinal": 1008,
+      "name": null,
+      "forwarder": "advapi32.RegCreateKeyExA"
+    },
+    {
+      "ordinal": 1009,
+      "name": null,
+      "forwarder": "advapi32.RegOpenKeyA"
+    },
+    {
+      "ordinal": 1010,
+      "name": null,
+      "forwarder": "advapi32.RegOpenKeyExA"
+    },
+    {
+      "ordinal": 1011,
+      "name": null,
+      "forwarder": "advapi32.RegCloseKey"
+    },
+    {
+      "ordinal": 1012,
+      "name": "ChainWlxLogoffEvent"
+    },
+    {
+      "ordinal": 1013,
+      "name": "CloseCertPerformanceData"
+    },
+    {
+      "ordinal": 1014,
+      "name": "CollectCertPerformanceData"
+    },
+    {
+      "ordinal": 1015,
+      "name": "OpenCertPerformanceData"
+    },
+    {
       "ordinal": 1016,
       "name": "CertAddCRLContextToStore"
     },
@@ -458,18 +527,6 @@
     {
       "ordinal": 1127,
       "name": "CertVerifyValidityNesting"
-    },
-    {
-      "ordinal": 1012,
-      "name": "ChainWlxLogoffEvent"
-    },
-    {
-      "ordinal": 1013,
-      "name": "CloseCertPerformanceData"
-    },
-    {
-      "ordinal": 1014,
-      "name": "CollectCertPerformanceData"
     },
     {
       "ordinal": 1128,
@@ -1056,10 +1113,6 @@
       "name": "I_CryptWalkAllLruCacheEntries"
     },
     {
-      "ordinal": 1015,
-      "name": "OpenCertPerformanceData"
-    },
-    {
       "ordinal": 1274,
       "name": "PFXExportCertStore"
     },
@@ -1114,59 +1167,6 @@
     {
       "ordinal": 1287,
       "name": "RegSetValueExU"
-    },
-    {
-      "ordinal": 1001,
-      "name": null
-    },
-    {
-      "ordinal": 1002,
-      "name": null
-    },
-    {
-      "ordinal": 1003,
-      "name": null,
-      "forwarder": "advapi32.RegCreateKeyW"
-    },
-    {
-      "ordinal": 1004,
-      "name": null,
-      "forwarder": "advapi32.RegCreateKeyExW"
-    },
-    {
-      "ordinal": 1005,
-      "name": null,
-      "forwarder": "advapi32.RegOpenKeyW"
-    },
-    {
-      "ordinal": 1006,
-      "name": null,
-      "forwarder": "advapi32.RegOpenKeyExW"
-    },
-    {
-      "ordinal": 1007,
-      "name": null,
-      "forwarder": "advapi32.RegCreateKeyA"
-    },
-    {
-      "ordinal": 1008,
-      "name": null,
-      "forwarder": "advapi32.RegCreateKeyExA"
-    },
-    {
-      "ordinal": 1009,
-      "name": null,
-      "forwarder": "advapi32.RegOpenKeyA"
-    },
-    {
-      "ordinal": 1010,
-      "name": null,
-      "forwarder": "advapi32.RegOpenKeyExA"
-    },
-    {
-      "ordinal": 1011,
-      "name": null,
-      "forwarder": "advapi32.RegCloseKey"
     }
   ]
 }

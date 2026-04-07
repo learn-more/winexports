@@ -12,6 +12,42 @@
   "Machine": "I386",
   "exports": [
     {
+      "ordinal": 1,
+      "name": "FormatTagFromWfx"
+    },
+    {
+      "ordinal": 2,
+      "name": "MFEnumLocalMFTRegistrations"
+    },
+    {
+      "ordinal": 3,
+      "name": "MFGetPlatformFlags"
+    },
+    {
+      "ordinal": 4,
+      "name": "MFGetPlatformVersion"
+    },
+    {
+      "ordinal": 5,
+      "name": "MFGetRandomNumber"
+    },
+    {
+      "ordinal": 6,
+      "name": "MFIsFeatureEnabled"
+    },
+    {
+      "ordinal": 7,
+      "name": "MFPlatformBigEndian"
+    },
+    {
+      "ordinal": 8,
+      "name": "MFPlatformLittleEndian"
+    },
+    {
+      "ordinal": 9,
+      "name": "ValidateWaveFormat"
+    },
+    {
       "ordinal": 10,
       "name": "CopyPropVariant"
     },
@@ -26,10 +62,6 @@
     {
       "ordinal": 13,
       "name": "DestroyPropVariant"
-    },
-    {
-      "ordinal": 1,
-      "name": "FormatTagFromWfx"
     },
     {
       "ordinal": 14,
@@ -343,12 +375,12 @@
       "name": "MFCreateVideoMediaTypeFromSubtype"
     },
     {
-      "ordinal": 91,
-      "name": "MFCreateVideoMediaTypeFromVideoInfoHeader"
-    },
-    {
       "ordinal": 90,
       "name": "MFCreateVideoMediaTypeFromVideoInfoHeader2"
+    },
+    {
+      "ordinal": 91,
+      "name": "MFCreateVideoMediaTypeFromVideoInfoHeader"
     },
     {
       "ordinal": 92,
@@ -395,10 +427,6 @@
       "ordinal": 102,
       "name": "MFEndUnregisterWorkQueueWithMMCSS",
       "forwarder": "RTWorkQ.RtwqEndUnregisterWorkQueueWithMMCSS"
-    },
-    {
-      "ordinal": 2,
-      "name": "MFEnumLocalMFTRegistrations"
     },
     {
       "ordinal": 103,
@@ -453,20 +481,8 @@
       "name": "MFGetPlaneSize"
     },
     {
-      "ordinal": 3,
-      "name": "MFGetPlatformFlags"
-    },
-    {
-      "ordinal": 4,
-      "name": "MFGetPlatformVersion"
-    },
-    {
       "ordinal": 116,
       "name": "MFGetPluginControl"
-    },
-    {
-      "ordinal": 5,
-      "name": "MFGetRandomNumber"
     },
     {
       "ordinal": 117,
@@ -544,12 +560,12 @@
       "name": "MFInitMediaTypeFromMPEG2VideoInfo"
     },
     {
-      "ordinal": 136,
-      "name": "MFInitMediaTypeFromVideoInfoHeader"
-    },
-    {
       "ordinal": 135,
       "name": "MFInitMediaTypeFromVideoInfoHeader2"
+    },
+    {
+      "ordinal": 136,
+      "name": "MFInitMediaTypeFromVideoInfoHeader"
     },
     {
       "ordinal": 137,
@@ -571,10 +587,6 @@
     {
       "ordinal": 141,
       "name": "MFIsBottomUpFormat"
-    },
-    {
-      "ordinal": 6,
-      "name": "MFIsFeatureEnabled"
     },
     {
       "ordinal": 142,
@@ -613,34 +625,26 @@
       "name": "MFMapDXGIFormatToDX9Format"
     },
     {
-      "ordinal": 7,
-      "name": "MFPlatformBigEndian"
-    },
-    {
-      "ordinal": 8,
-      "name": "MFPlatformLittleEndian"
-    },
-    {
       "ordinal": 150,
       "name": "MFPutWaitingWorkItem",
       "forwarder": "RTWorkQ.RtwqPutWaitingWorkItem"
-    },
-    {
-      "ordinal": 152,
-      "name": "MFPutWorkItem"
     },
     {
       "ordinal": 151,
       "name": "MFPutWorkItem2"
     },
     {
-      "ordinal": 154,
-      "name": "MFPutWorkItemEx"
+      "ordinal": 152,
+      "name": "MFPutWorkItem"
     },
     {
       "ordinal": 153,
       "name": "MFPutWorkItemEx2",
       "forwarder": "RTWorkQ.RtwqPutWorkItem"
+    },
+    {
+      "ordinal": 154,
+      "name": "MFPutWorkItemEx"
     },
     {
       "ordinal": 155,
@@ -792,10 +796,6 @@
     {
       "ordinal": 190,
       "name": "PropVariantToStream"
-    },
-    {
-      "ordinal": 9,
-      "name": "ValidateWaveFormat"
     }
   ]
 }

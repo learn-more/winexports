@@ -12,6 +12,23 @@
   "Machine": "I386",
   "exports": [
     {
+      "ordinal": 1,
+      "name": "SLpCheckProductKey"
+    },
+    {
+      "ordinal": 2,
+      "name": "SLpGetGenuineLocal",
+      "forwarder": "SPPC.SLpGetGenuineLocal"
+    },
+    {
+      "ordinal": 3,
+      "name": "SLpProcessOemProductKey"
+    },
+    {
+      "ordinal": 4,
+      "name": "SLpUpdateComponentTokens"
+    },
+    {
       "ordinal": 5,
       "name": "SLClose",
       "forwarder": "SPPC.SLClose"
@@ -188,23 +205,6 @@
     {
       "ordinal": 41,
       "name": "SLUnregisterWindowsEvent"
-    },
-    {
-      "ordinal": 1,
-      "name": "SLpCheckProductKey"
-    },
-    {
-      "ordinal": 2,
-      "name": "SLpGetGenuineLocal",
-      "forwarder": "SPPC.SLpGetGenuineLocal"
-    },
-    {
-      "ordinal": 3,
-      "name": "SLpProcessOemProductKey"
-    },
-    {
-      "ordinal": 4,
-      "name": "SLpUpdateComponentTokens"
     }
   ]
 }

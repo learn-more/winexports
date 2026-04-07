@@ -12,220 +12,80 @@
   "Machine": "AMD64",
   "exports": [
     {
-      "ordinal": 8,
-      "name": "LsAppendRunToCurrentSubline"
-    },
-    {
-      "ordinal": 65,
-      "name": "LsCompressSubline"
-    },
-    {
       "ordinal": 1,
       "name": "LsCreateContext"
-    },
-    {
-      "ordinal": 3,
-      "name": "LsCreateLine"
-    },
-    {
-      "ordinal": 6,
-      "name": "LsCreateSubline"
     },
     {
       "ordinal": 2,
       "name": "LsDestroyContext"
     },
     {
-      "ordinal": 5,
-      "name": "LsDestroyLine"
-    },
-    {
-      "ordinal": 16,
-      "name": "LsDestroySubline"
-    },
-    {
-      "ordinal": 40,
-      "name": "LsDisplayLine"
-    },
-    {
-      "ordinal": 41,
-      "name": "LsDisplaySubline"
-    },
-    {
-      "ordinal": 72,
-      "name": "LsEnumLine"
-    },
-    {
-      "ordinal": 75,
-      "name": "LsEnumSubline"
-    },
-    {
-      "ordinal": 18,
-      "name": "LsExpandSubline"
-    },
-    {
-      "ordinal": 7,
-      "name": "LsFetchAppendToCurrentSubline"
-    },
-    {
-      "ordinal": 68,
-      "name": "LsFetchAppendToCurrentSublineResume"
-    },
-    {
-      "ordinal": 13,
-      "name": "LsFindNextBreakSubline"
-    },
-    {
-      "ordinal": 12,
-      "name": "LsFindPrevBreakSubline"
-    },
-    {
-      "ordinal": 10,
-      "name": "LsFinishCurrentSubline"
-    },
-    {
-      "ordinal": 14,
-      "name": "LsForceBreakSubline"
-    },
-    {
-      "ordinal": 66,
-      "name": "LsGetHihLsimethods"
-    },
-    {
-      "ordinal": 74,
-      "name": "LsGetLineDur"
-    },
-    {
-      "ordinal": 73,
-      "name": "LsGetMinDurBreaks"
-    },
-    {
-      "ordinal": 71,
-      "name": "LsGetReverseLsimethods"
-    },
-    {
-      "ordinal": 62,
-      "name": "LsGetRubyLsimethods"
-    },
-    {
-      "ordinal": 19,
-      "name": "LsGetSpecialEffectsSubline"
-    },
-    {
-      "ordinal": 63,
-      "name": "LsGetTatenakayokoLsimethods"
-    },
-    {
-      "ordinal": 61,
-      "name": "LsGetWarichuLsimethods"
-    },
-    {
-      "ordinal": 80,
-      "name": "LsLwMultDivR"
-    },
-    {
-      "ordinal": 17,
-      "name": "LsMatchPresSubline"
+      "ordinal": 3,
+      "name": "LsCreateLine"
     },
     {
       "ordinal": 4,
       "name": "LsModifyLineHeight"
     },
     {
-      "ordinal": 60,
-      "name": "LsPointUV2FromPointUV1"
+      "ordinal": 5,
+      "name": "LsDestroyLine"
     },
     {
-      "ordinal": 59,
-      "name": "LsPointXYFromPointUV"
+      "ordinal": 6,
+      "name": "LsCreateSubline"
     },
     {
-      "ordinal": 47,
-      "name": "LsQueryCpPpointSubline"
+      "ordinal": 7,
+      "name": "LsFetchAppendToCurrentSubline"
     },
     {
-      "ordinal": 45,
-      "name": "LsQueryFLineEmpty"
-    },
-    {
-      "ordinal": 42,
-      "name": "LsQueryLineCpPpoint"
-    },
-    {
-      "ordinal": 44,
-      "name": "LsQueryLineDup"
-    },
-    {
-      "ordinal": 43,
-      "name": "LsQueryLinePointPcp"
-    },
-    {
-      "ordinal": 46,
-      "name": "LsQueryPointPcpSubline"
-    },
-    {
-      "ordinal": 67,
-      "name": "LsQueryTextCellDetails"
+      "ordinal": 8,
+      "name": "LsAppendRunToCurrentSubline"
     },
     {
       "ordinal": 9,
       "name": "LsResetRMInCurrentSubline"
     },
     {
-      "ordinal": 15,
-      "name": "LsSetBreakSubline"
-    },
-    {
-      "ordinal": 52,
-      "name": "LsSetBreaking"
-    },
-    {
-      "ordinal": 50,
-      "name": "LsSetCompression"
-    },
-    {
-      "ordinal": 48,
-      "name": "LsSetDoc"
-    },
-    {
-      "ordinal": 51,
-      "name": "LsSetExpansion"
-    },
-    {
-      "ordinal": 49,
-      "name": "LsSetModWidthPairs"
-    },
-    {
-      "ordinal": 64,
-      "name": "LsSqueezeSubline"
+      "ordinal": 10,
+      "name": "LsFinishCurrentSubline"
     },
     {
       "ordinal": 11,
       "name": "LsTruncateSubline"
     },
     {
-      "ordinal": 37,
-      "name": "LsdnDistribute"
+      "ordinal": 12,
+      "name": "LsFindPrevBreakSubline"
     },
     {
-      "ordinal": 26,
-      "name": "LsdnFinishByOneChar"
+      "ordinal": 13,
+      "name": "LsFindNextBreakSubline"
     },
     {
-      "ordinal": 23,
-      "name": "LsdnFinishByPen"
+      "ordinal": 14,
+      "name": "LsForceBreakSubline"
     },
     {
-      "ordinal": 24,
-      "name": "LsdnFinishBySubline"
+      "ordinal": 15,
+      "name": "LsSetBreakSubline"
     },
     {
-      "ordinal": 22,
-      "name": "LsdnFinishDelete"
+      "ordinal": 16,
+      "name": "LsDestroySubline"
     },
     {
-      "ordinal": 25,
-      "name": "LsdnFinishDeleteAll"
+      "ordinal": 17,
+      "name": "LsMatchPresSubline"
+    },
+    {
+      "ordinal": 18,
+      "name": "LsExpandSubline"
+    },
+    {
+      "ordinal": 19,
+      "name": "LsGetSpecialEffectsSubline"
     },
     {
       "ordinal": 20,
@@ -236,72 +96,220 @@
       "name": "LsdnFinishRegularAddAdvancePen"
     },
     {
-      "ordinal": 35,
-      "name": "LsdnGetCurTabInfo"
+      "ordinal": 22,
+      "name": "LsdnFinishDelete"
     },
     {
-      "ordinal": 32,
-      "name": "LsdnGetDup"
+      "ordinal": 23,
+      "name": "LsdnFinishByPen"
     },
     {
-      "ordinal": 69,
-      "name": "LsdnGetFormatDepth"
+      "ordinal": 24,
+      "name": "LsdnFinishBySubline"
     },
     {
-      "ordinal": 76,
-      "name": "LsdnModifyParaEnding"
+      "ordinal": 25,
+      "name": "LsdnFinishDeleteAll"
+    },
+    {
+      "ordinal": 26,
+      "name": "LsdnFinishByOneChar"
     },
     {
       "ordinal": 27,
       "name": "LsdnQueryObjDimRange"
     },
     {
-      "ordinal": 29,
-      "name": "LsdnQueryPenNode"
-    },
-    {
       "ordinal": 28,
       "name": "LsdnResetObjDim"
+    },
+    {
+      "ordinal": 29,
+      "name": "LsdnQueryPenNode"
     },
     {
       "ordinal": 30,
       "name": "LsdnResetPenNode"
     },
     {
-      "ordinal": 34,
-      "name": "LsdnResolvePrevTab"
+      "ordinal": 31,
+      "name": "LsdnSetRigidDup"
+    },
+    {
+      "ordinal": 32,
+      "name": "LsdnGetDup"
     },
     {
       "ordinal": 33,
       "name": "LsdnSetAbsBaseLine"
     },
     {
-      "ordinal": 31,
-      "name": "LsdnSetRigidDup"
+      "ordinal": 34,
+      "name": "LsdnResolvePrevTab"
+    },
+    {
+      "ordinal": 35,
+      "name": "LsdnGetCurTabInfo"
     },
     {
       "ordinal": 36,
       "name": "LsdnSkipCurTab"
     },
     {
+      "ordinal": 37,
+      "name": "LsdnDistribute"
+    },
+    {
       "ordinal": 39,
       "name": "LsdnSubmitSublines"
     },
     {
-      "ordinal": 70,
-      "name": "LssbFDoneDisplay"
+      "ordinal": 40,
+      "name": "LsDisplayLine"
+    },
+    {
+      "ordinal": 41,
+      "name": "LsDisplaySubline"
+    },
+    {
+      "ordinal": 42,
+      "name": "LsQueryLineCpPpoint"
+    },
+    {
+      "ordinal": 43,
+      "name": "LsQueryLinePointPcp"
+    },
+    {
+      "ordinal": 44,
+      "name": "LsQueryLineDup"
+    },
+    {
+      "ordinal": 45,
+      "name": "LsQueryFLineEmpty"
+    },
+    {
+      "ordinal": 46,
+      "name": "LsQueryPointPcpSubline"
+    },
+    {
+      "ordinal": 47,
+      "name": "LsQueryCpPpointSubline"
+    },
+    {
+      "ordinal": 48,
+      "name": "LsSetDoc"
+    },
+    {
+      "ordinal": 49,
+      "name": "LsSetModWidthPairs"
+    },
+    {
+      "ordinal": 50,
+      "name": "LsSetCompression"
+    },
+    {
+      "ordinal": 51,
+      "name": "LsSetExpansion"
+    },
+    {
+      "ordinal": 52,
+      "name": "LsSetBreaking"
+    },
+    {
+      "ordinal": 53,
+      "name": "LssbGetObjDimSubline"
+    },
+    {
+      "ordinal": 54,
+      "name": "LssbGetDupSubline"
     },
     {
       "ordinal": 55,
       "name": "LssbFDonePresSubline"
     },
     {
-      "ordinal": 79,
-      "name": "LssbFIsSublineEmpty"
+      "ordinal": 56,
+      "name": "LssbGetPlsrunsFromSubline"
     },
     {
-      "ordinal": 54,
-      "name": "LssbGetDupSubline"
+      "ordinal": 57,
+      "name": "LssbGetNumberDnodesInSubline"
+    },
+    {
+      "ordinal": 58,
+      "name": "LssbGetVisibleDcpInSubline"
+    },
+    {
+      "ordinal": 59,
+      "name": "LsPointXYFromPointUV"
+    },
+    {
+      "ordinal": 60,
+      "name": "LsPointUV2FromPointUV1"
+    },
+    {
+      "ordinal": 61,
+      "name": "LsGetWarichuLsimethods"
+    },
+    {
+      "ordinal": 62,
+      "name": "LsGetRubyLsimethods"
+    },
+    {
+      "ordinal": 63,
+      "name": "LsGetTatenakayokoLsimethods"
+    },
+    {
+      "ordinal": 64,
+      "name": "LsSqueezeSubline"
+    },
+    {
+      "ordinal": 65,
+      "name": "LsCompressSubline"
+    },
+    {
+      "ordinal": 66,
+      "name": "LsGetHihLsimethods"
+    },
+    {
+      "ordinal": 67,
+      "name": "LsQueryTextCellDetails"
+    },
+    {
+      "ordinal": 68,
+      "name": "LsFetchAppendToCurrentSublineResume"
+    },
+    {
+      "ordinal": 69,
+      "name": "LsdnGetFormatDepth"
+    },
+    {
+      "ordinal": 70,
+      "name": "LssbFDoneDisplay"
+    },
+    {
+      "ordinal": 71,
+      "name": "LsGetReverseLsimethods"
+    },
+    {
+      "ordinal": 72,
+      "name": "LsEnumLine"
+    },
+    {
+      "ordinal": 73,
+      "name": "LsGetMinDurBreaks"
+    },
+    {
+      "ordinal": 74,
+      "name": "LsGetLineDur"
+    },
+    {
+      "ordinal": 75,
+      "name": "LsEnumSubline"
+    },
+    {
+      "ordinal": 76,
+      "name": "LsdnModifyParaEnding"
     },
     {
       "ordinal": 77,
@@ -312,20 +320,12 @@
       "name": "LssbGetDurTrailWithPensInSubline"
     },
     {
-      "ordinal": 57,
-      "name": "LssbGetNumberDnodesInSubline"
+      "ordinal": 79,
+      "name": "LssbFIsSublineEmpty"
     },
     {
-      "ordinal": 53,
-      "name": "LssbGetObjDimSubline"
-    },
-    {
-      "ordinal": 56,
-      "name": "LssbGetPlsrunsFromSubline"
-    },
-    {
-      "ordinal": 58,
-      "name": "LssbGetVisibleDcpInSubline"
+      "ordinal": 80,
+      "name": "LsLwMultDivR"
     }
   ]
 }

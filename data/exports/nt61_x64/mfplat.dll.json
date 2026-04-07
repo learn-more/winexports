@@ -12,6 +12,46 @@
   "Machine": "AMD64",
   "exports": [
     {
+      "ordinal": 1,
+      "name": "FormatTagFromWfx"
+    },
+    {
+      "ordinal": 2,
+      "name": "MFCreateGuid"
+    },
+    {
+      "ordinal": 3,
+      "name": "MFGetIoPortHandle"
+    },
+    {
+      "ordinal": 4,
+      "name": "MFGetPlatformVersion"
+    },
+    {
+      "ordinal": 5,
+      "name": "MFGetRandomNumber"
+    },
+    {
+      "ordinal": 6,
+      "name": "MFIsFeatureEnabled"
+    },
+    {
+      "ordinal": 7,
+      "name": "MFIsQueueThread"
+    },
+    {
+      "ordinal": 8,
+      "name": "MFPlatformBigEndian"
+    },
+    {
+      "ordinal": 9,
+      "name": "MFPlatformLittleEndian"
+    },
+    {
+      "ordinal": 10,
+      "name": "ValidateWaveFormat"
+    },
+    {
       "ordinal": 11,
       "name": "CopyPropVariant"
     },
@@ -26,10 +66,6 @@
     {
       "ordinal": 14,
       "name": "DestroyPropVariant"
-    },
-    {
-      "ordinal": 1,
-      "name": "FormatTagFromWfx"
     },
     {
       "ordinal": 15,
@@ -158,10 +194,6 @@
     {
       "ordinal": 46,
       "name": "MFCreateFile"
-    },
-    {
-      "ordinal": 2,
-      "name": "MFCreateGuid"
     },
     {
       "ordinal": 47,
@@ -348,10 +380,6 @@
       "name": "MFGetConfigurationString"
     },
     {
-      "ordinal": 3,
-      "name": "MFGetIoPortHandle"
-    },
-    {
       "ordinal": 93,
       "name": "MFGetMFTMerit"
     },
@@ -368,20 +396,12 @@
       "name": "MFGetPlatform"
     },
     {
-      "ordinal": 4,
-      "name": "MFGetPlatformVersion"
-    },
-    {
       "ordinal": 97,
       "name": "MFGetPluginControl"
     },
     {
       "ordinal": 98,
       "name": "MFGetPrivateWorkqueues"
-    },
-    {
-      "ordinal": 5,
-      "name": "MFGetRandomNumber"
     },
     {
       "ordinal": 99,
@@ -468,14 +488,6 @@
       "name": "MFInvokeCallback"
     },
     {
-      "ordinal": 6,
-      "name": "MFIsFeatureEnabled"
-    },
-    {
-      "ordinal": 7,
-      "name": "MFIsQueueThread"
-    },
-    {
       "ordinal": 120,
       "name": "MFJoinIoPort"
     },
@@ -486,14 +498,6 @@
     {
       "ordinal": 122,
       "name": "MFLockWorkQueue"
-    },
-    {
-      "ordinal": 8,
-      "name": "MFPlatformBigEndian"
-    },
-    {
-      "ordinal": 9,
-      "name": "MFPlatformLittleEndian"
     },
     {
       "ordinal": 123,
@@ -630,10 +634,6 @@
     {
       "ordinal": 156,
       "name": "PropVariantToStream"
-    },
-    {
-      "ordinal": 10,
-      "name": "ValidateWaveFormat"
     }
   ]
 }

@@ -12,12 +12,88 @@
   "Machine": "I386",
   "exports": [
     {
+      "ordinal": 1,
+      "name": "DllMain"
+    },
+    {
+      "ordinal": 2,
+      "name": "CanDecrypt"
+    },
+    {
+      "ordinal": 3,
+      "name": "Decrypt"
+    },
+    {
+      "ordinal": 4,
+      "name": "RequestLicense"
+    },
+    {
+      "ordinal": 5,
+      "name": "ProcessResponse"
+    },
+    {
+      "ordinal": 6,
+      "name": "Bind"
+    },
+    {
+      "ordinal": 7,
+      "name": "KeyExchange"
+    },
+    {
+      "ordinal": 8,
+      "name": "GetVersion"
+    },
+    {
+      "ordinal": 9,
+      "name": "CanDecryptEx"
+    },
+    {
+      "ordinal": 10,
+      "name": "BindEx"
+    },
+    {
       "ordinal": 11,
       "name": "??0CDRMLiteCrypto@@QAE@XZ"
     },
     {
       "ordinal": 12,
       "name": "??1CDRMLiteCrypto@@QAE@XZ"
+    },
+    {
+      "ordinal": 13,
+      "name": "SetAppSec"
+    },
+    {
+      "ordinal": 14,
+      "name": "SetLicenseStore"
+    },
+    {
+      "ordinal": 15,
+      "name": "GetPMLicenseFileName"
+    },
+    {
+      "ordinal": 16,
+      "name": "GetPMLicenseSize"
+    },
+    {
+      "ordinal": 17,
+      "name": "CreatePMLicense"
+    },
+    {
+      "ordinal": 18,
+      "name": "GenerateNewLicense"
+    },
+    {
+      "ordinal": 19,
+      "name": "Encrypt"
+    },
+    {
+      "ordinal": 20,
+      "name": "InitAppCerts"
+    },
+    {
+      "ordinal": 21,
+      "name": "QueryXferToPM"
     },
     {
       "ordinal": 22,
@@ -60,88 +136,12 @@
       "name": "?RestoreLicenses@CDRMLiteCrypto@@QAEJKPAEPAGPAUIUnknown@@PAHPAX@Z"
     },
     {
-      "ordinal": 6,
-      "name": "Bind"
-    },
-    {
-      "ordinal": 10,
-      "name": "BindEx"
-    },
-    {
-      "ordinal": 2,
-      "name": "CanDecrypt"
-    },
-    {
-      "ordinal": 9,
-      "name": "CanDecryptEx"
-    },
-    {
-      "ordinal": 17,
-      "name": "CreatePMLicense"
-    },
-    {
-      "ordinal": 3,
-      "name": "Decrypt"
-    },
-    {
-      "ordinal": 1,
-      "name": "DllMain"
-    },
-    {
       "ordinal": 32,
       "name": "DllRegisterServer"
     },
     {
       "ordinal": 33,
       "name": "DllUnregisterServer"
-    },
-    {
-      "ordinal": 19,
-      "name": "Encrypt"
-    },
-    {
-      "ordinal": 18,
-      "name": "GenerateNewLicense"
-    },
-    {
-      "ordinal": 15,
-      "name": "GetPMLicenseFileName"
-    },
-    {
-      "ordinal": 16,
-      "name": "GetPMLicenseSize"
-    },
-    {
-      "ordinal": 8,
-      "name": "GetVersion"
-    },
-    {
-      "ordinal": 20,
-      "name": "InitAppCerts"
-    },
-    {
-      "ordinal": 7,
-      "name": "KeyExchange"
-    },
-    {
-      "ordinal": 5,
-      "name": "ProcessResponse"
-    },
-    {
-      "ordinal": 21,
-      "name": "QueryXferToPM"
-    },
-    {
-      "ordinal": 4,
-      "name": "RequestLicense"
-    },
-    {
-      "ordinal": 13,
-      "name": "SetAppSec"
-    },
-    {
-      "ordinal": 14,
-      "name": "SetLicenseStore"
     }
   ]
 }

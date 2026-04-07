@@ -12,6 +12,42 @@
   "Machine": "I386",
   "exports": [
     {
+      "ordinal": 1,
+      "name": "RtlActivateActivationContextUnsafeFast"
+    },
+    {
+      "ordinal": 2,
+      "name": "RtlDeactivateActivationContextUnsafeFast"
+    },
+    {
+      "ordinal": 3,
+      "name": "RtlInterlockedPushListSList"
+    },
+    {
+      "ordinal": 4,
+      "name": "RtlUlongByteSwap"
+    },
+    {
+      "ordinal": 5,
+      "name": "RtlUlonglongByteSwap"
+    },
+    {
+      "ordinal": 6,
+      "name": "RtlUshortByteSwap"
+    },
+    {
+      "ordinal": 7,
+      "name": "ExpInterlockedPopEntrySListEnd"
+    },
+    {
+      "ordinal": 8,
+      "name": "ExpInterlockedPopEntrySListFault"
+    },
+    {
+      "ordinal": 9,
+      "name": "ExpInterlockedPopEntrySListResume"
+    },
+    {
       "ordinal": 10,
       "name": "A_SHAFinal"
     },
@@ -342,18 +378,6 @@
     {
       "ordinal": 92,
       "name": "EtwpNotificationThread"
-    },
-    {
-      "ordinal": 7,
-      "name": "ExpInterlockedPopEntrySListEnd"
-    },
-    {
-      "ordinal": 8,
-      "name": "ExpInterlockedPopEntrySListFault"
-    },
-    {
-      "ordinal": 9,
-      "name": "ExpInterlockedPopEntrySListResume"
     },
     {
       "ordinal": 93,
@@ -1248,12 +1272,12 @@
       "name": "NtLoadDriver"
     },
     {
-      "ordinal": 317,
-      "name": "NtLoadKey"
-    },
-    {
       "ordinal": 316,
       "name": "NtLoadKey2"
+    },
+    {
+      "ordinal": 317,
+      "name": "NtLoadKey"
     },
     {
       "ordinal": 318,
@@ -2116,12 +2140,12 @@
       "name": "NtUnloadDriver"
     },
     {
-      "ordinal": 534,
-      "name": "NtUnloadKey"
-    },
-    {
       "ordinal": 533,
       "name": "NtUnloadKey2"
+    },
+    {
+      "ordinal": 534,
+      "name": "NtUnloadKey"
     },
     {
       "ordinal": 535,
@@ -2152,12 +2176,12 @@
       "name": "NtWaitForKeyedEvent"
     },
     {
-      "ordinal": 543,
-      "name": "NtWaitForMultipleObjects"
-    },
-    {
       "ordinal": 542,
       "name": "NtWaitForMultipleObjects32"
+    },
+    {
+      "ordinal": 543,
+      "name": "NtWaitForMultipleObjects"
     },
     {
       "ordinal": 544,
@@ -2270,10 +2294,6 @@
     {
       "ordinal": 571,
       "name": "RtlActivateActivationContextEx"
-    },
-    {
-      "ordinal": 1,
-      "name": "RtlActivateActivationContextUnsafeFast"
     },
     {
       "ordinal": 572,
@@ -2778,10 +2798,6 @@
     {
       "ordinal": 697,
       "name": "RtlDeactivateActivationContext"
-    },
-    {
-      "ordinal": 2,
-      "name": "RtlDeactivateActivationContextUnsafeFast"
     },
     {
       "ordinal": 698,
@@ -3636,10 +3652,6 @@
       "name": "RtlInterlockedPushEntrySList"
     },
     {
-      "ordinal": 3,
-      "name": "RtlInterlockedPushListSList"
-    },
-    {
       "ordinal": 911,
       "name": "RtlIoDecodeMemIoResource"
     },
@@ -4288,12 +4300,12 @@
       "name": "RtlSeekMemoryStream"
     },
     {
-      "ordinal": 1074,
-      "name": "RtlSelfRelativeToAbsoluteSD"
-    },
-    {
       "ordinal": 1073,
       "name": "RtlSelfRelativeToAbsoluteSD2"
+    },
+    {
+      "ordinal": 1074,
+      "name": "RtlSelfRelativeToAbsoluteSD"
     },
     {
       "ordinal": 1075,
@@ -4576,20 +4588,12 @@
       "name": "RtlTryEnterCriticalSection"
     },
     {
-      "ordinal": 4,
-      "name": "RtlUlongByteSwap"
-    },
-    {
-      "ordinal": 5,
-      "name": "RtlUlonglongByteSwap"
+      "ordinal": 1145,
+      "name": "RtlUnhandledExceptionFilter2"
     },
     {
       "ordinal": 1146,
       "name": "RtlUnhandledExceptionFilter"
-    },
-    {
-      "ordinal": 1145,
-      "name": "RtlUnhandledExceptionFilter2"
     },
     {
       "ordinal": 1147,
@@ -4722,10 +4726,6 @@
     {
       "ordinal": 1179,
       "name": "RtlUserThreadStart"
-    },
-    {
-      "ordinal": 6,
-      "name": "RtlUshortByteSwap"
     },
     {
       "ordinal": 1180,
@@ -5796,12 +5796,12 @@
       "name": "ZwLoadDriver"
     },
     {
-      "ordinal": 1448,
-      "name": "ZwLoadKey"
-    },
-    {
       "ordinal": 1447,
       "name": "ZwLoadKey2"
+    },
+    {
+      "ordinal": 1448,
+      "name": "ZwLoadKey"
     },
     {
       "ordinal": 1449,
@@ -6664,12 +6664,12 @@
       "name": "ZwUnloadDriver"
     },
     {
-      "ordinal": 1665,
-      "name": "ZwUnloadKey"
-    },
-    {
       "ordinal": 1664,
       "name": "ZwUnloadKey2"
+    },
+    {
+      "ordinal": 1665,
+      "name": "ZwUnloadKey"
     },
     {
       "ordinal": 1666,
@@ -6700,12 +6700,12 @@
       "name": "ZwWaitForKeyedEvent"
     },
     {
-      "ordinal": 1674,
-      "name": "ZwWaitForMultipleObjects"
-    },
-    {
       "ordinal": 1673,
       "name": "ZwWaitForMultipleObjects32"
+    },
+    {
+      "ordinal": 1674,
+      "name": "ZwWaitForMultipleObjects"
     },
     {
       "ordinal": 1675,

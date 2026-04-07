@@ -12,6 +12,22 @@
   "Machine": "I386",
   "exports": [
     {
+      "ordinal": 1,
+      "name": "CoVrfCheckThreadState"
+    },
+    {
+      "ordinal": 2,
+      "name": "CoVrfGetThreadState"
+    },
+    {
+      "ordinal": 3,
+      "name": "CoVrfReleaseThreadState"
+    },
+    {
+      "ordinal": 4,
+      "name": "PropVariantChangeType"
+    },
+    {
       "ordinal": 5,
       "name": "BindMoniker"
     },
@@ -446,18 +462,6 @@
     {
       "ordinal": 113,
       "name": "CoUnmarshalInterface"
-    },
-    {
-      "ordinal": 1,
-      "name": "CoVrfCheckThreadState"
-    },
-    {
-      "ordinal": 2,
-      "name": "CoVrfGetThreadState"
-    },
-    {
-      "ordinal": 3,
-      "name": "CoVrfReleaseThreadState"
     },
     {
       "ordinal": 114,
@@ -1078,10 +1082,6 @@
     {
       "ordinal": 268,
       "name": "PropSysFreeString"
-    },
-    {
-      "ordinal": 4,
-      "name": "PropVariantChangeType"
     },
     {
       "ordinal": 269,

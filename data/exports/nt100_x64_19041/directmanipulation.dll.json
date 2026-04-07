@@ -12,6 +12,10 @@
   "Machine": "AMD64",
   "exports": [
     {
+      "ordinal": 1,
+      "name": "InitializeDManipHook"
+    },
+    {
       "ordinal": 2,
       "name": "DllCanUnloadNow"
     },
@@ -22,10 +26,6 @@
     {
       "ordinal": 4,
       "name": "DllGetClassObject"
-    },
-    {
-      "ordinal": 1,
-      "name": "InitializeDManipHook"
     }
   ]
 }

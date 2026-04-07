@@ -12,6 +12,26 @@
   "Machine": "AMD64",
   "exports": [
     {
+      "ordinal": 1,
+      "name": "RemoveRelocations"
+    },
+    {
+      "ordinal": 2,
+      "name": "SymAllocDiaString"
+    },
+    {
+      "ordinal": 3,
+      "name": "SymFreeDiaString"
+    },
+    {
+      "ordinal": 4,
+      "name": "SymGetDiaSession"
+    },
+    {
+      "ordinal": 5,
+      "name": "SymSetDiaSession"
+    },
+    {
       "ordinal": 6,
       "name": "BindImage"
     },
@@ -188,10 +208,6 @@
       "name": "RemovePrivateCvSymbolicEx"
     },
     {
-      "ordinal": 1,
-      "name": "RemoveRelocations"
-    },
-    {
       "ordinal": 50,
       "name": "ReportSymbolLoadSummary"
     },
@@ -230,10 +246,6 @@
     {
       "ordinal": 59,
       "name": "SymAddrIncludeInlineTrace"
-    },
-    {
-      "ordinal": 2,
-      "name": "SymAllocDiaString"
     },
     {
       "ordinal": 60,
@@ -312,10 +324,6 @@
       "name": "SymFindFileInPathW"
     },
     {
-      "ordinal": 3,
-      "name": "SymFreeDiaString"
-    },
-    {
       "ordinal": 79,
       "name": "SymFromAddr"
     },
@@ -342,10 +350,6 @@
     {
       "ordinal": 85,
       "name": "SymFunctionTableAccess64AccessRoutines"
-    },
-    {
-      "ordinal": 4,
-      "name": "SymGetDiaSession"
     },
     {
       "ordinal": 86,
@@ -550,10 +554,6 @@
     {
       "ordinal": 136,
       "name": "SymSetContext"
-    },
-    {
-      "ordinal": 5,
-      "name": "SymSetDiaSession"
     },
     {
       "ordinal": 137,

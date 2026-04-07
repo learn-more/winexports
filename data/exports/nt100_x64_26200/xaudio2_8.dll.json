@@ -12,6 +12,11 @@
   "Machine": "AMD64",
   "exports": [
     {
+      "ordinal": 1,
+      "name": "XAudio2Create",
+      "forwarder": "xaudio2_9.XAudio2Create"
+    },
+    {
       "ordinal": 2,
       "name": "CreateAudioReverb",
       "forwarder": "xaudio2_9.CreateAudioReverbV2_8"
@@ -35,11 +40,6 @@
       "ordinal": 6,
       "name": "X3DAudioInitialize",
       "forwarder": "xaudio2_9.X3DAudioInitialize"
-    },
-    {
-      "ordinal": 1,
-      "name": "XAudio2Create",
-      "forwarder": "xaudio2_9.XAudio2Create"
     },
     {
       "ordinal": 7,

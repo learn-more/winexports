@@ -12,86 +12,6 @@
   "Machine": "AMD64",
   "exports": [
     {
-      "ordinal": 16,
-      "name": "LdapGetLastError"
-    },
-    {
-      "ordinal": 18,
-      "name": "LdapMapErrorToWin32"
-    },
-    {
-      "ordinal": 29,
-      "name": "LdapUTF8ToUnicode"
-    },
-    {
-      "ordinal": 53,
-      "name": "LdapUnicodeToUTF8"
-    },
-    {
-      "ordinal": 304,
-      "name": "ber_alloc_t"
-    },
-    {
-      "ordinal": 303,
-      "name": "ber_bvdup"
-    },
-    {
-      "ordinal": 302,
-      "name": "ber_bvecfree"
-    },
-    {
-      "ordinal": 54,
-      "name": "ber_bvfree"
-    },
-    {
-      "ordinal": 307,
-      "name": "ber_first_element"
-    },
-    {
-      "ordinal": 309,
-      "name": "ber_flatten"
-    },
-    {
-      "ordinal": 301,
-      "name": "ber_free"
-    },
-    {
-      "ordinal": 300,
-      "name": "ber_init"
-    },
-    {
-      "ordinal": 308,
-      "name": "ber_next_element"
-    },
-    {
-      "ordinal": 306,
-      "name": "ber_peek_tag"
-    },
-    {
-      "ordinal": 310,
-      "name": "ber_printf"
-    },
-    {
-      "ordinal": 311,
-      "name": "ber_scanf"
-    },
-    {
-      "ordinal": 305,
-      "name": "ber_skip_tag"
-    },
-    {
-      "ordinal": 17,
-      "name": "cldap_open"
-    },
-    {
-      "ordinal": 55,
-      "name": "cldap_openA"
-    },
-    {
-      "ordinal": 28,
-      "name": "cldap_openW"
-    },
-    {
       "ordinal": 10,
       "name": "ldap_abandon"
     },
@@ -100,12 +20,180 @@
       "name": "ldap_add"
     },
     {
-      "ordinal": 56,
-      "name": "ldap_addA"
+      "ordinal": 12,
+      "name": "ldap_get_optionW"
+    },
+    {
+      "ordinal": 13,
+      "name": "ldap_unbind"
+    },
+    {
+      "ordinal": 14,
+      "name": "ldap_set_optionW"
+    },
+    {
+      "ordinal": 16,
+      "name": "LdapGetLastError"
+    },
+    {
+      "ordinal": 17,
+      "name": "cldap_open"
+    },
+    {
+      "ordinal": 18,
+      "name": "LdapMapErrorToWin32"
+    },
+    {
+      "ordinal": 19,
+      "name": "ldap_compare"
+    },
+    {
+      "ordinal": 20,
+      "name": "ldap_delete"
+    },
+    {
+      "ordinal": 21,
+      "name": "ldap_result2error"
+    },
+    {
+      "ordinal": 22,
+      "name": "ldap_err2string"
+    },
+    {
+      "ordinal": 23,
+      "name": "ldap_modify"
+    },
+    {
+      "ordinal": 24,
+      "name": "ldap_modrdn"
+    },
+    {
+      "ordinal": 25,
+      "name": "ldap_open"
+    },
+    {
+      "ordinal": 26,
+      "name": "ldap_first_entry"
+    },
+    {
+      "ordinal": 27,
+      "name": "ldap_next_entry"
+    },
+    {
+      "ordinal": 28,
+      "name": "cldap_openW"
+    },
+    {
+      "ordinal": 29,
+      "name": "LdapUTF8ToUnicode"
+    },
+    {
+      "ordinal": 30,
+      "name": "ldap_get_dn"
+    },
+    {
+      "ordinal": 31,
+      "name": "ldap_dn2ufn"
+    },
+    {
+      "ordinal": 32,
+      "name": "ldap_first_attribute"
+    },
+    {
+      "ordinal": 33,
+      "name": "ldap_next_attribute"
+    },
+    {
+      "ordinal": 34,
+      "name": "ldap_get_values"
+    },
+    {
+      "ordinal": 35,
+      "name": "ldap_get_values_len"
+    },
+    {
+      "ordinal": 36,
+      "name": "ldap_count_entries"
+    },
+    {
+      "ordinal": 37,
+      "name": "ldap_count_values"
+    },
+    {
+      "ordinal": 38,
+      "name": "ldap_value_free"
+    },
+    {
+      "ordinal": 39,
+      "name": "ldap_explode_dn"
+    },
+    {
+      "ordinal": 40,
+      "name": "ldap_result"
+    },
+    {
+      "ordinal": 41,
+      "name": "ldap_msgfree"
     },
     {
       "ordinal": 42,
       "name": "ldap_addW"
+    },
+    {
+      "ordinal": 43,
+      "name": "ldap_search"
+    },
+    {
+      "ordinal": 44,
+      "name": "ldap_add_s"
+    },
+    {
+      "ordinal": 45,
+      "name": "ldap_bind_s"
+    },
+    {
+      "ordinal": 46,
+      "name": "ldap_unbind_s"
+    },
+    {
+      "ordinal": 47,
+      "name": "ldap_delete_s"
+    },
+    {
+      "ordinal": 48,
+      "name": "ldap_modify_s"
+    },
+    {
+      "ordinal": 49,
+      "name": "ldap_modrdn_s"
+    },
+    {
+      "ordinal": 50,
+      "name": "ldap_search_s"
+    },
+    {
+      "ordinal": 51,
+      "name": "ldap_search_st"
+    },
+    {
+      "ordinal": 52,
+      "name": "ldap_compare_s"
+    },
+    {
+      "ordinal": 53,
+      "name": "LdapUnicodeToUTF8"
+    },
+    {
+      "ordinal": 54,
+      "name": "ber_bvfree"
+    },
+    {
+      "ordinal": 55,
+      "name": "cldap_openA"
+    },
+    {
+      "ordinal": 56,
+      "name": "ldap_addA"
     },
     {
       "ordinal": 57,
@@ -114,6 +202,18 @@
     {
       "ordinal": 58,
       "name": "ldap_add_extA"
+    },
+    {
+      "ordinal": 59,
+      "name": "ldap_simple_bind"
+    },
+    {
+      "ordinal": 60,
+      "name": "ldap_simple_bind_s"
+    },
+    {
+      "ordinal": 61,
+      "name": "ldap_bind"
     },
     {
       "ordinal": 62,
@@ -132,20 +232,20 @@
       "name": "ldap_add_ext_sW"
     },
     {
-      "ordinal": 44,
-      "name": "ldap_add_s"
-    },
-    {
       "ordinal": 66,
       "name": "ldap_add_sA"
     },
     {
-      "ordinal": 69,
-      "name": "ldap_add_sW"
+      "ordinal": 67,
+      "name": "ldap_modrdn2"
     },
     {
-      "ordinal": 61,
-      "name": "ldap_bind"
+      "ordinal": 68,
+      "name": "ldap_modrdn2_s"
+    },
+    {
+      "ordinal": 69,
+      "name": "ldap_add_sW"
     },
     {
       "ordinal": 70,
@@ -156,10 +256,6 @@
       "name": "ldap_bindW"
     },
     {
-      "ordinal": 45,
-      "name": "ldap_bind_s"
-    },
-    {
       "ordinal": 72,
       "name": "ldap_bind_sA"
     },
@@ -168,24 +264,8 @@
       "name": "ldap_bind_sW"
     },
     {
-      "ordinal": 230,
-      "name": "ldap_check_filterA"
-    },
-    {
-      "ordinal": 231,
-      "name": "ldap_check_filterW"
-    },
-    {
-      "ordinal": 202,
-      "name": "ldap_cleanup"
-    },
-    {
       "ordinal": 74,
       "name": "ldap_close_extended_op"
-    },
-    {
-      "ordinal": 19,
-      "name": "ldap_compare"
     },
     {
       "ordinal": 75,
@@ -196,8 +276,16 @@
       "name": "ldap_compareW"
     },
     {
+      "ordinal": 77,
+      "name": "ldap_count_values_len"
+    },
+    {
       "ordinal": 78,
       "name": "ldap_compare_ext"
+    },
+    {
+      "ordinal": 79,
+      "name": "ldap_value_free_len"
     },
     {
       "ordinal": 80,
@@ -206,6 +294,10 @@
     {
       "ordinal": 81,
       "name": "ldap_compare_extW"
+    },
+    {
+      "ordinal": 82,
+      "name": "ldap_perror"
     },
     {
       "ordinal": 83,
@@ -220,20 +312,12 @@
       "name": "ldap_compare_ext_sW"
     },
     {
-      "ordinal": 52,
-      "name": "ldap_compare_s"
-    },
-    {
       "ordinal": 86,
       "name": "ldap_compare_sA"
     },
     {
       "ordinal": 87,
       "name": "ldap_compare_sW"
-    },
-    {
-      "ordinal": 312,
-      "name": "ldap_conn_from_msg"
     },
     {
       "ordinal": 88,
@@ -264,16 +348,8 @@
       "name": "ldap_controls_freeW"
     },
     {
-      "ordinal": 36,
-      "name": "ldap_count_entries"
-    },
-    {
       "ordinal": 95,
       "name": "ldap_count_references"
-    },
-    {
-      "ordinal": 37,
-      "name": "ldap_count_values"
     },
     {
       "ordinal": 96,
@@ -282,10 +358,6 @@
     {
       "ordinal": 97,
       "name": "ldap_count_valuesW"
-    },
-    {
-      "ordinal": 77,
-      "name": "ldap_count_values_len"
     },
     {
       "ordinal": 98,
@@ -310,18 +382,6 @@
     {
       "ordinal": 103,
       "name": "ldap_create_sort_controlW"
-    },
-    {
-      "ordinal": 320,
-      "name": "ldap_create_vlv_controlA"
-    },
-    {
-      "ordinal": 319,
-      "name": "ldap_create_vlv_controlW"
-    },
-    {
-      "ordinal": 20,
-      "name": "ldap_delete"
     },
     {
       "ordinal": 104,
@@ -356,24 +416,12 @@
       "name": "ldap_delete_ext_sW"
     },
     {
-      "ordinal": 47,
-      "name": "ldap_delete_s"
-    },
-    {
       "ordinal": 112,
       "name": "ldap_delete_sA"
     },
     {
       "ordinal": 113,
       "name": "ldap_delete_sW"
-    },
-    {
-      "ordinal": 31,
-      "name": "ldap_dn2ufn"
-    },
-    {
-      "ordinal": 232,
-      "name": "ldap_dn2ufnA"
     },
     {
       "ordinal": 114,
@@ -388,10 +436,6 @@
       "name": "ldap_encode_sort_controlW"
     },
     {
-      "ordinal": 22,
-      "name": "ldap_err2string"
-    },
-    {
       "ordinal": 117,
       "name": "ldap_err2stringA"
     },
@@ -400,20 +444,12 @@
       "name": "ldap_err2stringW"
     },
     {
-      "ordinal": 197,
-      "name": "ldap_escape_filter_element"
-    },
-    {
       "ordinal": 119,
       "name": "ldap_escape_filter_elementA"
     },
     {
       "ordinal": 120,
       "name": "ldap_escape_filter_elementW"
-    },
-    {
-      "ordinal": 39,
-      "name": "ldap_explode_dn"
     },
     {
       "ordinal": 121,
@@ -436,28 +472,12 @@
       "name": "ldap_extended_operationW"
     },
     {
-      "ordinal": 333,
-      "name": "ldap_extended_operation_sA"
-    },
-    {
-      "ordinal": 332,
-      "name": "ldap_extended_operation_sW"
-    },
-    {
-      "ordinal": 32,
-      "name": "ldap_first_attribute"
-    },
-    {
       "ordinal": 126,
       "name": "ldap_first_attributeA"
     },
     {
       "ordinal": 127,
       "name": "ldap_first_attributeW"
-    },
-    {
-      "ordinal": 26,
-      "name": "ldap_first_entry"
     },
     {
       "ordinal": 128,
@@ -474,10 +494,6 @@
     {
       "ordinal": 131,
       "name": "ldap_free_controlsW"
-    },
-    {
-      "ordinal": 30,
-      "name": "ldap_get_dn"
     },
     {
       "ordinal": 132,
@@ -504,16 +520,8 @@
       "name": "ldap_get_optionA"
     },
     {
-      "ordinal": 12,
-      "name": "ldap_get_optionW"
-    },
-    {
       "ordinal": 138,
       "name": "ldap_get_paged_count"
-    },
-    {
-      "ordinal": 34,
-      "name": "ldap_get_values"
     },
     {
       "ordinal": 139,
@@ -522,10 +530,6 @@
     {
       "ordinal": 140,
       "name": "ldap_get_valuesW"
-    },
-    {
-      "ordinal": 35,
-      "name": "ldap_get_values_len"
     },
     {
       "ordinal": 141,
@@ -548,20 +552,12 @@
       "name": "ldap_initW"
     },
     {
-      "ordinal": 200,
-      "name": "ldap_memfree"
-    },
-    {
       "ordinal": 146,
       "name": "ldap_memfreeA"
     },
     {
       "ordinal": 147,
       "name": "ldap_memfreeW"
-    },
-    {
-      "ordinal": 23,
-      "name": "ldap_modify"
     },
     {
       "ordinal": 148,
@@ -596,10 +592,6 @@
       "name": "ldap_modify_ext_sW"
     },
     {
-      "ordinal": 48,
-      "name": "ldap_modify_s"
-    },
-    {
       "ordinal": 156,
       "name": "ldap_modify_sA"
     },
@@ -608,24 +600,12 @@
       "name": "ldap_modify_sW"
     },
     {
-      "ordinal": 24,
-      "name": "ldap_modrdn"
-    },
-    {
-      "ordinal": 67,
-      "name": "ldap_modrdn2"
-    },
-    {
       "ordinal": 158,
       "name": "ldap_modrdn2A"
     },
     {
       "ordinal": 159,
       "name": "ldap_modrdn2W"
-    },
-    {
-      "ordinal": 68,
-      "name": "ldap_modrdn2_s"
     },
     {
       "ordinal": 160,
@@ -644,24 +624,12 @@
       "name": "ldap_modrdnW"
     },
     {
-      "ordinal": 49,
-      "name": "ldap_modrdn_s"
-    },
-    {
       "ordinal": 164,
       "name": "ldap_modrdn_sA"
     },
     {
       "ordinal": 165,
       "name": "ldap_modrdn_sW"
-    },
-    {
-      "ordinal": 41,
-      "name": "ldap_msgfree"
-    },
-    {
-      "ordinal": 33,
-      "name": "ldap_next_attribute"
     },
     {
       "ordinal": 166,
@@ -672,16 +640,8 @@
       "name": "ldap_next_attributeW"
     },
     {
-      "ordinal": 27,
-      "name": "ldap_next_entry"
-    },
-    {
       "ordinal": 168,
       "name": "ldap_next_reference"
-    },
-    {
-      "ordinal": 25,
-      "name": "ldap_open"
     },
     {
       "ordinal": 169,
@@ -690,14 +650,6 @@
     {
       "ordinal": 170,
       "name": "ldap_openW"
-    },
-    {
-      "ordinal": 318,
-      "name": "ldap_parse_extended_resultA"
-    },
-    {
-      "ordinal": 317,
-      "name": "ldap_parse_extended_resultW"
     },
     {
       "ordinal": 171,
@@ -748,18 +700,6 @@
       "name": "ldap_parse_sort_controlW"
     },
     {
-      "ordinal": 322,
-      "name": "ldap_parse_vlv_controlA"
-    },
-    {
-      "ordinal": 321,
-      "name": "ldap_parse_vlv_controlW"
-    },
-    {
-      "ordinal": 82,
-      "name": "ldap_perror"
-    },
-    {
       "ordinal": 183,
       "name": "ldap_rename_ext"
     },
@@ -782,34 +722,6 @@
     {
       "ordinal": 188,
       "name": "ldap_rename_ext_sW"
-    },
-    {
-      "ordinal": 40,
-      "name": "ldap_result"
-    },
-    {
-      "ordinal": 21,
-      "name": "ldap_result2error"
-    },
-    {
-      "ordinal": 315,
-      "name": "ldap_sasl_bindA"
-    },
-    {
-      "ordinal": 313,
-      "name": "ldap_sasl_bindW"
-    },
-    {
-      "ordinal": 316,
-      "name": "ldap_sasl_bind_sA"
-    },
-    {
-      "ordinal": 314,
-      "name": "ldap_sasl_bind_sW"
-    },
-    {
-      "ordinal": 43,
-      "name": "ldap_search"
     },
     {
       "ordinal": 189,
@@ -844,6 +756,30 @@
       "name": "ldap_search_ext_sA"
     },
     {
+      "ordinal": 197,
+      "name": "ldap_escape_filter_element"
+    },
+    {
+      "ordinal": 198,
+      "name": "ldap_set_dbg_flags"
+    },
+    {
+      "ordinal": 199,
+      "name": "ldap_set_dbg_routine"
+    },
+    {
+      "ordinal": 200,
+      "name": "ldap_memfree"
+    },
+    {
+      "ordinal": 201,
+      "name": "ldap_startup"
+    },
+    {
+      "ordinal": 202,
+      "name": "ldap_cleanup"
+    },
+    {
       "ordinal": 203,
       "name": "ldap_search_ext_sW"
     },
@@ -860,20 +796,12 @@
       "name": "ldap_search_init_pageW"
     },
     {
-      "ordinal": 50,
-      "name": "ldap_search_s"
-    },
-    {
       "ordinal": 207,
       "name": "ldap_search_sA"
     },
     {
       "ordinal": 208,
       "name": "ldap_search_sW"
-    },
-    {
-      "ordinal": 51,
-      "name": "ldap_search_st"
     },
     {
       "ordinal": 209,
@@ -884,14 +812,6 @@
       "name": "ldap_search_stW"
     },
     {
-      "ordinal": 198,
-      "name": "ldap_set_dbg_flags"
-    },
-    {
-      "ordinal": 199,
-      "name": "ldap_set_dbg_routine"
-    },
-    {
       "ordinal": 211,
       "name": "ldap_set_option"
     },
@@ -900,24 +820,12 @@
       "name": "ldap_set_optionA"
     },
     {
-      "ordinal": 14,
-      "name": "ldap_set_optionW"
-    },
-    {
-      "ordinal": 59,
-      "name": "ldap_simple_bind"
-    },
-    {
       "ordinal": 213,
       "name": "ldap_simple_bindA"
     },
     {
       "ordinal": 214,
       "name": "ldap_simple_bindW"
-    },
-    {
-      "ordinal": 60,
-      "name": "ldap_simple_bind_s"
     },
     {
       "ordinal": 215,
@@ -940,22 +848,6 @@
       "name": "ldap_sslinitW"
     },
     {
-      "ordinal": 330,
-      "name": "ldap_start_tls_sA"
-    },
-    {
-      "ordinal": 329,
-      "name": "ldap_start_tls_sW"
-    },
-    {
-      "ordinal": 201,
-      "name": "ldap_startup"
-    },
-    {
-      "ordinal": 331,
-      "name": "ldap_stop_tls_s"
-    },
-    {
       "ordinal": 220,
       "name": "ldap_ufn2dn"
     },
@@ -968,18 +860,6 @@
       "name": "ldap_ufn2dnW"
     },
     {
-      "ordinal": 13,
-      "name": "ldap_unbind"
-    },
-    {
-      "ordinal": 46,
-      "name": "ldap_unbind_s"
-    },
-    {
-      "ordinal": 38,
-      "name": "ldap_value_free"
-    },
-    {
       "ordinal": 223,
       "name": "ldap_value_freeA"
     },
@@ -988,8 +868,128 @@
       "name": "ldap_value_freeW"
     },
     {
-      "ordinal": 79,
-      "name": "ldap_value_free_len"
+      "ordinal": 230,
+      "name": "ldap_check_filterA"
+    },
+    {
+      "ordinal": 231,
+      "name": "ldap_check_filterW"
+    },
+    {
+      "ordinal": 232,
+      "name": "ldap_dn2ufnA"
+    },
+    {
+      "ordinal": 300,
+      "name": "ber_init"
+    },
+    {
+      "ordinal": 301,
+      "name": "ber_free"
+    },
+    {
+      "ordinal": 302,
+      "name": "ber_bvecfree"
+    },
+    {
+      "ordinal": 303,
+      "name": "ber_bvdup"
+    },
+    {
+      "ordinal": 304,
+      "name": "ber_alloc_t"
+    },
+    {
+      "ordinal": 305,
+      "name": "ber_skip_tag"
+    },
+    {
+      "ordinal": 306,
+      "name": "ber_peek_tag"
+    },
+    {
+      "ordinal": 307,
+      "name": "ber_first_element"
+    },
+    {
+      "ordinal": 308,
+      "name": "ber_next_element"
+    },
+    {
+      "ordinal": 309,
+      "name": "ber_flatten"
+    },
+    {
+      "ordinal": 310,
+      "name": "ber_printf"
+    },
+    {
+      "ordinal": 311,
+      "name": "ber_scanf"
+    },
+    {
+      "ordinal": 312,
+      "name": "ldap_conn_from_msg"
+    },
+    {
+      "ordinal": 313,
+      "name": "ldap_sasl_bindW"
+    },
+    {
+      "ordinal": 314,
+      "name": "ldap_sasl_bind_sW"
+    },
+    {
+      "ordinal": 315,
+      "name": "ldap_sasl_bindA"
+    },
+    {
+      "ordinal": 316,
+      "name": "ldap_sasl_bind_sA"
+    },
+    {
+      "ordinal": 317,
+      "name": "ldap_parse_extended_resultW"
+    },
+    {
+      "ordinal": 318,
+      "name": "ldap_parse_extended_resultA"
+    },
+    {
+      "ordinal": 319,
+      "name": "ldap_create_vlv_controlW"
+    },
+    {
+      "ordinal": 320,
+      "name": "ldap_create_vlv_controlA"
+    },
+    {
+      "ordinal": 321,
+      "name": "ldap_parse_vlv_controlW"
+    },
+    {
+      "ordinal": 322,
+      "name": "ldap_parse_vlv_controlA"
+    },
+    {
+      "ordinal": 329,
+      "name": "ldap_start_tls_sW"
+    },
+    {
+      "ordinal": 330,
+      "name": "ldap_start_tls_sA"
+    },
+    {
+      "ordinal": 331,
+      "name": "ldap_stop_tls_s"
+    },
+    {
+      "ordinal": 332,
+      "name": "ldap_extended_operation_sW"
+    },
+    {
+      "ordinal": 333,
+      "name": "ldap_extended_operation_sA"
     }
   ]
 }

@@ -12,6 +12,10 @@
   "Machine": "I386",
   "exports": [
     {
+      "ordinal": 1,
+      "name": "RemoveRelocations"
+    },
+    {
       "ordinal": 2,
       "name": "BindImage"
     },
@@ -24,12 +28,12 @@
       "name": "CheckSumMappedFile"
     },
     {
-      "ordinal": 6,
-      "name": "EnumerateLoadedModules"
-    },
-    {
       "ordinal": 5,
       "name": "EnumerateLoadedModules64"
+    },
+    {
+      "ordinal": 6,
+      "name": "EnumerateLoadedModules"
     },
     {
       "ordinal": 7,
@@ -152,12 +156,12 @@
       "name": "MapFileAndCheckSumW"
     },
     {
-      "ordinal": 38,
-      "name": "ReBaseImage"
-    },
-    {
       "ordinal": 37,
       "name": "ReBaseImage64"
+    },
+    {
+      "ordinal": 38,
+      "name": "ReBaseImage"
     },
     {
       "ordinal": 39,
@@ -166,10 +170,6 @@
     {
       "ordinal": 40,
       "name": "RemovePrivateCvSymbolicEx"
-    },
-    {
-      "ordinal": 1,
-      "name": "RemoveRelocations"
     },
     {
       "ordinal": 41,
@@ -184,12 +184,12 @@
       "name": "SplitSymbols"
     },
     {
-      "ordinal": 45,
-      "name": "StackWalk"
-    },
-    {
       "ordinal": 44,
       "name": "StackWalk64"
+    },
+    {
+      "ordinal": 45,
+      "name": "StackWalk"
     },
     {
       "ordinal": 46,
@@ -216,28 +216,28 @@
       "name": "SymEnumTypesW"
     },
     {
-      "ordinal": 53,
-      "name": "SymEnumerateModules"
-    },
-    {
       "ordinal": 52,
       "name": "SymEnumerateModules64"
     },
     {
-      "ordinal": 55,
-      "name": "SymEnumerateSymbols"
+      "ordinal": 53,
+      "name": "SymEnumerateModules"
     },
     {
       "ordinal": 54,
       "name": "SymEnumerateSymbols64"
     },
     {
-      "ordinal": 57,
-      "name": "SymEnumerateSymbolsW"
+      "ordinal": 55,
+      "name": "SymEnumerateSymbols"
     },
     {
       "ordinal": 56,
       "name": "SymEnumerateSymbolsW64"
+    },
+    {
+      "ordinal": 57,
+      "name": "SymEnumerateSymbolsW"
     },
     {
       "ordinal": 58,
@@ -256,68 +256,68 @@
       "name": "SymFromName"
     },
     {
-      "ordinal": 63,
-      "name": "SymFunctionTableAccess"
-    },
-    {
       "ordinal": 62,
       "name": "SymFunctionTableAccess64"
     },
     {
-      "ordinal": 65,
-      "name": "SymGetLineFromAddr"
+      "ordinal": 63,
+      "name": "SymFunctionTableAccess"
     },
     {
       "ordinal": 64,
       "name": "SymGetLineFromAddr64"
     },
     {
-      "ordinal": 67,
-      "name": "SymGetLineFromName"
+      "ordinal": 65,
+      "name": "SymGetLineFromAddr"
     },
     {
       "ordinal": 66,
       "name": "SymGetLineFromName64"
     },
     {
-      "ordinal": 69,
-      "name": "SymGetLineNext"
+      "ordinal": 67,
+      "name": "SymGetLineFromName"
     },
     {
       "ordinal": 68,
       "name": "SymGetLineNext64"
     },
     {
-      "ordinal": 71,
-      "name": "SymGetLinePrev"
+      "ordinal": 69,
+      "name": "SymGetLineNext"
     },
     {
       "ordinal": 70,
       "name": "SymGetLinePrev64"
     },
     {
-      "ordinal": 73,
-      "name": "SymGetModuleBase"
+      "ordinal": 71,
+      "name": "SymGetLinePrev"
     },
     {
       "ordinal": 72,
       "name": "SymGetModuleBase64"
     },
     {
-      "ordinal": 75,
-      "name": "SymGetModuleInfo"
+      "ordinal": 73,
+      "name": "SymGetModuleBase"
     },
     {
       "ordinal": 74,
       "name": "SymGetModuleInfo64"
     },
     {
-      "ordinal": 77,
-      "name": "SymGetModuleInfoW"
+      "ordinal": 75,
+      "name": "SymGetModuleInfo"
     },
     {
       "ordinal": 76,
       "name": "SymGetModuleInfoW64"
+    },
+    {
+      "ordinal": 77,
+      "name": "SymGetModuleInfoW"
     },
     {
       "ordinal": 78,
@@ -340,36 +340,36 @@
       "name": "SymGetSourceVarFromTokenW"
     },
     {
-      "ordinal": 84,
-      "name": "SymGetSymFromAddr"
-    },
-    {
       "ordinal": 83,
       "name": "SymGetSymFromAddr64"
     },
     {
-      "ordinal": 86,
-      "name": "SymGetSymFromName"
+      "ordinal": 84,
+      "name": "SymGetSymFromAddr"
     },
     {
       "ordinal": 85,
       "name": "SymGetSymFromName64"
     },
     {
-      "ordinal": 88,
-      "name": "SymGetSymNext"
+      "ordinal": 86,
+      "name": "SymGetSymFromName"
     },
     {
       "ordinal": 87,
       "name": "SymGetSymNext64"
     },
     {
-      "ordinal": 90,
-      "name": "SymGetSymPrev"
+      "ordinal": 88,
+      "name": "SymGetSymNext"
     },
     {
       "ordinal": 89,
       "name": "SymGetSymPrev64"
+    },
+    {
+      "ordinal": 90,
+      "name": "SymGetSymPrev"
     },
     {
       "ordinal": 91,
@@ -400,12 +400,12 @@
       "name": "SymInitialize"
     },
     {
-      "ordinal": 99,
-      "name": "SymLoadModule"
-    },
-    {
       "ordinal": 98,
       "name": "SymLoadModule64"
+    },
+    {
+      "ordinal": 99,
+      "name": "SymLoadModule"
     },
     {
       "ordinal": 100,
@@ -428,20 +428,20 @@
       "name": "SymMatchStringW"
     },
     {
-      "ordinal": 106,
-      "name": "SymRegisterCallback"
-    },
-    {
       "ordinal": 105,
       "name": "SymRegisterCallback64"
     },
     {
-      "ordinal": 108,
-      "name": "SymRegisterFunctionEntryCallback"
+      "ordinal": 106,
+      "name": "SymRegisterCallback"
     },
     {
       "ordinal": 107,
       "name": "SymRegisterFunctionEntryCallback64"
+    },
+    {
+      "ordinal": 108,
+      "name": "SymRegisterFunctionEntryCallback"
     },
     {
       "ordinal": 109,
@@ -472,20 +472,20 @@
       "name": "SymSrvGetFileIndexesW"
     },
     {
-      "ordinal": 117,
-      "name": "SymUnDName"
-    },
-    {
       "ordinal": 116,
       "name": "SymUnDName64"
     },
     {
-      "ordinal": 119,
-      "name": "SymUnloadModule"
+      "ordinal": 117,
+      "name": "SymUnDName"
     },
     {
       "ordinal": 118,
       "name": "SymUnloadModule64"
+    },
+    {
+      "ordinal": 119,
+      "name": "SymUnloadModule"
     },
     {
       "ordinal": 120,

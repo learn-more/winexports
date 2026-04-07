@@ -12,6 +12,14 @@
   "Machine": "AMD64",
   "exports": [
     {
+      "ordinal": 1000,
+      "name": null
+    },
+    {
+      "ordinal": 1001,
+      "name": "I_ScGetCurrentGroupStateW"
+    },
+    {
       "ordinal": 1002,
       "name": "A_SHAFinal",
       "forwarder": "NTDLL.A_SHAFinal"
@@ -1469,10 +1477,6 @@
       "ordinal": 1361,
       "name": "I_QueryTagInformation",
       "forwarder": "api-ms-win-service-winsvc-l1-1-0.I_QueryTagInformation"
-    },
-    {
-      "ordinal": 1001,
-      "name": "I_ScGetCurrentGroupStateW"
     },
     {
       "ordinal": 1362,
@@ -3284,10 +3288,6 @@
     {
       "ordinal": 1805,
       "name": "WriteEncryptedFileRaw"
-    },
-    {
-      "ordinal": 1000,
-      "name": null
     }
   ]
 }

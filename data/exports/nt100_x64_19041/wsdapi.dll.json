@@ -12,8 +12,32 @@
   "Machine": "AMD64",
   "exports": [
     {
+      "ordinal": 100,
+      "name": null
+    },
+    {
       "ordinal": 101,
       "name": "WSDAddFirewallCheck"
+    },
+    {
+      "ordinal": 102,
+      "name": "WSDCancelNetworkChangeNotify"
+    },
+    {
+      "ordinal": 103,
+      "name": "WSDCopyNameList"
+    },
+    {
+      "ordinal": 104,
+      "name": "WSDNotifyNetworkChange"
+    },
+    {
+      "ordinal": 105,
+      "name": "WSDRemoveFirewallCheck"
+    },
+    {
+      "ordinal": 106,
+      "name": "WSDXMLCompareNames"
     },
     {
       "ordinal": 107,
@@ -24,20 +48,12 @@
       "name": "WSDAttachLinkedMemory"
     },
     {
-      "ordinal": 102,
-      "name": "WSDCancelNetworkChangeNotify"
-    },
-    {
       "ordinal": 109,
       "name": "WSDCompareEndpoints"
     },
     {
       "ordinal": 110,
       "name": "WSDCopyEndpoint"
-    },
-    {
-      "ordinal": 103,
-      "name": "WSDCopyNameList"
     },
     {
       "ordinal": 111,
@@ -136,16 +152,8 @@
       "name": "WSDGetConfigurationOption"
     },
     {
-      "ordinal": 104,
-      "name": "WSDNotifyNetworkChange"
-    },
-    {
       "ordinal": 135,
       "name": "WSDProcessFault"
-    },
-    {
-      "ordinal": 105,
-      "name": "WSDRemoveFirewallCheck"
     },
     {
       "ordinal": 136,
@@ -176,10 +184,6 @@
       "name": "WSDXMLCleanupElement"
     },
     {
-      "ordinal": 106,
-      "name": "WSDXMLCompareNames"
-    },
-    {
       "ordinal": 143,
       "name": "WSDXMLCreateContext"
     },
@@ -190,10 +194,6 @@
     {
       "ordinal": 145,
       "name": "WSDXMLGetValueFromAny"
-    },
-    {
-      "ordinal": 100,
-      "name": null
     }
   ]
 }

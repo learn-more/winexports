@@ -12,6 +12,14 @@
   "Machine": "I386",
   "exports": [
     {
+      "ordinal": 1,
+      "name": "SecDeleteUserModeContext"
+    },
+    {
+      "ordinal": 2,
+      "name": "SecInitUserModeContext"
+    },
+    {
       "ordinal": 3,
       "name": "AcceptSecurityContext"
     },
@@ -274,14 +282,6 @@
     {
       "ordinal": 68,
       "name": "SecCacheSspiPackages"
-    },
-    {
-      "ordinal": 1,
-      "name": "SecDeleteUserModeContext"
-    },
-    {
-      "ordinal": 2,
-      "name": "SecInitUserModeContext"
     },
     {
       "ordinal": 69,

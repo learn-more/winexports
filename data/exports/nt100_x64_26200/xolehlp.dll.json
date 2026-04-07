@@ -12,16 +12,28 @@
   "Machine": "AMD64",
   "exports": [
     {
+      "ordinal": 4,
+      "name": "GetDtcLocaleResourceHandle"
+    },
+    {
       "ordinal": 5,
       "name": "DtcGetTransactionManager"
+    },
+    {
+      "ordinal": 6,
+      "name": "DtcGetTransactionManagerEx"
     },
     {
       "ordinal": 7,
       "name": "DtcGetTransactionManagerC"
     },
     {
-      "ordinal": 6,
-      "name": "DtcGetTransactionManagerEx"
+      "ordinal": 8,
+      "name": "FreezeLocalTransactionManagers"
+    },
+    {
+      "ordinal": 9,
+      "name": "ThawLocalTransactionManagers"
     },
     {
       "ordinal": 10,
@@ -30,18 +42,6 @@
     {
       "ordinal": 11,
       "name": "DtcGetTransactionManagerExW"
-    },
-    {
-      "ordinal": 8,
-      "name": "FreezeLocalTransactionManagers"
-    },
-    {
-      "ordinal": 4,
-      "name": "GetDtcLocaleResourceHandle"
-    },
-    {
-      "ordinal": 9,
-      "name": "ThawLocalTransactionManagers"
     }
   ]
 }

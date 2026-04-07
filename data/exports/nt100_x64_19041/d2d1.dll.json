@@ -12,8 +12,24 @@
   "Machine": "AMD64",
   "exports": [
     {
-      "ordinal": 12,
-      "name": "D2D1ComputeMaximumScaleFactor"
+      "ordinal": 1,
+      "name": "D2D1CreateFactory"
+    },
+    {
+      "ordinal": 2,
+      "name": "D2D1MakeRotateMatrix"
+    },
+    {
+      "ordinal": 3,
+      "name": "D2D1MakeSkewMatrix"
+    },
+    {
+      "ordinal": 4,
+      "name": "D2D1IsMatrixInvertible"
+    },
+    {
+      "ordinal": 5,
+      "name": "D2D1InvertMatrix"
     },
     {
       "ordinal": 6,
@@ -28,30 +44,6 @@
       "name": "D2D1CreateDeviceContext"
     },
     {
-      "ordinal": 1,
-      "name": "D2D1CreateFactory"
-    },
-    {
-      "ordinal": 13,
-      "name": "D2D1GetGradientMeshInteriorPointsFromCoonsPatch"
-    },
-    {
-      "ordinal": 5,
-      "name": "D2D1InvertMatrix"
-    },
-    {
-      "ordinal": 4,
-      "name": "D2D1IsMatrixInvertible"
-    },
-    {
-      "ordinal": 2,
-      "name": "D2D1MakeRotateMatrix"
-    },
-    {
-      "ordinal": 3,
-      "name": "D2D1MakeSkewMatrix"
-    },
-    {
       "ordinal": 9,
       "name": "D2D1SinCos"
     },
@@ -62,6 +54,14 @@
     {
       "ordinal": 11,
       "name": "D2D1Vec3Length"
+    },
+    {
+      "ordinal": 12,
+      "name": "D2D1ComputeMaximumScaleFactor"
+    },
+    {
+      "ordinal": 13,
+      "name": "D2D1GetGradientMeshInteriorPointsFromCoonsPatch"
     }
   ]
 }

@@ -12,6 +12,18 @@
   "Machine": "AMD64",
   "exports": [
     {
+      "ordinal": 1,
+      "name": "CloseLsaPerformanceData"
+    },
+    {
+      "ordinal": 2,
+      "name": "CollectLsaPerformanceData"
+    },
+    {
+      "ordinal": 3,
+      "name": "OpenLsaPerformanceData"
+    },
+    {
       "ordinal": 4,
       "name": "AcceptSecurityContext",
       "forwarder": "SSPICLI.AcceptSecurityContext"
@@ -60,14 +72,6 @@
       "ordinal": 13,
       "name": "ChangeAccountPasswordW",
       "forwarder": "SSPICLI.ChangeAccountPasswordW"
-    },
-    {
-      "ordinal": 1,
-      "name": "CloseLsaPerformanceData"
-    },
-    {
-      "ordinal": 2,
-      "name": "CollectLsaPerformanceData"
     },
     {
       "ordinal": 14,
@@ -251,10 +255,6 @@
       "ordinal": 50,
       "name": "MakeSignature",
       "forwarder": "SSPICLI.MakeSignature"
-    },
-    {
-      "ordinal": 3,
-      "name": "OpenLsaPerformanceData"
     },
     {
       "ordinal": 51,
