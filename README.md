@@ -1,4 +1,4 @@
-# winexports
+# WinExports
 
 Static Hugo documentation site for Windows DLL exports across multiple Windows versions.
 
@@ -23,16 +23,24 @@ Features:
 
 ## Local workflow
 
-### 1. Extract exports from a Windows installation
+### 1. Extract DLLs from Windows ISO files
+
+Configure `ISO_DIR`, `OUTPUT_DIR`, and `SEVENZIP` at the top of the script, then:
 
 ```
-python scripts\dump_exports.py input_dir data\exports\nt61_x86 include_files.txt
+uv run scripts\01-extract_dlls.py [--force]
 ```
 
-### 2. Generate Hugo content from the JSON data
+### 2. Dump exports from the extracted DLLs
 
 ```
-python scripts\generate_hugo_content.py
+uv run scripts\02-dump_exports.py <input_directory>
+```
+
+### 3. Generate Hugo content from the JSON data
+
+```
+uv run scripts\03-generate_hugo_content.py
 ```
 
 This regenerates the following (all gitignored — do not edit by hand):
