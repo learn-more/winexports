@@ -27,7 +27,7 @@
 
 {{ range $version, $vdata := .versions }}
   {{ range $vdata.exports }}
-    {{ $key := .name | default (printf "#%d" (int .ordinal)) }}
+    {{ $key := .name | default (printf "~%09d" (int .ordinal)) }}
     {{ $all_names = $all_names | append $key }}
     {{ $lookup.Set (printf "%s|%s" $version $key) . }}
   {{ end }}
@@ -80,12 +80,7 @@
   {{ range $all_names }}
   {{ $fname := . }}
   <tr>
-    {{ if strings.HasPrefix $fname "#" }}
-    {{ $ord := int (strings.TrimPrefix "#" $fname) }}
-    <td data-order="{{ printf "~%06d" $ord }}"><em>{{ $fname }}</em></td>
-    {{ else }}
     <td>{{ $fname }}</td>
-    {{ end }}
     {{ range $present }}
     {{ $exp := $lookup.Get (printf "%s|%s" . $fname) }}
     {{ if $exp }}
@@ -114,7 +109,19 @@ new DataTable('#dllexports', {
   order: [[0, 'asc']],
   columnDefs: [
     { targets: '_all', searchable: false, type: 'num' },
-    { targets: 0, searchable: true, type: 'string' }
+    {
+      targets: 0,
+      searchable: true,
+      type: 'string',
+      render: function(data, type, row) {
+        if (/^~\d+$/.test(data)) {
+          var n = parseInt(data.slice(1), 10);
+          if (type === 'display') return '<em>#' + n + '</em>';
+          if (type === 'filter') return '#' + n;
+        }
+        return data;
+      }
+    }
   ]
 });
 </script>
