@@ -80,12 +80,17 @@
   {{ range $all_names }}
   {{ $fname := . }}
   <tr>
+    {{ if strings.HasPrefix $fname "#" }}
+    {{ $ord := int (strings.TrimPrefix "#" $fname) }}
+    <td data-order="{{ printf "~%06d" $ord }}"><em>{{ $fname }}</em></td>
+    {{ else }}
     <td>{{ $fname }}</td>
+    {{ end }}
     {{ range $present }}
     {{ $exp := $lookup.Get (printf "%s|%s" . $fname) }}
     {{ if $exp }}
       {{ if $exp.forwarder }}
-      <td class="fwd" title="{{ $exp.forwarder }}">&rarr;&nbsp;{{ $exp.ordinal }}</td>
+      <td class="fwd" data-order="{{ $exp.ordinal }}" title="{{ $exp.forwarder }}">&rarr;&nbsp;{{ $exp.ordinal }}</td>
       {{ else }}
       <td>{{ $exp.ordinal }}</td>
       {{ end }}
@@ -108,8 +113,8 @@ new DataTable('#dllexports', {
   paging: false,
   order: [[0, 'asc']],
   columnDefs: [
-    { targets: 0, searchable: true },
-    { targets: '_all', searchable: false }
+    { targets: '_all', searchable: false, type: 'num' },
+    { targets: 0, searchable: true, type: 'string' }
   ]
 });
 </script>
