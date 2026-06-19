@@ -27,10 +27,9 @@
 
 {{ range $version, $vdata := .versions }}
   {{ range $vdata.exports }}
-    {{ if .name }}
-      {{ $all_names = $all_names | append .name }}
-      {{ $lookup.Set (printf "%s|%s" $version .name) . }}
-    {{ end }}
+    {{ $key := .name | default (printf "#%d" (int .ordinal)) }}
+    {{ $all_names = $all_names | append $key }}
+    {{ $lookup.Set (printf "%s|%s" $version $key) . }}
   {{ end }}
 {{ end }}
 
